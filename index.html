@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<title>物件ナビ</title>
+<style>
+:root{
+  --green:#1e4634;      /* 深緑:ヘッダー・主要ボタン */
+  --green-soft:#2c6049;
+  --ecru:#f3efe4;       /* 生成り:背景 */
+  --paper:#fffdf7;      /* カード地 */
+  --ink:#26241d;        /* 本文 */
+  --sub:#7a7466;        /* 補助テキスト */
+  --line:#e0d9c7;       /* 罫線 */
+  --orange:#d8731f;     /* オレンジ:候補★・強調 */
+  --orange-bg:#fbe9d4;
+  --red:#c0392b;
+  --blue:#2563a8;
+  --radius:12px;
+  --shadow:0 1px 3px rgba(38,36,29,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{font-size:16px}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
+  background:var(--ecru);color:var(--ink);line-height:1.55;
+  padding-bottom:90px;
+}
+button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
+input,select,textarea{font:inherit;color:inherit}
+img{display:block;max-width:100%}
+a{color:var(--blue)}
+
+/* ---------- ヘッダー ---------- */
+header{
+  position:sticky;top:0;z-index:50;
+  background:var(--green);color:#f6f2e6;
+  padding:10px 14px calc(10px);
+  display:flex;align-items:baseline;gap:8px;
+  box-shadow:0 1px 4px rgba(0,0,0,.25);
+}
+header h1{font-size:1.15rem;font-weight:700;letter-spacing:.05em}
+header .ver{font-size:.7rem;opacity:.75}
+header .hd-note{margin-left:auto;font-size:.7rem;opacity:.8}
+
+/* ---------- タブ ---------- */
+#tabs{
+  display:flex;gap:6px;overflow-x:auto;padding:10px 12px 6px;
+  scrollbar-width:none;background:var(--ecru);
+  position:sticky;top:44px;z-index:40;
+}
+#tabs::-webkit-scrollbar{display:none}
+.tab{
+  flex:0 0 auto;padding:7px 13px;border-radius:999px;
+  background:var(--paper);border:1px solid var(--line);
+  font-size:.85rem;white-space:nowrap;color:var(--sub);
+}
+.tab .cnt{font-size:.75rem;margin-left:2px}
+.tab.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
+
+/* ---------- 検索・並び替え ---------- */
+.toolbar{padding:4px 12px 0}
+#q{
+  width:100%;padding:10px 14px;border:1px solid var(--line);
+  border-radius:var(--radius);background:var(--paper);font-size:.95rem;
+}
+#q::placeholder{color:#b3ab99}
+.sortrow{display:flex;align-items:center;gap:8px;margin-top:8px}
+#sort{
+  padding:7px 10px;border:1px solid var(--line);border-radius:8px;
+  background:var(--paper);font-size:.82rem;max-width:60%;
+}
+#hitCount{font-size:.8rem;color:var(--sub);margin-left:auto}
+
+/* ---------- タグ ---------- */
+#tagRow{
+  display:flex;gap:6px;overflow-x:auto;padding:10px 12px;
+  scrollbar-width:none;
+}
+#tagRow::-webkit-scrollbar{display:none}
+.tag{
+  flex:0 0 auto;padding:5px 12px;border-radius:999px;
+  border:1px solid var(--line);background:var(--paper);
+  font-size:.8rem;color:var(--sub);
+}
+.tag.on{background:var(--orange-bg);border-color:var(--orange);color:var(--orange);font-weight:600}
+
+/* ---------- 物件カード ---------- */
+#list{padding:2px 12px 12px;display:flex;flex-direction:column;gap:10px}
+.card{
+  background:var(--paper);border-radius:var(--radius);box-shadow:var(--shadow);
+  display:flex;overflow:hidden;border:1px solid var(--line);
+}
+.card.ended{background:#e9e6dd;opacity:.85}
+.card .thumb{
+  flex:0 0 108px;height:108px;background:#e6e0d0;
+  display:flex;align-items:center;justify-content:center;
+  color:#b3ab99;font-size:.72rem;
+}
+.card .thumb img{width:100%;height:100%;object-fit:cover}
+.card .body{flex:1;padding:8px 10px;min-width:0;position:relative}
+.card .name{font-weight:700;font-size:.92rem;padding-right:34px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .price{color:var(--green);font-weight:700;font-size:1.02rem;margin-top:1px}
+.card .price.na{color:var(--sub);font-weight:400;font-size:.85rem}
+.card .addr{font-size:.75rem;color:var(--sub);margin-top:1px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.card .tags span{
+  font-size:.68rem;padding:1px 7px;border-radius:999px;
+  background:var(--ecru);border:1px solid var(--line);color:var(--sub);
+}
+.card .tags span.src{background:var(--green);color:#f6f2e6;border-color:var(--green)}
+.card .tags span.new{background:var(--orange-bg);color:var(--orange);border-color:var(--orange)}
+.starBtn{
+  position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;
+  padding:4px;line-height:1;
+}
+.starBtn.on{color:var(--orange)}
+.empty{
+  text-align:center;color:var(--sub);padding:48px 20px;font-size:.9rem;
+}
+.empty .big{font-size:2rem;margin-bottom:8px}
+
+/* ---------- 詳細画面 ---------- */
+.page{display:none}
+.page.on{display:block}
+.subhead{
+  position:sticky;top:0;z-index:50;background:var(--green);color:#f6f2e6;
+  display:flex;align-items:center;gap:8px;padding:10px 12px;
+  box-shadow:0 1px 4px rgba(0,0,0,.25);
+}
+.subhead .back{font-size:1.1rem;padding:2px 8px 2px 0}
+.subhead .ttl{font-weight:700;font-size:1rem;flex:1;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.subhead .act{font-size:.85rem;padding:6px 12px;border-radius:8px;
+  background:rgba(255,255,255,.16);}
+#dPhotos{display:flex;gap:8px;overflow-x:auto;padding:12px;scrollbar-width:none}
+#dPhotos::-webkit-scrollbar{display:none}
+#dPhotos img{height:190px;border-radius:10px;flex:0 0 auto;max-width:88vw;object-fit:cover}
+#dPhotos .noPhoto{
+  height:150px;width:100%;border-radius:10px;background:#e6e0d0;
+  display:flex;align-items:center;justify-content:center;color:#b3ab99;font-size:.85rem;
+}
+.dwrap{padding:0 12px 24px;display:flex;flex-direction:column;gap:12px}
+.dbox{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.dbox h3{font-size:.78rem;color:var(--sub);font-weight:600;margin-bottom:6px;letter-spacing:.06em}
+#dName{font-size:1.15rem;font-weight:700}
+#dPrice{color:var(--green);font-weight:700;font-size:1.5rem;margin-top:2px}
+#dAddr{font-size:.85rem;color:var(--sub);margin-top:2px}
+.badge-edited{
+  display:inline-block;font-size:.72rem;color:var(--blue);
+  border:1px solid var(--blue);border-radius:999px;padding:1px 9px;margin-top:6px;
+}
+.dtags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.dtags span{font-size:.72rem;padding:2px 9px;border-radius:999px;
+  background:var(--ecru);border:1px solid var(--line);color:var(--sub)}
+.kv{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+.kv:last-child{border-bottom:none}
+.kv .k{color:var(--sub)}
+.kv .v{font-weight:600;text-align:right}
+.kv .v .yotei{color:var(--orange);font-size:.8rem;font-weight:700}
+.btn{
+  display:block;width:100%;text-align:center;padding:12px;
+  border-radius:var(--radius);font-weight:600;font-size:.95rem;text-decoration:none;
+}
+.btn-green{background:var(--green);color:#f6f2e6}
+.btn-line{background:var(--paper);border:1.5px solid var(--green);color:var(--green)}
+.mapnote{font-size:.72rem;color:var(--sub);margin-top:8px}
+.school{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+.school:last-child{border-bottom:none}
+.school .min{color:var(--green);font-weight:700;white-space:nowrap;margin-left:8px}
+.fac{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.88rem}
+.fac:last-child{border-bottom:none}
+.fac .ico{flex:0 0 auto}
+.fac .min{margin-left:auto;color:var(--green);font-weight:700;white-space:nowrap}
+.freeTxt{white-space:pre-wrap;font-size:.9rem}
+.mut{color:var(--sub);font-size:.85rem}
+#dStar{font-size:.95rem;width:100%;padding:11px;border-radius:var(--radius);
+  border:1.5px solid var(--orange);color:var(--orange);font-weight:700;background:var(--paper)}
+#dStar.on{background:var(--orange);color:#fff}
+#resetEditBtn{color:var(--blue);font-size:.8rem;text-decoration:underline;margin-top:6px}
+
+/* ---------- フォーム ---------- */
+.fwrap{padding:12px;display:flex;flex-direction:column;gap:14px}
+.fgrp{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.fgrp h3{font-size:.78rem;color:var(--sub);font-weight:600;margin-bottom:8px;letter-spacing:.06em}
+.frow{margin-bottom:10px}
+.frow:last-child{margin-bottom:0}
+.frow label{display:block;font-size:.8rem;color:var(--sub);margin-bottom:3px}
+.frow label .req{color:var(--red);font-size:.75rem;margin-left:4px}
+.frow input[type=text],.frow input[type=month],.frow input[type=number],
+.frow select,.frow textarea{
+  width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;
+  background:#fff;font-size:.95rem;
+}
+.frow textarea{min-height:76px;resize:vertical}
+.frow .hint{font-size:.72rem;color:#b3ab99;margin-top:3px}
+.frow .pair{display:flex;gap:8px}
+.frow .pair input:first-child{flex:2}
+.frow .pair input:last-child{flex:1}
+#deleteRow{display:flex;justify-content:flex-end;padding:0 2px}
+#deleteBtn{color:var(--red);font-size:.85rem;font-weight:600;
+  border:1px solid var(--red);border-radius:8px;padding:7px 14px;background:var(--paper)}
+.fsave{position:sticky;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+  background:linear-gradient(transparent,var(--ecru) 30%)}
+
+/* ---------- 登録FAB ---------- */
+#fab{
+  position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:60;
+  background:var(--orange);color:#fff;font-weight:700;font-size:.95rem;
+  padding:14px 20px;border-radius:999px;box-shadow:0 3px 10px rgba(38,36,29,.35);
+}
+
+/* ---------- モーダル ---------- */
+#modalBg{
+  display:none;position:fixed;inset:0;background:rgba(30,40,35,.55);z-index:100;
+  align-items:center;justify-content:center;padding:24px;
+}
+#modalBg.on{display:flex}
+#modalBox{
+  background:var(--paper);border-radius:14px;max-width:420px;width:100%;
+  padding:18px 16px;max-height:80vh;overflow-y:auto;
+}
+#modalBox h2{font-size:1rem;margin-bottom:10px}
+#modalBox .mtxt{font-size:.9rem;white-space:pre-wrap;margin-bottom:16px}
+#modalBox .mbtns{display:flex;gap:8px;justify-content:flex-end}
+#modalBox .mbtns button{padding:9px 18px;border-radius:8px;font-size:.9rem;font-weight:600}
+.mb-cancel{background:var(--ecru);color:var(--sub)}
+.mb-ok{background:var(--green);color:#f6f2e6}
+.mb-danger{background:var(--red);color:#fff}
+
+/* トースト */
+#toast{
+  position:fixed;left:50%;transform:translateX(-50%);
+  bottom:calc(84px + env(safe-area-inset-bottom));z-index:120;
+  background:var(--ink);color:#f6f2e6;font-size:.85rem;
+  padding:10px 18px;border-radius:999px;opacity:0;transition:opacity .25s;
+  pointer-events:none;max-width:88vw;text-align:center;
+}
+#toast.on{opacity:.95}
+</style>
+</head>
+<body>
+
+<!-- ============ 一覧画面 ============ -->
+<div id="pageList" class="page on">
+  <header>
+    <h1>物件ナビ</h1><span class="ver">v0.1</span>
+    <span class="hd-note" id="totalNote"></span>
+  </header>
+
+  <nav id="tabs"></nav>
+
+  <div class="toolbar">
+    <input id="q" type="text" placeholder="🔍 物件名・学校・施設・タグで検索" autocomplete="off">
+    <div class="sortrow">
+      <select id="sort">
+        <option value="created-desc">登録が新しい順</option>
+        <option value="created-asc">登録が古い順</option>
+        <option value="price-asc">価格が安い順</option>
+        <option value="price-desc">価格が高い順</option>
+        <option value="built-desc">築年が新しい順</option>
+        <option value="built-asc">築年が古い順</option>
+        <option value="barea-desc">建物面積が広い順</option>
+        <option value="barea-asc">建物面積が狭い順</option>
+        <option value="larea-desc">土地面積が広い順</option>
+        <option value="larea-asc">土地面積が狭い順</option>
+        <option value="name-asc">名前順(あ→ん)</option>
+        <option value="name-desc">名前順(ん→あ)</option>
+      </select>
+      <span id="hitCount"></span>
+    </div>
+  </div>
+
+  <div id="tagRow"></div>
+  <div id="list"></div>
+
+  <button id="fab">＋ 物件を登録</button>
+</div>
+
+<!-- ============ 詳細画面 ============ -->
+<div id="pageDetail" class="page">
+  <div class="subhead">
+    <button class="back" onclick="history.back()">←</button>
+    <span class="ttl" id="dTitle"></span>
+    <button class="act" id="editBtn">✎ 編集</button>
+  </div>
+  <div id="dPhotos"></div>
+  <div class="dwrap">
+    <div class="dbox">
+      <div id="dName"></div>
+      <div id="dPrice"></div>
+      <div id="dAddr"></div>
+      <div id="dEditedBadge"></div>
+      <div class="dtags" id="dTags"></div>
+    </div>
+    <button id="dStar"></button>
+    <div class="dbox">
+      <h3>建物情報</h3>
+      <div id="dBuilding"></div>
+    </div>
+    <div class="dbox" id="dMapBox">
+      <a class="btn btn-green" id="dMapLink" target="_blank" rel="noopener">📍 Google Mapで開く</a>
+      <div class="mapnote">※ 位置は住所から自動設定しているため、実際の場所とずれる場合があります。正確な所在地はHPの物件ページでご確認ください。</div>
+    </div>
+    <div class="dbox" id="dHpBox">
+      <a class="btn btn-line" id="dHpLink" target="_blank" rel="noopener">🏠 HPの物件ページを開く</a>
+    </div>
+    <div class="dbox" id="dSchoolBox">
+      <h3>学校区</h3>
+      <div id="dSchools"></div>
+    </div>
+    <div class="dbox" id="dFacBox">
+      <h3>周辺施設</h3>
+      <div id="dFacs"></div>
+    </div>
+    <div class="dbox" id="dTalkBox">
+      <h3>セールストーク</h3>
+      <div class="freeTxt" id="dTalk"></div>
+    </div>
+    <div class="dbox" id="dMemoBox">
+      <h3>商談メモ</h3>
+      <div class="freeTxt" id="dMemo"></div>
+    </div>
+    <div class="mut" id="dMeta"></div>
+  </div>
+</div>
+
+<!-- ============ 登録・編集画面 ============ -->
+<div id="pageForm" class="page">
+  <div class="subhead">
+    <button class="back" onclick="history.back()">←</button>
+    <span class="ttl" id="fTitle">物件を登録</span>
+  </div>
+  <div class="fwrap">
+    <div id="deleteRow" style="display:none">
+      <button id="deleteBtn">🗑 この物件を削除</button>
+    </div>
+
+    <div class="fgrp">
+      <h3>基本情報</h3>
+      <div class="frow"><label>物件名<span class="req">必須</span></label>
+        <input type="text" id="fName" placeholder="例: 花園7丁目 4号地"></div>
+      <div class="frow"><label>メーカー</label>
+        <select id="fSource">
+          <option value="maemura">マエムラ(自社)</option>
+          <option value="sumaiida">すまいーだ</option>
+          <option value="yokatown">よかタウン</option>
+        </select></div>
+      <div class="frow"><label>価格</label>
+        <input type="text" id="fPrice" placeholder="例: 2,030万円">
+        <div class="hint">「万円」まで入れてください。未定なら空欄でOK</div></div>
+      <div class="frow"><label>住所</label>
+        <input type="text" id="fAddr" placeholder="例: 熊本県熊本市西区花園7丁目1-2"></div>
+      <div class="frow"><label>HPの物件ページURL</label>
+        <input type="text" id="fUrl" placeholder="https://...">
+        <div class="hint">入れておくと、同じ物件の二重登録を防げます</div></div>
+    </div>
+
+    <div class="fgrp">
+      <h3>建物情報</h3>
+      <div class="frow"><label>間取り</label>
+        <input type="text" id="fLayout" placeholder="例: 3LDK"></div>
+      <div class="frow"><label>建て方</label>
+        <select id="fStories">
+          <option value="">記載なし(土地物件など)</option>
+          <option value="平屋">平屋</option>
+          <option value="2階建て">2階建て</option>
+          <option value="3階建て">3階建て</option>
+        </select></div>
+      <div class="frow"><label>築年月(完成予定月)</label>
+        <input type="month" id="fBuilt"></div>
+      <div class="frow"><label>建物面積</label>
+        <input type="text" id="fBArea" placeholder="例: 91.90㎡"></div>
+      <div class="frow"><label>土地面積</label>
+        <input type="text" id="fLArea" placeholder="例: 112.25㎡"></div>
+    </div>
+
+    <div class="fgrp">
+      <h3>学校区</h3>
+      <div class="frow"><label>小学校 / 徒歩(分)</label>
+        <div class="pair">
+          <input type="text" id="fElem" placeholder="例: 花園小学校">
+          <input type="number" id="fElemMin" placeholder="分" min="0">
+        </div></div>
+      <div class="frow"><label>中学校 / 徒歩(分)</label>
+        <div class="pair">
+          <input type="text" id="fJr" placeholder="例: 西山中学校">
+          <input type="number" id="fJrMin" placeholder="分" min="0">
+        </div></div>
+    </div>
+
+    <div class="fgrp">
+      <h3>写真・位置</h3>
+      <div class="frow"><label>写真URL(1行に1つ)</label>
+        <textarea id="fPhotos" placeholder="https://...&#10;https://..."></textarea>
+        <div class="hint">1行目がメイン写真になります</div></div>
+      <div class="frow"><label>緯度・経度</label>
+        <input type="text" id="fLoc" placeholder="例: 32.825171, 130.689983">
+        <div class="hint">空欄なら住所でGoogle Mapを開きます</div></div>
+    </div>
+
+    <div class="fgrp">
+      <h3>営業メモ</h3>
+      <div class="frow"><label>セールストーク</label>
+        <textarea id="fTalk" placeholder="お客様への提案ポイント"></textarea></div>
+      <div class="frow"><label>商談メモ</label>
+        <textarea id="fMemo" placeholder="商談の記録・注意点など"></textarea></div>
+    </div>
+  </div>
+  <div class="fsave">
+    <button class="btn btn-green" id="saveBtn">保存する</button>
+  </div>
+</div>
+
+<!-- モーダル・トースト -->
+<div id="modalBg">
+  <div id="modalBox">
+    <h2 id="mTitle"></h2>
+    <div class="mtxt" id="mTxt"></div>
+    <div class="mbtns" id="mBtns"></div>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script>
+"use strict";
+/* =====================================================
+   物件ナビ v0.1(第1段階:手動登録・一覧・詳細・編集)
+   データはこの端末の localStorage に保存されます。
+===================================================== */
+
+const LS_DATA = "bukkenNavi.data.v1";     // 物件データ
+const LS_CONF = "bukkenNavi.conf.v1";     // 設定・フラグ
+
+const SOURCES = {
+  maemura:  { label:"マエムラ",   color:"#1e4634" },
+  sumaiida: { label:"すまいーだ", color:"#2563a8" },
+  yokatown: { label:"よかタウン", color:"#d8731f" },
+};
+const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
+  station:"🚉", bus:"🚌", hospital:"🏥", park:"🌳", other:"📍" };
+
+/* ---------- データ入出力 ---------- */
+let listings = [];
+let conf = { editNoticeShown:false };
+
+function load(){
+  try{ listings = JSON.parse(localStorage.getItem(LS_DATA)) || []; }
+  catch(e){ listings = []; }
+  try{ conf = Object.assign(conf, JSON.parse(localStorage.getItem(LS_CONF)) || {}); }
+  catch(e){}
+}
+function saveData(){ localStorage.setItem(LS_DATA, JSON.stringify(listings)); }
+function saveConf(){ localStorage.setItem(LS_CONF, JSON.stringify(conf)); }
+
+/* ---------- ユーティリティ ---------- */
+function esc(s){ return String(s??"").replace(/[&<>"']/g,
+  c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function todayStr(){
+  const d=new Date();
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+}
+function toast(msg){
+  const t=document.getElementById("toast");
+  t.textContent=msg; t.classList.add("on");
+  clearTimeout(t._tm); t._tm=setTimeout(()=>t.classList.remove("on"),2200);
+}
+
+/* URLから安定したIDを作る(重複登録防止の要) */
+function idFromUrl(url){
+  try{
+    const u = new URL(url.trim());
+    const segs = u.pathname.split("/").filter(Boolean);
+    let slug = segs.length ? segs[segs.length-1] : u.hostname;
+    slug = slug.replace(/\.(html?|php)$/i,"");
+    const m = slug.match(/(\d{3,})/);          // post-50073 → 50073
+    if(m) return "hp-"+m[1];
+    slug = slug.replace(/[^a-zA-Z0-9_-]/g,"").slice(0,40);
+    if(slug) return "hp-"+slug;
+  }catch(e){}
+  return null;
+}
+function newManualId(){ return "m-"+Date.now().toString(36); }
+function normUrl(u){
+  try{ const x=new URL(String(u).trim());
+    return (x.origin+x.pathname).replace(/\/$/,"").toLowerCase(); }
+  catch(e){ return String(u||"").trim().toLowerCase(); }
+}
+
+/* 価格文字列 → 万円の数値(並び替え用)。取れなければ null */
+function priceMan(p){
+  if(!p) return null;
+  const s = String(p).replace(/[,,\s]/g,"");
+  let m = s.match(/(\d+)億(\d+)?万?円?/);
+  if(m) return parseInt(m[1])*10000 + (m[2]?parseInt(m[2]):0);
+  m = s.match(/(\d+(?:\.\d+)?)万円?/);
+  if(m) return parseFloat(m[1]);
+  return null;
+}
+function areaNum(a){
+  if(!a) return null;
+  const m = String(a).replace(/,/g,"").match(/(\d+(?:\.\d+)?)/);
+  return m ? parseFloat(m[1]) : null;
+}
+/* 築年月 "2025年8月" / "2025-08" → {y,m} */
+function builtYM(b){
+  if(!b) return null;
+  let m = String(b).match(/(\d{4})[年\/\-](\d{1,2})/);
+  if(m) return {y:+m[1], m:+m[2]};
+  m = String(b).match(/(\d{4})/);
+  if(m) return {y:+m[1], m:1};
+  return null;
+}
+function isFutureBuilt(b){
+  const ym = builtYM(b); if(!ym) return false;
+  const now = new Date();
+  return ym.y > now.getFullYear() ||
+        (ym.y === now.getFullYear() && ym.m > now.getMonth()+1);
+}
+function builtDisp(b){
+  const ym = builtYM(b); if(!ym) return b||"";
+  const base = ym.y+"年"+String(ym.m).padStart(2,"0")+"月";
+  return isFutureBuilt(b) ? base+"完成予定" : base;
+}
+/* 住所から「◯◯区」「◯◯市」を取り出す */
+function areaTag(addr){
+  if(!addr) return null;
+  let m = addr.match(/([^\s都道府県市]{1,4}区)/);
+  if(m) return m[1];
+  m = addr.match(/(?:熊本県|[^\s]{2,3}県)?([^\s県]{1,5}市)/);
+  if(m && m[1]!=="熊本市") return m[1];
+  if(m) return "熊本市";
+  return null;
+}
+function isNew(l){
+  if(!l.createdAt) return false;
+  return (Date.now() - new Date(l.createdAt).getTime()) < 31*24*3600*1000;
+}
+/* 表示用タグを組み立てる(New/未完成は毎回計算=月が過ぎたら自動で外れる) */
+function computeTags(l){
+  const t=[];
+  const a=areaTag(l.address); if(a) t.push(a);
+  if(l.layout) t.push(l.layout);
+  if(l.stories) t.push(l.stories);       // 記載なしならタグを付けない
+  if(isFutureBuilt(l.builtAt)) t.push("未完成");
+  if(isNew(l)) t.push("New");
+  return t;
+}
+
+/* ---------- 画面の状態 ---------- */
+const state = { tab:"all", q:"", sort:"created-desc", tags:new Set() };
+let currentId = null;   // 詳細・編集で開いている物件
+let editingId = null;   // null=新規登録
+
+/* ---------- 絞り込み ---------- */
+function filtered(){
+  let arr = listings.filter(l => l.status !== "ended");   // 掲載終了は一覧に出さない
+  if(state.tab === "candidate") arr = arr.filter(l=>l.candidate);
+  else if(state.tab !== "all")  arr = arr.filter(l=>l.source===state.tab);
+
+  if(state.tags.size){
+    arr = arr.filter(l=>{
+      const ts = computeTags(l);
+      for(const t of state.tags) if(ts.includes(t)) return true;  // OR条件
+      return false;
+    });
+  }
+  const q = state.q.trim().toLowerCase();
+  if(q){
+    arr = arr.filter(l=>{
+      const hay = [l.name,l.address,l.elementary,l.junior,l.talkPoints,l.memo,
+        ...(l.facilities||[]).map(f=>f.name), ...computeTags(l)]
+        .join(" ").toLowerCase();
+      return hay.includes(q);
+    });
+  }
+  const dir = state.sort.endsWith("desc") ? -1 : 1;
+  const key = state.sort.split("-")[0];
+  const val = l => {
+    if(key==="created") return l.createdAt||"";
+    if(key==="price")   return priceMan(l.price);
+    if(key==="built"){ const ym=builtYM(l.builtAt); return ym?ym.y*100+ym.m:null; }
+    if(key==="barea")   return areaNum(l.buildingArea);
+    if(key==="larea")   return areaNum(l.landArea);
+    if(key==="name")    return l.name||"";
+    return "";
+  };
+  arr.sort((a,b)=>{
+    const va=val(a), vb=val(b);
+    if(va==null && vb==null) return 0;
+    if(va==null) return 1;                 // 値がないものは常に最後
+    if(vb==null) return -1;
+    if(typeof va==="string") return va.localeCompare(vb,"ja")*dir;
+    return (va-vb)*dir;
+  });
+  return arr;
+}
+
+/* ---------- タブ ---------- */
+function renderTabs(){
+  const act = listings.filter(l=>l.status!=="ended");
+  const defs = [
+    {id:"all",  label:"すべて",   n:act.length},
+    {id:"maemura",  label:"マエムラ",   n:act.filter(l=>l.source==="maemura").length},
+    {id:"sumaiida", label:"すまいーだ", n:act.filter(l=>l.source==="sumaiida").length},
+    {id:"yokatown", label:"よかタウン", n:act.filter(l=>l.source==="yokatown").length},
+    {id:"candidate",label:"★候補",     n:act.filter(l=>l.candidate).length},
+  ];
+  document.getElementById("tabs").innerHTML = defs.map(d=>
+    `<button class="tab${state.tab===d.id?" on":""}" data-tab="${d.id}">
+      ${d.label}<span class="cnt">(${d.n})</span></button>`).join("");
+  document.getElementById("totalNote").textContent = act.length+"件";
+}
+
+/* ---------- タグ行(※タグを押してもこの関数は呼ばず、スクロール位置を守る) ---------- */
+function renderTagRow(){
+  const act = listings.filter(l=>l.status!=="ended");
+  const areas=new Set(), layouts=new Set(), stories=new Set();
+  let hasNew=false, hasMikan=false;
+  act.forEach(l=>{
+    const a=areaTag(l.address); if(a) areas.add(a);
+    if(l.layout) layouts.add(l.layout);
+    if(l.stories) stories.add(l.stories);
+    if(isNew(l)) hasNew=true;
+    if(isFutureBuilt(l.builtAt)) hasMikan=true;
+  });
+  const tags=[];
+  if(hasNew) tags.push("New");
+  if(hasMikan) tags.push("未完成");
+  tags.push(...[...areas].sort(), ...[...layouts].sort(), ...[...stories].sort());
+  // 選択中だが一覧から消えたタグは選択解除
+  for(const t of [...state.tags]) if(!tags.includes(t)) state.tags.delete(t);
+  document.getElementById("tagRow").innerHTML = tags.map(t=>
+    `<button class="tag${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+}
+
+/* ---------- 一覧 ---------- */
+function renderList(){
+  const arr = filtered();
+  document.getElementById("hitCount").textContent = arr.length+"件";
+  const box = document.getElementById("list");
+  if(!listings.length){
+    box.innerHTML = `<div class="empty"><div class="big">🏡</div>
+      まだ物件がありません。<br>右下の「＋ 物件を登録」から追加してください。</div>`;
+    return;
+  }
+  if(!arr.length){
+    box.innerHTML = `<div class="empty">条件に合う物件がありません。<br>検索やタグの条件を見直してください。</div>`;
+    return;
+  }
+  box.innerHTML = arr.map(l=>{
+    const main = (l.photos||[]).find(p=>p.main) || (l.photos||[])[0];
+    const src = SOURCES[l.source] || {label:l.source||"?"};
+    const tags = computeTags(l);
+    return `<div class="card${l.status==="ended"?" ended":""}" data-id="${esc(l.id)}">
+      <div class="thumb">${main?`<img src="${esc(main.url)}" loading="lazy" alt="" onerror="this.parentNode.textContent='写真なし'">`:"写真なし"}</div>
+      <div class="body">
+        <div class="name">${esc(l.name)}</div>
+        <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}</div>
+        <div class="addr">${esc(l.address||"")}</div>
+        <div class="tags">
+          <span class="src">${esc(src.label)}</span>
+          ${tags.map(t=>`<span class="${t==="New"||t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
+        </div>
+        <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function renderHome(){ renderTabs(); renderTagRow(); renderList(); }
+
+/* ---------- 画面切替(スマホの「戻る」に対応するためハッシュで管理) ---------- */
+function route(){
+  const h = location.hash;
+  const pages = {pageList:"", pageDetail:"", pageForm:""};
+  let show = "pageList";
+  if(h.startsWith("#detail/")){
+    currentId = decodeURIComponent(h.slice(8));
+    if(listings.some(l=>l.id===currentId)){ renderDetail(currentId); show="pageDetail"; }
+  }else if(h === "#new"){
+    editingId = null; fillForm(null); show="pageForm";
+  }else if(h.startsWith("#edit/")){
+    editingId = decodeURIComponent(h.slice(6));
+    const l = listings.find(x=>x.id===editingId);
+    if(l){ fillForm(l); show="pageForm"; }
+  }
+  for(const id in pages)
+    document.getElementById(id).classList.toggle("on", id===show);
+  if(show==="pageList") renderHome();
+  window.scrollTo(0, show==="pageList" ? (route._listScroll||0) : 0);
+}
+window.addEventListener("hashchange", route);
+
+/* ---------- 詳細 ---------- */
+function renderDetail(id){
+  const l = listings.find(x=>x.id===id); if(!l) return;
+  document.getElementById("dTitle").textContent = l.name;
+  // 写真
+  const ph = document.getElementById("dPhotos");
+  const photos = (l.photos||[]).slice().sort((a,b)=>(b.main?1:0)-(a.main?1:0));
+  ph.innerHTML = photos.length
+    ? photos.map(p=>`<img src="${esc(p.url)}" alt="" onerror="this.remove()">`).join("")
+    : `<div class="noPhoto">写真なし</div>`;
+  document.getElementById("dName").textContent = l.name;
+  document.getElementById("dPrice").textContent = l.price || "価格未定";
+  document.getElementById("dAddr").textContent = l.address || "";
+  document.getElementById("dEditedBadge").innerHTML = l.edited
+    ? `<span class="badge-edited">✎ 手動編集済み(自動更新で上書きされません)</span>
+       <div><button id="resetEditBtn">編集の保護を解除する</button></div>` : "";
+  const rb = document.getElementById("resetEditBtn");
+  if(rb) rb.onclick = ()=>askResetEdit(l);
+  document.getElementById("dTags").innerHTML =
+    computeTags(l).map(t=>`<span>${esc(t)}</span>`).join("");
+  // ★候補
+  const st = document.getElementById("dStar");
+  st.className = l.candidate ? "on" : "";
+  st.textContent = l.candidate ? "★ 候補に入っています(タップで外す)" : "☆ 候補に入れる";
+  st.onclick = ()=>{ l.candidate=!l.candidate; saveData(); renderDetail(id); };
+  // 建物情報
+  const rows=[];
+  rows.push(["築年月", l.builtAt
+    ? (isFutureBuilt(l.builtAt)
+        ? `${esc(builtDisp(l.builtAt).replace("完成予定",""))}<span class="yotei">完成予定</span>`
+        : esc(builtDisp(l.builtAt)))
+    : "―"]);
+  rows.push(["建物面積", esc(l.buildingArea||"―")]);
+  rows.push(["土地面積", esc(l.landArea||"―")]);
+  if(l.layout) rows.push(["間取り", esc(l.layout)]);
+  if(l.stories) rows.push(["建て方", esc(l.stories)]);
+  document.getElementById("dBuilding").innerHTML =
+    rows.map(r=>`<div class="kv"><span class="k">${r[0]}</span><span class="v">${r[1]}</span></div>`).join("");
+  // 地図
+  const mapQ = (l.locText||"").trim() || (l.address||"").trim();
+  document.getElementById("dMapBox").style.display = mapQ ? "" : "none";
+  if(mapQ) document.getElementById("dMapLink").href =
+    "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(mapQ);
+  // HPリンク
+  document.getElementById("dHpBox").style.display = l.detailUrl ? "" : "none";
+  if(l.detailUrl) document.getElementById("dHpLink").href = l.detailUrl;
+  // 学校区
+  const sc=[];
+  if(l.elementary) sc.push(schoolRow("🎒", l.elementary, l.elementaryMin, l, l.elementaryLocText));
+  if(l.junior)     sc.push(schoolRow("🏫", l.junior, l.juniorMin, l, l.juniorLocText));
+  document.getElementById("dSchoolBox").style.display = sc.length ? "" : "none";
+  document.getElementById("dSchools").innerHTML = sc.join("");
+  // 周辺施設
+  const fc=(l.facilities||[]);
+  document.getElementById("dFacBox").style.display = fc.length ? "" : "none";
+  document.getElementById("dFacs").innerHTML = fc.map(f=>
+    `<div class="fac"><span class="ico">${FAC_ICONS[f.cat]||"📍"}</span>
+     <span>${esc(f.name)}</span>
+     ${f.min?`<span class="min">徒歩${esc(f.min)}分</span>`:""}</div>`).join("");
+  // トーク・メモ
+  document.getElementById("dTalkBox").style.display = l.talkPoints ? "" : "none";
+  document.getElementById("dTalk").textContent = l.talkPoints||"";
+  document.getElementById("dMemoBox").style.display = l.memo ? "" : "none";
+  document.getElementById("dMemo").textContent = l.memo||"";
+  // メタ情報
+  const meta=[];
+  if(l.createdAt) meta.push("登録日: "+l.createdAt.slice(0,10));
+  if(l.editedAt)  meta.push("編集日: "+l.editedAt.slice(0,10));
+  document.getElementById("dMeta").textContent = meta.join(" / ");
+}
+function schoolRow(ico,name,min,l,loc){
+  const q = (loc||"").trim() || name+" "+(areaTag(l.address)||"熊本");
+  const link = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q)}${l.locText?`&origin=${encodeURIComponent(l.locText)}`:""}&travelmode=walking`;
+  return `<div class="school"><span>${ico} ${esc(name)}
+    <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:6px">ルート</a></span>
+    ${min?`<span class="min">徒歩${esc(min)}分</span>`:""}</div>`;
+}
+function askResetEdit(l){
+  modal("保護の解除",
+    `「${l.name}」の手動編集の保護を解除します。\n\n解除すると、次回の自動更新でHPの内容に上書きされる場合があります。よろしいですか?`,
+    [["やめる",null,"mb-cancel"],
+     ["解除する",()=>{ l.edited=false; l.editedAt=""; saveData(); renderDetail(l.id); toast("保護を解除しました"); },"mb-ok"]]);
+}
+
+/* ---------- フォーム ---------- */
+const F = id=>document.getElementById(id);
+function fillForm(l){
+  F("fTitle").textContent = l ? "物件を編集" : "物件を登録";
+  document.getElementById("deleteRow").style.display = l ? "flex" : "none";
+  F("fName").value   = l?.name||"";
+  F("fSource").value = l?.source||"maemura";
+  F("fPrice").value  = l?.price||"";
+  F("fAddr").value   = l?.address||"";
+  F("fUrl").value    = l?.detailUrl||"";
+  F("fLayout").value = l?.layout||"";
+  F("fStories").value= l?.stories||"";
+  const ym = builtYM(l?.builtAt);
+  F("fBuilt").value  = ym ? ym.y+"-"+String(ym.m).padStart(2,"0") : "";
+  F("fBArea").value  = l?.buildingArea||"";
+  F("fLArea").value  = l?.landArea||"";
+  F("fElem").value   = l?.elementary||"";
+  F("fElemMin").value= l?.elementaryMin||"";
+  F("fJr").value     = l?.junior||"";
+  F("fJrMin").value  = l?.juniorMin||"";
+  F("fPhotos").value = (l?.photos||[]).map(p=>p.url).join("\n");
+  F("fLoc").value    = l?.locText||"";
+  F("fTalk").value   = l?.talkPoints||"";
+  F("fMemo").value   = l?.memo||"";
+}
+function readForm(){
+  const built = F("fBuilt").value; // "2025-08"
+  const photos = F("fPhotos").value.split("\n").map(s=>s.trim()).filter(Boolean)
+    .map((u,i)=>({id:"p"+(i+1), url:u, main:i===0}));
+  return {
+    name: F("fName").value.trim(),
+    source: F("fSource").value,
+    price: F("fPrice").value.trim(),
+    address: F("fAddr").value.trim(),
+    detailUrl: F("fUrl").value.trim(),
+    layout: F("fLayout").value.trim(),
+    stories: F("fStories").value,
+    builtAt: built ? built.slice(0,4)+"年"+built.slice(5,7)+"月" : "",
+    buildingArea: F("fBArea").value.trim(),
+    landArea: F("fLArea").value.trim(),
+    elementary: F("fElem").value.trim(),
+    elementaryMin: F("fElemMin").value.trim(),
+    junior: F("fJr").value.trim(),
+    juniorMin: F("fJrMin").value.trim(),
+    photos, locText: F("fLoc").value.trim(),
+    talkPoints: F("fTalk").value.trim(),
+    memo: F("fMemo").value.trim(),
+  };
+}
+function saveForm(){
+  const v = readForm();
+  if(!v.name){ toast("物件名を入力してください"); F("fName").focus(); return; }
+
+  if(editingId){                      /* --- 編集 --- */
+    const l = listings.find(x=>x.id===editingId); if(!l) return;
+    Object.assign(l, v, { edited:true, editedAt: todayStr() });
+    saveData(); toast("保存しました(自動更新から保護されます)");
+    location.hash = "#detail/"+encodeURIComponent(l.id);
+    return;
+  }
+  /* --- 新規登録:重複チェック --- */
+  let dup = null;
+  if(v.detailUrl){
+    const nu = normUrl(v.detailUrl);
+    dup = listings.find(l=>l.detailUrl && normUrl(l.detailUrl)===nu);
+    if(!dup){
+      const nid = idFromUrl(v.detailUrl);
+      if(nid) dup = listings.find(l=>l.id===nid);
+    }
+  }
+  if(!dup && v.address)
+    dup = listings.find(l=>l.name===v.name && l.address===v.address);
+  if(dup){
+    modal("すでに登録されています",
+      `「${dup.name}」が同じ物件として登録済みです。\n二重登録を防ぐため、追加は行いません。`,
+      [["登録済みの物件を開く",()=>{ location.hash="#detail/"+encodeURIComponent(dup.id); },"mb-ok"],
+       ["閉じる",null,"mb-cancel"]]);
+    return;
+  }
+  const id = (v.detailUrl && idFromUrl(v.detailUrl)) || newManualId();
+  const now = new Date().toISOString();
+  listings.push(Object.assign({
+    id, tags:[], candidate:false, facilities:[],
+    status:"active", endedAt:"", lastSeen: todayStr(),
+    priceChanges:[], priceSnapshots: v.price ? [{date:todayStr(), price:v.price}] : [],
+    edited:false, editedAt:"", aiDone:false, createdAt: now,
+  }, v));
+  saveData(); toast("登録しました");
+  location.hash = "#detail/"+encodeURIComponent(id);
+}
+function askDelete(){
+  const l = listings.find(x=>x.id===editingId); if(!l) return;
+  modal("物件の削除",
+    `「${l.name}」を削除します。\n\nこの操作は取り消せません。本当に削除しますか?`,
+    [["やめる",null,"mb-cancel"],
+     ["削除する",()=>{
+        listings = listings.filter(x=>x.id!==l.id);
+        saveData(); toast("削除しました: "+l.name);
+        location.hash = "";
+      },"mb-danger"]]);
+}
+
+/* ---------- モーダル ---------- */
+function modal(title, txt, btns){
+  document.getElementById("mTitle").textContent = title;
+  document.getElementById("mTxt").textContent = txt;
+  const bx = document.getElementById("mBtns");
+  bx.innerHTML = "";
+  btns.forEach(([label, fn, cls])=>{
+    const b = document.createElement("button");
+    b.textContent = label; b.className = cls;
+    b.onclick = ()=>{ closeModal(); if(fn) fn(); };
+    bx.appendChild(b);
+  });
+  document.getElementById("modalBg").classList.add("on");
+}
+function closeModal(){ document.getElementById("modalBg").classList.remove("on"); }
+document.getElementById("modalBg").addEventListener("click", e=>{
+  if(e.target.id==="modalBg") closeModal();      // 枠の外をタップで閉じる
+});
+
+/* ---------- イベント ---------- */
+document.getElementById("tabs").addEventListener("click", e=>{
+  const b = e.target.closest(".tab"); if(!b) return;
+  state.tab = b.dataset.tab;
+  renderTabs(); renderList();
+});
+/* タグ:全体を再描画せず、押したボタンだけ切り替える(横スクロール位置を維持) */
+document.getElementById("tagRow").addEventListener("click", e=>{
+  const b = e.target.closest(".tag"); if(!b) return;
+  const t = b.dataset.tag;
+  if(state.tags.has(t)){ state.tags.delete(t); b.classList.remove("on"); }
+  else { state.tags.add(t); b.classList.add("on"); }
+  renderList();
+});
+document.getElementById("q").addEventListener("input", e=>{
+  state.q = e.target.value; renderList();
+});
+document.getElementById("sort").addEventListener("change", e=>{
+  state.sort = e.target.value; renderList();
+});
+/* カード:★はその場で切替、それ以外は詳細へ */
+document.getElementById("list").addEventListener("click", e=>{
+  const star = e.target.closest(".starBtn");
+  if(star){
+    const l = listings.find(x=>x.id===star.dataset.star);
+    if(l){ l.candidate=!l.candidate; saveData();
+      star.classList.toggle("on", l.candidate); renderTabs(); }
+    return;
+  }
+  const card = e.target.closest(".card"); if(!card) return;
+  route._listScroll = window.scrollY;
+  location.hash = "#detail/"+encodeURIComponent(card.dataset.id);
+});
+document.getElementById("fab").addEventListener("click", ()=>{
+  route._listScroll = window.scrollY;
+  location.hash = "#new";
+});
+/* 編集ボタン:初回のみ案内を出す */
+document.getElementById("editBtn").addEventListener("click", ()=>{
+  const go = ()=>{ location.hash = "#edit/"+encodeURIComponent(currentId); };
+  if(!conf.editNoticeShown){
+    conf.editNoticeShown = true; saveConf();
+    modal("編集についてのご注意",
+      "編集した内容は、この端末の中だけに保存されます。\nほかの人の端末には反映されません。\nまた、アプリのデータを消すと編集内容も消えます。",
+      [["わかりました", go, "mb-ok"]]);
+  }else go();
+});
+document.getElementById("saveBtn").addEventListener("click", saveForm);
+document.getElementById("deleteBtn").addEventListener("click", askDelete);
+
+/* ---------- 起動 ---------- */
+load();
+route();
+</script>
+</body>
+</html>
