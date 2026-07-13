@@ -128,13 +128,17 @@ function parseDetail(html, url, warnings) {
   };
   const stampOf = (u) => { const m = u.match(/_(\d{12})/); return m ? m[1] : ""; };
 
-  // 遅延読み込み対応:実URLは src / data-src / data-lazy-src 等のどれかに入っている
+  // 画像URLの取得:遅延読み込みでは実URLが data-lazy / data-src など
+  // サイトによって違う属性に入るため、属性名を決め打ちせず、
+  // 「全属性の中から画像URLらしい値」を探す。
+  const looksImg = (v) => !!v && !v.startsWith("data:") && /\.(jpe?g|png)([?#][^ ]*)?$/i.test(v.trim());
+  const abs = (v) => { try { return new URL(v.trim(), url).href; } catch (e) { return ""; } };
   const imgUrl = (el) => {
-    for (const attr of ["data-src", "data-lazy-src", "data-original", "src"]) {
-      const v = $(el).attr(attr);
-      if (v && !v.startsWith("data:")) {
-        try { return new URL(v, url).href; } catch (e) {}
-      }
+    const at = el.attribs || {};
+    if (looksImg(at.src)) return abs(at.src);
+    for (const k of Object.keys(at)) {
+      if (k === "alt" || k === "class" || k === "id" || k === "style" || k === "srcset") continue;
+      if (looksImg(at[k])) return abs(at[k]);
     }
     return "";
   };
@@ -164,9 +168,30 @@ function parseDetail(html, url, warnings) {
   };
   // 1. メイン写真(必ず先頭にする)
   $(".bkSingle_mainphoto img, .bkMainphoto img").each((_, el) => consider(imgUrl(el), true));
-  // 2. ギャラリー(bkSlider2)の中だけを順番どおりに
-  $("ul.bkSlider2 li img").each((_, el) => consider(imgUrl(el), false));
-  // 3. 囲いが見つからないページへの保険:og:imageの1枚だけ
+  // 2. ギャラリー(bkSlider2)の中を順番どおりに。img属性→拡大リンクの順で探す
+  $("ul.bkSlider2 li").each((_, li) => {
+    let u = "";
+    $(li).find("img").each((_, el) => { if (!u) u = imgUrl(el); });
+    if (!u) $(li).find("a[href]").each((_, a) => {
+      const h = $(a).attr("href");
+      if (!u && looksImg(h)) u = abs(h);
+    });
+    consider(u, false);
+  });
+  // 3. ギャラリーの囲いが見つからないページへの保険:
+  //    ページ全体からv0.6と同じ厳しい条件(uploads配下・他物件リンク除外)で拾う
+  if (!$("ul.bkSlider2").length) {
+    const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
+    $("img").each((_, el) => {
+      const a = $(el).closest("a");
+      const href = a.length ? (a.attr("href") || "") : "";
+      const linkedPost = (href.match(/post-(\d+)/) || [])[1];
+      if (linkedPost && linkedPost !== postIdForPhoto) return;
+      const u = imgUrl(el);
+      if (u && /\/wp-content\/uploads\//.test(u)) consider(u, false);
+    });
+  }
+  // 4. それでも0枚なら og:image の1枚だけ
   if (!groups.size) {
     const og = $('meta[property="og:image"]').attr("content");
     if (og) consider(og, true);
@@ -235,6 +260,20 @@ async function main() {
   }
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
+
+  // 写真の取得状況(問題調査用の診断ログ)
+  if (scraped.length) {
+    const total = scraped.reduce((n, s) => n + s.photos.length, 0);
+    const one = scraped.filter((s) => s.photos.length <= 1);
+    console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚 / 1枚以下の物件 ${one.length}件/${scraped.length}件`);
+    scraped.slice(0, 3).forEach((s) =>
+      console.log(`[写真診断] 例: ${s.name} → ${s.photos.length}枚`));
+    if (one.length > scraped.length * 0.7) {
+      console.log(`[写真診断] 大半の物件で写真が1枚以下です。ギャラリーの構造が想定と異なる可能性があります。`);
+      const sample = one[0];
+      if (sample) console.log(`[写真診断] 調査用サンプル: ${sample.detailUrl}`);
+    }
+  }
 
   // 3. 前回データと突き合わせて反映(掲載終了の判定・価格履歴の記録)
   const prev = loadData(DATA_FILE);
