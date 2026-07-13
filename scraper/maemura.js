@@ -10,6 +10,7 @@ const BASE = "https://maemura-shinchiku.jp";
 const TOP = BASE + "/kumamoto/";
 const DATA_FILE = __dirname + "/../data/listings.json";
 const SOURCE = "maemura";
+let lastPhotoDebug = null;   // 写真が取れないときの構造調査用
 
 /* エリア一覧・詳細ページのリンクをHTMLから拾う */
 const DENY = /\/(news|voice|info|staff|staff01|pickup|tenjikai|inquiry|contact|wp-content|recruit|about)\b/;
@@ -148,13 +149,17 @@ function parseDetail(html, url, warnings) {
   $('.bkSetubi_list img, [id^="bkSetibi"] img, .bkSetibi_lity_box img, .bkSetubi_img img').each((_, el) => {
     const u = imgUrl(el); if (u) setubiRoots.add(rootKey(u));
   });
+  $('.bkSetubi_list a[href], [id^="bkSetibi"] a[href]').each((_, a) => {
+    const h = $(a).attr("href"); if (looksImg(h)) setubiRoots.add(rootKey(abs(h)));
+  });
 
   const BAN_IMG = /(logo|bnr|banner|label|maina|selfevaluation|maemura-bath|transparent|spotlight)/i;
+  const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
   const groups = new Map(); // rootKey → {url, stamp, order}
   let order = 0;
   const consider = (u, toFront) => {
     if (!u) return;
-    if (!/\.(jpe?g|png)(\?|$)/i.test(u)) return;      // gif等は対象外
+    if (!/\.(jpe?g|png)([?#]|$)/i.test(u)) return;    // gif等は対象外
     if (BAN_IMG.test(u)) return;
     const k = rootKey(u);
     if (setubiRoots.has(k)) return;
@@ -166,32 +171,46 @@ function parseDetail(html, url, warnings) {
       if (toFront) g.order = -1;
     }
   };
-  // 1. メイン写真(必ず先頭にする)
-  $(".bkSingle_mainphoto img, .bkMainphoto img").each((_, el) => consider(imgUrl(el), true));
-  // 2. ギャラリー(bkSlider2)の中を順番どおりに。img属性→拡大リンクの順で探す
-  $("ul.bkSlider2 li").each((_, li) => {
-    let u = "";
-    $(li).find("img").each((_, el) => { if (!u) u = imgUrl(el); });
-    if (!u) $(li).find("a[href]").each((_, a) => {
-      const h = $(a).attr("href");
-      if (!u && looksImg(h)) u = abs(h);
-    });
-    consider(u, false);
+  // 他物件へのリンクに包まれた画像かどうか(おすすめ物件のサムネイル除外)
+  const isOtherPost = (el) => {
+    const a = $(el).closest("a");
+    const href = a.length ? (a.attr("href") || "") : "";
+    const linked = (href.match(/post-(\d+)/) || [])[1];
+    return !!(linked && linked !== postIdForPhoto);
+  };
+
+  // 1. メイン写真(class名に mainphoto を含む囲い)→ 必ず先頭
+  $('.bkSingle_mainphoto, .bkMainphoto, [class*="ainphoto"]').find("img").each((_, el) => {
+    if (!isOtherPost(el)) consider(imgUrl(el), true);
   });
-  // 3. ギャラリーの囲いが見つからないページへの保険:
-  //    ページ全体からv0.6と同じ厳しい条件(uploads配下・他物件リンク除外)で拾う
-  if (!$("ul.bkSlider2").length) {
-    const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
+  // 2. class名に「bkSlider」を含む囲いすべて(名前の細部が違っても取れる)
+  //    ページに載っている並び順のまま、img・拡大リンクの両方から拾う
+  $('[class*="bkSlider"]').each((_, box) => {
+    $(box).find("img, a[href]").each((_, el) => {
+      if (el.tagName === "img") {
+        if (!isOtherPost(el)) consider(imgUrl(el), false);
+      } else {
+        const h = $(el).attr("href"); if (looksImg(h)) consider(abs(h), false);
+      }
+    });
+  });
+  // 3. 拡大表示(ライトボックス)リンクの画像
+  $('a[data-lity][href], a[data-fancybox][href], a[rel*="lightbox"][href]').each((_, a) => {
+    const h = $(a).attr("href"); if (looksImg(h)) consider(abs(h), false);
+  });
+  // 4. ここまでで1枚以下なら、ページ全体からuploads配下の画像を厳しめ条件で拾う保険
+  if (groups.size <= 1) {
     $("img").each((_, el) => {
-      const a = $(el).closest("a");
-      const href = a.length ? (a.attr("href") || "") : "";
-      const linkedPost = (href.match(/post-(\d+)/) || [])[1];
-      if (linkedPost && linkedPost !== postIdForPhoto) return;
+      if (isOtherPost(el)) return;
       const u = imgUrl(el);
       if (u && /\/wp-content\/uploads\//.test(u)) consider(u, false);
     });
+    $("a[href]").each((_, a) => {
+      const h = $(a).attr("href");
+      if (looksImg(h) && /\/wp-content\/uploads\//.test(h)) consider(abs(h), false);
+    });
   }
-  // 4. それでも0枚なら og:image の1枚だけ
+  // 5. それでも0枚なら og:image の1枚だけ
   if (!groups.size) {
     const og = $('meta[property="og:image"]').attr("content");
     if (og) consider(og, true);
@@ -201,6 +220,21 @@ function parseDetail(html, url, warnings) {
     .slice(0, MAX_PHOTOS)
     .map((g, i) => ({ id: "p" + (i + 1), url: g.url, main: i === 0 }));
   if (!photos.length) warn("写真が1枚も取れませんでした");
+
+  // 写真が取れないときの構造調査用の情報(main側でログに出す)
+  lastPhotoDebug = {
+    url,
+    photos: photos.length,
+    sliders: $('[class*="bkSlider"]').length,
+    mainboxes: $('.bkSingle_mainphoto, .bkMainphoto, [class*="ainphoto"]').length,
+    lity: $("a[data-lity][href]").length,
+    imgs: $("img").length,
+    excerpt: (() => {
+      if (photos.length > 1) return "";
+      const m = html.match(/.{0,250}wp-content\/uploads[^"'\s)]{5,120}\.jpe?g.{0,250}/i);
+      return m ? m[0].replace(/\s+/g, " ") : "(uploads画像がHTML内に見当たりません)";
+    })(),
+  };
 
   // 緯度経度(Googleマップリンクから)
   const lm2 = html.match(/maps\.google\.com\/maps\?q=([\d.]+)\s*,\s*([\d.]+)/);
@@ -256,7 +290,10 @@ async function main() {
     const html = await fetchHtml(url);
     if (!html) { warnings.push(`${url}\n    → ページ取得に失敗`); continue; }
     const item = parseDetail(html, url, warnings);
-    if (item) scraped.push(item);
+    if (item) {
+      scraped.push(item);
+      if (item.photos.length <= 1 && !main._dbg) main._dbg = lastPhotoDebug;
+    }
   }
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
@@ -268,10 +305,12 @@ async function main() {
     console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚 / 1枚以下の物件 ${one.length}件/${scraped.length}件`);
     scraped.slice(0, 3).forEach((s) =>
       console.log(`[写真診断] 例: ${s.name} → ${s.photos.length}枚`));
-    if (one.length > scraped.length * 0.7) {
-      console.log(`[写真診断] 大半の物件で写真が1枚以下です。ギャラリーの構造が想定と異なる可能性があります。`);
-      const sample = one[0];
-      if (sample) console.log(`[写真診断] 調査用サンプル: ${sample.detailUrl}`);
+    if (one.length > scraped.length * 0.7 && main._dbg) {
+      const d = main._dbg;
+      console.log(`[写真診断] 大半の物件で写真が1枚以下です。ページ構造の調査情報:`);
+      console.log(`[写真診断] 対象: ${d.url}`);
+      console.log(`[写真診断] bkSlider系の囲い:${d.sliders}個 / メイン写真の囲い:${d.mainboxes}個 / 拡大リンク:${d.lity}個 / imgタグ:${d.imgs}個`);
+      console.log(`[写真診断] HTML抜粋(写真周辺): ${d.excerpt}`);
     }
   }
 
