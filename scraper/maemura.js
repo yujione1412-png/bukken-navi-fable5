@@ -108,32 +108,65 @@ function parseDetail(html, url, warnings) {
     facilities.push({ name: nm, min, cat: c });
   }
 
-  // 写真:この物件のギャラリーだけを集める
-  //  - 「他の物件へのリンク」が付いた画像(おすすめ物件のサムネイル等)は除外
-  //  - 同じ写真のサイズ違い(-680x507 など)は1枚に統合
+  // 写真:この物件の「現在の」ギャラリー写真だけを集める
+  //  仕組み: このサイトは写真を差し替えると「元名_202607071134-680x507.jpg」のように
+  //  日時付きの新ファイルを作り、古いファイルもHTMLに残る。
+  //  → 同じ写真のグループごとに、一番新しい日時のものだけを採用する。
+  //  さらに「建物/設備の魅力(※画像はイメージです)」の設備写真、
+  //  他物件へのリンク付きサムネイル、ロゴ・バナー類も除外する。
   const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
-  const seen = new Set(); const photos = [];
-  const og = $('meta[property="og:image"]').attr("content");
-  const photoKey = (u) => u.split("/").pop().replace(/-\d+x\d+(?=\.)/, "").split("?")[0];
-  const push = (u) => {
+
+  // 写真の「もとの名前」(サイズ表記・日時表記・拡張子を全部むいた核の部分)
+  const rootKey = (u) => {
+    let f = u.split("/").pop().split("?")[0].toLowerCase();
+    let prev;
+    do { prev = f;
+      f = f.replace(/\.(jpe?g|png|gif)$/i, "")
+           .replace(/-\d+x\d+$/, "")
+           .replace(/_\d{12}$/, "");
+    } while (f !== prev);
+    return f;
+  };
+  const stampOf = (u) => { const m = u.match(/_(\d{12})/); return m ? m[1] : ""; };
+
+  // 設備セクション(※画像はイメージです)の写真を除外リストに入れる
+  const setubiRoots = new Set();
+  $('[id^="bkSetibi"], [id*="etubi"], [id*="etibi"]').find("img[src]").each((_, img) => {
+    const s = $(img).attr("src"); if (s) setubiRoots.add(rootKey(s));
+  });
+  $('a[href*="bkSetibi"]').each((_, a) => {
+    $(a).parent().find("img[src]").each((_, img) => {
+      const s = $(img).attr("src"); if (s) setubiRoots.add(rootKey(s));
+    });
+  });
+
+  // 候補を集めて、同じ写真グループごとに最新版だけ残す
+  const groups = new Map(); // rootKey → {url, stamp, order}
+  let order = 0;
+  const consider = (u) => {
     if (!u || !/\/wp-content\/uploads\//.test(u)) return;
     if (!/\.(jpe?g|png)(\?|$)/i.test(u)) return;
-    if (/(logo|bnr|banner|label|maina)/i.test(u)) return;
-    const k = photoKey(u);
-    if (seen.has(k)) return;
-    seen.add(k);
-    photos.push({ id: "p" + (photos.length + 1), url: u, main: photos.length === 0 });
+    if (/(logo|bnr|banner|label|maina|selfevaluation|maemura-bath)/i.test(u)) return;
+    const k = rootKey(u);
+    if (setubiRoots.has(k)) return;
+    const st = stampOf(u);
+    const g = groups.get(k);
+    if (!g) groups.set(k, { url: u, stamp: st, order: order++ });
+    else if (st > g.stamp) { g.url = u; g.stamp = st; } // 日時が新しい方を採用
   };
-  push(og);
+  const ogImg = $('meta[property="og:image"]').attr("content");
+  consider(ogImg);
   $("img[src]").each((_, img) => {
-    if (photos.length >= 12) return;
-    // 画像がリンクで包まれていて、そのリンク先が「別の物件ページ」なら除外
     const a = $(img).closest("a");
     const href = a.length ? (a.attr("href") || "") : "";
     const linkedPost = (href.match(/post-(\d+)/) || [])[1];
-    if (linkedPost && linkedPost !== postIdForPhoto) return;
-    push($(img).attr("src"));
+    if (linkedPost && linkedPost !== postIdForPhoto) return; // 他物件のサムネイル
+    consider($(img).attr("src"));
   });
+  const photos = [...groups.values()]
+    .sort((a, b) => a.order - b.order)
+    .slice(0, 12)
+    .map((g, i) => ({ id: "p" + (i + 1), url: g.url, main: i === 0 }));
   if (!photos.length) warn("写真が1枚も取れませんでした");
 
   // 緯度経度(Googleマップリンクから)
