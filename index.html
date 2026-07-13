@@ -269,7 +269,7 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.3</span>
+    <h1>物件ナビ</h1><span class="ver">v0.4</span>
     <span class="hd-note" id="totalNote"></span>
     <button class="hd-reload" id="reloadBtn" aria-label="最新データを読み込む">↻</button>
   </header>
@@ -874,19 +874,37 @@ function renderDetail(id){
   if(l.parking) rows.push(["駐車場", esc(l.parking)]);
   document.getElementById("dBuilding").innerHTML =
     rows.map(r=>`<div class="kv"><span class="k">${r[0]}</span><span class="v">${r[1]}</span></div>`).join("");
-  // 価格の推移(2回以上記録があるときだけ)
+  // 価格の推移:変動(いつ・いくら→いくら)はボタンなしで常に表示。
+  // 「すべての記録」ボタンで、記録済みの全価格を一覧表示する。
+  const changes = l.priceChanges||[];
   const snaps = l.priceSnapshots||[];
   const hb = document.getElementById("dPriceHistBox");
-  if(snaps.length>=2){
+  if(changes.length || snaps.length>=2){
     hb.style.display="";
-    document.getElementById("dPriceHist").innerHTML = snaps.map((s,i)=>{
-      let cls="";
-      if(i>0){
-        const prev=priceMan(snaps[i-1].price), cur=priceMan(s.price);
-        if(prev!=null && cur!=null) cls = cur>prev?"up":cur<prev?"down":"";
-      }
-      return `<div class="phRow"><span class="d">${esc(s.date)}</span><span class="p ${cls}">${esc(s.price)}</span></div>`;
-    }).join("");
+    let rows;
+    if(changes.length){
+      rows = changes.map(c=>{
+        const pf=priceMan(c.from), pt=priceMan(c.to);
+        const cls = (pf!=null&&pt!=null) ? (pt>pf?"up":pt<pf?"down":"") : "";
+        return `<div class="phRow"><span class="d">${esc(c.date)}</span><span class="p ${cls}">${esc(c.from)} → ${esc(c.to)}</span></div>`;
+      }).join("");
+    }else{
+      rows = snaps.map((s,i)=>{
+        let cls="";
+        if(i>0){
+          const prev=priceMan(snaps[i-1].price), cur=priceMan(s.price);
+          if(prev!=null && cur!=null) cls = cur>prev?"up":cur<prev?"down":"";
+        }
+        return `<div class="phRow"><span class="d">${esc(s.date)}</span><span class="p ${cls}">${esc(s.price)}</span></div>`;
+      }).join("");
+    }
+    document.getElementById("dPriceHist").innerHTML = rows +
+      (snaps.length ? `<button class="btn btn-line" id="phAllBtn" style="margin-top:10px">▶ これまでの価格をすべて見る</button>` : "");
+    const pb = document.getElementById("phAllBtn");
+    if(pb) pb.onclick = ()=>{
+      const txt = snaps.map(s=>`${s.date}  ${s.price}`).join("\n");
+      modal("価格の記録", txt || "記録がありません", [["閉じる",null,"mb-ok"]]);
+    };
   }else hb.style.display="none";
   // 地図
   const mapQ = (l.locText||"").trim() || (l.address||"").trim();
@@ -902,13 +920,16 @@ function renderDetail(id){
   if(l.junior)     sc.push(schoolRow("🏫", l.junior, l.juniorMin, l));
   document.getElementById("dSchoolBox").style.display = sc.length ? "" : "none";
   document.getElementById("dSchools").innerHTML = sc.join("");
-  // 周辺施設
+  // 周辺施設(ルートリンク付き)
   const fc=(l.facilities||[]);
   document.getElementById("dFacBox").style.display = fc.length ? "" : "none";
-  document.getElementById("dFacs").innerHTML = fc.map(f=>
-    `<div class="fac"><span class="ico">${FAC_ICONS[f.cat]||"📍"}</span>
-     <span>${esc(f.name)}</span>
-     ${f.min?`<span class="min">徒歩${esc(f.min)}分</span>`:""}</div>`).join("");
+  document.getElementById("dFacs").innerHTML = fc.map(f=>{
+    const q = f.name+" "+(areaTag(l.address)||"熊本");
+    const link = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q)}${l.locText?`&origin=${encodeURIComponent(l.locText)}`:""}&travelmode=walking`;
+    return `<div class="fac"><span class="ico">${FAC_ICONS[f.cat]||"📍"}</span>
+     <span>${esc(f.name)} <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:4px">ルート</a></span>
+     ${f.min?`<span class="min">徒歩${esc(f.min)}分</span>`:""}</div>`;
+  }).join("");
   // HPの紹介文・トーク・メモ
   document.getElementById("dHpTextBox").style.display = l.hpText ? "" : "none";
   document.getElementById("dHpText").textContent = l.hpText||"";
