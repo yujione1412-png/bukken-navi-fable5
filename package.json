@@ -1,0 +1,11 @@
+{
+  "name": "bukken-navi",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "scrape": "node scraper/maemura.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
