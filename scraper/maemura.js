@@ -108,15 +108,14 @@ function parseDetail(html, url, warnings) {
     facilities.push({ name: nm, min, cat: c });
   }
 
-  // 写真:この物件の「現在の」ギャラリー写真だけを集める
-  //  仕組み: このサイトは写真を差し替えると「元名_202607071134-680x507.jpg」のように
-  //  日時付きの新ファイルを作り、古いファイルもHTMLに残る。
-  //  → 同じ写真のグループごとに、一番新しい日時のものだけを採用する。
-  //  さらに「建物/設備の魅力(※画像はイメージです)」の設備写真、
-  //  他物件へのリンク付きサムネイル、ロゴ・バナー類も除外する。
-  const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
+  // 写真:ページ全体から拾うのをやめ、「物件写真の囲い」の中だけから取る。
+  //   実ページのHTML解析の結果:
+  //     ・メイン写真   → <div class="bkSingle_mainphoto"> / <div class="bkMainphoto">
+  //     ・ギャラリー   → <ul class="bkSlider2"> の中の <li>
+  //     ・設備の使い回し写真 → <ul class="bkSetubi_list">(完全に別の囲い) → 対象外
+  //   同じ写真の差し替え(元名_202607071134-680x507.jpg 形式)は最新版だけ採用。
+  const MAX_PHOTOS = 5;
 
-  // 写真の「もとの名前」(サイズ表記・日時表記・拡張子を全部むいた核の部分)
   const rootKey = (u) => {
     let f = u.split("/").pop().split("?")[0].toLowerCase();
     let prev;
@@ -129,43 +128,52 @@ function parseDetail(html, url, warnings) {
   };
   const stampOf = (u) => { const m = u.match(/_(\d{12})/); return m ? m[1] : ""; };
 
-  // 設備セクション(※画像はイメージです)の写真を除外リストに入れる
+  // 遅延読み込み対応:実URLは src / data-src / data-lazy-src 等のどれかに入っている
+  const imgUrl = (el) => {
+    for (const attr of ["data-src", "data-lazy-src", "data-original", "src"]) {
+      const v = $(el).attr(attr);
+      if (v && !v.startsWith("data:")) {
+        try { return new URL(v, url).href; } catch (e) {}
+      }
+    }
+    return "";
+  };
+
+  // 設備欄の写真(※画像はイメージです)を除外リストへ
   const setubiRoots = new Set();
-  $('[id^="bkSetibi"], [id*="etubi"], [id*="etibi"]').find("img[src]").each((_, img) => {
-    const s = $(img).attr("src"); if (s) setubiRoots.add(rootKey(s));
-  });
-  $('a[href*="bkSetibi"]').each((_, a) => {
-    $(a).parent().find("img[src]").each((_, img) => {
-      const s = $(img).attr("src"); if (s) setubiRoots.add(rootKey(s));
-    });
+  $('.bkSetubi_list img, [id^="bkSetibi"] img, .bkSetibi_lity_box img, .bkSetubi_img img').each((_, el) => {
+    const u = imgUrl(el); if (u) setubiRoots.add(rootKey(u));
   });
 
-  // 候補を集めて、同じ写真グループごとに最新版だけ残す
+  const BAN_IMG = /(logo|bnr|banner|label|maina|selfevaluation|maemura-bath|transparent|spotlight)/i;
   const groups = new Map(); // rootKey → {url, stamp, order}
   let order = 0;
-  const consider = (u) => {
-    if (!u || !/\/wp-content\/uploads\//.test(u)) return;
-    if (!/\.(jpe?g|png)(\?|$)/i.test(u)) return;
-    if (/(logo|bnr|banner|label|maina|selfevaluation|maemura-bath)/i.test(u)) return;
+  const consider = (u, toFront) => {
+    if (!u) return;
+    if (!/\.(jpe?g|png)(\?|$)/i.test(u)) return;      // gif等は対象外
+    if (BAN_IMG.test(u)) return;
     const k = rootKey(u);
     if (setubiRoots.has(k)) return;
     const st = stampOf(u);
     const g = groups.get(k);
-    if (!g) groups.set(k, { url: u, stamp: st, order: order++ });
-    else if (st > g.stamp) { g.url = u; g.stamp = st; } // 日時が新しい方を採用
+    if (!g) groups.set(k, { url: u, stamp: st, order: toFront ? -1 : order++ });
+    else {
+      if (st > g.stamp) { g.url = u; g.stamp = st; }   // 差し替え後(日時が新しい方)を採用
+      if (toFront) g.order = -1;
+    }
   };
-  const ogImg = $('meta[property="og:image"]').attr("content");
-  consider(ogImg);
-  $("img[src]").each((_, img) => {
-    const a = $(img).closest("a");
-    const href = a.length ? (a.attr("href") || "") : "";
-    const linkedPost = (href.match(/post-(\d+)/) || [])[1];
-    if (linkedPost && linkedPost !== postIdForPhoto) return; // 他物件のサムネイル
-    consider($(img).attr("src"));
-  });
+  // 1. メイン写真(必ず先頭にする)
+  $(".bkSingle_mainphoto img, .bkMainphoto img").each((_, el) => consider(imgUrl(el), true));
+  // 2. ギャラリー(bkSlider2)の中だけを順番どおりに
+  $("ul.bkSlider2 li img").each((_, el) => consider(imgUrl(el), false));
+  // 3. 囲いが見つからないページへの保険:og:imageの1枚だけ
+  if (!groups.size) {
+    const og = $('meta[property="og:image"]').attr("content");
+    if (og) consider(og, true);
+  }
   const photos = [...groups.values()]
     .sort((a, b) => a.order - b.order)
-    .slice(0, 12)
+    .slice(0, MAX_PHOTOS)
     .map((g, i) => ({ id: "p" + (i + 1), url: g.url, main: i === 0 }));
   if (!photos.length) warn("写真が1枚も取れませんでした");
 
