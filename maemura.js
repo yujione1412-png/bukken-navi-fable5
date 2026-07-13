@@ -261,6 +261,20 @@ async function main() {
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
 
+  // 写真の取得状況(問題調査用の診断ログ)
+  if (scraped.length) {
+    const total = scraped.reduce((n, s) => n + s.photos.length, 0);
+    const one = scraped.filter((s) => s.photos.length <= 1);
+    console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚 / 1枚以下の物件 ${one.length}件/${scraped.length}件`);
+    scraped.slice(0, 3).forEach((s) =>
+      console.log(`[写真診断] 例: ${s.name} → ${s.photos.length}枚`));
+    if (one.length > scraped.length * 0.7) {
+      console.log(`[写真診断] 大半の物件で写真が1枚以下です。ギャラリーの構造が想定と異なる可能性があります。`);
+      const sample = one[0];
+      if (sample) console.log(`[写真診断] 調査用サンプル: ${sample.detailUrl}`);
+    }
+  }
+
   // 3. 前回データと突き合わせて反映(掲載終了の判定・価格履歴の記録)
   const prev = loadData(DATA_FILE);
   const merged = mergeListings(prev.listings || [], { [SOURCE]: scraped }, [SOURCE], todayStr());
