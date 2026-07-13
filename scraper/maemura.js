@@ -72,40 +72,68 @@ function parseDetail(html, url, warnings) {
     layout = lm ? lm[0] : "";
   }
 
-  // 学校区
-  const elementary = (kv["小学校区"] || "").trim();
+  // 学校区(「花園小学校・鶴城中学校」のような併記から正しく分離する)
+  let elementary = (kv["小学校区"] || "").trim();
   let junior = (kv["中学校区"] || "").trim();
+  if (/中学校/.test(elementary)) {
+    if (!junior) {
+      const jm0 = elementary.match(/([^\s、。,，！!・/／()（）]{1,6}中学校)/);
+      if (jm0) junior = jm0[1];
+    }
+    const em = elementary.match(/([^\s、。,，！!・/／()（）]{1,8}小学校)/);
+    elementary = em ? em[1] : "";
+  }
+  if (/小学校/.test(junior)) {
+    const jm1 = junior.match(/([^\s、。,，！!・/／()（）]{1,6}中学校)/);
+    junior = jm1 ? jm1[1] : "";
+  }
   if (!junior) {
-    const jm = ($('meta[name="description"]').attr("content") || "").match(/([^\s、。,！!]{2,8}中学校)区/);
+    const jm = ($('meta[name="description"]').attr("content") || "").match(/([^\s、。,，！!・/／()（）]{1,6}中学校)区?/);
     if (jm) junior = jm[1];
   }
 
-  // 周辺施設(買い物・交通の行から)
+  // 周辺施設(買い物・交通の行から)。名前から距離・徒歩表記を取り除く
   const facilities = [];
   for (const [label, cat] of [["買い物", "super"], ["交通", "bus"]]) {
     const v = kv[label];
     if (!v) continue;
     const min = (v.match(/徒歩\s*(\d+)\s*分/) || [])[1] || "";
-    let nm = v.split(/[約(（]/)[0].trim();
+    let nm = v
+      .replace(/[（(]\s*徒歩\s*\d+\s*分\s*[)）]?/g, "")
+      .replace(/徒歩\s*\d+\s*分/g, "")
+      .replace(/約?\s*[\d,，]+(?:\.\d+)?\s*[mｍkKMｋｍ]+/g, "")
+      .replace(/\s+/g, " ").trim();
     if (!nm) nm = v.trim();
     const c = label === "交通" ? (/駅/.test(nm) && !/バス/.test(nm) ? "station" : "bus") : cat;
     facilities.push({ name: nm, min, cat: c });
   }
 
-  // 写真:掲載画像のうちアップロード写真のみ(ロゴ・バナー類は除外)
+  // 写真:この物件のギャラリーだけを集める
+  //  - 「他の物件へのリンク」が付いた画像(おすすめ物件のサムネイル等)は除外
+  //  - 同じ写真のサイズ違い(-680x507 など)は1枚に統合
+  const postIdForPhoto = (url.match(/post-(\d+)/) || [])[1] || "";
   const seen = new Set(); const photos = [];
   const og = $('meta[property="og:image"]').attr("content");
+  const photoKey = (u) => u.split("/").pop().replace(/-\d+x\d+(?=\.)/, "").split("?")[0];
   const push = (u) => {
     if (!u || !/\/wp-content\/uploads\//.test(u)) return;
     if (!/\.(jpe?g|png)(\?|$)/i.test(u)) return;
     if (/(logo|bnr|banner|label|maina)/i.test(u)) return;
-    const keyU = u.split("/").pop();
-    if (seen.has(keyU)) return;
-    seen.add(keyU);
+    const k = photoKey(u);
+    if (seen.has(k)) return;
+    seen.add(k);
     photos.push({ id: "p" + (photos.length + 1), url: u, main: photos.length === 0 });
   };
   push(og);
-  $("img[src]").each((_, img) => { if (photos.length < 12) push($(img).attr("src")); });
+  $("img[src]").each((_, img) => {
+    if (photos.length >= 12) return;
+    // 画像がリンクで包まれていて、そのリンク先が「別の物件ページ」なら除外
+    const a = $(img).closest("a");
+    const href = a.length ? (a.attr("href") || "") : "";
+    const linkedPost = (href.match(/post-(\d+)/) || [])[1];
+    if (linkedPost && linkedPost !== postIdForPhoto) return;
+    push($(img).attr("src"));
+  });
   if (!photos.length) warn("写真が1枚も取れませんでした");
 
   // 緯度経度(Googleマップリンクから)
