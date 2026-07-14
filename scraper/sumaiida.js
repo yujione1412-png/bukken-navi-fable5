@@ -22,7 +22,8 @@ const MAX_PHOTOS = 5;
 const MAX_PAGES_PER_CITY = 10;   // 暴走防止
 
 const abs = (u) => (u.startsWith("http") ? u : BASE + u);
-const DETAIL_RE = /href="([^"]*\/ikkodate\/[a-z0-9_-]+\/[a-z0-9_-]+\/(\d{8,}[-\d]*)\/?)"/g;
+// 物件IDは「5011601000515591481-2」(数字のみ)と「1012401010815PJ-054228-2」(英字入り)の2形式がある
+const DETAIL_RE = /href="([^"]*\/ikkodate\/[a-z0-9_-]+\/[a-z0-9_-]+\/(\d[0-9A-Za-z]{7,}[-0-9A-Za-z]*)\/?)"/g;
 
 /* ページ内に実際に書かれているページ送りリンク(page_num=2以降)を拾う。
    URLを自前で組み立てると検索条件が欠けて1ページ目が返るため、実物のリンクを辿る */
@@ -119,7 +120,7 @@ function parseDetail(html, url, warnings) {
     .map((g, i) => ({ id: "p" + (i + 1), url: g.url, main: i === 0 }));
   if (!photos.length) warn("写真が1枚も取れませんでした");
 
-  const slug = ((url.match(/\/(\d{8,}[-\d]*)\/?$/) || [])[1] || "").replace(/\/$/, "");
+  const slug = ((url.match(/\/(\d[0-9A-Za-z]{7,}[-0-9A-Za-z]*)\/?$/) || [])[1] || "").replace(/\/$/, "");
   return {
     id: `${SOURCE}-${slug}`,
     source: SOURCE,
