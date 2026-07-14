@@ -130,6 +130,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .pmove.up{background:#fae3e0;color:var(--red)}
 .card .tags span.units{background:var(--orange);color:#fff;border-color:var(--orange);font-weight:700}
 .card .tags span.end{background:#d5d0c2;color:#6f6a5c;border-color:#c4beac;font-weight:600}
+.card .tags span.noloc{background:#f6f2e6;color:#a05a2c;border:1px dashed #cf9a6b}
+.tag.noloc{border-style:dashed;color:#a05a2c;border-color:#cf9a6b}
+.precWarn{color:#a05a2c;font-weight:600}
 .starBtn{position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;padding:4px;line-height:1}
 .starBtn.on{color:var(--orange)}
 .empty{text-align:center;color:var(--sub);padding:48px 20px;font-size:.9rem}
@@ -331,7 +334,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.10</span>
+    <h1>物件ナビ</h1><span class="ver">v0.11</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -383,7 +386,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   </div>
   <div id="mapDiv">地図を読み込んでいます…</div>
   <div id="mapCount"></div>
-  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。正確な所在地はHPでご確認ください。</div>
+  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。</div>
 </div>
 
 <!-- ============ 詳細画面 ============ -->
@@ -410,7 +413,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     </div>
     <div class="dbox" id="dMapBox">
       <a class="btn btn-green" id="dMapLink" target="_blank" rel="noopener">📍 Google Mapで開く</a>
-      <div class="mapnote">※ 位置は住所から自動設定しているため、実際の場所とずれる場合があります。正確な所在地はHPの物件ページでご確認ください。</div>
+      <div class="mapnote" id="dMapNote"></div>
     </div>
     <div class="dbox" id="dHpBox">
       <a class="btn btn-line" id="dHpLink" target="_blank" rel="noopener">🏠 HPの物件ページを開く</a>
@@ -819,8 +822,16 @@ function computeTags(l){
   if(l.stories) t.push(l.stories);
   if(isFutureBuilt(l.builtAt)) t.push("未完成");
   if(isNew(l)) t.push("New");
+  if(!coordsOf(l)) t.push("位置情報なし");
   return t;
 }
+/* 位置情報の精度: 住所からの自動推定がおおよそ(番地なし/町名レベル)かどうか */
+function lowPrec(l){ return l.locPrec==="banchi" || l.locPrec==="town"; }
+function precLabel(l){
+  return l.locPrec==="town" ? "町名レベルのおおよその位置"
+       : l.locPrec==="banchi" ? "番地を除いた住所からのおおよその位置" : "";
+}
+
 /* 写真: 縮小版(local)があればそれを優先。読み込み失敗時は元URLに自動切替 */
 function photoSrc(p){ return p ? (p.local || p.url || "") : ""; }
 function imgFall(el, mode){
@@ -967,10 +978,12 @@ function orderedTags(items){
   });
   const storySorted = [...stories].sort((a,b)=>STORY_ORDER.indexOf(a)-STORY_ORDER.indexOf(b));
   const layoutSorted = [...layouts].sort();
+  const hasNoLoc = items.some(l=>!coordsOf(l));
   const tags=[];
   if(hasNew) tags.push("New");
   tags.push(...wardSorted, ...[...outside].sort((a,b)=>a.localeCompare(b,"ja")), ...storySorted, ...layoutSorted);
   if(hasMikan) tags.push("未完成");
+  if(hasNoLoc) tags.push("位置情報なし");
   return tags;
 }
 function renderTagRow(){
@@ -1034,7 +1047,7 @@ function renderList(){
           ${ended?`<span class="end">掲載終了</span>`:""}
           ${un?`<span class="units">${un}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
-          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
+          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":""}${esc(t)}</span>`).join("")}
         </div>
         <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
       </div>
@@ -1112,7 +1125,7 @@ function renderMapTagRow(){
   const box = document.getElementById("mapTagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 function mapItems(){
@@ -1155,11 +1168,12 @@ function refreshMapMarkers(){
     plotted++;
     bounds.push(c);
     const color = (SOURCES[l.source]||{}).color || "#57523f";
+    const low = lowPrec(l);
     const icon = L.divIcon({className:"", iconSize:[26,26], iconAnchor:[13,24],
-      html:`<div class="pin" style="background:${color}"></div>`});
+      html:`<div class="pin" style="background:${color};${low?"border-style:dashed;opacity:.8":""}"></div>`});
     const mk = L.marker(c, {icon}).addTo(leafletMap);
     mk.bindTooltip(
-      `<div class="tipName">${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
+      `<div class="tipName">${low?"≈ ":""}${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
       {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
     mk.on("click", ()=>{ location.hash = "#detail/"+encodeURIComponent(l.id); });
     mapMarkers.push(mk);
@@ -1249,8 +1263,15 @@ function renderDetail(id){
   // 地図・HPリンク
   const mapQ = (l.locText||"").trim() || (l.address||"").trim();
   document.getElementById("dMapBox").style.display = mapQ ? "" : "none";
-  if(mapQ) document.getElementById("dMapLink").href =
-    "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(mapQ);
+  if(mapQ){
+    document.getElementById("dMapLink").href =
+      "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(mapQ);
+    document.getElementById("dMapLink").textContent =
+      lowPrec(l) ? "📍 Google Mapで開く(おおよその位置)" : "📍 Google Mapで開く";
+    document.getElementById("dMapNote").innerHTML = lowPrec(l)
+      ? `<span class="precWarn">⚠ この物件のピンは「${esc(precLabel(l))}」です。実際の区画とはずれます。</span> 正確な所在地はHPの物件ページでご確認ください。`
+      : "※ 位置は住所から自動設定しているため、実際の場所とずれる場合があります。正確な所在地はHPの物件ページでご確認ください。";
+  }
   document.getElementById("dHpBox").style.display = l.detailUrl ? "" : "none";
   if(l.detailUrl) document.getElementById("dHpLink").href = l.detailUrl;
   // 学校区
@@ -1450,6 +1471,7 @@ function saveForm(){
       const pa=(v.photos||[]).map(p=>p.url).join("\n");
       const pb=(b.photos||[]).map(p=>p.url).join("\n");
       if(pa!==pb) o.photos = v.photos;
+      if(o.locText !== undefined) o.locPrec = "";   // 座標を手動修正したら「おおよそ」表示を解除
       const hasContent = Object.keys(o).some(k=>k!=="candidate" && k.charAt(0)!=="_");
       if(hasContent){ o._editedAt = todayStr(); ovrs[editingId]=o; }
       else if(o.candidate){ ovrs[editingId]={candidate:true}; }
