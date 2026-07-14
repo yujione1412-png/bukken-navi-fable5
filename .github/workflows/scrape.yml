@@ -3,7 +3,7 @@ name: 物件データ自動更新
 on:
   schedule:
     # 毎週火曜 朝6:00(日本時間) = 月曜 21:00(世界標準時)
-    - cron: "0 21 * * 1"
+    - cron: "0 21 * * 1,4"   # 毎週火曜・金曜の朝6時(日本時間)に自動実行
   workflow_dispatch: {}   # GitHubの画面から手動実行するためのボタン
 
 permissions:
