@@ -78,13 +78,22 @@ const KNOWN_LABELS = [
 ];
 function tablePairs($) {
   const kv = {};
+  const hasManYen = (t) => /[\d,，]+(?:\.\d+)?万円/.test(t);
   $("table tr").each((_, tr) => {
     const cells = $(tr).children("th,td").toArray();
     let key = null;
     for (const c of cells) {
       const txt = $(c).text().replace(/\s+/g, " ").trim();
-      if (c.tagName === "th") { key = txt; }
-      else if (key) { if (txt && !(key in kv)) kv[key] = txt; key = null; }
+      if (c.tagName === "th") { key = txt; continue; }
+      if (!key) continue;
+      if (!(key in kv)) { if (txt) kv[key] = txt; }
+      else if (/価格/.test(key) && hasManYen(txt) && !hasManYen(kv[key])) {
+        // 「価格|(…)セット価格|2,180万円」のような3列構成では、
+        // 説明文ではなく「万円」入りの数字セルを価格として採用する
+        kv[key] = txt;
+      }
+      // 価格の行で、まだ数字が取れていなければ次のセルも同じ項目として見る
+      if (!(/価格/.test(key) && !hasManYen(kv[key] || ""))) key = null;
     }
     // thが無い表(td,tdの2列)への保険
     if (!$(tr).children("th").length && cells.length >= 2) {
