@@ -122,6 +122,12 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 }
 .card .tags span.src{background:var(--green);color:#f6f2e6;border-color:var(--green)}
 .card .tags span.new{background:var(--orange-bg);color:var(--orange);border-color:var(--orange)}
+.card .tags span.newYellow{background:#f9e04b;color:#7a5d00;border-color:#e3c72e;font-weight:700}
+.tag.newYellow{background:#f9e04b;border-color:#e3c72e;color:#7a5d00;font-weight:700}
+.tag.newYellow.on{background:#f2c410;border-color:#c8a000;color:#5a4500}
+.pmove{display:inline-block;font-size:.68rem;font-weight:700;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}
+.pmove.down{background:#e3edf8;color:var(--blue)}
+.pmove.up{background:#fae3e0;color:var(--red)}
 .card .tags span.units{background:var(--orange);color:#fff;border-color:var(--orange);font-weight:700}
 .card .tags span.end{background:#d5d0c2;color:#6f6a5c;border-color:#c4beac;font-weight:600}
 .starBtn{position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;padding:4px;line-height:1}
@@ -237,7 +243,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 #mapCount{padding:2px 14px;font-size:.85rem;color:var(--sub)}
 .pin{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
   border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
-.leaflet-tooltip.priceTip{font-weight:700;color:var(--orange);padding:1px 6px;font-size:.72rem}
+.leaflet-tooltip.infoTip{padding:3px 8px;line-height:1.3;cursor:pointer}
+.leaflet-tooltip.infoTip .tipName{font-weight:700;font-size:.72rem;color:var(--ink);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.leaflet-tooltip.infoTip .tipPrice{font-weight:700;font-size:.75rem;color:var(--orange)}
 .popName{font-weight:700;margin-bottom:2px}
 .popPrice{color:var(--orange);font-weight:700}
 .popLink{display:inline-block;margin-top:5px;font-size:.85rem}
@@ -323,7 +331,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.8</span>
+    <h1>物件ナビ</h1><span class="ver">v0.9</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -508,7 +516,6 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <button id="muPrice"><span class="mi">💰</span>価格で絞り込む</button>
     <button id="muStar"><span class="mi">★</span>候補を見る</button>
     <button id="muCsv"><span class="mi">📊</span>一覧表を書き出す</button>
-    <button id="muAi"><span class="mi">🤖</span>AI補強プロンプト</button>
   </div>
   <div class="menuFoot">
     <div class="mline"><a href="#" id="muReload">↻ 最新データを読み込む</a></div>
@@ -523,6 +530,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
       </select>
     </div>
     <div class="mnote" id="menuInfo"></div>
+    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎週火曜、またはGitHubの「Run workflow」)。</div>
+    <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
   </div>
   <div class="mbtns"><button class="mb-cancel" id="menuClose">閉じる</button></div>
 </div></div>
@@ -776,7 +785,23 @@ function areaTag(addr){
 }
 function isNew(l){
   if(!l.createdAt) return false;
-  return (Date.now() - new Date(l.createdAt).getTime()) < 31*24*3600*1000;
+  return (Date.now() - new Date(l.createdAt).getTime()) < 14*24*3600*1000;  // 登録から2週間
+}
+/* 2週間以内の値動き → {dir:"down"|"up"} */
+function recentPriceMove(l){
+  const c = l.priceChanges||[];
+  const last = c[c.length-1];
+  if(!last || !last.date) return null;
+  if(Date.now() - new Date(last.date).getTime() >= 14*24*3600*1000) return null;
+  const pf = priceMan(last.from), pt = priceMan(last.to);
+  if(pf==null || pt==null || pf===pt) return null;
+  return { dir: pt<pf ? "down" : "up" };
+}
+function moveBadge(l, big){
+  const mv = recentPriceMove(l);
+  if(!mv) return "";
+  const label = mv.dir==="down" ? "↓値下げ" : "↑値上げ";
+  return `<span class="pmove ${mv.dir}"${big?' style="font-size:.78rem"':''}>${label}</span>`;
 }
 function layoutTags(layout){
   const m = String(layout||"").toUpperCase().match(/\d[SLDK]{1,5}/g);
@@ -940,7 +965,7 @@ function renderTagRow(){
   const box = document.getElementById("tagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 
@@ -959,13 +984,8 @@ function renderList(){
   // 左下: 掲載終了ボタン
   const eb = document.getElementById("endedBtn");
   const en = endedCount();
-  if(state.view==="active" && en>0){
-    eb.classList.add("on");
-    eb.textContent = `🗂 掲載終了(${en})`;
-  }else if(state.view==="ended"){
-    eb.classList.add("on");
-    eb.textContent = "✕ 掲載中に戻る";
-  }else eb.classList.remove("on");
+  eb.classList.add("on");   // 常に表示
+  eb.textContent = state.view==="ended" ? "✕ 掲載中に戻る" : `🗂 掲載終了(${en})`;
   // 掲載終了表示中バナー
   const bn = document.getElementById("endedBanner");
   bn.classList.toggle("on", state.view==="ended");
@@ -993,13 +1013,13 @@ function renderList(){
       <div class="thumb">${main?`<img src="${esc(main.url)}" loading="lazy" alt="" onerror="this.parentNode.textContent='写真なし'">`:"写真なし"}</div>
       <div class="body">
         <div class="name">${esc(l.name)}</div>
-        <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}</div>
+        <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}${moveBadge(l)}</div>
         <div class="addr">${esc(l.address||"")}</div>
         <div class="tags">
           ${ended?`<span class="end">掲載終了</span>`:""}
           ${un?`<span class="units">${un}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
-          ${tags.map(t=>`<span class="${t==="New"||t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
+          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
         </div>
         <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
       </div>
@@ -1077,7 +1097,7 @@ function renderMapTagRow(){
   const box = document.getElementById("mapTagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 function mapItems(){
@@ -1123,11 +1143,10 @@ function refreshMapMarkers(){
     const icon = L.divIcon({className:"", iconSize:[26,26], iconAnchor:[13,24],
       html:`<div class="pin" style="background:${color}"></div>`});
     const mk = L.marker(c, {icon}).addTo(leafletMap);
-    mk.bindTooltip(esc(l.price||l.name), {permanent:true, direction:"right", offset:[10,-14], className:"priceTip"});
-    mk.bindPopup(`<div class="popName">${esc(l.name)}</div>
-      <div class="popPrice">${esc(l.price||"価格未定")}</div>
-      <div style="font-size:.78rem;color:#7a7466">${esc(l.address||"")}</div>
-      <a class="popLink" href="#detail/${encodeURIComponent(l.id)}">詳細を見る →</a>`);
+    mk.bindTooltip(
+      `<div class="tipName">${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
+      {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
+    mk.on("click", ()=>{ location.hash = "#detail/"+encodeURIComponent(l.id); });
     mapMarkers.push(mk);
   }
   const noLoc = arr.length - plotted;
@@ -1154,7 +1173,7 @@ function renderDetail(id){
     ? photos.map(p=>`<img src="${esc(p.url)}" alt="" onerror="this.remove()">`).join("")
     : `<div class="noPhoto">写真なし</div>`;
   document.getElementById("dName").textContent = l.name;
-  document.getElementById("dPrice").textContent = l.price || "価格未定";
+  document.getElementById("dPrice").innerHTML = esc(l.price || "価格未定") + moveBadge(l, true);
   document.getElementById("dAddr").textContent = l.address || "";
   document.getElementById("dEditedBadge").innerHTML = l.edited
     ? `<span class="badge-edited">✎ 手動編集済み(編集した項目は自動更新で上書きされません)</span>
@@ -1724,7 +1743,7 @@ document.getElementById("muStar").addEventListener("click", ()=>{
   closeSheet("menuBg"); state.tab="candidate"; renderHome(); window.scrollTo(0,0);
 });
 document.getElementById("muCsv").addEventListener("click", openCsvSheet);
-document.getElementById("muAi").addEventListener("click", openAiSheet);
+document.getElementById("muAi").addEventListener("click", e=>{ e.preventDefault(); openAiSheet(); });
 document.getElementById("muReload").addEventListener("click", async e=>{
   e.preventDefault();
   loadLS();
