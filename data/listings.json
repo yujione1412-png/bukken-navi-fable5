@@ -1,7 +1,878 @@
 {
- "updatedAt": "2026-07-14T10:03:09.542Z",
- "count": 117,
+ "updatedAt": "2026-07-14T10:43:07.270Z",
+ "count": 130,
  "listings": [
+  {
+   "id": "sumaiida-1012401010815PJ-052701-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン西区戸坂町357番",
+   "price": "2,790万円",
+   "address": "熊本県熊本市 西区戸坂町17-1",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-052701-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "96.05m²",
+   "landArea": "216.14m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市上熊本線「新町」駅までバス5分「西屋敷」停徒歩3分",
+     "min": "3",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057488_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057488_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057488_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057488_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057488_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.78897, 130.68368",
+   "hpText": "株式会社飯田産業のハートフルタウン西区戸坂町357番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,790万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-052866-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン北区池田3丁目769番",
+   "price": "2,490万円",
+   "address": "熊本県熊本市 北区池田３丁目4-25",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-052866-2/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "95.64m²",
+   "landArea": "120.62m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「池田」駅までバス3分「徳王」停徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130053536_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130053536_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130053536_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130053536_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130053536_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.83665, 130.70828",
+   "hpText": "株式会社飯田産業のハートフルタウン北区池田3丁目769番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,490万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-053851-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン南区野田2丁目200番",
+   "price": "2,590万円",
+   "address": "熊本県熊本市 南区野田２丁目10-8",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-053851-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "101.02m²",
+   "landArea": "134m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅までバス6分「加瀬川橋」停徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130054476_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130054476_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130054476_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130054476_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130054476_11.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.73349, 130.68623",
+   "hpText": "株式会社飯田産業のハートフルタウン南区野田2丁目200番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,590万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-053852-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン北区兎谷1丁目598番",
+   "price": "2,490万円",
+   "address": "熊本県熊本市 北区兎谷１丁目2-101",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-053852-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "100.4m²",
+   "landArea": "164.04m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「亀井」駅まで徒歩14分",
+     "min": "14",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130055997_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130055997_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130055997_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130055997_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130055997_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.837629, 130.730715",
+   "hpText": "株式会社飯田産業のハートフルタウン北区兎谷1丁目598番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,490万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-054228-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン東区沼山津3丁目801番",
+   "price": "2,890万円",
+   "address": "熊本県熊本市 東区沼山津３丁目5-21",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-054228-2/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "93.57m²",
+   "landArea": "133.75m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅までバス9分「沼山津神社前」停徒歩4分",
+     "min": "4",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130058327_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130058327_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130058327_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130058327_s1.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130058327_s2.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.777108, 130.78198",
+   "hpText": "株式会社飯田産業のハートフルタウン東区沼山津3丁目801番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,890万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-054386-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン東区桜木1丁目20番",
+   "price": "3,590万円",
+   "address": "熊本県熊本市 東区桜木１丁目13-15",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-054386-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "96.67m²",
+   "landArea": "146.43m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩23分熊本市健軍線「健軍町」駅までバス7分「秋津薬局前」停徒歩4分",
+     "min": "23",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130059017_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130059017_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130059017_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130059017_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130059017_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.778913, 130.779389",
+   "hpText": "株式会社飯田産業のハートフルタウン東区桜木1丁目20番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,590万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-054641-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン南区出仲間2丁目392番",
+   "price": "3,490万円",
+   "address": "熊本県熊本市 南区出仲間２丁目3-12",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-054641-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "94.19m²・101.43m²",
+   "landArea": "151.27m²・162.33m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅までバス9分「出仲間」停徒歩4分",
+     "min": "4",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130059337_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130059337_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130059337_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130059337_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130059337_19.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.77025, 130.71414",
+   "hpText": "株式会社飯田産業のハートフルタウン南区出仲間2丁目392番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,490万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-055319-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン菊陽町向陽台4200番",
+   "price": "3,290万円",
+   "address": "熊本県菊池郡 菊陽町向陽台4-3",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055319-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "99.36m²",
+   "landArea": "175.05m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「光の森」駅までバス19分「新地団地」停徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062502_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062502_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062502_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062502_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062502_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85647, 130.75157",
+   "hpText": "株式会社飯田産業のハートフルタウン菊陽町向陽台4200番の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,290万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-055401-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン北区清水新地1丁目699番",
+   "price": "2,890万円～3,390万円",
+   "address": "熊本県熊本市 北区清水新地１丁目5-91",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055401-2/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "89.84m²～106.81m²",
+   "landArea": "125.65m²～143.19m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「堀川」駅まで徒歩13分",
+     "min": "13",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130063361_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130063361_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130063361_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130063361_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130063361_21.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.848856, 130.731826",
+   "hpText": "株式会社飯田産業のハートフルタウン北区清水新地1丁目699番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,890万円～3,390万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-055531-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン東区沼山津4丁目1912番",
+   "price": "3,390万円",
+   "address": "熊本県熊本市 東区沼山津４丁目6-15",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055531-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "99.36m²・103.92m²",
+   "landArea": "191.23m²・198.11m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩30分熊本市健軍線「健軍町」駅までバス9分「沼山津」停徒歩3分",
+     "min": "30",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_11.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.776428, 130.784925",
+   "hpText": "株式会社飯田産業のハートフルタウン東区沼山津4丁目1912番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,390万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-055916-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン西区上代3丁目588番",
+   "price": "3,090万円～3,690万円",
+   "address": "熊本県熊本市 西区上代３丁目3-6",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055916-2/",
+   "layout": "3LDK～4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "88.8m²～105.99m²",
+   "landArea": "129.99m²～158.21m²",
+   "parking": "",
+   "units": "4棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「熊本」駅までバス10分「下高野辺田」停徒歩4分",
+     "min": "4",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062967_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062967_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062967_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062967_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062967_20.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.780949, 130.670979",
+   "hpText": "株式会社飯田産業のハートフルタウン西区上代3丁目588番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,090万円～3,690万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-056135-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン東区桜木1丁目17番",
+   "price": "3,290万円",
+   "address": "熊本県熊本市 東区桜木１丁目19-14",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-056135-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "97.29m²",
+   "landArea": "127.19m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅までバス10分「沼山津神社」停徒歩3分",
+     "min": "3",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061244_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061244_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061244_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061244_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061244_21.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.778723, 130.780325",
+   "hpText": "株式会社飯田産業のハートフルタウン東区桜木1丁目17番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,290万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-056369-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン南区日吉2丁目1218番",
+   "price": "3,090万円～3,590万円",
+   "address": "熊本県熊本市 南区日吉２丁目1218番12の一部ほか（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-056369-2/",
+   "layout": "3LDK～4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "93.57m²～101.43m²",
+   "landArea": "130.17m²～164.11m²",
+   "parking": "",
+   "units": "6棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_22.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.75843, 130.68442",
+   "hpText": "株式会社飯田産業のハートフルタウン南区日吉2丁目1218番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T10:43:07.270Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,090万円～3,590万円"
+    }
+   ]
+  },
   {
    "id": "sumaiida-2012701004557256130-2",
    "source": "sumaiida",
