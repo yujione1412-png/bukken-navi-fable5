@@ -192,6 +192,40 @@ function dlPairs($) {
   return kv;
 }
 
+/* ---------- 住所 → 緯度経度(OpenStreetMapの無料ジオコーディング) ----------
+   利用ポリシー: 1秒1リクエスト以下・連絡先入りUA。ここでは1.2秒間隔で使う。 */
+async function geocode(address) {
+  const tryOnce = async (q) => {
+    const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=jp&q="
+      + encodeURIComponent(q);
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA } });
+      if (!res.ok) return "";
+      const j = await res.json();
+      if (j && j[0] && j[0].lat) return `${(+j[0].lat).toFixed(6)}, ${(+j[0].lon).toFixed(6)}`;
+    } catch (e) {}
+    return "";
+  };
+  let r = await tryOnce(address);
+  if (!r) {
+    // 番地で見つからないことが多いので、末尾の番地部分を削って再挑戦
+    const relaxed = String(address).replace(/[0-9０-９][0-9０-９\-‐−ー番地号の]*$/, "").trim();
+    if (relaxed && relaxed !== address) { await sleep(1200); r = await tryOnce(relaxed); }
+  }
+  return r;
+}
+
+/* 前回データの緯度経度を引き継ぐ(毎回ジオコーディングし直さないため) */
+function reuseLocText(prevList, scraped) {
+  const prevLoc = {};
+  for (const l of prevList || []) if (l.locText) prevLoc[l.id] = l.locText;
+  let reused = 0;
+  for (const s of scraped) {
+    if (!s.locText && prevLoc[s.id]) { s.locText = prevLoc[s.id]; reused++; }
+  }
+  return reused;
+}
+
 /* ---------- robots.txt の User-agent:* ルールで path が許可されているか ---------- */
 function robotsAllows(robotsText, path) {
   const lines = String(robotsText || "").split(/\r?\n/);
@@ -214,5 +248,5 @@ function robotsAllows(robotsText, path) {
   return verdict;
 }
 
-module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows,
+module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows, geocode, reuseLocText,
   mergeListings, loadData, saveData, todayStr, WAIT_MS };
