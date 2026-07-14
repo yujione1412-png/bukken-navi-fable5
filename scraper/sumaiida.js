@@ -24,6 +24,22 @@ const MAX_PAGES_PER_CITY = 10;   // 暴走防止
 const abs = (u) => (u.startsWith("http") ? u : BASE + u);
 const DETAIL_RE = /href="([^"]*\/ikkodate\/[a-z0-9_-]+\/[a-z0-9_-]+\/(\d{8,}[-\d]*)\/?)"/g;
 
+/* ページ内に実際に書かれているページ送りリンク(page_num=2以降)を拾う。
+   URLを自前で組み立てると検索条件が欠けて1ページ目が返るため、実物のリンクを辿る */
+function pickPageLinks(html, cityPath) {
+  const out = new Set();
+  const re = /href="([^"]*page_num=\d+[^"]*)"/g;
+  let m;
+  while ((m = re.exec(html))) {
+    let u = m[1].replace(/&amp;/g, "&");
+    u = abs(u);
+    if (!u.startsWith(BASE + cityPath)) continue;      // 同じ市区町村のページ送りだけ
+    if (/[?&]page_num=1(&|$)/.test(u)) continue;       // 1ページ目は取得済み
+    out.add(u);
+  }
+  return out;
+}
+
 function pickDetailLinks(html) {
   const out = new Map(); // url → id部分
   let m;
@@ -132,20 +148,28 @@ async function main() {
   )].filter((u) => !/\/43100\/$/.test(u));
   console.log(`市区町村ページ: ${cityUrls.length}件`);
 
-  // 2. 各市区町村ページ(+ページ送り)から詳細リンクを集める
+  // 2. 各市区町村ページから詳細リンクを集める。
+  //    2ページ目以降は、ページ内に実際に書かれているページ送りリンクを辿る
   const detailUrls = new Map();
   for (const cityUrl of cityUrls) {
-    for (let page = 1; page <= MAX_PAGES_PER_CITY; page++) {
+    const cityPath = new URL(cityUrl).pathname;
+    const queue = [cityUrl];
+    const visited = new Set();
+    const beforeCity = detailUrls.size;
+    while (queue.length && visited.size < MAX_PAGES_PER_CITY) {
+      const pageUrl = queue.shift();
+      if (visited.has(pageUrl)) continue;
+      visited.add(pageUrl);
       await sleep(WAIT_MS);
-      const pageUrl = page === 1 ? cityUrl : `${cityUrl}?page_num=${page}&select_num=30&sort=1`;
       const html = await fetchHtml(pageUrl);
-      if (!html) break;
-      const before = detailUrls.size;
+      if (!html) continue;
       for (const [u, id] of pickDetailLinks(html)) detailUrls.set(u, id);
-      if (detailUrls.size === before) break;   // 新しいリンクが無ければ最終ページ
+      for (const p of pickPageLinks(html, cityPath)) if (!visited.has(p)) queue.push(p);
     }
+    const added = detailUrls.size - beforeCity;
+    console.log(`  ${cityPath} : ${visited.size}ページ巡回 → ${added}件`);
   }
-  console.log(`物件詳細 ${detailUrls.size}件を発見`);
+  console.log(`物件詳細 合計${detailUrls.size}件を発見`);
 
   // 3. 各詳細ページを解析
   const scraped = [];
