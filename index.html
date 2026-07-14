@@ -269,7 +269,7 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.4</span>
+    <h1>物件ナビ</h1><span class="ver">v0.5</span>
     <span class="hd-note" id="totalNote"></span>
     <button class="hd-reload" id="reloadBtn" aria-label="最新データを読み込む">↻</button>
   </header>
@@ -872,6 +872,7 @@ function renderDetail(id){
   if(l.layout) rows.push(["間取り", esc(l.layout)]);
   if(l.stories) rows.push(["建て方", esc(l.stories)]);
   if(l.parking) rows.push(["駐車場", esc(l.parking)]);
+  if(l.units) rows.push(["販売棟数", esc(l.units)]);
   document.getElementById("dBuilding").innerHTML =
     rows.map(r=>`<div class="kv"><span class="k">${r[0]}</span><span class="v">${r[1]}</span></div>`).join("");
   // 価格の推移:変動(いつ・いくら→いくら)はボタンなしで常に表示。
