@@ -39,18 +39,22 @@ function parseDetail(html, url, warnings) {
   const kv = tablePairs($);
   const fullText = $("body").text().replace(/\s+/g, " ");
 
-  // 物件名:タイトルから宣伝文を除いた末尾部分(「◯◯モデル・2,080万円(税込)」→「◯◯モデル」)
+  // 物件名:タイトルの「｜」区切りの末尾側から、価格部分を取り除いて残った文字を名前にする
+  //   例1「…｜花園7丁目1号地モデル・2,080万円(税込)」→「花園7丁目1号地モデル」
+  //   例2「…｜中原町2号地／2,180万円（税込）」      →「中原町2号地」
+  //   例3「…｜中原町3号地｜2,280万円（税込）」      → 末尾は価格だけ→空になるので一つ前の「中原町3号地」
   let rawTitle = ($("h1").first().text() || $('meta[property="og:title"]').attr("content") || "").trim();
   rawTitle = rawTitle.replace(/\s*\|\s*熊本の.*$/, "");
   let name = "";
-  const segs = rawTitle.split(/[|｜／\/]/).map((s) => s.trim()).filter(Boolean);
+  const segs = rawTitle.split(/[|｜]/).map((s) => s.trim()).filter(Boolean);
   for (let i = segs.length - 1; i >= 0; i--) {
-    if (/万円/.test(segs[i])) {
-      name = segs[i].replace(/[・･]?\s*[\d,，]+(?:\.\d+)?万円.*$/, "").trim();
-      if (name) break;
-    }
+    const cand = segs[i]
+      .replace(/[・･/／]?\s*[\d,，]+(?:\.\d+)?万円.*$/, "")  // 価格とそれ以降を除去
+      .replace(/[【】]/g, "")
+      .trim();
+    if (cand) { name = cand; break; }
   }
-  if (!name) name = (segs[segs.length - 1] || rawTitle).replace(/[【】（）()]/g, "").trim();
+  if (!name) name = rawTitle.replace(/[【】（）()]/g, "").trim();
   if (!name) { warn("物件名が取れませんでした → この物件はスキップ"); return null; }
 
   // 価格(3段階判定は common.js の pickPrice)
