@@ -62,9 +62,14 @@ function pickLinks(html, re) {
     return;
   }
 
-  // 2. 一覧ページ
+  // 2. 一覧ページ(件数が合わない市区の調査用に東区・西区を保存)
   await sleep(1000);
-  const list = await get("https://sumaiida.com/ikkodate/area/kyushu/kumamoto/", "熊本一覧ページ");
+  const higashi = await get("https://sumaiida.com/ikkodate/list/area/kyushu/kumamoto/43102/", "東区一覧ページ");
+  fs.writeFileSync(`${OUT}/list-43102.html`, higashi.text);
+  await sleep(1000);
+  const nishi = await get("https://sumaiida.com/ikkodate/list/area/kyushu/kumamoto/43103/", "西区一覧ページ");
+  fs.writeFileSync(`${OUT}/list-43103.html`, nishi.text);
+  const list = higashi;
   fs.writeFileSync(`${OUT}/list.html`, list.text);
   const detailLinks = pickLinks(list.text, DETAIL_RE);
   console.log(`物件詳細らしきリンク: ${detailLinks.length}件`);
