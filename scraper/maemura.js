@@ -12,6 +12,44 @@ const DATA_FILE = __dirname + "/../data/listings.json";
 const SOURCE = "maemura";
 let lastPhotoDebug = null;   // 写真が取れないときの構造調査用
 
+/* 写真の「もとの名前」(サイズ表記・日時表記・拡張子をむいた核の部分) */
+function photoRoot(u) {
+  let f = u.split("/").pop().split("?")[0].toLowerCase();
+  let prev;
+  do { prev = f;
+    f = f.replace(/\.(jpe?g|png|gif)$/i, "")
+         .replace(/-\d+x\d+$/, "")
+         .replace(/_\d{12}$/, "");
+  } while (f !== prev);
+  return f;
+}
+
+/* 複数の物件で使い回されている画像(キャンペーンバナー・成約済み画像など)を
+   物件写真から除外する。threshold件以上の物件に登場する画像は使い回しと判断。
+   除外の結果0枚になる物件は、空にしないため元の1枚目だけ残す。 */
+function removeSharedPhotos(scraped, threshold = 4) {
+  const freq = new Map();
+  for (const s of scraped) {
+    for (const k of new Set(s.photos.map((p) => photoRoot(p.url)))) {
+      freq.set(k, (freq.get(k) || 0) + 1);
+    }
+  }
+  const sharedKeys = new Set([...freq].filter(([, n]) => n >= threshold).map(([k]) => k));
+  let removed = 0;
+  for (const s of scraped) {
+    const kept = s.photos.filter((p) => !sharedKeys.has(photoRoot(p.url)));
+    if (kept.length && kept.length !== s.photos.length) {
+      removed += s.photos.length - kept.length;
+      kept.forEach((p, i) => { p.id = "p" + (i + 1); p.main = i === 0; });
+      s.photos = kept;
+    }
+  }
+  if (sharedKeys.size) {
+    console.log(`[写真診断] 複数物件で使い回されている画像 ${sharedKeys.size}種類を検出し、のべ${removed}枚を除外しました`);
+  }
+  return scraped;
+}
+
 /* エリア一覧・詳細ページのリンクをHTMLから拾う */
 const DENY = /\/(news|voice|info|staff|staff01|pickup|tenjikai|inquiry|contact|wp-content|recruit|about)\b/;
 function collectLinks(html) {
@@ -46,7 +84,7 @@ function parseDetail(html, url, warnings) {
   let rawTitle = ($("h1").first().text() || $('meta[property="og:title"]').attr("content") || "").trim();
   rawTitle = rawTitle.replace(/\s*\|\s*熊本の.*$/, "");
   let name = "";
-  const segs = rawTitle.split(/[|｜]/).map((s) => s.trim()).filter(Boolean);
+  const segs = rawTitle.split(/[|｜【】]/).map((s) => s.trim()).filter(Boolean);
   for (let i = segs.length - 1; i >= 0; i--) {
     const cand = segs[i]
       .replace(/[・･/／]?\s*[\d,，]+(?:\.\d+)?万円.*$/, "")  // 価格とそれ以降を除去
@@ -121,16 +159,7 @@ function parseDetail(html, url, warnings) {
   //   同じ写真の差し替え(元名_202607071134-680x507.jpg 形式)は最新版だけ採用。
   const MAX_PHOTOS = 5;
 
-  const rootKey = (u) => {
-    let f = u.split("/").pop().split("?")[0].toLowerCase();
-    let prev;
-    do { prev = f;
-      f = f.replace(/\.(jpe?g|png|gif)$/i, "")
-           .replace(/-\d+x\d+$/, "")
-           .replace(/_\d{12}$/, "");
-    } while (f !== prev);
-    return f;
-  };
+  const rootKey = photoRoot;
   const stampOf = (u) => { const m = u.match(/_(\d{12})/); return m ? m[1] : ""; };
 
   // 画像URLの取得:遅延読み込みでは実URLが data-lazy / data-src など
@@ -301,6 +330,7 @@ async function main() {
   }
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
+  removeSharedPhotos(scraped);
 
   // 写真の取得状況(問題調査用の診断ログ)
   if (scraped.length) {
