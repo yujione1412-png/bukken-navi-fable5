@@ -13,7 +13,7 @@
 */
 const cheerio = require("cheerio");
 const { fetchHtml, sleep, pickPrice, tablePairs, robotsAllows, mergeListings,
-  loadData, saveData, todayStr, WAIT_MS } = require("./common");
+  loadData, saveData, todayStr, geocode, reuseLocText, WAIT_MS } = require("./common");
 
 const BASE = "https://bukken.yoka-town.com";
 const DATA_FILE = __dirname + "/../data/listings.json";
@@ -195,6 +195,20 @@ async function main() {
   }
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
+
+  // 位置情報: 前回の値を引き継ぎ、新規物件だけ住所から取得(地図・近隣表示に使う)
+  const prevForLoc = loadData(DATA_FILE);
+  const reused = reuseLocText(prevForLoc.listings, scraped);
+  let geocoded = 0, geoFail = 0;
+  const GEO_LIMIT = 30;   // 1回の実行での上限(相手サービスへの配慮)
+  for (const s of scraped) {
+    if (s.locText || !s.address) continue;
+    if (geocoded + geoFail >= GEO_LIMIT) break;
+    await sleep(1200);
+    s.locText = await geocode(s.address);
+    if (s.locText) geocoded++; else geoFail++;
+  }
+  console.log(`[位置情報] 前回から引き継ぎ ${reused}件 / 新規取得 ${geocoded}件 / 取得できず ${geoFail}件`);
   if (scraped.length) {
     const total = scraped.reduce((n, s) => n + s.photos.length, 0);
     console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚`);
