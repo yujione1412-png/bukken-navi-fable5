@@ -142,6 +142,13 @@ function parseDetail(html, url, warnings) {
     .map(([, g], i) => ({ id: "p" + (i + 1), url: g.url, main: i === 0 }));
   if (!photos.length) warn("写真が1枚も取れませんでした");
 
+  // 緯度経度: HPの埋め込み地図(google.com/maps/embed/v1/place?q=緯度,経度)から直接取得。
+  //  取れたものは「正確」扱い。取れないページだけ、後段の住所推定(おおよそ)で補完する。
+  let locText = "", locPrec = "";
+  const locM = html.match(/[?&](?:amp;)?q=([0-9]{2}\.[0-9]{3,})\s*(?:,|%2C)\s*([0-9]{3}\.[0-9]{3,})/i)
+            || html.match(/!3d([0-9]{2}\.[0-9]{3,})[^0-9]{0,4}!2d?([0-9]{3}\.[0-9]{3,})/);
+  if (locM) { locText = `${locM[1]}, ${locM[2]}`; locPrec = ""; }
+
   return {
     id: `${SOURCE}-${roomId}`,
     source: SOURCE,
@@ -151,7 +158,7 @@ function parseDetail(html, url, warnings) {
     buildingArea: kvGet("建物面積"), landArea: kvGet("土地面積"),
     parking, units: "",
     elementary, elementaryMin, junior, juniorMin,
-    facilities, photos, locText: "", locPrec: "",
+    facilities, photos, locText, locPrec,
     hpText: ($('meta[name="description"]').attr("content") || "").trim(),
     tags: [],
   };
@@ -196,19 +203,20 @@ async function main() {
   scraped.sort((a, b) => a.id.localeCompare(b.id));
   console.log(`解析完了: ${scraped.length}件`);
 
-  // 位置情報: 前回の値を引き継ぎ、新規物件だけ住所から取得(地図・近隣表示に使う)
+  // 位置情報: ①HPの地図から直接取得(最優先・正確) ②前回値の引き継ぎ ③住所からの推定
+  const fromMap = scraped.filter((s) => s.locText).length;
+  console.log(`[位置情報] HPの地図から直接取得: ${fromMap}件/${scraped.length}件`);
   const prevForLoc = loadData(DATA_FILE);
   const reused = reuseLocText(prevForLoc.listings, scraped);
   let geocoded = 0, geoFail = 0;
   const GEO_LIMIT = 200;  // 1回の実行での上限(1.2秒間隔を守るため、200件でも約5分)
   for (const s of scraped) {
-    // 位置が未取得、または精度が未記録(旧バージョンで取得済み)の物件を対象にする
-    if ((s.locText && s.locPrec) || !s.address) continue;
+    if (s.locText || !s.address) continue;   // HP地図または前回値があれば推定不要
     if (geocoded + geoFail >= GEO_LIMIT) break;
     await sleep(1200);
     const g = await geocode(s.address);
     if (g.loc) { s.locText = g.loc; s.locPrec = g.prec; geocoded++; }
-    else if (!s.locText) geoFail++;
+    else geoFail++;
   }
   const noLoc = scraped.filter((s) => !s.locText).length;
   const approx = scraped.filter((s) => s.locPrec === "banchi" || s.locPrec === "town").length;
