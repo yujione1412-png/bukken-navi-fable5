@@ -206,28 +206,32 @@ async function geocode(address) {
     } catch (e) {}
     return "";
   };
-  // 3段階で挑戦: ①住所そのまま → ②番地を外す → ③丁目まで外す(町名レベル)
-  const attempts = [String(address).trim()];
-  const noBanchi = attempts[0].replace(/[0-9０-９][0-9０-９\-‐−ー番地号の]*$/, "").trim();
-  if (noBanchi && noBanchi !== attempts[0]) attempts.push(noBanchi);
+  // 3段階で挑戦: ①住所そのまま(exact) → ②番地を外す(banchi) → ③丁目まで外す(town)
+  // 戻り値: { loc:"緯度, 経度", prec:"exact"|"banchi"|"town" }。見つからなければ loc:""
+  const attempts = [[String(address).trim(), "exact"]];
+  const noBanchi = attempts[0][0].replace(/[0-9０-９][0-9０-９\-‐−ー番地号の]*$/, "").trim();
+  if (noBanchi && noBanchi !== attempts[0][0]) attempts.push([noBanchi, "banchi"]);
   const townOnly = noBanchi.replace(/[0-9０-９]+丁目.*$/, "").trim();
-  if (townOnly && townOnly !== noBanchi && townOnly.length >= 6) attempts.push(townOnly);
-  let r = "";
-  for (const q of attempts) {
-    r = await tryOnce(q);
-    if (r) break;
+  if (townOnly && townOnly !== noBanchi && townOnly.length >= 6) attempts.push([townOnly, "town"]);
+  for (const [q, prec] of attempts) {
+    const loc = await tryOnce(q);
+    if (loc) return { loc, prec };
     await sleep(1200);
   }
-  return r;
+  return { loc: "", prec: "" };
 }
 
 /* 前回データの緯度経度を引き継ぐ(毎回ジオコーディングし直さないため) */
 function reuseLocText(prevList, scraped) {
   const prevLoc = {};
-  for (const l of prevList || []) if (l.locText) prevLoc[l.id] = l.locText;
+  for (const l of prevList || []) if (l.locText) prevLoc[l.id] = { loc: l.locText, prec: l.locPrec || "" };
   let reused = 0;
   for (const s of scraped) {
-    if (!s.locText && prevLoc[s.id]) { s.locText = prevLoc[s.id]; reused++; }
+    if (!s.locText && prevLoc[s.id]) {
+      s.locText = prevLoc[s.id].loc;
+      s.locPrec = prevLoc[s.id].prec;
+      reused++;
+    }
   }
   return reused;
 }
