@@ -119,6 +119,7 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 }
 .card .tags span.src{background:var(--green);color:#f6f2e6;border-color:var(--green)}
 .card .tags span.new{background:var(--orange-bg);color:var(--orange);border-color:var(--orange)}
+.card .tags span.units{background:var(--orange);color:#fff;border-color:var(--orange);font-weight:700}
 .card .tags span.end{background:#d5d0c2;color:#6f6a5c;border-color:#c4beac;font-weight:600}
 .starBtn{
   position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;
@@ -269,7 +270,7 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.6</span>
+    <h1>物件ナビ</h1><span class="ver">v0.7</span>
     <span class="hd-note" id="totalNote"></span>
     <button class="hd-reload" id="reloadBtn" aria-label="最新データを読み込む">↻</button>
   </header>
@@ -657,13 +658,21 @@ function isNew(l){
   if(!l.createdAt) return false;
   return (Date.now() - new Date(l.createdAt).getTime()) < 31*24*3600*1000;
 }
+/* 間取り文字列 →タグの配列(「3LDK・4LDK」「3LDK～4LDK」は分割して両方登録) */
+function layoutTags(layout){
+  const m = String(layout||"").toUpperCase().match(/\d[SLDK]{1,5}/g);
+  return m ? [...new Set(m)] : [];
+}
+/* 販売棟数 → 数値(2棟以上のときだけ返す) */
+function unitsNum(l){
+  const m = String(l.units||"").match(/(\d+)/);
+  return (m && +m[1] >= 2) ? +m[1] : null;
+}
 function computeTags(l){
   const t=[];
   const a=areaTag(l.address); if(a) t.push(a);
-  if(l.layout) t.push(l.layout);
+  t.push(...layoutTags(l.layout));
   if(l.stories) t.push(l.stories);
-  const um = String(l.units||"").match(/(\d+)/);
-  if(um && +um[1] >= 2) t.push("複数棟");
   if(isFutureBuilt(l.builtAt)) t.push("未完成");
   if(isNew(l)) t.push("New");
   return t;
@@ -749,7 +758,7 @@ function renderTagRow(){
   let hasNew=false, hasMikan=false;
   act.forEach(l=>{
     const a=areaTag(l.address); if(a) areas.add(a);
-    if(l.layout) layouts.add(l.layout);
+    layoutTags(l.layout).forEach(x=>layouts.add(x));
     if(l.stories) stories.add(l.stories);
     if(isNew(l)) hasNew=true;
     if(isFutureBuilt(l.builtAt)) hasMikan=true;
@@ -797,6 +806,7 @@ function renderList(){
         <div class="addr">${esc(l.address||"")}</div>
         <div class="tags">
           ${ended?`<span class="end">掲載終了</span>`:""}
+          ${unitsNum(l)?`<span class="units">${unitsNum(l)}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
           ${tags.map(t=>`<span class="${t==="New"||t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
         </div>
