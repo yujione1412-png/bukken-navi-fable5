@@ -139,36 +139,62 @@ async function main() {
   console.log("=== すまいーだ(熊本県) 収集開始 ===");
   const warnings = [];
 
-  // 1. 県ページ → 市区町村一覧リンク(まとめページ 43100 は重複するので除外)
+  // 1. 県ページ → 市区町村一覧リンク。
+  //    まとめページ(43100)にしか載らない物件があるため、43100も含めて巡回する
+  //    (同じ物件はURLで自動的に1件にまとまる)
   const prefHtml = await fetchHtml(PREF);
   if (!prefHtml) { console.error("[ERROR] 県ページが取得できません。中止します。"); process.exit(1); }
   const cityUrls = [...new Set(
     (prefHtml.match(/href="([^"]*\/ikkodate\/list\/area\/kyushu\/kumamoto\/\d{5}\/?)"/g) || [])
       .map((h) => abs(h.replace(/^href="/, "").replace(/"$/, "")).replace(/\/?$/, "/"))
-  )].filter((u) => !/\/43100\/$/.test(u));
+  )];
   console.log(`市区町村ページ: ${cityUrls.length}件`);
 
-  // 2. 各市区町村ページから詳細リンクを集める。
-  //    2ページ目以降は、ページ内に実際に書かれているページ送りリンクを辿る
+  // 2. 各一覧ページから詳細リンクを集める。
+  //    ページ送りは実物のリンクを辿る。取り漏れ防止のため、
+  //    一覧の中で見つかった「沿線・駅別の一覧ページ」(熊本県内)も後で巡回する
   const detailUrls = new Map();
-  for (const cityUrl of cityUrls) {
-    const cityPath = new URL(cityUrl).pathname;
-    const queue = [cityUrl];
-    const visited = new Set();
-    const beforeCity = detailUrls.size;
-    while (queue.length && visited.size < MAX_PAGES_PER_CITY) {
+  const visitedPages = new Set();
+  const stationSeeds = new Set();
+  const MAX_LIST_PAGES = 150;   // 暴走防止(一覧ページの総数上限)
+
+  const collectStationLinks = (html) => {
+    for (const m of html.matchAll(/href="([^"]*\/ikkodate\/list\/station\/kyushu\/kumamoto\/\d+\/?)"/g)) {
+      stationSeeds.add(abs(m[1].replace(/&amp;/g, "&")).replace(/\/?$/, "/"));
+    }
+  };
+  async function crawlListSeed(seedUrl) {
+    const basePath = new URL(seedUrl).pathname;
+    const queue = [seedUrl];
+    const before = detailUrls.size;
+    let pages = 0;
+    while (queue.length && pages < MAX_PAGES_PER_CITY && visitedPages.size < MAX_LIST_PAGES) {
       const pageUrl = queue.shift();
-      if (visited.has(pageUrl)) continue;
-      visited.add(pageUrl);
+      if (visitedPages.has(pageUrl)) continue;
+      visitedPages.add(pageUrl);
+      pages++;
       await sleep(WAIT_MS);
       const html = await fetchHtml(pageUrl);
       if (!html) continue;
       for (const [u, id] of pickDetailLinks(html)) detailUrls.set(u, id);
-      for (const p of pickPageLinks(html, cityPath)) if (!visited.has(p)) queue.push(p);
+      collectStationLinks(html);
+      for (const p of pickPageLinks(html, basePath)) if (!visitedPages.has(p)) queue.push(p);
     }
-    const added = detailUrls.size - beforeCity;
-    console.log(`  ${cityPath} : ${visited.size}ページ巡回 → ${added}件`);
+    return { pages, added: detailUrls.size - before };
   }
+
+  for (const cityUrl of cityUrls) {
+    const r = await crawlListSeed(cityUrl);
+    console.log(`  ${new URL(cityUrl).pathname} : ${r.pages}ページ巡回 → +${r.added}件 (累計${detailUrls.size})`);
+  }
+  const cityTotal = detailUrls.size;
+  let stationPages = 0;
+  for (const stUrl of stationSeeds) {
+    if (visitedPages.size >= MAX_LIST_PAGES) break;
+    const r = await crawlListSeed(stUrl);
+    stationPages += r.pages;
+  }
+  console.log(`  沿線・駅の一覧 ${stationPages}ページを追加巡回 → +${detailUrls.size - cityTotal}件`);
   console.log(`物件詳細 合計${detailUrls.size}件を発見`);
 
   // 3. 各詳細ページを解析
@@ -185,6 +211,14 @@ async function main() {
   if (scraped.length) {
     const total = scraped.reduce((n, s) => n + s.photos.length, 0);
     console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚`);
+    // HPの「◯件」表示は棟数単位、詳細ページは分譲地単位。
+    // 棟数の合計がHPの件数表示に対応するはずなので、突き合わせ用に出力する。
+    const unitsSum = scraped.reduce((n, s) => {
+      const m = (s.units || "").match(/(\d+)/);
+      return n + (m ? +m[1] : 1);
+    }, 0);
+    console.log(`[件数診断] 分譲地(ページ)数 ${scraped.length} / 販売棟数の合計 ${unitsSum}棟`);
+    console.log(`[件数診断] HPの「◯件」は棟単位のため、HP表示と対応するのは合計棟数のほうです`);
   }
 
   // 4. 差分反映(すまいーだ分のみ更新。マエムラ・手動データには触れない)
