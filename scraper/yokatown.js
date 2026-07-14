@@ -200,7 +200,7 @@ async function main() {
   const prevForLoc = loadData(DATA_FILE);
   const reused = reuseLocText(prevForLoc.listings, scraped);
   let geocoded = 0, geoFail = 0;
-  const GEO_LIMIT = 30;   // 1回の実行での上限(相手サービスへの配慮)
+  const GEO_LIMIT = 200;  // 1回の実行での上限(1.2秒間隔を守るため、200件でも約5分)
   for (const s of scraped) {
     if (s.locText || !s.address) continue;
     if (geocoded + geoFail >= GEO_LIMIT) break;
@@ -208,7 +208,10 @@ async function main() {
     s.locText = await geocode(s.address);
     if (s.locText) geocoded++; else geoFail++;
   }
+  const noLoc = scraped.filter((s) => !s.locText).length;
   console.log(`[位置情報] 前回から引き継ぎ ${reused}件 / 新規取得 ${geocoded}件 / 取得できず ${geoFail}件`);
+  console.log(`[位置情報] 位置情報が未設定の物件: 残り${noLoc}件` +
+    (noLoc ? "(住所が地図サービスで見つからない物件。アプリの✎編集で緯度・経度を手動設定できます)" : " → 全件完了!"));
   if (scraped.length) {
     const total = scraped.reduce((n, s) => n + s.photos.length, 0);
     console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚`);
