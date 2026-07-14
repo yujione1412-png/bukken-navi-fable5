@@ -52,7 +52,7 @@ function pickPrice(kv, fullText, warn) {
       const man = priceMan(v);
       if (man != null) {
         if (man >= 500) {
-          const m = String(v).match(/[\d,，]+(?:\.\d+)?万円/);
+          const m = String(v).match(/[\d,，]+(?:\.\d+)?万円(?:\s*[～〜~]\s*[\d,，]+(?:\.\d+)?万円)?/);
           return m ? m[0].replace(/，/g, ",") : v;
         }
         warn(`「${key}: ${v}」は500万円未満のため価格として採用しません`);
@@ -176,5 +176,21 @@ function todayStr() {
   return d.toISOString().slice(0, 10);
 }
 
-module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs,
+/* ---------- 定義リスト(dt/dd)を「ラベル→値」に変換(すまいーだ等) ---------- */
+function dlPairs($) {
+  const kv = {};
+  $("dl").each((_, dl) => {
+    const dts = $(dl).find("dt").toArray();
+    for (const dt of dts) {
+      const key = $(dt).text().replace(/\s+/g, " ").trim();
+      const dd = $(dt).next("dd");
+      if (!key || !dd.length) continue;
+      const val = dd.text().replace(/\s+/g, " ").trim();
+      if (val && !(key in kv)) kv[key] = val;
+    }
+  });
+  return kv;
+}
+
+module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs,
   mergeListings, loadData, saveData, todayStr, WAIT_MS };
