@@ -33,11 +33,14 @@ jobs:
       - name: よかタウンの物件を収集
         run: node scraper/yokatown.js
 
+      - name: 写真を縮小して保存
+        run: node scraper/photos.js
+
       - name: 変更があればコミットして反映
         run: |
           git config user.name "bukken-navi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/listings.json
+          git add data
           if git diff --cached --quiet; then
             echo "変更なし(コミットしません)"
           else
