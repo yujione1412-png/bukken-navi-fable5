@@ -269,7 +269,7 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.5</span>
+    <h1>物件ナビ</h1><span class="ver">v0.6</span>
     <span class="hd-note" id="totalNote"></span>
     <button class="hd-reload" id="reloadBtn" aria-label="最新データを読み込む">↻</button>
   </header>
@@ -662,6 +662,8 @@ function computeTags(l){
   const a=areaTag(l.address); if(a) t.push(a);
   if(l.layout) t.push(l.layout);
   if(l.stories) t.push(l.stories);
+  const um = String(l.units||"").match(/(\d+)/);
+  if(um && +um[1] >= 2) t.push("複数棟");
   if(isFutureBuilt(l.builtAt)) t.push("未完成");
   if(isNew(l)) t.push("New");
   return t;
