@@ -15,3 +15,10 @@ jobs:
           node-version: "20"
       - name: 接続テストを実行
         run: node scraper/sumaiida-test.js
+      - name: サンプルページを成果物として保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sumaiida-sample
+          path: sumaiida-sample/
+          if-no-files-found: ignore
