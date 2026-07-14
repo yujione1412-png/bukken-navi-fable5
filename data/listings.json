@@ -1,7 +1,5054 @@
 {
- "updatedAt": "2026-07-14T03:17:24.596Z",
- "count": 41,
+ "updatedAt": "2026-07-14T07:47:07.615Z",
+ "count": 117,
  "listings": [
+  {
+   "id": "sumaiida-2012701004557256130-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン菊陽町津久礼 第11",
+   "price": "2,980万円",
+   "address": "熊本県菊池郡 菊陽町大字津久礼字下沖野2985番7の一部(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557256130-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "93.96m²・95.58m²",
+   "landArea": "110.13m²・112.52m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「三里木」駅まで徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130059313_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130059313_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130059313_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130059313_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130059313_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8625323, 130.7929373",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン菊陽町津久礼 第11の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,980万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557260745-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区富合町大町 第4",
+   "price": "2,180万円",
+   "address": "熊本県熊本市 南区富合町大町字早高911番6、912番1（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557260745-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2025年12月",
+   "buildingArea": "93.15m²",
+   "landArea": "261.07m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "三角線「富合」駅まで徒歩36分",
+     "min": "36",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130052016_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130052016_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130052016_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130052016_11.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130052016_12.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7269576, 130.6906516",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区富合町大町 第4の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557260751-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市須屋 第17",
+   "price": "2,080万円",
+   "address": "熊本県合志市須屋字群窪2695番141(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557260751-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年12月",
+   "buildingArea": "93.56m²",
+   "landArea": "127.09m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「黒石」駅まで徒歩16分",
+     "min": "16",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130056441_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130056441_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130056441_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130056441_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130056441_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8728825, 130.7483851",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市須屋 第17の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,080万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557260757-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇土市境目町 第3",
+   "price": "2,180万円",
+   "address": "熊本県宇土市境目町字居屋敷816番1、ほか（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557260757-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2026年3月",
+   "buildingArea": "95.58m²",
+   "landArea": "253.21m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "三角線「宇土」駅まで徒歩30分",
+     "min": "30",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130056442_4.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130056442_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130056442_22.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6763578, 130.676182",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇土市境目町 第3の物件詳細ページです。飯田グループホールディングスが熊本県宇土市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557265155-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市須屋 第18",
+   "price": "2,480万円～2,880万円",
+   "address": "熊本県合志市須屋字群窪2695番101の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557265155-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "98.01m²～98.82m²",
+   "landArea": "163.77m²～172.04m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「黒石」駅まで徒歩16分",
+     "min": "16",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130053695_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130053695_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130053695_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130053695_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130053695_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.873422, 130.7486456",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市須屋 第18の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円～2,880万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557266124-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市栄 第6",
+   "price": "2,580万円",
+   "address": "熊本県合志市栄字六郎2295番102（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557266124-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "98.82m²",
+   "landArea": "199.36m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅まで徒歩43分",
+     "min": "43",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130054802_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130054802_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130054802_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130054802_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130054802_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.9016897, 130.7697209",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市栄 第6の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,580万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557268019-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市東区花立 第11",
+   "price": "3,280万円～3,580万円",
+   "address": "熊本県熊本市 東区花立３丁目156番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557268019-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "95.98m²～100.02m²",
+   "landArea": "110.28m²～133.58m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩22分",
+     "min": "22",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060155_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060155_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060155_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060155_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060155_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7834031, 130.7735681",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市東区花立 第11の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,280万円～3,580万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557268587-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン菊陽町向陽台 第1",
+   "price": "2,180万円",
+   "address": "熊本県菊池郡 菊陽町向陽台4200番36の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557268587-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "95.98m²",
+   "landArea": "100.67m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩21分",
+     "min": "21",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130054803_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130054803_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130054803_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130054803_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130054803_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8560064, 130.7514106",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン菊陽町向陽台 第1の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557268655-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン菊陽町津久礼 第12",
+   "price": "3,080万円",
+   "address": "熊本県菊池郡 菊陽町大字津久礼字下沖野2990番3の一部(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557268655-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "95.58m²・98.01m²",
+   "landArea": "112.43m²・122.69m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「三里木」駅まで徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060156_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060156_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060156_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060156_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060156_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8636667, 130.7928716",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン菊陽町津久礼 第12の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,080万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557269203-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区城南町今吉野 第3",
+   "price": "2,380万円",
+   "address": "熊本県熊本市 南区城南町今吉野字中原1302番15（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557269203-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "101.25m²",
+   "landArea": "183.21m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "三角線「富合」駅まで徒歩85分",
+     "min": "85",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130058429_4.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130058429_16.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130058429_17.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130058429_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130058429_22.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7150911, 130.7378043",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区城南町今吉野 第3の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557269261-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市東区沼山津 第3",
+   "price": "3,080万円～3,480万円",
+   "address": "熊本県熊本市 東区沼山津２丁目86番1、87番の各一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557269261-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "98.82m²～102.05m²",
+   "landArea": "160.99m²～201.93m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩23分",
+     "min": "23",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064356_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064356_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064356_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064356_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064356_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7759928, 130.7779465",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市東区沼山津 第3の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,080万円～3,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557272667-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市栄 第7",
+   "price": "2,680万円",
+   "address": "熊本県合志市栄字六郎2295番100（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557272667-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2026年5月",
+   "buildingArea": "86.06m²",
+   "landArea": "212.71m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅まで徒歩43分",
+     "min": "43",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130059951_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130059951_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130059951_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130059951_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130059951_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.9018614, 130.7697035",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市栄 第7の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,680万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557273680-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市東区御領 第7",
+   "price": "2,980万円",
+   "address": "熊本県熊本市 東区御領３丁目535番6（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557273680-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "98.82m²",
+   "landArea": "133.04m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅まで徒歩47分",
+     "min": "47",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.826733, 130.769725",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市東区御領 第7の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,980万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557274176-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇城市松橋町南豊崎 第3",
+   "price": "2,380万円",
+   "address": "熊本県宇城市松橋町 南豊崎字硴ノ江657番2（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557274176-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "",
+   "builtAt": "2026年7月",
+   "buildingArea": "91.53m²・95.58m²",
+   "landArea": "231.42m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「小川」駅まで徒歩45分",
+     "min": "45",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060770_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060770_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060770_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060770_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060770_11.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6235251, 130.6815549",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇城市松橋町南豊崎 第3の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557274188-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区八分字町 第15",
+   "price": "2,480万円～2,780万円",
+   "address": "熊本県熊本市 南区八分字町字上河原2530番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557274188-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "89.1m²～98.01m²",
+   "landArea": "169.92m²～282.62m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩31分",
+     "min": "31",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130065125_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130065125_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130065125_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130065125_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130065125_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7613295, 130.6603988",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区八分字町 第15の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円～2,780万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557277891-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン菊池市泗水町吉富 第9",
+   "price": "2,080万円",
+   "address": "熊本県菊池市泗水町 吉富字高畑205番33の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557277891-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "95.17m²",
+   "landArea": "146.47m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅まで徒歩99分",
+     "min": "99",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130059322_5.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130059322_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130059322_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130059322_22.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.937136, 130.7922654",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン菊池市泗水町吉富 第9の物件詳細ページです。飯田グループホールディングスが熊本県菊池市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,080万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557277910-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市北区楡木 第7",
+   "price": "2,380万円",
+   "address": "熊本県熊本市 北区楡木５丁目2113番5の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557277910-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "93.14m²",
+   "landArea": "105.05m²・111.63m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅まで徒歩24分",
+     "min": "24",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062927_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062927_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062927_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062927_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062927_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8540782, 130.7547529",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市北区楡木 第7の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557278290-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市須屋 第19",
+   "price": "2,380万円",
+   "address": "熊本県合志市須屋字霜深297番60の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557278290-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "93.14m²",
+   "landArea": "104.5m²・104.9m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061365_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061365_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061365_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061365_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061365_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8559641, 130.7401099",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市須屋 第19の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557279848-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市北区楠野町 第2",
+   "price": "2,280万円",
+   "address": "熊本県熊本市 北区楠野町字中原531番6（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557279848-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "97.59m²・98.82m²",
+   "landArea": "199.89m²・200.2m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「植木」駅まで徒歩48分",
+     "min": "48",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061446_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061446_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061446_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061446_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061446_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.87869817420601, 130.7081590966918",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市北区楠野町 第2の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557279971-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区野田 第2",
+   "price": "2,580万円",
+   "address": "熊本県熊本市 南区野田２丁目213番48の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557279971-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "95.98m²",
+   "landArea": "131.77m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅まで徒歩21分",
+     "min": "21",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062929_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062929_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062929_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062929_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062929_11.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7334521, 130.6851714",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区野田 第2の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,580万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557280764-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市北区梶尾町 第10",
+   "price": "2,380万円",
+   "address": "熊本県熊本市 北区梶尾町字出口1368番18（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557280764-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "95.18m²・100.44m²",
+   "landArea": "174.23m²・174.41m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「黒石」駅まで徒歩27分",
+     "min": "27",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130058082_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130058082_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130058082_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130058082_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130058082_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.876964, 130.7243606",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市北区梶尾町 第10の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557281917-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市御代志 第3",
+   "price": "2,480万円",
+   "address": "熊本県合志市御代志字追分1474番11（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557281917-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "81.81m²・101.24m²",
+   "landArea": "200.84m²・202.57m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅まで徒歩14分",
+     "min": "14",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130058959_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130058959_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130058959_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130058959_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130058959_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.89217258457422, 130.75168292946157",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市御代志 第3の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557283472-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区城南町碇 第1",
+   "price": "2,180万円",
+   "address": "熊本県熊本市 南区城南町碇字長島1205番13（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557283472-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "97.59m²",
+   "landArea": "204.32m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "三角線「富合」駅まで徒歩63分",
+     "min": "63",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060658_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060658_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060658_20.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7218216, 130.7182885",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区城南町碇 第1の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557283898-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇城市松橋町両仲間 第1",
+   "price": "1,980万円",
+   "address": "熊本県宇城市松橋町 両仲間字狐塚226番6の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557283898-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "98.01m²",
+   "landArea": "142.35m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅まで徒歩42分",
+     "min": "42",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061369_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061369_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061369_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061369_10.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061369_11.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6391022, 130.6963371",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇城市松橋町両仲間 第1の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,980万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557284098-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇城市松橋町両仲間 第2",
+   "price": "2,480万円",
+   "address": "熊本県宇城市松橋町 両仲間字鳥嶋554番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557284098-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2026年8月",
+   "buildingArea": "95.58m²",
+   "landArea": "248.55m²・274.47m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅まで徒歩60分",
+     "min": "60",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062647_4.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062647_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062647_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062647_22.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062647_23.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6353305, 130.6995042",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇城市松橋町両仲間 第2の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557284400-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇土市一里木町 第2",
+   "price": "2,480万円",
+   "address": "熊本県宇土市一里木町字一里木40番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557284400-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2026年7月",
+   "buildingArea": "91.32m²",
+   "landArea": "227.68m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「宇土」駅まで徒歩25分",
+     "min": "25",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6806227, 130.6598777",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇土市一里木町 第2の物件詳細ページです。飯田グループホールディングスが熊本県宇土市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557284855-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇城市松橋町南豊崎 第4",
+   "price": "2,180万円",
+   "address": "熊本県宇城市松橋町 南豊崎字鎗ノ柄776番1（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557284855-2/",
+   "layout": "3LDK",
+   "stories": "",
+   "builtAt": "2026年6月",
+   "buildingArea": "78.57m²",
+   "landArea": "186.79m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅まで徒歩41分",
+     "min": "41",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060660_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060660_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060660_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060660_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060660_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6274192, 130.6763247",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇城市松橋町南豊崎 第4の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557285055-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン合志市須屋 第20",
+   "price": "2,780万円",
+   "address": "熊本県合志市須屋字群窪2695番214の一部(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557285055-2/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "85.86m²・90.72m²",
+   "landArea": "117.12m²・123.43m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「黒石」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064886_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064886_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064886_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064886_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064886_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8722304, 130.7479319",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン合志市須屋 第20の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,780万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557285647-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区城南町舞原 第8",
+   "price": "2,280万円",
+   "address": "熊本県熊本市 南区城南町舞原字西304番7（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557285647-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "76.14m²・102.06m²",
+   "landArea": "200.04m²・201.02m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅まで徒歩99分",
+     "min": "99",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7117795, 130.7458119",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区城南町舞原 第8の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557287839-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市中央区出水 第17",
+   "price": "3,280万円",
+   "address": "熊本県熊本市 中央区出水７丁目226番49の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557287839-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "93.15m²・95.58m²",
+   "landArea": "128.64m²・129m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅まで徒歩27分",
+     "min": "27",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130065422_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130065422_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130065422_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130065422_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130065422_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.776773, 130.7212364",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市中央区出水 第17の物件詳細ページです。飯田グループホールディングスが熊本県熊本市中央区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,280万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557288071-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区上ノ郷 第8",
+   "price": "3,080万円",
+   "address": "熊本県熊本市 南区上ノ郷１丁目40番4、ほか（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557288071-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "96.39m²・98.82m²",
+   "landArea": "195.45m²・208.21m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130065131_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130065131_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130065131_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130065131_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130065131_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7672726, 130.6880201",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区上ノ郷 第8の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,080万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557291985-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン御船町木倉 第5",
+   "price": "2,480万円",
+   "address": "熊本県上益城郡 御船町大字木倉字錦549番2（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557291985-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "96.38m²・100.44m²",
+   "landArea": "176.04m²・181.33m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅まで徒歩99分",
+     "min": "99",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064120_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064120_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064120_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064120_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064120_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7207447, 130.8088151",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン御船町木倉 第5の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡御船町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-2012701004557292884-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市南区富合町大町 第5",
+   "price": "2,480万円",
+   "address": "熊本県熊本市 南区富合町大町字早高911番10、ほか（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557292884-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "98.82m²",
+   "landArea": "207.02m²・208.92m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅まで徒歩40分",
+     "min": "40",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064543_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064543_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064543_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064543_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064543_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7266458, 130.6906773",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市南区富合町大町 第5の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515582621-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン西区池亀町",
+   "price": "2,998万円",
+   "address": "熊本県熊本市 西区池亀町9",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515582621-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "111.79m²",
+   "landArea": "225.04m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「上熊本」駅まで徒歩12分",
+     "min": "12",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130054512_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130054512_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130054512_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130054512_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130054512_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.82228, 130.69523",
+   "hpText": "一建設株式会社のリーブルガーデン西区池亀町の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515582962-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区尾ノ上１丁目",
+   "price": "3,598万円",
+   "address": "熊本県熊本市 東区尾ノ上１丁目18-7",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515582962-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "95.22m²・106.82m²",
+   "landArea": "164.83m²・174.09m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「神水交差点」駅まで徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130047411_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130047411_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130047411_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130047411_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130047411_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.79046, 130.74937",
+   "hpText": "一建設株式会社のリーブルガーデン東区尾ノ上１丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,598万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515583689-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン益城町小池",
+   "price": "2,498万円",
+   "address": "熊本県上益城郡 益城町大字小池2991-1",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515583689-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "101.02m²",
+   "landArea": "202.75m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで車7.2km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_19.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.747957, 130.803883",
+   "hpText": "一建設株式会社のリーブルガーデン益城町小池の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡益城町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515584318-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区長嶺東第六",
+   "price": "3,298万円",
+   "address": "熊本県熊本市 東区長嶺東５丁目8-70",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515584318-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "108.05m²",
+   "landArea": "196.23m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅までバス15分「託麻まちづくりセンタ」停徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130049391_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130049391_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130049391_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130049391_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130049391_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.824122, 130.782306",
+   "hpText": "一建設株式会社のリーブルガーデン東区長嶺東第六の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,298万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515584786-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン中央区渡鹿第二",
+   "price": "4,098万円",
+   "address": "熊本県熊本市 中央区渡鹿３丁目7-15",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515584786-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "111.78m²",
+   "landArea": "131.95m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅まで徒歩12分",
+     "min": "12",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057579_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057579_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057579_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057579_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057579_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.80691, 130.73766",
+   "hpText": "一建設株式会社のリーブルガーデン中央区渡鹿第二の物件詳細ページです。飯田グループホールディングスが熊本県熊本市中央区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "4,098万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515584860-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン菊池市泗水町永",
+   "price": "1,998万円",
+   "address": "熊本県菊池市泗水町 永2837-34",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515584860-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "110.13m²",
+   "landArea": "170.82m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅までバス21分「原口」停徒歩46分",
+     "min": "46",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130052599_19.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130052599_17.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130052599_18.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130052599_20.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.651718, 130.684744",
+   "hpText": "一建設株式会社のリーブルガーデン菊池市泗水町永の物件詳細ページです。飯田グループホールディングスが熊本県菊池市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,998万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515585219-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン西区上代３丁目",
+   "price": "2,798万円",
+   "address": "熊本県熊本市 西区上代３丁目6-18",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585219-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "107.64m²",
+   "landArea": "168.7m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「熊本駅前」駅までバス11分「下高野辺田」停徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.78058, 130.67031",
+   "hpText": "一建設株式会社のリーブルガーデン西区上代３丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,798万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515585627-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン合志市須屋第十三",
+   "price": "2,498万円",
+   "address": "熊本県合志市須屋3123-11",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585627-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "103.51m²",
+   "landArea": "128.41m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「新須屋」駅まで徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130051776_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130051776_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130051776_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130051776_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130051776_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.857726, 130.731227",
+   "hpText": "一建設株式会社のリーブルガーデン合志市須屋第十三の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515585807-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン合志市須屋第十四",
+   "price": "2,898万円",
+   "address": "熊本県合志市須屋1551-8",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585807-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "100.6m²",
+   "landArea": "128.3m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130051777_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130051777_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130051777_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130051777_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130051777_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85929, 130.74294",
+   "hpText": "一建設株式会社のリーブルガーデン合志市須屋第十四の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,898万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515590106-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン合志市野々島",
+   "price": "2,698万円",
+   "address": "熊本県合志市野々島5620",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515590106-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "112.61m²",
+   "landArea": "212.18m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅まで車2.2km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057649_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057649_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057649_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057649_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057649_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.886421, 130.732522",
+   "hpText": "一建設株式会社のリーブルガーデン合志市野々島の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515590604-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン南区野口１丁目",
+   "price": "3,098万円～3,448万円",
+   "address": "熊本県熊本市 南区野口１丁目16-1",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515590604-2/",
+   "layout": "4LDK～5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "105.98m²～114.26m²",
+   "landArea": "157.01m²～165.43m²",
+   "parking": "",
+   "units": "6棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅車5分",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062845_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062845_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062845_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062845_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062845_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.769445, 130.67305",
+   "hpText": "一建設株式会社のリーブルガーデン南区野口１丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,098万円～3,448万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515590888-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン合志市幾久富第五",
+   "price": "3,498万円",
+   "address": "熊本県合志市幾久富1909",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515590888-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "104.33m²・110.12m²",
+   "landArea": "128.43m²・144.9m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「光の森」駅までバス10分「武蔵ヶ丘北口」停徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_19.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.863385, 130.768951",
+   "hpText": "一建設株式会社のリーブルガーデン合志市幾久富第五の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591008-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン南区浜口町第三",
+   "price": "2,698万円",
+   "address": "熊本県熊本市 南区浜口町字堀上339番1（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591008-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "106.82m²・111.78m²",
+   "landArea": "237.2m²・261.28m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅車9分",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064566_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064566_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064566_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064566_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064566_21.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.758128, 130.648469",
+   "hpText": "一建設株式会社のリーブルガーデン南区浜口町第三の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591138-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン南区田井島",
+   "price": "3,398万円",
+   "address": "熊本県熊本市 南区田井島２丁目6-40",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591138-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年4月",
+   "buildingArea": "105.99m²・110.96m²",
+   "landArea": "150.88m²・152.57m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅までバス14分「田迎」停徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130053952_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130053952_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130053952_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130053952_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130053952_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.76634, 130.72276",
+   "hpText": "一建設株式会社のリーブルガーデン南区田井島の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,398万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591279-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン北区鶴羽田第八",
+   "price": "2,798万円",
+   "address": "熊本県熊本市 北区鶴羽田３丁目15-37",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591279-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "113.44m²",
+   "landArea": "164.81m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「新須屋」駅まで徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057710_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057710_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057710_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057710_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057710_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.86088, 130.7287",
+   "hpText": "一建設株式会社のリーブルガーデン北区鶴羽田第八の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,798万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591286-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区戸島第十三",
+   "price": "2,898万円",
+   "address": "熊本県熊本市 東区戸島６丁目29-19",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591286-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "110.96m²・114.27m²",
+   "landArea": "166.81m²・206.93m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅まで車10km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130053738_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130053738_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130053738_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130053738_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130053738_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.815713, 130.80696",
+   "hpText": "一建設株式会社のリーブルガーデン東区戸島第十三の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,898万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591327-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン宇城市不知火町第二",
+   "price": "2,498万円",
+   "address": "熊本県宇城市不知火町 高良293",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591327-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "110.13m²",
+   "landArea": "130.99m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅まで徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057650_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057650_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057650_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057650_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057650_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.64971, 130.66842",
+   "hpText": "一建設株式会社のリーブルガーデン宇城市不知火町第二の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591481-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区榎町第六",
+   "price": "3,598万円～3,798万円",
+   "address": "熊本県熊本市 東区榎町4-3",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591481-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "104.34m²～110.13m²",
+   "landArea": "139.39m²～182.88m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅までバス10分「榎団地西口」停徒歩4分",
+     "min": "4",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057580_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057580_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057580_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057580_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057580_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.79184, 130.77179",
+   "hpText": "一建設株式会社のリーブルガーデン東区榎町第六の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,598万円～3,798万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515591761-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン南区護藤町第三",
+   "price": "2,798万円",
+   "address": "熊本県熊本市 南区護藤町1538",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591761-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "99.36m²",
+   "landArea": "226.41m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「熊本駅前」駅までバス20分「上護藤」停徒歩3分",
+     "min": "3",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061409_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061409_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061409_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061409_20.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.74751, 130.67158",
+   "hpText": "一建設株式会社のリーブルガーデン南区護藤町第三の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,798万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515592351-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン北区楠野町第二",
+   "price": "2,598万円",
+   "address": "熊本県熊本市 北区楠野町538-4",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515592351-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "108.47m²・114.82m²",
+   "landArea": "192.41m²・202.95m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「植木」駅まで車5km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057551_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057551_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057551_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057551_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057551_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.879168, 130.708755",
+   "hpText": "一建設株式会社のリーブルガーデン北区楠野町第二の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515592407-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン宇城市松橋町きらら第二",
+   "price": "2,698万円",
+   "address": "熊本県宇城市松橋町 きらら３丁目3",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515592407-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "107.64m²・109.9m²",
+   "landArea": "151.35m²・157.24m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅まで車2.7km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061308_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061308_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061308_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061308_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061308_19.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.645901, 130.682979",
+   "hpText": "一建設株式会社のリーブルガーデン宇城市松橋町きらら第二の物件詳細ページです。飯田グループホールディングスが熊本県宇城市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515592771-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン合志市須屋第十五",
+   "price": "3,098万円",
+   "address": "熊本県合志市須屋字窪254番1の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515592771-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "107.64m²・112.61m²",
+   "landArea": "157.83m²・185.45m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062847_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062847_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062847_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062847_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062847_19.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85635, 130.745012",
+   "hpText": "一建設株式会社のリーブルガーデン合志市須屋第十五の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,098万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515593765-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区沼山津１丁目",
+   "price": "3,998万円",
+   "address": "熊本県熊本市 東区沼山津１丁目123番2（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515593765-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "117.58m²",
+   "landArea": "198.05m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅までバス4分「桜木小学校入口」停徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_20.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7746, 130.77464",
+   "hpText": "一建設株式会社のリーブルガーデン東区沼山津１丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,998万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-5011601000515593782-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区小山２丁目",
+   "price": "3,098万円",
+   "address": "熊本県熊本市 東区小山２丁目753番7の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515593782-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "113.44m²・115.1m²",
+   "landArea": "131.53m²・142.1m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「水道町」駅までバス33分「小山団地」停徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064575_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064575_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064575_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064575_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064575_21.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.82828, 130.78901",
+   "hpText": "一建設株式会社のリーブルガーデン東区小山２丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,098万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575019-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン菊池郡菊陽町津久礼４期３棟",
+   "price": "3,980万円～4,090万円",
+   "address": "熊本県菊池郡 菊陽町大字津久礼字宮ノ上398番2(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575019-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "111.16m²～115.71m²",
+   "landArea": "167.7m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「原水」駅まで徒歩23分",
+     "min": "23",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061883_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061883_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061883_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061883_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061883_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.86040583, 130.8264549",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン菊池郡菊陽町津久礼４期３棟の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,980万円～4,090万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575020-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市北区麻生田３丁目４棟",
+   "price": "3,280万円～3,480万円",
+   "address": "熊本県熊本市 北区麻生田３丁目1692番1（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575020-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "111.16m²～115.04m²",
+   "landArea": "151.97m²",
+   "parking": "",
+   "units": "4棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩22分",
+     "min": "22",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061224_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061224_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061224_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061224_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061224_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.84995672, 130.7442159",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市北区麻生田３丁目４棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,280万円～3,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575022-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン菊池郡菊陽町武蔵ケ丘北１丁目２棟",
+   "price": "3,480万円",
+   "address": "熊本県菊池郡 菊陽町武蔵ヶ丘北１丁目3870番185（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575022-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "106.82m²・107.79m²",
+   "landArea": "135.23m²・137.66m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅まで徒歩18分",
+     "min": "18",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130063509_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130063509_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130063509_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130063509_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130063509_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85903824, 130.7658877",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン菊池郡菊陽町武蔵ケ丘北１丁目２棟の物件詳細ページです。飯田グループホールディングスが熊本県菊池郡菊陽町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575023-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン合志市須屋１８期４棟",
+   "price": "3,180万円～3,380万円",
+   "address": "熊本県合志市須屋字向島1042番3(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575023-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "108.05m²～114.63m²",
+   "landArea": "176.84m²～215.86m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩4分",
+     "min": "4",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060763_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060763_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060763_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060763_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060763_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85610724, 130.7351919",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン合志市須屋１８期４棟の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,180万円～3,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575025-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市東区沼山津３丁目２棟",
+   "price": "3,280万円",
+   "address": "熊本県熊本市 東区沼山津３丁目1809番8(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575025-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "110.13m²・111.16m²",
+   "landArea": "133.49m²・133.5m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩31分",
+     "min": "31",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060393_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060393_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060393_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060393_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060393_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.77511734, 130.7817467",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市東区沼山津３丁目２棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,280万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575026-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市北区麻生田４丁目３期１棟",
+   "price": "3,480万円",
+   "address": "熊本県熊本市 北区麻生田４丁目2031番4(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575026-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "118.2m²",
+   "landArea": "160.78m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅まで徒歩29分",
+     "min": "29",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130061456_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130061456_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130061456_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130061456_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130061456_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.85129232, 130.7518345",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市北区麻生田４丁目３期１棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575027-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市北区楡木４丁目４棟",
+   "price": "3,280万円～3,580万円",
+   "address": "熊本県熊本市 北区楡木４丁目2116番20(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575027-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "103.3m²～117.78m²",
+   "landArea": "140.3m²～140.31m²",
+   "parking": "",
+   "units": "4棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅まで徒歩27分",
+     "min": "27",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062279_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062279_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062279_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062279_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062279_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8525228, 130.754988",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市北区楡木４丁目４棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,280万円～3,580万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575028-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市南区南高江１丁目１棟",
+   "price": "3,580万円",
+   "address": "熊本県熊本市 南区南高江１丁目653番2(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575028-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "110.33m²",
+   "landArea": "164.33m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩12分",
+     "min": "12",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130063712_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130063712_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130063712_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130063712_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130063712_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.75471781, 130.6823935",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市南区南高江１丁目１棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,580万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575029-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市南区近見１丁目１棟",
+   "price": "3,990万円",
+   "address": "熊本県熊本市 南区近見１丁目2873番2他(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575029-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "110.96m²",
+   "landArea": "147.05m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩19分",
+     "min": "19",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.76869138, 130.6900641",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市南区近見１丁目１棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,990万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575030-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン宇土市高柳町１棟",
+   "price": "3,190万円",
+   "address": "熊本県宇土市高柳町字鎌田74番14(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575030-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "123.58m²",
+   "landArea": "181.39m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「宇土」駅まで徒歩33分",
+     "min": "33",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130062991_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062991_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130062991_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130062991_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130062991_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.68865967901157, 130.65189764998186",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン宇土市高柳町１棟の物件詳細ページです。飯田グループホールディングスが熊本県宇土市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,190万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575031-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市南区御幸笛田３丁目４棟",
+   "price": "3,390万円～3,780万円",
+   "address": "熊本県熊本市 南区御幸笛田３丁目1102番1(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575031-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "106.4m²～119.85m²",
+   "landArea": "151.72m²～151.73m²",
+   "parking": "",
+   "units": "4棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「平成」駅まで徒歩43分",
+     "min": "43",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130065194_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130065194_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130065194_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130065194_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130065194_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7604136, 130.7128287",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市南区御幸笛田３丁目４棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,390万円～3,780万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-801270100266284575032-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市北区山室５丁目４棟",
+   "price": "3,370万円～3,890万円",
+   "address": "熊本県熊本市 北区山室５丁目500番、501番(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575032-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "96.88m²～117.17m²",
+   "landArea": "180.59m²～242.97m²",
+   "parking": "",
+   "units": "4棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「八景水谷」駅まで徒歩13分",
+     "min": "13",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064324_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064324_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064324_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064324_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064324_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.84495606, 130.7179455",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市北区山室５丁目４棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,370万円～3,890万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700240302-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー菊池泗水町吉富 第２期",
+   "price": "2,180万円",
+   "address": "熊本県菊池市泗水町 吉富字中原3300番163（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240302-2/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年8月",
+   "buildingArea": "96.05m²",
+   "landArea": "166.95m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅までバス18分「伝承館前」停徒歩9分",
+     "min": "9",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130043939_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130043939_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130043939_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130043939_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130043939_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93809804637253, 130.77846016828656",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー菊池泗水町吉富　第２期の物件詳細ページです。飯田グループホールディングスが熊本県菊池市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700240450-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー菊池西寺 第１期",
+   "price": "2,280万円",
+   "address": "熊本県菊池市西寺字若宮原1578番5の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240450-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年10月",
+   "buildingArea": "96.26m²",
+   "landArea": "153.46m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅までバス27分「大琳寺」停徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130049473_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130049473_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130049473_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130049473_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130049473_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.97377370085313, 130.7972165017989",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー菊池西寺　第１期の物件詳細ページです。飯田グループホールディングスが熊本県菊池市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700240676-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー合志須屋群窪 第２期",
+   "price": "2,380万円",
+   "address": "熊本県合志市須屋字群窪2680番37の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240676-2/",
+   "layout": "3LDK・4LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年9月",
+   "buildingArea": "95.43m²・96.88m²",
+   "landArea": "134.47m²・134.91m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「熊本高専前」駅まで徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130044261_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130044261_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130044261_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130044261_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130044261_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.874582720779586, 130.7483536838452",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー合志須屋群窪　第２期の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700240725-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー熊本北区八景水谷３丁目 第１期",
+   "price": "2,580万円～2,780万円",
+   "address": "熊本県熊本市 北区八景水谷３丁目1282番2の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240725-2/",
+   "layout": "3LDK～4LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年11月",
+   "buildingArea": "96.05m²",
+   "landArea": "111.03m²～118.15m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「堀川」駅まで徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130052516_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130052516_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130052516_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130052516_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130052516_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8478760654313, 130.72660245186194",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー熊本北区八景水谷３丁目　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,580万円～2,780万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700240859-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー上益城益城町広崎 第１期",
+   "price": "3,180万円～3,480万円",
+   "address": "熊本県上益城郡 益城町大字広崎字松山西1436番1（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240859-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "95.64m²～96.05m²",
+   "landArea": "128.3m²～151.56m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「熊本」駅までバス46分「益城インター口」停徒歩7分",
+     "min": "7",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130049475_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130049475_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130049475_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130049475_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130049475_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.78854055854367, 130.78267346899887",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー上益城益城町広崎　第１期の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡益城町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,180万円～3,480万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700241006-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー熊本北区池田３丁目 第１期",
+   "price": "2,980万円",
+   "address": "熊本県熊本市 北区池田３丁目567番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700241006-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "96.05m²",
+   "landArea": "145.15m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「池田」駅まで徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130052070_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130052070_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130052070_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130052070_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130052070_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.83267402787782, 130.70645658664702",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー熊本北区池田３丁目　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,980万円"
+    }
+   ]
+  },
+  {
+   "id": "sumaiida-8012701004700250311-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー合志須屋上ノ原２５－１期",
+   "price": "3,530万円",
+   "address": "熊本県合志市須屋上ノ原1906番2の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700250311-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "104.75m²・105.16m²",
+   "landArea": "160.83m²・166.03m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064883_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064883_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064883_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064883_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064883_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.86181773337497, 130.73327006702593",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー合志須屋上ノ原２５－１期の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-14",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,530万円"
+    }
+   ]
+  },
   {
    "id": "maemura-43990",
    "source": "maemura",
