@@ -11,26 +11,18 @@
 <title>物件ナビ</title>
 <style>
 :root{
-  --green:#1e4634;      /* 深緑:ヘッダー・主要ボタン */
-  --green-soft:#2c6049;
-  --ecru:#f3efe4;       /* 生成り:背景 */
-  --paper:#fffdf7;      /* カード地 */
-  --ink:#26241d;        /* 本文 */
-  --sub:#7a7466;        /* 補助テキスト */
-  --line:#e0d9c7;       /* 罫線 */
-  --orange:#d8731f;     /* オレンジ:候補★・強調 */
-  --orange-bg:#fbe9d4;
-  --red:#c0392b;
-  --blue:#2563a8;
-  --radius:12px;
-  --shadow:0 1px 3px rgba(38,36,29,.12);
+  --green:#1e4634; --green-soft:#2c6049;
+  --ecru:#f3efe4; --paper:#fffdf7;
+  --ink:#26241d; --sub:#7a7466; --line:#e0d9c7;
+  --orange:#d8731f; --orange-bg:#fbe9d4;
+  --red:#c0392b; --blue:#2563a8;
+  --radius:12px; --shadow:0 1px 3px rgba(38,36,29,.12);
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{font-size:16px}
 body{
   font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
-  background:var(--ecru);color:var(--ink);line-height:1.55;
-  padding-bottom:90px;
+  background:var(--ecru);color:var(--ink);line-height:1.55;padding-bottom:90px;
 }
 button{font:inherit;border:none;background:none;cursor:pointer;color:inherit}
 input,select,textarea{font:inherit;color:inherit}
@@ -39,22 +31,22 @@ a{color:var(--blue)}
 
 /* ---------- ヘッダー ---------- */
 header{
-  position:sticky;top:0;z-index:50;
-  background:var(--green);color:#f6f2e6;
-  padding:10px 14px;
-  display:flex;align-items:baseline;gap:8px;
+  position:sticky;top:0;z-index:50;background:var(--green);color:#f6f2e6;
+  padding:10px 14px;display:flex;align-items:center;gap:8px;
   box-shadow:0 1px 4px rgba(0,0,0,.25);
 }
 header h1{font-size:1.15rem;font-weight:700;letter-spacing:.05em}
-header .ver{font-size:.7rem;opacity:.75}
-header .hd-note{margin-left:auto;font-size:.7rem;opacity:.85;text-align:right}
-header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
+header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
+#priceBtn{
+  margin-left:auto;font-size:.85rem;font-weight:600;
+  border:1px solid rgba(255,255,255,.4);border-radius:10px;padding:6px 12px;
+}
+#priceBtn.on{background:var(--orange);border-color:var(--orange)}
 
 /* ---------- タブ ---------- */
 #tabs{
   display:flex;gap:6px;overflow-x:auto;padding:10px 12px 6px;
-  scrollbar-width:none;background:var(--ecru);
-  position:sticky;top:44px;z-index:40;
+  scrollbar-width:none;background:var(--ecru);position:sticky;top:44px;z-index:40;
 }
 #tabs::-webkit-scrollbar{display:none}
 .tab{
@@ -73,24 +65,36 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 }
 #q::placeholder{color:#b3ab99}
 .sortrow{display:flex;align-items:center;gap:8px;margin-top:8px}
-#sort{
-  padding:7px 10px;border:1px solid var(--line);border-radius:8px;
-  background:var(--paper);font-size:.82rem;max-width:60%;
+#mapBtn{
+  font-size:.85rem;font-weight:600;color:var(--green);
+  border:1.5px solid var(--green);border-radius:999px;padding:7px 14px;background:var(--paper);
 }
 #hitCount{font-size:.8rem;color:var(--sub);margin-left:auto}
+#sort{
+  padding:7px 10px;border:1px solid var(--line);border-radius:8px;
+  background:var(--paper);font-size:.82rem;max-width:52%;
+}
 
 /* ---------- タグ ---------- */
-#tagRow{
-  display:flex;gap:6px;overflow-x:auto;padding:10px 12px;
-  scrollbar-width:none;
-}
+#tagRow{display:flex;gap:6px;overflow-x:auto;padding:10px 12px;scrollbar-width:none}
 #tagRow::-webkit-scrollbar{display:none}
 .tag{
   flex:0 0 auto;padding:5px 12px;border-radius:999px;
-  border:1px solid var(--line);background:var(--paper);
-  font-size:.8rem;color:var(--sub);
+  border:1px solid var(--line);background:var(--paper);font-size:.8rem;color:var(--sub);
 }
 .tag.on{background:var(--orange-bg);border-color:var(--orange);color:var(--orange);font-weight:600}
+
+/* 掲載終了表示中バナー */
+#endedBanner{
+  display:none;margin:0 12px 10px;padding:10px 12px;border-radius:var(--radius);
+  background:#6f6a5c;color:#f6f2e6;font-size:.85rem;
+  align-items:center;gap:8px;
+}
+#endedBanner.on{display:flex}
+#endedBanner button{
+  margin-left:auto;background:rgba(255,255,255,.18);border-radius:8px;
+  padding:5px 12px;font-size:.82rem;white-space:nowrap;
+}
 
 /* ---------- 物件カード ---------- */
 #list{padding:2px 12px 4px;display:flex;flex-direction:column;gap:10px}
@@ -98,11 +102,10 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
   background:var(--paper);border-radius:var(--radius);box-shadow:var(--shadow);
   display:flex;overflow:hidden;border:1px solid var(--line);
 }
-.card.ended{background:#e9e6dd;opacity:.8}
+.card.ended{background:#e9e6dd;opacity:.85}
 .card .thumb{
   flex:0 0 108px;height:108px;background:#e6e0d0;
-  display:flex;align-items:center;justify-content:center;
-  color:#b3ab99;font-size:.72rem;
+  display:flex;align-items:center;justify-content:center;color:#b3ab99;font-size:.72rem;
 }
 .card .thumb img{width:100%;height:100%;object-fit:cover}
 .card .body{flex:1;padding:8px 10px;min-width:0;position:relative}
@@ -121,21 +124,27 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .card .tags span.new{background:var(--orange-bg);color:var(--orange);border-color:var(--orange)}
 .card .tags span.units{background:var(--orange);color:#fff;border-color:var(--orange);font-weight:700}
 .card .tags span.end{background:#d5d0c2;color:#6f6a5c;border-color:#c4beac;font-weight:600}
-.starBtn{
-  position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;
-  padding:4px;line-height:1;
-}
+.starBtn{position:absolute;top:4px;right:4px;font-size:1.25rem;color:#cfc8b6;padding:4px;line-height:1}
 .starBtn.on{color:var(--orange)}
-.empty{
-  text-align:center;color:var(--sub);padding:48px 20px;font-size:.9rem;
-}
+.empty{text-align:center;color:var(--sub);padding:48px 20px;font-size:.9rem}
 .empty .big{font-size:2rem;margin-bottom:8px}
+
+/* 左下: 掲載終了ボタン / 右下: メニューFAB */
 #endedBtn{
-  display:block;margin:6px auto 12px;font-size:.82rem;color:var(--sub);
-  border:1px dashed var(--line);border-radius:999px;padding:8px 18px;background:var(--paper);
+  position:fixed;left:14px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:60;
+  background:#57523f;color:#f6f2e6;font-size:.85rem;font-weight:600;
+  padding:11px 16px;border-radius:999px;box-shadow:0 3px 10px rgba(38,36,29,.35);
+  display:none;
+}
+#endedBtn.on{display:block}
+#fab{
+  position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:60;
+  width:58px;height:58px;border-radius:50%;
+  background:var(--orange);color:#fff;font-size:1.5rem;font-weight:700;
+  box-shadow:0 3px 10px rgba(38,36,29,.35);line-height:1;
 }
 
-/* ---------- 詳細画面 ---------- */
+/* ---------- サブページ共通 ---------- */
 .page{display:none}
 .page.on{display:block}
 .subhead{
@@ -146,29 +155,24 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .subhead .back{font-size:1.1rem;padding:2px 8px 2px 0}
 .subhead .ttl{font-weight:700;font-size:1rem;flex:1;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.subhead .act{font-size:.85rem;padding:6px 12px;border-radius:8px;
-  background:rgba(255,255,255,.16);}
+.subhead .act{font-size:.85rem;padding:6px 12px;border-radius:8px;background:rgba(255,255,255,.16)}
+
+/* ---------- 詳細 ---------- */
 #dPhotos{display:flex;gap:8px;overflow-x:auto;padding:12px;scrollbar-width:none}
 #dPhotos::-webkit-scrollbar{display:none}
 #dPhotos img{height:190px;border-radius:10px;flex:0 0 auto;max-width:88vw;object-fit:cover}
-#dPhotos .noPhoto{
-  height:150px;width:100%;border-radius:10px;background:#e6e0d0;
-  display:flex;align-items:center;justify-content:center;color:#b3ab99;font-size:.85rem;
-}
+#dPhotos .noPhoto{height:150px;width:100%;border-radius:10px;background:#e6e0d0;
+  display:flex;align-items:center;justify-content:center;color:#b3ab99;font-size:.85rem}
 .dwrap{padding:0 12px 24px;display:flex;flex-direction:column;gap:12px}
 .dbox{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
 .dbox h3{font-size:.78rem;color:var(--sub);font-weight:600;margin-bottom:6px;letter-spacing:.06em}
-.banner-ended{
-  background:#6f6a5c;color:#f6f2e6;border-radius:var(--radius);
-  padding:10px 14px;font-size:.88rem;font-weight:600;
-}
+.banner-ended{background:#6f6a5c;color:#f6f2e6;border-radius:var(--radius);
+  padding:10px 14px;font-size:.88rem;font-weight:600}
 #dName{font-size:1.15rem;font-weight:700}
 #dPrice{color:var(--green);font-weight:700;font-size:1.5rem;margin-top:2px}
 #dAddr{font-size:.85rem;color:var(--sub);margin-top:2px}
-.badge-edited{
-  display:inline-block;font-size:.72rem;color:var(--blue);
-  border:1px solid var(--blue);border-radius:999px;padding:1px 9px;margin-top:6px;
-}
+.badge-edited{display:inline-block;font-size:.72rem;color:var(--blue);
+  border:1px solid var(--blue);border-radius:999px;padding:1px 9px;margin-top:6px}
 .dtags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
 .dtags span{font-size:.72rem;padding:2px 9px;border-radius:999px;
   background:var(--ecru);border:1px solid var(--line);color:var(--sub)}
@@ -177,10 +181,8 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .kv .k{color:var(--sub);white-space:nowrap}
 .kv .v{font-weight:600;text-align:right}
 .kv .v .yotei{color:var(--orange);font-size:.8rem;font-weight:700}
-.btn{
-  display:block;width:100%;text-align:center;padding:12px;
-  border-radius:var(--radius);font-weight:600;font-size:.95rem;text-decoration:none;
-}
+.btn{display:block;width:100%;text-align:center;padding:12px;
+  border-radius:var(--radius);font-weight:600;font-size:.95rem;text-decoration:none}
 .btn-green{background:var(--green);color:#f6f2e6}
 .btn-line{background:var(--paper);border:1.5px solid var(--green);color:var(--green)}
 .mapnote{font-size:.72rem;color:var(--sub);margin-top:8px}
@@ -189,7 +191,6 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .school .min{color:var(--green);font-weight:700;white-space:nowrap;margin-left:8px}
 .fac{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.88rem}
 .fac:last-child{border-bottom:none}
-.fac .ico{flex:0 0 auto}
 .fac .min{margin-left:auto;color:var(--green);font-weight:700;white-space:nowrap}
 .freeTxt{white-space:pre-wrap;font-size:.9rem}
 .mut{color:var(--sub);font-size:.85rem}
@@ -203,6 +204,43 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .phRow .p{font-weight:600}
 .phRow .p.up{color:var(--red)}
 .phRow .p.down{color:var(--blue)}
+
+/* 近隣の物件 */
+.nearCtrl{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.nearCtrl label{font-size:.8rem;color:var(--sub);white-space:nowrap}
+#nearRange{flex:1;accent-color:var(--green)}
+#nearKm{font-weight:700;white-space:nowrap;min-width:3.2em;text-align:right}
+#nearGo{background:var(--green);color:#f6f2e6;border-radius:8px;padding:7px 14px;font-size:.85rem;font-weight:600;white-space:nowrap}
+#nearInfo{font-size:.8rem;color:var(--sub);padding:4px 0 6px;border-bottom:1px solid var(--line)}
+.nearItem{display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.nearItem:last-child{border-bottom:none}
+.nearItem .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+.nearItem .nbody{flex:1;min-width:0}
+.nearItem .nname{font-weight:600;font-size:.88rem}
+.nearItem .nsub{font-size:.73rem;color:var(--sub)}
+.nearItem .nprice{color:var(--orange);font-weight:700;font-size:.9rem;white-space:nowrap}
+
+/* ---------- 地図画面 ---------- */
+#mapFilters{padding:8px 12px 0}
+#mapFilters .flabel{font-size:.72rem;color:var(--sub);margin:4px 0 4px 2px}
+#makerRow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+#makerRow::-webkit-scrollbar{display:none}
+.mk{
+  flex:0 0 auto;padding:7px 13px;border-radius:999px;
+  background:var(--paper);border:1px solid var(--line);font-size:.85rem;color:var(--sub);white-space:nowrap;
+}
+.mk.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
+#mapTagRow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:4px 0 8px}
+#mapTagRow::-webkit-scrollbar{display:none}
+#mapDiv{height:62vh;margin:6px 12px;border-radius:var(--radius);border:1px solid var(--line);background:#e6e0d0;
+  display:flex;align-items:center;justify-content:center;color:var(--sub);font-size:.9rem}
+#mapCount{padding:2px 14px;font-size:.85rem;color:var(--sub)}
+.pin{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
+  border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.leaflet-tooltip.priceTip{font-weight:700;color:var(--orange);padding:1px 6px;font-size:.72rem}
+.popName{font-weight:700;margin-bottom:2px}
+.popPrice{color:var(--orange);font-weight:700}
+.popLink{display:inline-block;margin-top:5px;font-size:.85rem}
 
 /* ---------- フォーム ---------- */
 .fwrap{padding:12px;display:flex;flex-direction:column;gap:14px}
@@ -229,35 +267,50 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 .fsave{position:sticky;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom));
   background:linear-gradient(transparent,var(--ecru) 30%)}
 
-/* ---------- 登録FAB ---------- */
-#fab{
-  position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:60;
-  background:var(--orange);color:#fff;font-weight:700;font-size:.95rem;
-  padding:14px 20px;border-radius:999px;box-shadow:0 3px 10px rgba(38,36,29,.35);
-}
-
-/* ---------- モーダル ---------- */
-#modalBg{
+/* ---------- モーダル(汎用) ---------- */
+.sheetBg{
   display:none;position:fixed;inset:0;background:rgba(30,40,35,.55);z-index:100;
-  align-items:center;justify-content:center;padding:24px;
+  align-items:center;justify-content:center;padding:20px;
 }
-#modalBg.on{display:flex}
-#modalBox{
-  background:var(--paper);border-radius:14px;max-width:420px;width:100%;
-  padding:18px 16px;max-height:80vh;overflow-y:auto;
+.sheetBg.on{display:flex}
+.sheet{
+  background:var(--paper);border-radius:14px;max-width:440px;width:100%;
+  padding:18px 16px;max-height:84vh;overflow-y:auto;
 }
-#modalBox h2{font-size:1rem;margin-bottom:10px}
-#modalBox .mtxt{font-size:.9rem;white-space:pre-wrap;margin-bottom:16px}
-#modalBox .mbtns{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
-#modalBox .mbtns button{padding:9px 18px;border-radius:8px;font-size:.9rem;font-weight:600}
+.sheet h2{font-size:1rem;margin-bottom:12px}
+.sheet .mtxt{font-size:.9rem;white-space:pre-wrap;margin-bottom:16px}
+.sheet .mbtns{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;margin-top:14px}
+.sheet .mbtns button{padding:9px 18px;border-radius:8px;font-size:.9rem;font-weight:600}
 .mb-cancel{background:var(--ecru);color:var(--sub)}
 .mb-ok{background:var(--green);color:#f6f2e6}
 .mb-danger{background:var(--red);color:#fff}
+.srow{margin-bottom:12px}
+.srow label{display:block;font-size:.8rem;color:var(--sub);margin-bottom:4px}
+.srow select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.chkrow{display:flex;flex-wrap:wrap;gap:8px}
+.chk{
+  padding:7px 13px;border-radius:999px;border:1px solid var(--line);
+  background:#fff;font-size:.85rem;color:var(--sub);
+}
+.chk.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
+.radioList{display:flex;flex-direction:column;gap:2px}
+.radioList label{display:flex;align-items:center;gap:10px;padding:9px 4px;font-size:.92rem;border-bottom:1px solid var(--line)}
+.radioList label:last-child{border-bottom:none}
+/* メニュー */
+.menuGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.menuGrid button{
+  border:1px solid var(--line);border-radius:12px;background:#fff;
+  padding:16px 8px;font-size:.88rem;font-weight:600;text-align:center;
+}
+.menuGrid button .mi{display:block;font-size:1.3rem;margin-bottom:5px}
+.menuFoot{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+.menuFoot .mline{text-align:center;font-size:.85rem;margin-bottom:10px}
+.menuFoot .mnote{font-size:.72rem;color:var(--sub);text-align:center;margin-top:6px}
 
 /* トースト */
 #toast{
   position:fixed;left:50%;transform:translateX(-50%);
-  bottom:calc(84px + env(safe-area-inset-bottom));z-index:120;
+  bottom:calc(92px + env(safe-area-inset-bottom));z-index:120;
   background:var(--ink);color:#f6f2e6;font-size:.85rem;
   padding:10px 18px;border-radius:999px;opacity:0;transition:opacity .25s;
   pointer-events:none;max-width:88vw;text-align:center;
@@ -270,9 +323,8 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.7</span>
-    <span class="hd-note" id="totalNote"></span>
-    <button class="hd-reload" id="reloadBtn" aria-label="最新データを読み込む">↻</button>
+    <h1>物件ナビ</h1><span class="ver">v0.8</span>
+    <button id="priceBtn">💰 価格</button>
   </header>
 
   <nav id="tabs"></nav>
@@ -280,6 +332,8 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
   <div class="toolbar">
     <input id="q" type="text" placeholder="🔍 物件名・学校・施設・タグで検索" autocomplete="off">
     <div class="sortrow">
+      <button id="mapBtn">🗺 地図で見る</button>
+      <span id="hitCount"></span>
       <select id="sort">
         <option value="created-desc">登録が新しい順</option>
         <option value="created-asc">登録が古い順</option>
@@ -294,15 +348,34 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
         <option value="name-asc">名前順(あ→ん)</option>
         <option value="name-desc">名前順(ん→あ)</option>
       </select>
-      <span id="hitCount"></span>
     </div>
   </div>
 
   <div id="tagRow"></div>
+  <div id="endedBanner">🗂 掲載終了した物件を表示中<span id="endedPeriodNote"></span>
+    <button id="backActiveBtn">掲載中に戻る</button></div>
   <div id="list"></div>
-  <button id="endedBtn" style="display:none"></button>
 
-  <button id="fab">＋ 物件を登録</button>
+  <button id="endedBtn"></button>
+  <button id="fab" aria-label="メニュー">≡</button>
+</div>
+
+<!-- ============ 地図画面 ============ -->
+<div id="pageMap" class="page">
+  <div class="subhead">
+    <button class="back" onclick="history.back()">←</button>
+    <span class="ttl">地図で見る</span>
+    <button class="act" id="mapPriceBtn">💰 価格</button>
+  </div>
+  <div id="mapFilters">
+    <div class="flabel">メーカー</div>
+    <div id="makerRow"></div>
+    <div class="flabel">エリア・タグ</div>
+    <div id="mapTagRow"></div>
+  </div>
+  <div id="mapDiv">地図を読み込んでいます…</div>
+  <div id="mapCount"></div>
+  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。正確な所在地はHPでご確認ください。</div>
 </div>
 
 <!-- ============ 詳細画面 ============ -->
@@ -323,13 +396,9 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
       <div class="dtags" id="dTags"></div>
     </div>
     <button id="dStar"></button>
-    <div class="dbox">
-      <h3>建物情報</h3>
-      <div id="dBuilding"></div>
-    </div>
+    <div class="dbox"><h3>建物情報</h3><div id="dBuilding"></div></div>
     <div class="dbox" id="dPriceHistBox" style="display:none">
-      <h3>価格の推移</h3>
-      <div id="dPriceHist"></div>
+      <h3>価格の推移</h3><div id="dPriceHist"></div>
     </div>
     <div class="dbox" id="dMapBox">
       <a class="btn btn-green" id="dMapLink" target="_blank" rel="noopener">📍 Google Mapで開く</a>
@@ -338,25 +407,21 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
     <div class="dbox" id="dHpBox">
       <a class="btn btn-line" id="dHpLink" target="_blank" rel="noopener">🏠 HPの物件ページを開く</a>
     </div>
-    <div class="dbox" id="dSchoolBox">
-      <h3>学校区</h3>
-      <div id="dSchools"></div>
-    </div>
-    <div class="dbox" id="dFacBox">
-      <h3>周辺施設</h3>
-      <div id="dFacs"></div>
-    </div>
-    <div class="dbox" id="dHpTextBox">
-      <h3>HPの紹介文</h3>
-      <div class="freeTxt mut" id="dHpText"></div>
-    </div>
-    <div class="dbox" id="dTalkBox">
-      <h3>セールストーク</h3>
-      <div class="freeTxt" id="dTalk"></div>
-    </div>
-    <div class="dbox" id="dMemoBox">
-      <h3>商談メモ</h3>
-      <div class="freeTxt" id="dMemo"></div>
+    <div class="dbox" id="dSchoolBox"><h3>学校区</h3><div id="dSchools"></div></div>
+    <div class="dbox" id="dFacBox"><h3>周辺施設</h3><div id="dFacs"></div></div>
+    <div class="dbox" id="dHpTextBox"><h3>HPの紹介文</h3><div class="freeTxt mut" id="dHpText"></div></div>
+    <div class="dbox" id="dTalkBox"><h3>セールストーク</h3><div class="freeTxt" id="dTalk"></div></div>
+    <div class="dbox" id="dMemoBox"><h3>商談メモ</h3><div class="freeTxt" id="dMemo"></div></div>
+    <div class="dbox" id="dNearBox">
+      <h3>近隣の物件</h3>
+      <div class="nearCtrl">
+        <label>範囲</label>
+        <input type="range" id="nearRange" min="1" max="10" step="1" value="3">
+        <span id="nearKm">3km</span>
+        <button id="nearGo">再表示</button>
+      </div>
+      <div id="nearInfo"></div>
+      <div id="nearList"></div>
     </div>
     <div class="mut" id="dMeta"></div>
   </div>
@@ -369,11 +434,8 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
     <span class="ttl" id="fTitle">物件を登録</span>
   </div>
   <div class="fwrap">
-    <div id="deleteRow" style="display:none">
-      <button id="deleteBtn">🗑 この物件を削除</button>
-    </div>
+    <div id="deleteRow" style="display:none"><button id="deleteBtn">🗑 この物件を削除</button></div>
     <div id="noDelNote" style="display:none">※ HPから取得した物件は削除できません。HPで掲載が終わると、自動で「掲載終了」に変わります。</div>
-
     <div class="fgrp">
       <h3>基本情報</h3>
       <div class="frow"><label>物件名<span class="req">必須</span></label>
@@ -393,11 +455,9 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
         <input type="text" id="fUrl" placeholder="https://...">
         <div class="hint">入れておくと、同じ物件の二重登録を防げます</div></div>
     </div>
-
     <div class="fgrp">
       <h3>建物情報</h3>
-      <div class="frow"><label>間取り</label>
-        <input type="text" id="fLayout" placeholder="例: 3LDK"></div>
+      <div class="frow"><label>間取り</label><input type="text" id="fLayout" placeholder="例: 3LDK"></div>
       <div class="frow"><label>建て方</label>
         <select id="fStories">
           <option value="">記載なし(土地物件など)</option>
@@ -405,30 +465,18 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
           <option value="2階建て">2階建て</option>
           <option value="3階建て">3階建て</option>
         </select></div>
-      <div class="frow"><label>築年月(完成予定月)</label>
-        <input type="month" id="fBuilt"></div>
-      <div class="frow"><label>建物面積</label>
-        <input type="text" id="fBArea" placeholder="例: 91.90㎡"></div>
-      <div class="frow"><label>土地面積</label>
-        <input type="text" id="fLArea" placeholder="例: 112.25㎡"></div>
-      <div class="frow"><label>駐車場</label>
-        <input type="text" id="fParking" placeholder="例: 3台"></div>
+      <div class="frow"><label>築年月(完成予定月)</label><input type="month" id="fBuilt"></div>
+      <div class="frow"><label>建物面積</label><input type="text" id="fBArea" placeholder="例: 91.90㎡"></div>
+      <div class="frow"><label>土地面積</label><input type="text" id="fLArea" placeholder="例: 112.25㎡"></div>
+      <div class="frow"><label>駐車場</label><input type="text" id="fParking" placeholder="例: 3台"></div>
     </div>
-
     <div class="fgrp">
       <h3>学校区</h3>
       <div class="frow"><label>小学校 / 徒歩(分)</label>
-        <div class="pair">
-          <input type="text" id="fElem" placeholder="例: 花園小学校">
-          <input type="number" id="fElemMin" placeholder="分" min="0">
-        </div></div>
+        <div class="pair"><input type="text" id="fElem" placeholder="例: 花園小学校"><input type="number" id="fElemMin" placeholder="分" min="0"></div></div>
       <div class="frow"><label>中学校 / 徒歩(分)</label>
-        <div class="pair">
-          <input type="text" id="fJr" placeholder="例: 西山中学校">
-          <input type="number" id="fJrMin" placeholder="分" min="0">
-        </div></div>
+        <div class="pair"><input type="text" id="fJr" placeholder="例: 西山中学校"><input type="number" id="fJrMin" placeholder="分" min="0"></div></div>
     </div>
-
     <div class="fgrp">
       <h3>写真・位置</h3>
       <div class="frow"><label>写真URL(1行に1つ)</label>
@@ -436,100 +484,169 @@ header .hd-reload{font-size:1.05rem;padding:0 2px;opacity:.9;align-self:center}
         <div class="hint">1行目がメイン写真になります</div></div>
       <div class="frow"><label>緯度・経度</label>
         <input type="text" id="fLoc" placeholder="例: 32.825171, 130.689983">
-        <div class="hint">空欄なら住所でGoogle Mapを開きます</div></div>
+        <div class="hint">空欄なら住所でGoogle Mapを開きます(地図・近隣表示にはこの値を使います)</div></div>
     </div>
-
     <div class="fgrp">
       <h3>営業メモ</h3>
-      <div class="frow"><label>セールストーク</label>
-        <textarea id="fTalk" placeholder="お客様への提案ポイント"></textarea></div>
-      <div class="frow"><label>商談メモ</label>
-        <textarea id="fMemo" placeholder="商談の記録・注意点など"></textarea></div>
+      <div class="frow"><label>セールストーク</label><textarea id="fTalk" placeholder="お客様への提案ポイント"></textarea></div>
+      <div class="frow"><label>商談メモ</label><textarea id="fMemo" placeholder="商談の記録・注意点など"></textarea></div>
     </div>
   </div>
-  <div class="fsave">
-    <button class="btn btn-green" id="saveBtn">保存する</button>
-  </div>
+  <div class="fsave"><button class="btn btn-green" id="saveBtn">保存する</button></div>
 </div>
 
-<!-- モーダル・トースト -->
-<div id="modalBg">
-  <div id="modalBox">
-    <h2 id="mTitle"></h2>
-    <div class="mtxt" id="mTxt"></div>
-    <div class="mbtns" id="mBtns"></div>
+<!-- ============ モーダル群 ============ -->
+<div class="sheetBg" id="modalBg"><div class="sheet">
+  <h2 id="mTitle"></h2><div class="mtxt" id="mTxt"></div><div class="mbtns" id="mBtns"></div>
+</div></div>
+
+<div class="sheetBg" id="menuBg"><div class="sheet">
+  <h2>メニュー</h2>
+  <div class="menuGrid">
+    <button id="muAdd"><span class="mi">＋</span>物件を登録</button>
+    <button id="muMap"><span class="mi">🗺</span>地図で見る</button>
+    <button id="muPrice"><span class="mi">💰</span>価格で絞り込む</button>
+    <button id="muStar"><span class="mi">★</span>候補を見る</button>
+    <button id="muCsv"><span class="mi">📊</span>一覧表を書き出す</button>
+    <button id="muAi"><span class="mi">🤖</span>AI補強プロンプト</button>
   </div>
-</div>
+  <div class="menuFoot">
+    <div class="mline"><a href="#" id="muReload">↻ 最新データを読み込む</a></div>
+    <div class="srow">
+      <label>掲載終了として数える期間(左下ボタンの対象)</label>
+      <select id="endedMonthsSel">
+        <option value="1">1ヶ月以内</option>
+        <option value="3">3ヶ月以内</option>
+        <option value="6">6ヶ月以内</option>
+        <option value="12">12ヶ月以内</option>
+        <option value="all">すべて</option>
+      </select>
+    </div>
+    <div class="mnote" id="menuInfo"></div>
+  </div>
+  <div class="mbtns"><button class="mb-cancel" id="menuClose">閉じる</button></div>
+</div></div>
+
+<div class="sheetBg" id="priceBg"><div class="sheet">
+  <h2>💰 価格で絞り込む</h2>
+  <div class="srow"><label>下限</label><select id="priceMinSel"></select></div>
+  <div class="srow"><label>上限</label><select id="priceMaxSel"></select></div>
+  <div class="mnote" style="font-size:.75rem;color:var(--sub)">※ 価格未定の物件は、絞り込み中は表示されません</div>
+  <div class="mbtns">
+    <button class="mb-cancel" id="priceClear">条件をクリア</button>
+    <button class="mb-ok" id="priceApply">この条件で見る</button>
+  </div>
+</div></div>
+
+<div class="sheetBg" id="csvBg"><div class="sheet">
+  <h2>📊 一覧表を書き出す(Excel用CSV)</h2>
+  <div class="srow"><label>対象の状態</label>
+    <div class="radioList">
+      <label><input type="radio" name="csvStatus" value="active" checked>掲載中のみ</label>
+      <label><input type="radio" name="csvStatus" value="both">掲載中+掲載終了</label>
+      <label><input type="radio" name="csvStatus" value="ended">掲載終了のみ</label>
+    </div></div>
+  <div class="srow"><label>メーカー(タップで選択)</label>
+    <div class="chkrow" id="csvMakers"></div></div>
+  <div class="srow">
+    <div class="radioList">
+      <label><input type="checkbox" id="csvStarOnly">★候補に入れた物件だけ</label>
+    </div></div>
+  <div class="mbtns">
+    <button class="mb-cancel" id="csvCancel">キャンセル</button>
+    <button class="mb-ok" id="csvGo">書き出す</button>
+  </div>
+</div></div>
+
+<div class="sheetBg" id="aiBg"><div class="sheet">
+  <h2>🤖 AI補強プロンプト</h2>
+  <div class="mtxt" id="aiInfo"></div>
+  <div class="mbtns">
+    <button class="mb-cancel" id="aiCancel">閉じる</button>
+    <button class="mb-ok" id="aiCopy">プロンプトをコピー</button>
+  </div>
+</div></div>
+
 <div id="toast"></div>
 
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.3
-   データは3層構造(下の層は上の層を上書きしない):
-     1. HP自動収集  data/listings.json(毎週更新・GitHub上)
-     2. 手動登録物件 localStorage LS_DATA(この端末)
-     3. 手動編集     localStorage LS_OVR(この端末・最優先)
-   → 自動更新はJSONを書き換えるだけなので、
-     あなたの編集(LS_OVR)が消えることは構造上ありません。
+   物件ナビ v0.8
+   データは4層構造(下の層は上の層を上書きしない):
+     1. HP自動収集   data/listings.json(毎週更新)
+     2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
+     3. 手動登録物件  localStorage LS_DATA(この端末)
+     4. 手動編集     localStorage LS_OVR(この端末・最優先)
 ===================================================== */
 
-const LS_DATA = "bukkenNavi.data.v1";   // 手動登録した物件
-const LS_OVR  = "bukkenNavi.ovr.v1";    // HP物件への手動編集(差分だけ)
-const LS_CONF = "bukkenNavi.conf.v1";   // 設定・フラグ
-const LS_BASE = "bukkenNavi.base.v1";   // HPデータの控え(圏外時用)
+const LS_DATA = "bukkenNavi.data.v1";
+const LS_OVR  = "bukkenNavi.ovr.v1";
+const LS_CONF = "bukkenNavi.conf.v1";
+const LS_BASE = "bukkenNavi.base.v1";
 
 const SOURCES = {
-  maemura:  { label:"マエムラ" },
-  sumaiida: { label:"すまいーだ" },
-  yokatown: { label:"よかタウン" },
+  maemura:  { label:"マエムラ",   color:"#1e4634" },
+  sumaiida: { label:"すまいーだ", color:"#2563a8" },
+  yokatown: { label:"よかタウン", color:"#d8731f" },
 };
 const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
   station:"🚉", bus:"🚌", hospital:"🏥", park:"🌳", other:"📍" };
-
-/* HP物件のうち、手動編集の対象になるフィールド(差分で保存する) */
 const OVR_FIELDS = ["name","price","address","detailUrl","layout","stories","builtAt",
   "buildingArea","landArea","parking","elementary","elementaryMin","junior","juniorMin",
   "locText","talkPoints","memo"];
 
-/* ---------- データ入出力 ---------- */
-let hpBase = [];          // HP自動収集(JSONそのまま)
-let baseUpdatedAt = null; // JSONの更新日時
+/* ---------- データ ---------- */
+let hpBase = [];
+let manualData = {};          // AI補強(data/manual.json)
+let baseUpdatedAt = null;
 let baseById = {};
-let manual = [];          // 手動登録物件
-let ovrs = {};            // {物件ID: {編集した項目..., candidate, _editedAt}}
-let conf = { editNoticeShown:false };
-let listings = [];        // 表示用に合成した一覧
+let manual = [];
+let ovrs = {};
+let conf = { editNoticeShown:false, endedMonths:"3" };
+let listings = [];
 
 function loadLS(){
   try{ manual = JSON.parse(localStorage.getItem(LS_DATA)) || []; }catch(e){ manual = []; }
   try{ ovrs = JSON.parse(localStorage.getItem(LS_OVR)) || {}; }catch(e){ ovrs = {}; }
   try{ conf = Object.assign(conf, JSON.parse(localStorage.getItem(LS_CONF)) || {}); }catch(e){}
 }
-function saveManual(){ localStorage.setItem(LS_DATA, JSON.stringify(manual)); }
+function saveManualLS(){ localStorage.setItem(LS_DATA, JSON.stringify(manual)); }
 function saveOvrs(){ localStorage.setItem(LS_OVR, JSON.stringify(ovrs)); }
 function saveConf(){ localStorage.setItem(LS_CONF, JSON.stringify(conf)); }
 
 async function loadBase(){
+  let ok = false;
   try{
     const r = await fetch("data/listings.json?ts=" + Date.now(), {cache:"no-store"});
     if(!r.ok) throw new Error(r.status);
     const j = await r.json();
     hpBase = j.listings || [];
     baseUpdatedAt = j.updatedAt || null;
-    try{ localStorage.setItem(LS_BASE, JSON.stringify(j)); }catch(e){}
-    return true;
+    ok = true;
   }catch(e){
-    // 通信できないとき:前回の控えを使う(圏外・file直開きなど)
     try{
-      const j = JSON.parse(localStorage.getItem(LS_BASE));
-      if(j){ hpBase = j.listings || []; baseUpdatedAt = j.updatedAt || null; }
+      const c = JSON.parse(localStorage.getItem(LS_BASE));
+      if(c && c.base){ hpBase = c.base.listings || []; baseUpdatedAt = c.base.updatedAt || null; }
     }catch(e2){}
-    return false;
   }
+  try{
+    const r2 = await fetch("data/manual.json?ts=" + Date.now(), {cache:"no-store"});
+    manualData = r2.ok ? (await r2.json() || {}) : {};
+  }catch(e){
+    try{
+      const c = JSON.parse(localStorage.getItem(LS_BASE));
+      manualData = (c && c.manual) || {};
+    }catch(e2){ manualData = {}; }
+  }
+  if(ok){
+    try{ localStorage.setItem(LS_BASE, JSON.stringify({
+      base:{updatedAt:baseUpdatedAt, listings:hpBase}, manual:manualData})); }catch(e){}
+  }
+  return ok;
 }
 
-/* ---------- 3層の合成(この関数がデータ保護の心臓部) ---------- */
+/* ---------- 4層の合成(データ保護の心臓部) ---------- */
 function combine(){
   baseById = {};
   const byUrl = {};
@@ -537,9 +654,7 @@ function combine(){
     baseById[b.id] = b;
     if(b.detailUrl) byUrl[normUrl(b.detailUrl)] = b;
   });
-
-  /* 手動登録した物件が、後からHPの自動収集にも現れた場合:
-     二重表示を防ぐため、手動分のメモ等をHP物件への編集として引き継いで統合(仕様書8-2) */
+  /* 手動登録がHP物件と重複したら統合(仕様書8-2) */
   let migrated = false;
   manual = manual.filter(m=>{
     const hit = baseById[m.id]
@@ -555,17 +670,22 @@ function combine(){
     migrated = true;
     return false;
   });
-  if(migrated){ saveManual(); saveOvrs(); }
+  if(migrated){ saveManualLS(); saveOvrs(); }
 
-  /* HP物件 + 手動編集(差分)を重ねる */
   listings = hpBase.map(b=>{
-    const r = Object.assign({}, b, {candidate:false, edited:false, editedAt:""});
+    const r = Object.assign({}, b, {candidate:false, edited:false, editedAt:"", aiDone:false});
+    /* 2層目: AI補強(空欄の項目だけを埋める。自動収集ともあなたの編集とも競合しない) */
+    const mv = manualData[b.id];
+    if(mv && typeof mv === "object"){
+      for(const k in mv){ if(k.charAt(0)!=="_" && !r[k]) r[k] = mv[k]; }
+      r.aiDone = true;
+    }
+    /* 4層目: 手動編集(最優先) */
     const o = ovrs[b.id];
     if(o){
       for(const k in o){
         if(k==="candidate" || k.charAt(0)==="_") continue;
-        r[k] = o[k];
-        r.edited = true;
+        r[k] = o[k]; r.edited = true;
       }
       r.candidate = !!o.candidate;
       r.editedAt = o._editedAt || "";
@@ -586,12 +706,12 @@ function fmtDate(iso){
   if(!iso) return "";
   const d = new Date(iso);
   if(isNaN(d)) return String(iso).slice(5,10).replace("-","/");
-  return (d.getMonth()+1)+"/"+d.getDate();
+  return d.getFullYear()+"/"+String(d.getMonth()+1).padStart(2,"0")+"/"+String(d.getDate()).padStart(2,"0");
 }
 function toast(msg){
   const t=document.getElementById("toast");
   t.textContent=msg; t.classList.add("on");
-  clearTimeout(t._tm); t._tm=setTimeout(()=>t.classList.remove("on"),2200);
+  clearTimeout(t._tm); t._tm=setTimeout(()=>t.classList.remove("on"),2400);
 }
 function idFromUrl(url){
   try{
@@ -649,7 +769,7 @@ function areaTag(addr){
   if(!addr) return null;
   let m = addr.match(/([^\s都道府県市]{1,4}区)/);
   if(m) return m[1];
-  m = addr.match(/(?:熊本県|[^\s]{2,3}県)?([^\s県]{1,5}市)/);
+  m = addr.match(/(?:熊本県|[^\s]{2,3}県)?(?:[^\s県]{1,4}郡)?([^\s県郡]{1,5}[市町村])/);
   if(m && m[1]!=="熊本市") return m[1];
   if(m) return "熊本市";
   return null;
@@ -658,12 +778,10 @@ function isNew(l){
   if(!l.createdAt) return false;
   return (Date.now() - new Date(l.createdAt).getTime()) < 31*24*3600*1000;
 }
-/* 間取り文字列 →タグの配列(「3LDK・4LDK」「3LDK～4LDK」は分割して両方登録) */
 function layoutTags(layout){
   const m = String(layout||"").toUpperCase().match(/\d[SLDK]{1,5}/g);
   return m ? [...new Set(m)] : [];
 }
-/* 販売棟数 → 数値(2棟以上のときだけ返す) */
 function unitsNum(l){
   const m = String(l.units||"").match(/(\d+)/);
   return (m && +m[1] >= 2) ? +m[1] : null;
@@ -677,16 +795,52 @@ function computeTags(l){
   if(isNew(l)) t.push("New");
   return t;
 }
+/* 座標 "32.825, 130.689" → [lat,lng] */
+function coordsOf(l){
+  const m = String(l.locText||"").match(/(-?\d{1,2}\.\d{3,})\s*[, ]\s*(-?\d{2,3}\.\d{3,})/);
+  return m ? [+m[1], +m[2]] : null;
+}
+/* 2点間の距離(km) */
+function distKm(a, b){
+  const R=6371, rad=x=>x*Math.PI/180;
+  const dLat=rad(b[0]-a[0]), dLng=rad(b[1]-a[1]);
+  const s = Math.sin(dLat/2)**2 + Math.cos(rad(a[0]))*Math.cos(rad(b[0]))*Math.sin(dLng/2)**2;
+  return 2*R*Math.asin(Math.sqrt(s));
+}
+/* 掲載終了: 設定した期間内か */
+function withinEndedPeriod(l){
+  if(conf.endedMonths==="all" || !l.endedAt) return true;
+  const months = +conf.endedMonths || 3;
+  return (Date.now() - new Date(l.endedAt).getTime()) < months*31*24*3600*1000;
+}
 
 /* ---------- 画面の状態 ---------- */
-const state = { tab:"all", q:"", sort:"created-desc", tags:new Set(), showEnded:false };
+const state = {
+  tab:"all", q:"", sort:"created-desc", tags:new Set(),
+  view:"active",                       // active=掲載中 / ended=掲載終了のみ
+  priceMin:null, priceMax:null,        // 万円
+  makers:new Set(["maemura","sumaiida","yokatown","manual"]),  // 地図用
+};
 let currentId = null;
 let editingId = null;
 
 /* ---------- 絞り込み ---------- */
-function applyFilters(arr){
-  if(state.tab === "candidate") arr = arr.filter(l=>l.candidate);
-  else if(state.tab !== "all")  arr = arr.filter(l=>l.source===state.tab);
+function statusPass(l){
+  return state.view==="ended"
+    ? (l.status==="ended" && withinEndedPeriod(l))
+    : l.status!=="ended";
+}
+function pricePass(l){
+  if(state.priceMin==null && state.priceMax==null) return true;
+  const p = priceMan(l.price);
+  if(p==null) return false;
+  if(state.priceMin!=null && p < state.priceMin) return false;
+  if(state.priceMax!=null && p > state.priceMax) return false;
+  return true;
+}
+/* メーカー以外の条件(タグ・検索・価格・状態)を適用 → タブ件数の母数 */
+function applyCommon(arr){
+  arr = arr.filter(l=>statusPass(l) && pricePass(l));
   if(state.tags.size){
     arr = arr.filter(l=>{
       const ts = computeTags(l);
@@ -703,6 +857,11 @@ function applyFilters(arr){
       return hay.includes(q);
     });
   }
+  return arr;
+}
+function applyMaker(arr){
+  if(state.tab === "candidate") return arr.filter(l=>l.candidate);
+  if(state.tab !== "all") return arr.filter(l=>l.source===state.tab);
   return arr;
 }
 function sortArr(arr){
@@ -727,77 +886,109 @@ function sortArr(arr){
   });
   return arr;
 }
-function filtered(){
-  const active = sortArr(applyFilters(listings.filter(l=>l.status!=="ended")));
-  if(!state.showEnded) return active;
-  const ended = sortArr(applyFilters(listings.filter(l=>l.status==="ended")));
-  return active.concat(ended);   // 掲載終了は必ず後ろにまとめる
-}
+function filtered(){ return sortArr(applyMaker(applyCommon(listings.slice()))); }
 
-/* ---------- タブ ---------- */
+/* ---------- タブ(絞り込みに連動して件数が変わる) ---------- */
 function renderTabs(){
-  const act = listings.filter(l=>l.status!=="ended");
+  const base = applyCommon(listings.slice());   // メーカー以外の条件を反映した母数
   const defs = [
-    {id:"all",  label:"すべて",   n:act.length},
-    {id:"maemura",  label:"マエムラ",   n:act.filter(l=>l.source==="maemura").length},
-    {id:"sumaiida", label:"すまいーだ", n:act.filter(l=>l.source==="sumaiida").length},
-    {id:"yokatown", label:"よかタウン", n:act.filter(l=>l.source==="yokatown").length},
-    {id:"candidate",label:"★候補",     n:act.filter(l=>l.candidate).length},
+    {id:"all",  label:"すべて",   n:base.length},
+    {id:"maemura",  label:"マエムラ",   n:base.filter(l=>l.source==="maemura").length},
+    {id:"sumaiida", label:"すまいーだ", n:base.filter(l=>l.source==="sumaiida").length},
+    {id:"yokatown", label:"よかタウン", n:base.filter(l=>l.source==="yokatown").length},
+    {id:"candidate",label:"★候補",     n:base.filter(l=>l.candidate).length},
   ];
-  document.getElementById("tabs").innerHTML = defs.map(d=>
+  const box = document.getElementById("tabs");
+  const keep = box.scrollLeft;
+  box.innerHTML = defs.map(d=>
     `<button class="tab${state.tab===d.id?" on":""}" data-tab="${d.id}">
       ${d.label}<span class="cnt">(${d.n})</span></button>`).join("");
-  document.getElementById("totalNote").innerHTML =
-    act.length + "件" + (baseUpdatedAt ? `<br>HP ${fmtDate(baseUpdatedAt)}更新` : "");
+  box.scrollLeft = keep;
 }
 
-/* ---------- タグ行(タグを押してもこの関数は呼ばず、スクロール位置を守る) ---------- */
-function renderTagRow(){
-  const act = listings.filter(l=>l.status!=="ended");
-  const areas=new Set(), layouts=new Set(), stories=new Set();
+/* ---------- タグの並び順:
+   New → 熊本市内の区 → 熊本市外の市町 → 構造 → 間取り → 未完成 ---------- */
+const WARD_ORDER = ["中央区","東区","西区","南区","北区"];
+const STORY_ORDER = ["平屋","2階建て","3階建て"];
+function orderedTags(items){
+  const wards=new Set(), outside=new Set(), layouts=new Set(), stories=new Set();
   let hasNew=false, hasMikan=false;
-  act.forEach(l=>{
-    const a=areaTag(l.address); if(a) areas.add(a);
+  items.forEach(l=>{
+    const a=areaTag(l.address);
+    if(a){ if(a.endsWith("区")) wards.add(a); else outside.add(a); }
     layoutTags(l.layout).forEach(x=>layouts.add(x));
     if(l.stories) stories.add(l.stories);
     if(isNew(l)) hasNew=true;
     if(isFutureBuilt(l.builtAt)) hasMikan=true;
   });
+  const wardSorted = [...wards].sort((a,b)=>{
+    const ia=WARD_ORDER.indexOf(a), ib=WARD_ORDER.indexOf(b);
+    return (ia<0?99:ia)-(ib<0?99:ib) || a.localeCompare(b,"ja");
+  });
+  const storySorted = [...stories].sort((a,b)=>STORY_ORDER.indexOf(a)-STORY_ORDER.indexOf(b));
+  const layoutSorted = [...layouts].sort();
   const tags=[];
   if(hasNew) tags.push("New");
+  tags.push(...wardSorted, ...[...outside].sort((a,b)=>a.localeCompare(b,"ja")), ...storySorted, ...layoutSorted);
   if(hasMikan) tags.push("未完成");
-  tags.push(...[...areas].sort(), ...[...layouts].sort(), ...[...stories].sort());
+  return tags;
+}
+function renderTagRow(){
+  const items = listings.filter(statusPass);
+  const tags = orderedTags(items);
   for(const t of [...state.tags]) if(!tags.includes(t)) state.tags.delete(t);
-  document.getElementById("tagRow").innerHTML = tags.map(t=>
+  const box = document.getElementById("tagRow");
+  const keep = box.scrollLeft;
+  box.innerHTML = tags.map(t=>
     `<button class="tag${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+  box.scrollLeft = keep;
 }
 
 /* ---------- 一覧 ---------- */
+function endedCount(){
+  return applyCommonEndedCount();
+}
+function applyCommonEndedCount(){
+  return listings.filter(l=>l.status==="ended" && withinEndedPeriod(l)).length;
+}
 function renderList(){
   const arr = filtered();
   document.getElementById("hitCount").textContent = arr.length+"件";
   const box = document.getElementById("list");
-  const endedTotal = applyFilters(listings.filter(l=>l.status==="ended")).length;
+
+  // 左下: 掲載終了ボタン
   const eb = document.getElementById("endedBtn");
-  eb.style.display = endedTotal ? "block" : "none";
-  eb.textContent = state.showEnded
-    ? "掲載終了した物件を隠す"
-    : `掲載終了した物件を表示(${endedTotal}件)`;
+  const en = endedCount();
+  if(state.view==="active" && en>0){
+    eb.classList.add("on");
+    eb.textContent = `🗂 掲載終了(${en})`;
+  }else if(state.view==="ended"){
+    eb.classList.add("on");
+    eb.textContent = "✕ 掲載中に戻る";
+  }else eb.classList.remove("on");
+  // 掲載終了表示中バナー
+  const bn = document.getElementById("endedBanner");
+  bn.classList.toggle("on", state.view==="ended");
+  document.getElementById("endedPeriodNote").textContent =
+    conf.endedMonths==="all" ? "(すべて)" : `(${conf.endedMonths}ヶ月以内)`;
 
   if(!listings.length){
     box.innerHTML = `<div class="empty"><div class="big">🏡</div>
-      まだ物件がありません。<br>↻ボタンでHPのデータを読み込むか、<br>右下の「＋ 物件を登録」から追加してください。</div>`;
+      まだ物件がありません。<br>メニュー(右下 ≡)の「↻ 最新データを読み込む」か、<br>「＋物件を登録」から始めてください。</div>`;
     return;
   }
   if(!arr.length){
-    box.innerHTML = `<div class="empty">条件に合う物件がありません。<br>検索やタグの条件を見直してください。</div>`;
+    box.innerHTML = `<div class="empty">${state.view==="ended"
+      ? "この条件・期間の掲載終了物件はありません。"
+      : "条件に合う物件がありません。<br>検索・タグ・価格の条件を見直してください。"}</div>`;
     return;
   }
   box.innerHTML = arr.map(l=>{
     const main = (l.photos||[]).find(p=>p.main) || (l.photos||[])[0];
-    const src = SOURCES[l.source] || {label:l.source||"?"};
+    const src = SOURCES[l.source] || {label:"手動"};
     const tags = computeTags(l);
     const ended = l.status==="ended";
+    const un = unitsNum(l);
     return `<div class="card${ended?" ended":""}" data-id="${esc(l.id)}">
       <div class="thumb">${main?`<img src="${esc(main.url)}" loading="lazy" alt="" onerror="this.parentNode.textContent='写真なし'">`:"写真なし"}</div>
       <div class="body">
@@ -806,7 +997,7 @@ function renderList(){
         <div class="addr">${esc(l.address||"")}</div>
         <div class="tags">
           ${ended?`<span class="end">掲載終了</span>`:""}
-          ${unitsNum(l)?`<span class="units">${unitsNum(l)}棟販売</span>`:""}
+          ${un?`<span class="units">${un}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
           ${tags.map(t=>`<span class="${t==="New"||t==="未完成"?"new":""}">${esc(t)}</span>`).join("")}
         </div>
@@ -815,17 +1006,29 @@ function renderList(){
     </div>`;
   }).join("");
 }
+function renderHome(){ renderTabs(); renderTagRow(); renderList(); updatePriceBtn(); }
+function updatePriceBtn(){
+  const on = state.priceMin!=null || state.priceMax!=null;
+  const label = on
+    ? `💰 ${state.priceMin!=null?fmtMan(state.priceMin):""}〜${state.priceMax!=null?fmtMan(state.priceMax):""}`
+    : "💰 価格";
+  const b1 = document.getElementById("priceBtn");
+  b1.textContent = label; b1.classList.toggle("on", on);
+  const b2 = document.getElementById("mapPriceBtn");
+  b2.textContent = label; b2.classList.toggle("on", on);
+}
+function fmtMan(v){ return v>=10000 ? (v/10000)+"億" : v.toLocaleString()+"万"; }
 
-function renderHome(){ renderTabs(); renderTagRow(); renderList(); }
-
-/* ---------- 画面切替(スマホの「戻る」対応のためハッシュで管理) ---------- */
+/* ---------- 画面切替 ---------- */
 function route(){
   const h = location.hash;
-  const pages = {pageList:"", pageDetail:"", pageForm:""};
+  const pages = {pageList:"", pageMap:"", pageDetail:"", pageForm:""};
   let show = "pageList";
   if(h.startsWith("#detail/")){
     currentId = decodeURIComponent(h.slice(8));
     if(listings.some(l=>l.id===currentId)){ renderDetail(currentId); show="pageDetail"; }
+  }else if(h === "#map"){
+    show="pageMap"; openMap();
   }else if(h === "#new"){
     editingId = null; fillForm(null); show="pageForm";
   }else if(h.startsWith("#edit/")){
@@ -840,18 +1043,111 @@ function route(){
 }
 window.addEventListener("hashchange", route);
 
+/* ---------- 地図 ---------- */
+let leafletMap = null, mapMarkers = [];
+function loadLeaflet(){
+  if(window.L) return Promise.resolve(true);
+  if(loadLeaflet._p) return loadLeaflet._p;
+  loadLeaflet._p = new Promise((resolve)=>{
+    const css = document.createElement("link");
+    css.rel="stylesheet";
+    css.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(css);
+    const js = document.createElement("script");
+    js.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    js.onload = ()=>resolve(true);
+    js.onerror = ()=>resolve(false);
+    document.head.appendChild(js);
+    setTimeout(()=>resolve(!!window.L), 10000);
+  });
+  return loadLeaflet._p;
+}
+function renderMakerRow(){
+  const box = document.getElementById("makerRow");
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","手動登録"]];
+  const cnt = (src)=>listings.filter(l=>statusPass(l) && (src==="manual"?isManual(l.id):l.source===src && !isManual(l.id))).length;
+  box.innerHTML = defs.map(([id,label])=>{
+    const n = cnt(id);
+    return `<button class="mk${state.makers.has(id)?" on":""}" data-mk="${id}">${state.makers.has(id)?"✓ ":""}${label}(${n})</button>`;
+  }).join("");
+}
+function renderMapTagRow(){
+  const items = listings.filter(statusPass);
+  const tags = orderedTags(items);
+  const box = document.getElementById("mapTagRow");
+  const keep = box.scrollLeft;
+  box.innerHTML = tags.map(t=>
+    `<button class="tag${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+  box.scrollLeft = keep;
+}
+function mapItems(){
+  let arr = applyCommon(listings.slice());
+  arr = arr.filter(l=>{
+    const key = isManual(l.id) ? "manual" : l.source;
+    return state.makers.has(key) || state.makers.has(l.source);
+  });
+  return arr;
+}
+async function openMap(){
+  renderMakerRow(); renderMapTagRow(); updatePriceBtn();
+  const ok = await loadLeaflet();
+  const div = document.getElementById("mapDiv");
+  if(!ok || !window.L){
+    div.textContent = "地図を読み込めませんでした。通信環境をご確認のうえ、開き直してください。";
+    return;
+  }
+  if(!leafletMap){
+    div.textContent = "";
+    leafletMap = L.map("mapDiv").setView([32.803, 130.708], 11); // 熊本市周辺
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(leafletMap);
+  }
+  refreshMapMarkers();
+  setTimeout(()=>{ try{ leafletMap.invalidateSize(); }catch(e){} }, 60);
+}
+function refreshMapMarkers(){
+  if(!leafletMap || !window.L) return;
+  mapMarkers.forEach(m=>m.remove());
+  mapMarkers = [];
+  const arr = mapItems();
+  let plotted = 0;
+  const bounds = [];
+  for(const l of arr){
+    const c = coordsOf(l);
+    if(!c) continue;
+    plotted++;
+    bounds.push(c);
+    const color = (SOURCES[l.source]||{}).color || "#57523f";
+    const icon = L.divIcon({className:"", iconSize:[26,26], iconAnchor:[13,24],
+      html:`<div class="pin" style="background:${color}"></div>`});
+    const mk = L.marker(c, {icon}).addTo(leafletMap);
+    mk.bindTooltip(esc(l.price||l.name), {permanent:true, direction:"right", offset:[10,-14], className:"priceTip"});
+    mk.bindPopup(`<div class="popName">${esc(l.name)}</div>
+      <div class="popPrice">${esc(l.price||"価格未定")}</div>
+      <div style="font-size:.78rem;color:#7a7466">${esc(l.address||"")}</div>
+      <a class="popLink" href="#detail/${encodeURIComponent(l.id)}">詳細を見る →</a>`);
+    mapMarkers.push(mk);
+  }
+  const noLoc = arr.length - plotted;
+  document.getElementById("mapCount").textContent =
+    `地図上: ${plotted}件` + (noLoc ? `(位置情報のない${noLoc}件は表示できません)` : "");
+  if(bounds.length){
+    try{ leafletMap.fitBounds(bounds, {padding:[30,30], maxZoom:14}); }catch(e){}
+  }
+}
+
 /* ---------- 詳細 ---------- */
 function renderDetail(id){
   const l = listings.find(x=>x.id===id); if(!l) return;
   document.getElementById("dTitle").textContent = l.name;
-  // 掲載終了バナー
   const be = document.getElementById("dEnded");
   if(l.status==="ended"){
     be.style.display="";
     be.textContent = "⚠ この物件はHPで掲載終了になっています"
-      + (l.endedAt ? `(${l.endedAt.slice(0,10)}確認)` : "");
+      + (l.endedAt ? `(${String(l.endedAt).slice(0,10)}確認)` : "");
   }else be.style.display="none";
-  // 写真
   const ph = document.getElementById("dPhotos");
   const photos = (l.photos||[]).slice().sort((a,b)=>(b.main?1:0)-(a.main?1:0));
   ph.innerHTML = photos.length
@@ -867,12 +1163,10 @@ function renderDetail(id){
   if(rb) rb.onclick = ()=>askResetEdit(l);
   document.getElementById("dTags").innerHTML =
     computeTags(l).map(t=>`<span>${esc(t)}</span>`).join("");
-  // ★候補
   const st = document.getElementById("dStar");
   st.className = l.candidate ? "on" : "";
   st.textContent = l.candidate ? "★ 候補に入っています(タップで外す)" : "☆ 候補に入れる";
   st.onclick = ()=>{ toggleCandidate(id); renderDetail(id); };
-  // 建物情報
   const rows=[];
   rows.push(["築年月", l.builtAt
     ? (isFutureBuilt(l.builtAt)
@@ -887,22 +1181,21 @@ function renderDetail(id){
   if(l.units) rows.push(["販売棟数", esc(l.units)]);
   document.getElementById("dBuilding").innerHTML =
     rows.map(r=>`<div class="kv"><span class="k">${r[0]}</span><span class="v">${r[1]}</span></div>`).join("");
-  // 価格の推移:変動(いつ・いくら→いくら)はボタンなしで常に表示。
-  // 「すべての記録」ボタンで、記録済みの全価格を一覧表示する。
+  // 価格の推移
   const changes = l.priceChanges||[];
   const snaps = l.priceSnapshots||[];
   const hb = document.getElementById("dPriceHistBox");
   if(changes.length || snaps.length>=2){
     hb.style.display="";
-    let rows;
+    let rowsH;
     if(changes.length){
-      rows = changes.map(c=>{
+      rowsH = changes.map(c=>{
         const pf=priceMan(c.from), pt=priceMan(c.to);
         const cls = (pf!=null&&pt!=null) ? (pt>pf?"up":pt<pf?"down":"") : "";
         return `<div class="phRow"><span class="d">${esc(c.date)}</span><span class="p ${cls}">${esc(c.from)} → ${esc(c.to)}</span></div>`;
       }).join("");
     }else{
-      rows = snaps.map((s,i)=>{
+      rowsH = snaps.map((s,i)=>{
         let cls="";
         if(i>0){
           const prev=priceMan(snaps[i-1].price), cur=priceMan(s.price);
@@ -911,7 +1204,7 @@ function renderDetail(id){
         return `<div class="phRow"><span class="d">${esc(s.date)}</span><span class="p ${cls}">${esc(s.price)}</span></div>`;
       }).join("");
     }
-    document.getElementById("dPriceHist").innerHTML = rows +
+    document.getElementById("dPriceHist").innerHTML = rowsH +
       (snaps.length ? `<button class="btn btn-line" id="phAllBtn" style="margin-top:10px">▶ これまでの価格をすべて見る</button>` : "");
     const pb = document.getElementById("phAllBtn");
     if(pb) pb.onclick = ()=>{
@@ -919,12 +1212,11 @@ function renderDetail(id){
       modal("価格の記録", txt || "記録がありません", [["閉じる",null,"mb-ok"]]);
     };
   }else hb.style.display="none";
-  // 地図
+  // 地図・HPリンク
   const mapQ = (l.locText||"").trim() || (l.address||"").trim();
   document.getElementById("dMapBox").style.display = mapQ ? "" : "none";
   if(mapQ) document.getElementById("dMapLink").href =
     "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(mapQ);
-  // HPリンク
   document.getElementById("dHpBox").style.display = l.detailUrl ? "" : "none";
   if(l.detailUrl) document.getElementById("dHpLink").href = l.detailUrl;
   // 学校区
@@ -933,28 +1225,33 @@ function renderDetail(id){
   if(l.junior)     sc.push(schoolRow("🏫", l.junior, l.juniorMin, l));
   document.getElementById("dSchoolBox").style.display = sc.length ? "" : "none";
   document.getElementById("dSchools").innerHTML = sc.join("");
-  // 周辺施設(ルートリンク付き)
+  // 周辺施設
   const fc=(l.facilities||[]);
   document.getElementById("dFacBox").style.display = fc.length ? "" : "none";
   document.getElementById("dFacs").innerHTML = fc.map(f=>{
-    const q = f.name+" "+(areaTag(l.address)||"熊本");
-    const link = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q)}${l.locText?`&origin=${encodeURIComponent(l.locText)}`:""}&travelmode=walking`;
-    return `<div class="fac"><span class="ico">${FAC_ICONS[f.cat]||"📍"}</span>
+    const q2 = f.name+" "+(areaTag(l.address)||"熊本");
+    const link = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q2)}${l.locText?`&origin=${encodeURIComponent(l.locText)}`:""}&travelmode=walking`;
+    return `<div class="fac"><span>${FAC_ICONS[f.cat]||"📍"}</span>
      <span>${esc(f.name)} <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:4px">ルート</a></span>
      ${f.min?`<span class="min">徒歩${esc(f.min)}分</span>`:""}</div>`;
   }).join("");
-  // HPの紹介文・トーク・メモ
   document.getElementById("dHpTextBox").style.display = l.hpText ? "" : "none";
   document.getElementById("dHpText").textContent = l.hpText||"";
   document.getElementById("dTalkBox").style.display = l.talkPoints ? "" : "none";
   document.getElementById("dTalk").textContent = l.talkPoints||"";
   document.getElementById("dMemoBox").style.display = l.memo ? "" : "none";
   document.getElementById("dMemo").textContent = l.memo||"";
-  // メタ情報
+  // 近隣の物件(初期表示3km)
+  const nr = document.getElementById("nearRange");
+  nr.value = "3";
+  document.getElementById("nearKm").textContent = "3km";
+  renderNearby(l, 3);
+  // メタ
   const meta=[];
   if(l.createdAt) meta.push("登録日: "+String(l.createdAt).slice(0,10));
   if(l.editedAt)  meta.push("編集日: "+String(l.editedAt).slice(0,10));
   if(l.lastSeen)  meta.push("HP確認日: "+String(l.lastSeen).slice(0,10));
+  if(l.aiDone)    meta.push("AI補強済み");
   document.getElementById("dMeta").textContent = meta.join(" / ");
 }
 function schoolRow(ico,name,min,l){
@@ -964,11 +1261,48 @@ function schoolRow(ico,name,min,l){
     <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:6px">ルート</a></span>
     ${min?`<span class="min">徒歩${esc(min)}分</span>`:""}</div>`;
 }
+/* 近隣の物件(掲載中のみ・近い順) */
+function renderNearby(l, km){
+  const box = document.getElementById("dNearBox");
+  const my = coordsOf(l);
+  if(!my){
+    box.style.display = "";
+    document.getElementById("nearInfo").textContent = "この物件に位置情報がないため、近隣を検索できません(✎編集で緯度・経度を設定できます)";
+    document.getElementById("nearList").innerHTML = "";
+    return;
+  }
+  box.style.display = "";
+  let noLoc = 0;
+  const cand = [];
+  for(const o of listings){
+    if(o.id===l.id || o.status==="ended") continue;
+    const c = coordsOf(o);
+    if(!c){ noLoc++; continue; }
+    const d = distKm(my, c);
+    if(d <= km) cand.push([d, o]);
+  }
+  cand.sort((a,b)=>a[0]-b[0]);
+  document.getElementById("nearInfo").innerHTML =
+    `半径${km}km以内に <b>${cand.length}件</b>` +
+    (noLoc?`<span style="font-size:.72rem">(位置情報のない${noLoc}件は対象外)</span>`:"");
+  document.getElementById("nearList").innerHTML = cand.slice(0,30).map(([d,o])=>{
+    const src = SOURCES[o.source]||{label:"手動", color:"#57523f"};
+    const dTxt = d<0.15 ? "すぐ近く" : "約"+(d<10?d.toFixed(1):Math.round(d))+"km";
+    return `<div class="nearItem" data-near="${esc(o.id)}">
+      <span class="dot" style="background:${src.color||"#57523f"}"></span>
+      <div class="nbody">
+        <div class="nname">${esc(o.name)}</div>
+        <div class="nsub">${esc(src.label)} ・ ${dTxt}${o.layout?` ・ ${esc(layoutTags(o.layout).join("・")||o.layout)}`:""}</div>
+      </div>
+      <span class="nprice">${esc(o.price||"価格未定")}</span>
+    </div>`;
+  }).join("") || `<div class="mut" style="padding:10px 0">この範囲には他の物件がありません</div>`;
+}
 
-/* ★候補の切替(HP物件は編集レイヤーに、手動物件は本体に保存) */
+/* ---------- 候補・保護解除 ---------- */
 function toggleCandidate(id){
   const m = manual.find(x=>x.id===id);
-  if(m){ m.candidate = !m.candidate; saveManual(); }
+  if(m){ m.candidate = !m.candidate; saveManualLS(); }
   else{
     const o = ovrs[id] || {};
     if(o.candidate) delete o.candidate; else o.candidate = true;
@@ -978,14 +1312,13 @@ function toggleCandidate(id){
   }
   combine();
 }
-
 function askResetEdit(l){
   if(isManual(l.id)){
     modal("保護の解除",
       `「${l.name}」の手動編集の保護を解除します。よろしいですか?`,
       [["やめる",null,"mb-cancel"],
        ["解除する",()=>{ const m=manual.find(x=>x.id===l.id);
-          if(m){ m.edited=false; m.editedAt=""; saveManual(); combine(); }
+          if(m){ m.edited=false; m.editedAt=""; saveManualLS(); combine(); }
           renderDetail(l.id); toast("保護を解除しました"); },"mb-ok"]]);
   }else{
     modal("編集の取り消し",
@@ -1011,7 +1344,7 @@ function fillForm(l){
   document.getElementById("noDelNote").style.display = (l && !man) ? "block" : "none";
   F("fName").value   = l?.name||"";
   F("fSource").value = l?.source||"maemura";
-  F("fSource").disabled = !!(l && !man);   // HP物件のメーカーは変更不可
+  F("fSource").disabled = !!(l && !man);
   F("fPrice").value  = l?.price||"";
   F("fAddr").value   = l?.address||"";
   F("fUrl").value    = l?.detailUrl||"";
@@ -1032,7 +1365,7 @@ function fillForm(l){
   F("fMemo").value   = l?.memo||"";
 }
 function readForm(){
-  const built = F("fBuilt").value; // "2025-08"
+  const built = F("fBuilt").value;
   const photos = F("fPhotos").value.split("\n").map(s=>s.trim()).filter(Boolean)
     .map((u,i)=>({id:"p"+(i+1), url:u, main:i===0}));
   return {
@@ -1059,27 +1392,25 @@ function readForm(){
 function saveForm(){
   const v = readForm();
   if(!v.name){ toast("物件名を入力してください"); F("fName").focus(); return; }
-
   if(editingId){
     const m = manual.find(x=>x.id===editingId);
     if(m){
-      /* --- 手動登録物件の編集:そのまま上書き --- */
       Object.assign(m, v, { edited:true, editedAt: todayStr() });
-      saveManual(); combine();
+      saveManualLS(); combine();
       toast("保存しました");
     }else{
-      /* --- HP物件の編集:HPの値と違う項目だけを「編集レイヤー」に保存 ---
-         こうすることで、触っていない項目(価格など)はHPの自動更新に追従し、
-         編集した項目(学校区・メモなど)だけが守られる                    */
       const b = baseById[editingId]; if(!b) return;
       const o = ovrs[editingId] ? Object.assign({}, ovrs[editingId]) : {};
       for(const k of Object.keys(o)) if(k!=="candidate" && k.charAt(0)!=="_") delete o[k];
+      /* AI補強で埋まっている値との差分も編集として保存する(比較の基準はHP+AI補強) */
+      const mv = manualData[editingId] || {};
+      const baseVal = (k)=>{ const bv = b[k]; return (bv!==undefined && bv!=="" && bv!==null) ? bv : (mv[k] ?? ""); };
       OVR_FIELDS.forEach(k=>{
         if(k==="builtAt"){
-          if(JSON.stringify(builtYM(v[k]))!==JSON.stringify(builtYM(b[k]))) o[k]=v[k];
+          if(JSON.stringify(builtYM(v[k]))!==JSON.stringify(builtYM(baseVal(k)))) o[k]=v[k];
           return;
         }
-        const va = String(v[k]??"").trim(), vb = String(b[k]??"").trim();
+        const va = String(v[k]??"").trim(), vb = String(baseVal(k)??"").trim();
         if(va!==vb) o[k]=va;
       });
       const pa=(v.photos||[]).map(p=>p.url).join("\n");
@@ -1096,7 +1427,6 @@ function saveForm(){
     location.hash = "#detail/"+encodeURIComponent(editingId);
     return;
   }
-  /* --- 新規登録:重複チェック(HP物件・手動物件の両方と照合) --- */
   let dup = null;
   if(v.detailUrl){
     const nu = normUrl(v.detailUrl);
@@ -1121,9 +1451,9 @@ function saveForm(){
     id, tags:[], candidate:false, facilities:[],
     status:"active", endedAt:"", lastSeen:"",
     priceChanges:[], priceSnapshots: v.price ? [{date:todayStr(), price:v.price}] : [],
-    edited:false, editedAt:"", aiDone:false, createdAt: now,
+    edited:false, editedAt:"", aiDone:false, createdAt: now, units:"",
   }, v));
-  saveManual(); combine();
+  saveManualLS(); combine();
   toast("登録しました");
   location.hash = "#detail/"+encodeURIComponent(id);
 }
@@ -1134,13 +1464,13 @@ function askDelete(){
     [["やめる",null,"mb-cancel"],
      ["削除する",()=>{
         manual = manual.filter(x=>x.id!==l.id);
-        saveManual(); combine();
+        saveManualLS(); combine();
         toast("削除しました: "+l.name);
         location.hash = "";
       },"mb-danger"]]);
 }
 
-/* ---------- モーダル ---------- */
+/* ---------- 汎用モーダル ---------- */
 function modal(title, txt, btns){
   document.getElementById("mTitle").textContent = title;
   document.getElementById("mTxt").textContent = txt;
@@ -1149,15 +1479,171 @@ function modal(title, txt, btns){
   btns.forEach(([label, fn, cls])=>{
     const b = document.createElement("button");
     b.textContent = label; b.className = cls;
-    b.onclick = ()=>{ closeModal(); if(fn) fn(); };
+    b.onclick = ()=>{ closeSheet("modalBg"); if(fn) fn(); };
     bx.appendChild(b);
   });
   document.getElementById("modalBg").classList.add("on");
 }
-function closeModal(){ document.getElementById("modalBg").classList.remove("on"); }
-document.getElementById("modalBg").addEventListener("click", e=>{
-  if(e.target.id==="modalBg") closeModal();
+function openSheet(id){ document.getElementById(id).classList.add("on"); }
+function closeSheet(id){ document.getElementById(id).classList.remove("on"); }
+["modalBg","menuBg","priceBg","csvBg","aiBg"].forEach(id=>{
+  document.getElementById(id).addEventListener("click", e=>{
+    if(e.target.id===id) closeSheet(id);
+  });
 });
+
+/* ---------- 価格絞り込み ---------- */
+const PRICE_STEPS = [500,750,1000,1250,1500,1750,2000,2250,2500,2750,3000,3500,4000,4500,5000,6000,8000,10000];
+function initPriceSheet(){
+  const mk = (isMin)=>`<option value="">${isMin?"下限なし":"上限なし"}</option>` +
+    PRICE_STEPS.map(v=>`<option value="${v}">${fmtMan(v)}円</option>`).join("");
+  document.getElementById("priceMinSel").innerHTML = mk(true);
+  document.getElementById("priceMaxSel").innerHTML = mk(false);
+}
+function openPriceSheet(){
+  document.getElementById("priceMinSel").value = state.priceMin ?? "";
+  document.getElementById("priceMaxSel").value = state.priceMax ?? "";
+  openSheet("priceBg");
+}
+function applyPrice(){
+  const mn = document.getElementById("priceMinSel").value;
+  const mx = document.getElementById("priceMaxSel").value;
+  state.priceMin = mn==="" ? null : +mn;
+  state.priceMax = mx==="" ? null : +mx;
+  if(state.priceMin!=null && state.priceMax!=null && state.priceMin>state.priceMax){
+    const t=state.priceMin; state.priceMin=state.priceMax; state.priceMax=t;
+  }
+  closeSheet("priceBg");
+  renderHome();
+  if(document.getElementById("pageMap").classList.contains("on")){
+    renderMakerRow(); refreshMapMarkers();
+  }
+}
+
+/* ---------- CSV(Excel用)出力 ---------- */
+function csvEscape(v){
+  const s = String(v??"");
+  return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s;
+}
+function buildCsv(opts){
+  // opts: {status:"active"|"both"|"ended", makers:Set, starOnly:bool}
+  let arr = listings.filter(l=>{
+    if(opts.status==="active" && l.status==="ended") return false;
+    if(opts.status==="ended" && l.status!=="ended") return false;
+    const key = isManual(l.id) ? "manual" : l.source;
+    if(!opts.makers.has(key)) return false;
+    if(opts.starOnly && !l.candidate) return false;
+    return true;
+  });
+  arr = sortArr(arr);
+  const head = ["メーカー","物件名","価格","住所","間取り","建て方","築年月","建物面積","土地面積",
+    "駐車場","販売棟数","小学校","小学校徒歩(分)","中学校","中学校徒歩(分)",
+    "状態","★候補","セールストーク","商談メモ","HPリンク"];
+  const rows = arr.map(l=>[
+    (SOURCES[l.source]||{label:"手動"}).label + (isManual(l.id)?"(手動)":""),
+    l.name, l.price||"価格未定", l.address||"", l.layout||"", l.stories||"",
+    builtDisp(l.builtAt)||"", l.buildingArea||"", l.landArea||"",
+    l.parking||"", l.units||"", l.elementary||"", l.elementaryMin||"",
+    l.junior||"", l.juniorMin||"",
+    l.status==="ended"?"掲載終了":"掲載中", l.candidate?"★":"",
+    l.talkPoints||"", l.memo||"", l.detailUrl||"",
+  ]);
+  return "\uFEFF" + [head, ...rows].map(r=>r.map(csvEscape).join(",")).join("\r\n");
+}
+function openCsvSheet(){
+  const box = document.getElementById("csvMakers");
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","手動登録"]];
+  box.innerHTML = defs.map(([id,label])=>
+    `<button class="chk on" data-csvmk="${id}">${label}</button>`).join("");
+  document.getElementById("csvStarOnly").checked = false;
+  openSheet("csvBg");
+}
+function exportCsv(){
+  const makers = new Set([...document.querySelectorAll("#csvMakers .chk.on")].map(b=>b.dataset.csvmk));
+  if(!makers.size){ toast("メーカーを1つ以上選んでください"); return; }
+  const status = document.querySelector('input[name="csvStatus"]:checked').value;
+  const starOnly = document.getElementById("csvStarOnly").checked;
+  const csv = buildCsv({status, makers, starOnly});
+  const lines = csv.split("\r\n").length - 1;
+  if(lines <= 0){ toast("条件に合う物件がありません"); return; }
+  const blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "物件一覧_"+todayStr().replace(/-/g,"")+".csv";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 5000);
+  closeSheet("csvBg"); closeSheet("menuBg");
+  toast(`${lines}件を書き出しました(Excelで開けます)`);
+}
+
+/* ---------- AI補強プロンプト ----------
+   対象: マエムラ物件のうち、まだ data/manual.json に登録がないもの(各物件1回だけ) */
+function aiTargets(){
+  return hpBase.filter(b=>b.source==="maemura" && b.status!=="ended" && !manualData[b.id]);
+}
+function buildAiPrompt(){
+  const targets = aiTargets();
+  const items = targets.map(b=>({
+    id: b.id, name: b.name, price: b.price, address: b.address,
+    layout: b.layout, stories: b.stories, builtAt: b.builtAt,
+    buildingArea: b.buildingArea, landArea: b.landArea, parking: b.parking,
+    elementary: b.elementary||"", junior: b.junior||"",
+    facilities: (b.facilities||[]).map(f=>f.name+(f.min?`(徒歩${f.min}分)`:"")),
+    hpText: b.hpText||"",
+  }));
+  return `あなたは熊本の建売住宅メーカーの営業を支援するアシスタントです。
+以下の物件データをもとに、各物件について営業用の情報を補強してください。
+
+# やること(各物件)
+1. talkPoints: お客様への提案に使えるセールストークを2〜3文で。誇張せず、データにある事実(価格・間取り・完成時期・学校区・周辺施設)に基づくこと。
+2. elementary / junior: 学校区が空欄("")の物件のみ、住所から通学区域の小学校・中学校名が「確実に」分かる場合だけ埋める。少しでも不確かなら空欄のままにする。推測は禁止。
+
+# 出力形式(重要)
+- 次のJSON形式「だけ」を出力する。説明文・コードブロック記号は不要。
+- キーは物件のid。値は補強した項目のみを含むオブジェクト。
+{
+  "maemura-12345": { "talkPoints": "…", "elementary": "…小学校" },
+  "maemura-67890": { "talkPoints": "…" }
+}
+
+# 物件データ(${items.length}件)
+${JSON.stringify(items, null, 1)}
+
+# 出力したJSONの使いみち(参考)
+このJSONは、物件管理アプリの data/manual.json にそのまま貼り付けて使います。`;
+}
+function openAiSheet(){
+  const targets = aiTargets();
+  const done = hpBase.filter(b=>b.source==="maemura" && manualData[b.id]).length;
+  document.getElementById("aiInfo").textContent = targets.length
+    ? `AI補強の対象: マエムラの未補強物件 ${targets.length}件(補強済み ${done}件)\n\n`
+      + `使い方:\n1.「プロンプトをコピー」を押す\n2. お使いのAI(Claude・ChatGPT等)に貼り付けて実行\n3. 出力されたJSONを、GitHubの data/manual.json に貼り付けて保存\n4. アプリのメニューで「↻ 最新データを読み込む」\n\n`
+      + `※ 補強されるのは空欄の項目だけで、HPの自動収集やあなたの編集を上書きすることはありません。一度補強した物件は対象から外れます。`
+    : `マエムラの物件はすべて補強済みです(${done}件)。新しい物件が増えたら、ここに対象が表示されます。`;
+  document.getElementById("aiCopy").style.display = targets.length ? "" : "none";
+  openSheet("aiBg");
+}
+async function copyAiPrompt(){
+  const text = buildAiPrompt();
+  try{
+    await navigator.clipboard.writeText(text);
+    toast("プロンプトをコピーしました。AIに貼り付けてください");
+    closeSheet("aiBg"); closeSheet("menuBg");
+  }catch(e){
+    modal("コピーできませんでした",
+      "お手数ですが、以下を長押しして全選択→コピーしてください。\n\n"+text.slice(0,1500)+"…",
+      [["閉じる",null,"mb-ok"]]);
+  }
+}
+
+/* ---------- メニュー ---------- */
+function openMenu(){
+  document.getElementById("endedMonthsSel").value = conf.endedMonths;
+  document.getElementById("menuInfo").textContent =
+    (baseUpdatedAt ? `情報更新日: ${fmtDate(baseUpdatedAt)}` : "HPデータ未取得")
+    + " / 毎週火曜 朝6時に自動更新";
+  openSheet("menuBg");
+}
 
 /* ---------- イベント ---------- */
 document.getElementById("tabs").addEventListener("click", e=>{
@@ -1165,21 +1651,29 @@ document.getElementById("tabs").addEventListener("click", e=>{
   state.tab = b.dataset.tab;
   renderTabs(); renderList();
 });
-document.getElementById("tagRow").addEventListener("click", e=>{
+function tagClickHandler(e){
   const b = e.target.closest(".tag"); if(!b) return;
   const t = b.dataset.tag;
   if(state.tags.has(t)){ state.tags.delete(t); b.classList.remove("on"); }
   else { state.tags.add(t); b.classList.add("on"); }
-  renderList();
+  renderTabs(); renderList();
+  if(document.getElementById("pageMap").classList.contains("on")){
+    renderMakerRow(); refreshMapMarkers();
+  }
+}
+document.getElementById("tagRow").addEventListener("click", tagClickHandler);
+document.getElementById("mapTagRow").addEventListener("click", tagClickHandler);
+document.getElementById("makerRow").addEventListener("click", e=>{
+  const b = e.target.closest(".mk"); if(!b) return;
+  const id = b.dataset.mk;
+  if(state.makers.has(id)) state.makers.delete(id); else state.makers.add(id);
+  renderMakerRow(); refreshMapMarkers();
 });
 document.getElementById("q").addEventListener("input", e=>{
-  state.q = e.target.value; renderList();
+  state.q = e.target.value; renderTabs(); renderList();
 });
 document.getElementById("sort").addEventListener("change", e=>{
   state.sort = e.target.value; renderList();
-});
-document.getElementById("endedBtn").addEventListener("click", ()=>{
-  state.showEnded = !state.showEnded; renderList();
 });
 document.getElementById("list").addEventListener("click", e=>{
   const star = e.target.closest(".starBtn");
@@ -1194,9 +1688,76 @@ document.getElementById("list").addEventListener("click", e=>{
   route._listScroll = window.scrollY;
   location.hash = "#detail/"+encodeURIComponent(card.dataset.id);
 });
-document.getElementById("fab").addEventListener("click", ()=>{
-  route._listScroll = window.scrollY;
-  location.hash = "#new";
+document.getElementById("dNearBox").addEventListener("click", e=>{
+  const it = e.target.closest(".nearItem"); if(!it) return;
+  location.hash = "#detail/"+encodeURIComponent(it.dataset.near);
+});
+document.getElementById("nearRange").addEventListener("input", e=>{
+  document.getElementById("nearKm").textContent = e.target.value+"km";
+});
+document.getElementById("nearGo").addEventListener("click", ()=>{
+  const l = listings.find(x=>x.id===currentId); if(!l) return;
+  renderNearby(l, +document.getElementById("nearRange").value);
+});
+/* 掲載終了の表示切替 */
+document.getElementById("endedBtn").addEventListener("click", ()=>{
+  state.view = state.view==="active" ? "ended" : "active";
+  renderHome();
+  window.scrollTo(0,0);
+});
+document.getElementById("backActiveBtn").addEventListener("click", ()=>{
+  state.view = "active"; renderHome();
+});
+/* メニュー */
+document.getElementById("fab").addEventListener("click", openMenu);
+document.getElementById("menuClose").addEventListener("click", ()=>closeSheet("menuBg"));
+document.getElementById("muAdd").addEventListener("click", ()=>{
+  closeSheet("menuBg"); route._listScroll = window.scrollY; location.hash="#new";
+});
+document.getElementById("muMap").addEventListener("click", ()=>{
+  closeSheet("menuBg"); route._listScroll = window.scrollY; location.hash="#map";
+});
+document.getElementById("muPrice").addEventListener("click", ()=>{
+  closeSheet("menuBg"); openPriceSheet();
+});
+document.getElementById("muStar").addEventListener("click", ()=>{
+  closeSheet("menuBg"); state.tab="candidate"; renderHome(); window.scrollTo(0,0);
+});
+document.getElementById("muCsv").addEventListener("click", openCsvSheet);
+document.getElementById("muAi").addEventListener("click", openAiSheet);
+document.getElementById("muReload").addEventListener("click", async e=>{
+  e.preventDefault();
+  loadLS();
+  const ok = await loadBase();
+  combine(); renderHome();
+  closeSheet("menuBg");
+  toast(ok ? "最新のHPデータを読み込みました" : "通信できないため、保存済みのデータを表示しています");
+});
+document.getElementById("endedMonthsSel").addEventListener("change", e=>{
+  conf.endedMonths = e.target.value; saveConf(); renderHome();
+});
+/* 価格 */
+document.getElementById("priceBtn").addEventListener("click", openPriceSheet);
+document.getElementById("mapPriceBtn").addEventListener("click", openPriceSheet);
+document.getElementById("priceApply").addEventListener("click", applyPrice);
+document.getElementById("priceClear").addEventListener("click", ()=>{
+  document.getElementById("priceMinSel").value="";
+  document.getElementById("priceMaxSel").value="";
+  applyPrice();
+});
+/* CSV */
+document.getElementById("csvMakers").addEventListener("click", e=>{
+  const b = e.target.closest(".chk"); if(!b) return;
+  b.classList.toggle("on");
+});
+document.getElementById("csvCancel").addEventListener("click", ()=>closeSheet("csvBg"));
+document.getElementById("csvGo").addEventListener("click", exportCsv);
+/* AI */
+document.getElementById("aiCancel").addEventListener("click", ()=>closeSheet("aiBg"));
+document.getElementById("aiCopy").addEventListener("click", copyAiPrompt);
+/* 地図・編集 */
+document.getElementById("mapBtn").addEventListener("click", ()=>{
+  route._listScroll = window.scrollY; location.hash="#map";
 });
 document.getElementById("editBtn").addEventListener("click", ()=>{
   const go = ()=>{ location.hash = "#edit/"+encodeURIComponent(currentId); };
@@ -1209,14 +1770,9 @@ document.getElementById("editBtn").addEventListener("click", ()=>{
 });
 document.getElementById("saveBtn").addEventListener("click", saveForm);
 document.getElementById("deleteBtn").addEventListener("click", askDelete);
-document.getElementById("reloadBtn").addEventListener("click", async ()=>{
-  loadLS();                 // 端末内の手動データも読み直す(別タブで編集した場合に備える)
-  const ok = await loadBase();
-  combine(); renderHome();
-  toast(ok ? "最新のHPデータを読み込みました" : "通信できないため、保存済みのデータを表示しています");
-});
 
 /* ---------- 起動 ---------- */
+initPriceSheet();
 (async function init(){
   loadLS();
   await loadBase();
