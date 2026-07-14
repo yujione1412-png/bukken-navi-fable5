@@ -192,5 +192,27 @@ function dlPairs($) {
   return kv;
 }
 
-module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs,
+/* ---------- robots.txt の User-agent:* ルールで path が許可されているか ---------- */
+function robotsAllows(robotsText, path) {
+  const lines = String(robotsText || "").split(/\r?\n/);
+  let applies = false;
+  const rules = [];
+  for (const line of lines) {
+    const m = line.match(/^\s*(user-agent|disallow|allow)\s*:\s*(.*)$/i);
+    if (!m) continue;
+    const k = m[1], v = m[2].trim();
+    if (/user-agent/i.test(k)) applies = (v === "*");
+    else if (applies) rules.push({ allow: /^allow$/i.test(k), path: v });
+  }
+  let verdict = true, matchLen = -1;
+  for (const r of rules) {
+    if (!r.path) continue;
+    if (path.startsWith(r.path) && r.path.length > matchLen) {
+      matchLen = r.path.length; verdict = r.allow;
+    }
+  }
+  return verdict;
+}
+
+module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows,
   mergeListings, loadData, saveData, todayStr, WAIT_MS };
