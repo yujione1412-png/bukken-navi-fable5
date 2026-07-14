@@ -151,7 +151,7 @@ function parseDetail(html, url, warnings) {
     buildingArea: kvGet("建物面積"), landArea: kvGet("土地面積"),
     parking, units: "",
     elementary, elementaryMin, junior, juniorMin,
-    facilities, photos, locText: "",
+    facilities, photos, locText: "", locPrec: "",
     hpText: ($('meta[name="description"]').attr("content") || "").trim(),
     tags: [],
   };
@@ -202,14 +202,17 @@ async function main() {
   let geocoded = 0, geoFail = 0;
   const GEO_LIMIT = 200;  // 1回の実行での上限(1.2秒間隔を守るため、200件でも約5分)
   for (const s of scraped) {
-    if (s.locText || !s.address) continue;
+    // 位置が未取得、または精度が未記録(旧バージョンで取得済み)の物件を対象にする
+    if ((s.locText && s.locPrec) || !s.address) continue;
     if (geocoded + geoFail >= GEO_LIMIT) break;
     await sleep(1200);
-    s.locText = await geocode(s.address);
-    if (s.locText) geocoded++; else geoFail++;
+    const g = await geocode(s.address);
+    if (g.loc) { s.locText = g.loc; s.locPrec = g.prec; geocoded++; }
+    else if (!s.locText) geoFail++;
   }
   const noLoc = scraped.filter((s) => !s.locText).length;
-  console.log(`[位置情報] 前回から引き継ぎ ${reused}件 / 新規取得 ${geocoded}件 / 取得できず ${geoFail}件`);
+  const approx = scraped.filter((s) => s.locPrec === "banchi" || s.locPrec === "town").length;
+  console.log(`[位置情報] 前回から引き継ぎ ${reused}件 / 新規取得 ${geocoded}件(うち、おおよその位置 ${approx}件) / 取得できず ${geoFail}件`);
   console.log(`[位置情報] 位置情報が未設定の物件: 残り${noLoc}件` +
     (noLoc ? "(住所が地図サービスで見つからない物件。アプリの✎編集で緯度・経度を手動設定できます)" : " → 全件完了!"));
   if (scraped.length) {
