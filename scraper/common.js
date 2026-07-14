@@ -206,11 +206,17 @@ async function geocode(address) {
     } catch (e) {}
     return "";
   };
-  let r = await tryOnce(address);
-  if (!r) {
-    // 番地で見つからないことが多いので、末尾の番地部分を削って再挑戦
-    const relaxed = String(address).replace(/[0-9０-９][0-9０-９\-‐−ー番地号の]*$/, "").trim();
-    if (relaxed && relaxed !== address) { await sleep(1200); r = await tryOnce(relaxed); }
+  // 3段階で挑戦: ①住所そのまま → ②番地を外す → ③丁目まで外す(町名レベル)
+  const attempts = [String(address).trim()];
+  const noBanchi = attempts[0].replace(/[0-9０-９][0-9０-９\-‐−ー番地号の]*$/, "").trim();
+  if (noBanchi && noBanchi !== attempts[0]) attempts.push(noBanchi);
+  const townOnly = noBanchi.replace(/[0-9０-９]+丁目.*$/, "").trim();
+  if (townOnly && townOnly !== noBanchi && townOnly.length >= 6) attempts.push(townOnly);
+  let r = "";
+  for (const q of attempts) {
+    r = await tryOnce(q);
+    if (r) break;
+    await sleep(1200);
   }
   return r;
 }
