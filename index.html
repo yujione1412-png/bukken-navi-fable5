@@ -331,7 +331,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.9</span>
+    <h1>物件ナビ</h1><span class="ver">v0.10</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -519,6 +519,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   </div>
   <div class="menuFoot">
     <div class="mline"><a href="#" id="muReload">↻ 最新データを読み込む</a></div>
+    <div class="mline"><a href="#" id="muPreload">📷 写真をまとめて先読み(Wi-Fi推奨)</a></div>
     <div class="srow">
       <label>掲載終了として数える期間(左下ボタンの対象)</label>
       <select id="endedMonthsSel">
@@ -820,6 +821,20 @@ function computeTags(l){
   if(isNew(l)) t.push("New");
   return t;
 }
+/* 写真: 縮小版(local)があればそれを優先。読み込み失敗時は元URLに自動切替 */
+function photoSrc(p){ return p ? (p.local || p.url || "") : ""; }
+function imgFall(el, mode){
+  const org = el.dataset.org;
+  if(org && !el.dataset.f && el.getAttribute("src") !== org){
+    el.dataset.f = "1";
+    el.src = org;                       // 縮小版がダメなら元URLを試す
+    return;
+  }
+  if(mode === "card"){ el.parentNode.textContent = "写真なし"; }
+  else { el.remove(); }
+}
+window.imgFall = imgFall;
+
 /* 座標 "32.825, 130.689" → [lat,lng] */
 function coordsOf(l){
   const m = String(l.locText||"").match(/(-?\d{1,2}\.\d{3,})\s*[, ]\s*(-?\d{2,3}\.\d{3,})/);
@@ -1010,7 +1025,7 @@ function renderList(){
     const ended = l.status==="ended";
     const un = unitsNum(l);
     return `<div class="card${ended?" ended":""}" data-id="${esc(l.id)}">
-      <div class="thumb">${main?`<img src="${esc(main.url)}" loading="lazy" alt="" onerror="this.parentNode.textContent='写真なし'">`:"写真なし"}</div>
+      <div class="thumb">${main?`<img src="${esc(photoSrc(main))}" data-org="${esc(main.url||"")}" loading="lazy" alt="" onerror="imgFall(this,'card')">`:"写真なし"}</div>
       <div class="body">
         <div class="name">${esc(l.name)}</div>
         <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}${moveBadge(l)}</div>
@@ -1170,7 +1185,7 @@ function renderDetail(id){
   const ph = document.getElementById("dPhotos");
   const photos = (l.photos||[]).slice().sort((a,b)=>(b.main?1:0)-(a.main?1:0));
   ph.innerHTML = photos.length
-    ? photos.map(p=>`<img src="${esc(p.url)}" alt="" onerror="this.remove()">`).join("")
+    ? photos.map(p=>`<img src="${esc(photoSrc(p))}" data-org="${esc(p.url||"")}" alt="" onerror="imgFall(this,'detail')">`).join("")
     : `<div class="noPhoto">写真なし</div>`;
   document.getElementById("dName").textContent = l.name;
   document.getElementById("dPrice").innerHTML = esc(l.price || "価格未定") + moveBadge(l, true);
@@ -1744,6 +1759,25 @@ document.getElementById("muStar").addEventListener("click", ()=>{
 });
 document.getElementById("muCsv").addEventListener("click", openCsvSheet);
 document.getElementById("muAi").addEventListener("click", e=>{ e.preventDefault(); openAiSheet(); });
+/* 縮小写真の一括先読み: 一度取得すればService Workerが保存し、圏外でも表示できる */
+async function preloadPhotos(){
+  const urls = [...new Set(
+    listings.filter(l=>l.status!=="ended")
+      .flatMap(l=>(l.photos||[]).map(p=>p.local).filter(Boolean))
+  )];
+  if(!urls.length){ toast("先読みできる縮小写真がまだありません(次回の自動更新後に使えます)"); return; }
+  closeSheet("menuBg");
+  toast(`写真${urls.length}枚の先読みを開始しました…`);
+  let ok = 0;
+  for(let i=0;i<urls.length;i++){
+    try{ const r = await fetch(urls[i]); if(r.ok) ok++; }catch(e){}
+    if((i+1) % 100 === 0) toast(`先読み中… ${i+1}/${urls.length}枚`);
+  }
+  toast(`先読み完了: ${ok}/${urls.length}枚(閲覧済みとして保存されました)`);
+}
+document.getElementById("muPreload").addEventListener("click", e=>{
+  e.preventDefault(); preloadPhotos();
+});
 document.getElementById("muReload").addEventListener("click", async e=>{
   e.preventDefault();
   loadLS();
