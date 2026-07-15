@@ -64,6 +64,20 @@ async function main() {
   fs.writeFileSync(DATA_FILE, JSON.stringify(
     { updatedAt: data.updatedAt, count: listings.length, listings }, null, 1));
 
+  // どの物件からも参照されなくなった縮小写真を削除
+  // (掲載終了3ヶ月で写真情報が消えた物件・差し替えで使われなくなった写真など)
+  const referenced = new Set();
+  for (const l of listings) {
+    for (const p of (l.photos || [])) {
+      if (p && p.local) referenced.add(path.basename(p.local));
+    }
+  }
+  let removed = 0;
+  for (const f of fs.readdirSync(IMG_DIR)) {
+    if (!referenced.has(f)) { fs.unlinkSync(path.join(IMG_DIR, f)); removed++; }
+  }
+  if (removed) console.log(`[整理] 使われなくなった縮小写真 ${removed}枚を削除しました`);
+
   const files = fs.readdirSync(IMG_DIR);
   const bytes = files.reduce((n, f) => n + fs.statSync(path.join(IMG_DIR, f)).size, 0);
   console.log(`=== 完了: 新規${done}枚 / 既存${skip}枚 / 失敗${fail}枚` +
