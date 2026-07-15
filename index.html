@@ -125,6 +125,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .card .tags span.newYellow{background:#f9e04b;color:#7a5d00;border-color:#e3c72e;font-weight:700}
 .tag.newYellow{background:#f9e04b;border-color:#e3c72e;color:#7a5d00;font-weight:700}
 .tag.newYellow.on{background:#f2c410;border-color:#c8a000;color:#5a4500}
+.card .tags span.relist{background:#dff0e4;color:#1e7a43;border-color:#7fc79a;font-weight:700}
+.tag.relist{background:#dff0e4;color:#1e7a43;border-color:#7fc79a;font-weight:600}
 .pmove{display:inline-block;font-size:.68rem;font-weight:700;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}
 .pmove.down{background:#e3edf8;color:var(--blue)}
 .pmove.up{background:#fae3e0;color:var(--red)}
@@ -334,7 +336,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.11</span>
+    <h1>物件ナビ</h1><span class="ver">v0.12</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -523,6 +525,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   <div class="menuFoot">
     <div class="mline"><a href="#" id="muReload">↻ 最新データを読み込む</a></div>
     <div class="mline"><a href="#" id="muPreload">📷 写真をまとめて先読み(Wi-Fi推奨)</a></div>
+    <div class="mline"><a href="#" id="muBackup">💾 バックアップを書き出す(★・メモ・編集)</a></div>
+    <div class="mline"><a href="#" id="muRestore">📥 バックアップを読み込む(引き継ぎ)</a></div>
+    <input type="file" id="restoreFile" accept=".json,application/json" style="display:none">
     <div class="srow">
       <label>掲載終了として数える期間(左下ボタンの対象)</label>
       <select id="endedMonthsSel">
@@ -791,6 +796,11 @@ function isNew(l){
   if(!l.createdAt) return false;
   return (Date.now() - new Date(l.createdAt).getTime()) < 14*24*3600*1000;  // 登録から2週間
 }
+/* 掲載終了→再掲載から2週間以内 */
+function isRelisted(l){
+  if(!l.relistedAt || l.status==="ended") return false;
+  return (Date.now() - new Date(l.relistedAt).getTime()) < 14*24*3600*1000;
+}
 /* 2週間以内の値動き → {dir:"down"|"up"} */
 function recentPriceMove(l){
   const c = l.priceChanges||[];
@@ -822,6 +832,7 @@ function computeTags(l){
   if(l.stories) t.push(l.stories);
   if(isFutureBuilt(l.builtAt)) t.push("未完成");
   if(isNew(l)) t.push("New");
+  if(isRelisted(l)) t.push("再掲載");
   if(!coordsOf(l)) t.push("位置情報なし");
   return t;
 }
@@ -963,13 +974,14 @@ const WARD_ORDER = ["中央区","東区","西区","南区","北区"];
 const STORY_ORDER = ["平屋","2階建て","3階建て"];
 function orderedTags(items){
   const wards=new Set(), outside=new Set(), layouts=new Set(), stories=new Set();
-  let hasNew=false, hasMikan=false;
+  let hasNew=false, hasMikan=false, hasRelist=false;
   items.forEach(l=>{
     const a=areaTag(l.address);
     if(a){ if(a.endsWith("区")) wards.add(a); else outside.add(a); }
     layoutTags(l.layout).forEach(x=>layouts.add(x));
     if(l.stories) stories.add(l.stories);
     if(isNew(l)) hasNew=true;
+    if(isRelisted(l)) hasRelist=true;
     if(isFutureBuilt(l.builtAt)) hasMikan=true;
   });
   const wardSorted = [...wards].sort((a,b)=>{
@@ -981,6 +993,7 @@ function orderedTags(items){
   const hasNoLoc = items.some(l=>!coordsOf(l));
   const tags=[];
   if(hasNew) tags.push("New");
+  if(hasRelist) tags.push("再掲載");
   tags.push(...wardSorted, ...[...outside].sort((a,b)=>a.localeCompare(b,"ja")), ...storySorted, ...layoutSorted);
   if(hasMikan) tags.push("未完成");
   if(hasNoLoc) tags.push("位置情報なし");
@@ -993,7 +1006,7 @@ function renderTagRow(){
   const box = document.getElementById("tagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 
@@ -1047,7 +1060,7 @@ function renderList(){
           ${ended?`<span class="end">掲載終了</span>`:""}
           ${un?`<span class="units">${un}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
-          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":""}${esc(t)}</span>`).join("")}
+          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="再掲載"?"relist":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":t==="再掲載"?"↩":""}${esc(t)}</span>`).join("")}
         </div>
         <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
       </div>
@@ -1125,7 +1138,7 @@ function renderMapTagRow(){
   const box = document.getElementById("mapTagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 function mapItems(){
@@ -1305,6 +1318,7 @@ function renderDetail(id){
   const meta=[];
   if(l.createdAt) meta.push("登録日: "+String(l.createdAt).slice(0,10));
   if(l.editedAt)  meta.push("編集日: "+String(l.editedAt).slice(0,10));
+  if(l.relistedAt) meta.push("再掲載: "+String(l.relistedAt).slice(0,10));
   if(l.lastSeen)  meta.push("HP確認日: "+String(l.lastSeen).slice(0,10));
   if(l.aiDone)    meta.push("AI補強済み");
   document.getElementById("dMeta").textContent = meta.join(" / ");
@@ -1781,6 +1795,61 @@ document.getElementById("muStar").addEventListener("click", ()=>{
 });
 document.getElementById("muCsv").addEventListener("click", openCsvSheet);
 document.getElementById("muAi").addEventListener("click", e=>{ e.preventDefault(); openAiSheet(); });
+/* バックアップ: ★候補・商談メモ・手動編集・手動登録物件・設定をファイルに書き出す
+   (これらはこの端末の中にしか無いため、機種変更・ブラウザのデータ削除で消える) */
+function exportBackup(){
+  const payload = {
+    app: "bukken-navi", kind: "backup", version: 1,
+    exportedAt: new Date().toISOString(),
+    manual, ovrs, conf,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 1)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "物件ナビ_バックアップ_"+todayStr().replace(/-/g,"")+".json";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 5000);
+  const nOvr = Object.keys(ovrs).length;
+  toast(`バックアップを保存しました(手動物件${manual.length}件・編集${nOvr}件)`);
+}
+function importBackup(file){
+  const reader = new FileReader();
+  reader.onload = ()=>{
+    let d;
+    try{ d = JSON.parse(reader.result); }catch(e){ toast("ファイルを読み取れませんでした"); return; }
+    if(!d || d.app!=="bukken-navi" || d.kind!=="backup" || !Array.isArray(d.manual) || typeof d.ovrs!=="object"){
+      toast("物件ナビのバックアップファイルではありません"); return;
+    }
+    const nOvr = Object.keys(d.ovrs||{}).length;
+    const when = d.exportedAt ? fmtDate(d.exportedAt) : "不明";
+    modal("バックアップの読み込み",
+      `このファイルの内容で、この端末の編集データを置き換えます。\n\n`+
+      `・バックアップ日: ${when}\n・手動登録物件: ${d.manual.length}件\n・編集(★・メモ含む): ${nOvr}件\n\n`+
+      `※ 今この端末にある★候補・メモ・手動編集は上書きされます。よろしいですか?`,
+      [["やめる",null,"mb-cancel"],
+       ["読み込む",()=>{
+          manual = d.manual; ovrs = d.ovrs || {};
+          if(d.conf && typeof d.conf==="object") conf = Object.assign(conf, d.conf);
+          saveManualLS(); saveOvrs(); saveConf();
+          combine(); renderHome();
+          closeSheet("menuBg");
+          toast("バックアップを読み込みました");
+        },"mb-ok"]]);
+  };
+  reader.readAsText(file);
+}
+document.getElementById("muBackup").addEventListener("click", e=>{
+  e.preventDefault(); exportBackup();
+});
+document.getElementById("muRestore").addEventListener("click", e=>{
+  e.preventDefault(); document.getElementById("restoreFile").click();
+});
+document.getElementById("restoreFile").addEventListener("change", e=>{
+  const f = e.target.files && e.target.files[0];
+  if(f) importBackup(f);
+  e.target.value = "";
+});
+
 /* 縮小写真の一括先読み: 一度取得すればService Workerが保存し、圏外でも表示できる */
 async function preloadPhotos(){
   const urls = [...new Set(
