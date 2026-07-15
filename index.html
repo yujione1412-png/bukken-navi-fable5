@@ -351,7 +351,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.15</span>
+    <h1>物件ナビ</h1><span class="ver">v0.16</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -1158,7 +1158,9 @@ function loadLeaflet(){
 function renderMakerRow(){
   const box = document.getElementById("makerRow");
   const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","その他"]];
-  const cnt = (src)=>listings.filter(l=>statusPass(l) && (src==="manual"?isManual(l.id):l.source===src && !isManual(l.id))).length;
+  // タグ・価格・検索の絞り込みを反映した件数(地図に出る数と一致する)
+  const base = applyCommon(listings.slice());
+  const cnt = (src)=>base.filter(l=>(isManual(l.id) ? "manual" : l.source) === src).length;
   box.innerHTML = defs.map(([id,label])=>{
     const n = cnt(id);
     return `<button class="mk${state.makers.has(id)?" on":""}" data-mk="${id}">${state.makers.has(id)?"✓ ":""}${label}(${n})</button>`;
