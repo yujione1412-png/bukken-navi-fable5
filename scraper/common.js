@@ -136,7 +136,11 @@ function mergeListings(prevList, scrapedBySource, sources, today) {
         // 既存:自動収集フィールドを更新。createdAt・価格履歴は引き継ぐ
         const merged = { ...p, ...s, status: "active", endedAt: "", lastSeen: today,
           createdAt: p.createdAt || new Date().toISOString(),
+          relistedAt: p.status === "ended" ? today : (p.relistedAt || ""),
           priceChanges: p.priceChanges || [], priceSnapshots: p.priceSnapshots || [] };
+        if (p.status === "ended") {
+          console.log(`  [再掲載] ${s.name}(掲載終了→再掲載)`);
+        }
         if (s.price && p.price && s.price !== p.price) {
           merged.priceChanges = [...merged.priceChanges, { date: today, from: p.price, to: s.price }];
           console.log(`[INFO] 価格変更 ${s.id} ${p.price} → ${s.price}`);
@@ -158,6 +162,7 @@ function mergeListings(prevList, scrapedBySource, sources, today) {
   // 今回スクレイプ対象でないメーカーのデータはそのまま残す
   const covered = new Set(sources);
   out.push(...prevList.filter((l) => !covered.has(l.source)));
+  stripOldEndedPhotos(out);   // 掲載終了3ヶ月経過の物件から写真情報を削除
   return out;
 }
 
@@ -258,5 +263,19 @@ function robotsAllows(robotsText, path) {
   return verdict;
 }
 
-module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows, geocode, reuseLocText,
+/* ---------- 掲載終了から一定期間たった物件の写真情報を消す(物件情報は残す) ----------
+   縮小写真ファイル自体は photos.js が「どの物件からも参照されないもの」を削除する */
+function stripOldEndedPhotos(listings, months = 3, now = Date.now()) {
+  let stripped = 0;
+  for (const l of listings) {
+    if (l.status !== "ended" || !l.endedAt) continue;
+    if (!(l.photos || []).length) continue;
+    const age = now - new Date(l.endedAt).getTime();
+    if (age >= months * 31 * 24 * 3600 * 1000) { l.photos = []; stripped++; }
+  }
+  if (stripped) console.log(`[整理] 掲載終了${months}ヶ月経過の${stripped}件から写真情報を削除しました(物件情報は保持)`);
+  return listings;
+}
+
+module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows, geocode, reuseLocText, stripOldEndedPhotos,
   mergeListings, loadData, saveData, todayStr, WAIT_MS };
