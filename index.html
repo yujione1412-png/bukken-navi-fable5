@@ -34,27 +34,27 @@ a{color:var(--blue)}
   box-shadow:0 2px 6px rgba(38,36,29,.12)}
 header{
   background:var(--green);color:#f6f2e6;
-  padding:10px 14px;display:flex;align-items:center;gap:8px;
+  padding:7px 14px;display:flex;align-items:center;gap:8px;
   box-shadow:0 1px 4px rgba(0,0,0,.25);
 }
 header h1{font-size:1.15rem;font-weight:700;letter-spacing:.05em}
 header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 #priceBtn{
-  margin-left:auto;font-size:.85rem;font-weight:600;
-  border:1px solid rgba(255,255,255,.4);border-radius:10px;padding:6px 12px;
+  margin-left:auto;font-size:.8rem;font-weight:600;
+  border:1px solid rgba(255,255,255,.4);border-radius:10px;padding:4px 11px;
 }
 #priceBtn.on{background:var(--orange);border-color:var(--orange)}
 
 /* ---------- タブ ---------- */
 #tabs{
-  display:flex;gap:6px;overflow-x:auto;padding:10px 12px 6px;
+  display:flex;gap:5px;overflow-x:auto;padding:6px 12px 4px;
   scrollbar-width:none;
 }
 #tabs::-webkit-scrollbar{display:none}
 .tab{
-  flex:0 0 auto;padding:7px 13px;border-radius:999px;
+  flex:0 0 auto;padding:5px 11px;border-radius:999px;
   background:var(--paper);border:1px solid var(--line);
-  font-size:.85rem;white-space:nowrap;color:var(--sub);
+  font-size:.8rem;white-space:nowrap;color:var(--sub);
 }
 .tab .cnt{font-size:.75rem;margin-left:2px}
 .tab.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
@@ -62,27 +62,27 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 /* ---------- 検索・並び替え ---------- */
 .toolbar{padding:4px 12px 0}
 #q{
-  width:100%;padding:10px 14px;border:1px solid var(--line);
-  border-radius:var(--radius);background:var(--paper);font-size:.95rem;
+  width:100%;padding:7px 13px;border:1px solid var(--line);
+  border-radius:var(--radius);background:var(--paper);font-size:.9rem;
 }
 #q::placeholder{color:#b3ab99}
-.sortrow{display:flex;align-items:center;gap:8px;margin-top:8px}
+.sortrow{display:flex;align-items:center;gap:8px;margin-top:6px}
 #mapBtn{
-  font-size:.85rem;font-weight:600;color:var(--green);
-  border:1.5px solid var(--green);border-radius:999px;padding:7px 14px;background:var(--paper);
+  font-size:.8rem;font-weight:600;color:var(--green);
+  border:1.5px solid var(--green);border-radius:999px;padding:5px 12px;background:var(--paper);
 }
 #hitCount{font-size:.8rem;color:var(--sub);margin-left:auto}
 #sort{
-  padding:7px 10px;border:1px solid var(--line);border-radius:8px;
-  background:var(--paper);font-size:.82rem;max-width:52%;
+  padding:5px 8px;border:1px solid var(--line);border-radius:8px;
+  background:var(--paper);font-size:.78rem;max-width:52%;
 }
 
 /* ---------- タグ ---------- */
-#tagRow{display:flex;gap:6px;overflow-x:auto;padding:10px 12px 12px;scrollbar-width:none}
+#tagRow{display:flex;gap:5px;overflow-x:auto;padding:6px 12px 8px;scrollbar-width:none}
 #tagRow::-webkit-scrollbar{display:none}
 .tag{
-  flex:0 0 auto;padding:5px 12px;border-radius:999px;
-  border:1px solid var(--line);background:var(--paper);font-size:.8rem;color:var(--sub);
+  flex:0 0 auto;padding:3px 10px;border-radius:999px;
+  border:1px solid var(--line);background:var(--paper);font-size:.75rem;color:var(--sub);
 }
 .tag.on{background:var(--orange-bg);border-color:var(--orange);color:var(--orange);font-weight:600}
 
@@ -131,6 +131,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .tag.relist{background:#dff0e4;color:#1e7a43;border-color:#7fc79a;font-weight:600}
 .card .tags span.pdown{background:#e3edf8;color:var(--blue);border-color:#9dbfe3;font-weight:700}
 .tag.pdown{background:#e3edf8;color:var(--blue);border-color:#9dbfe3;font-weight:600}
+.tag.pdown.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.tag.relist.on{background:#1e7a43;border-color:#1e7a43;color:#fff}
+.tag.noloc.on{background:#a05a2c;border-color:#a05a2c;color:#fff;border-style:solid}
 .pmove{display:inline-block;font-size:.68rem;font-weight:700;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}
 .pmove.down{background:#e3edf8;color:var(--blue)}
 .pmove.up{background:#fae3e0;color:var(--red)}
@@ -236,19 +239,23 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .nearItem .nprice{color:var(--orange);font-weight:700;font-size:.9rem;white-space:nowrap}
 
 /* ---------- 地図画面 ---------- */
-#mapFilters{padding:8px 12px 0}
-#mapFilters .flabel{font-size:.72rem;color:var(--sub);margin:4px 0 4px 2px}
+#mapFilters{padding:4px 12px 0}
+#mapFilters .flabel{font-size:.66rem;color:var(--sub);margin:2px 0 2px 2px}
 #makerRow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
 #makerRow::-webkit-scrollbar{display:none}
 .mk{
-  flex:0 0 auto;padding:7px 13px;border-radius:999px;
-  background:var(--paper);border:1px solid var(--line);font-size:.85rem;color:var(--sub);white-space:nowrap;
+  flex:0 0 auto;padding:4px 10px;border-radius:999px;
+  background:var(--paper);border:1px solid var(--line);font-size:.78rem;color:var(--sub);white-space:nowrap;
 }
 .mk.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
-#mapTagRow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:4px 0 8px}
+#mapTagRow{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;padding:3px 0 5px}
 #mapTagRow::-webkit-scrollbar{display:none}
-#mapDiv{height:62vh;margin:6px 12px;border-radius:var(--radius);border:1px solid var(--line);background:#e6e0d0;
+#mapWrap{position:relative;margin:2px 12px}
+#mapDiv{height:70vh;border-radius:var(--radius);border:1px solid var(--line);background:#e6e0d0;
   display:flex;align-items:center;justify-content:center;color:var(--sub);font-size:.9rem}
+#tipToggle{position:absolute;right:10px;bottom:10px;z-index:1100;
+  box-shadow:0 2px 8px rgba(38,36,29,.35);background:var(--paper)}
+#tipToggle.on{background:var(--green);border-color:var(--green);color:#f6f2e6}
 #mapCount{padding:2px 14px;font-size:.85rem;color:var(--sub)}
 .pin{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
   border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
@@ -341,7 +348,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.13</span>
+    <h1>物件ナビ</h1><span class="ver">v0.14</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -391,11 +398,11 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <div id="makerRow"></div>
     <div class="flabel">エリア・タグ</div>
     <div id="mapTagRow"></div>
-    <div style="display:flex;justify-content:flex-end;padding:2px 0 4px">
-      <button class="mk on" id="tipToggle">💬 吹き出し: 表示中</button>
-    </div>
   </div>
-  <div id="mapDiv">地図を読み込んでいます…</div>
+  <div id="mapWrap">
+    <div id="mapDiv">地図を読み込んでいます…</div>
+    <button class="mk on" id="tipToggle">💬 表示中</button>
+  </div>
   <div id="mapCount"></div>
   <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。</div>
 </div>
@@ -1755,7 +1762,7 @@ document.getElementById("mapTagRow").addEventListener("click", tagClickHandler);
 document.getElementById("tipToggle").addEventListener("click", ()=>{
   state.mapTips = !state.mapTips;
   const b = document.getElementById("tipToggle");
-  b.textContent = state.mapTips ? "💬 吹き出し: 表示中" : "💬 吹き出し: 非表示";
+  b.textContent = state.mapTips ? "💬 表示中" : "💬 非表示";
   b.classList.toggle("on", state.mapTips);
   refreshMapMarkers();
 });
