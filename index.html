@@ -139,6 +139,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .pmove.up{background:#fae3e0;color:var(--red)}
 .card .tags span.units{background:var(--orange);color:#fff;border-color:var(--orange);font-weight:700}
 .card .tags span.end{background:#d5d0c2;color:#6f6a5c;border-color:#c4beac;font-weight:600}
+.card .schools{display:flex;flex-wrap:wrap;gap:2px 12px;margin-top:4px;
+  font-size:.72rem;color:var(--sub)}
+.card .schools .min{color:var(--green);font-weight:600}
 .card .tags span.noloc{background:#f6f2e6;color:#a05a2c;border:1px dashed #cf9a6b}
 .tag.noloc{border-style:dashed;color:#a05a2c;border-color:#cf9a6b}
 .precWarn{color:#a05a2c;font-weight:600}
@@ -348,7 +351,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.14</span>
+    <h1>物件ナビ</h1><span class="ver">v0.15</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -1086,6 +1089,11 @@ function renderList(){
           <span class="src">${esc(src.label)}</span>
           ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="再掲載"?"relist":t==="値下げ"?"pdown":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":t==="再掲載"?"↩":t==="値下げ"?"↓":""}${esc(t)}</span>`).join("")}
         </div>
+        ${(l.elementary||l.junior)?`<div class="schools">${
+          l.elementary?`<span>🎒${esc(l.elementary)}${l.elementaryMin?`<span class="min">(徒歩${esc(l.elementaryMin)}分)</span>`:""}</span>`:""
+        }${
+          l.junior?`<span>🏫${esc(l.junior)}${l.juniorMin?`<span class="min">(徒歩${esc(l.juniorMin)}分)</span>`:""}</span>`:""
+        }</div>`:""}
         <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
       </div>
     </div>`;
@@ -1181,7 +1189,8 @@ async function openMap(){
     div.textContent = "地図を読み込めませんでした。通信環境をご確認のうえ、開き直してください。";
     return;
   }
-  if(!leafletMap){
+  const firstOpen = !leafletMap;
+  if(firstOpen){
     div.textContent = "";
     leafletMap = L.map("mapDiv").setView([32.803, 130.708], 11); // 熊本市周辺
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -1189,10 +1198,10 @@ async function openMap(){
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(leafletMap);
   }
-  refreshMapMarkers();
+  refreshMapMarkers(firstOpen);   // 視点合わせは初回だけ。戻ってきたときは前の位置・拡大を保つ
   setTimeout(()=>{ try{ leafletMap.invalidateSize(); }catch(e){} }, 60);
 }
-function refreshMapMarkers(){
+function refreshMapMarkers(fit){
   if(!leafletMap || !window.L) return;
   mapMarkers.forEach(m=>m.remove());
   mapMarkers = [];
@@ -1220,7 +1229,7 @@ function refreshMapMarkers(){
   const noLoc = arr.length - plotted;
   document.getElementById("mapCount").textContent =
     `地図上: ${plotted}件` + (noLoc ? `(位置情報のない${noLoc}件は表示できません)` : "");
-  if(bounds.length){
+  if(fit && bounds.length){
     try{ leafletMap.fitBounds(bounds, {padding:[30,30], maxZoom:14}); }catch(e){}
   }
 }
