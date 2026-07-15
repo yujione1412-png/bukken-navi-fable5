@@ -30,8 +30,10 @@ img{display:block;max-width:100%}
 a{color:var(--blue)}
 
 /* ---------- ヘッダー ---------- */
+#topStick{position:sticky;top:0;z-index:50;background:var(--ecru);
+  box-shadow:0 2px 6px rgba(38,36,29,.12)}
 header{
-  position:sticky;top:0;z-index:50;background:var(--green);color:#f6f2e6;
+  background:var(--green);color:#f6f2e6;
   padding:10px 14px;display:flex;align-items:center;gap:8px;
   box-shadow:0 1px 4px rgba(0,0,0,.25);
 }
@@ -46,7 +48,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 /* ---------- タブ ---------- */
 #tabs{
   display:flex;gap:6px;overflow-x:auto;padding:10px 12px 6px;
-  scrollbar-width:none;background:var(--ecru);position:sticky;top:44px;z-index:40;
+  scrollbar-width:none;
 }
 #tabs::-webkit-scrollbar{display:none}
 .tab{
@@ -76,7 +78,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 }
 
 /* ---------- タグ ---------- */
-#tagRow{display:flex;gap:6px;overflow-x:auto;padding:10px 12px;scrollbar-width:none}
+#tagRow{display:flex;gap:6px;overflow-x:auto;padding:10px 12px 12px;scrollbar-width:none}
 #tagRow::-webkit-scrollbar{display:none}
 .tag{
   flex:0 0 auto;padding:5px 12px;border-radius:999px;
@@ -127,6 +129,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .tag.newYellow.on{background:#f2c410;border-color:#c8a000;color:#5a4500}
 .card .tags span.relist{background:#dff0e4;color:#1e7a43;border-color:#7fc79a;font-weight:700}
 .tag.relist{background:#dff0e4;color:#1e7a43;border-color:#7fc79a;font-weight:600}
+.card .tags span.pdown{background:#e3edf8;color:var(--blue);border-color:#9dbfe3;font-weight:700}
+.tag.pdown{background:#e3edf8;color:var(--blue);border-color:#9dbfe3;font-weight:600}
 .pmove{display:inline-block;font-size:.68rem;font-weight:700;border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}
 .pmove.down{background:#e3edf8;color:var(--blue)}
 .pmove.up{background:#fae3e0;color:var(--red)}
@@ -335,8 +339,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 
 <!-- ============ 一覧画面 ============ -->
 <div id="pageList" class="page on">
+  <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.12</span>
+    <h1>物件ナビ</h1><span class="ver">v0.13</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -365,6 +370,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   </div>
 
   <div id="tagRow"></div>
+  </div><!-- /topStick -->
   <div id="endedBanner">🗂 掲載終了した物件を表示中<span id="endedPeriodNote"></span>
     <button id="backActiveBtn">掲載中に戻る</button></div>
   <div id="list"></div>
@@ -385,6 +391,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <div id="makerRow"></div>
     <div class="flabel">エリア・タグ</div>
     <div id="mapTagRow"></div>
+    <div style="display:flex;justify-content:flex-end;padding:2px 0 4px">
+      <button class="mk on" id="tipToggle">💬 吹き出し: 表示中</button>
+    </div>
   </div>
   <div id="mapDiv">地図を読み込んでいます…</div>
   <div id="mapCount"></div>
@@ -458,6 +467,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
           <option value="maemura">マエムラ(自社)</option>
           <option value="sumaiida">すまいーだ</option>
           <option value="yokatown">よかタウン</option>
+          <option value="other">その他</option>
         </select></div>
       <div class="frow"><label>価格</label>
         <input type="text" id="fPrice" placeholder="例: 2,030万円">
@@ -539,7 +549,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
       </select>
     </div>
     <div class="mnote" id="menuInfo"></div>
-    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎週火曜、またはGitHubの「Run workflow」)。</div>
+    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎週火・金の朝6時、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
   </div>
   <div class="mbtns"><button class="mb-cancel" id="menuClose">閉じる</button></div>
@@ -607,6 +617,7 @@ const SOURCES = {
   maemura:  { label:"マエムラ",   color:"#1e4634" },
   sumaiida: { label:"すまいーだ", color:"#2563a8" },
   yokatown: { label:"よかタウン", color:"#d8731f" },
+  other:    { label:"その他",     color:"#6f6a5c" },
 };
 const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
   station:"🚉", bus:"🚌", hospital:"🏥", park:"🌳", other:"📍" };
@@ -833,6 +844,8 @@ function computeTags(l){
   if(isFutureBuilt(l.builtAt)) t.push("未完成");
   if(isNew(l)) t.push("New");
   if(isRelisted(l)) t.push("再掲載");
+  const mv = recentPriceMove(l);
+  if(mv && mv.dir==="down") t.push("値下げ");
   if(!coordsOf(l)) t.push("位置情報なし");
   return t;
 }
@@ -882,6 +895,7 @@ const state = {
   view:"active",                       // active=掲載中 / ended=掲載終了のみ
   priceMin:null, priceMax:null,        // 万円
   makers:new Set(["maemura","sumaiida","yokatown","manual"]),  // 地図用
+  mapTips:true,                        // 地図の吹き出し(物件名・価格)表示
 };
 let currentId = null;
 let editingId = null;
@@ -974,7 +988,7 @@ const WARD_ORDER = ["中央区","東区","西区","南区","北区"];
 const STORY_ORDER = ["平屋","2階建て","3階建て"];
 function orderedTags(items){
   const wards=new Set(), outside=new Set(), layouts=new Set(), stories=new Set();
-  let hasNew=false, hasMikan=false, hasRelist=false;
+  let hasNew=false, hasMikan=false, hasRelist=false, hasDown=false;
   items.forEach(l=>{
     const a=areaTag(l.address);
     if(a){ if(a.endsWith("区")) wards.add(a); else outside.add(a); }
@@ -982,6 +996,8 @@ function orderedTags(items){
     if(l.stories) stories.add(l.stories);
     if(isNew(l)) hasNew=true;
     if(isRelisted(l)) hasRelist=true;
+    const mv=recentPriceMove(l);
+    if(mv && mv.dir==="down") hasDown=true;
     if(isFutureBuilt(l.builtAt)) hasMikan=true;
   });
   const wardSorted = [...wards].sort((a,b)=>{
@@ -994,6 +1010,7 @@ function orderedTags(items){
   const tags=[];
   if(hasNew) tags.push("New");
   if(hasRelist) tags.push("再掲載");
+  if(hasDown) tags.push("値下げ");
   tags.push(...wardSorted, ...[...outside].sort((a,b)=>a.localeCompare(b,"ja")), ...storySorted, ...layoutSorted);
   if(hasMikan) tags.push("未完成");
   if(hasNoLoc) tags.push("位置情報なし");
@@ -1006,7 +1023,7 @@ function renderTagRow(){
   const box = document.getElementById("tagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="値下げ"?" pdown":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 
@@ -1060,7 +1077,7 @@ function renderList(){
           ${ended?`<span class="end">掲載終了</span>`:""}
           ${un?`<span class="units">${un}棟販売</span>`:""}
           <span class="src">${esc(src.label)}</span>
-          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="再掲載"?"relist":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":t==="再掲載"?"↩":""}${esc(t)}</span>`).join("")}
+          ${tags.map(t=>`<span class="${t==="New"?"newYellow":t==="再掲載"?"relist":t==="値下げ"?"pdown":t==="未完成"?"new":t==="位置情報なし"?"noloc":""}">${t==="位置情報なし"?"📍":t==="再掲載"?"↩":t==="値下げ"?"↓":""}${esc(t)}</span>`).join("")}
         </div>
         <button class="starBtn${l.candidate?" on":""}" data-star="${esc(l.id)}" aria-label="候補">★</button>
       </div>
@@ -1125,7 +1142,7 @@ function loadLeaflet(){
 }
 function renderMakerRow(){
   const box = document.getElementById("makerRow");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","手動登録"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","その他"]];
   const cnt = (src)=>listings.filter(l=>statusPass(l) && (src==="manual"?isManual(l.id):l.source===src && !isManual(l.id))).length;
   box.innerHTML = defs.map(([id,label])=>{
     const n = cnt(id);
@@ -1138,7 +1155,7 @@ function renderMapTagRow(){
   const box = document.getElementById("mapTagRow");
   const keep = box.scrollLeft;
   box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="値下げ"?" pdown":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
   box.scrollLeft = keep;
 }
 function mapItems(){
@@ -1185,9 +1202,11 @@ function refreshMapMarkers(){
     const icon = L.divIcon({className:"", iconSize:[26,26], iconAnchor:[13,24],
       html:`<div class="pin" style="background:${color};${low?"border-style:dashed;opacity:.8":""}"></div>`});
     const mk = L.marker(c, {icon}).addTo(leafletMap);
-    mk.bindTooltip(
-      `<div class="tipName">${low?"≈ ":""}${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
-      {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
+    if(state.mapTips){
+      mk.bindTooltip(
+        `<div class="tipName">${low?"≈ ":""}${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
+        {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
+    }
     mk.on("click", ()=>{ location.hash = "#detail/"+encodeURIComponent(l.id); });
     mapMarkers.push(mk);
   }
@@ -1622,7 +1641,7 @@ function buildCsv(opts){
 }
 function openCsvSheet(){
   const box = document.getElementById("csvMakers");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","手動登録"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["manual","その他(手動登録)"]];
   box.innerHTML = defs.map(([id,label])=>
     `<button class="chk on" data-csvmk="${id}">${label}</button>`).join("");
   document.getElementById("csvStarOnly").checked = false;
@@ -1711,7 +1730,7 @@ function openMenu(){
   document.getElementById("endedMonthsSel").value = conf.endedMonths;
   document.getElementById("menuInfo").textContent =
     (baseUpdatedAt ? `情報更新日: ${fmtDate(baseUpdatedAt)}` : "HPデータ未取得")
-    + " / 毎週火曜 朝6時に自動更新";
+    + " / 毎週火・金 朝6時に自動更新";
   openSheet("menuBg");
 }
 
@@ -1733,6 +1752,13 @@ function tagClickHandler(e){
 }
 document.getElementById("tagRow").addEventListener("click", tagClickHandler);
 document.getElementById("mapTagRow").addEventListener("click", tagClickHandler);
+document.getElementById("tipToggle").addEventListener("click", ()=>{
+  state.mapTips = !state.mapTips;
+  const b = document.getElementById("tipToggle");
+  b.textContent = state.mapTips ? "💬 吹き出し: 表示中" : "💬 吹き出し: 非表示";
+  b.classList.toggle("on", state.mapTips);
+  refreshMapMarkers();
+});
 document.getElementById("makerRow").addEventListener("click", e=>{
   const b = e.target.closest(".mk"); if(!b) return;
   const id = b.dataset.mk;
