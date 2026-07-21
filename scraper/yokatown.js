@@ -21,12 +21,17 @@ const SOURCE = "yokatown";
 const MAX_PHOTOS = 5;
 const MAX_PAGES = 20;   // 検索結果のページ送り上限(暴走防止)
 
-// 検索条件: 新築一戸建て(class[]=b2)+ 熊本の12市区町(ご指定のURLと同じコード)
-const CITY_CODES = ["43101","43102","43103","43104","43105",
-  "43210","43211","43216","43403","43404","43442","43443"];
-const START_URL = BASE + "/search/index/?class%5B%5D=b2&"
-  + CITY_CODES.map((c) => "address%5B%5D=" + c).join("&")
-  + "&lmt=30&orderby=new";
+// 2026年7月のサイトリニューアルで旧検索(/search/index/)は廃止され、
+// 市区町ごとの固定ページ /area_b2/bknshiku_yo{コード}/ に変わった。
+// コードは新ページの「近くの市区町村」一覧に合わせて14市区町(宇城市・御船町を追加)。
+const CITIES = [
+  ["43101","熊本市中央区"],["43102","熊本市東区"],["43103","熊本市西区"],
+  ["43104","熊本市南区"],["43105","熊本市北区"],
+  ["43210","菊池市"],["43211","宇土市"],["43213","宇城市"],["43216","合志市"],
+  ["43403","菊池郡大津町"],["43404","菊池郡菊陽町"],
+  ["43441","上益城郡御船町"],["43442","上益城郡嘉島町"],["43443","上益城郡益城町"],
+];
+const cityUrl = (code) => `${BASE}/area_b2/bknshiku_yo${code}/`;
 
 const absUrl = (u) => { try { return new URL(String(u).replace(/&amp;/g, "&"), BASE).href; } catch (e) { return ""; } };
 
@@ -37,13 +42,16 @@ function pickRoomLinks(html) {
   while ((m = re.exec(html))) out.set(absUrl(m[1]), m[2]);
   return out;
 }
-function pickPageLinks(html) {
+/* 同じ市区町ページ内のページ送りリンク(pg=2以降)を拾う */
+function pickPageLinks(html, basePath) {
   const out = new Set();
-  const re = /href="([^"]*\/search\/index\/[^"]*[?&](?:amp;)?pg=\d+[^"]*)"/g;
+  const re = /href="([^"]*[?&](?:amp;)?pg=\d+[^"]*)"/g;
   let m;
   while ((m = re.exec(html))) {
     const u = absUrl(m[1]);
-    if (u && !/[?&]pg=1(&|$)/.test(u)) out.add(u);
+    if (!u || !u.startsWith(BASE + basePath)) continue;
+    if (/[?&]pg=1(&|$)/.test(u)) continue;
+    out.add(u);
   }
   return out;
 }
@@ -175,21 +183,27 @@ async function main() {
     return;
   }
 
-  // 1. 検索結果ページ(ページ送りは実物のリンクを辿る)
+  // 1. 市区町ごとの固定ページを巡回(ページ送りは実物のリンクを辿る)
   const detailUrls = new Map();
-  const queue = [START_URL];
-  const visited = new Set();
-  while (queue.length && visited.size < MAX_PAGES) {
-    const pageUrl = queue.shift();
-    if (visited.has(pageUrl)) continue;
-    visited.add(pageUrl);
-    await sleep(WAIT_MS);
-    const html = await fetchHtml(pageUrl);
-    if (!html) continue;
-    for (const [u, id] of pickRoomLinks(html)) detailUrls.set(u, id);
-    for (const p of pickPageLinks(html)) if (!visited.has(p)) queue.push(p);
+  for (const [code, cityName] of CITIES) {
+    const basePath = `/area_b2/bknshiku_yo${code}/`;
+    const queue = [cityUrl(code)];
+    const visited = new Set();
+    const before = detailUrls.size;
+    while (queue.length && visited.size < 10) {
+      const pageUrl = queue.shift();
+      if (visited.has(pageUrl)) continue;
+      visited.add(pageUrl);
+      await sleep(WAIT_MS);
+      const html = await fetchHtml(pageUrl);
+      if (!html) continue;
+      for (const [u, id] of pickRoomLinks(html)) detailUrls.set(u, id);
+      for (const p of pickPageLinks(html, basePath)) if (!visited.has(p)) queue.push(p);
+    }
+    console.log(`  ${cityName}(${code}): ${visited.size}ページ → +${detailUrls.size - before}件`);
   }
-  console.log(`検索結果 ${visited.size}ページ巡回 → 物件詳細 ${detailUrls.size}件を発見`);
+  console.log(`物件詳細 合計${detailUrls.size}件を発見`);
+  console.log(`(※各ページの「新着物件」欄経由で他市区の物件が混ざることがありますが、重複は自動で1件にまとまり、熊本県外は除外されます)`);
 
   // 2. 各詳細ページを解析
   const scraped = [];
