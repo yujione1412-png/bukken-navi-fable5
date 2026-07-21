@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-07-20T22:00:43.963Z",
- "count": 270,
+ "updatedAt": "2026-07-21T04:54:24.335Z",
+ "count": 271,
  "listings": [
   {
    "id": "yokatown-100649276",
@@ -663,6 +663,95 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-101282658",
+   "source": "yokatown",
+   "name": "熊本市南区近見7丁目1期1号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市南区近見７丁目13-41の西側付近",
+   "detailUrl": "https://bukken.yoka-town.com/room101282658.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "111.84㎡/ 33.83坪",
+   "landArea": "173.95㎡/ 52.61坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅 徒歩20分",
+     "min": "20",
+     "cat": "station"
+    },
+    {
+     "name": "「野越団地」バス停下車 徒歩3分",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/101282658_1_652_555_3.jpg?t=01784605383",
+     "main": true,
+     "local": "data/img/94a87c0ce6b30b789d49.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/101282658_2_652_555_3.jpg?t=01784605383",
+     "main": false,
+     "local": "data/img/c006400638416f0bc542.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/101282658_3_652_555_3.jpg?t=01784605383",
+     "main": false,
+     "local": "data/img/31db79c8416d839348c7.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/101282658_4_652_555_3.jpg?t=01784605383",
+     "main": false,
+     "local": "data/img/ea85a88cc74a910da848.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://cdn.img-asp.jp/bkn/101282658_5_652_555_3.jpg?t=01784605383",
+     "main": false,
+     "local": "data/img/083b81fcdc3388e42276.jpg"
+    }
+   ],
+   "locText": "32.75612400, 130.69157300",
+   "hpText": "こちらは、熊本市南区近見7丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区近見7丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,098万円",
+     "to": "2,998万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,098万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "2,998万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
    "id": "yokatown-101533365",
    "source": "yokatown",
    "name": "宇土市高柳町2期3号棟",
@@ -721,7 +810,8 @@
      "date": "2026-07-21",
      "price": "3,098万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-101533699",
@@ -782,7 +872,8 @@
      "date": "2026-07-21",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-101534607",
@@ -843,7 +934,8 @@
      "date": "2026-07-21",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-101545775",
@@ -1276,7 +1368,8 @@
      "date": "2026-07-21",
      "price": "3,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-101773734",
@@ -1336,6 +1429,68 @@
     {
      "date": "2026-07-21",
      "price": "3,598万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-101786923",
+   "source": "yokatown",
+   "name": "宇城市不知火町高良2期3号棟",
+   "price": "2,998万円",
+   "address": "熊本県宇城市不知火町高良2492付近",
+   "detailUrl": "https://bukken.yoka-town.com/room101786923.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "108.47㎡/ 32.81坪",
+   "landArea": "169.27㎡/ 51.20坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅 徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_1_652_555_3.jpg?t=01784515333",
+     "main": true,
+     "local": "data/img/f11ebc2fb386ff318f98.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_2_652_555_3.jpg?t=01784515333",
+     "main": false,
+     "local": "data/img/8c194ecdffa9bc3e2283.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_3_652_555_3.jpg?t=01784515333",
+     "main": false,
+     "local": "data/img/9a088d082dec2bdcbf9f.jpg"
+    }
+   ],
+   "locText": "32.64874400, 130.66864600",
+   "locPrec": "",
+   "hpText": "こちらは、宇城市不知火町高良2期3号棟の物件詳細ページとなっております。よかタウンおすすめの宇城市不知火町高良2期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-21T04:54:24.334Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-21",
+     "price": "2,998万円"
     }
    ]
   },
@@ -1582,6 +1737,267 @@
     {
      "date": "2026-07-14",
      "price": "4,098万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-102168777",
+   "source": "yokatown",
+   "name": "熊本市南区富合町小岩瀬2期8号棟",
+   "price": "2,498万円",
+   "address": "熊本県熊本市南区富合町小岩瀬366",
+   "detailUrl": "https://bukken.yoka-town.com/room102168777.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "111.47㎡/ 33.71坪",
+   "landArea": "200.47㎡/ 60.64坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅 徒歩19分",
+     "min": "19",
+     "cat": "station"
+    },
+    {
+     "name": "「国町（熊本県）」バス停下車 徒歩10分",
+     "min": "10",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/102168777_1_652_555_3.jpg?t=01784605325",
+     "main": true,
+     "local": "data/img/af55aaabbb554589c88f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/102168777_2_652_555_3.jpg?t=01784605325",
+     "main": false,
+     "local": "data/img/176c3d89937100b8fcd4.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/102168777_3_652_555_3.jpg?t=01784605325",
+     "main": false,
+     "local": "data/img/3c83c7bcffa903e4f7b0.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/102168777_4_652_555_3.jpg?t=01784605325",
+     "main": false,
+     "local": "data/img/22d9144cc336fc6010a8.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://cdn.img-asp.jp/bkn/102168777_5_652_555_3.jpg?t=01784605325",
+     "main": false,
+     "local": "data/img/116bfbab49f39724d5a6.jpg"
+    }
+   ],
+   "locText": "32.72335700, 130.67184800",
+   "hpText": "こちらは、熊本市南区富合町小岩瀬2期8号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区富合町小岩瀬2期8号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "2,598万円",
+     "to": "2,498万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,598万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "2,498万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-102169248",
+   "source": "yokatown",
+   "name": "熊本市南区富合町小岩瀬2期9号棟",
+   "price": "2,598万円",
+   "address": "熊本県熊本市南区富合町小岩瀬366",
+   "detailUrl": "https://bukken.yoka-town.com/room102169248.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "111.34㎡/ 33.68坪",
+   "landArea": "200.52㎡/ 60.65坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅 徒歩19分",
+     "min": "19",
+     "cat": "station"
+    },
+    {
+     "name": "「国町（熊本県）」バス停下車 徒歩10分",
+     "min": "10",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/102169248_1_652_555_3.jpg?t=01784605333",
+     "main": true,
+     "local": "data/img/4b22281f7888d67fd912.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/102169248_2_652_555_3.jpg?t=01784605333",
+     "main": false,
+     "local": "data/img/93ec5942a9ede8839edf.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/102169248_3_652_555_3.jpg?t=01784605333",
+     "main": false,
+     "local": "data/img/be81eb3ffdd5f51b101d.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/102169248_4_652_555_3.jpg?t=01784605333",
+     "main": false,
+     "local": "data/img/f8a4e0226d179f4d2776.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://cdn.img-asp.jp/bkn/102169248_5_652_555_3.jpg?t=01784605333",
+     "main": false,
+     "local": "data/img/e3e30ff8ac62127de257.jpg"
+    }
+   ],
+   "locText": "32.72335700, 130.67184800",
+   "hpText": "こちらは、熊本市南区富合町小岩瀬2期9号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区富合町小岩瀬2期9号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "2,698万円",
+     "to": "2,598万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,698万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "2,598万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-102172112",
+   "source": "yokatown",
+   "name": "熊本市南区城南町高2期2号棟",
+   "price": "2,098万円",
+   "address": "熊本県熊本市南区城南町高763の北側付近",
+   "detailUrl": "https://bukken.yoka-town.com/room102172112.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "107.64㎡/ 32.56坪",
+   "landArea": "200.00㎡/ 60.49坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩72分",
+     "min": "72",
+     "cat": "station"
+    },
+    {
+     "name": "「千原入口」バス停下車 徒歩30分",
+     "min": "30",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/102172112_1_652_555_3.jpg?t=01784605360",
+     "main": true,
+     "local": "data/img/0d7cda234e0db024b82e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/102172112_2_652_555_3.jpg?t=01784605360",
+     "main": false,
+     "local": "data/img/5abb767c29445f7a062a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/102172112_3_652_555_3.jpg?t=01784605360",
+     "main": false,
+     "local": "data/img/eefb44045d144e3a050c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/102172112_4_652_555_3.jpg?t=01784605360",
+     "main": false,
+     "local": "data/img/d54a64e4ae6ae1388b23.jpg"
+    }
+   ],
+   "locText": "32.72689300, 130.71281600",
+   "hpText": "こちらは、熊本市南区城南町高2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区城南町高2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "2,198万円",
+     "to": "2,098万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,198万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "2,098万円"
     }
    ],
    "locPrec": "",
@@ -2452,7 +2868,8 @@
      "date": "2026-07-21",
      "price": "2,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-103770938",
@@ -2641,7 +3058,8 @@
      "date": "2026-07-21",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-103772868",
@@ -2764,7 +3182,8 @@
      "date": "2026-07-21",
      "price": "4,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-104849213",
@@ -2825,7 +3244,8 @@
      "date": "2026-07-21",
      "price": "3,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-104853603",
@@ -2886,7 +3306,8 @@
      "date": "2026-07-21",
      "price": "3,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-104853800",
@@ -2947,7 +3368,8 @@
      "date": "2026-07-21",
      "price": "3,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-105124665",
@@ -3194,7 +3616,8 @@
      "date": "2026-07-21",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",
@@ -3255,7 +3678,8 @@
      "date": "2026-07-21",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96560349",
@@ -3316,7 +3740,8 @@
      "date": "2026-07-21",
      "price": "2,798万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96562124",
@@ -3377,7 +3802,8 @@
      "date": "2026-07-21",
      "price": "2,198万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96616240",
@@ -3810,7 +4236,8 @@
      "date": "2026-07-21",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-98173915",
@@ -4979,85 +5406,6 @@
    "relistedAt": ""
   },
   {
-   "id": "yokatown-101282658",
-   "source": "yokatown",
-   "name": "熊本市南区近見7丁目1期1号棟",
-   "price": "3,098万円",
-   "address": "熊本県熊本市南区近見７丁目13-41の西側付近",
-   "detailUrl": "https://bukken.yoka-town.com/room101282658.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年5月",
-   "buildingArea": "111.84㎡/ 33.83坪",
-   "landArea": "173.95㎡/ 52.61坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「西熊本」駅 徒歩20分",
-     "min": "20",
-     "cat": "station"
-    },
-    {
-     "name": "「野越団地」バス停下車 徒歩3分",
-     "min": "3",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101282658_1_652_555_3.jpg?t=01783309183",
-     "main": true,
-     "local": "data/img/4ccec22fb76b7630735a.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101282658_2_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/470fe107c138e63d1cef.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101282658_3_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/cf55f1bad62433074481.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/101282658_4_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/12d5727226b9cca0175a.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://cdn.img-asp.jp/bkn/101282658_5_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/44ff19216de40043fa34.jpg"
-    }
-   ],
-   "locText": "32.75612400, 130.69157300",
-   "hpText": "こちらは、熊本市南区近見7丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区近見7丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-21",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-07-17",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "3,098万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
    "id": "yokatown-101302032",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字久保田6期10号棟",
@@ -5547,237 +5895,6 @@
     {
      "date": "2026-07-14",
      "price": "2,898万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-102168777",
-   "source": "yokatown",
-   "name": "熊本市南区富合町小岩瀬2期8号棟",
-   "price": "2,598万円",
-   "address": "熊本県熊本市南区富合町小岩瀬366",
-   "detailUrl": "https://bukken.yoka-town.com/room102168777.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年6月",
-   "buildingArea": "111.47㎡/ 33.71坪",
-   "landArea": "200.47㎡/ 60.64坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「富合」駅 徒歩19分",
-     "min": "19",
-     "cat": "station"
-    },
-    {
-     "name": "「国町（熊本県）」バス停下車 徒歩10分",
-     "min": "10",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102168777_1_652_555_3.jpg?t=01783309196",
-     "main": true,
-     "local": "data/img/4aeebc03a80940f6e3b7.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102168777_2_652_555_3.jpg?t=01783309196",
-     "main": false,
-     "local": "data/img/7935bcc519d5fdf0e025.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102168777_3_652_555_3.jpg?t=01783309196",
-     "main": false,
-     "local": "data/img/d6cfb6413ccc76b7e7f6.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/102168777_4_652_555_3.jpg?t=01783309196",
-     "main": false,
-     "local": "data/img/7b7c0abf611a39fcf215.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://cdn.img-asp.jp/bkn/102168777_5_652_555_3.jpg?t=01783309196",
-     "main": false,
-     "local": "data/img/c5a5abd925c63a7fe740.jpg"
-    }
-   ],
-   "locText": "32.72335700, 130.67184800",
-   "hpText": "こちらは、熊本市南区富合町小岩瀬2期8号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区富合町小岩瀬2期8号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-21",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-07-17",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,598万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-102169248",
-   "source": "yokatown",
-   "name": "熊本市南区富合町小岩瀬2期9号棟",
-   "price": "2,698万円",
-   "address": "熊本県熊本市南区富合町小岩瀬366",
-   "detailUrl": "https://bukken.yoka-town.com/room102169248.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年6月",
-   "buildingArea": "111.34㎡/ 33.68坪",
-   "landArea": "200.52㎡/ 60.65坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「富合」駅 徒歩19分",
-     "min": "19",
-     "cat": "station"
-    },
-    {
-     "name": "「国町（熊本県）」バス停下車 徒歩10分",
-     "min": "10",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102169248_1_652_555_3.jpg?t=01783309193",
-     "main": true,
-     "local": "data/img/873f333e723fdbfabf78.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102169248_2_652_555_3.jpg?t=01783309193",
-     "main": false,
-     "local": "data/img/60aeaad69f4574a1ea10.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102169248_3_652_555_3.jpg?t=01783309193",
-     "main": false,
-     "local": "data/img/5fc64f4d0f55c1a060db.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/102169248_4_652_555_3.jpg?t=01783309193",
-     "main": false,
-     "local": "data/img/c40a95c279d73a7cce8d.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://cdn.img-asp.jp/bkn/102169248_5_652_555_3.jpg?t=01783309193",
-     "main": false,
-     "local": "data/img/0387d7a47295a7986fed.jpg"
-    }
-   ],
-   "locText": "32.72335700, 130.67184800",
-   "hpText": "こちらは、熊本市南区富合町小岩瀬2期9号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区富合町小岩瀬2期9号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-21",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-07-17",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,698万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-102172112",
-   "source": "yokatown",
-   "name": "熊本市南区城南町高2期2号棟",
-   "price": "2,198万円",
-   "address": "熊本県熊本市南区城南町高763の北側付近",
-   "detailUrl": "https://bukken.yoka-town.com/room102172112.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年8月",
-   "buildingArea": "107.64㎡/ 32.56坪",
-   "landArea": "200.00㎡/ 60.49坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「川尻」駅 徒歩72分",
-     "min": "72",
-     "cat": "station"
-    },
-    {
-     "name": "「千原入口」バス停下車 徒歩30分",
-     "min": "30",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102172112_1_652_555_3.jpg?t=01783309183",
-     "main": true,
-     "local": "data/img/42b42968dd5438a57674.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102172112_2_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/f867f5f98cc6ebef9aef.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102172112_3_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/570022f0ea036bd8b6f4.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/102172112_4_652_555_3.jpg?t=01783309183",
-     "main": false,
-     "local": "data/img/d087b1ebdc3a0b89bf5d.jpg"
-    }
-   ],
-   "locText": "32.72689300, 130.71281600",
-   "hpText": "こちらは、熊本市南区城南町高2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区城南町高2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-21",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-07-17",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,198万円"
     }
    ],
    "locPrec": "",
@@ -9575,7 +9692,7 @@
    "id": "sumaiida-1012401010815PJ-054386-2",
    "source": "sumaiida",
    "name": "ハートフルタウン東区桜木1丁目20番",
-   "price": "3,590万円",
+   "price": "3,490万円",
    "address": "熊本県熊本市 東区桜木１丁目13-15",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-054386-2/",
    "layout": "4LDK",
@@ -9635,11 +9752,21 @@
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
    "lastSeen": "2026-07-21",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,590万円",
+     "to": "3,490万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,590万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "3,490万円"
     }
    ],
    "relistedAt": ""
@@ -9731,7 +9858,7 @@
    "id": "sumaiida-1012401010815PJ-055319-2",
    "source": "sumaiida",
    "name": "ハートフルタウン菊陽町向陽台4200番",
-   "price": "3,290万円",
+   "price": "3,190万円",
    "address": "熊本県菊池郡 菊陽町向陽台4-3",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055319-2/",
    "layout": "4LDK",
@@ -9791,11 +9918,21 @@
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
    "lastSeen": "2026-07-21",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,290万円",
+     "to": "3,190万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,290万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "3,190万円"
     }
    ],
    "relistedAt": ""
@@ -9877,7 +10014,7 @@
    "id": "sumaiida-1012401010815PJ-055531-2",
    "source": "sumaiida",
    "name": "ハートフルタウン東区沼山津4丁目1912番",
-   "price": "3,390万円",
+   "price": "3,290万円",
    "address": "熊本県熊本市 東区沼山津４丁目6-15",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055531-2/",
    "layout": "4LDK",
@@ -9937,11 +10074,21 @@
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
    "lastSeen": "2026-07-21",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,390万円",
+     "to": "3,290万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,390万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "3,290万円"
     }
    ],
    "relistedAt": ""
@@ -12660,79 +12807,6 @@
    "relistedAt": ""
   },
   {
-   "id": "sumaiida-5011601000515583689-2",
-   "source": "sumaiida",
-   "name": "リーブルガーデン益城町小池",
-   "price": "2,498万円",
-   "address": "熊本県上益城郡 益城町大字小池2991-1",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515583689-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年7月",
-   "buildingArea": "101.02m²",
-   "landArea": "202.75m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市健軍線「健軍町」駅まで車7.2km",
-     "min": "",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130057672_3.jpg",
-     "main": true,
-     "local": "data/img/db4c9e7c0f7a108443f6.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130057672_4.jpg",
-     "main": false,
-     "local": "data/img/b293443e0a96f97383c0.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130057672_5.jpg",
-     "main": false,
-     "local": "data/img/55c18e55f060d397f34a.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130057672_6.jpg",
-     "main": false,
-     "local": "data/img/1eeb28cccf7bf8dbb769.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130057672_10.jpg",
-     "main": false,
-     "local": "data/img/0b81aebe8f6044e36a8c.jpg"
-    }
-   ],
-   "locText": "32.747957, 130.803883",
-   "hpText": "一建設株式会社のリーブルガーデン益城町小池の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡益城町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-07-21",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
    "id": "sumaiida-5011601000515584318-2",
    "source": "sumaiida",
    "name": "リーブルガーデン東区長嶺東第六",
@@ -13402,7 +13476,7 @@
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591008-2/",
    "layout": "4LDK",
    "stories": "2階建て",
-   "builtAt": "2026年7月",
+   "builtAt": "2026年8月",
    "buildingArea": "106.82m²・111.78m²",
    "landArea": "237.2m²・261.28m²",
    "parking": "",
@@ -13850,7 +13924,7 @@
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591761-2/",
    "layout": "4LDK",
    "stories": "2階建て",
-   "builtAt": "2026年7月",
+   "builtAt": "2026年8月",
    "buildingArea": "99.36m²",
    "landArea": "226.41m²",
    "parking": "",
@@ -14333,7 +14407,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン南区良町第十二",
    "price": "3,398万円",
-   "address": "熊本県熊本市 南区良町１丁目146番5の一部ほか（地番）",
+   "address": "熊本県熊本市 南区良町１丁目146番5の一部（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515594974-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -14606,7 +14680,7 @@
    "id": "sumaiida-801270100266284575023-2",
    "source": "sumaiida",
    "name": "ブルーミングガーデン合志市須屋１８期４棟",
-   "price": "3,180万円～3,380万円",
+   "price": "2,980万円～3,380万円",
    "address": "熊本県合志市須屋字向島1042番3(地番)",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575023-2/",
    "layout": "4LDK",
@@ -14666,11 +14740,21 @@
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
    "lastSeen": "2026-07-21",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,180万円～3,380万円",
+     "to": "2,980万円～3,380万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,180万円～3,380万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "2,980万円～3,380万円"
     }
    ],
    "relistedAt": ""
@@ -14679,16 +14763,16 @@
    "id": "sumaiida-801270100266284575025-2",
    "source": "sumaiida",
    "name": "ブルーミングガーデン熊本市東区沼山津３丁目２棟",
-   "price": "3,280万円",
+   "price": "3,380万円",
    "address": "熊本県熊本市 東区沼山津３丁目1809番8(地番)",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575025-2/",
    "layout": "4LDK",
    "stories": "2階建て",
    "builtAt": "2026年6月",
-   "buildingArea": "110.13m²・111.16m²",
-   "landArea": "133.49m²・133.5m²",
+   "buildingArea": "111.16m²",
+   "landArea": "133.49m²",
    "parking": "",
-   "units": "2棟",
+   "units": "1棟",
    "elementary": "",
    "elementaryMin": "",
    "junior": "",
@@ -14739,11 +14823,21 @@
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
    "lastSeen": "2026-07-21",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-07-21",
+     "from": "3,280万円",
+     "to": "3,380万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,280万円"
+    },
+    {
+     "date": "2026-07-21",
+     "price": "3,380万円"
     }
    ],
    "relistedAt": ""
@@ -15766,6 +15860,79 @@
     {
      "date": "2026-07-14",
      "price": "3,530万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-5011601000515583689-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン益城町小池",
+   "price": "2,498万円",
+   "address": "熊本県上益城郡 益城町大字小池2991-1",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515583689-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "101.02m²",
+   "landArea": "202.75m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで車7.2km",
+     "min": "",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_3.jpg",
+     "main": true,
+     "local": "data/img/db4c9e7c0f7a108443f6.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_4.jpg",
+     "main": false,
+     "local": "data/img/b293443e0a96f97383c0.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_5.jpg",
+     "main": false,
+     "local": "data/img/55c18e55f060d397f34a.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_6.jpg",
+     "main": false,
+     "local": "data/img/1eeb28cccf7bf8dbb769.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130057672_10.jpg",
+     "main": false,
+     "local": "data/img/0b81aebe8f6044e36a8c.jpg"
+    }
+   ],
+   "locText": "32.747957, 130.803883",
+   "hpText": "一建設株式会社のリーブルガーデン益城町小池の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡益城町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-07-21",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-07-21",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,498万円"
     }
    ],
    "relistedAt": ""
