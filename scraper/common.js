@@ -18,6 +18,7 @@ async function fetchHtml(url) {
     try {
       const res = await fetch(url, { headers: { "User-Agent": UA } });
       if (res.ok) return await res.text();
+      if (res.status === 404) return null;   // ページが存在しない → 再試行しても無駄
       console.error(`[WARN] ${res.status} ${url}`);
     } catch (e) {
       console.error(`[WARN] 取得失敗(${attempt}回目) ${url}: ${e.message}`);
