@@ -196,11 +196,15 @@ async function main() {
       visited.add(pageUrl);
       await sleep(WAIT_MS);
       const html = await fetchHtml(pageUrl);
-      if (!html) continue;
+      if (!html) { if (pageUrl === cityUrl(code)) visited.delete(pageUrl); continue; }
       for (const [u, id] of pickRoomLinks(html)) detailUrls.set(u, id);
       for (const p of pickPageLinks(html, basePath)) if (!visited.has(p)) queue.push(p);
     }
-    console.log(`  ${cityName}(${code}): ${visited.size}ページ → +${detailUrls.size - before}件`);
+    if (!visited.size) {
+      console.log(`  ${cityName}(${code}): 現在このエリアの公開物件はありません(ページなし)`);
+    } else {
+      console.log(`  ${cityName}(${code}): ${visited.size}ページ → +${detailUrls.size - before}件`);
+    }
   }
   console.log(`物件詳細 合計${detailUrls.size}件を発見`);
   console.log(`(※各ページの「新着物件」欄経由で他市区の物件が混ざることがありますが、重複は自動で1件にまとまり、熊本県外は除外されます)`);
