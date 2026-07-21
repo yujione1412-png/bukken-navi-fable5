@@ -100,5 +100,38 @@ function pickLinks(html, re) {
     console.log("[注意] 物件詳細のリンクが見つかりませんでした。list.html の中身の確認が必要です。");
   }
 
+  // ---- よかタウンの検索まわりの調査(検索リニューアル対応用) ----
+  console.log("\n===== よかタウン調査 =====");
+  const yokaTargets = [
+    ["yokatown-search-min.html",
+     "https://bukken.yoka-town.com/search/index/?class%5B%5D=b2&address%5B%5D=43102&lmt=30&orderby=new",
+     "旧形式の検索URL(東区のみ)"],
+    ["yokatown-search-top.html",
+     "https://bukken.yoka-town.com/search/index/",
+     "検索ページそのもの"],
+    ["yokatown-top.html",
+     "https://bukken.yoka-town.com/",
+     "トップページ"],
+    ["yokatown-room.html",
+     "https://bukken.yoka-town.com/room105541738.html",
+     "物件ページ(比較用)"],
+  ];
+  for (const [file, url, label] of yokaTargets) {
+    await sleep(1000);
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
+      const text = await res.text();
+      console.log(`\n[${label}]`);
+      console.log(`  要求URL: ${url}`);
+      console.log(`  最終URL: ${res.url}`);
+      console.log(`  結果: HTTP ${res.status} / ${text.length}文字`);
+      const rooms = (text.match(/room\d+\.html/g) || []).length;
+      console.log(`  物件リンクの数: ${rooms}`);
+      fs.writeFileSync(`${OUT}/${file}`, `<!-- 最終URL: ${res.url} / HTTP ${res.status} -->\n` + text);
+    } catch (e) {
+      console.log(`[${label}] 取得エラー: ${e.message}`);
+    }
+  }
+
   console.log("\n=== 完了: 取得したページは Artifacts(sumaiida-sample)からダウンロードできます ===");
 })().catch((e) => { console.error("[ERROR]", e); process.exit(1); });
