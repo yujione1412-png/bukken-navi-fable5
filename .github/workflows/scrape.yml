@@ -33,6 +33,9 @@ jobs:
       - name: よかタウンの物件を収集
         run: node scraper/yokatown.js
 
+      - name: 最寄り駅を自動設定
+        run: node scraper/stations.js
+
       - name: 写真を縮小して保存
         run: node scraper/photos.js
 
