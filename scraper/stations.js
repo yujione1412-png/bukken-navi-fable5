@@ -22,7 +22,7 @@ const ENDPOINTS = [
 ];
 const RADIUS_M = 20000;   // 駅が遠い地域でも必ず見つかるよう20km
 const LIMIT = 50;         // 1回の実行での新規問い合わせ上限
-const DELAY_MS = 1500;
+const DELAY_MS = 2000;
 
 const cacheKey = (lat, lon) => lat.toFixed(3) + "," + lon.toFixed(3);
 function coordsOf(l) {
@@ -60,7 +60,7 @@ async function queryNearest(lat, lon) {
       const j = await res.json();
       const els = (j.elements || []).filter((e) =>
         e.lat && e.lon && e.tags && (e.tags["name:ja"] || e.tags.name));
-      if (!els.length) return null;
+      if (!els.length) return { name: "" };   // 正常応答で駅ゼロ(=本当に駅がない)
       let best = null, bd = Infinity;
       for (const e of els) {
         const d = distKm([lat, lon], [e.lat, e.lon]);
@@ -81,8 +81,11 @@ async function main() {
   const listings = data.listings || [];
   let cache = {};
   try { cache = JSON.parse(fs.readFileSync(CACHE_FILE, "utf8")) || {}; } catch (e) {}
+  // 過去に「問い合わせ失敗」を空として保存してしまった控えを捨てて再挑戦する
+  // (この地域で半径20kmに駅が1つもない場所は実質ないため、空=失敗とみなしてよい)
+  for (const k of Object.keys(cache)) if (!cache[k] || !cache[k].name) delete cache[k];
 
-  let attached = 0, queried = 0, cacheHit = 0, noCoord = 0, skipped = 0;
+  let attached = 0, queried = 0, cacheHit = 0, noCoord = 0, skipped = 0, failed = 0;
   for (const l of listings) {
     if (l.status === "ended") continue;
     if (hasEki(l)) { skipped++; continue; }
@@ -94,8 +97,9 @@ async function main() {
       if (queried >= LIMIT) continue;   // 上限に達した分は次回の実行で
       await sleep(DELAY_MS);
       const r = await queryNearest(c[0], c[1]);
-      hit = cache[k] = { name: (r && r.name) || "" };
       queried++;
+      if (r === null) { failed++; continue; }   // 問い合わせ失敗は控えず、次回の実行で再挑戦
+      hit = cache[k] = r;
     } else cacheHit++;
     if (hit.name) {
       l.facilities = [{ name: hit.name, min: "", cat: "station", auto: true },
@@ -108,7 +112,8 @@ async function main() {
     { updatedAt: data.updatedAt, count: listings.length, listings }, null, 1));
   console.log(`=== 完了: 最寄り駅を設定 ${attached}件` +
     `(新規問い合わせ ${queried}件 / 控えから再利用 ${cacheHit}件` +
-    ` / 駅情報あり ${skipped}件 / 位置情報なし ${noCoord}件)===`);
+    ` / 駅情報あり ${skipped}件 / 位置情報なし ${noCoord}件` +
+    (failed ? ` / 問い合わせ失敗 ${failed}件→次回に再挑戦` : "") + `)===`);
 }
 
 module.exports = { queryNearest, hasEki, cacheKey };
