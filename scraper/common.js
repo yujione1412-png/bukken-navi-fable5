@@ -113,10 +113,10 @@ function mergeListings(prevList, scrapedBySource, sources, today) {
     const prevSrc = prevList.filter((l) => l.source === src);
     const prevActive = prevSrc.filter((l) => l.status !== "ended");
 
-    // 安全弁:取得件数が前回の3割未満に激減したら、サイト側トラブルの
+    // 安全弁:取得件数が前回の6割未満に減ったら、サイト側トラブルの
     // 可能性が高いので「全物件が掲載終了」にせず前回データを維持する
-    if (prevActive.length >= 5 && scraped.length < prevActive.length * 0.3) {
-      console.error(`[ERROR] ${src}: 取得件数が激減(${prevActive.length}件→${scraped.length}件)。` +
+    if (prevActive.length >= 5 && scraped.length < prevActive.length * 0.6) {
+      console.error(`[ERROR] ${src}: 取得件数が大幅に減少(${prevActive.length}件→${scraped.length}件、6割未満)。` +
         `誤って全件を掲載終了にしないため、今回は前回データを維持します。`);
       out.push(...prevSrc);
       continue;
@@ -136,10 +136,14 @@ function mergeListings(prevList, scrapedBySource, sources, today) {
         // 既存:自動収集フィールドを更新。createdAt・価格履歴は引き継ぐ
         const merged = { ...p, ...s, status: "active", endedAt: "", lastSeen: today,
           createdAt: p.createdAt || new Date().toISOString(),
-          relistedAt: p.status === "ended" ? today : (p.relistedAt || ""),
+          relistedAt: (p.status === "ended" && p.endedAt
+              && (new Date(today) - new Date(p.endedAt)) >= 3 * 24 * 3600 * 1000)
+            ? today : (p.relistedAt || ""),
           priceChanges: p.priceChanges || [], priceSnapshots: p.priceSnapshots || [] };
         if (p.status === "ended") {
-          console.log(`  [再掲載] ${s.name}(掲載終了→再掲載)`);
+          console.log(merged.relistedAt === today
+            ? `  [再掲載] ${s.name}(掲載終了→再掲載)`
+            : `  [復帰] ${s.name}(短期間の消失から復帰。再掲載扱いにはしません)`);
         }
         if (s.price && p.price && s.price !== p.price) {
           merged.priceChanges = [...merged.priceChanges, { date: today, from: p.price, to: s.price }];
