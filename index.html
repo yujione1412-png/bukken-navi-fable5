@@ -351,7 +351,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.18</span>
+    <h1>物件ナビ</h1><span class="ver">v0.19</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -806,11 +806,14 @@ function builtDisp(b){
 }
 function areaTag(addr){
   if(!addr) return null;
-  let m = addr.match(/([^\s都道府県市]{1,4}区)/);
+  let m = addr.match(/([^\s都道府県市]{1,4}区)/);        // ①区(熊本市内)
   if(m) return m[1];
-  m = addr.match(/(?:熊本県|[^\s]{2,3}県)?(?:[^\s県]{1,4}郡)?([^\s県郡]{1,5}[市町村])/);
-  if(m && m[1]!=="熊本市") return m[1];
-  if(m) return "熊本市";
+  m = addr.match(/([^\s県郡市町村区]{1,4}市)/);           // ②市(「宇土市境目町」→宇土市)
+  if(m) return m[1];
+  m = addr.match(/[^\s県]{1,4}郡([^\s県郡]{1,4}[町村])/); // ③郡つきの町村(菊池郡菊陽町→菊陽町)
+  if(m) return m[1];
+  m = addr.match(/([^\s県郡]{1,4}[町村])/);               // ④町村
+  if(m) return m[1];
   return null;
 }
 function isNew(l){
