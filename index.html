@@ -351,7 +351,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.16</span>
+    <h1>物件ナビ</h1><span class="ver">v0.17</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -559,7 +559,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
       </select>
     </div>
     <div class="mnote" id="menuInfo"></div>
-    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎週火・金の朝6時、またはGitHubの「Run workflow」)。</div>
+    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日朝6時、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
   </div>
   <div class="mbtns"><button class="mb-cancel" id="menuClose">閉じる</button></div>
@@ -1748,7 +1748,7 @@ function openMenu(){
   document.getElementById("endedMonthsSel").value = conf.endedMonths;
   document.getElementById("menuInfo").textContent =
     (baseUpdatedAt ? `情報更新日: ${fmtDate(baseUpdatedAt)}` : "HPデータ未取得")
-    + " / 毎週火・金 朝6時に自動更新";
+    + " / 毎日 朝6時に自動更新";
   openSheet("menuBg");
 }
 
