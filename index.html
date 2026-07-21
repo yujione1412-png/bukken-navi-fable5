@@ -351,7 +351,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.17</span>
+    <h1>物件ナビ</h1><span class="ver">v0.18</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -859,6 +859,16 @@ function computeTags(l){
   if(!coordsOf(l)) t.push("位置情報なし");
   return t;
 }
+/* 施設のルート検索用の宛先:
+   「豊肥本線「南熊本」駅までバス16分「下無田」停徒歩4分」のような説明文まるごとでは
+   経路検索が失敗するため、「」内の駅名・バス停名だけを取り出す(徒歩で向かう最後の地点を採用) */
+function cleanFacDest(f){
+  const ms = [...String(f.name||"").matchAll(/「([^」]+)」\s*(駅|バス停|停)/g)];
+  if(!ms.length) return f.name||"";
+  const last = ms[ms.length-1];
+  return last[1] + (last[2]==="駅" ? "駅" : "バス停");
+}
+
 /* 位置情報の精度: 住所からの自動推定がおおよそ(番地なし/町名レベル)かどうか */
 function lowPrec(l){ return l.locPrec==="banchi" || l.locPrec==="town"; }
 function precLabel(l){
@@ -1334,10 +1344,10 @@ function renderDetail(id){
   const fc=(l.facilities||[]);
   document.getElementById("dFacBox").style.display = fc.length ? "" : "none";
   document.getElementById("dFacs").innerHTML = fc.map(f=>{
-    const q2 = f.name+" "+(areaTag(l.address)||"熊本");
+    const q2 = cleanFacDest(f)+" "+(areaTag(l.address)||"熊本");
     const link = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q2)}${l.locText?`&origin=${encodeURIComponent(l.locText)}`:""}&travelmode=walking`;
     return `<div class="fac"><span>${FAC_ICONS[f.cat]||"📍"}</span>
-     <span>${esc(f.name)} <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:4px">ルート</a></span>
+     <span>${esc(f.name)}${f.auto?`<span class="mut" style="font-size:.72rem">(自動・最寄り)</span>`:""} <a href="${link}" target="_blank" rel="noopener" style="font-size:.75rem;margin-left:4px">ルート</a></span>
      ${f.min?`<span class="min">徒歩${esc(f.min)}分</span>`:""}</div>`;
   }).join("");
   document.getElementById("dHpTextBox").style.display = l.hpText ? "" : "none";
