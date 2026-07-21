@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-21T22:15:30.324Z",
+ "updatedAt": "2026-07-21T23:02:25.089Z",
  "count": 271,
  "listings": [
   {
@@ -16618,6 +16618,12 @@
    "juniorMin": "",
    "facilities": [
     {
+     "name": "崇城大学前駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
      "name": "イワサキACE上熊本店",
      "min": "26",
      "cat": "super"
@@ -17850,6 +17856,12 @@
    "juniorMin": "",
    "facilities": [
     {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
      "name": "ホームセンターグッデイ菊池店",
      "min": "7",
      "cat": "super"
@@ -18169,6 +18181,12 @@
    "junior": "飽田中学校",
    "juniorMin": "",
    "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "イオンタウン西熊本店 （徒歩約35分）",
      "min": "",
@@ -18739,6 +18757,12 @@
    "juniorMin": "",
    "facilities": [
     {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
      "name": "マルエイ熊本北部店さんまで",
      "min": "14",
      "cat": "super"
@@ -18791,6 +18815,12 @@
    "junior": "西山中学校",
    "juniorMin": "",
    "facilities": [
+    {
+     "name": "呉服町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "ゆめマート新町店",
      "min": "9",
@@ -19188,6 +19218,12 @@
    "juniorMin": "",
    "facilities": [
     {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
      "name": "マルエイ熊本北部店さんまで",
      "min": "14",
      "cat": "super"
@@ -19241,6 +19277,12 @@
    "juniorMin": "",
    "facilities": [
     {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
      "name": "マルエイ熊本北部店さんまで",
      "min": "14",
      "cat": "super"
@@ -19293,6 +19335,12 @@
    "junior": "北部中学校",
    "juniorMin": "",
    "facilities": [
+    {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "マルエイ熊本北部店さんまで",
      "min": "14",
