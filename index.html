@@ -197,6 +197,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .dtags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
 .dtags span{font-size:.72rem;padding:2px 9px;border-radius:999px;
   background:var(--ecru);border:1px solid var(--line);color:var(--sub)}
+.dtags span.dsrc{background:var(--green);color:#f6f2e6;border-color:var(--green);font-weight:600}
 .kv{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line);font-size:.9rem;gap:12px}
 .kv:last-child{border-bottom:none}
 .kv .k{color:var(--sub);white-space:nowrap}
@@ -351,7 +352,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.19</span>
+    <h1>物件ナビ</h1><span class="ver">v0.20</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -1272,7 +1273,9 @@ function renderDetail(id){
        <div><button id="resetEditBtn">${isManual(l.id)?"編集の保護を解除する":"編集を取り消してHPの内容に戻す"}</button></div>` : "";
   const rb = document.getElementById("resetEditBtn");
   if(rb) rb.onclick = ()=>askResetEdit(l);
+  const dsrc = (SOURCES[l.source]||{label:"手動"}).label;
   document.getElementById("dTags").innerHTML =
+    `<span class="dsrc">${esc(dsrc)}</span>` +
     computeTags(l).map(t=>`<span>${esc(t)}</span>`).join("");
   const st = document.getElementById("dStar");
   st.className = l.candidate ? "on" : "";
