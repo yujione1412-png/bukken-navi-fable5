@@ -12,7 +12,8 @@
 */
 const cheerio = require("cheerio");
 const { fetchHtml, sleep, pickPrice, dlPairs, mergeListings,
-  loadData, saveData, todayStr, WAIT_MS } = require("./common");
+  loadData, saveData, todayStr, WAIT_MS,
+  getFetchStats, getMergeReport, recordScrapeStatus, countBadFields } = require("./common");
 
 const BASE = "https://sumaiida.com";
 const PREF = BASE + "/ikkodate/area/kyushu/kumamoto/";
@@ -144,7 +145,12 @@ async function main() {
   //    まとめページ(43100)にしか載らない物件があるため、43100も含めて巡回する
   //    (同じ物件はURLで自動的に1件にまとまる)
   const prefHtml = await fetchHtml(PREF);
-  if (!prefHtml) { console.error("[ERROR] 県ページが取得できません。中止します。"); process.exit(1); }
+  if (!prefHtml) {
+    console.error("[ERROR] 県ページが取得できません。中止します。");
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: "すまいーだの熊本県ページが開けませんでした(HPの引っ越し・障害の可能性)" });
+    process.exit(1);
+  }
   const cityUrls = [...new Set(
     (prefHtml.match(/href="([^"]*\/ikkodate\/list\/area\/kyushu\/kumamoto\/\d{5}\/?)"/g) || [])
       .map((h) => abs(h.replace(/^href="/, "").replace(/"$/, "")).replace(/\/?$/, "/"))
@@ -228,10 +234,21 @@ async function main() {
   saveData(DATA_FILE, merged);
 
   const ended = merged.filter((l) => l.source === SOURCE && l.status === "ended").length;
+  // 収集状況を記録(アプリのお知らせ表示に使う)
+  const rep = getMergeReport(SOURCE);
+  recordScrapeStatus(SOURCE, { count: scraped.length, badFields: countBadFields(scraped),
+    kept: rep.kept, prevActive: rep.prevActive, notFound: getFetchStats().notFound });
   console.log(`=== 完了: すまいーだ 掲載中 ${scraped.length}件 / 掲載終了 ${ended}件 ===`);
   if (warnings.length) {
     console.log(`\n[注意] ${warnings.length}件の警告:\n  - ` + warnings.join("\n  - "));
   }
 }
 
-main().catch((e) => { console.error("[ERROR]", e); process.exit(1); });
+main().catch((e) => {
+  console.error("[ERROR]", e);
+  try {
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: `収集の処理が途中で止まりました(${e.message})` });
+  } catch (e2) {}
+  process.exit(1);
+});
