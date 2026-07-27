@@ -13,7 +13,8 @@
 */
 const cheerio = require("cheerio");
 const { fetchHtml, sleep, pickPrice, tablePairs, robotsAllows, mergeListings,
-  loadData, saveData, todayStr, geocode, reuseLocText, WAIT_MS } = require("./common");
+  loadData, saveData, todayStr, geocode, reuseLocText, WAIT_MS,
+  getFetchStats, getMergeReport, recordScrapeStatus, countBadFields } = require("./common");
 
 const BASE = "https://bukken.yoka-town.com";
 const DATA_FILE = __dirname + "/../data/listings.json";
@@ -180,6 +181,8 @@ async function main() {
   const robots = await fetchHtml(BASE + "/robots.txt");
   if (robots && (!robotsAllows(robots, "/search/") || !robotsAllows(robots, "/room"))) {
     console.error("[ERROR] robots.txt が対象ページの自動アクセスを禁止しているため、収集を行いません。");
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: "よかタウンのHPが自動収集を禁止する設定に変わったため、収集を止めています" });
     return;
   }
 
@@ -252,10 +255,23 @@ async function main() {
   saveData(DATA_FILE, merged);
 
   const ended = merged.filter((l) => l.source === SOURCE && l.status === "ended").length;
+  // 収集状況を記録(アプリのお知らせ表示に使う)。
+  // 市区町ページの404は「そのエリアに公開物件が無い」だけなので、
+  // 404の件数が前回より大きく増えた時だけ注意として扱う(common.js側で判定)。
+  const rep = getMergeReport(SOURCE);
+  recordScrapeStatus(SOURCE, { count: scraped.length, badFields: countBadFields(scraped),
+    kept: rep.kept, prevActive: rep.prevActive, notFound: getFetchStats().notFound });
   console.log(`=== 完了: よかタウン 掲載中 ${scraped.length}件 / 掲載終了 ${ended}件 ===`);
   if (warnings.length) {
     console.log(`\n[注意] ${warnings.length}件の警告:\n  - ` + warnings.join("\n  - "));
   }
 }
 
-main().catch((e) => { console.error("[ERROR]", e); process.exit(1); });
+main().catch((e) => {
+  console.error("[ERROR]", e);
+  try {
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: `収集の処理が途中で止まりました(${e.message})` });
+  } catch (e2) {}
+  process.exit(1);
+});
