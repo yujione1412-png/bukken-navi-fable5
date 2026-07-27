@@ -13,18 +13,24 @@ const WAIT_MS = 1000; // ページごとに1秒待つ(相手サイトに負荷�
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/* ページ取得の集計(収集状況の記録に使う)。
+   404は「そのページが無い」だけで異常とは限らないため、回数を数えるだけにする */
+const fetchStats = { ok: 0, notFound: 0, failed: 0 };
+function getFetchStats() { return { ...fetchStats }; }
+
 async function fetchHtml(url) {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const res = await fetch(url, { headers: { "User-Agent": UA } });
-      if (res.ok) return await res.text();
-      if (res.status === 404) return null;   // ページが存在しない → 再試行しても無駄
+      if (res.ok) { fetchStats.ok++; return await res.text(); }
+      if (res.status === 404) { fetchStats.notFound++; return null; }  // ページが存在しない → 再試行しても無駄
       console.error(`[WARN] ${res.status} ${url}`);
     } catch (e) {
       console.error(`[WARN] 取得失敗(${attempt}回目) ${url}: ${e.message}`);
     }
     await sleep(2000 * attempt);
   }
+  fetchStats.failed++;
   return null;
 }
 
@@ -107,18 +113,24 @@ function tablePairs($) {
 }
 
 /* ---------- 差分反映(前回JSON × 今回取得分) ---------- */
+/* 直近の mergeListings の結果(安全弁が働いたか等)。収集状況の記録に使う */
+let lastMergeReport = {};
+function getMergeReport(src) { return lastMergeReport[src] || {}; }
+
 function mergeListings(prevList, scrapedBySource, sources, today) {
   const out = [];
   for (const src of sources) {
     const scraped = scrapedBySource[src] || [];
     const prevSrc = prevList.filter((l) => l.source === src);
     const prevActive = prevSrc.filter((l) => l.status !== "ended");
+    lastMergeReport[src] = { kept: false, prevActive: prevActive.length, scraped: scraped.length };
 
     // 安全弁:取得件数が前回の6割未満に減ったら、サイト側トラブルの
     // 可能性が高いので「全物件が掲載終了」にせず前回データを維持する
     if (prevActive.length >= 5 && scraped.length < prevActive.length * 0.6) {
       console.error(`[ERROR] ${src}: 取得件数が大幅に減少(${prevActive.length}件→${scraped.length}件、6割未満)。` +
         `誤って全件を掲載終了にしないため、今回は前回データを維持します。`);
+      lastMergeReport[src].kept = true;
       out.push(...prevSrc);
       continue;
     }
@@ -282,5 +294,92 @@ function stripOldEndedPhotos(listings, months = 3, now = Date.now()) {
   return listings;
 }
 
+/* ---------- 収集状況の記録(data/status.json) ----------
+   HPのリニューアル等で情報がうまく取れなくなったことを、アプリ側で
+   お知らせするための記録。物件データ(listings.json)には一切影響しない。
+   判定:
+     error … 物件が1件も取れなかった / 安全弁が働いて前回データを維持した
+              / 収集の処理が途中で止まった
+     warn  … 価格や所在地が空の物件が半数以上(ページの作りが変わった疑い)
+              / ページが見つからない(404)箇所が前回より大きく増えた
+   ※404そのものは異常としない(よかタウンの市区町ページは「公開物件なし=404」が正常) */
+const STATUS_FILE = path.join(__dirname, "..", "data", "status.json");
+const SOURCE_LABELS = { maemura: "マエムラ", sumaiida: "すまいーだ", yokatown: "よかタウン" };
+
+function loadStatus() {
+  try { return JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")) || {}; }
+  catch (e) { return {}; }
+}
+
+/* stats: { count, badFields, kept, prevActive, notFound, fatal } */
+function recordScrapeStatus(source, stats) {
+  const all = loadStatus();
+  all.sources = all.sources || {};
+  const prev = all.sources[source] || {};
+  const s = stats || {};
+  const count = s.count || 0;
+  const notFound = s.notFound || 0;
+  const prevNotFound = prev.notFound == null ? notFound : prev.notFound;
+  const reasons = [];
+  let level = "ok";
+  const worse = (lv) => { if (lv === "error" || level === "ok") level = lv; };
+
+  if (s.fatal) {
+    worse("error");
+    reasons.push(s.fatal);
+  } else {
+    if (s.kept) {
+      worse("error");
+      reasons.push(`取得できた件数が前回(${s.prevActive || 0}件)から${count}件に大きく減ったため、` +
+        `今回は前回の内容をそのまま表示しています`);
+    }
+    if (count === 0) {
+      worse("error");
+      reasons.push("物件が1件も取れませんでした");
+    }
+    const bad = s.badFields || 0;
+    if (count >= 5 && bad >= count * 0.5) {
+      worse("warn");
+      reasons.push(`価格または所在地が取れていない物件が ${bad}件/${count}件 あります` +
+        `(HPの作りが変わった可能性があります)`);
+    }
+    if (notFound > 0 && notFound >= prevNotFound + 3) {
+      worse("warn");
+      reasons.push(`ページが見つからない(404)箇所が、前回の${prevNotFound}件から${notFound}件に増えています`);
+    }
+  }
+
+  const today = todayStr();
+  all.sources[source] = {
+    label: SOURCE_LABELS[source] || source,
+    level,
+    ranAt: new Date().toISOString(),
+    date: today,
+    count,
+    prevCount: prev.count == null ? count : prev.count,
+    notFound,
+    reasons,
+    lastOkDate: level === "ok" ? today : (prev.lastOkDate || ""),
+    lastOkCount: level === "ok" ? count : (prev.lastOkCount == null ? prev.count || 0 : prev.lastOkCount),
+  };
+  all.updatedAt = new Date().toISOString();
+  try {
+    fs.mkdirSync(path.dirname(STATUS_FILE), { recursive: true });
+    fs.writeFileSync(STATUS_FILE, JSON.stringify(all, null, 1));
+  } catch (e) { console.error("[WARN] 収集状況の記録に失敗:", e.message); }
+
+  const mark = level === "ok" ? "正常" : level === "warn" ? "注意" : "異常";
+  console.log(`[収集状況] ${SOURCE_LABELS[source] || source}: ${mark}(${count}件` +
+    (notFound ? ` / ページなし${notFound}件` : "") + ")");
+  reasons.forEach((r) => console.log(`[収集状況]  ・${r}`));
+  return all.sources[source];
+}
+
+/* 価格または所在地が取れていない物件の数(ページ構造が変わった時の目印) */
+function countBadFields(scraped) {
+  return (scraped || []).filter((s) => !s.price || !s.address).length;
+}
+
 module.exports = { fetchHtml, sleep, priceMan, pickPrice, tablePairs, dlPairs, robotsAllows, geocode, reuseLocText, stripOldEndedPhotos,
-  mergeListings, loadData, saveData, todayStr, WAIT_MS };
+  mergeListings, loadData, saveData, todayStr, WAIT_MS,
+  getFetchStats, getMergeReport, recordScrapeStatus, countBadFields };
