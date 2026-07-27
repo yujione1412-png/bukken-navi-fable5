@@ -98,6 +98,20 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   padding:5px 12px;font-size:.82rem;white-space:nowrap;
 }
 
+/* 自動収集がうまくいっていない時のお知らせ帯 */
+#alertBanner{
+  display:none;margin:0 12px 10px;padding:9px 10px 9px 12px;border-radius:var(--radius);
+  background:#fdf1d4;border:1px solid #dfb457;color:#6e5011;font-size:.82rem;line-height:1.45;
+  align-items:flex-start;gap:8px;
+}
+#alertBanner.on{display:flex}
+#alertBanner .atxt{flex:1;min-width:0}
+#alertBanner .asub{display:block;font-size:.74rem;color:#8a6c26;margin-top:2px}
+#alertBanner .abtns{display:flex;flex-direction:column;gap:5px;flex:0 0 auto}
+#alertBanner .amore{background:#dfb457;color:#453404;border-radius:8px;
+  padding:5px 11px;font-size:.78rem;font-weight:700;white-space:nowrap}
+#alertBanner .ahide{color:#8a6c26;font-size:.9rem;padding:2px 6px;align-self:center}
+
 /* ---------- 物件カード ---------- */
 #list{padding:2px 12px 4px;display:flex;flex-direction:column;gap:10px}
 .card{
@@ -266,6 +280,29 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .leaflet-tooltip.infoTip{padding:3px 8px;line-height:1.3;cursor:pointer}
 .leaflet-tooltip.infoTip .tipName{font-weight:700;font-size:.72rem;color:var(--ink);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .leaflet-tooltip.infoTip .tipPrice{font-weight:700;font-size:.75rem;color:var(--orange)}
+/* 同じ場所に複数の物件がある時 */
+.pinNum{
+  position:absolute;top:-7px;right:-9px;min-width:17px;height:17px;padding:0 3px;
+  border-radius:999px;background:var(--ink);color:#f6f2e6;border:1.5px solid #fff;
+  font-size:.66rem;font-weight:700;line-height:15px;text-align:center;
+  box-shadow:0 1px 3px rgba(0,0,0,.4);
+}
+.leaflet-tooltip.infoTip .tipMore{font-size:.68rem;color:var(--blue);font-weight:700;margin-top:1px}
+.leaflet-tooltip.infoTip.open{padding:4px 4px 4px 6px}
+.leaflet-tooltip.infoTip .tipHead{font-size:.66rem;color:var(--sub);font-weight:700;margin:0 2px 3px}
+.leaflet-tooltip.infoTip .tipList{max-height:34vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.leaflet-tooltip.infoTip .tipRow{
+  display:flex;align-items:center;gap:5px;padding:4px 6px;border-radius:6px;
+  border-top:1px dashed var(--line);max-width:210px;
+}
+.leaflet-tooltip.infoTip .tipRow:first-child{border-top:none}
+.leaflet-tooltip.infoTip .tipRow:active{background:#efe9d8}
+.leaflet-tooltip.infoTip .tipDot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.leaflet-tooltip.infoTip .tipRowBody{flex:1;min-width:0}
+.leaflet-tooltip.infoTip .tipRowName{font-weight:700;font-size:.71rem;color:var(--ink);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.leaflet-tooltip.infoTip .tipRowPrice{font-weight:700;font-size:.71rem;color:var(--orange)}
+.leaflet-tooltip.infoTip .tipFoot{font-size:.64rem;color:var(--sub);margin:3px 2px 0}
 .popName{font-weight:700;margin-bottom:2px}
 .popPrice{color:var(--orange);font-weight:700}
 .popLink{display:inline-block;margin-top:5px;font-size:.85rem}
@@ -352,7 +389,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.20</span>
+    <h1>物件ナビ</h1><span class="ver">v0.21</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -382,6 +419,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 
   <div id="tagRow"></div>
   </div><!-- /topStick -->
+  <div id="alertBanner"></div>
   <div id="endedBanner">🗂 掲載終了した物件を表示中<span id="endedPeriodNote"></span>
     <button id="backActiveBtn">掲載中に戻る</button></div>
   <div id="list"></div>
@@ -408,7 +446,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <button class="mk on" id="tipToggle">💬 表示中</button>
   </div>
   <div id="mapCount"></div>
-  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。</div>
+  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。<br>※ 同じ場所に複数の物件があるときは、ピンに件数が付きます。タップすると隠れている物件の一覧が開きます。</div>
 </div>
 
 <!-- ============ 詳細画面 ============ -->
@@ -559,6 +597,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
         <option value="all">すべて</option>
       </select>
     </div>
+    <div class="mline"><a href="#" id="muStatus">📡 3社の更新状況を見る</a></div>
     <div class="mnote" id="menuInfo"></div>
     <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日朝6時、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
@@ -639,11 +678,13 @@ const OVR_FIELDS = ["name","price","address","detailUrl","layout","stories","bui
 /* ---------- データ ---------- */
 let hpBase = [];
 let manualData = {};          // AI補強(data/manual.json)
+let scrapeStatus = null;      // HP収集の状況(data/status.json)
+let scrapeStatusFresh = false; // 上をネットから取れたか(圏外時の保存分ならfalse)
 let baseUpdatedAt = null;
 let baseById = {};
 let manual = [];
 let ovrs = {};
-let conf = { editNoticeShown:false, endedMonths:"3" };
+let conf = { editNoticeShown:false, endedMonths:"3", alertHide:"" };
 let listings = [];
 
 function loadLS(){
@@ -679,11 +720,110 @@ async function loadBase(){
       manualData = (c && c.manual) || {};
     }catch(e2){ manualData = {}; }
   }
+  /* 収集状況(data/status.json)。まだ無い場合や読めない場合はお知らせを出さない */
+  scrapeStatusFresh = false;
+  try{
+    const r3 = await fetch("data/status.json?ts=" + Date.now(), {cache:"no-store"});
+    scrapeStatus = r3.ok ? (await r3.json() || null) : null;
+    scrapeStatusFresh = !!scrapeStatus;
+  }catch(e){ scrapeStatus = null; }
+  if(!scrapeStatus){
+    try{
+      const c = JSON.parse(localStorage.getItem(LS_BASE));
+      scrapeStatus = (c && c.status) || null;
+    }catch(e2){ scrapeStatus = null; }
+  }
   if(ok){
     try{ localStorage.setItem(LS_BASE, JSON.stringify({
-      base:{updatedAt:baseUpdatedAt, listings:hpBase}, manual:manualData})); }catch(e){}
+      base:{updatedAt:baseUpdatedAt, listings:hpBase}, manual:manualData, status:scrapeStatus})); }catch(e){}
   }
   return ok;
+}
+
+/* ---------- HP収集の不調をアプリでお知らせする ----------
+   data/status.json(スクレイパーが毎回書き出す記録)を読んで、
+   「情報が更新できていないメーカー」を一覧にする。物件データそのものには影響しない。 */
+function statusAlerts(){
+  const src = scrapeStatus && scrapeStatus.sources;
+  if(!src) return [];
+  const out = [];
+  for(const key in src){
+    const s = src[key] || {};
+    let level = s.level || "ok";
+    const reasons = (s.reasons || []).slice();
+    /* 自動更新そのものが止まっている場合(GitHub側の停止・処理が途中で落ちた等)もお知らせする。
+       毎日1回の更新なので、40時間(丸1日以上)動いていなければ止まったとみなす。
+       ※圏外・機内モードで保存済みデータを見ている時は誤解を招くので判定しない */
+    const ran = s.ranAt ? new Date(s.ranAt).getTime() : 0;
+    const hours = ran ? (Date.now() - ran) / 3600000 : null;
+    if(scrapeStatusFresh && hours !== null && hours >= 40){
+      if(level !== "error") level = "warn";
+      reasons.push(`${fmtDate(s.ranAt)}を最後に、自動更新が動いていません`);
+    }
+    if(level === "ok") continue;
+    out.push({key, level, reasons,
+      label: s.label || (SOURCES[key]||{}).label || key,
+      lastOkDate: s.lastOkDate || "", count: s.count || 0, prevCount: s.prevCount || 0});
+  }
+  return out;
+}
+function alertKey(al){
+  return al.map(a=>`${a.key}:${a.level}:${a.lastOkDate}:${a.reasons.length}`).join("|");
+}
+function renderAlertBanner(){
+  const box = document.getElementById("alertBanner");
+  const al = statusAlerts();
+  const key = alertKey(al);
+  if(!al.length || conf.alertHide === key){ box.classList.remove("on"); box.innerHTML=""; return; }
+  const names = al.map(a=>a.label).join("・");
+  const when = (al.length===1 && al[0].lastOkDate)
+    ? `の情報が ${fmtDate(al[0].lastOkDate)} から更新できていません`
+    : "の情報を自動更新できていません";
+  box.innerHTML =
+    `<span class="atxt"><b>⚠ ${esc(names)}</b>${esc(when)}` +
+    `<span class="asub">表示中の内容はその時点のものです(物件が消えたわけではありません)</span></span>` +
+    `<span class="abtns"><button class="amore" id="alertMore">詳しく</button>` +
+    `<button class="ahide" id="alertHide" aria-label="閉じる">✕</button></span>`;
+  box.classList.add("on");
+  document.getElementById("alertMore").onclick = ()=>showStatusDetail(false);
+  document.getElementById("alertHide").onclick = ()=>{
+    conf.alertHide = key; saveConf(); box.classList.remove("on");
+    toast("状況が変わると、また表示されます");
+  };
+}
+/* all=true なら正常なメーカーも含めて表示(メニューの「3社の更新状況」) */
+function showStatusDetail(all){
+  const src = (scrapeStatus && scrapeStatus.sources) || null;
+  if(!src){
+    modal("3社の更新状況",
+      "収集状況の記録(data/status.json)がまだありません。\n\n" +
+      "次回の自動更新(毎日 朝6時)のあと、メニューの「↻ 最新データを読み込む」を押すと表示されます。",
+      [["閉じる",null,"mb-ok"]]);
+    return;
+  }
+  const alerts = statusAlerts();
+  const byKey = {}; alerts.forEach(a=>byKey[a.key]=a);
+  const order = ["maemura","sumaiida","yokatown"];
+  const keys = order.filter(k=>src[k]).concat(Object.keys(src).filter(k=>!order.includes(k)));
+  const blocks = [];
+  for(const k of keys){
+    const s = src[k], a = byKey[k];
+    if(!all && !a) continue;
+    const label = s.label || (SOURCES[k]||{}).label || k;
+    const mark = a ? (a.level==="error" ? "⚠ 更新できていません" : "△ 注意") : "○ 正常";
+    const lines = [`■ ${label}  ${mark}`];
+    lines.push(`　最終確認: ${s.date ? fmtDate(s.date) : "不明"} / 取得 ${s.count||0}件(前回 ${s.prevCount||0}件)`);
+    if(a && a.lastOkDate) lines.push(`　最後に正常だった日: ${fmtDate(a.lastOkDate)}`);
+    (a ? a.reasons : []).forEach(r=>lines.push(`　・${r}`));
+    blocks.push(lines.join("\n"));
+  }
+  if(!blocks.length) blocks.push("3社とも正常に更新できています。");
+  const foot = alerts.length
+    ? "\n\n表示中の物件情報は、最後に正常に取れた時点のものです。物件が削除されたり、勝手に掲載終了になったりはしていません。\n" +
+      "この表示が数日続く場合は、HPの作りが変わった可能性があります。管理担当にお知らせください。"
+    : "";
+  modal(all ? "3社の更新状況" : "HPからの自動収集で問題が出ています",
+    blocks.join("\n\n") + foot, [["閉じる",null,"mb-ok"]]);
 }
 
 /* ---------- 4層の合成(データ保護の心臓部) ---------- */
@@ -1113,7 +1253,7 @@ function renderList(){
     </div>`;
   }).join("");
 }
-function renderHome(){ renderTabs(); renderTagRow(); renderList(); updatePriceBtn(); }
+function renderHome(){ renderTabs(); renderTagRow(); renderList(); updatePriceBtn(); renderAlertBanner(); }
 function updatePriceBtn(){
   const on = state.priceMin!=null || state.priceMax!=null;
   const label = on
@@ -1217,29 +1357,119 @@ async function openMap(){
   refreshMapMarkers(firstOpen);   // 視点合わせは初回だけ。戻ってきたときは前の位置・拡大を保つ
   setTimeout(()=>{ try{ leafletMap.invalidateSize(); }catch(e){} }, 60);
 }
+/* 同じ場所(この距離以内)の物件は1本のピンにまとめる */
+const GROUP_METERS = 30;
+/* 位置が近い物件をまとめる。戻り値: [{c:[lat,lng], items:[物件,…]}, …] */
+function groupByLocation(arr){
+  const groups = [];
+  for(const l of arr){
+    const c = coordsOf(l);
+    if(!c) continue;
+    let g = null;
+    for(const cand of groups){
+      if(distKm(cand.c, c) * 1000 <= GROUP_METERS){ g = cand; break; }
+    }
+    if(g) g.items.push(l);
+    else groups.push({c, items:[l]});
+  }
+  return groups;
+}
+function tipRowsHtml(g){
+  return g.items.map(l=>{
+    const col = (SOURCES[l.source]||{}).color || "#57523f";
+    return `<div class="tipRow" data-id="${esc(l.id)}">`
+      + `<span class="tipDot" style="background:${col}"></span>`
+      + `<span class="tipRowBody"><span class="tipRowName">${lowPrec(l)?"≈ ":""}${esc(l.name)}</span>`
+      + `<span class="tipRowPrice">${esc(l.price||"価格未定")}</span></span></div>`;
+  }).join("");
+}
+function tipHtml(g, open){
+  const l = g.items[0];
+  const n = g.items.length;
+  if(n === 1 || !open){
+    return `<div class="tipName">${lowPrec(l)?"≈ ":""}${esc(l.name)}</div>`
+      + `<div class="tipPrice">${esc(l.price||"価格未定")}</div>`
+      + (n > 1 ? `<div class="tipMore">＋他${n-1}件(タップで表示)</div>` : "");
+  }
+  return `<div class="tipHead">この場所に${n}件</div>`
+    + `<div class="tipList">${tipRowsHtml(g)}</div>`
+    + `<div class="tipFoot">物件をタップすると詳細へ</div>`;
+}
+/* 開いた吹き出しの中の各行をタップ → その物件の詳細へ */
+function bindTipRows(mk){
+  const tt = mk.getTooltip && mk.getTooltip();
+  const el = tt && tt.getElement && tt.getElement();
+  if(!el) return;
+  el.querySelectorAll(".tipRow").forEach(row=>{
+    row.addEventListener("click", ev=>{
+      ev.stopPropagation();
+      if(window.L && L.DomEvent) L.DomEvent.stopPropagation(ev);
+      location.hash = "#detail/" + encodeURIComponent(row.dataset.id);
+    });
+  });
+}
+function toggleGroupTip(mk, g){
+  const tt = mk.getTooltip && mk.getTooltip();
+  if(!tt) return;
+  mk._tipOpen = !mk._tipOpen;
+  tt.setContent(tipHtml(g, mk._tipOpen));
+  const el = tt.getElement && tt.getElement();
+  if(el) el.classList.toggle("open", !!mk._tipOpen);
+  if(mk._tipOpen){
+    setTimeout(()=>{
+      bindTipRows(mk);
+      // 画面の端で切れないように、少しだけ地図を動かす
+      try{ leafletMap.panInside(mk.getLatLng(), {padding:[60,90]}); }catch(e){}
+    }, 0);
+  }
+}
+/* 吹き出しを非表示にしている時に、重なったピンをタップした場合の一覧 */
+function openGroupPopup(mk, g){
+  const html = `<div class="tipHead" style="margin-bottom:4px">この場所に${g.items.length}件</div>`
+    + `<div class="tipList">${tipRowsHtml(g)}</div>`;
+  mk.unbindPopup();
+  mk.bindPopup(html, {className:"infoTip", maxWidth:240, autoPan:true}).openPopup();
+  setTimeout(()=>{
+    const el = mk.getPopup() && mk.getPopup().getElement();
+    if(!el) return;
+    el.querySelectorAll(".tipRow").forEach(row=>{
+      row.addEventListener("click", ev=>{
+        ev.stopPropagation();
+        if(window.L && L.DomEvent) L.DomEvent.stopPropagation(ev);
+        location.hash = "#detail/" + encodeURIComponent(row.dataset.id);
+      });
+    });
+  }, 0);
+}
 function refreshMapMarkers(fit){
   if(!leafletMap || !window.L) return;
   mapMarkers.forEach(m=>m.remove());
   mapMarkers = [];
   const arr = mapItems();
+  const groups = groupByLocation(arr);
   let plotted = 0;
   const bounds = [];
-  for(const l of arr){
-    const c = coordsOf(l);
-    if(!c) continue;
-    plotted++;
-    bounds.push(c);
+  for(const g of groups){
+    const l = g.items[0];
+    const n = g.items.length;
+    plotted += n;
+    bounds.push(g.c);
     const color = (SOURCES[l.source]||{}).color || "#57523f";
-    const low = lowPrec(l);
+    const low = g.items.every(x=>lowPrec(x));
     const icon = L.divIcon({className:"", iconSize:[26,26], iconAnchor:[13,24],
-      html:`<div class="pin" style="background:${color};${low?"border-style:dashed;opacity:.8":""}"></div>`});
-    const mk = L.marker(c, {icon}).addTo(leafletMap);
+      html:`<div class="pin" style="background:${color};${low?"border-style:dashed;opacity:.8":""}"></div>`
+        + (n>1 ? `<span class="pinNum">${n}</span>` : "")});
+    const mk = L.marker(g.c, {icon}).addTo(leafletMap);
+    mk._tipOpen = false;
     if(state.mapTips){
-      mk.bindTooltip(
-        `<div class="tipName">${low?"≈ ":""}${esc(l.name)}</div><div class="tipPrice">${esc(l.price||"価格未定")}</div>`,
+      mk.bindTooltip(tipHtml(g, false),
         {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
     }
-    mk.on("click", ()=>{ location.hash = "#detail/"+encodeURIComponent(l.id); });
+    mk.on("click", ()=>{
+      if(n === 1){ location.hash = "#detail/"+encodeURIComponent(l.id); return; }
+      if(state.mapTips) toggleGroupTip(mk, g);
+      else openGroupPopup(mk, g);
+    });
     mapMarkers.push(mk);
   }
   const noLoc = arr.length - plotted;
@@ -1762,9 +1992,11 @@ async function copyAiPrompt(){
 /* ---------- メニュー ---------- */
 function openMenu(){
   document.getElementById("endedMonthsSel").value = conf.endedMonths;
+  const al = statusAlerts();
   document.getElementById("menuInfo").textContent =
     (baseUpdatedAt ? `情報更新日: ${fmtDate(baseUpdatedAt)}` : "HPデータ未取得")
-    + " / 毎日 朝6時に自動更新";
+    + " / 毎日 朝6時に自動更新"
+    + (al.length ? ` / ⚠ ${al.map(a=>a.label).join("・")}は更新できていません` : "");
   openSheet("menuBg");
 }
 
@@ -1957,6 +2189,9 @@ document.getElementById("csvMakers").addEventListener("click", e=>{
 document.getElementById("csvCancel").addEventListener("click", ()=>closeSheet("csvBg"));
 document.getElementById("csvGo").addEventListener("click", exportCsv);
 /* AI */
+document.getElementById("muStatus").addEventListener("click", e=>{
+  e.preventDefault(); closeSheet("menuBg"); showStatusDetail(true);
+});
 document.getElementById("aiCancel").addEventListener("click", ()=>closeSheet("aiBg"));
 document.getElementById("aiCopy").addEventListener("click", copyAiPrompt);
 /* 地図・編集 */
