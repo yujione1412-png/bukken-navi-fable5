@@ -1,0 +1,41 @@
+{
+ "sources": {
+  "maemura": {
+   "label": "マエムラ",
+   "level": "ok",
+   "ranAt": "2026-07-27T22:04:10.995Z",
+   "date": "2026-07-28",
+   "count": 37,
+   "prevCount": 37,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-07-28",
+   "lastOkCount": 37
+  },
+  "sumaiida": {
+   "label": "すまいーだ",
+   "level": "ok",
+   "ranAt": "2026-07-27T22:07:06.415Z",
+   "date": "2026-07-28",
+   "count": 91,
+   "prevCount": 91,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-07-28",
+   "lastOkCount": 91
+  },
+  "yokatown": {
+   "label": "よかタウン",
+   "level": "ok",
+   "ranAt": "2026-07-27T22:10:23.034Z",
+   "date": "2026-07-28",
+   "count": 143,
+   "prevCount": 143,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-07-28",
+   "lastOkCount": 143
+  }
+ },
+ "updatedAt": "2026-07-27T22:10:23.034Z"
+}
