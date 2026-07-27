@@ -4,7 +4,8 @@
 */
 const cheerio = require("cheerio");
 const { fetchHtml, sleep, pickPrice, tablePairs, mergeListings,
-  loadData, saveData, todayStr, WAIT_MS } = require("./common");
+  loadData, saveData, todayStr, WAIT_MS,
+  getFetchStats, getMergeReport, recordScrapeStatus, countBadFields } = require("./common");
 
 const BASE = "https://maemura-shinchiku.jp";
 const TOP = BASE + "/kumamoto/";
@@ -298,7 +299,12 @@ async function main() {
 
   // 1. トップ+各エリアページから物件詳細URLを集める
   const topHtml = await fetchHtml(TOP);
-  if (!topHtml) { console.error("[ERROR] トップページが取得できません。中止します。"); process.exit(1); }
+  if (!topHtml) {
+    console.error("[ERROR] トップページが取得できません。中止します。");
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: "マエムラのトップページが開けませんでした(HPの引っ越し・障害の可能性)" });
+    process.exit(1);
+  }
   const { areas, posts } = collectLinks(topHtml);
   const postUrls = new Set(posts);
   const pageQueue = [...areas];
@@ -354,10 +360,21 @@ async function main() {
   saveData(DATA_FILE, merged);
 
   const ended = merged.filter((l) => l.source === SOURCE && l.status === "ended").length;
+  // 収集状況を記録(アプリのお知らせ表示に使う)
+  const rep = getMergeReport(SOURCE);
+  recordScrapeStatus(SOURCE, { count: scraped.length, badFields: countBadFields(scraped),
+    kept: rep.kept, prevActive: rep.prevActive, notFound: getFetchStats().notFound });
   console.log(`=== 完了: 掲載中 ${scraped.length}件 / 掲載終了 ${ended}件 ===`);
   if (warnings.length) {
     console.log(`\n[注意] ${warnings.length}件の警告:\n  - ` + warnings.join("\n  - "));
   }
 }
 
-main().catch((e) => { console.error("[ERROR]", e); process.exit(1); });
+main().catch((e) => {
+  console.error("[ERROR]", e);
+  try {
+    recordScrapeStatus(SOURCE, { count: 0, notFound: getFetchStats().notFound,
+      fatal: `収集の処理が途中で止まりました(${e.message})` });
+  } catch (e2) {}
+  process.exit(1);
+});
