@@ -1,7 +1,7 @@
 {
   "name": "bukken-navi",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.22.0",
   "scripts": {
     "scrape": "node scraper/maemura.js"
   },
