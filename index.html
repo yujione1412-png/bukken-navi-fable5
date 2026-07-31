@@ -389,7 +389,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.21</span>
+    <h1>物件ナビ</h1><span class="ver">v0.22</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -650,9 +650,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.8
+   物件ナビ v0.22
    データは4層構造(下の層は上の層を上書きしない):
-     1. HP自動収集   data/listings.json(毎週更新)
+     1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
      3. 手動登録物件  localStorage LS_DATA(この端末)
      4. 手動編集     localStorage LS_OVR(この端末・最優先)
@@ -966,7 +966,7 @@ function isRelisted(l){
   if(!l.relistedAt || l.status==="ended") return false;
   return (Date.now() - new Date(l.relistedAt).getTime()) < 14*24*3600*1000;
 }
-/* 2週間以内の値動き → {dir:"down"|"up"} */
+/* 2週間以内の値動き → {dir:"down"|"up", diff:差額(万円)} */
 function recentPriceMove(l){
   const c = l.priceChanges||[];
   const last = c[c.length-1];
@@ -974,12 +974,23 @@ function recentPriceMove(l){
   if(Date.now() - new Date(last.date).getTime() >= 14*24*3600*1000) return null;
   const pf = priceMan(last.from), pt = priceMan(last.to);
   if(pf==null || pt==null || pf===pt) return null;
-  return { dir: pt<pf ? "down" : "up" };
+  return { dir: pt<pf ? "down" : "up", diff: Math.abs(pt - pf) };
 }
+/* 差額(万円単位)を「98万円」「1億200万円」のように表す */
+function fmtDiffMan(v){
+  if(v >= 10000){
+    const oku = Math.floor(v/10000), man = v % 10000;
+    return oku + "億" + (man ? fmtDiffMan(man) : "円");
+  }
+  const n = Number.isInteger(v) ? v : +v.toFixed(1);
+  return n.toLocaleString() + "万円";
+}
+/* 価格の横に出す値動きバッジ。値下げ額・値上げ額まで表示する */
 function moveBadge(l, big){
   const mv = recentPriceMove(l);
   if(!mv) return "";
-  const label = mv.dir==="down" ? "↓値下げ" : "↑値上げ";
+  const label = (mv.dir==="down" ? "↓" : "↑") + fmtDiffMan(mv.diff)
+    + " " + (mv.dir==="down" ? "値下げ" : "値上げ");
   return `<span class="pmove ${mv.dir}"${big?' style="font-size:.78rem"':''}>${label}</span>`;
 }
 function layoutTags(layout){
@@ -1002,6 +1013,15 @@ function computeTags(l){
   if(mv && mv.dir==="down") t.push("値下げ");
   if(!coordsOf(l)) t.push("位置情報なし");
   return t;
+}
+/* タグの種類を返す。絞り込みは「同じ種類どうしは“または”・種類がちがえば“かつ”」。
+   例)「西区」+「東区」+「値下げ」→(西区 または 東区)かつ 値下げ
+   New・再掲載・値下げ・未完成・位置情報なしは、それぞれが独立した種類(=かつ)になる */
+function tagKind(t){
+  if(/^\d[SLDK]{1,5}$/.test(t)) return "layout";   // 間取り(3LDK など)
+  if(STORY_ORDER.includes(t))   return "story";    // 建て方(平屋・2階建て など)
+  if(["New","再掲載","値下げ","未完成","位置情報なし"].includes(t)) return t;
+  return "area";                                   // エリア(区・市・町村)
 }
 /* 施設のルート検索用の宛先:
    「豊肥本線「南熊本」駅までバス16分「下無田」停徒歩4分」のような説明文まるごとでは
@@ -1082,10 +1102,19 @@ function pricePass(l){
 function applyCommon(arr){
   arr = arr.filter(l=>statusPass(l) && pricePass(l));
   if(state.tags.size){
+    /* 選んだタグを種類ごとにまとめ、
+       同じ種類の中は「または」、種類どうしは「かつ」で絞り込む */
+    const groups = {};
+    for(const t of state.tags){
+      const k = tagKind(t);
+      (groups[k] = groups[k] || []).push(t);
+    }
     arr = arr.filter(l=>{
       const ts = computeTags(l);
-      for(const t of state.tags) if(ts.includes(t)) return true;
-      return false;
+      for(const k in groups){
+        if(!groups[k].some(t=>ts.includes(t))) return false;   // どれにも当てはまらない種類があれば除外
+      }
+      return true;
     });
   }
   const q = state.q.trim().toLowerCase();
@@ -1180,14 +1209,20 @@ function orderedTags(items){
   if(hasNoLoc) tags.push("位置情報なし");
   return tags;
 }
+/* 絞り込みタグのボタン1つ分。選んでいるタグは色が変わり、先頭に✓が付く */
+function tagBtnHtml(t){
+  const cls = t==="New" ? " newYellow" : t==="再掲載" ? " relist"
+            : t==="値下げ" ? " pdown" : t==="位置情報なし" ? " noloc" : "";
+  const on = state.tags.has(t);
+  return `<button class="tag${cls}${on?" on":""}" data-tag="${esc(t)}">${on?"✓ ":""}${esc(t)}</button>`;
+}
 function renderTagRow(){
   const items = listings.filter(statusPass);
   const tags = orderedTags(items);
   for(const t of [...state.tags]) if(!tags.includes(t)) state.tags.delete(t);
   const box = document.getElementById("tagRow");
   const keep = box.scrollLeft;
-  box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="値下げ"?" pdown":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+  box.innerHTML = tags.map(tagBtnHtml).join("");
   box.scrollLeft = keep;
 }
 
@@ -1325,8 +1360,7 @@ function renderMapTagRow(){
   const tags = orderedTags(items);
   const box = document.getElementById("mapTagRow");
   const keep = box.scrollLeft;
-  box.innerHTML = tags.map(t=>
-    `<button class="tag${t==="New"?" newYellow":t==="再掲載"?" relist":t==="値下げ"?" pdown":t==="位置情報なし"?" noloc":""}${state.tags.has(t)?" on":""}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
+  box.innerHTML = tags.map(tagBtnHtml).join("");
   box.scrollLeft = keep;
 }
 function mapItems(){
@@ -2009,8 +2043,9 @@ document.getElementById("tabs").addEventListener("click", e=>{
 function tagClickHandler(e){
   const b = e.target.closest(".tag"); if(!b) return;
   const t = b.dataset.tag;
-  if(state.tags.has(t)){ state.tags.delete(t); b.classList.remove("on"); }
-  else { state.tags.add(t); b.classList.add("on"); }
+  if(state.tags.has(t)) state.tags.delete(t);
+  else state.tags.add(t);
+  renderTagRow(); renderMapTagRow();   // ✓の付け外しを一覧・地図の両方に反映
   renderTabs(); renderList();
   if(document.getElementById("pageMap").classList.contains("on")){
     renderMakerRow(); refreshMapMarkers();
