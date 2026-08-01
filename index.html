@@ -268,7 +268,10 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .mk.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
 #mapTagRow{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;padding:3px 0 5px}
 #mapTagRow::-webkit-scrollbar{display:none}
-#mapWrap{position:relative;margin:2px 12px}
+/* 地図はz-index:0で「ひとまとまり」にする。
+   こうしないと地図の部品(z-index 400〜700)が、価格などのウィンドウより手前に来てしまい、
+   背景は暗くなるのにウィンドウが地図の下に隠れて見えなくなる */
+#mapWrap{position:relative;z-index:0;margin:2px 12px}
 #mapDiv{height:70vh;border-radius:var(--radius);border:1px solid var(--line);background:#e6e0d0;
   display:flex;align-items:center;justify-content:center;color:var(--sub);font-size:.9rem}
 #tipToggle{position:absolute;right:10px;bottom:10px;z-index:1100;
@@ -278,8 +281,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .pin{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
   border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
 .leaflet-tooltip.infoTip{padding:3px 8px;line-height:1.3;cursor:pointer}
-.leaflet-tooltip.infoTip .tipName{font-weight:700;font-size:.72rem;color:var(--ink);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.leaflet-tooltip.infoTip .tipPrice{font-weight:700;font-size:.75rem;color:var(--orange)}
+.infoTip .tipName{font-weight:700;font-size:.72rem;color:var(--ink);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.infoTip .tipPrice{font-weight:700;font-size:.75rem;color:var(--orange)}
 /* 同じ場所に複数の物件がある時 */
 .pinNum{
   position:absolute;top:-7px;right:-9px;min-width:17px;height:17px;padding:0 3px;
@@ -287,22 +290,25 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   font-size:.66rem;font-weight:700;line-height:15px;text-align:center;
   box-shadow:0 1px 3px rgba(0,0,0,.4);
 }
-.leaflet-tooltip.infoTip .tipMore{font-size:.68rem;color:var(--blue);font-weight:700;margin-top:1px}
+.infoTip .tipMore{font-size:.68rem;color:var(--blue);font-weight:700;margin-top:1px}
 .leaflet-tooltip.infoTip.open{padding:4px 4px 4px 6px}
-.leaflet-tooltip.infoTip .tipHead{font-size:.66rem;color:var(--sub);font-weight:700;margin:0 2px 3px}
-.leaflet-tooltip.infoTip .tipList{max-height:34vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
-.leaflet-tooltip.infoTip .tipRow{
+.infoTip .tipHead{font-size:.66rem;color:var(--sub);font-weight:700;margin:0 2px 3px}
+.infoTip .tipList{max-height:34vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.infoTip .tipRow{
   display:flex;align-items:center;gap:5px;padding:4px 6px;border-radius:6px;
   border-top:1px dashed var(--line);max-width:210px;
 }
-.leaflet-tooltip.infoTip .tipRow:first-child{border-top:none}
-.leaflet-tooltip.infoTip .tipRow:active{background:#efe9d8}
-.leaflet-tooltip.infoTip .tipDot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.leaflet-tooltip.infoTip .tipRowBody{flex:1;min-width:0}
-.leaflet-tooltip.infoTip .tipRowName{font-weight:700;font-size:.71rem;color:var(--ink);
+.infoTip .tipRow:first-child{border-top:none}
+.infoTip .tipRow:active{background:#efe9d8}
+.infoTip .tipDot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.infoTip .tipRowBody{flex:1;min-width:0}
+.infoTip .tipRowName{font-weight:700;font-size:.71rem;color:var(--ink);
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.leaflet-tooltip.infoTip .tipRowPrice{font-weight:700;font-size:.71rem;color:var(--orange)}
-.leaflet-tooltip.infoTip .tipFoot{font-size:.64rem;color:var(--sub);margin:3px 2px 0}
+.infoTip .tipRowPrice{font-weight:700;font-size:.71rem;color:var(--orange)}
+.infoTip .tipFoot{font-size:.64rem;color:var(--sub);margin:3px 2px 0}
+/* 吹き出しを非表示にしている時にピンをタップして開く小窓(popup)の余白 */
+.leaflet-popup.infoTip .leaflet-popup-content{margin:8px 10px;min-width:120px}
+.leaflet-popup.infoTip .tipRow{max-width:220px}
 .popName{font-weight:700;margin-bottom:2px}
 .popPrice{color:var(--orange);font-weight:700}
 .popLink{display:inline-block;margin-top:5px;font-size:.85rem}
@@ -334,7 +340,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 
 /* ---------- モーダル(汎用) ---------- */
 .sheetBg{
-  display:none;position:fixed;inset:0;background:rgba(30,40,35,.55);z-index:100;
+  display:none;position:fixed;inset:0;background:rgba(30,40,35,.55);z-index:1000;
   align-items:center;justify-content:center;padding:20px;
 }
 .sheetBg.on{display:flex}
@@ -375,7 +381,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 /* トースト */
 #toast{
   position:fixed;left:50%;transform:translateX(-50%);
-  bottom:calc(92px + env(safe-area-inset-bottom));z-index:120;
+  bottom:calc(92px + env(safe-area-inset-bottom));z-index:1200;
   background:var(--ink);color:#f6f2e6;font-size:.85rem;
   padding:10px 18px;border-radius:999px;opacity:0;transition:opacity .25s;
   pointer-events:none;max-width:88vw;text-align:center;
@@ -389,7 +395,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.22</span>
+    <h1>物件ナビ</h1><span class="ver">v0.23</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -446,7 +452,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <button class="mk on" id="tipToggle">💬 表示中</button>
   </div>
   <div id="mapCount"></div>
-  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。<br>※ 同じ場所に複数の物件があるときは、ピンに件数が付きます。タップすると隠れている物件の一覧が開きます。</div>
+  <div class="mapnote" style="padding:0 14px 16px">※ ピンの位置は住所などから自動設定しているため、実際の場所とずれることがあります。破線のピンと「≈」付きの物件は住所が特定できず「おおよその位置」です。正確な所在地はHPでご確認ください。<br>※ 同じ場所に複数の物件があるときは、ピンに件数が付きます。タップすると隠れている物件の一覧が開きます。<br>※ 吹き出しを「非表示」にしているときは、ピンをタップすると物件名と価格が出ます。もう一度そこをタップすると詳細が開きます。</div>
 </div>
 
 <!-- ============ 詳細画面 ============ -->
@@ -650,7 +656,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.22
+   物件ナビ v0.23
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -1457,10 +1463,13 @@ function toggleGroupTip(mk, g){
     }, 0);
   }
 }
-/* 吹き出しを非表示にしている時に、重なったピンをタップした場合の一覧 */
+/* 吹き出しを非表示にしている時に、ピンをタップした場合に開く小窓。
+   1件だけのピンでも、いきなり詳細へ飛ばずに物件名と価格を見せる(複数件の時と同じ動き) */
 function openGroupPopup(mk, g){
-  const html = `<div class="tipHead" style="margin-bottom:4px">この場所に${g.items.length}件</div>`
-    + `<div class="tipList">${tipRowsHtml(g)}</div>`;
+  const n = g.items.length;
+  const html = (n > 1 ? `<div class="tipHead" style="margin-bottom:4px">この場所に${n}件</div>` : "")
+    + `<div class="tipList">${tipRowsHtml(g)}</div>`
+    + `<div class="tipFoot">${n > 1 ? "物件をタップすると詳細へ" : "タップすると詳細へ"}</div>`;
   mk.unbindPopup();
   mk.bindPopup(html, {className:"infoTip", maxWidth:240, autoPan:true}).openPopup();
   setTimeout(()=>{
@@ -1500,9 +1509,14 @@ function refreshMapMarkers(fit){
         {permanent:true, direction:"right", offset:[10,-14], className:"infoTip", interactive:true});
     }
     mk.on("click", ()=>{
+      if(!state.mapTips){
+        // 吹き出し非表示のときは、1件でも複数件でも、まず小窓で物件名と価格を見せる
+        openGroupPopup(mk, g);
+        return;
+      }
+      // 吹き出し表示中は、1件のピンには物件名と価格が出ているのでそのまま詳細へ
       if(n === 1){ location.hash = "#detail/"+encodeURIComponent(l.id); return; }
-      if(state.mapTips) toggleGroupTip(mk, g);
-      else openGroupPopup(mk, g);
+      toggleGroupTip(mk, g);
     });
     mapMarkers.push(mk);
   }
