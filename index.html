@@ -130,7 +130,11 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .card .price{color:var(--green);font-weight:700;font-size:1.02rem;margin-top:1px}
 .card .price.na{color:var(--sub);font-weight:400;font-size:.85rem}
 .card .addr{font-size:.75rem;color:var(--sub);margin-top:1px;
+  display:flex;align-items:baseline;gap:6px}
+.card .addr .atext{flex:1;min-width:0;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* 住所の右端に出る登録日(最近アプリに入った物件だけ) */
+.card .cdate{flex:0 0 auto;font-size:.68rem;color:var(--sub);white-space:nowrap}
 .card .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
 .card .tags span{
   font-size:.68rem;padding:1px 7px;border-radius:999px;
@@ -293,7 +297,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .infoTip .tipMore{font-size:.68rem;color:var(--blue);font-weight:700;margin-top:1px}
 .leaflet-tooltip.infoTip.open{padding:4px 4px 4px 6px}
 .infoTip .tipHead{font-size:.66rem;color:var(--sub);font-weight:700;margin:0 2px 3px}
-.infoTip .tipList{max-height:34vh;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.infoTip .tipList{max-height:34vh;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
 .infoTip .tipRow{
   display:flex;align-items:center;gap:5px;padding:4px 6px;border-radius:6px;
   border-top:1px dashed var(--line);max-width:210px;
@@ -301,14 +305,18 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 .infoTip .tipRow:first-child{border-top:none}
 .infoTip .tipRow:active{background:#efe9d8}
 .infoTip .tipDot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
-.infoTip .tipRowBody{flex:1;min-width:0}
-.infoTip .tipRowName{font-weight:700;font-size:.71rem;color:var(--ink);
+/* 物件名と価格は縦に並べる。名前はspanのままだと「…」で省略されないため
+   display:block にしてから省略する(横に長く伸びて価格が読めなくなるのを防ぐ) */
+.infoTip .tipRowBody{flex:1;min-width:0;display:block;overflow:hidden}
+.infoTip .tipRowName{display:block;font-weight:700;font-size:.71rem;color:var(--ink);
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.infoTip .tipRowPrice{font-weight:700;font-size:.71rem;color:var(--orange)}
+.infoTip .tipRowPrice{display:block;font-weight:700;font-size:.71rem;color:var(--orange);white-space:nowrap}
 .infoTip .tipFoot{font-size:.64rem;color:var(--sub);margin:3px 2px 0}
-/* 吹き出しを非表示にしている時にピンをタップして開く小窓(popup)の余白 */
-.leaflet-popup.infoTip .leaflet-popup-content{margin:8px 10px;min-width:120px}
-.leaflet-popup.infoTip .tipRow{max-width:220px}
+/* 吹き出しを非表示にしている時にピンをタップして開く小窓(popup)。
+   右上の「×」に文字がかからないよう右側を広めにあける */
+.leaflet-popup.infoTip .leaflet-popup-content{margin:9px 22px 9px 10px;min-width:150px}
+.leaflet-popup.infoTip .tipRow{max-width:none}
+.leaflet-popup.infoTip .tipHead{padding-right:4px}
 .popName{font-weight:700;margin-bottom:2px}
 .popPrice{color:var(--orange);font-weight:700}
 .popLink{display:inline-block;margin-top:5px;font-size:.85rem}
@@ -395,7 +403,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.23</span>
+    <h1>物件ナビ</h1><span class="ver">v0.24</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -656,7 +664,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.23
+   物件ナビ v0.24
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -878,6 +886,7 @@ function combine(){
     }
     return r;
   }).concat(manual);
+  initialBulkDay = null;   // 一括登録の日を次回まとめて数え直す
 }
 function isManual(id){ return manual.some(x=>x.id===id); }
 
@@ -966,6 +975,34 @@ function areaTag(addr){
 function isNew(l){
   if(!l.createdAt) return false;
   return (Date.now() - new Date(l.createdAt).getTime()) < 14*24*3600*1000;  // 登録から2週間
+}
+/* ---------- 一覧に出す登録日 ----------
+   「登録日」は、このアプリがHPでその物件を最初に見つけた日。
+   アプリを作り始めた時の一括登録(いちばん古い日にまとまって入った分)は
+   実際の売り出し時期と関係がないため表示しない。
+   また、古い日付が並ぶと一覧が読みにくくなるので、最近登録された物件だけに出す。 */
+const REG_DATE_DAYS = 90;          // 何日以内の登録まで日付を出すか
+let initialBulkDay = null;         // 一括登録の日(combineのたびに数え直す)
+function initialBulkDate(){
+  if(initialBulkDay !== null) return initialBulkDay;
+  let min = "";
+  for(const l of listings){
+    if(isManual(l.id)) continue;                       // 手動登録した物件は対象外
+    const d = String(l.createdAt||"").slice(0,10);
+    if(!d) continue;
+    if(!min || d < min) min = d;
+  }
+  initialBulkDay = min;
+  return min;
+}
+function regDateLabel(l){
+  const d = String(l.createdAt||"").slice(0,10);
+  if(!d) return "";
+  if(!isManual(l.id) && d === initialBulkDate()) return "";   // 開発初期の一括登録分
+  const t = new Date(l.createdAt).getTime();
+  if(!t || (Date.now() - t) >= REG_DATE_DAYS*24*3600*1000) return "";
+  const dt = new Date(l.createdAt);
+  return `${dt.getMonth()+1}/${dt.getDate()}登録`;
 }
 /* 掲載終了→再掲載から2週間以内 */
 function isRelisted(l){
@@ -1277,7 +1314,8 @@ function renderList(){
       <div class="body">
         <div class="name">${esc(l.name)}</div>
         <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}${moveBadge(l)}</div>
-        <div class="addr">${esc(l.address||"")}</div>
+        <div class="addr"><span class="atext">${esc(l.address||"")}</span>${
+          regDateLabel(l) ? `<span class="cdate">${esc(regDateLabel(l))}</span>` : ""}</div>
         <div class="tags">
           ${ended?`<span class="end">掲載終了</span>`:""}
           ${un?`<span class="units">${un}棟販売</span>`:""}
@@ -1471,7 +1509,7 @@ function openGroupPopup(mk, g){
     + `<div class="tipList">${tipRowsHtml(g)}</div>`
     + `<div class="tipFoot">${n > 1 ? "物件をタップすると詳細へ" : "タップすると詳細へ"}</div>`;
   mk.unbindPopup();
-  mk.bindPopup(html, {className:"infoTip", maxWidth:240, autoPan:true}).openPopup();
+  mk.bindPopup(html, {className:"infoTip", maxWidth:250, minWidth:150, autoPan:true}).openPopup();
   setTimeout(()=>{
     const el = mk.getPopup() && mk.getPopup().getElement();
     if(!el) return;
