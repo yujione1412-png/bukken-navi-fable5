@@ -403,7 +403,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.24</span>
+    <h1>物件ナビ</h1><span class="ver">v0.25</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -664,7 +664,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.24
+   物件ナビ v0.25
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -886,7 +886,7 @@ function combine(){
     }
     return r;
   }).concat(manual);
-  initialBulkDay = null;   // 一括登録の日を次回まとめて数え直す
+  bulkDaysCache = null;   // まとめて登録された日を次回また数え直す
 }
 function isManual(id){ return manual.some(x=>x.id===id); }
 
@@ -982,27 +982,47 @@ function isNew(l){
    実際の売り出し時期と関係がないため表示しない。
    また、古い日付が並ぶと一覧が読みにくくなるので、最近登録された物件だけに出す。 */
 const REG_DATE_DAYS = 90;          // 何日以内の登録まで日付を出すか
-let initialBulkDay = null;         // 一括登録の日(combineのたびに数え直す)
-function initialBulkDate(){
-  if(initialBulkDay !== null) return initialBulkDay;
-  let min = "";
+let bulkDaysCache = null;          // 「まとめて登録された日」の一覧(combineのたびに数え直す)
+/* まとめて登録された日をメーカーごとに割り出す。次の2つが対象:
+     ・そのメーカーの収集を始めた日(いちばん古い登録日)
+     ・そのメーカーの物件の3割以上が一度に登録された日
+       (HPのリニューアルなどで、後からまとめて入り直した分)
+   ここに当たる物件は、実際の売り出し時期と関係がないため一覧に登録日を出さない */
+function bulkDays(){
+  if(bulkDaysCache) return bulkDaysCache;
+  const bySrc = {};
   for(const l of listings){
     if(isManual(l.id)) continue;                       // 手動登録した物件は対象外
+    const s = l.source || "other";
     const d = String(l.createdAt||"").slice(0,10);
     if(!d) continue;
-    if(!min || d < min) min = d;
+    bySrc[s] = bySrc[s] || {};
+    bySrc[s][d] = (bySrc[s][d] || 0) + 1;
   }
-  initialBulkDay = min;
-  return min;
+  const set = new Set();
+  for(const s in bySrc){
+    const days = bySrc[s];
+    let total = 0;
+    for(const d in days) total += days[d];
+    const first = Object.keys(days).sort()[0];
+    if(first) set.add(s + "|" + first);
+    for(const d in days){
+      if(days[d] >= 10 && days[d] >= total * 0.3) set.add(s + "|" + d);
+    }
+  }
+  bulkDaysCache = set;
+  return set;
 }
 function regDateLabel(l){
+  /* 詳細画面の「登録日」と必ず同じ日になるよう、時差の計算をせずに
+     日付の文字列(2026-07-31)からそのまま月日を取り出す */
   const d = String(l.createdAt||"").slice(0,10);
-  if(!d) return "";
-  if(!isManual(l.id) && d === initialBulkDate()) return "";   // 開発初期の一括登録分
-  const t = new Date(l.createdAt).getTime();
-  if(!t || (Date.now() - t) >= REG_DATE_DAYS*24*3600*1000) return "";
-  const dt = new Date(l.createdAt);
-  return `${dt.getMonth()+1}/${dt.getDate()}登録`;
+  const m = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if(!m) return "";
+  if(!isManual(l.id) && bulkDays().has((l.source||"other") + "|" + d)) return "";
+  const t = Date.UTC(+m[1], +m[2]-1, +m[3]);
+  if((Date.now() - t) >= REG_DATE_DAYS*24*3600*1000) return "";
+  return `${+m[2]}/${+m[3]}登録`;
 }
 /* 掲載終了→再掲載から2週間以内 */
 function isRelisted(l){
