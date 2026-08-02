@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-08-02T01:12:53.331Z",
+ "updatedAt": "2026-08-02T22:07:27.641Z",
  "count": 291,
  "listings": [
   {
    "id": "yokatown-100649276",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期1号棟",
-   "price": "3,998万円",
+   "price": "3,898万円",
    "address": "熊本県菊池郡菊陽町大字原水1184-11",
    "detailUrl": "https://bukken.yoka-town.com/room100649276.html",
    "layout": "4LDKLD",
@@ -30,21 +30,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100649276_1_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/100649276_1_652_555_3.jpg?t=01785649051",
      "main": true,
-     "local": "data/img/5912c80b3b7b535fefcf.jpg"
+     "local": "data/img/4f0a3f7816cfb8e86dce.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100649276_2_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/100649276_2_652_555_3.jpg?t=01785649051",
      "main": false,
-     "local": "data/img/4867e293ed60b4ef2051.jpg"
+     "local": "data/img/fce266e667e482531d44.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100649276_3_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/100649276_3_652_555_3.jpg?t=01785649051",
      "main": false,
-     "local": "data/img/3af1b146d2eba3200bf3.jpg"
+     "local": "data/img/c8a396d00d16d72af46e.jpg"
     }
    ],
    "locText": "32.86552300, 130.82158200",
@@ -53,12 +53,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,998万円",
+     "to": "3,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,998万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,898万円"
     }
    ],
    "locPrec": "",
@@ -68,7 +78,7 @@
    "id": "yokatown-100649914",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期2号棟",
-   "price": "3,798万円",
+   "price": "3,698万円",
    "address": "熊本県菊池郡菊陽町大字原水1184-11",
    "detailUrl": "https://bukken.yoka-town.com/room100649914.html",
    "layout": "4LDKLD",
@@ -92,21 +102,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100649914_1_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100649914_1_652_555_3.jpg?t=01785649100",
      "main": true,
-     "local": "data/img/42cf3e904568d154f735.jpg"
+     "local": "data/img/65ecac7dd23dba9c9e47.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100649914_2_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100649914_2_652_555_3.jpg?t=01785649100",
      "main": false,
-     "local": "data/img/30d02361cc845c094501.jpg"
+     "local": "data/img/7eafcb46476c2f988592.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100649914_3_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100649914_3_652_555_3.jpg?t=01785649100",
      "main": false,
-     "local": "data/img/a390798557875f8a49fa.jpg"
+     "local": "data/img/5b3e4443daacdb5aacad.jpg"
     }
    ],
    "locText": "32.86552300, 130.82158200",
@@ -115,12 +125,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,798万円",
+     "to": "3,698万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,798万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,698万円"
     }
    ],
    "locPrec": "",
@@ -130,7 +150,7 @@
    "id": "yokatown-100650269",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期3号棟",
-   "price": "3,498万円",
+   "price": "3,398万円",
    "address": "熊本県菊池郡菊陽町大字原水1184-11",
    "detailUrl": "https://bukken.yoka-town.com/room100650269.html",
    "layout": "4LDKLD",
@@ -154,21 +174,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100650269_1_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650269_1_652_555_3.jpg?t=01785649091",
      "main": true,
-     "local": "data/img/292bf4d16afe158b3c33.jpg"
+     "local": "data/img/a6e5425e84ea0559dc8c.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100650269_2_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650269_2_652_555_3.jpg?t=01785649091",
      "main": false,
-     "local": "data/img/7136fbc7209a63c1d341.jpg"
+     "local": "data/img/8ac1bc309e15c3cf94e5.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100650269_3_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650269_3_652_555_3.jpg?t=01785649091",
      "main": false,
-     "local": "data/img/e69d3d79ac878efcbeed.jpg"
+     "local": "data/img/fbeb5b9ffd042534a48a.jpg"
     }
    ],
    "locText": "32.86552300, 130.82158200",
@@ -177,12 +197,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,498万円",
+     "to": "3,398万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,498万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,398万円"
     }
    ],
    "locPrec": "",
@@ -192,7 +222,7 @@
    "id": "yokatown-100650992",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期4号棟",
-   "price": "3,898万円",
+   "price": "3,798万円",
    "address": "熊本県菊池郡菊陽町大字原水1184-11",
    "detailUrl": "https://bukken.yoka-town.com/room100650992.html",
    "layout": "4LDKLD",
@@ -216,21 +246,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100650992_1_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650992_1_652_555_3.jpg?t=01785649079",
      "main": true,
-     "local": "data/img/45cea438b6db13b21331.jpg"
+     "local": "data/img/f5def93493a66edfd370.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100650992_2_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650992_2_652_555_3.jpg?t=01785649079",
      "main": false,
-     "local": "data/img/b20e9c827211a6aa557e.jpg"
+     "local": "data/img/e50d8e2cadba7b28ff43.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100650992_3_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100650992_3_652_555_3.jpg?t=01785649079",
      "main": false,
-     "local": "data/img/6e5eeb39b4034e54f12b.jpg"
+     "local": "data/img/c4adad886680467bfb98.jpg"
     }
    ],
    "locText": "32.86552300, 130.82158200",
@@ -239,12 +269,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,898万円",
+     "to": "3,798万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,898万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,798万円"
     }
    ],
    "locPrec": "",
@@ -254,7 +294,7 @@
    "id": "yokatown-100651445",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期5号棟",
-   "price": "3,689万円",
+   "price": "3,589万円",
    "address": "熊本県菊池郡菊陽町大字原水1184-11",
    "detailUrl": "https://bukken.yoka-town.com/room100651445.html",
    "layout": "4LDKLD",
@@ -278,21 +318,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100651445_1_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100651445_1_652_555_3.jpg?t=01785649061",
      "main": true,
-     "local": "data/img/051e65d568ceaae13aa8.jpg"
+     "local": "data/img/fa53f84bc3af1d3ed612.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100651445_2_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100651445_2_652_555_3.jpg?t=01785649061",
      "main": false,
-     "local": "data/img/aee7c33520f5224cc310.jpg"
+     "local": "data/img/6bdb1d8f835916aae207.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100651445_3_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/100651445_3_652_555_3.jpg?t=01785649061",
      "main": false,
-     "local": "data/img/e195a588e5c4710734ca.jpg"
+     "local": "data/img/1f378e3238bd2fc3958d.jpg"
     }
    ],
    "locText": "32.86552300, 130.82158200",
@@ -301,12 +341,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,689万円",
+     "to": "3,589万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,689万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,589万円"
     }
    ],
    "locPrec": "",
@@ -363,7 +413,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -388,7 +438,7 @@
    "id": "yokatown-100652076",
    "source": "yokatown",
    "name": "熊本県合志市御代志13期3号棟",
-   "price": "2,898万円",
+   "price": "2,798万円",
    "address": "熊本県合志市御代志472",
    "detailUrl": "https://bukken.yoka-town.com/room100652076.html",
    "layout": "4LDKLD",
@@ -412,21 +462,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/100652076_1_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/100652076_1_652_555_3.jpg?t=01785645622",
      "main": true,
-     "local": "data/img/58b36b625c5855824bcc.jpg"
+     "local": "data/img/f37ea836d1e059d7d0cf.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/100652076_2_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/100652076_2_652_555_3.jpg?t=01785645622",
      "main": false,
-     "local": "data/img/abcbb26f1a153c43d290.jpg"
+     "local": "data/img/eebceb161624981b9e12.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/100652076_3_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/100652076_3_652_555_3.jpg?t=01785645622",
      "main": false,
-     "local": "data/img/780364241ae07fc72d0d.jpg"
+     "local": "data/img/e9955613de857c9db303.jpg"
     }
    ],
    "locText": "32.90801400, 130.75748400",
@@ -435,12 +485,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
      "from": "2,998万円",
      "to": "2,898万円"
+    },
+    {
+     "date": "2026-08-03",
+     "from": "2,898万円",
+     "to": "2,798万円"
     }
    ],
    "priceSnapshots": [
@@ -451,6 +506,10 @@
     {
      "date": "2026-07-21",
      "price": "2,898万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,798万円"
     }
    ],
    "locPrec": "",
@@ -507,7 +566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -579,7 +638,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -651,7 +710,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -713,7 +772,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -802,7 +861,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -891,7 +950,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -980,7 +1039,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1069,7 +1128,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1158,7 +1217,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1237,7 +1296,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -1326,7 +1385,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1399,7 +1458,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1461,7 +1520,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1523,7 +1582,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1537,7 +1596,7 @@
    "id": "yokatown-101545775",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水4期1号棟",
-   "price": "3,698万円",
+   "price": "3,598万円",
    "address": "熊本県菊池郡菊陽町大字原水1999-1",
    "detailUrl": "https://bukken.yoka-town.com/room101545775.html",
    "layout": "4LDKLD",
@@ -1561,21 +1620,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101545775_1_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101545775_1_652_555_3.jpg?t=01785648923",
      "main": true,
-     "local": "data/img/36479ea165bf9af595f6.jpg"
+     "local": "data/img/2050d4602087d4fa9813.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101545775_2_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101545775_2_652_555_3.jpg?t=01785648923",
      "main": false,
-     "local": "data/img/5b4ddd9218817496c93b.jpg"
+     "local": "data/img/02e27403193f76ec97c4.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101545775_3_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101545775_3_652_555_3.jpg?t=01785648923",
      "main": false,
-     "local": "data/img/ca5014b06fcb1a7f6db8.jpg"
+     "local": "data/img/26e3f10d09d684cb00c7.jpg"
     }
    ],
    "locText": "32.87086600, 130.82141500",
@@ -1584,12 +1643,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,698万円",
+     "to": "3,598万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,698万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,598万円"
     }
    ],
    "locPrec": "",
@@ -1599,7 +1668,7 @@
    "id": "yokatown-101546174",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水4期2号棟",
-   "price": "3,098万円",
+   "price": "2,898万円",
    "address": "熊本県菊池郡菊陽町大字原水1999-1",
    "detailUrl": "https://bukken.yoka-town.com/room101546174.html",
    "layout": "4LDKLD",
@@ -1623,21 +1692,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101546174_1_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101546174_1_652_555_3.jpg?t=01785648905",
      "main": true,
-     "local": "data/img/1f8333e3e0affbf6b2c3.jpg"
+     "local": "data/img/84667b2e665fd5a6e373.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101546174_2_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101546174_2_652_555_3.jpg?t=01785648905",
      "main": false,
-     "local": "data/img/f0ec1464531ca2483022.jpg"
+     "local": "data/img/e2b4f60716cc39b7c42e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101546174_3_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101546174_3_652_555_3.jpg?t=01785648905",
      "main": false,
-     "local": "data/img/1469cc23690b0a672182.jpg"
+     "local": "data/img/44c35cb300b16b6b26e7.jpg"
     }
    ],
    "locText": "32.87086600, 130.82141500",
@@ -1646,12 +1715,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,098万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,898万円"
     }
    ],
    "locPrec": "",
@@ -1661,7 +1740,7 @@
    "id": "yokatown-101546816",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水4期3号棟",
-   "price": "3,298万円",
+   "price": "3,198万円",
    "address": "熊本県菊池郡菊陽町大字原水1999-1",
    "detailUrl": "https://bukken.yoka-town.com/room101546816.html",
    "layout": "4LDKLD",
@@ -1685,21 +1764,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101546816_1_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101546816_1_652_555_3.jpg?t=01785648912",
      "main": true,
-     "local": "data/img/03c90292f84d6340dfa6.jpg"
+     "local": "data/img/7b29dd2114e1ca3323ad.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101546816_2_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101546816_2_652_555_3.jpg?t=01785648912",
      "main": false,
-     "local": "data/img/c870863cf6f87598a100.jpg"
+     "local": "data/img/e2a6395c7e93ca90d417.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101546816_3_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/101546816_3_652_555_3.jpg?t=01785648912",
      "main": false,
-     "local": "data/img/441a9051f3e757747c36.jpg"
+     "local": "data/img/335d869dfcb4401e767a.jpg"
     }
    ],
    "locText": "32.87086600, 130.82141500",
@@ -1708,12 +1787,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,298万円",
+     "to": "3,198万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,298万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,198万円"
     }
    ],
    "locPrec": "",
@@ -1723,7 +1812,7 @@
    "id": "yokatown-101547182",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水4期4号棟",
-   "price": "3,598万円",
+   "price": "3,498万円",
    "address": "熊本県菊池郡菊陽町大字原水1999-1",
    "detailUrl": "https://bukken.yoka-town.com/room101547182.html",
    "layout": "4LDKLD",
@@ -1747,21 +1836,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101547182_1_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101547182_1_652_555_3.jpg?t=01785648895",
      "main": true,
-     "local": "data/img/6aa974afe4bef16d9cd5.jpg"
+     "local": "data/img/ea3ef36fe45ec4556561.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101547182_2_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101547182_2_652_555_3.jpg?t=01785648895",
      "main": false,
-     "local": "data/img/851b643d70aa19aa8116.jpg"
+     "local": "data/img/cc0c6ac2521ac45c5907.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101547182_3_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/101547182_3_652_555_3.jpg?t=01785648895",
      "main": false,
-     "local": "data/img/edc477f7170e15774eb5.jpg"
+     "local": "data/img/4c4812ff2ca5c101b3ea.jpg"
     }
    ],
    "locText": "32.87086600, 130.82141500",
@@ -1770,12 +1859,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,598万円",
+     "to": "3,498万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,598万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,498万円"
     }
    ],
    "locPrec": "",
@@ -1837,7 +1936,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1910,7 +2009,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1972,7 +2071,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2034,7 +2133,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2097,7 +2196,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2159,7 +2258,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2221,7 +2320,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-21T04:54:24.334Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2282,7 +2381,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2297,7 +2396,7 @@
    "id": "yokatown-101954811",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町向陽台1期1号棟",
-   "price": "2,998万円",
+   "price": "2,898万円",
    "address": "熊本県菊池郡菊陽町向陽台15-14",
    "detailUrl": "https://bukken.yoka-town.com/room101954811.html",
    "layout": "4LDKLD",
@@ -2321,21 +2420,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101954811_1_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/101954811_1_652_555_3.jpg?t=01785648970",
      "main": true,
-     "local": "data/img/35091a6aad06a7d896b0.jpg"
+     "local": "data/img/5e581cbead363ad854d9.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101954811_2_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/101954811_2_652_555_3.jpg?t=01785648970",
      "main": false,
-     "local": "data/img/815c357f1a965dff154a.jpg"
+     "local": "data/img/0e1c487a456ac92b919e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101954811_3_652_555_3.jpg?t=01785627692",
+     "url": "https://cdn.img-asp.jp/bkn/101954811_3_652_555_3.jpg?t=01785648970",
      "main": false,
-     "local": "data/img/f8edf2fc07863f4350a5.jpg"
+     "local": "data/img/42dd02bfd8a0186b7978.jpg"
     }
    ],
    "locText": "32.85555900, 130.75254400",
@@ -2344,12 +2443,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,998万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,998万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,898万円"
     }
    ],
    "locPrec": "",
@@ -2359,7 +2468,7 @@
    "id": "yokatown-101956078",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町向陽台1期2号棟",
-   "price": "2,798万円",
+   "price": "2,698万円",
    "address": "熊本県菊池郡菊陽町向陽台15-14",
    "detailUrl": "https://bukken.yoka-town.com/room101956078.html",
    "layout": "4LDKLD",
@@ -2383,21 +2492,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101956078_1_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/101956078_1_652_555_3.jpg?t=01785648977",
      "main": true,
-     "local": "data/img/da1f64c85c7e2b6a440e.jpg"
+     "local": "data/img/6a2faee7057177cd70a3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101956078_2_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/101956078_2_652_555_3.jpg?t=01785648977",
      "main": false,
-     "local": "data/img/c731ad8a4d9d32fadf4a.jpg"
+     "local": "data/img/3b1b3733df2e0de82777.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101956078_3_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/101956078_3_652_555_3.jpg?t=01785648977",
      "main": false,
-     "local": "data/img/82daa952cfb0f87aceff.jpg"
+     "local": "data/img/eecb9d08b9157762658e.jpg"
     }
    ],
    "locText": "32.85555900, 130.75254400",
@@ -2406,12 +2515,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,798万円",
+     "to": "2,698万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,798万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,698万円"
     }
    ],
    "locPrec": "",
@@ -2421,7 +2540,7 @@
    "id": "yokatown-101957222",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町武蔵ヶ丘北1丁目1号棟",
-   "price": "4,098万円",
+   "price": "3,898万円",
    "address": "熊本県菊池郡菊陽町武蔵ヶ丘北１丁目23-23",
    "detailUrl": "https://bukken.yoka-town.com/room101957222.html",
    "layout": "4LDKLD",
@@ -2445,21 +2564,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101957222_1_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/101957222_1_652_555_3.jpg?t=01785649357",
      "main": true,
-     "local": "data/img/0cd9ab02d64ef534acf6.jpg"
+     "local": "data/img/4d681cbc799e1d4e76c5.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101957222_2_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/101957222_2_652_555_3.jpg?t=01785649357",
      "main": false,
-     "local": "data/img/a075ca9900d8dc7c9682.jpg"
+     "local": "data/img/7204b5d9ec34809d9b24.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101957222_3_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/101957222_3_652_555_3.jpg?t=01785649357",
      "main": false,
-     "local": "data/img/548f66bf986ee14711f6.jpg"
+     "local": "data/img/ac35fb02e45be452e0c9.jpg"
     }
    ],
    "locText": "32.87438300, 130.84940100",
@@ -2468,12 +2587,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "4,098万円",
+     "to": "3,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "4,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,898万円"
     }
    ],
    "locPrec": "",
@@ -2541,7 +2670,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -2630,7 +2759,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2719,7 +2848,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2802,7 +2931,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2824,72 +2953,10 @@
    "relistedAt": ""
   },
   {
-   "id": "yokatown-102396322",
-   "source": "yokatown",
-   "name": "熊本県菊池郡大津町大字灰塚1期1号棟",
-   "price": "2,898万円",
-   "address": "熊本県菊池郡大津町大字灰塚117-1",
-   "detailUrl": "https://bukken.yoka-town.com/room102396322.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年7月",
-   "buildingArea": "113.32㎡/ 34.27坪",
-   "landArea": "267.37㎡/ 80.87坪",
-   "parking": "有(6台)",
-   "units": "",
-   "elementary": "菊陽町立菊陽西小学校",
-   "elementaryMin": "98",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「肥後大津」駅 徒歩3分",
-     "min": "3",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102396322_1_652_555_3.jpg?t=01785627693",
-     "main": true,
-     "local": "data/img/d5a314835810fcb16645.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102396322_2_652_555_3.jpg?t=01785627693",
-     "main": false,
-     "local": "data/img/119bcc1e32b22ce4059a.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102396322_3_652_555_3.jpg?t=01785627693",
-     "main": false,
-     "local": "data/img/67b64b6165245fc6c78e.jpg"
-    }
-   ],
-   "locText": "32.87795300, 130.86853300",
-   "hpText": "こちらは、熊本県菊池郡大津町大字灰塚1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字灰塚1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,898万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
    "id": "yokatown-102397190",
    "source": "yokatown",
    "name": "熊本県菊地郡大津町大字灰塚1期2号棟",
-   "price": "3,098万円",
+   "price": "2,998万円",
    "address": "熊本県菊池郡大津町大字灰塚117-1",
    "detailUrl": "https://bukken.yoka-town.com/room102397190.html",
    "layout": "4LDKLD",
@@ -2913,21 +2980,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102397190_1_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397190_1_652_555_3.jpg?t=01785648364",
      "main": true,
-     "local": "data/img/dd28f66c05beaacb31e7.jpg"
+     "local": "data/img/ae10809804cf693d7b81.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102397190_2_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397190_2_652_555_3.jpg?t=01785648364",
      "main": false,
-     "local": "data/img/5be098ac24fdcc304d0d.jpg"
+     "local": "data/img/a0579f754ac8d7af16af.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102397190_3_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397190_3_652_555_3.jpg?t=01785648364",
      "main": false,
-     "local": "data/img/398feb87765dd4a95ca5.jpg"
+     "local": "data/img/a8743a07fc5214f945c5.jpg"
     }
    ],
    "locText": "32.86371800, 130.86146400",
@@ -2936,12 +3003,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,098万円",
+     "to": "2,998万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,998万円"
     }
    ],
    "locPrec": "",
@@ -2951,7 +3028,7 @@
    "id": "yokatown-102397967",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字灰塚1期3号棟",
-   "price": "3,198万円",
+   "price": "3,098万円",
    "address": "熊本県菊池郡大津町大字灰塚117-1",
    "detailUrl": "https://bukken.yoka-town.com/room102397967.html",
    "layout": "4LDKLD",
@@ -2975,21 +3052,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102397967_1_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397967_1_652_555_3.jpg?t=01785648356",
      "main": true,
-     "local": "data/img/d1ec68af1e1e065dd8b8.jpg"
+     "local": "data/img/cc8893ecb02d3cad6ec5.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102397967_2_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397967_2_652_555_3.jpg?t=01785648356",
      "main": false,
-     "local": "data/img/81f1baf061cff8db487f.jpg"
+     "local": "data/img/2aa043b5d573740efecb.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102397967_3_652_555_3.jpg?t=01785627694",
+     "url": "https://cdn.img-asp.jp/bkn/102397967_3_652_555_3.jpg?t=01785648356",
      "main": false,
-     "local": "data/img/cb44cb471249378c64ce.jpg"
+     "local": "data/img/b52754a4b2ca3a6a55d3.jpg"
     }
    ],
    "locText": "32.86371800, 130.86146400",
@@ -2998,12 +3075,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,198万円",
+     "to": "3,098万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,198万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,098万円"
     }
    ],
    "locPrec": "",
@@ -3013,7 +3100,7 @@
    "id": "yokatown-102398960",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字灰塚1期4号棟",
-   "price": "2,998万円",
+   "price": "2,898万円",
    "address": "熊本県菊池郡大津町大字灰塚117-1",
    "detailUrl": "https://bukken.yoka-town.com/room102398960.html",
    "layout": "4LDKLD",
@@ -3037,21 +3124,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102398960_1_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102398960_1_652_555_3.jpg?t=01785648347",
      "main": true,
-     "local": "data/img/bdbcc3a48c7df78744d5.jpg"
+     "local": "data/img/bcdfe51b475aa1ac8f66.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102398960_2_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102398960_2_652_555_3.jpg?t=01785648347",
      "main": false,
-     "local": "data/img/8438a09e1f67cd6059f8.jpg"
+     "local": "data/img/fe3098f1fe5d2c300e2e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102398960_3_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102398960_3_652_555_3.jpg?t=01785648347",
      "main": false,
-     "local": "data/img/a8f3f80d94aa2b29a628.jpg"
+     "local": "data/img/cbb148fd89ad648b407d.jpg"
     }
    ],
    "locText": "32.86371800, 130.86146400",
@@ -3060,74 +3147,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,998万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,998万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-102399409",
-   "source": "yokatown",
-   "name": "熊本県菊池郡大津町大字灰塚1期5号棟",
-   "price": "2,698万円",
-   "address": "熊本県菊池郡大津町大字灰塚117-1",
-   "detailUrl": "https://bukken.yoka-town.com/room102399409.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年7月",
-   "buildingArea": "115.10㎡/ 34.81坪",
-   "landArea": "236.31㎡/ 71.48坪",
-   "parking": "",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「肥後大津」駅 徒歩24分",
-     "min": "24",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102399409_1_652_555_3.jpg?t=01785627694",
-     "main": true,
-     "local": "data/img/2b96b6487fb943655e79.jpg"
     },
     {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102399409_2_652_555_3.jpg?t=01785627694",
-     "main": false,
-     "local": "data/img/2ba7598874c0a9d1dce2.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102399409_3_652_555_3.jpg?t=01785627694",
-     "main": false,
-     "local": "data/img/cd45e0bc0695d23d5a39.jpg"
-    }
-   ],
-   "locText": "32.86371800, 130.86146400",
-   "hpText": "こちらは、熊本県菊池郡大津町大字灰塚1期5号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字灰塚1期5号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,698万円"
+     "date": "2026-08-03",
+     "price": "2,898万円"
     }
    ],
    "locPrec": "",
@@ -3137,7 +3172,7 @@
    "id": "yokatown-102824894",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字引水8期7号棟",
-   "price": "3,498万円",
+   "price": "3,398万円",
    "address": "熊本県菊池郡大津町大字引水852-1",
    "detailUrl": "https://bukken.yoka-town.com/room102824894.html",
    "layout": "4LDKLD",
@@ -3161,21 +3196,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102824894_1_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/102824894_1_652_555_3.jpg?t=01785648080",
      "main": true,
-     "local": "data/img/c43fe6503245dfb89d11.jpg"
+     "local": "data/img/d991d5e2bbcdde8f58be.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102824894_2_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/102824894_2_652_555_3.jpg?t=01785648080",
      "main": false,
-     "local": "data/img/69cc5dacb4c96217c0f8.jpg"
+     "local": "data/img/9dd3786f7f8c30c9c935.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102824894_3_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/102824894_3_652_555_3.jpg?t=01785648080",
      "main": false,
-     "local": "data/img/b74a1718b74065ce3ce8.jpg"
+     "local": "data/img/ab491684e0e47671324c.jpg"
     }
    ],
    "locText": "32.87813600, 130.89011400",
@@ -3184,12 +3219,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,498万円",
+     "to": "3,398万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,498万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,398万円"
     }
    ],
    "locPrec": "",
@@ -3199,7 +3244,7 @@
    "id": "yokatown-102825221",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字引水8期8号棟",
-   "price": "3,598万円",
+   "price": "3,498万円",
    "address": "熊本県菊池郡大津町大字引水852-1",
    "detailUrl": "https://bukken.yoka-town.com/room102825221.html",
    "layout": "4LDKLD",
@@ -3223,21 +3268,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102825221_1_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825221_1_652_555_3.jpg?t=01785648101",
      "main": true,
-     "local": "data/img/0d6f6a6c004f42968e71.jpg"
+     "local": "data/img/a922b286c384bc1533c3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102825221_2_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825221_2_652_555_3.jpg?t=01785648101",
      "main": false,
-     "local": "data/img/304f0eb27122208ead7f.jpg"
+     "local": "data/img/8c608e8db38ce8a4ad7e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102825221_3_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825221_3_652_555_3.jpg?t=01785648101",
      "main": false,
-     "local": "data/img/d3636fe4b96002743250.jpg"
+     "local": "data/img/1f31c124e5c77f993cea.jpg"
     }
    ],
    "locText": "32.87813600, 130.89011400",
@@ -3246,12 +3291,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,598万円",
+     "to": "3,498万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,598万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,498万円"
     }
    ],
    "locPrec": "",
@@ -3261,7 +3316,7 @@
    "id": "yokatown-102825416",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字引水8期9号棟",
-   "price": "3,298万円",
+   "price": "3,198万円",
    "address": "熊本県菊池郡大津町大字引水852-1",
    "detailUrl": "https://bukken.yoka-town.com/room102825416.html",
    "layout": "4LDKLD",
@@ -3285,21 +3340,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102825416_1_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825416_1_652_555_3.jpg?t=01785648093",
      "main": true,
-     "local": "data/img/b28ecb6bdd081b5b0dae.jpg"
+     "local": "data/img/83326cf136d21f366a0d.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102825416_2_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825416_2_652_555_3.jpg?t=01785648093",
      "main": false,
-     "local": "data/img/47a5da4d5ec612019688.jpg"
+     "local": "data/img/6d75444c4cdbad88f1fa.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102825416_3_652_555_3.jpg?t=01785627693",
+     "url": "https://cdn.img-asp.jp/bkn/102825416_3_652_555_3.jpg?t=01785648093",
      "main": false,
-     "local": "data/img/2b731a178811eda4fbab.jpg"
+     "local": "data/img/7f8743f478f54ce96682.jpg"
     }
    ],
    "locText": "32.87813600, 130.89011400",
@@ -3308,12 +3363,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,298万円",
+     "to": "3,198万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,298万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,198万円"
     }
    ],
    "locPrec": "",
@@ -3323,7 +3388,7 @@
    "id": "yokatown-102835233",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字大津6期4号棟",
-   "price": "3,098万円",
+   "price": "2,998万円",
    "address": "熊本県菊池郡大津町大字大津2201-22",
    "detailUrl": "https://bukken.yoka-town.com/room102835233.html",
    "layout": "4LDKLD",
@@ -3347,21 +3412,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102835233_1_652_555_3.jpg?t=01785627696",
+     "url": "https://cdn.img-asp.jp/bkn/102835233_1_652_555_3.jpg?t=01785648043",
      "main": true,
-     "local": "data/img/6a8fe2359be0c9b07320.jpg"
+     "local": "data/img/93014d26f99328f5cadb.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102835233_2_652_555_3.jpg?t=01785627696",
+     "url": "https://cdn.img-asp.jp/bkn/102835233_2_652_555_3.jpg?t=01785648043",
      "main": false,
-     "local": "data/img/c97c5dd45f3761cf7363.jpg"
+     "local": "data/img/f135f05dceac22bde6e2.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102835233_3_652_555_3.jpg?t=01785627696",
+     "url": "https://cdn.img-asp.jp/bkn/102835233_3_652_555_3.jpg?t=01785648043",
      "main": false,
-     "local": "data/img/fb5a7e20f4c286407959.jpg"
+     "local": "data/img/9cc86836d5d1aaa48d26.jpg"
     }
    ],
    "locText": "32.88448500, 130.87382700",
@@ -3370,12 +3435,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,098万円",
+     "to": "2,998万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,998万円"
     }
    ],
    "locPrec": "",
@@ -3385,7 +3460,7 @@
    "id": "yokatown-102835646",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字大津6期7号棟",
-   "price": "2,598万円",
+   "price": "2,498万円",
    "address": "熊本県菊池郡大津町大字大津2201-22",
    "detailUrl": "https://bukken.yoka-town.com/room102835646.html",
    "layout": "4LDK",
@@ -3409,21 +3484,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/102835646_1_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102835646_1_652_555_3.jpg?t=01785648051",
      "main": true,
-     "local": "data/img/880c4cec156abb670f40.jpg"
+     "local": "data/img/fb68aa15b9064abda379.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/102835646_2_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102835646_2_652_555_3.jpg?t=01785648051",
      "main": false,
-     "local": "data/img/536b9cf036f65d99bd2e.jpg"
+     "local": "data/img/6be787780eafa59b4d0d.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/102835646_3_652_555_3.jpg?t=01785627695",
+     "url": "https://cdn.img-asp.jp/bkn/102835646_3_652_555_3.jpg?t=01785648051",
      "main": false,
-     "local": "data/img/6957a9881b19f766ef73.jpg"
+     "local": "data/img/359e2e44e4aeea6f8c59.jpg"
     }
    ],
    "locText": "32.88448500, 130.87382700",
@@ -3432,12 +3507,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,598万円",
+     "to": "2,498万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,598万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,498万円"
     }
    ],
    "locPrec": "",
@@ -3447,7 +3532,7 @@
    "id": "yokatown-103210445",
    "source": "yokatown",
    "name": "熊本県熊本市北区梶尾町9期1号棟",
-   "price": "2,498万円",
+   "price": "2,398万円",
    "address": "熊本県熊本市北区梶尾町1367-2",
    "detailUrl": "https://bukken.yoka-town.com/room103210445.html",
    "layout": "4LDKLD",
@@ -3471,21 +3556,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103210445_1_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/103210445_1_652_555_3.jpg?t=01785649465",
      "main": true,
-     "local": "data/img/4130d22840ee46fc84f8.jpg"
+     "local": "data/img/93ccb05fde1de93fa207.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103210445_2_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/103210445_2_652_555_3.jpg?t=01785649465",
      "main": false,
-     "local": "data/img/abaa5485edf1172b1080.jpg"
+     "local": "data/img/5cec012304da31f45c56.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103210445_3_652_555_3.jpg?t=01785627691",
+     "url": "https://cdn.img-asp.jp/bkn/103210445_3_652_555_3.jpg?t=01785649465",
      "main": false,
-     "local": "data/img/d4ea101ccd598db35ede.jpg"
+     "local": "data/img/6cd35d4143f5a3f1643b.jpg"
     }
    ],
    "locText": "32.87568300, 130.71685500",
@@ -3494,12 +3579,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,498万円",
+     "to": "2,398万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,498万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,398万円"
     }
    ],
    "locPrec": "",
@@ -3508,8 +3603,8 @@
   {
    "id": "yokatown-103356369",
    "source": "yokatown",
-   "name": "熊本県菊池郡大津町大字陣内2期1号棟",
-   "price": "2,998万円",
+   "name": "熊本県菊池郡大津町大字陣内2期2号棟",
+   "price": "2,898万円",
    "address": "熊本県菊池郡大津町大字陣内1590-11",
    "detailUrl": "https://bukken.yoka-town.com/room103356369.html",
    "layout": "4LDKLD",
@@ -3533,35 +3628,45 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103356369_1_652_555_3.jpg?t=01785627715",
+     "url": "https://cdn.img-asp.jp/bkn/103356369_1_652_555_3.jpg?t=01785648283",
      "main": true,
-     "local": "data/img/a17f56fd96e56b4c093c.jpg"
+     "local": "data/img/627f35a4495983df6f46.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103356369_2_652_555_3.jpg?t=01785627715",
+     "url": "https://cdn.img-asp.jp/bkn/103356369_2_652_555_3.jpg?t=01785648283",
      "main": false,
-     "local": "data/img/c18f9cab0e4000708f43.jpg"
+     "local": "data/img/fb0808c9466d8c85b534.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103356369_3_652_555_3.jpg?t=01785627715",
+     "url": "https://cdn.img-asp.jp/bkn/103356369_3_652_555_3.jpg?t=01785648283",
      "main": false,
-     "local": "data/img/b31c8f10eaafd38fc4ea.jpg"
+     "local": "data/img/7f32edee774dd910bbff.jpg"
     }
    ],
    "locText": "32.85952400, 130.87149400",
-   "hpText": "こちらは、熊本県菊池郡大津町大字陣内2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字陣内2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "hpText": "こちらは、熊本県菊池郡大津町大字陣内2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字陣内2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,998万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,998万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,898万円"
     }
    ],
    "locPrec": "",
@@ -3570,8 +3675,8 @@
   {
    "id": "yokatown-103356742",
    "source": "yokatown",
-   "name": "熊本県菊池郡大津町大字陣内2期2号棟",
-   "price": "2,798万円",
+   "name": "熊本県菊池郡大津町大字陣内2期1号棟",
+   "price": "2,698万円",
    "address": "熊本県菊池郡大津町大字陣内1590-11",
    "detailUrl": "https://bukken.yoka-town.com/room103356742.html",
    "layout": "4LDKLD",
@@ -3595,35 +3700,45 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103356742_1_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/103356742_1_652_555_3.jpg?t=01785648268",
      "main": true,
-     "local": "data/img/d1e8aa0145344449e4cb.jpg"
+     "local": "data/img/5eef25d4eebff45cb34b.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103356742_2_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/103356742_2_652_555_3.jpg?t=01785648268",
      "main": false,
-     "local": "data/img/3b9b1602d852dd572f0d.jpg"
+     "local": "data/img/ec9f1e5ece49bcc6c92f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103356742_3_652_555_3.jpg?t=01785627718",
+     "url": "https://cdn.img-asp.jp/bkn/103356742_3_652_555_3.jpg?t=01785648268",
      "main": false,
-     "local": "data/img/bb1e3ad54a0f3dbf4e35.jpg"
+     "local": "data/img/789a3fae650c3b6f2d80.jpg"
     }
    ],
    "locText": "32.85952400, 130.87149400",
-   "hpText": "こちらは、熊本県菊池郡大津町大字陣内2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字陣内2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "hpText": "こちらは、熊本県菊池郡大津町大字陣内2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字陣内2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,798万円",
+     "to": "2,698万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,798万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,698万円"
     }
    ],
    "locPrec": "",
@@ -3697,7 +3812,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3770,7 +3885,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3843,7 +3958,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3922,7 +4037,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4011,7 +4126,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4090,7 +4205,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4169,7 +4284,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4248,7 +4363,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4327,7 +4442,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4406,7 +4521,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4495,7 +4610,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4584,7 +4699,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4657,7 +4772,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4720,7 +4835,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4781,7 +4896,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4844,7 +4959,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -4917,7 +5032,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4978,7 +5093,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5057,7 +5172,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5136,7 +5251,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5225,7 +5340,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -5308,7 +5423,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5387,7 +5502,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5466,7 +5581,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5539,7 +5654,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5601,7 +5716,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5663,7 +5778,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5725,7 +5840,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5791,7 +5906,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5858,7 +5973,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5937,7 +6052,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6026,7 +6141,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6050,15 +6165,15 @@
   {
    "id": "yokatown-105124665",
    "source": "yokatown",
-   "name": "熊本県菊池郡菊陽町大字津久礼14期1号棟",
-   "price": "3,898万円",
+   "name": "熊本県菊池郡菊陽町大字津久礼14期2号棟",
+   "price": "3,798万円",
    "address": "熊本県菊池郡菊陽町大字津久礼2268-128",
    "detailUrl": "https://bukken.yoka-town.com/room105124665.html",
    "layout": "4LDKLD",
    "stories": "2階建て",
    "builtAt": "2026年12月",
-   "buildingArea": "104.46㎡/ 31.59坪",
-   "landArea": "140.54㎡/ 42.51坪",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "140.57㎡/ 42.52坪",
    "parking": "3台",
    "units": "",
    "elementary": "",
@@ -6075,35 +6190,45 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/105124665_1_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105124665_1_652_555_3.jpg?t=01785648663",
      "main": true,
-     "local": "data/img/0269e0ac188d5f63b2fb.jpg"
+     "local": "data/img/c9c4f05d78943f63c7bc.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/105124665_2_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105124665_2_652_555_3.jpg?t=01785648663",
      "main": false,
-     "local": "data/img/12966ad163ef784b5467.jpg"
+     "local": "data/img/e5f8ba062604d28fe291.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/105124665_3_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105124665_3_652_555_3.jpg?t=01785648663",
      "main": false,
-     "local": "data/img/d28771346471bac329f9.jpg"
+     "local": "data/img/39ef8fe1d09a1b788182.jpg"
     }
    ],
    "locText": "32.85815400, 130.79635100",
-   "hpText": "こちらは、熊本県菊池郡菊陽町大字津久礼14期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡菊陽町大字津久礼14期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "hpText": "こちらは、熊本県菊池郡菊陽町大字津久礼14期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡菊陽町大字津久礼14期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,898万円",
+     "to": "3,798万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,898万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "3,798万円"
     }
    ],
    "locPrec": "",
@@ -6112,7 +6237,7 @@
   {
    "id": "yokatown-105125103",
    "source": "yokatown",
-   "name": "熊本県菊池郡菊陽町大字津久礼14期1号棟",
+   "name": "熊本県菊池郡菊陽町大字津久礼14期2号棟",
    "price": "3,798万円",
    "address": "熊本県菊池郡菊陽町大字津久礼2268-128",
    "detailUrl": "https://bukken.yoka-town.com/room105125103.html",
@@ -6137,30 +6262,30 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/105125103_1_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105125103_1_652_555_3.jpg?t=01785648656",
      "main": true,
-     "local": "data/img/14877c2f9fe38d41ba2a.jpg"
+     "local": "data/img/32d796b754550abb438e.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/105125103_2_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105125103_2_652_555_3.jpg?t=01785648656",
      "main": false,
-     "local": "data/img/5a85cd371c965afc7804.jpg"
+     "local": "data/img/747e4a33bffcf022888c.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/105125103_3_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/105125103_3_652_555_3.jpg?t=01785648656",
      "main": false,
-     "local": "data/img/7b6a622a6cfc60924588.jpg"
+     "local": "data/img/14a040395d90e4b48a49.jpg"
     }
    ],
    "locText": "32.85815400, 130.79635100",
-   "hpText": "こちらは、熊本県菊池郡菊陽町大字津久礼14期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡菊陽町大字津久礼14期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "hpText": "こちらは、熊本県菊池郡菊陽町大字津久礼14期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡菊陽町大字津久礼14期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6222,7 +6347,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6289,7 +6414,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6356,7 +6481,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6445,7 +6570,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6512,7 +6637,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6589,7 +6714,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6662,7 +6787,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6729,7 +6854,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6796,7 +6921,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6863,7 +6988,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6930,7 +7055,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6997,7 +7122,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7076,7 +7201,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7155,7 +7280,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7234,7 +7359,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7313,7 +7438,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7392,7 +7517,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7471,7 +7596,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7550,7 +7675,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7629,7 +7754,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7708,7 +7833,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7770,7 +7895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7832,7 +7957,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7894,7 +8019,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7955,7 +8080,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7970,7 +8095,7 @@
    "id": "yokatown-96811091",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町沖野3丁目2期1号棟",
-   "price": "3,098万円",
+   "price": "2,998万円",
    "address": "熊本県菊池郡菊陽町沖野３丁目10-12",
    "detailUrl": "https://bukken.yoka-town.com/room96811091.html",
    "layout": "4LDK",
@@ -7994,21 +8119,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/96811091_1_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/96811091_1_652_555_3.jpg?t=01785648765",
      "main": true,
-     "local": "data/img/814ca28fea4dab2e2ea4.jpg"
+     "local": "data/img/23c00f237d90ff45fe77.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/96811091_2_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/96811091_2_652_555_3.jpg?t=01785648765",
      "main": false,
-     "local": "data/img/c610d285d2eb15a23181.jpg"
+     "local": "data/img/3e0e4102727d45990d9f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/96811091_3_652_555_3.jpg?t=01785627719",
+     "url": "https://cdn.img-asp.jp/bkn/96811091_3_652_555_3.jpg?t=01785648765",
      "main": false,
-     "local": "data/img/6cf24255e7a0773dc04c.jpg"
+     "local": "data/img/a8c24c26e9bc0400605c.jpg"
     }
    ],
    "locText": "32.86972400, 130.78833200",
@@ -8017,12 +8142,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,098万円",
+     "to": "2,998万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,998万円"
     }
    ],
    "locPrec": "",
@@ -8032,7 +8167,7 @@
    "id": "yokatown-96819342",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字森1期11号棟",
-   "price": "2,998万円",
+   "price": "2,798万円",
    "address": "熊本県菊池郡大津町大字森703-14",
    "detailUrl": "https://bukken.yoka-town.com/room96819342.html",
    "layout": "4LDKLD",
@@ -8056,21 +8191,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/96819342_1_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/96819342_1_652_555_3.jpg?t=01785647769",
      "main": true,
-     "local": "data/img/0e50d8aec42609eef1b9.jpg"
+     "local": "data/img/a5721a4cf9f445830c21.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/96819342_2_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/96819342_2_652_555_3.jpg?t=01785647769",
      "main": false,
-     "local": "data/img/b2a7e33401928ea57990.jpg"
+     "local": "data/img/3736714012b67bfbd5ae.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/96819342_3_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/96819342_3_652_555_3.jpg?t=01785647769",
      "main": false,
-     "local": "data/img/50735c0745a8309119cc.jpg"
+     "local": "data/img/94e34eda84e07312c6f4.jpg"
     }
    ],
    "locText": "32.87613400, 130.89114500",
@@ -8079,74 +8214,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,998万円",
+     "to": "2,798万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,998万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-97332918",
-   "source": "yokatown",
-   "name": "熊本県菊池市隈府3期2号棟",
-   "price": "2,598万円",
-   "address": "熊本県菊池市隈府877-3",
-   "detailUrl": "https://bukken.yoka-town.com/room97332918.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年1月",
-   "buildingArea": "114.69㎡/ 34.69坪",
-   "landArea": "166.13㎡/ 50.25坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「原水」駅 徒歩197分",
-     "min": "197",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/97332918_1_652_555_3.jpg?t=01785627716",
-     "main": true,
-     "local": "data/img/28793cf4c32155d4b642.jpg"
     },
     {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/97332918_2_652_555_3.jpg?t=01785627716",
-     "main": false,
-     "local": "data/img/c10372b3a04033227439.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/97332918_3_652_555_3.jpg?t=01785627716",
-     "main": false,
-     "local": "data/img/3184982e4f1b4d119329.jpg"
-    }
-   ],
-   "locText": "32.98033700, 130.81359300",
-   "hpText": "こちらは、熊本県菊池市隈府3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池市隈府3期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,598万円"
+     "date": "2026-08-03",
+     "price": "2,798万円"
     }
    ],
    "locPrec": "",
@@ -8203,7 +8286,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8218,7 +8301,7 @@
    "id": "yokatown-97686455",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字町10期2号棟",
-   "price": "2,598万円",
+   "price": "2,398万円",
    "address": "熊本県菊池郡大津町大字町2",
    "detailUrl": "https://bukken.yoka-town.com/room97686455.html",
    "layout": "4LDKLD",
@@ -8242,21 +8325,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/97686455_1_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/97686455_1_652_555_3.jpg?t=01785647790",
      "main": true,
-     "local": "data/img/233d9b85e3f00eb4bf7a.jpg"
+     "local": "data/img/28a5c08bbd3052f9ba15.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/97686455_2_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/97686455_2_652_555_3.jpg?t=01785647790",
      "main": false,
-     "local": "data/img/bb1e755e857e8a845b30.jpg"
+     "local": "data/img/7c9f8c9a0bb07b0bdb8e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/97686455_3_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/97686455_3_652_555_3.jpg?t=01785647790",
      "main": false,
-     "local": "data/img/ff52a0da7a166795b266.jpg"
+     "local": "data/img/89ffac191af3515981d2.jpg"
     }
    ],
    "locText": "32.85656300, 130.86312600",
@@ -8265,12 +8348,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,598万円",
+     "to": "2,398万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,598万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,398万円"
     }
    ],
    "locPrec": "",
@@ -8328,7 +8421,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8389,7 +8482,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8451,136 +8544,12 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,498万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-98469041",
-   "source": "yokatown",
-   "name": "熊本県菊池市隈府4期16号棟",
-   "price": "2,398万円",
-   "address": "熊本県菊池市隈府730-1",
-   "detailUrl": "https://bukken.yoka-town.com/room98469041.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年1月",
-   "buildingArea": "115.48㎡/ 34.93坪",
-   "landArea": "204.43㎡/ 61.83坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本電気鉄道「御代志」駅 徒歩158分",
-     "min": "158",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98469041_1_652_555_3.jpg?t=01785627696",
-     "main": true,
-     "local": "data/img/53c161df35245308959c.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98469041_2_652_555_3.jpg?t=01785627696",
-     "main": false,
-     "local": "data/img/6218337b52aa01559722.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98469041_3_652_555_3.jpg?t=01785627696",
-     "main": false,
-     "local": "data/img/8f5843540f6a10e375ed.jpg"
-    }
-   ],
-   "locText": "32.97600700, 130.80287200",
-   "hpText": "こちらは、熊本県菊池市隈府4期16号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池市隈府4期16号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,398万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-98586995",
-   "source": "yokatown",
-   "name": "熊本県菊地君大津町大字大林１期１号棟",
-   "price": "2,598万円",
-   "address": "熊本県菊池郡大津町大字吹田1528-8",
-   "detailUrl": "https://bukken.yoka-town.com/room98586995.html",
-   "layout": "4LDKLD",
-   "stories": "",
-   "builtAt": "2026年2月",
-   "buildingArea": "99.99㎡/ 30.24坪",
-   "landArea": "234.06㎡/ 70.80坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「瀬田」駅 徒歩25分",
-     "min": "25",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98586995_1_652_555_3.jpg?t=01785627697",
-     "main": true,
-     "local": "data/img/85611104e6078f2942a2.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98586995_2_652_555_3.jpg?t=01785627697",
-     "main": false,
-     "local": "data/img/afc22f4b963686e1ba13.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98586995_3_652_555_3.jpg?t=01785627697",
-     "main": false,
-     "local": "data/img/b80825d495da1964f293.jpg"
-    }
-   ],
-   "locText": "32.87942300, 130.90370500",
-   "hpText": "こちらは、熊本県菊地君大津町大字大林１期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊地君大津町大字大林１期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,598万円"
     }
    ],
    "locPrec": "",
@@ -8637,7 +8606,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -8662,7 +8631,7 @@
    "id": "yokatown-98692364",
    "source": "yokatown",
    "name": "熊本県菊池市泗水町吉富4期2号棟",
-   "price": "2,298万円",
+   "price": "2,198万円",
    "address": "熊本県菊池市吉富2481-17",
    "detailUrl": "https://bukken.yoka-town.com/room98692364.html",
    "layout": "4LDKLD",
@@ -8686,21 +8655,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98692364_1_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/98692364_1_652_555_3.jpg?t=01785647668",
      "main": true,
-     "local": "data/img/e595cad16be86f0db333.jpg"
+     "local": "data/img/0cc65c15a6637b60f244.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98692364_2_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/98692364_2_652_555_3.jpg?t=01785647668",
      "main": false,
-     "local": "data/img/1674a48037dfc1b6e08f.jpg"
+     "local": "data/img/7b503e25acbaa072968d.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98692364_3_652_555_3.jpg?t=01785627697",
+     "url": "https://cdn.img-asp.jp/bkn/98692364_3_652_555_3.jpg?t=01785647668",
      "main": false,
-     "local": "data/img/6052e9190afee5ebb30b.jpg"
+     "local": "data/img/df6b0920242909d287cd.jpg"
     }
    ],
    "locText": "32.93004500, 130.77584000",
@@ -8709,136 +8678,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "2,298万円",
+     "to": "2,198万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "2,298万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-98723626",
-   "source": "yokatown",
-   "name": "熊本県合志市須屋10期1号棟",
-   "price": "2,348万円",
-   "address": "熊本県合志市須屋1585-2",
-   "detailUrl": "https://bukken.yoka-town.com/room98723626.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年3月",
-   "buildingArea": "105.16㎡/ 31.81坪",
-   "landArea": "132.33㎡/ 40.02坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "合志市立西合志南小学校",
-   "elementaryMin": "17",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本電気鉄道「須屋」駅 徒歩8分",
-     "min": "8",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98723626_1_652_555_3.jpg?t=01785627696",
-     "main": true,
-     "local": "data/img/babc219e18da364d404d.jpg"
     },
     {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98723626_2_652_555_3.jpg?t=01785627696",
-     "main": false,
-     "local": "data/img/5942a5f4e116944a7769.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98723626_3_652_555_3.jpg?t=01785627696",
-     "main": false,
-     "local": "data/img/ff255c4c66a18de91991.jpg"
-    }
-   ],
-   "locText": "32.85881600, 130.74124200",
-   "hpText": "こちらは、熊本県合志市須屋10期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県合志市須屋10期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,348万円"
-    }
-   ],
-   "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-98724912",
-   "source": "yokatown",
-   "name": "熊本県合志市須屋10期2号棟",
-   "price": "2,498万円",
-   "address": "熊本県合志市須屋1585-2",
-   "detailUrl": "https://bukken.yoka-town.com/room98724912.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年3月",
-   "buildingArea": "105.16㎡/ 31.81坪",
-   "landArea": "126.26㎡/ 38.19坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "合志市立西合志南小学校",
-   "elementaryMin": "17",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本電気鉄道「須屋」駅 徒歩8分",
-     "min": "8",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98724912_1_652_555_3.jpg?t=01785627716",
-     "main": true,
-     "local": "data/img/4d283b7147eab03e850a.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98724912_2_652_555_3.jpg?t=01785627716",
-     "main": false,
-     "local": "data/img/b88182b613eb176cda6e.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98724912_3_652_555_3.jpg?t=01785627716",
-     "main": false,
-     "local": "data/img/f2411d535dc5600bb8f9.jpg"
-    }
-   ],
-   "locText": "32.85881600, 130.74124200",
-   "hpText": "こちらは、熊本県合志市須屋10期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県合志市須屋10期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,498万円"
+     "date": "2026-08-03",
+     "price": "2,198万円"
     }
    ],
    "locPrec": "",
@@ -8848,7 +8703,7 @@
    "id": "yokatown-99086826",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字大津9期2号棟",
-   "price": "3,098万円",
+   "price": "2,898万円",
    "address": "熊本県菊池郡大津町大字大津字上鶴1549番4",
    "detailUrl": "https://bukken.yoka-town.com/room99086826.html",
    "layout": "4LDKLD",
@@ -8872,21 +8727,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/99086826_1_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/99086826_1_652_555_3.jpg?t=01785648015",
      "main": true,
-     "local": "data/img/ddfc780bb56158310edb.jpg"
+     "local": "data/img/006714fefbb1d992e760.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/99086826_2_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/99086826_2_652_555_3.jpg?t=01785648015",
      "main": false,
-     "local": "data/img/0ce46e9cc95ebde31ce9.jpg"
+     "local": "data/img/cbd2a2d942aae32a6b8e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/99086826_3_652_555_3.jpg?t=01785627717",
+     "url": "https://cdn.img-asp.jp/bkn/99086826_3_652_555_3.jpg?t=01785648015",
      "main": false,
-     "local": "data/img/baa655ad94212d3c699c.jpg"
+     "local": "data/img/18bdb653adadf509ed65.jpg"
     }
    ],
    "locText": "32.88065200, 130.87925700",
@@ -8895,12 +8750,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
-   "priceChanges": [],
+   "lastSeen": "2026-08-03",
+   "priceChanges": [
+    {
+     "date": "2026-08-03",
+     "from": "3,098万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-03",
+     "price": "2,898万円"
     }
    ],
    "locPrec": "",
@@ -8962,7 +8827,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9029,7 +8894,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9096,7 +8961,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9173,7 +9038,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9256,7 +9121,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9333,7 +9198,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9410,7 +9275,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9487,7 +9352,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9564,7 +9429,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9641,7 +9506,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9718,7 +9583,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9795,7 +9660,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9872,7 +9737,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9949,7 +9814,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10026,7 +9891,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10042,6 +9907,440 @@
     {
      "date": "2026-07-22",
      "price": "2,998万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-102396322",
+   "source": "yokatown",
+   "name": "熊本県菊池郡大津町大字灰塚1期1号棟",
+   "price": "2,898万円",
+   "address": "熊本県菊池郡大津町大字灰塚117-1",
+   "detailUrl": "https://bukken.yoka-town.com/room102396322.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "113.32㎡/ 34.27坪",
+   "landArea": "267.37㎡/ 80.87坪",
+   "parking": "有(6台)",
+   "units": "",
+   "elementary": "菊陽町立菊陽西小学校",
+   "elementaryMin": "98",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「肥後大津」駅 徒歩3分",
+     "min": "3",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/102396322_1_652_555_3.jpg?t=01785627693",
+     "main": true,
+     "local": "data/img/d5a314835810fcb16645.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/102396322_2_652_555_3.jpg?t=01785627693",
+     "main": false,
+     "local": "data/img/119bcc1e32b22ce4059a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/102396322_3_652_555_3.jpg?t=01785627693",
+     "main": false,
+     "local": "data/img/67b64b6165245fc6c78e.jpg"
+    }
+   ],
+   "locText": "32.87795300, 130.86853300",
+   "hpText": "こちらは、熊本県菊池郡大津町大字灰塚1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字灰塚1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,898万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-102399409",
+   "source": "yokatown",
+   "name": "熊本県菊池郡大津町大字灰塚1期5号棟",
+   "price": "2,698万円",
+   "address": "熊本県菊池郡大津町大字灰塚117-1",
+   "detailUrl": "https://bukken.yoka-town.com/room102399409.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "115.10㎡/ 34.81坪",
+   "landArea": "236.31㎡/ 71.48坪",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「肥後大津」駅 徒歩24分",
+     "min": "24",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/102399409_1_652_555_3.jpg?t=01785627694",
+     "main": true,
+     "local": "data/img/2b96b6487fb943655e79.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/102399409_2_652_555_3.jpg?t=01785627694",
+     "main": false,
+     "local": "data/img/2ba7598874c0a9d1dce2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/102399409_3_652_555_3.jpg?t=01785627694",
+     "main": false,
+     "local": "data/img/cd45e0bc0695d23d5a39.jpg"
+    }
+   ],
+   "locText": "32.86371800, 130.86146400",
+   "hpText": "こちらは、熊本県菊池郡大津町大字灰塚1期5号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池郡大津町大字灰塚1期5号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.931Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,698万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-97332918",
+   "source": "yokatown",
+   "name": "熊本県菊池市隈府3期2号棟",
+   "price": "2,598万円",
+   "address": "熊本県菊池市隈府877-3",
+   "detailUrl": "https://bukken.yoka-town.com/room97332918.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "114.69㎡/ 34.69坪",
+   "landArea": "166.13㎡/ 50.25坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「原水」駅 徒歩197分",
+     "min": "197",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/97332918_1_652_555_3.jpg?t=01785627716",
+     "main": true,
+     "local": "data/img/28793cf4c32155d4b642.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/97332918_2_652_555_3.jpg?t=01785627716",
+     "main": false,
+     "local": "data/img/c10372b3a04033227439.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/97332918_3_652_555_3.jpg?t=01785627716",
+     "main": false,
+     "local": "data/img/3184982e4f1b4d119329.jpg"
+    }
+   ],
+   "locText": "32.98033700, 130.81359300",
+   "hpText": "こちらは、熊本県菊池市隈府3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池市隈府3期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.932Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,598万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-98469041",
+   "source": "yokatown",
+   "name": "熊本県菊池市隈府4期16号棟",
+   "price": "2,398万円",
+   "address": "熊本県菊池市隈府730-1",
+   "detailUrl": "https://bukken.yoka-town.com/room98469041.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "115.48㎡/ 34.93坪",
+   "landArea": "204.43㎡/ 61.83坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅 徒歩158分",
+     "min": "158",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/98469041_1_652_555_3.jpg?t=01785627696",
+     "main": true,
+     "local": "data/img/53c161df35245308959c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/98469041_2_652_555_3.jpg?t=01785627696",
+     "main": false,
+     "local": "data/img/6218337b52aa01559722.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/98469041_3_652_555_3.jpg?t=01785627696",
+     "main": false,
+     "local": "data/img/8f5843540f6a10e375ed.jpg"
+    }
+   ],
+   "locText": "32.97600700, 130.80287200",
+   "hpText": "こちらは、熊本県菊池市隈府4期16号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊池市隈府4期16号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.932Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,398万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-98586995",
+   "source": "yokatown",
+   "name": "熊本県菊地君大津町大字大林１期１号棟",
+   "price": "2,598万円",
+   "address": "熊本県菊池郡大津町大字吹田1528-8",
+   "detailUrl": "https://bukken.yoka-town.com/room98586995.html",
+   "layout": "4LDKLD",
+   "stories": "",
+   "builtAt": "2026年2月",
+   "buildingArea": "99.99㎡/ 30.24坪",
+   "landArea": "234.06㎡/ 70.80坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「瀬田」駅 徒歩25分",
+     "min": "25",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/98586995_1_652_555_3.jpg?t=01785627697",
+     "main": true,
+     "local": "data/img/85611104e6078f2942a2.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/98586995_2_652_555_3.jpg?t=01785627697",
+     "main": false,
+     "local": "data/img/afc22f4b963686e1ba13.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/98586995_3_652_555_3.jpg?t=01785627697",
+     "main": false,
+     "local": "data/img/b80825d495da1964f293.jpg"
+    }
+   ],
+   "locText": "32.87942300, 130.90370500",
+   "hpText": "こちらは、熊本県菊地君大津町大字大林１期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県菊地君大津町大字大林１期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.932Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,598万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-98723626",
+   "source": "yokatown",
+   "name": "熊本県合志市須屋10期1号棟",
+   "price": "2,348万円",
+   "address": "熊本県合志市須屋1585-2",
+   "detailUrl": "https://bukken.yoka-town.com/room98723626.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "132.33㎡/ 40.02坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "合志市立西合志南小学校",
+   "elementaryMin": "17",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/98723626_1_652_555_3.jpg?t=01785627696",
+     "main": true,
+     "local": "data/img/babc219e18da364d404d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/98723626_2_652_555_3.jpg?t=01785627696",
+     "main": false,
+     "local": "data/img/5942a5f4e116944a7769.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/98723626_3_652_555_3.jpg?t=01785627696",
+     "main": false,
+     "local": "data/img/ff255c4c66a18de91991.jpg"
+    }
+   ],
+   "locText": "32.85881600, 130.74124200",
+   "hpText": "こちらは、熊本県合志市須屋10期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県合志市須屋10期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.932Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,348万円"
+    }
+   ],
+   "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-98724912",
+   "source": "yokatown",
+   "name": "熊本県合志市須屋10期2号棟",
+   "price": "2,498万円",
+   "address": "熊本県合志市須屋1585-2",
+   "detailUrl": "https://bukken.yoka-town.com/room98724912.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "126.26㎡/ 38.19坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "合志市立西合志南小学校",
+   "elementaryMin": "17",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩8分",
+     "min": "8",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/98724912_1_652_555_3.jpg?t=01785627716",
+     "main": true,
+     "local": "data/img/4d283b7147eab03e850a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/98724912_2_652_555_3.jpg?t=01785627716",
+     "main": false,
+     "local": "data/img/b88182b613eb176cda6e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/98724912_3_652_555_3.jpg?t=01785627716",
+     "main": false,
+     "local": "data/img/f2411d535dc5600bb8f9.jpg"
+    }
+   ],
+   "locText": "32.85881600, 130.74124200",
+   "hpText": "こちらは、熊本県合志市須屋10期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県合志市須屋10期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-03",
+   "createdAt": "2026-07-14T11:14:21.932Z",
+   "lastSeen": "2026-08-02",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,498万円"
     }
    ],
    "locPrec": "",
@@ -10835,7 +11134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-14",
@@ -10918,7 +11217,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-25",
@@ -11001,7 +11300,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -11084,7 +11383,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11157,7 +11456,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -11240,7 +11539,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -11332,7 +11631,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -11415,7 +11714,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11488,7 +11787,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -11559,7 +11858,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11632,7 +11931,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11705,7 +12004,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -11788,7 +12087,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11861,7 +12160,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -11944,7 +12243,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12017,7 +12316,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12078,7 +12377,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12151,7 +12450,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-17",
@@ -12234,7 +12533,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12307,7 +12606,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12390,7 +12689,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -12473,7 +12772,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12556,7 +12855,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12639,7 +12938,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12722,7 +13021,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12795,7 +13094,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12868,7 +13167,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12941,7 +13240,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13014,7 +13313,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -13091,7 +13390,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13164,7 +13463,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13237,7 +13536,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -13320,7 +13619,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13393,7 +13692,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13466,7 +13765,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -13537,7 +13836,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-31",
@@ -13620,7 +13919,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13693,7 +13992,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13766,7 +14065,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13839,7 +14138,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13912,7 +14211,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13985,7 +14284,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14058,7 +14357,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -14141,7 +14440,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14214,7 +14513,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14287,7 +14586,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14360,7 +14659,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -14443,7 +14742,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14516,7 +14815,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14589,7 +14888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14662,7 +14961,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -14745,7 +15044,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -14828,7 +15127,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -14911,7 +15210,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -14994,7 +15293,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -15077,7 +15376,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15150,7 +15449,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -15242,7 +15541,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15309,7 +15608,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -15401,7 +15700,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15474,7 +15773,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15547,7 +15846,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -15630,7 +15929,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15703,7 +16002,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15776,7 +16075,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15849,7 +16148,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15922,7 +16221,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15989,7 +16288,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16062,7 +16361,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16135,7 +16434,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.483Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16208,7 +16507,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.484Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16281,7 +16580,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16354,7 +16653,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16427,7 +16726,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16500,7 +16799,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16583,7 +16882,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16666,7 +16965,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -16749,7 +17048,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16822,7 +17121,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16895,7 +17194,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16968,7 +17267,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17041,7 +17340,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -17124,7 +17423,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17197,7 +17496,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-31T22:14:13.972Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17270,7 +17569,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17343,7 +17642,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17416,7 +17715,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17489,7 +17788,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-27",
@@ -17572,7 +17871,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17645,7 +17944,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17718,7 +18017,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18225,7 +18524,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18302,7 +18601,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18379,7 +18678,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18450,7 +18749,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18509,7 +18808,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-27",
@@ -18596,7 +18895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18673,7 +18972,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18750,7 +19049,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18827,7 +19126,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18886,7 +19185,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [
     {
      "date": "2026-07-26",
@@ -18967,7 +19266,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19038,7 +19337,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19121,7 +19420,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19198,7 +19497,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19281,7 +19580,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19364,7 +19663,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19447,7 +19746,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19524,7 +19823,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19601,7 +19900,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19684,7 +19983,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19767,7 +20066,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19850,7 +20149,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19933,7 +20232,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20016,7 +20315,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20099,7 +20398,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20182,7 +20481,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20265,7 +20564,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20342,7 +20641,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20425,7 +20724,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20502,7 +20801,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20579,7 +20878,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20656,7 +20955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20727,7 +21026,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20798,7 +21097,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "priceChanges": [],
    "priceSnapshots": [
     {
