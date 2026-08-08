@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-08-07T21:52:32.963Z",
- "count": 304,
+ "updatedAt": "2026-08-08T21:43:39.780Z",
+ "count": 307,
  "listings": [
   {
    "id": "yokatown-100649276",
@@ -53,7 +53,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -125,7 +125,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -197,7 +197,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -269,7 +269,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -341,7 +341,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -413,7 +413,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -485,7 +485,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -566,7 +566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -638,7 +638,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -710,7 +710,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -799,7 +799,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -888,7 +888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -977,7 +977,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1066,7 +1066,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1155,7 +1155,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1234,7 +1234,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -1323,7 +1323,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1396,7 +1396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1458,7 +1458,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1520,7 +1520,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1581,7 +1581,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1653,7 +1653,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1725,7 +1725,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1797,7 +1797,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1874,7 +1874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1947,7 +1947,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2009,7 +2009,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2071,7 +2071,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2134,7 +2134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2196,7 +2196,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -2268,7 +2268,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-21T04:54:24.334Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -2339,7 +2339,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2401,7 +2401,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2473,7 +2473,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2545,7 +2545,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2628,7 +2628,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -2717,7 +2717,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2806,7 +2806,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2889,7 +2889,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2961,7 +2961,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3033,7 +3033,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3105,7 +3105,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3177,7 +3177,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3249,7 +3249,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3321,7 +3321,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3393,7 +3393,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3465,7 +3465,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3537,7 +3537,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3609,7 +3609,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3681,7 +3681,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3770,7 +3770,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3843,7 +3843,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3916,7 +3916,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3995,7 +3995,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4084,7 +4084,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4163,7 +4163,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4242,7 +4242,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4321,7 +4321,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4400,7 +4400,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4479,7 +4479,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4568,7 +4568,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4657,7 +4657,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4730,7 +4730,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4793,7 +4793,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4854,7 +4854,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4917,7 +4917,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -4990,7 +4990,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5061,7 +5061,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5150,7 +5150,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5229,7 +5229,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5318,7 +5318,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -5401,7 +5401,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5480,7 +5480,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5559,7 +5559,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5632,7 +5632,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5694,7 +5694,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5756,7 +5756,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5828,7 +5828,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5904,7 +5904,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5971,7 +5971,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6050,7 +6050,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6139,7 +6139,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6211,7 +6211,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -6283,7 +6283,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6345,7 +6345,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6412,7 +6412,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6479,7 +6479,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6568,7 +6568,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6635,7 +6635,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6712,7 +6712,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6785,7 +6785,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6852,7 +6852,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6919,7 +6919,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6986,7 +6986,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7053,7 +7053,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7120,7 +7120,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7199,7 +7199,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7278,7 +7278,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7357,7 +7357,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7436,7 +7436,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7515,7 +7515,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7594,7 +7594,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7673,7 +7673,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7752,7 +7752,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7831,7 +7831,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7893,7 +7893,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7955,7 +7955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8017,7 +8017,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8079,7 +8079,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8141,7 +8141,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8203,7 +8203,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8265,7 +8265,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8327,7 +8327,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8389,7 +8389,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8451,7 +8451,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8513,7 +8513,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8522,6 +8522,84 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106485530",
+   "source": "yokatown",
+   "name": "熊本市南区御幸木部1丁目1期1号棟",
+   "price": "3,198万円",
+   "address": "熊本県熊本市南区御幸木部１丁目5-13付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106485530.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "111.78㎡/ 33.81坪",
+   "landArea": "226.98㎡/ 68.66坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩44分",
+     "min": "44",
+     "cat": "station"
+    },
+    {
+     "name": "「御幸木部」バス停下車 徒歩3分",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106485530_1_652_555_3.jpg?t=01786151181",
+     "main": true,
+     "local": "data/img/e83516cbca90a7f78a7f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106485530_2_652_555_3.jpg?t=01786151181",
+     "main": false,
+     "local": "data/img/d143308e2181cf691fc2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106485530_3_652_555_3.jpg?t=01786151181",
+     "main": false,
+     "local": "data/img/34657de7b2a270977a0d.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/106485530_4_652_555_3.jpg?t=01786151181",
+     "main": false,
+     "local": "data/img/0d41fdb6b4c0a75f180e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://cdn.img-asp.jp/bkn/106485530_5_652_555_3.jpg?t=01786151181",
+     "main": false,
+     "local": "data/img/51f9ec497b494801e333.jpg"
+    }
+   ],
+   "locText": "32.74763400, 130.71428300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区御幸木部1丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区御幸木部1丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-08T21:43:39.780Z",
+   "lastSeen": "2026-08-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-09",
+     "price": "3,198万円"
+    }
+   ]
   },
   {
    "id": "yokatown-96551249",
@@ -8575,7 +8653,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -8647,7 +8725,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -8719,7 +8797,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8780,7 +8858,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -8852,7 +8930,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -8924,7 +9002,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -8997,7 +9075,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9058,7 +9136,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9120,7 +9198,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9182,7 +9260,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -9254,7 +9332,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9326,7 +9404,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9403,7 +9481,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9470,7 +9548,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9537,7 +9615,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9614,7 +9692,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9697,7 +9775,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -9774,7 +9852,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9851,7 +9929,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -9928,7 +10006,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10005,7 +10083,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10082,7 +10160,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10159,7 +10237,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10236,7 +10314,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10313,7 +10391,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10390,7 +10468,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10467,7 +10545,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -11906,7 +11984,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-14",
@@ -11989,7 +12067,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12072,7 +12150,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12145,7 +12223,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12228,7 +12306,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12320,7 +12398,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12403,7 +12481,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -12486,7 +12564,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12557,7 +12635,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12630,7 +12708,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -12713,7 +12791,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12767,27 +12845,27 @@
     },
     {
      "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064661_4.jpg",
+     "main": false,
+     "local": "data/img/f030e6623fc087186f18.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://sumaiida.com/bukken/image/H00130064661_19.jpg",
      "main": false,
      "local": "data/img/68f1447b1350be8d8434.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://sumaiida.com/bukken/image/H00130064661_20.jpg",
      "main": false,
      "local": "data/img/810324145c8c621aa2cb.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://sumaiida.com/bukken/image/H00130064661_21.jpg",
      "main": false,
      "local": "data/img/6ba2fb425049cdad261f.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130064661_22.jpg",
-     "main": false,
-     "local": "data/img/fa3e2c390fa0dba665fb.jpg"
     }
    ],
    "locText": "32.75843, 130.68442",
@@ -12796,7 +12874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12869,7 +12947,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12952,7 +13030,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13025,7 +13103,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13086,7 +13164,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13159,7 +13237,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-17",
@@ -13242,7 +13320,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13315,7 +13393,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13398,7 +13476,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -13481,7 +13559,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13564,7 +13642,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13647,7 +13725,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -13730,7 +13808,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13803,7 +13881,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13876,7 +13954,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13949,7 +14027,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14022,7 +14100,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -14099,7 +14177,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14172,7 +14250,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14245,7 +14323,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -14328,7 +14406,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14401,7 +14479,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14474,7 +14552,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -14545,7 +14623,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-31",
@@ -14628,7 +14706,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-07T01:05:55.774Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14701,7 +14779,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14774,7 +14852,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14847,7 +14925,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14920,7 +14998,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14993,7 +15071,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15066,7 +15144,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15110,27 +15188,27 @@
     },
     {
      "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130062119_4.jpg",
+     "main": false,
+     "local": "data/img/1c1e9dffd79cf1eceae7.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://sumaiida.com/bukken/image/H00130062119_5.jpg",
      "main": false,
      "local": "data/img/926e26822c966de29d84.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://sumaiida.com/bukken/image/H00130062119_6.jpg",
      "main": false,
      "local": "data/img/ace2bb72517cd520f694.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://sumaiida.com/bukken/image/H00130062119_10.jpg",
      "main": false,
      "local": "data/img/85e19219716985619f9c.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130062119_11.jpg",
-     "main": false,
-     "local": "data/img/c34831eaef7046413ad8.jpg"
     }
    ],
    "locText": "32.7117795, 130.7458119",
@@ -15139,7 +15217,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -15222,7 +15300,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15295,7 +15373,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15368,7 +15446,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15441,7 +15519,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -15524,7 +15602,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15533,6 +15611,78 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-2012701004557297711-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン益城町安永 第8",
+   "price": "2,280万円～2,680万円",
+   "address": "熊本県上益城郡 益城町大字安永字古川465番2の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557297711-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "95.17m²～103.67m²",
+   "landArea": "137.48m²～162.27m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅まで徒歩73分",
+     "min": "73",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130066896_3.jpg",
+     "main": true,
+     "local": "data/img/c477e10bfdb46b8b1fd4.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130066896_4.jpg",
+     "main": false,
+     "local": "data/img/653749d70f2f248392f6.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130066896_5.jpg",
+     "main": false,
+     "local": "data/img/65650c8aa01577da7b58.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130066896_6.jpg",
+     "main": false,
+     "local": "data/img/0db160287fb24b127529.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130066896_10.jpg",
+     "main": false,
+     "local": "data/img/9cb7fe874a2588c9a245.jpg"
+    }
+   ],
+   "locText": "32.7859498, 130.8125904",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン益城町安永 第8の物件詳細ページです。飯田グループホールディングスが熊本県上益城郡益城町のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-08T21:40:16.833Z",
+   "lastSeen": "2026-08-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-09",
+     "price": "2,280万円～2,680万円"
+    }
+   ]
   },
   {
    "id": "sumaiida-5011601000515582962-2",
@@ -15597,7 +15747,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-07",
@@ -15680,7 +15830,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -15763,7 +15913,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -15846,7 +15996,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -15929,7 +16079,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -16012,7 +16162,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -16095,7 +16245,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -16155,21 +16305,21 @@
     },
     {
      "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130056104_5.jpg",
-     "main": false,
-     "local": "data/img/261be4b68d27d987a28e.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130056104_6.jpg",
-     "main": false,
-     "local": "data/img/a70764627ef0cb27e456.jpg"
-    },
-    {
-     "id": "p5",
      "url": "https://sumaiida.com/bukken/image/H00130056104_19.jpg",
      "main": false,
      "local": "data/img/7d0490b9919fba0a3f14.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_20.jpg",
+     "main": false,
+     "local": "data/img/1f0c131abb93529bb7e3.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130056104_21.jpg",
+     "main": false,
+     "local": "data/img/d7bd7402f0f4004011d3.jpg"
     }
    ],
    "locText": "32.863385, 130.768951",
@@ -16178,7 +16328,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -16270,7 +16420,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -16353,7 +16503,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16445,7 +16595,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16518,7 +16668,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -16601,7 +16751,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -16684,7 +16834,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -16776,7 +16926,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16849,7 +16999,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16922,7 +17072,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16995,7 +17145,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17068,7 +17218,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17141,7 +17291,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17214,7 +17364,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.483Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17287,7 +17437,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.484Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17360,7 +17510,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17433,7 +17583,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17506,7 +17656,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17579,7 +17729,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -17662,7 +17812,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -17745,7 +17895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -17828,7 +17978,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17901,7 +18051,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17974,7 +18124,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18047,7 +18197,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18120,7 +18270,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -18203,7 +18353,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18276,7 +18426,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-31T22:14:13.972Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18349,7 +18499,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:16:56.637Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18422,7 +18572,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18495,7 +18645,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18568,7 +18718,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18641,7 +18791,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-27",
@@ -18724,7 +18874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18733,6 +18883,78 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-8012701004700250247-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー熊本南区薄場町 第１期",
+   "price": "1,980万円",
+   "address": "熊本県熊本市 南区薄場町字野田前41番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700250247-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "97.71m²",
+   "landArea": "152.67m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s1.jpg",
+     "main": true,
+     "local": "data/img/78ae6de326376e673b78.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s2.jpg",
+     "main": false,
+     "local": "data/img/bafb3d0530ca789ae127.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s3.jpg",
+     "main": false,
+     "local": "data/img/93106d6c0516d75f0d98.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s4.jpg",
+     "main": false,
+     "local": "data/img/1cbb8e0af4dd87a55f0c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s5.jpg",
+     "main": false,
+     "local": "data/img/c8ab31788bddee843c26.jpg"
+    }
+   ],
+   "locText": "32.76390187328882, 130.67626696171757",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー熊本南区薄場町　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-08T21:40:16.833Z",
+   "lastSeen": "2026-08-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-09",
+     "price": "1,980万円"
+    }
+   ]
   },
   {
    "id": "sumaiida-8012701004700250311-2",
@@ -18797,7 +19019,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19533,7 +19755,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19610,7 +19832,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19687,7 +19909,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19758,7 +19980,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19835,7 +20057,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19912,7 +20134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19989,7 +20211,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20066,7 +20288,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20125,7 +20347,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [
     {
      "date": "2026-07-26",
@@ -20212,7 +20434,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20283,7 +20505,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20366,7 +20588,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20443,7 +20665,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20526,7 +20748,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20609,7 +20831,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20692,7 +20914,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20769,7 +20991,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20846,7 +21068,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20929,7 +21151,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21012,7 +21234,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21095,7 +21317,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21178,7 +21400,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21261,7 +21483,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21344,7 +21566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21427,7 +21649,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21510,7 +21732,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21587,7 +21809,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21670,7 +21892,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21747,7 +21969,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21824,7 +22046,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21901,7 +22123,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21972,7 +22194,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22043,7 +22265,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "priceChanges": [],
    "priceSnapshots": [
     {
