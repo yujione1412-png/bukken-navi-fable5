@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-08-09T21:46:02.408Z",
- "count": 317,
+ "updatedAt": "2026-08-10T23:59:51.374Z",
+ "count": 328,
  "listings": [
   {
    "id": "yokatown-100649276",
@@ -53,7 +53,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -125,7 +125,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -197,7 +197,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -269,7 +269,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -341,7 +341,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -413,7 +413,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -485,7 +485,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -543,21 +543,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101133192_1_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/101133192_1_652_555_3.jpg?t=01786325271",
      "main": true,
-     "local": "data/img/cce362f3f2088c15c5e4.jpg"
+     "local": "data/img/8397cebbb9628cea3e26.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101133192_2_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/101133192_2_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/b515b559a73625f01883.jpg"
+     "local": "data/img/834d0e72349261c1f962.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101133192_3_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/101133192_3_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/0c6b93c8946b6a748f5e.jpg"
+     "local": "data/img/d2ec483f0153e5f1fe53.jpg"
     }
    ],
    "locText": "32.85016200, 130.76689500",
@@ -566,7 +566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -615,21 +615,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101154562_1_652_555_3.jpg?t=01785734477",
+     "url": "https://cdn.img-asp.jp/bkn/101154562_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/35b09460e53e6f090511.jpg"
+     "local": "data/img/21d510fada98aad7f221.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101154562_2_652_555_3.jpg?t=01785734477",
+     "url": "https://cdn.img-asp.jp/bkn/101154562_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/8f27f4ad1822160e0b47.jpg"
+     "local": "data/img/09eeb9b5e06dd923aea8.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101154562_3_652_555_3.jpg?t=01785734477",
+     "url": "https://cdn.img-asp.jp/bkn/101154562_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/af11aba50a22d7d14f3a.jpg"
+     "local": "data/img/f5cd26c38c5f4fa861ea.jpg"
     }
    ],
    "locText": "32.77936100, 130.74666000",
@@ -638,7 +638,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -710,7 +710,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -799,7 +799,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -888,7 +888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -977,7 +977,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1066,7 +1066,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1155,7 +1155,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1234,7 +1234,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -1323,7 +1323,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -1396,7 +1396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1458,7 +1458,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1520,7 +1520,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1581,7 +1581,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1653,7 +1653,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1725,7 +1725,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1797,7 +1797,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -1874,7 +1874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1947,7 +1947,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1986,21 +1986,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101761040_1_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761040_1_652_555_3.jpg?t=01786325271",
      "main": true,
-     "local": "data/img/ae2956a16cadda15dfc2.jpg"
+     "local": "data/img/57a716e513c53e2f73bd.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101761040_2_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761040_2_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/d6329dc02f4890a7d777.jpg"
+     "local": "data/img/7413e6035cc3404d6b21.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101761040_3_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761040_3_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/beb31c23c6ee870db50d.jpg"
+     "local": "data/img/11cf6f11d9bc8ad74e5b.jpg"
     }
    ],
    "locText": "32.79240200, 130.77031600",
@@ -2009,7 +2009,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2048,21 +2048,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101761160_1_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761160_1_652_555_3.jpg?t=01786325270",
      "main": true,
-     "local": "data/img/cfe9a8bbb2a23571f92c.jpg"
+     "local": "data/img/79bb256ca2b3e16f00db.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101761160_2_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761160_2_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/84413a2ebe17fae506fe.jpg"
+     "local": "data/img/d4d9d6d867c14f13fdfd.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101761160_3_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/101761160_3_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/68c3973632643d65ffdb.jpg"
+     "local": "data/img/20832a0a0c3c297baaa3.jpg"
     }
    ],
    "locText": "32.79240200, 130.77031600",
@@ -2071,7 +2071,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2134,7 +2134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2196,7 +2196,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -2268,7 +2268,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-21T04:54:24.334Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -2339,7 +2339,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2401,7 +2401,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2473,7 +2473,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2545,7 +2545,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2628,7 +2628,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -2717,7 +2717,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2806,7 +2806,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2878,7 +2878,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -2950,7 +2950,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3022,7 +3022,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3094,7 +3094,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3166,7 +3166,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3238,7 +3238,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3310,7 +3310,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3382,7 +3382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3454,7 +3454,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3526,7 +3526,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3598,7 +3598,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -3687,7 +3687,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3760,7 +3760,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3833,7 +3833,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3912,7 +3912,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4001,7 +4001,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4080,7 +4080,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4159,7 +4159,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4238,7 +4238,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4317,7 +4317,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4396,7 +4396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4485,7 +4485,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -4574,7 +4574,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4647,7 +4647,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4710,7 +4710,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4748,21 +4748,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103770938_1_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/103770938_1_652_555_3.jpg?t=01786325270",
      "main": true,
-     "local": "data/img/316113dee5c715548f73.jpg"
+     "local": "data/img/a6b45e08d11540ee2f20.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103770938_2_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/103770938_2_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/5b0c54c0123ec145354d.jpg"
+     "local": "data/img/460d2791dcecbec797d1.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103770938_3_652_555_3.jpg?t=01785119292",
+     "url": "https://cdn.img-asp.jp/bkn/103770938_3_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/1ad3f65a02154316b725.jpg"
+     "local": "data/img/1b156136a76b6bf081c2.jpg"
     }
    ],
    "locText": "32.74651800, 130.68757100",
@@ -4771,7 +4771,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4811,21 +4811,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103772278_1_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/103772278_1_652_555_3.jpg?t=01786325271",
      "main": true,
-     "local": "data/img/a983ec3fd9424408eccb.jpg"
+     "local": "data/img/a44a53d1985e0933e4ea.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103772278_2_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/103772278_2_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/e28c1ff74ec7e375bd6f.jpg"
+     "local": "data/img/b1da8153c84932db2c7c.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103772278_3_652_555_3.jpg?t=01785119291",
+     "url": "https://cdn.img-asp.jp/bkn/103772278_3_652_555_3.jpg?t=01786325271",
      "main": false,
-     "local": "data/img/bd07630b2dd69db5b650.jpg"
+     "local": "data/img/cea853f0987e42c4e87d.jpg"
     }
    ],
    "locText": "32.77715800, 130.67731400",
@@ -4834,7 +4834,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -4907,7 +4907,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -4955,21 +4955,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103772868_1_652_555_3.jpg?t=01785736052",
+     "url": "https://cdn.img-asp.jp/bkn/103772868_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/2b536c7bcef2b199b45c.jpg"
+     "local": "data/img/ed5a54abf9ea4c94a089.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103772868_2_652_555_3.jpg?t=01785736052",
+     "url": "https://cdn.img-asp.jp/bkn/103772868_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/402298cb645ac70c2e4f.jpg"
+     "local": "data/img/5dcfc6ff9af23d24b17e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103772868_3_652_555_3.jpg?t=01785736052",
+     "url": "https://cdn.img-asp.jp/bkn/103772868_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/8803ac04dc5b95076658.jpg"
+     "local": "data/img/c06e7b8ea09b8a9559d1.jpg"
     }
    ],
    "locText": "32.85673200, 130.75802200",
@@ -4978,7 +4978,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5067,7 +5067,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5146,7 +5146,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5235,7 +5235,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -5318,7 +5318,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5397,7 +5397,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5476,7 +5476,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -5549,7 +5549,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5611,7 +5611,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5673,7 +5673,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5745,7 +5745,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -5821,7 +5821,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5888,7 +5888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5967,7 +5967,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6056,7 +6056,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -6128,7 +6128,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -6200,7 +6200,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6262,7 +6262,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6329,7 +6329,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6396,7 +6396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6485,7 +6485,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6552,7 +6552,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6629,7 +6629,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -6702,7 +6702,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6769,7 +6769,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6836,7 +6836,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6903,7 +6903,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6970,7 +6970,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7037,7 +7037,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7116,7 +7116,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7195,7 +7195,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7274,7 +7274,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7353,7 +7353,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7432,7 +7432,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7511,7 +7511,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7590,7 +7590,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7669,7 +7669,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7748,7 +7748,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7810,7 +7810,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7872,7 +7872,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7934,7 +7934,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7996,7 +7996,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8058,7 +8058,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8120,7 +8120,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8182,7 +8182,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8244,7 +8244,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8306,7 +8306,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8368,7 +8368,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8430,7 +8430,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8509,7 +8509,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:43:39.780Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8571,14 +8571,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106522728",
@@ -8632,14 +8633,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106523234",
@@ -8693,14 +8695,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106523656",
@@ -8754,14 +8757,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106524580",
@@ -8791,21 +8795,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_1_652_555_3.jpg?t=01786262827",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/13c42a23487d88d5aca5.jpg"
+     "local": "data/img/81a3b8630d83a7f8d270.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_2_652_555_3.jpg?t=01786262827",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/307fa86bcc8a1f0da57b.jpg"
+     "local": "data/img/4570e2fda80396774cae.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_3_652_555_3.jpg?t=01786262827",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/bdf0877b6bc4ba242ade.jpg"
+     "local": "data/img/56f95d4e528b79b19942.jpg"
     }
    ],
    "locText": "32.81913200, 130.80304000",
@@ -8815,14 +8819,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,098万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106524687",
@@ -8852,21 +8857,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_1_652_555_3.jpg?t=01786262806",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/f1c3c1b0a59d9289eabe.jpg"
+     "local": "data/img/49ed9c70b0530a24dcfd.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_2_652_555_3.jpg?t=01786262806",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/d136637dbccf7b512b22.jpg"
+     "local": "data/img/94e4070215ee0df369b6.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_3_652_555_3.jpg?t=01786262806",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/70b8c7a5d3b5afa2d42e.jpg"
+     "local": "data/img/481cc0f57ef56bcfc7fb.jpg"
     }
    ],
    "locText": "32.81913200, 130.80304000",
@@ -8876,14 +8881,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106524754",
@@ -8913,21 +8919,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_1_652_555_3.jpg?t=01786263020",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/cdaec75d052c9d40f7b9.jpg"
+     "local": "data/img/ac21de90106a0c1e9d99.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_2_652_555_3.jpg?t=01786263020",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/6d97bcb110f2cb92f091.jpg"
+     "local": "data/img/157bbfce46ea24d4be7e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_3_652_555_3.jpg?t=01786263020",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/b713cf3eff3d488d1d3f.jpg"
+     "local": "data/img/609a05d2732e693d22db.jpg"
     }
    ],
    "locText": "32.81913200, 130.80304000",
@@ -8937,14 +8943,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106526236",
@@ -8974,21 +8981,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106526236_1_652_555_3.jpg?t=01786265999",
+     "url": "https://cdn.img-asp.jp/bkn/106526236_1_652_555_3.jpg?t=01786325269",
      "main": true,
-     "local": "data/img/aabb8dced32cc24b7360.jpg"
+     "local": "data/img/83439757d64e04f9b9e3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106526236_2_652_555_3.jpg?t=01786265999",
+     "url": "https://cdn.img-asp.jp/bkn/106526236_2_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/a157ff1c19146651b695.jpg"
+     "local": "data/img/c298df0f1788f37b75fb.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106526236_3_652_555_3.jpg?t=01786265999",
+     "url": "https://cdn.img-asp.jp/bkn/106526236_3_652_555_3.jpg?t=01786325269",
      "main": false,
-     "local": "data/img/bd071fb28e2c4c18d647.jpg"
+     "local": "data/img/22a3b54900a521f05ae3.jpg"
     }
    ],
    "locText": "32.79669600, 130.75322300",
@@ -8998,14 +9005,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,198万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106526320",
@@ -9035,21 +9043,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106526320_1_652_555_3.jpg?t=01786266330",
+     "url": "https://cdn.img-asp.jp/bkn/106526320_1_652_555_3.jpg?t=01786325268",
      "main": true,
-     "local": "data/img/36d5a1028735f4dd478e.jpg"
+     "local": "data/img/750ba902bc11acbbbe05.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106526320_2_652_555_3.jpg?t=01786266330",
+     "url": "https://cdn.img-asp.jp/bkn/106526320_2_652_555_3.jpg?t=01786325268",
      "main": false,
-     "local": "data/img/edb0ea1c22308013f8cc.jpg"
+     "local": "data/img/8ce0d4c980b5b477f6a8.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106526320_3_652_555_3.jpg?t=01786266330",
+     "url": "https://cdn.img-asp.jp/bkn/106526320_3_652_555_3.jpg?t=01786325268",
      "main": false,
-     "local": "data/img/dbe97f10b8981d42d0ad.jpg"
+     "local": "data/img/5599a998cba32c2eb803.jpg"
     }
    ],
    "locText": "32.79669600, 130.75322300",
@@ -9059,12 +9067,684 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106538883",
+   "source": "yokatown",
+   "name": "熊本市南区野田2丁目1期1号棟",
+   "price": "3,298万円",
+   "address": "熊本県熊本市南区野田２丁目21付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106538883.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "110.96㎡/ 33.56坪",
+   "landArea": "174.34㎡/ 52.73坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩19分",
+     "min": "19",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106538883_1_652_555_3.jpg?t=01786329548",
+     "main": true,
+     "local": "data/img/f2b0c354b1843106e71b.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106538883_2_652_555_3.jpg?t=01786329548",
+     "main": false,
+     "local": "data/img/dc2c9fa45ecc97ac929c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106538883_3_652_555_3.jpg?t=01786329548",
+     "main": false,
+     "local": "data/img/fadcfcc55989efaad37e.jpg"
+    }
+   ],
+   "locText": "32.73352100, 130.68377000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区野田2丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区野田2丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,298万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106540866",
+   "source": "yokatown",
+   "name": "熊本市南区平田2丁目1期1号棟",
+   "price": "3,998万円",
+   "address": "熊本県熊本市南区平田２丁目23付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106540866.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "105.35㎡/ 31.86坪",
+   "landArea": "154.40㎡/ 46.70坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「平成」駅 徒歩19分",
+     "min": "19",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_1_652_555_3.jpg?t=01786331198",
+     "main": true,
+     "local": "data/img/dde40d1d96018d8b2117.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_2_652_555_3.jpg?t=01786331198",
+     "main": false,
+     "local": "data/img/40eb92b5378332ad9ca2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_3_652_555_3.jpg?t=01786331198",
+     "main": false,
+     "local": "data/img/598476e767b4a75d8719.jpg"
+    }
+   ],
+   "locText": "32.77099100, 130.70001100",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区平田2丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区平田2丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,998万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106545634",
+   "source": "yokatown",
+   "name": "熊本市南区富合町大町4期1号棟",
+   "price": "2,698万円",
+   "address": "熊本県熊本市南区富合町大町375-1",
+   "detailUrl": "https://bukken.yoka-town.com/room106545634.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "104.83㎡/ 31.71坪",
+   "landArea": "201.85㎡/ 61.05坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「富合」駅 徒歩29分",
+     "min": "29",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106545634_1_652_555_3.jpg?t=01786342247",
+     "main": true,
+     "local": "data/img/e075a9a1b6838d8aec70.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106545634_2_652_555_3.jpg?t=01786342247",
+     "main": false,
+     "local": "data/img/16731ae5852c864cc4fc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106545634_3_652_555_3.jpg?t=01786342247",
+     "main": false,
+     "local": "data/img/ef326f123310962d5ff5.jpg"
+    }
+   ],
+   "locText": "32.72269600, 130.68830600",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区富合町大町4期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区富合町大町4期1号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106546090",
+   "source": "yokatown",
+   "name": "熊本市南区南高江7丁目1期1号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市南区南高江７丁目9-113付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106546090.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "111.79㎡/ 33.81坪",
+   "landArea": "167.75㎡/ 50.74坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106546090_1_652_555_3.jpg?t=01786343378",
+     "main": true,
+     "local": "data/img/84cbff02505527d153cf.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106546090_2_652_555_3.jpg?t=01786343378",
+     "main": false,
+     "local": "data/img/2f071a3d1dd642338f58.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106546090_3_652_555_3.jpg?t=01786343378",
+     "main": false,
+     "local": "data/img/61c75b670a6d2a4a4db5.jpg"
+    }
+   ],
+   "locText": "32.74463900, 130.69061100",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区南高江7丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区南高江7丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106547367",
+   "source": "yokatown",
+   "name": "熊本市南区南高江7丁目1期2号棟",
+   "price": "3,198万円",
+   "address": "熊本県熊本市南区南高江７丁目9-113付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106547367.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "115.48㎡/ 34.93坪",
+   "landArea": "168.43㎡/ 50.94坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106547367_1_652_555_3.jpg?t=01786345658",
+     "main": true,
+     "local": "data/img/085a38999bfa2d48107d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106547367_2_652_555_3.jpg?t=01786345658",
+     "main": false,
+     "local": "data/img/b11709f84cb69258bc86.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106547367_3_652_555_3.jpg?t=01786345658",
+     "main": false,
+     "local": "data/img/3475ce7b9d26ed3306a8.jpg"
+    }
+   ],
+   "locText": "32.74463900, 130.69061100",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区南高江7丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区南高江7丁目1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,198万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106548362",
+   "source": "yokatown",
+   "name": "熊本市北区八景水谷3丁目1期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市北区八景水谷３丁目10-97付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106548362.html",
+   "layout": "4LDKLD",
+   "stories": "",
+   "builtAt": "2027年1月",
+   "buildingArea": "101.85㎡/ 30.8坪",
+   "landArea": "278.55㎡/ 84.26坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「堀川」駅 徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_1_652_555_3.jpg?t=01786347068",
+     "main": true,
+     "local": "data/img/a8f1199f9350e8b66ecb.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_2_652_555_3.jpg?t=01786347068",
+     "main": false,
+     "local": "data/img/4c06995cc4e9d4c01ab4.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_3_652_555_3.jpg?t=01786347068",
+     "main": false,
+     "local": "data/img/77aae57fa2f440b4b50a.jpg"
+    }
+   ],
+   "locText": "32.84894800, 130.72691000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区八景水谷3丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区八景水谷3丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,698万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106550465",
+   "source": "yokatown",
+   "name": "熊本市北区鶴羽田3丁目1期1号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市北区鶴羽田３丁目9-19付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106550465.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "112.17㎡/ 33.93坪",
+   "landArea": "246.52㎡/ 74.57坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_1_652_555_3.jpg?t=01786349353",
+     "main": true,
+     "local": "data/img/66b9b420f81ee2590cdf.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_2_652_555_3.jpg?t=01786349353",
+     "main": false,
+     "local": "data/img/44bee136090284856e82.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_3_652_555_3.jpg?t=01786349353",
+     "main": false,
+     "local": "data/img/1321669589a2e678bf5e.jpg"
+    }
+   ],
+   "locText": "32.86159100, 130.72821300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区鶴羽田3丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区鶴羽田3丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106550853",
+   "source": "yokatown",
+   "name": "熊本市北区鶴羽田3丁目1期2号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市北区鶴羽田３丁目9-19付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106550853.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "110.31㎡/ 33.36坪",
+   "landArea": "161.21㎡/ 48.76坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_1_652_555_3.jpg?t=01786349815",
+     "main": true,
+     "local": "data/img/0174bdb6c13f10108469.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_2_652_555_3.jpg?t=01786349815",
+     "main": false,
+     "local": "data/img/e58df0c3f00a4ab817cc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_3_652_555_3.jpg?t=01786349815",
+     "main": false,
+     "local": "data/img/a6a8a577ed1e53019138.jpg"
+    }
+   ],
+   "locText": "32.86159100, 130.72821300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区鶴羽田3丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区鶴羽田3丁目1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106551631",
+   "source": "yokatown",
+   "name": "熊本市北区鶴羽田3丁目1期3号棟",
+   "price": "3,398万円",
+   "address": "熊本県熊本市北区鶴羽田３丁目9-19付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106551631.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "111.97㎡/ 33.87坪",
+   "landArea": "161.07㎡/ 48.72坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_1_652_555_3.jpg?t=01786351175",
+     "main": true,
+     "local": "data/img/5ea1113b06378a0e3124.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_2_652_555_3.jpg?t=01786351175",
+     "main": false,
+     "local": "data/img/f007528299d4a2cedb04.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_3_652_555_3.jpg?t=01786351175",
+     "main": false,
+     "local": "data/img/55fb6cd4baf582c45b7d.jpg"
+    }
+   ],
+   "locText": "32.86159100, 130.72821300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区鶴羽田3丁目1期3号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区鶴羽田3丁目1期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,398万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106551751",
+   "source": "yokatown",
+   "name": "熊本市北区鶴羽田3丁目1期4号棟",
+   "price": "3,298万円",
+   "address": "熊本県熊本市北区鶴羽田３丁目9-19付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106551751.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "111.78㎡/ 33.81坪",
+   "landArea": "164.29㎡/ 49.69坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「須屋」駅 徒歩15分",
+     "min": "15",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_1_652_555_3.jpg?t=01786351416",
+     "main": true,
+     "local": "data/img/f2300509207b3c2a05a0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_2_652_555_3.jpg?t=01786351416",
+     "main": false,
+     "local": "data/img/9261fcd771fa4bab8f44.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_3_652_555_3.jpg?t=01786351416",
+     "main": false,
+     "local": "data/img/2b970a089f032b9d9615.jpg"
+    }
+   ],
+   "locText": "32.86159100, 130.72821300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区鶴羽田3丁目1期4号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区鶴羽田3丁目1期4号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "3,298万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106552047",
+   "source": "yokatown",
+   "name": "熊本市南区白藤1丁目2期1号棟",
+   "price": "2,298万円",
+   "address": "熊本県熊本市南区白藤１丁目21-17付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106552047.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "111.37㎡/ 33.68坪",
+   "landArea": "133.23㎡/ 40.30坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩20分",
+     "min": "20",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106552047_1_652_555_3.jpg?t=01786352052",
+     "main": true,
+     "local": "data/img/259ba3655d4d4e1cd086.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106552047_2_652_555_3.jpg?t=01786352052",
+     "main": false,
+     "local": "data/img/e0f273879ee46febe5a8.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106552047_3_652_555_3.jpg?t=01786352052",
+     "main": false,
+     "local": "data/img/1a01387a219d46588d43.jpg"
+    }
+   ],
+   "locText": "32.75305800, 130.67714500",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区白藤1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区白藤1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-10T23:59:51.374Z",
+   "lastSeen": "2026-08-11",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-11",
+     "price": "2,298万円"
     }
    ]
   },
@@ -9120,7 +9800,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -9192,7 +9872,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -9264,7 +9944,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9325,7 +10005,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9397,7 +10077,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9469,7 +10149,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9542,7 +10222,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9580,21 +10260,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98173915_1_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98173915_1_652_555_3.jpg?t=01786325270",
      "main": true,
-     "local": "data/img/1ded0bf34c157f4b146e.jpg"
+     "local": "data/img/afb67382ffbaffe337c3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98173915_2_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98173915_2_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/fe537b17e413e12ee118.jpg"
+     "local": "data/img/6e3e1ff8150503583b57.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98173915_3_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98173915_3_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/4e117a0c440a62ec9b6c.jpg"
+     "local": "data/img/ac06de7478678e3e2ecf.jpg"
     }
    ],
    "locText": "32.85395300, 130.85501600",
@@ -9603,7 +10283,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9642,21 +10322,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98174342_1_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98174342_1_652_555_3.jpg?t=01786325270",
      "main": true,
-     "local": "data/img/a0aae419a249f96881bb.jpg"
+     "local": "data/img/3e95524123a145db35e3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98174342_2_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98174342_2_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/da7ca082a0d95546d333.jpg"
+     "local": "data/img/4a236e1875c1f6557da2.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98174342_3_652_555_3.jpg?t=01785119293",
+     "url": "https://cdn.img-asp.jp/bkn/98174342_3_652_555_3.jpg?t=01786325270",
      "main": false,
-     "local": "data/img/8dd80d4cf235febf2abb.jpg"
+     "local": "data/img/2e0ca683b7d65dd75237.jpg"
     }
    ],
    "locText": "32.85395300, 130.85501600",
@@ -9665,7 +10345,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9727,7 +10407,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -9799,7 +10479,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9871,7 +10551,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -9948,7 +10628,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10015,7 +10695,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10082,7 +10762,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -10159,7 +10839,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -10242,7 +10922,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -10319,7 +10999,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10396,7 +11076,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10473,7 +11153,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10550,7 +11230,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10627,7 +11307,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10704,7 +11384,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10781,7 +11461,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10858,7 +11538,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -10935,7 +11615,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -11012,7 +11692,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -12534,7 +13214,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -12617,7 +13297,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12690,7 +13370,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12773,7 +13453,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12865,7 +13545,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -12948,7 +13628,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -13031,7 +13711,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -13102,7 +13782,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13175,7 +13855,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -13258,7 +13938,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13341,7 +14021,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13414,7 +14094,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13497,7 +14177,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13570,7 +14250,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13631,7 +14311,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13704,7 +14384,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-17",
@@ -13787,7 +14467,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13860,7 +14540,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -13943,7 +14623,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -14026,7 +14706,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -14109,7 +14789,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -14192,7 +14872,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -14275,7 +14955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14348,7 +15028,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14421,7 +15101,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14494,7 +15174,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14567,7 +15247,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-27T22:07:06.411Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -14644,7 +15324,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14717,7 +15397,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14790,7 +15470,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -14873,7 +15553,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14946,7 +15626,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15019,7 +15699,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -15090,7 +15770,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-31",
@@ -15173,7 +15853,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-07T01:05:55.774Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15246,7 +15926,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15319,7 +15999,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15392,7 +16072,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15465,7 +16145,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15538,7 +16218,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15611,7 +16291,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15684,7 +16364,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -15767,7 +16447,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15840,7 +16520,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15913,7 +16593,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15986,7 +16666,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -16069,7 +16749,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16142,7 +16822,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16215,7 +16895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-07",
@@ -16239,7 +16919,7 @@
    "id": "sumaiida-5011601000515584786-2",
    "source": "sumaiida",
    "name": "リーブルガーデン中央区渡鹿第二",
-   "price": "3,998万円",
+   "price": "3,898万円",
    "address": "熊本県熊本市 中央区渡鹿３丁目7-15",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515584786-2/",
    "layout": "4LDK",
@@ -16298,12 +16978,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-23",
      "from": "4,098万円",
      "to": "3,998万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "3,998万円",
+     "to": "3,898万円"
     }
    ],
    "priceSnapshots": [
@@ -16314,6 +16999,10 @@
     {
      "date": "2026-07-23",
      "price": "3,998万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "3,898万円"
     }
    ],
    "relistedAt": ""
@@ -16381,7 +17070,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -16405,7 +17094,7 @@
    "id": "sumaiida-5011601000515585627-2",
    "source": "sumaiida",
    "name": "リーブルガーデン合志市須屋第十三",
-   "price": "2,398万円",
+   "price": "2,198万円",
    "address": "熊本県合志市須屋3123-11",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585627-2/",
    "layout": "4LDK",
@@ -16464,12 +17153,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-29",
      "from": "2,498万円",
      "to": "2,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "2,398万円",
+     "to": "2,198万円"
     }
    ],
    "priceSnapshots": [
@@ -16480,6 +17174,10 @@
     {
      "date": "2026-07-29",
      "price": "2,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "2,198万円"
     }
    ],
    "relistedAt": ""
@@ -16547,7 +17245,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -16571,7 +17269,7 @@
    "id": "sumaiida-5011601000515590106-2",
    "source": "sumaiida",
    "name": "リーブルガーデン合志市野々島",
-   "price": "2,598万円",
+   "price": "2,398万円",
    "address": "熊本県合志市野々島5620",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515590106-2/",
    "layout": "4LDK",
@@ -16630,12 +17328,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-29",
      "from": "2,698万円",
      "to": "2,598万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "2,598万円",
+     "to": "2,398万円"
     }
    ],
    "priceSnapshots": [
@@ -16646,6 +17349,10 @@
     {
      "date": "2026-07-29",
      "price": "2,598万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "2,398万円"
     }
    ],
    "relistedAt": ""
@@ -16654,7 +17361,7 @@
    "id": "sumaiida-5011601000515590604-2",
    "source": "sumaiida",
    "name": "リーブルガーデン南区野口１丁目",
-   "price": "2,998万円～3,348万円",
+   "price": "2,998万円～3,248万円",
    "address": "熊本県熊本市 南区野口１丁目16-1",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515590604-2/",
    "layout": "4LDK～5LDK",
@@ -16713,12 +17420,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-05",
      "from": "3,098万円～3,448万円",
      "to": "2,998万円～3,348万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "2,998万円～3,348万円",
+     "to": "2,998万円～3,248万円"
     }
    ],
    "priceSnapshots": [
@@ -16729,6 +17441,10 @@
     {
      "date": "2026-08-05",
      "price": "2,998万円～3,348万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "2,998万円～3,248万円"
     }
    ],
    "relistedAt": ""
@@ -16796,7 +17512,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -16888,7 +17604,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -16912,7 +17628,7 @@
    "id": "sumaiida-5011601000515591138-2",
    "source": "sumaiida",
    "name": "リーブルガーデン南区田井島",
-   "price": "3,398万円",
+   "price": "3,298万円",
    "address": "熊本県熊本市 南区田井島２丁目6-40",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591138-2/",
    "layout": "4LDK",
@@ -16971,7 +17687,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16982,6 +17698,11 @@
      "date": "2026-07-23",
      "from": "3,250万円",
      "to": "3,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "3,398万円",
+     "to": "3,298万円"
     }
    ],
    "priceSnapshots": [
@@ -16996,6 +17717,10 @@
     {
      "date": "2026-07-23",
      "price": "3,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "3,298万円"
     }
    ],
    "relistedAt": ""
@@ -17063,7 +17788,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17136,7 +17861,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -17160,7 +17885,7 @@
    "id": "sumaiida-5011601000515591327-2",
    "source": "sumaiida",
    "name": "リーブルガーデン宇城市不知火町第二",
-   "price": "2,398万円",
+   "price": "2,298万円",
    "address": "熊本県宇城市不知火町 高良293",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591327-2/",
    "layout": "4LDK",
@@ -17219,12 +17944,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-23",
      "from": "2,498万円",
      "to": "2,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "from": "2,398万円",
+     "to": "2,298万円"
     }
    ],
    "priceSnapshots": [
@@ -17235,6 +17965,10 @@
     {
      "date": "2026-07-23",
      "price": "2,398万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "2,298万円"
     }
    ],
    "relistedAt": ""
@@ -17302,7 +18036,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -17394,7 +18128,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17467,7 +18201,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17540,7 +18274,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17554,7 +18288,7 @@
    "id": "sumaiida-5011601000515592771-2",
    "source": "sumaiida",
    "name": "リーブルガーデン合志市須屋第十五",
-   "price": "3,098万円",
+   "price": "2,898万円",
    "address": "熊本県合志市須屋字窪254番1の一部（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515592771-2/",
    "layout": "4LDK",
@@ -17613,12 +18347,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
-   "priceChanges": [],
+   "lastSeen": "2026-08-11",
+   "priceChanges": [
+    {
+     "date": "2026-08-11",
+     "from": "3,098万円",
+     "to": "2,898万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,098万円"
+    },
+    {
+     "date": "2026-08-11",
+     "price": "2,898万円"
     }
    ],
    "relistedAt": ""
@@ -17686,7 +18430,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17759,7 +18503,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17832,7 +18576,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.483Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17847,7 +18591,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン南区良町第十二",
    "price": "3,398万円",
-   "address": "熊本県熊本市 南区良町１丁目146番5の一部ほか（地番）",
+   "address": "熊本県熊本市 南区良町１丁目146番5の一部（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515594974-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -17905,7 +18649,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.484Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17978,7 +18722,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18051,7 +18795,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18124,7 +18868,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18197,7 +18941,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -18280,7 +19024,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -18363,7 +19107,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -18446,7 +19190,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18519,7 +19263,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18592,7 +19336,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18665,7 +19409,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18738,7 +19482,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -18821,7 +19565,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18894,7 +19638,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-31T22:14:13.972Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -18967,14 +19711,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:42:36.731Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-08-10",
      "price": "3,990万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-801270100266284576003-2",
@@ -19039,7 +19784,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:16:56.637Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19112,7 +19857,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19185,7 +19930,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19258,7 +20003,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19331,7 +20076,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-27",
@@ -19414,95 +20159,12 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,180万円～3,480万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "sumaiida-8012701004700250247-2",
-   "source": "sumaiida",
-   "name": "リナージュネクスジー熊本南区薄場町 第１期",
-   "price": "3,590万円",
-   "address": "熊本県熊本市 南区薄場町字野田前41番の一部（地番）",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700250247-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "97.71m²",
-   "landArea": "152.67m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「西熊本」駅まで徒歩10分",
-     "min": "10",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130066853_s1.jpg",
-     "main": true,
-     "local": "data/img/78ae6de326376e673b78.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130066853_s2.jpg",
-     "main": false,
-     "local": "data/img/bafb3d0530ca789ae127.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130066853_s3.jpg",
-     "main": false,
-     "local": "data/img/93106d6c0516d75f0d98.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130066853_s4.jpg",
-     "main": false,
-     "local": "data/img/1cbb8e0af4dd87a55f0c.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130066853_s5.jpg",
-     "main": false,
-     "local": "data/img/c8ab31788bddee843c26.jpg"
-    }
-   ],
-   "locText": "32.76390187328882, 130.67626696171757",
-   "hpText": "アイディホーム株式会社のリナージュネクスジー熊本南区薄場町　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-08-10",
-   "priceChanges": [
-    {
-     "date": "2026-08-10",
-     "from": "1,980万円",
-     "to": "3,590万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-09",
-     "price": "1,980万円"
-    },
-    {
-     "date": "2026-08-10",
-     "price": "3,590万円"
     }
    ],
    "relistedAt": ""
@@ -19570,12 +20232,95 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-07-14",
      "price": "3,530万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-8012701004700250247-2",
+   "source": "sumaiida",
+   "name": "リナージュネクスジー熊本南区薄場町 第１期",
+   "price": "3,590万円",
+   "address": "熊本県熊本市 南区薄場町字野田前41番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700250247-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "97.71m²",
+   "landArea": "152.67m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s1.jpg",
+     "main": true,
+     "local": "data/img/78ae6de326376e673b78.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s2.jpg",
+     "main": false,
+     "local": "data/img/bafb3d0530ca789ae127.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s3.jpg",
+     "main": false,
+     "local": "data/img/93106d6c0516d75f0d98.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s4.jpg",
+     "main": false,
+     "local": "data/img/1cbb8e0af4dd87a55f0c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130066853_s5.jpg",
+     "main": false,
+     "local": "data/img/c8ab31788bddee843c26.jpg"
+    }
+   ],
+   "locText": "32.76390187328882, 130.67626696171757",
+   "hpText": "アイディホーム株式会社のリナージュネクスジー熊本南区薄場町　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-11",
+   "createdAt": "2026-08-08T21:40:16.833Z",
+   "lastSeen": "2026-08-10",
+   "priceChanges": [
+    {
+     "date": "2026-08-10",
+     "from": "1,980万円",
+     "to": "3,590万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-09",
+     "price": "1,980万円"
+    },
+    {
+     "date": "2026-08-10",
+     "price": "3,590万円"
     }
    ],
    "relistedAt": ""
@@ -20389,7 +21134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20466,7 +21211,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20543,7 +21288,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20614,7 +21359,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20691,7 +21436,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20768,7 +21513,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20845,7 +21590,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20922,7 +21667,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20981,7 +21726,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [
     {
      "date": "2026-07-26",
@@ -21068,7 +21813,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21139,7 +21884,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21222,7 +21967,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21299,7 +22044,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21382,7 +22127,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21465,7 +22210,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21548,7 +22293,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21596,15 +22341,15 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1780123901485-680x510.jpg",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/MVIMG_20260418_143523_202604181510-680x507.jpg",
      "main": true,
-     "local": "data/img/56628f0d83d07a6aa8ff.jpg"
+     "local": "data/img/dd341d4bda323314584b.jpg"
     },
     {
      "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/MVIMG_20260418_143523_202604181510-680x507.jpg",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1780123901485-680x510.jpg",
      "main": false,
-     "local": "data/img/dd341d4bda323314584b.jpg"
+     "local": "data/img/56628f0d83d07a6aa8ff.jpg"
     },
     {
      "id": "p3",
@@ -21625,7 +22370,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21702,7 +22447,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21785,7 +22530,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21868,7 +22613,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21951,7 +22696,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22034,7 +22779,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22117,7 +22862,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22200,7 +22945,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22283,7 +23028,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22366,7 +23111,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22443,7 +23188,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22526,7 +23271,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22603,7 +23348,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22680,7 +23425,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22757,7 +23502,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22828,7 +23573,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22899,7 +23644,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-10",
+   "lastSeen": "2026-08-11",
    "priceChanges": [],
    "priceSnapshots": [
     {
