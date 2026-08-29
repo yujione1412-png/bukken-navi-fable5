@@ -3,39 +3,39 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-08-28T05:11:32.728Z",
-   "date": "2026-08-28",
-   "count": 33,
+   "ranAt": "2026-08-29T03:08:22.652Z",
+   "date": "2026-08-29",
+   "count": 32,
    "prevCount": 33,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-08-28",
-   "lastOkCount": 33
+   "lastOkDate": "2026-08-29",
+   "lastOkCount": 32
   },
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-08-28T05:14:31.792Z",
-   "date": "2026-08-28",
+   "ranAt": "2026-08-29T03:11:11.449Z",
+   "date": "2026-08-29",
    "count": 88,
    "prevCount": 88,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-08-28",
+   "lastOkDate": "2026-08-29",
    "lastOkCount": 88
   },
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-08-28T05:18:37.646Z",
-   "date": "2026-08-28",
-   "count": 174,
-   "prevCount": 175,
+   "ranAt": "2026-08-29T03:15:15.923Z",
+   "date": "2026-08-29",
+   "count": 173,
+   "prevCount": 174,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-08-28",
-   "lastOkCount": 174
+   "lastOkDate": "2026-08-29",
+   "lastOkCount": 173
   }
  },
- "updatedAt": "2026-08-28T05:18:37.646Z"
+ "updatedAt": "2026-08-29T03:15:15.923Z"
 }
