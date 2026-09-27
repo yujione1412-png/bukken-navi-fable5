@@ -3,7 +3,7 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-09-26T23:29:07.063Z",
+   "ranAt": "2026-09-27T12:05:52.371Z",
    "date": "2026-09-27",
    "count": 33,
    "prevCount": 33,
@@ -15,10 +15,10 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-09-26T23:31:55.790Z",
+   "ranAt": "2026-09-27T12:08:48.672Z",
    "date": "2026-09-27",
    "count": 83,
-   "prevCount": 80,
+   "prevCount": 83,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-09-27",
@@ -27,15 +27,27 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-09-26T23:35:51.486Z",
+   "ranAt": "2026-09-27T12:12:58.580Z",
    "date": "2026-09-27",
-   "count": 174,
-   "prevCount": 111,
+   "count": 177,
+   "prevCount": 174,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-09-27",
-   "lastOkCount": 174
+   "lastOkCount": 177
+  },
+  "daiei": {
+   "label": "大英産業",
+   "level": "ok",
+   "ranAt": "2026-09-27T12:14:00.011Z",
+   "date": "2026-09-27",
+   "count": 22,
+   "prevCount": 22,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-09-27",
+   "lastOkCount": 22
   }
  },
- "updatedAt": "2026-09-26T23:35:51.486Z"
+ "updatedAt": "2026-09-27T12:14:00.011Z"
 }

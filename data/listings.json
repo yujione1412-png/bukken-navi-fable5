@@ -1,7 +1,2378 @@
 {
- "updatedAt": "2026-09-26T23:35:51.481Z",
- "count": 379,
+ "updatedAt": "2026-09-27T12:14:00.003Z",
+ "count": 406,
  "listings": [
+  {
+   "id": "daiei-1449-3",
+   "source": "daiei",
+   "name": "ヒカリテラス合志北3号地",
+   "price": "3,199万円",
+   "address": "熊本県合志市合生3846-7",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1449-3",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "107.64㎡（32.56坪）",
+   "landArea": "207.76㎡（62.84坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西合志第一小学校",
+   "elementaryMin": "13",
+   "junior": "西合志中学校",
+   "juniorMin": "35",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「御代志」駅",
+     "min": "43",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電気鉄道 辻久保停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "泗水幼稚園",
+     "min": "37",
+     "cat": "other"
+    },
+    {
+     "name": "愛泉保育園",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 合志店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "ローソン 合志辻久保店",
+     "min": "7",
+     "cat": "conbini"
+    },
+    {
+     "name": "辻久保簡易郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "第二ふれあい公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985889_1.jpg",
+     "main": true,
+     "local": "data/img/72ce72adf4f4113c18ff.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985889_2.jpg",
+     "main": false,
+     "local": "data/img/8d46ff43137ec35cb1db.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985889_3.jpg",
+     "main": false,
+     "local": "data/img/ffb63a45d81320f7b4f3.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985889_4.jpg",
+     "main": false,
+     "local": "data/img/6d4c5d0de6a12e3f4448.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985889_5.jpg",
+     "main": false,
+     "local": "data/img/685fc26324d352752b83.jpg"
+    }
+   ],
+   "locText": "32.90704126334379, 130.76244710402418",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\nゆめマート 合志店は便利な徒歩10分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1481-2",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市北区龍田弓削1丁目2号地",
+   "price": "3,199万円",
+   "address": "熊本県熊本市北区龍田弓削１丁目16-48",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1481-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "110.21㎡（33.33坪）",
+   "landArea": "186.75㎡（56.49坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "龍田小学校",
+   "elementaryMin": "13",
+   "junior": "龍田中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅",
+     "min": "15",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 龍田まちづくりセンター前停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "立田幼稚園",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "たつだ保育園",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 龍田店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本龍田7丁目店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "竜田郵便局",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "武蔵塚公園",
+     "min": "1",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_1.jpg",
+     "main": true,
+     "local": "data/img/1fd2fd8fd1f4260e1bcc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_2.jpg",
+     "main": false,
+     "local": "data/img/bde1315f8aa717686e4f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_3.jpg",
+     "main": false,
+     "local": "data/img/5e072430a20ba2920265.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_4.jpg",
+     "main": false,
+     "local": "data/img/ee7d2111b683e3379399.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_5.jpg",
+     "main": false,
+     "local": "data/img/9cf9cd9b951013974a95.jpg"
+    }
+   ],
+   "locText": "32.8435452, 130.7655917",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,399万円→3,199万円\n旧価格公示日：2026年4月20日\n新価格公示日：2026年9月14日\n毎日のお買物に便利な「ゆめマート 龍田店」は徒歩11分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1483-1",
+   "source": "daiei",
+   "name": "アーキデイズ 八代市松崎町1号地",
+   "price": "2,999万円",
+   "address": "熊本県八代市松崎町182-6",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1483-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "103.54㎡（31.32坪）",
+   "landArea": "143.98㎡（43.55坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "松高小学校",
+   "elementaryMin": "6",
+   "junior": "第一中学校",
+   "juniorMin": "15",
+   "facilities": [
+    {
+     "name": "鹿児島本線「八代」駅",
+     "min": "44",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 河原町停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "松高幼稚園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "八代双葉保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "夢彩館あんじぇらす",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "八代松高郵便局",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "公園(約400m)",
+     "min": "",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133161516_1.jpg",
+     "main": true,
+     "local": "data/img/cc69ae3ab501273e257c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133161516_2.jpg",
+     "main": false,
+     "local": "data/img/95500e652f0c211def75.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133161516_3.jpg",
+     "main": false,
+     "local": "data/img/db9636b50a4f07580e2e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133161516_4.jpg",
+     "main": false,
+     "local": "data/img/3c08b3f9fe7c43e65036.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133161516_5.jpg",
+     "main": false,
+     "local": "data/img/49a822fb74b52baa6e79.jpg"
+    }
+   ],
+   "locText": "32.5156342, 130.5918758",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,299万円→2,999万円\n旧価格公示日：2026年1月14日\n新価格公示日：2026年9月14日\nお子様をいつも身近に感じられる安心の松高小学校 徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1499-1",
+   "source": "daiei",
+   "name": "the park 熊本市中央区黒髪5丁目1号地",
+   "price": "4,199万円",
+   "address": "熊本県熊本市中央区黒髪５丁目5-12",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1499-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "98.94㎡（29.92坪）",
+   "landArea": "147.34㎡（44.57坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "黒髪小学校",
+   "elementaryMin": "15",
+   "junior": "桜山中学校",
+   "juniorMin": "3",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 黒髪五丁目停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "黒髪幼愛園",
+     "min": "13",
+     "cat": "other"
+    },
+    {
+     "name": "九州ルーテル学院大学附属・くろかみ保育園",
+     "min": "12",
+     "cat": "other"
+    },
+    {
+     "name": "ＨＩヒロセ スーパーコンボ渡鹿店",
+     "min": "15",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本黒髪5丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本黒髪二郵便局",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "黒髪五丁目公園",
+     "min": "2",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133501025_1.jpg",
+     "main": true,
+     "local": "data/img/59501b45dd9fa755d7a9.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133501025_2.jpg",
+     "main": false,
+     "local": "data/img/fff3366c8db4b1c13963.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133501025_3.jpg",
+     "main": false,
+     "local": "data/img/4f961bf9262009e537dc.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133501025_4.jpg",
+     "main": false,
+     "local": "data/img/49023a0a072fc8aced21.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133501025_5.jpg",
+     "main": false,
+     "local": "data/img/821998f2dddae0071317.jpg"
+    }
+   ],
+   "locText": "32.814907734734476, 130.73138016016784",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n4,399万円→4,199万円\n旧価格公示日：2026年6月5日\n新価格公示日：2026年9月14日\nお子様をいつも身近に感じられる安心の桜山中学校まで徒歩3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1499-2",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市中央区黒髪5丁目2号地",
+   "price": "3,799万円",
+   "address": "熊本県熊本市中央区黒髪５丁目5-13",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1499-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "103.54㎡（31.32坪）",
+   "landArea": "167.96㎡（50.8坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "黒髪小学校",
+   "elementaryMin": "15",
+   "junior": "桜山中学校",
+   "juniorMin": "3",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 黒髪五丁目停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "黒髪幼愛園",
+     "min": "13",
+     "cat": "other"
+    },
+    {
+     "name": "九州ルーテル学院大学附属・くろかみ保育園",
+     "min": "12",
+     "cat": "other"
+    },
+    {
+     "name": "ＨＩヒロセ スーパーコンボ渡鹿店",
+     "min": "15",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本黒髪5丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本黒髪二郵便局",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "黒髪五丁目公園",
+     "min": "2",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133269407_1.jpg",
+     "main": true,
+     "local": "data/img/c824bd002db5a89a2107.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133269407_2.jpg",
+     "main": false,
+     "local": "data/img/207e1c24ccaeaf511d13.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133269407_3.jpg",
+     "main": false,
+     "local": "data/img/02b4c0d0f3b7112250d5.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133269407_4.jpg",
+     "main": false,
+     "local": "data/img/251514d042a9621255ac.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133269407_5.jpg",
+     "main": false,
+     "local": "data/img/c2dec227b80265636196.jpg"
+    }
+   ],
+   "locText": "32.81489044009492, 130.73139260732668",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\nお子様をいつも身近に感じられる安心の桜山中学校まで徒歩3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,799万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1508-1",
+   "source": "daiei",
+   "name": "ONEHOUSE 熊本市北区植木町岩野1号地",
+   "price": "2,999万円",
+   "address": "熊本県熊本市北区植木町岩野422-11",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1508-1",
+   "layout": "4SLDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "119.24㎡（36.07坪）",
+   "landArea": "201.72㎡（61.02坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "山東小学校",
+   "elementaryMin": "30",
+   "junior": "五霊中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "鹿児島本線「植木」駅",
+     "min": "53",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス ビレッジハウス前停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "植木中央幼稚園",
+     "min": "18",
+     "cat": "other"
+    },
+    {
+     "name": "スマイスセレソン熊本保育園",
+     "min": "20",
+     "cat": "other"
+    },
+    {
+     "name": "マルキョウ 植木店",
+     "min": "13",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート TSUTAYA植木店",
+     "min": "17",
+     "cat": "conbini"
+    },
+    {
+     "name": "植木郵便局",
+     "min": "23",
+     "cat": "other"
+    },
+    {
+     "name": "植木中央公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133301713_1.jpg",
+     "main": true,
+     "local": "data/img/9a878c3896a3aa84d7b7.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133301713_2.jpg",
+     "main": false,
+     "local": "data/img/e2ea764a0acfec4fcbf7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133301713_3.jpg",
+     "main": false,
+     "local": "data/img/700e33e4ebc7dd698f7f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133301713_4.jpg",
+     "main": false,
+     "local": "data/img/588f275a3a0e0221a2e8.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133301713_5.jpg",
+     "main": false,
+     "local": "data/img/22823c860a31777d48ea.jpg"
+    }
+   ],
+   "locText": "32.9034087706912, 130.70268744676565",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,299万円→2,999万円\n旧価格公示日：2026年6月9日\n新価格公示日：2026年9月14日\n徒歩13分の「マルキョウ 植木店」は豊富な品揃え",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1529-1",
+   "source": "daiei",
+   "name": "熊本市南区島町2丁目1号地",
+   "price": "3,199万円",
+   "address": "熊本県熊本市南区島町２丁目17-31",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1529-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "107.8㎡（32.6坪）",
+   "landArea": "126.7㎡（38.32坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "力合西小学校",
+   "elementaryMin": "12",
+   "junior": "力合中学校",
+   "juniorMin": "8",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 島団地入口停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "仁愛幼育園",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "なないろこども園",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "マックスバリュ 西熊本店",
+     "min": "5",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 熊本薄場三丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "野口簡易郵便局",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "島町公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133380400_1.jpg",
+     "main": true,
+     "local": "data/img/87ca7808e088ad06b934.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133380400_2.jpg",
+     "main": false,
+     "local": "data/img/615e2daac758a22119c1.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133380400_3.jpg",
+     "main": false,
+     "local": "data/img/e148d5113df348a2ca04.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133380400_4.jpg",
+     "main": false,
+     "local": "data/img/d3aac28fff5b85fec107.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133380400_5.jpg",
+     "main": false,
+     "local": "data/img/b54a9a5cef1a06c58344.jpg"
+    }
+   ],
+   "locText": "32.7660768, 130.6791890",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,299万円→3,199万円\n旧価格公示日：2026年4月10日\n新価格公示日：2026年9月14日\nお子様をいつも身近に感じられる安心の仁愛幼育園まで徒歩4分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1541-3",
+   "source": "daiei",
+   "name": "サンコート 上益城郡嘉島町上六嘉3号地",
+   "price": "3,299万円",
+   "address": "熊本県上益城郡嘉島町大字上六嘉1052東側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1541-3",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "112.61㎡（34.06坪）",
+   "landArea": "209.58㎡（63.39坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "嘉島東小学校",
+   "elementaryMin": "19",
+   "junior": "嘉島中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅",
+     "min": "65",
+     "cat": "station"
+    },
+    {
+     "name": "熊本バス 西村入口停",
+     "min": "10",
+     "cat": "bus"
+    },
+    {
+     "name": "かしま幼稚園",
+     "min": "17",
+     "cat": "other"
+    },
+    {
+     "name": "嘉島保育園",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "業務スーパー嘉島上島店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 嘉島上島店",
+     "min": "13",
+     "cat": "conbini"
+    },
+    {
+     "name": "六嘉郵便局",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "嘉島町児童公園",
+     "min": "1",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133456923_1.jpg",
+     "main": true,
+     "local": "data/img/4bfe7aa14e85ff7c532c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133456923_2.jpg",
+     "main": false,
+     "local": "data/img/fef65dfae104662e8c52.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133456923_3.jpg",
+     "main": false,
+     "local": "data/img/83c0472b35e5108ea926.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133456923_4.jpg",
+     "main": false,
+     "local": "data/img/34806a08db0eab05963e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133456923_5.jpg",
+     "main": false,
+     "local": "data/img/42847300558bb380aaa1.jpg"
+    }
+   ],
+   "locText": "32.73886440131711, 130.76540371176424",
+   "locPrec": "",
+   "hpText": "我が家の庭感覚で利用できそうな嘉島町児童公園まで徒歩1分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,299万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1545-1",
+   "source": "daiei",
+   "name": "サンコート 熊本市西区高橋町1丁目1号地",
+   "price": "3,299万円",
+   "address": "熊本県熊本市西区高橋町１丁目9-11",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1545-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "120.06㎡（36.31坪）",
+   "landArea": "171.07㎡（51.74坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "高橋小学校",
+   "elementaryMin": "1",
+   "junior": "三和中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "鹿児島本線「熊本」駅",
+     "min": "49",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 稲荷入口停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "城山幼稚園",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "城高保育園",
+     "min": "2",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 城山店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本城山半田店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "高橋郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "城山大塘公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477607_1.jpg",
+     "main": true,
+     "local": "data/img/ff54314d65bc818a1d2c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477607_2.jpg",
+     "main": false,
+     "local": "data/img/5bf0d339e543bf88208d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477607_3.jpg",
+     "main": false,
+     "local": "data/img/d93f10cad26616a71ee9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477607_4.jpg",
+     "main": false,
+     "local": "data/img/e9bf8ca91490b63ec7e7.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477607_5.jpg",
+     "main": false,
+     "local": "data/img/73606a6976de7b1f8130.jpg"
+    }
+   ],
+   "locText": "32.7844526, 130.6557389",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,399万円→3,299万円\n旧価格公示日：2026年6月5日\n新価格公示日：2026年9月14日\n小さなお子様も無理なく通える「高橋小学校」は徒歩1分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,299万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1545-2",
+   "source": "daiei",
+   "name": "サンコート 熊本市西区高橋町1丁目2号地",
+   "price": "3,199万円",
+   "address": "熊本県熊本市西区高橋町１丁目9-11",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1545-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "96.88㎡（29.3坪）",
+   "landArea": "171.07㎡（51.74坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "高橋小学校",
+   "elementaryMin": "1",
+   "junior": "三和中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "鹿児島本線「熊本」駅",
+     "min": "49",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 稲荷入口停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "城山幼稚園",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "城高保育園",
+     "min": "2",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 城山店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本城山半田店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "高橋郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "城山大塘公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477610_1.jpg",
+     "main": true,
+     "local": "data/img/e4ad2483e572ee2d8f92.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477610_2.jpg",
+     "main": false,
+     "local": "data/img/9d7720fe9e88b4fb9ea3.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477610_3.jpg",
+     "main": false,
+     "local": "data/img/363d9e0ea3d99158363e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477610_4.jpg",
+     "main": false,
+     "local": "data/img/24b2298dfea48deabce5.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133477610_5.jpg",
+     "main": false,
+     "local": "data/img/e880ff9dd7e903d43349.jpg"
+    }
+   ],
+   "locText": "32.7844526, 130.6557389",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,299万円→3,199万円\n旧価格公示日：2026年6月5日\n新価格公示日：2026年9月14日\nお子様をいつも身近に感じられる安心の城高保育園まで徒歩2分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1574-3",
+   "source": "daiei",
+   "name": "アーキデイズ 八代市松崎町3号地",
+   "price": "3,499万円",
+   "address": "熊本県八代市松崎町44北側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1574-3",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.63㎡（32.86坪）",
+   "landArea": "230.37㎡（69.68坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "松高小学校",
+   "elementaryMin": "10",
+   "junior": "第一中学校",
+   "juniorMin": "7",
+   "facilities": [
+    {
+     "name": "鹿児島本線「八代」駅",
+     "min": "37",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 松崎停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "代陽幼稚園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "八代ひかり保育園",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "夢彩館あんじぇらす",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "ローソン 八代松江町店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "八代八幡町郵便局",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "松崎公園",
+     "min": "10",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533560517_1.jpg",
+     "main": true,
+     "local": "data/img/84388c4dc9c6fe395519.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533560517_2.jpg",
+     "main": false,
+     "local": "data/img/07b51b01245a90ff4c85.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533560517_3.jpg",
+     "main": false,
+     "local": "data/img/fe14bc3db8941162d72e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533560517_4.jpg",
+     "main": false,
+     "local": "data/img/16f55063c1775516404c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533560517_5.jpg",
+     "main": false,
+     "local": "data/img/8740a069e1ad71e43188.jpg"
+    }
+   ],
+   "locText": "32.51169291682144, 130.59439700829006",
+   "locPrec": "",
+   "hpText": "毎日のお買物に便利な「夢彩館あんじぇらす」は徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,499万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1575-1",
+   "source": "daiei",
+   "name": "アーキデイズ 上益城郡益城町広崎1号地",
+   "price": "3,799万円",
+   "address": "熊本県上益城郡益城町大字広崎694-5",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1575-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年3月",
+   "buildingArea": "98.54㎡（29.8坪）",
+   "landArea": "155.68㎡（47.09坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "24",
+   "junior": "益城中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅",
+     "min": "35",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 広崎停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "湖東学園幼保連携型認定こども園とうぶ",
+     "min": "30",
+     "cat": "other"
+    },
+    {
+     "name": "益城町立第一保育所",
+     "min": "13",
+     "cat": "other"
+    },
+    {
+     "name": "スーパーセンタートライアル益城台店",
+     "min": "19",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 熊本益城広崎店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "秋津郵便局",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "小楠公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624922_1.jpg",
+     "main": true,
+     "local": "data/img/37cde9cec0ed1f8f572a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624922_2.jpg",
+     "main": false,
+     "local": "data/img/5abcee0582639d2574ef.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624922_3.jpg",
+     "main": false,
+     "local": "data/img/41b2ad1707e3e0d2333b.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624922_4.jpg",
+     "main": false,
+     "local": "data/img/9c04a4b4f80d813896a1.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624922_5.jpg",
+     "main": false,
+     "local": "data/img/b05a7005306a255ee0ed.jpg"
+    }
+   ],
+   "locText": "32.7781682, 130.7888261",
+   "locPrec": "",
+   "hpText": "ファミリーマート 熊本益城広崎店まで徒歩4分 は24時間営業で急な買い忘れにも安心",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,799万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1575-2",
+   "source": "daiei",
+   "name": "サンコート 上益城郡益城町広崎2号地",
+   "price": "3,699万円",
+   "address": "熊本県上益城郡益城町大字広崎694-5",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1575-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "136.65㎡（41.33坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "24",
+   "junior": "益城中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅",
+     "min": "35",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 広崎停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "湖東学園幼保連携型認定こども園とうぶ",
+     "min": "30",
+     "cat": "other"
+    },
+    {
+     "name": "益城町立第一保育所",
+     "min": "13",
+     "cat": "other"
+    },
+    {
+     "name": "スーパーセンタートライアル益城台店",
+     "min": "19",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 熊本益城広崎店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "秋津郵便局",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "小楠公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533562492_1.jpg",
+     "main": true,
+     "local": "data/img/fe61f3d290ee0db96401.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533562492_2.jpg",
+     "main": false,
+     "local": "data/img/aa8af32e04473ecd408e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533562492_3.jpg",
+     "main": false,
+     "local": "data/img/50e1b9c059fffa3fde68.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533562492_4.jpg",
+     "main": false,
+     "local": "data/img/8a53905ce321ac561d48.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533562492_5.jpg",
+     "main": false,
+     "local": "data/img/6d5e1c518da89209cbfb.jpg"
+    }
+   ],
+   "locText": "32.7781682, 130.7888261",
+   "locPrec": "",
+   "hpText": "小さなお子様も無理なく通える「益城町立第一保育所」は徒歩13分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,699万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1577-1",
+   "source": "daiei",
+   "name": "サンコート 熊本市南区平田2丁目1号地",
+   "price": "4,199万円",
+   "address": "熊本県熊本市南区平田２丁目20-8東側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1577-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "137.18㎡（41.49坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "日吉東小学校",
+   "elementaryMin": "12",
+   "junior": "日吉中学校",
+   "juniorMin": "15",
+   "facilities": [
+    {
+     "name": "豊肥本線「平成」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 平田町停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ルンビニー幼稚園",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "愛保育園",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 近見店",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本上近見店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本平田郵便局",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "ふれあい広場",
+     "min": "6",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133568859_1.jpg",
+     "main": true,
+     "local": "data/img/6de89a3b003cebb65feb.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133568859_2.jpg",
+     "main": false,
+     "local": "data/img/8f4ba8c63ace92fe8354.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133568859_3.jpg",
+     "main": false,
+     "local": "data/img/7966dd33047432afae21.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133568859_4.jpg",
+     "main": false,
+     "local": "data/img/24883284b069a4d08e88.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133568859_5.jpg",
+     "main": false,
+     "local": "data/img/fb3776e7a44220e24f95.jpg"
+    }
+   ],
+   "locText": "32.77117309848263, 130.69511353969574",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n旬の食材が豊富に揃う「ゆめマート 近見店」は徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,199万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1577-2",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市南区平田2丁目2号地",
+   "price": "4,299万円",
+   "address": "熊本県熊本市南区平田２丁目20-8東側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1577-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.57㎡（31.93坪）",
+   "landArea": "137.18㎡（41.49坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "日吉東小学校",
+   "elementaryMin": "12",
+   "junior": "日吉中学校",
+   "juniorMin": "15",
+   "facilities": [
+    {
+     "name": "豊肥本線「平成」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 平田町停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ルンビニー幼稚園",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "愛保育園",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 近見店",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本上近見店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本平田郵便局",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "ふれあい広場",
+     "min": "6",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624921_1.jpg",
+     "main": true,
+     "local": "data/img/cf243f9905f0376c96a2.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624921_2.jpg",
+     "main": false,
+     "local": "data/img/f421bfb047bcc87da5b2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624921_3.jpg",
+     "main": false,
+     "local": "data/img/1e8260e06030bfccdff1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624921_4.jpg",
+     "main": false,
+     "local": "data/img/44e2b97c9c3583a8521d.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133624921_5.jpg",
+     "main": false,
+     "local": "data/img/f99b73e2a6c41c6c5a84.jpg"
+    }
+   ],
+   "locText": "32.77117309848263, 130.69511353969574",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n旬の食材が豊富に揃う「ゆめマート 近見店」は徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,299万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1580-1",
+   "source": "daiei",
+   "name": "アーキデイズ熊本市東区秋津1丁目1号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市東区秋津１丁目4-63",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1580-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "109.3㎡（33.06坪）",
+   "landArea": "261.29㎡（79.04坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "秋津小学校",
+   "elementaryMin": "10",
+   "junior": "東野中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅",
+     "min": "20",
+     "cat": "station"
+    },
+    {
+     "name": "熊本バス 中無田停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "聖マリア会聖母幼愛園",
+     "min": "17",
+     "cat": "other"
+    },
+    {
+     "name": "カトレア保育園",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "マルミヤストア 秋津店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本秋津2丁目店",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本若葉四郵便局",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "秋津三丁目公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133574144_1.jpg",
+     "main": true,
+     "local": "data/img/06a6e7632387a0b93eda.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133574144_2.jpg",
+     "main": false,
+     "local": "data/img/dae7521527bd8e8fc736.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133574144_3.jpg",
+     "main": false,
+     "local": "data/img/87fef14c643d6e3dde8c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133574144_4.jpg",
+     "main": false,
+     "local": "data/img/16037d57592736cc79be.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133574144_5.jpg",
+     "main": false,
+     "local": "data/img/b2f81ad3fa691b2ff966.jpg"
+    }
+   ],
+   "locText": "32.7685580, 130.7675933",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n徒歩10分の「秋津小学校」は忙しい子育て家族の味方",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1584-3",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市北区清水新地6丁目3号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市北区清水新地６丁目5-73",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1584-3",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "174.97㎡（52.92坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "麻生田小学校",
+   "elementaryMin": "6",
+   "junior": "清水中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「新須屋」駅",
+     "min": "11",
+     "cat": "station"
+    },
+    {
+     "name": "電鉄バス 杉下停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "城北幼稚園",
+     "min": "13",
+     "cat": "other"
+    },
+    {
+     "name": "麻生田保育園",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "マルショク サンリブしみず店",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本清水新地３丁目店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本新地郵便局",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "新地菅原公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133586022_1.jpg",
+     "main": true,
+     "local": "data/img/11967cb933c49e70b7d7.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133586022_2.jpg",
+     "main": false,
+     "local": "data/img/39b8e2a76272b2b6672f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133586022_3.jpg",
+     "main": false,
+     "local": "data/img/95b5c7842845e9047808.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133586022_4.jpg",
+     "main": false,
+     "local": "data/img/02c738a2eb7e790bee94.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133586022_5.jpg",
+     "main": false,
+     "local": "data/img/81418db8bcd9a66d0cc0.jpg"
+    }
+   ],
+   "locText": "32.8504729, 130.7398562",
+   "locPrec": "",
+   "hpText": "お子様をいつも身近に感じられる安心の麻生田小学校まで徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1585-1",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市東区吉原町1号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市東区吉原町3南側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1585-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年3月",
+   "buildingArea": "104.34㎡（31.56坪）",
+   "landArea": "200.52㎡（60.65坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "託麻北小学校",
+   "elementaryMin": "13",
+   "junior": "東部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅",
+     "min": "19",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 神園入口停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "木の葉こども園",
+     "min": "12",
+     "cat": "other"
+    },
+    {
+     "name": "供合保育園",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "ミスターマックス 熊本インター店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "デイリーヤマザキ 熊本託麻北店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "供合郵便局",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "石原町公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133643593_1.jpg",
+     "main": true,
+     "local": "data/img/60c689eda0085364e295.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133643593_2.jpg",
+     "main": false,
+     "local": "data/img/23b5cdd228218308c615.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133643593_3.jpg",
+     "main": false,
+     "local": "data/img/76d3c6609505c10e474d.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133643593_4.jpg",
+     "main": false,
+     "local": "data/img/25e08fd98cc09d770e6c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133643593_5.jpg",
+     "main": false,
+     "local": "data/img/d1384d54f78718985e8b.jpg"
+    }
+   ],
+   "locText": "32.84573417548936, 130.77811038890025",
+   "locPrec": "",
+   "hpText": "供合郵便局までは便利な徒歩6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1585-2",
+   "source": "daiei",
+   "name": "サンコート 熊本市東区吉原町2号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市東区吉原町3南側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1585-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "120.06㎡（36.31坪）",
+   "landArea": "208.17㎡（62.97坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "託麻北小学校",
+   "elementaryMin": "13",
+   "junior": "東部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅",
+     "min": "19",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 神園入口停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "木の葉こども園",
+     "min": "12",
+     "cat": "other"
+    },
+    {
+     "name": "供合保育園",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "ミスターマックス 熊本インター店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "デイリーヤマザキ 熊本託麻北店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "供合郵便局",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "石原町公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133598709_1.jpg",
+     "main": true,
+     "local": "data/img/2748d30da28b5531f6f6.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133598709_2.jpg",
+     "main": false,
+     "local": "data/img/26bad94d202833b43390.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133598709_3.jpg",
+     "main": false,
+     "local": "data/img/082455ba750d2079b154.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133598709_4.jpg",
+     "main": false,
+     "local": "data/img/b9805fc3a307895c669b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133598709_5.jpg",
+     "main": false,
+     "local": "data/img/9528f9a0fb68bfebe608.jpg"
+    }
+   ],
+   "locText": "32.84573417548936, 130.77811038890025",
+   "locPrec": "",
+   "hpText": "ミスターマックス 熊本インター店は便利な徒歩10分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1600-1",
+   "source": "daiei",
+   "name": "サンコート 八代市島田町1号地",
+   "price": "3,549万円",
+   "address": "熊本県八代市島田町960-2南側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1600-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "120.06㎡（36.31坪）",
+   "landArea": "249.09㎡（75.34坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "太田郷小学校",
+   "elementaryMin": "27",
+   "junior": "第二中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "鹿児島本線「新八代」駅",
+     "min": "9",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 島田町停",
+     "min": "1",
+     "cat": "bus"
+    },
+    {
+     "name": "八代白百合学園幼稚園",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "わかあゆ保育園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "生鮮広場トップ",
+     "min": "17",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 八代海士江町店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "千丁郵便局",
+     "min": "18",
+     "cat": "other"
+    },
+    {
+     "name": "新八代駅がめさん公園",
+     "min": "19",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651889_1.jpg",
+     "main": true,
+     "local": "data/img/112526c3d7c20fa95f88.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651889_2.jpg",
+     "main": false,
+     "local": "data/img/bd000d8f69e45f1211e9.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651889_3.jpg",
+     "main": false,
+     "local": "data/img/e8da24dee3e633c01e23.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651889_4.jpg",
+     "main": false,
+     "local": "data/img/667d755ec3b970b589ce.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651889_5.jpg",
+     "main": false,
+     "local": "data/img/2642ec3bb8c55847a96c.jpg"
+    }
+   ],
+   "locText": "32.52331344685229, 130.63469883562897",
+   "locPrec": "",
+   "hpText": "お子様をいつも身近に感じられる安心のわかあゆ保育園まで徒歩9分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,549万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1600-2",
+   "source": "daiei",
+   "name": "アーキデイズ 八代市島田町2号地",
+   "price": "3,599万円",
+   "address": "熊本県八代市島田町960-2南側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1600-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "109.3㎡（33.06坪）",
+   "landArea": "260.87㎡（78.91坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "太田郷小学校",
+   "elementaryMin": "27",
+   "junior": "第二中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "鹿児島本線「新八代」駅",
+     "min": "9",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 島田町停",
+     "min": "1",
+     "cat": "bus"
+    },
+    {
+     "name": "八代白百合学園幼稚園",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "わかあゆ保育園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "生鮮広場トップ",
+     "min": "17",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 八代海士江町店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "千丁郵便局",
+     "min": "18",
+     "cat": "other"
+    },
+    {
+     "name": "新八代駅がめさん公園",
+     "min": "19",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651890_1.jpg",
+     "main": true,
+     "local": "data/img/4a5e5b50215d4c2c2b1c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651890_2.jpg",
+     "main": false,
+     "local": "data/img/5486547d9e14a8ca2d68.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651890_3.jpg",
+     "main": false,
+     "local": "data/img/1d8b34c1f94049ec28a3.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651890_4.jpg",
+     "main": false,
+     "local": "data/img/c9c53366292abf53263d.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00533651890_5.jpg",
+     "main": false,
+     "local": "data/img/23cfbb0a15d450432e27.jpg"
+    }
+   ],
+   "locText": "32.52329410510421, 130.63430408763926",
+   "locPrec": "",
+   "hpText": "お子様をいつも身近に感じられる安心のわかあゆ保育園まで徒歩9分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,599万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1602-1",
+   "source": "daiei",
+   "name": "アーキデイズ 上益城郡益城町福富1号地",
+   "price": "3,999万円",
+   "address": "熊本県上益城郡益城町大字福富853-6東側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1602-1",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年4月",
+   "buildingArea": "114.27㎡（34.56坪）",
+   "landArea": "159.57㎡（48.26坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "11",
+   "junior": "益城中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅",
+     "min": "49",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 惣領停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "あじさい保育幼稚園",
+     "min": "23",
+     "cat": "other"
+    },
+    {
+     "name": "ひろやす保育園",
+     "min": "2",
+     "cat": "other"
+    },
+    {
+     "name": "アタックス 益城店",
+     "min": "8",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン 益城広安小入口店",
+     "min": "7",
+     "cat": "conbini"
+    },
+    {
+     "name": "惣領郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "そうりょうパーク",
+     "min": "1",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133659249_1.jpg",
+     "main": true,
+     "local": "data/img/f6e8cd8d1bbcfc821a9a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133659249_2.jpg",
+     "main": false,
+     "local": "data/img/595f9ace43dd7b9d8c26.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133659249_3.jpg",
+     "main": false,
+     "local": "data/img/8985e7d27182af859950.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133659249_4.jpg",
+     "main": false,
+     "local": "data/img/654e605701bfe0fa41ec.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133659249_5.jpg",
+     "main": false,
+     "local": "data/img/d8904f294d3515b9beac.jpg"
+    }
+   ],
+   "locText": "32.78415463812989, 130.79770311603275",
+   "locPrec": "",
+   "hpText": "アタックス 益城店は便利な徒歩8分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,999万円"
+    }
+   ]
+  },
   {
    "id": "yokatown-100649276",
    "source": "yokatown",
@@ -9494,68 +11865,6 @@
    "relistedAt": ""
   },
   {
-   "id": "yokatown-106622605",
-   "source": "yokatown",
-   "name": "宇城市松橋町曲野1期2号棟",
-   "price": "2,698万円",
-   "address": "熊本県宇城市松橋町曲野字寺尾3014番3",
-   "detailUrl": "https://bukken.yoka-town.com/room106622605.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年10月",
-   "buildingArea": "178.65㎡/ 54.04坪",
-   "landArea": "178.65㎡/ 54.04坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「松橋」駅 徒歩41分",
-     "min": "41",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106622605_1_652_555_3.jpg?t=01789345670",
-     "main": true,
-     "local": "data/img/4389116bdd0bbb5744ff.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106622605_2_652_555_3.jpg?t=01789345670",
-     "main": false,
-     "local": "data/img/feb138b7a56dea9cefa0.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106622605_3_652_555_3.jpg?t=01789345670",
-     "main": false,
-     "local": "data/img/a566036e8e816a847665.jpg"
-    }
-   ],
-   "locText": "32.65725900, 130.70000100",
-   "locPrec": "",
-   "hpText": "こちらは、宇城市松橋町曲野1期2号棟の物件詳細ページとなっております。よかタウンおすすめの宇城市松橋町曲野1期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-09-27",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-16",
-     "price": "2,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
    "id": "yokatown-106622742",
    "source": "yokatown",
    "name": "宇城市松橋町曲野1期3号棟",
@@ -11169,7 +13478,8 @@
      "date": "2026-09-27",
      "price": "4,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107776454",
@@ -11229,6 +13539,251 @@
     {
      "date": "2026-09-27",
      "price": "4,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107798653",
+   "source": "yokatown",
+   "name": "熊本市東区戸島西1丁目3期1号棟",
+   "price": "3,898万円",
+   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107798653.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "108.06㎡/ 32.68坪",
+   "landArea": "164.02㎡/ 49.61坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_1_652_555_3.jpg?t=01790491337",
+     "main": true,
+     "local": "data/img/3b540b49b8def2285d6c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_2_652_555_3.jpg?t=01790491337",
+     "main": false,
+     "local": "data/img/4ed5b58c9a7a49d4da0f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_3_652_555_3.jpg?t=01790491337",
+     "main": false,
+     "local": "data/img/2aa92e1c3398390b2edf.jpg"
+    }
+   ],
+   "locText": "32.80972100, 130.78504800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島西1丁目3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,898万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107799897",
+   "source": "yokatown",
+   "name": "熊本市東区戸島西1丁目3期2号棟",
+   "price": "3,798万円",
+   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107799897.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "108.88㎡/ 32.93坪",
+   "landArea": "166.48㎡/ 50.35坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_1_652_555_3.jpg?t=01790493249",
+     "main": true,
+     "local": "data/img/63348ee8788d036b4566.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_2_652_555_3.jpg?t=01790493249",
+     "main": false,
+     "local": "data/img/cae5d8c7625a9ac1cd66.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_3_652_555_3.jpg?t=01790493249",
+     "main": false,
+     "local": "data/img/37e67d30dd422042cbb7.jpg"
+    }
+   ],
+   "locText": "32.80972100, 130.78504800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島西1丁目3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,798万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107801830",
+   "source": "yokatown",
+   "name": "熊本市中央区島崎1丁目2期1号棟",
+   "price": "4,198万円",
+   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107801830.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "173.60㎡/ 52.51坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電B系統「段山町」駅 徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_1_652_555_3.jpg?t=01790496748",
+     "main": true,
+     "local": "data/img/9ca3de3daf544986ef37.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_2_652_555_3.jpg?t=01790496748",
+     "main": false,
+     "local": "data/img/643b1f985554330cc14b.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_3_652_555_3.jpg?t=01790496748",
+     "main": false,
+     "local": "data/img/44674309ba45a3959e06.jpg"
+    }
+   ],
+   "locText": "32.80638500, 130.69167800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区島崎1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,198万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107802001",
+   "source": "yokatown",
+   "name": "熊本市中央区島崎1丁目2期2号棟",
+   "price": "4,398万円",
+   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107802001.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.47㎡/ 32.81坪",
+   "landArea": "160.55㎡/ 48.56坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電B系統「段山町」駅 徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_1_652_555_3.jpg?t=01790497111",
+     "main": true,
+     "local": "data/img/c5c4e761d4e079dde7ff.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_2_652_555_3.jpg?t=01790497111",
+     "main": false,
+     "local": "data/img/35f9646498569b26cf03.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_3_652_555_3.jpg?t=01790497111",
+     "main": false,
+     "local": "data/img/7b19992cab7232e135f0.jpg"
+    }
+   ],
+   "locText": "32.80638500, 130.69167800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区島崎1丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.575Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,398万円"
     }
    ]
   },
@@ -13080,6 +15635,68 @@
     }
    ],
    "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106622605",
+   "source": "yokatown",
+   "name": "宇城市松橋町曲野1期2号棟",
+   "price": "2,698万円",
+   "address": "熊本県宇城市松橋町曲野字寺尾3014番3",
+   "detailUrl": "https://bukken.yoka-town.com/room106622605.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "178.65㎡/ 54.04坪",
+   "landArea": "178.65㎡/ 54.04坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅 徒歩41分",
+     "min": "41",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106622605_1_652_555_3.jpg?t=01789345670",
+     "main": true,
+     "local": "data/img/4389116bdd0bbb5744ff.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106622605_2_652_555_3.jpg?t=01789345670",
+     "main": false,
+     "local": "data/img/feb138b7a56dea9cefa0.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106622605_3_652_555_3.jpg?t=01789345670",
+     "main": false,
+     "local": "data/img/a566036e8e816a847665.jpg"
+    }
+   ],
+   "locText": "32.65725900, 130.70000100",
+   "locPrec": "",
+   "hpText": "こちらは、宇城市松橋町曲野1期2号棟の物件詳細ページとなっております。よかタウンおすすめの宇城市松橋町曲野1期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-27",
+   "createdAt": "2026-08-15T21:34:51.195Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-16",
+     "price": "2,698万円"
+    }
+   ],
    "relistedAt": ""
   },
   {
@@ -16952,7 +19569,8 @@
      "date": "2026-09-27",
      "price": "3,790万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-2012701004557256130-2",
@@ -17838,89 +20456,6 @@
     {
      "date": "2026-09-27",
      "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "sumaiida-2012701004557273680-2",
-   "source": "sumaiida",
-   "name": "クレイドルガーデン熊本市東区御領 第7",
-   "price": "2,880万円",
-   "address": "熊本県熊本市 東区御領３丁目535番6（地番）",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557273680-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年5月",
-   "buildingArea": "98.82m²",
-   "landArea": "133.04m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅まで徒歩47分",
-     "min": "47",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130063561_3.jpg",
-     "main": true,
-     "local": "data/img/2b5fd9b82e78934767e8.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130063561_4.jpg",
-     "main": false,
-     "local": "data/img/5686e9b7926a364736b0.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130063561_5.jpg",
-     "main": false,
-     "local": "data/img/24347e3459b1beba28a6.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130063561_6.jpg",
-     "main": false,
-     "local": "data/img/db5bc5f04ef707f501cc.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130063561_10.jpg",
-     "main": false,
-     "local": "data/img/be6436583f4c58e4f535.jpg"
-    }
-   ],
-   "locText": "32.826733, 130.769725",
-   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市東区御領 第7の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-09-27",
-   "priceChanges": [
-    {
-     "date": "2026-08-19",
-     "from": "2,980万円",
-     "to": "2,880万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,980万円"
-    },
-    {
-     "date": "2026-08-19",
-     "price": "2,880万円"
     }
    ],
    "relistedAt": ""
@@ -19555,7 +22090,8 @@
      "date": "2026-09-27",
      "price": "2,380万円～2,580万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-2012701004557296627-2",
@@ -19773,7 +22309,8 @@
      "date": "2026-09-27",
      "price": "2,480万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-5011601000515585219-2",
@@ -22542,6 +25079,78 @@
    "relistedAt": ""
   },
   {
+   "id": "sumaiida-801270100266284576007-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン合志市須屋１９期１棟",
+   "price": "3,890万円",
+   "address": "熊本県合志市須屋字三町野2738番99(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284576007-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "115.72m²",
+   "landArea": "186.41m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「黒石」駅まで徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130069268_3.jpg",
+     "main": true,
+     "local": "data/img/7803a0f5b6ed7badfd4e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130069268_4.jpg",
+     "main": false,
+     "local": "data/img/8d7240d2a83f09f61fe7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130069268_5.jpg",
+     "main": false,
+     "local": "data/img/9744b988ac6cd680959c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130069268_6.jpg",
+     "main": false,
+     "local": "data/img/14ca0fb08d915dfbb275.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130069268_10.jpg",
+     "main": false,
+     "local": "data/img/597e92e1b253666e50e2.jpg"
+    }
+   ],
+   "locText": "32.87119306, 130.7500996",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン合志市須屋１９期１棟の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:08:48.667Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,890万円"
+    }
+   ]
+  },
+  {
    "id": "sumaiida-8012701004700240450-2",
    "source": "sumaiida",
    "name": "リナージュネクスジー菊池西寺 第１期",
@@ -23094,6 +25703,89 @@
     {
      "date": "2026-09-02",
      "price": "2,890万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-2012701004557273680-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン熊本市東区御領 第7",
+   "price": "2,880万円",
+   "address": "熊本県熊本市 東区御領３丁目535番6（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557273680-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年5月",
+   "buildingArea": "98.82m²",
+   "landArea": "133.04m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅まで徒歩47分",
+     "min": "47",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_3.jpg",
+     "main": true,
+     "local": "data/img/2b5fd9b82e78934767e8.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_4.jpg",
+     "main": false,
+     "local": "data/img/5686e9b7926a364736b0.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_5.jpg",
+     "main": false,
+     "local": "data/img/24347e3459b1beba28a6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_6.jpg",
+     "main": false,
+     "local": "data/img/db5bc5f04ef707f501cc.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130063561_10.jpg",
+     "main": false,
+     "local": "data/img/be6436583f4c58e4f535.jpg"
+    }
+   ],
+   "locText": "32.826733, 130.769725",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン熊本市東区御領 第7の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-27",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [
+    {
+     "date": "2026-08-19",
+     "from": "2,980万円",
+     "to": "2,880万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,980万円"
+    },
+    {
+     "date": "2026-08-19",
+     "price": "2,880万円"
     }
    ],
    "relistedAt": ""
@@ -26347,12 +29039,6 @@
      "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/ca9bdfbbf152afd5a4155536c20fb1cd-680x510.jpeg",
      "main": false,
      "local": "data/img/29013bc84518ba3cc923.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/juno-202603221557-680x510.jpg",
-     "main": false,
-     "local": "data/img/5adc6ca54e99de392e0b.jpg"
     }
    ],
    "locText": "32.625053761936265, 130.70503653102097",
@@ -27893,12 +30579,6 @@
      "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_20251107_123814.jpg",
      "main": false,
      "local": "data/img/ed825a7c609d34151f78.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/39f2af94b12d5d046a7c82f09fc27406-680x507.jpg",
-     "main": false,
-     "local": "data/img/f64a70aa18f8cb37da9f.jpg"
     }
    ],
    "locText": "32.60084266409842, 130.69049175883478",
