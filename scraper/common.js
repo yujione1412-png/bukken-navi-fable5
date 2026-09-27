@@ -1,5 +1,5 @@
 /* scraper/common.js
-   3社共通の処理:ページ取得、価格の安全な解析、差分反映ルール
+   各社共通の処理:ページ取得、価格の安全な解析、差分反映ルール
    ─────────────────────────────────────────────
    差分反映の原則(仕様書8-1):
    このスクレイパーが書き換えるのは data/listings.json(自動収集の層)だけ。
@@ -304,7 +304,7 @@ function stripOldEndedPhotos(listings, months = 3, now = Date.now()) {
               / ページが見つからない(404)箇所が前回より大きく増えた
    ※404そのものは異常としない(よかタウンの市区町ページは「公開物件なし=404」が正常) */
 const STATUS_FILE = path.join(__dirname, "..", "data", "status.json");
-const SOURCE_LABELS = { maemura: "マエムラ", sumaiida: "すまいーだ", yokatown: "よかタウン" };
+const SOURCE_LABELS = { maemura: "マエムラ", sumaiida: "すまいーだ", yokatown: "よかタウン", daiei: "大英産業" };
 
 function loadStatus() {
   try { return JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")) || {}; }
