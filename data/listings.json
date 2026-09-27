@@ -1,7 +1,1099 @@
 {
- "updatedAt": "2026-09-27T12:14:00.003Z",
- "count": 406,
+ "updatedAt": "2026-09-27T12:57:51.880Z",
+ "count": 420,
  "listings": [
+  {
+   "id": "nakajitsu-5482368",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区楠第三 1号棟",
+   "price": "3,130万円",
+   "address": "熊本県熊本市北区楠６丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5482368/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "95.37㎡（28.84坪）",
+   "landArea": "106.81㎡（32.31坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楠小学校",
+   "elementaryMin": "5",
+   "junior": "楠中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 武蔵塚駅",
+     "min": "17",
+     "cat": "station"
+    },
+    {
+     "name": "楠五丁目バス停",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7504013",
+     "main": true,
+     "local": "data/img/c2df3e32cb8eb8173a05.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9203274",
+     "main": false,
+     "local": "data/img/5401dfbb5facf0d78fb2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7504673",
+     "main": false,
+     "local": "data/img/557ddf7379f698df96ce.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7845535",
+     "main": false,
+     "local": "data/img/93bcd30414dcae50c9e9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7503698",
+     "main": false,
+     "local": "data/img/21b580ece49809fdadac.jpg"
+    }
+   ],
+   "locText": "32.8515152995, 130.7607318793",
+   "locPrec": "",
+   "hpText": "◆ホームリサーチ品質ランキング分譲部門全国第一位◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆二階各居室に収納完備でお部屋を広々と使えます◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆コンビニ徒歩約4分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,130万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5482493",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区清水東町第一 2号棟",
+   "price": "3,070万円",
+   "address": "熊本県熊本市北区清水東町",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5482493/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年1月",
+   "buildingArea": "105.9㎡（32.03坪）",
+   "landArea": "136.66㎡（41.33坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "清水小学校",
+   "elementaryMin": "8",
+   "junior": "竜南中学校",
+   "juniorMin": "38",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 亀井駅",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "北津留バス停",
+     "min": "2",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7504444",
+     "main": true,
+     "local": "data/img/ce6f50cd1e16202afd3c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8351494",
+     "main": false,
+     "local": "data/img/0c4783ed0cf04c88647e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7506155",
+     "main": false,
+     "local": "data/img/d8a24128160f0a98e1cb.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8473324",
+     "main": false,
+     "local": "data/img/732ad41b37a7b762fdb0.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7504419",
+     "main": false,
+     "local": "data/img/dfd5f7a19ab9ee8266e5.jpg"
+    }
+   ],
+   "locText": "32.8364016385, 130.7277560764",
+   "locPrec": "",
+   "hpText": "完成・見学予約受付中！\n◆ホームリサーチ品質ランキング分譲部門全国第一位◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズボックスがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ウォークインゼットにシーズンオフの衣類や小物などがしまえます◆日当たり良好◆公園徒歩約3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,070万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5486814",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区楡木第三 2号棟",
+   "price": "3,290万円",
+   "address": "熊本県熊本市北区楡木４丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5486814/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "100.44㎡（30.38坪）",
+   "landArea": "130.78㎡（39.56坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "7",
+   "junior": "楠中学校",
+   "juniorMin": "8",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 武蔵塚駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "楡木小入口バス停",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9185426",
+     "main": true,
+     "local": "data/img/b97bd4fc239bc162106d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7633379",
+     "main": false,
+     "local": "data/img/2270f0c59707d81ce1e4.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9451048",
+     "main": false,
+     "local": "data/img/b7f734d0419533da05b2.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=7630455",
+     "main": false,
+     "local": "data/img/5523315d5665679334df.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9185438",
+     "main": false,
+     "local": "data/img/9670a46737fbd6e7ca0c.jpg"
+    }
+   ],
+   "locText": "32.8510001628, 130.753210178",
+   "locPrec": "",
+   "hpText": "◆完成・見学予約受付中◆ホームリサーチ品質ランキング分譲部門全国第一位◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆日当たり良好◆公園徒歩約1分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,290万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5519997",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 合志市幾久富第三 1号棟",
+   "price": "3,730万円",
+   "address": "熊本県合志市幾久富",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5519997/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "105.31㎡（31.85坪）",
+   "landArea": "137.49㎡（41.59坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "南ヶ丘小学校",
+   "elementaryMin": "14",
+   "junior": "合志中学校",
+   "juniorMin": "38",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 光の森駅",
+     "min": "21",
+     "cat": "station"
+    },
+    {
+     "name": "永江団地バス停",
+     "min": "1",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8383400",
+     "main": true,
+     "local": "data/img/8f7ad3f337473361d589.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9111773",
+     "main": false,
+     "local": "data/img/bc53a426abdeef449abd.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8383403",
+     "main": false,
+     "local": "data/img/e2d96a4a98a60b1df689.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9053869",
+     "main": false,
+     "local": "data/img/bfa609df7a55cebf9993.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8383360",
+     "main": false,
+     "local": "data/img/27ffff50174d61f36cd5.jpg"
+    }
+   ],
+   "locText": "32.86716527407641, 130.77830047244464",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆日当たり良好◆コンビニ徒歩約4分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,730万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5520124",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区楡木第五",
+   "price": "3,890万円",
+   "address": "熊本県熊本市北区楡木４丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5520124/",
+   "layout": "3LDK",
+   "stories": "",
+   "builtAt": "2026年10月",
+   "buildingArea": "111.78㎡（33.81坪）",
+   "landArea": "177.34㎡（53.64坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "6",
+   "junior": "楠中学校",
+   "juniorMin": "6",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 武蔵塚駅",
+     "min": "24",
+     "cat": "station"
+    },
+    {
+     "name": "楡木小入口バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8384004",
+     "main": true,
+     "local": "data/img/84c89e60099d2a6ddfe0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9203389",
+     "main": false,
+     "local": "data/img/4a3bd6445f1c34390704.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8386093",
+     "main": false,
+     "local": "data/img/ebde1d00b7fb6f27ea19.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8386095",
+     "main": false,
+     "local": "data/img/c0c5b5702bf878aeceb8.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8384043",
+     "main": false,
+     "local": "data/img/cdf21a0c8dca018c3820.jpg"
+    }
+   ],
+   "locText": "32.850278049, 130.753648546",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆日当たり良好◆清水楡木北公園まで徒歩約1分。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,890万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5523444",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市中央区薬園町第二",
+   "price": "4,290万円",
+   "address": "熊本県熊本市中央区薬園町",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5523444/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "112.17㎡（33.93坪）",
+   "landArea": "156.82㎡（47.43坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "黒髪小学校",
+   "elementaryMin": "5",
+   "junior": "桜山中学校",
+   "juniorMin": "22",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 黒髪町駅",
+     "min": "8",
+     "cat": "station"
+    },
+    {
+     "name": "坪井バス停",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8464254",
+     "main": true,
+     "local": "data/img/ad4d063376f07c0375e9.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9203354",
+     "main": false,
+     "local": "data/img/1d38cce0aa6cfcfbdf7b.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8464276",
+     "main": false,
+     "local": "data/img/73ec524b012fe298b8d6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8464290",
+     "main": false,
+     "local": "data/img/f112a198690b64b2bd17.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8464121",
+     "main": false,
+     "local": "data/img/0256af5eefc67a9b340d.jpg"
+    }
+   ],
+   "locText": "32.8144986979, 130.7171107313",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆ドラッグストア徒歩約3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,290万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5538987",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 菊池郡菊陽町沖野第一",
+   "price": "4,390万円",
+   "address": "熊本県菊池郡菊陽町沖野３丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5538987/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "111.99㎡（33.87坪）",
+   "landArea": "165.29㎡（50坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "菊陽西小学校",
+   "elementaryMin": "12",
+   "junior": "武蔵ヶ丘中学校",
+   "juniorMin": "30",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 三里木駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "杉並１丁目バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8846165",
+     "main": true,
+     "local": "data/img/36da967d5ef6a4e6c1b0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877037",
+     "main": false,
+     "local": "data/img/fac4194393be1f32acb4.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8846167",
+     "main": false,
+     "local": "data/img/52e5565ec1d5a2548014.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8846168",
+     "main": false,
+     "local": "data/img/86403894b7794ffa5f08.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8846084",
+     "main": false,
+     "local": "data/img/ea7457945df68b14c1bd.jpg"
+    }
+   ],
+   "locText": "32.87089153071008, 130.7887855026503",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆日当たり良好◆保育園徒歩約3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,390万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5540408",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 合志市野々島第二 1号棟",
+   "price": "3,190万円",
+   "address": "熊本県合志市野々島",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5540408/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "112.19㎡（33.93坪）",
+   "landArea": "204.85㎡（61.96坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "西合志中央小学校",
+   "elementaryMin": "19",
+   "junior": "西合志中学校",
+   "juniorMin": "25",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 再春医療センター前駅",
+     "min": "41",
+     "cat": "station"
+    },
+    {
+     "name": "南野々島バス停",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877031",
+     "main": true,
+     "local": "data/img/03ed92e2b3dc1f75fc6f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8874477",
+     "main": false,
+     "local": "data/img/4f2fc603e7f4e0f344dd.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877124",
+     "main": false,
+     "local": "data/img/e019a31d1721b6b492e8.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877132",
+     "main": false,
+     "local": "data/img/ba052be5a7b818e41f83.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877140",
+     "main": false,
+     "local": "data/img/f8381fcb8c21a8afa073.jpg"
+    }
+   ],
+   "locText": "32.90171830919321, 130.73357625983087",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆日当たり良好◆コンビニ徒歩約7分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,190万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5540434",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区室園町第一",
+   "price": "3,690万円",
+   "address": "熊本県熊本市北区室園町",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5540434/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "105.49㎡（31.91坪）",
+   "landArea": "143.1㎡（43.28坪）",
+   "parking": "1台",
+   "units": "",
+   "elementary": "清水小学校",
+   "elementaryMin": "11",
+   "junior": "竜南中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 北熊本駅",
+     "min": "3",
+     "cat": "station"
+    },
+    {
+     "name": "北熊本バス停",
+     "min": "2",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8876964",
+     "main": true,
+     "local": "data/img/3d559410a20d3eb96e53.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8878801",
+     "main": false,
+     "local": "data/img/83803d22c4e55178067b.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8877264",
+     "main": false,
+     "local": "data/img/8d3f4adaed8d68e4b8ee.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8876958",
+     "main": false,
+     "local": "data/img/ede737632bc76a6889a0.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8876919",
+     "main": false,
+     "local": "data/img/eee7bdb64dd784f9df83.jpg"
+    }
+   ],
+   "locText": "32.8279931641, 130.7233897569",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆日当たり良好◆北熊本駅徒歩約3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,690万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5541682",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区楡木第六 1号棟",
+   "price": "3,590万円",
+   "address": "熊本県熊本市北区楡木４丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5541682/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "100.24㎡（30.32坪）",
+   "landArea": "127.93㎡（38.69坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "7",
+   "junior": "楠中学校",
+   "juniorMin": "7",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 武蔵塚駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "楡木小入口バス停",
+     "min": "2",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8909394",
+     "main": true,
+     "local": "data/img/c03f4f61242cd46143af.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9203408",
+     "main": false,
+     "local": "data/img/a38d6daa3a67bc5faf59.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8910729",
+     "main": false,
+     "local": "data/img/6a367f25e035fdd7890b.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8909399",
+     "main": false,
+     "local": "data/img/c561553027aaf0c218b0.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8909232",
+     "main": false,
+     "local": "data/img/80d4eff70368fa90a32c.jpg"
+    }
+   ],
+   "locText": "32.8495754666, 130.7522208659",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆コンビニ徒歩約7分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,590万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5541708",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市北区楡木第六 2号棟",
+   "price": "3,490万円",
+   "address": "熊本県熊本市北区楡木４丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5541708/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "99.84㎡（30.2坪）",
+   "landArea": "133.28㎡（40.31坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "7",
+   "junior": "楠中学校",
+   "juniorMin": "7",
+   "facilities": [
+    {
+     "name": "ＪＲ豊肥本線 武蔵塚駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "楡木小入口バス停",
+     "min": "2",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8910930",
+     "main": true,
+     "local": "data/img/cd1fe997b21c77c49b1c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9203411",
+     "main": false,
+     "local": "data/img/537341790b974fbdd5f5.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8910942",
+     "main": false,
+     "local": "data/img/73ed9ff6dba283165e29.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8910753",
+     "main": false,
+     "local": "data/img/972a6377c26a6dec9600.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=8910754",
+     "main": false,
+     "local": "data/img/5926f771380b8aefd4ba.jpg"
+    }
+   ],
+   "locText": "32.8495754666, 130.7522208659",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆コンビニ徒歩約7分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,490万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5554662",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 熊本市中央区島崎第一 1号棟",
+   "price": "3,790万円",
+   "address": "熊本県熊本市中央区島崎１丁目",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5554662/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "105.71㎡（31.97坪）",
+   "landArea": "140.47㎡（42.49坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "一新小学校",
+   "elementaryMin": "13",
+   "junior": "西山中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "熊本市上熊本線 杉塘駅",
+     "min": "6",
+     "cat": "station"
+    },
+    {
+     "name": "日向崎バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9286689",
+     "main": true,
+     "local": "data/img/b552338debf504a785d1.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9281650",
+     "main": false,
+     "local": "data/img/c6b2d3a26f89a04221df.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9286794",
+     "main": false,
+     "local": "data/img/a2f48136c7c2e47a5181.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9286876",
+     "main": false,
+     "local": "data/img/4066a4f1f8fb6a50c2ba.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9286924",
+     "main": false,
+     "local": "data/img/8d6d4364984a910be4f2.jpg"
+    }
+   ],
+   "locText": "32.80889657834093, 130.69354246750498",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ウォークインクローゼットにシーズンオフの衣類などが丸ごとしまえます◆日当たり良好◆ゆめマート島崎まで徒歩約4分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,790万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5555022",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 合志市栄第三 1号棟",
+   "price": "3,390万円",
+   "address": "熊本県合志市栄",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5555022/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "111.77㎡（33.81坪）",
+   "landArea": "208.6㎡（63.1坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "20",
+   "junior": "合志中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 再春医療センター前駅",
+     "min": "56",
+     "cat": "station"
+    },
+    {
+     "name": "平島入口バス停",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9296094",
+     "main": true,
+     "local": "data/img/22d55340e37799c90968.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9306712",
+     "main": false,
+     "local": "data/img/bcea7647795e54b08991.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9337652",
+     "main": false,
+     "local": "data/img/9f56bcf34c94f7600212.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9296222",
+     "main": false,
+     "local": "data/img/13f4bfeb38943ca4028c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9296225",
+     "main": false,
+     "local": "data/img/f25d5f7527913c978551.jpg"
+    }
+   ],
+   "locText": "32.89915939935019, 130.7790734372463",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆二階各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ファミリークローゼットにシーズンオフの衣類や家具、家電などが丸ごとしまえます◆日当たり良好◆ゆめモール合志まで車で4分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,390万円"
+    }
+   ]
+  },
+  {
+   "id": "nakajitsu-5558631",
+   "source": "nakajitsu",
+   "name": "Asobi-創家 上益城郡益城町安永第一",
+   "price": "3,990万円",
+   "address": "熊本県上益城郡益城町大字安永",
+   "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5558631/",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.3㎡（31.85坪）",
+   "landArea": "267.45㎡（80.9坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "広安小学校",
+   "elementaryMin": "19",
+   "junior": "益城中学校",
+   "juniorMin": "20",
+   "facilities": [
+    {
+     "name": "熊本市健軍線 健軍町駅",
+     "min": "66",
+     "cat": "station"
+    },
+    {
+     "name": "安永バス停",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9404204",
+     "main": true,
+     "local": "data/img/b49d812a5ca4dd9fbfb0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9402883",
+     "main": false,
+     "local": "data/img/d75a0830265ae932f62f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9404231",
+     "main": false,
+     "local": "data/img/05e862fabc2f2eca5892.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9404227",
+     "main": false,
+     "local": "data/img/7e730940401fee302ff8.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://nakajitsu.com/common/file/?FILECD=9404235",
+     "main": false,
+     "local": "data/img/bdbd88e8771d1c591faf.jpg"
+    }
+   ],
+   "locText": "32.78579661517214, 130.8114181161821",
+   "locPrec": "",
+   "hpText": "◆2025年工務店グランプリ総合部門全国一位の住宅品質◆長期優良住宅◆仲介手数料不要◆μDAMダンパー◆オール電化◆キッチン食洗機付き◆水回りが集中していて家事動線楽々◆シューズクローゼットがあり玄関スッキリ◆各居室に収納完備でお部屋を広々と使えます◆キッチン収納に便利なパントリーがあります◆ウォークインクローゼットにシーズンオフの衣類などが丸ごとしまえます◆日当たり良好◆こども園徒歩約6分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:57:51.880Z",
+   "lastSeen": "2026-09-27",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,990万円"
+    }
+   ]
+  },
   {
    "id": "daiei-1449-3",
    "source": "daiei",
@@ -108,7 +1200,8 @@
      "date": "2026-09-27",
      "price": "3,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1481-2",
@@ -216,7 +1309,8 @@
      "date": "2026-09-27",
      "price": "3,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1483-1",
@@ -319,7 +1413,8 @@
      "date": "2026-09-27",
      "price": "2,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1499-1",
@@ -427,7 +1522,8 @@
      "date": "2026-09-27",
      "price": "4,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1499-2",
@@ -535,7 +1631,8 @@
      "date": "2026-09-27",
      "price": "3,799万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1508-1",
@@ -643,7 +1740,8 @@
      "date": "2026-09-27",
      "price": "2,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1529-1",
@@ -751,7 +1849,8 @@
      "date": "2026-09-27",
      "price": "3,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1541-3",
@@ -859,7 +1958,8 @@
      "date": "2026-09-27",
      "price": "3,299万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1545-1",
@@ -967,7 +2067,8 @@
      "date": "2026-09-27",
      "price": "3,299万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1545-2",
@@ -1075,7 +2176,8 @@
      "date": "2026-09-27",
      "price": "3,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1574-3",
@@ -1183,7 +2285,8 @@
      "date": "2026-09-27",
      "price": "3,499万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1575-1",
@@ -1291,7 +2394,8 @@
      "date": "2026-09-27",
      "price": "3,799万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1575-2",
@@ -1399,7 +2503,8 @@
      "date": "2026-09-27",
      "price": "3,699万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1577-1",
@@ -1507,7 +2612,8 @@
      "date": "2026-09-27",
      "price": "4,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1577-2",
@@ -1615,7 +2721,8 @@
      "date": "2026-09-27",
      "price": "4,299万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1580-1",
@@ -1723,7 +2830,8 @@
      "date": "2026-09-27",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1584-3",
@@ -1831,7 +2939,8 @@
      "date": "2026-09-27",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1585-1",
@@ -1939,7 +3048,8 @@
      "date": "2026-09-27",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1585-2",
@@ -2047,7 +3157,8 @@
      "date": "2026-09-27",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1600-1",
@@ -2155,7 +3266,8 @@
      "date": "2026-09-27",
      "price": "3,549万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1600-2",
@@ -2263,7 +3375,8 @@
      "date": "2026-09-27",
      "price": "3,599万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1602-1",
@@ -2371,7 +3484,8 @@
      "date": "2026-09-27",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-100649276",
@@ -13602,7 +14716,8 @@
      "date": "2026-09-27",
      "price": "3,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107799897",
@@ -13663,7 +14778,8 @@
      "date": "2026-09-27",
      "price": "3,798万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107801830",
@@ -13724,7 +14840,8 @@
      "date": "2026-09-27",
      "price": "4,198万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107802001",
@@ -13785,7 +14902,8 @@
      "date": "2026-09-27",
      "price": "4,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",
@@ -25148,7 +26266,8 @@
      "date": "2026-09-27",
      "price": "3,890万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-8012701004700240450-2",
