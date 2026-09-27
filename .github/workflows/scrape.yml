@@ -36,6 +36,9 @@ jobs:
       - name: 大英産業の物件を収集
         run: node scraper/daiei.js
 
+      - name: ナカジツの物件を収集
+        run: node scraper/nakajitsu.js
+
       - name: 最寄り駅を自動設定
         run: node scraper/stations.js
 
