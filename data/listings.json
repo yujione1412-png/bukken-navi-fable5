@@ -1,7 +1,1313 @@
 {
- "updatedAt": "2026-09-28T11:38:31.820Z",
- "count": 424,
+ "updatedAt": "2026-09-28T12:08:30.025Z",
+ "count": 442,
  "listings": [
+  {
+   "id": "kokubu-1613",
+   "source": "kokubu",
+   "name": "合志 豊岡",
+   "price": "3,880万円",
+   "address": "熊本県合志市豊岡2527-177",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1613",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年5月",
+   "buildingArea": "91.09㎡",
+   "landArea": "225.43㎡（68.19坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "合志南小学校",
+   "elementaryMin": "",
+   "junior": "合志中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "武蔵塚駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1613/img_1613_01.jpg",
+     "main": true,
+     "local": "data/img/3c1a27f3562a8ace7503.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1613/img_1613_02.jpg",
+     "main": false,
+     "local": "data/img/3f4f75672fc44e7d15df.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1613/img_1613_03.jpg",
+     "main": false,
+     "local": "data/img/52cec6406479f708721c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1613/img_1613_04.jpg",
+     "main": false,
+     "local": "data/img/81b7fbbd7f9122c60dc8.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1613/img_1613_05.jpg",
+     "main": false,
+     "local": "data/img/156f3570a336d67bef9c.jpg"
+    }
+   ],
+   "locText": "32.8649550, 130.7627427",
+   "locPrec": "town",
+   "hpText": "沖合志南小・合志中エリア■ZEH水準住宅■保育園、郵便局、コンビニ、公園、スーパーまで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.024Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,880万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1659",
+   "source": "kokubu",
+   "name": "熊本 東区長嶺西1丁目",
+   "price": "3,870万円",
+   "address": "熊本県熊本市東区長嶺西一丁目6",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1659",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年6月",
+   "buildingArea": "81.15㎡",
+   "landArea": "166.53㎡（50.37坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "託麻西小学校",
+   "elementaryMin": "",
+   "junior": "西原中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "竜田口駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1659/img_1659_01.jpg",
+     "main": true,
+     "local": "data/img/ee2b43fba7efbd71a1a4.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1659/img_1659_02.jpg",
+     "main": false,
+     "local": "data/img/c7db541913afeeea838f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1659/img_1659_03.jpg",
+     "main": false,
+     "local": "data/img/99b5dcf09824e8f2a2ec.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1659/img_1659_04.jpg",
+     "main": false,
+     "local": "data/img/15314f14e429d08873ff.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1659/img_1659_05.jpg",
+     "main": false,
+     "local": "data/img/ec42d02549bc847070af.jpg"
+    }
+   ],
+   "locText": "32.8115699, 130.7630907",
+   "locPrec": "town",
+   "hpText": "託麻西小・西原中エリア■ZEH水準住宅■シュロアモール、コスモス、幼稚園、コンビニ、郵便局、マックスバリュまで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,870万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1704",
+   "source": "kokubu",
+   "name": "菊池 泗水",
+   "price": "2,880万円",
+   "address": "熊本県菊池市泗水町福本357-7",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1704",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "106.4㎡",
+   "landArea": "180.58㎡（54.62坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "泗水バス停",
+     "min": "10",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1704/img_1704_01.jpg",
+     "main": true,
+     "local": "data/img/8eff975082b9d715f012.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1704/img_1704_02.jpg",
+     "main": false,
+     "local": "data/img/aa94d2e1aab24cf865f7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1704/img_1704_03.jpg",
+     "main": false,
+     "local": "data/img/719c9231cb827747d5ca.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1704/img_1704_04.jpg",
+     "main": false,
+     "local": "data/img/46eb11eb3b41065ed001.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1704/img_1704_05.jpg",
+     "main": false,
+     "local": "data/img/e740135109a1657fcbbd.jpg"
+    }
+   ],
+   "locText": "32.9219158, 130.7779719",
+   "locPrec": "town",
+   "hpText": "泗水小・泗水中エリア■ZEH水準住宅■泗水小、泗水中、図書館、泗水支所、幼稚園まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,880万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1749",
+   "source": "kokubu",
+   "name": "宇土 栄町",
+   "price": "3,170万円",
+   "address": "熊本県宇土市栄町70",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1749",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "105.36㎡",
+   "landArea": "192.47㎡（58.22坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1749/img_1749_01.jpg",
+     "main": true,
+     "local": "data/img/3e9be4c5cd0677168fcc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1749/img_1749_02.jpg",
+     "main": false,
+     "local": "data/img/83b7078a0ea0b5d2da47.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1749/img_1749_03.jpg",
+     "main": false,
+     "local": "data/img/713a25fc854fcf300f0f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1749/img_1749_04.jpg",
+     "main": false,
+     "local": "data/img/317fbb2cfb57a0d95d13.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1749/img_1749_05.jpg",
+     "main": false,
+     "local": "data/img/3e31e8938222716d456b.jpg"
+    }
+   ],
+   "locText": "32.6875368, 130.6542646",
+   "locPrec": "town",
+   "hpText": "宇土小・鶴城中エリア■ZEH水準住宅■宇土小、コンビニ、ダイレックス、コスモス、保育園、郵便局、市役所、図書館まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,170万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1801",
+   "source": "kokubu",
+   "name": "八代 古閑下",
+   "price": "2,840万円",
+   "address": "熊本県八代市古閑下町1663-1",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1801",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年7月",
+   "buildingArea": "95.23㎡",
+   "landArea": "249.48㎡（75.46坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "八千把小学校",
+   "elementaryMin": "",
+   "junior": "第四中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "市民球場前バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1801/img_1801_01.jpg",
+     "main": true,
+     "local": "data/img/da69bc68a11673a6adbd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1801/img_1801_02.jpg",
+     "main": false,
+     "local": "data/img/81bbd8be39e31983b5b5.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1801/img_1801_03.jpg",
+     "main": false,
+     "local": "data/img/b30babb699f30f4f9fee.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1801/img_1801_04.jpg",
+     "main": false,
+     "local": "data/img/c0644bc9200c2f9b92cd.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1801/img_1801_05.jpg",
+     "main": false,
+     "local": "data/img/b403e4c6fc343bf247bf.jpg"
+    }
+   ],
+   "locText": "32.5278370, 130.6089877",
+   "locPrec": "town",
+   "hpText": "八千把小・第四中エリア■ZEH水準住宅■市民球場、保育園、歯科、スーパー、コンビニまで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,840万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1846",
+   "source": "kokubu",
+   "name": "熊本 南区近見",
+   "price": "3,780万円",
+   "address": "熊本県熊本市南区近見七丁目13",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1846",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "112.61㎡",
+   "landArea": "173.94㎡（52.61坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "城南小学校",
+   "elementaryMin": "",
+   "junior": "城南中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1846/img_1846_01.jpg",
+     "main": true,
+     "local": "data/img/027f658eabb5d67c682e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1846/img_1846_02.jpg",
+     "main": false,
+     "local": "data/img/4869d1274c1fb0d7c649.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1846/img_1846_03.jpg",
+     "main": false,
+     "local": "data/img/c34b862c1aba0f26b6f0.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1846/img_1846_04.jpg",
+     "main": false,
+     "local": "data/img/cc7b494fc46fbcd0ed5b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1846/img_1846_05.jpg",
+     "main": false,
+     "local": "data/img/f853c4951840b26dc4e2.jpg"
+    }
+   ],
+   "locText": "32.7567198, 130.6916267",
+   "locPrec": "town",
+   "hpText": "城南小・城南中エリア■ZEH水準住宅■城南小、郵便局、保育園、コンビニ、ニトリまで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,780万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1895",
+   "source": "kokubu",
+   "name": "上益城 益城町広崎",
+   "price": "3,670万円",
+   "address": "熊本県上益城郡益城町大字広崎1418-1",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1895",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "100.19㎡",
+   "landArea": "150㎡（45.37坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "",
+   "junior": "益城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電Ａ系統 健軍町",
+     "min": "35",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1895/img_1895_01.jpg",
+     "main": true,
+     "local": "data/img/edba7480105617379c41.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1895/img_1895_02.jpg",
+     "main": false,
+     "local": "data/img/b1310dbe1f09210e409f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1895/img_1895_03.jpg",
+     "main": false,
+     "local": "data/img/d2af32baedcbaa36c263.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1895/img_1895_04.jpg",
+     "main": false,
+     "local": "data/img/b7250dafee105cd9a1ca.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1895/img_1895_05.jpg",
+     "main": false,
+     "local": "data/img/a33f03f37fc1b2cd391c.jpg"
+    }
+   ],
+   "locText": "32.7878158, 130.7838029",
+   "locPrec": "town",
+   "hpText": "広安西小・益城中エリア■ZEH水準住宅■病院、トライアル、スーパー、ドラッグストア、ダイソー、保育園まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,670万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1917",
+   "source": "kokubu",
+   "name": "八代 海士江町",
+   "price": "2,990万円",
+   "address": "熊本県八代市海士江町2663-19",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1917",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "92.74㎡",
+   "landArea": "210.75㎡（63.75坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "八千把小学校",
+   "elementaryMin": "",
+   "junior": "第四中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "新八代駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1917/img_1917_01.jpg",
+     "main": true,
+     "local": "data/img/77cbd071a39db8b46afc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1917/img_1917_02.jpg",
+     "main": false,
+     "local": "data/img/5e8c7b234de60659a894.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1917/img_1917_03.jpg",
+     "main": false,
+     "local": "data/img/6dc8b47a6ea5f05e23c7.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1917/img_1917_04.jpg",
+     "main": false,
+     "local": "data/img/76350ffcf1b9ede116d2.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1917/img_1917_05.jpg",
+     "main": false,
+     "local": "data/img/e32c7c62190e642356ff.jpg"
+    }
+   ],
+   "locText": "32.5260438, 130.6251936",
+   "locPrec": "town",
+   "hpText": "八千把小・第四中エリア■ZEH水準住宅■ダイレックス、ニトリ、郵便局、コスモス、ナフコ、スーパー、コンビニまで徒歩10分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,990万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1949",
+   "source": "kokubu",
+   "name": "荒尾 荒尾",
+   "price": "2,940万円",
+   "address": "熊本県荒尾市荒尾3660-38",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1949",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "110.95㎡",
+   "landArea": "204.47㎡（61.85坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "中央小学校",
+   "elementaryMin": "",
+   "junior": "荒尾第三中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "荒尾産交前バス停",
+     "min": "9",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1949/img_1949_01.jpg",
+     "main": true,
+     "local": "data/img/e31e73b9b57bb6e6b9fc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1949/img_1949_02.jpg",
+     "main": false,
+     "local": "data/img/6d8bf262379af3c77264.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1949/img_1949_03.jpg",
+     "main": false,
+     "local": "data/img/13a47f56e2d2c7ab70e9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1949/img_1949_04.jpg",
+     "main": false,
+     "local": "data/img/f157430f2cf89fdb59af.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1949/img_1949_05.jpg",
+     "main": false,
+     "local": "data/img/6ec050a00dcf00b32f94.jpg"
+    }
+   ],
+   "locText": "32.9826718, 130.4555259",
+   "locPrec": "town",
+   "hpText": "中央小・荒尾第三中エリア■ZEH水準住宅■中央小、スーパー、コンビニ、しまむら、保育園、公園、コスモスまで徒歩15分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,940万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1952",
+   "source": "kokubu",
+   "name": "上益城 益城町安永",
+   "price": "3,620万円",
+   "address": "熊本県上益城郡益城町大字安永404-3",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1952",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "92.74㎡",
+   "landArea": "220.33㎡（66.64坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安小学校",
+   "elementaryMin": "",
+   "junior": "益城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電Ａ系統 健軍町",
+     "min": "",
+     "cat": "station"
+    },
+    {
+     "name": "安永バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1952/img_1952_01.jpg",
+     "main": true,
+     "local": "data/img/2ce6df50cb90ede17bc9.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1952/img_1952_02.jpg",
+     "main": false,
+     "local": "data/img/46395113cbe8c70b4253.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1952/img_1952_03.jpg",
+     "main": false,
+     "local": "data/img/d832b8af89e0cc86c63a.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1952/img_1952_04.jpg",
+     "main": false,
+     "local": "data/img/21f448460b180368d2a0.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1952/img_1952_05.jpg",
+     "main": false,
+     "local": "data/img/e05fab10018197dedeb9.jpg"
+    }
+   ],
+   "locText": "32.7850258, 130.8127986",
+   "locPrec": "town",
+   "hpText": "広安小・益城中エリア■ZEH水準住宅■幼稚園、コンビニ、コスモス、銀行、益城町役場、スーパーまで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,620万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-1955",
+   "source": "kokubu",
+   "name": "玉名 築地",
+   "price": "3,090万円",
+   "address": "熊本県玉名市築地2125",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=1955",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "110.95㎡",
+   "landArea": "201.03㎡（60.81坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "築山小学校",
+   "elementaryMin": "",
+   "junior": "玉名中学校",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/1955/img_1955_01.jpg",
+     "main": true,
+     "local": "data/img/168c38dfe19a952043c6.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/1955/img_1955_02.jpg",
+     "main": false,
+     "local": "data/img/a73c14c403c0166b8b8f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/1955/img_1955_03.jpg",
+     "main": false,
+     "local": "data/img/7114f098e754fcfdc974.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/1955/img_1955_04.jpg",
+     "main": false,
+     "local": "data/img/8ec3c7efd2441592dcdb.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/1955/img_1955_05.jpg",
+     "main": false,
+     "local": "data/img/b437456aa03cf7c6953e.jpg"
+    }
+   ],
+   "locText": "32.9315428, 130.5368937",
+   "locPrec": "town",
+   "hpText": "築山小・玉名中エリア■ZEH水準住宅■築山小、スーパー、コンビニ、保育園、ニトリ、郵便局まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,090万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2095",
+   "source": "kokubu",
+   "name": "菊池 大津町森",
+   "price": "3,780万円",
+   "address": "熊本県菊池郡大津町大字森712-1",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2095",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年11月",
+   "buildingArea": "95.23㎡",
+   "landArea": "216.06㎡（65.35坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "大津小学校",
+   "elementaryMin": "",
+   "junior": "大津中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "肥後大津駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2095/img_2095_01.jpg",
+     "main": true,
+     "local": "data/img/845ae123a9c084435798.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2095/img_2095_02.jpg",
+     "main": false,
+     "local": "data/img/3f6212441ab45f76c670.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2095/img_2095_03.jpg",
+     "main": false,
+     "local": "data/img/fe317fc40cd509b23a54.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2095/img_2095_04.jpg",
+     "main": false,
+     "local": "data/img/6d50a60b07c1344bd230.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2095/img_2095_05.jpg",
+     "main": false,
+     "local": "data/img/1e7dc0b7b6fbf5bd4386.jpg"
+    }
+   ],
+   "locText": "32.8759288, 130.8893217",
+   "locPrec": "town",
+   "hpText": "大津小・大津中エリア■ZEH水準住宅■郵便局、保育園、コスモス、コンビニ、運動公園まで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,780万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2251",
+   "source": "kokubu",
+   "name": "熊本 北区麻生田5丁目",
+   "price": "3,390万円",
+   "address": "熊本県熊本市北区麻生田五丁目25",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2251",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "100.19㎡",
+   "landArea": "142.41㎡（43.07坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "麻生田小学校",
+   "elementaryMin": "",
+   "junior": "清水中学校",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2251/img_2251_01.jpg",
+     "main": true,
+     "local": "data/img/eed78a6f5c5a627513b8.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2251/img_2251_02.jpg",
+     "main": false,
+     "local": "data/img/c7dc4f453be3e9b258e3.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2251/img_2251_03.jpg",
+     "main": false,
+     "local": "data/img/2e86de1ac90c12f8471f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2251/img_2251_04.jpg",
+     "main": false,
+     "local": "data/img/57b7a2371c2e795c90c9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2251/img_2251_05.jpg",
+     "main": false,
+     "local": "data/img/629dcb5d108341dcfd79.jpg"
+    }
+   ],
+   "locText": "32.8540529, 130.7491546",
+   "locPrec": "town",
+   "hpText": "麻生田小・清水中エリア■ZEH水準住宅■麻生田小、公園、コンビニ、スーパー、保育園まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,390万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2264",
+   "source": "kokubu",
+   "name": "熊本 北区梶尾B",
+   "price": "3,350万円",
+   "address": "熊本県熊本市北区梶尾町1359-22",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2264",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年12月",
+   "buildingArea": "91.09㎡",
+   "landArea": "248.97㎡（75.31坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "北部東小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "黒石駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2264/img_2264_01.jpg",
+     "main": true,
+     "local": "data/img/469eef385392669421b3.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2264/img_2264_02.jpg",
+     "main": false,
+     "local": "data/img/3af3b5e59d71f83c3a2b.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2264/img_2264_03.jpg",
+     "main": false,
+     "local": "data/img/7b9ef2b25a43a423dfa2.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2264/img_2264_04.jpg",
+     "main": false,
+     "local": "data/img/8092d57ebc294474359e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2264/img_2264_05.jpg",
+     "main": false,
+     "local": "data/img/67a51ec4fcdc301b71e2.jpg"
+    }
+   ],
+   "locText": "32.8759390, 130.7261066",
+   "locPrec": "town",
+   "hpText": "北部東小・北部中エリア■ZEH水準住宅■梶尾温泉、保育園、コンビニまで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,350万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2296",
+   "source": "kokubu",
+   "name": "熊本 南区護藤町",
+   "price": "3,370万円",
+   "address": "熊本県熊本市南区護藤町2301-15",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2296",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2027年2月",
+   "buildingArea": "81.15㎡",
+   "landArea": "206.07㎡（62.33坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "飽田南小学校",
+   "elementaryMin": "",
+   "junior": "飽田中学校",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2296/img_2296_01.jpg",
+     "main": true,
+     "local": "data/img/5e9138e6fd53898d36ec.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2296/img_2296_02.jpg",
+     "main": false,
+     "local": "data/img/76613d2f73620cd5edcc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2296/img_2296_03.jpg",
+     "main": false,
+     "local": "data/img/a80c51f4da532389fab8.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2296/img_2296_04.jpg",
+     "main": false,
+     "local": "data/img/d61f3e4537b8509e99f3.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2296/img_2296_05.jpg",
+     "main": false,
+     "local": "data/img/d1425f0c72ff515d98c6.jpg"
+    }
+   ],
+   "locText": "32.7480080, 130.6654537",
+   "locPrec": "town",
+   "hpText": "飽田南小・飽田中エリア■ZEH水準住宅■郵便局、保育園、公園、コンビニ、スーパーまで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,370万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2305",
+   "source": "kokubu",
+   "name": "山鹿 山鹿",
+   "price": "3,290万円",
+   "address": "熊本県山鹿市山鹿800-13",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2305",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "109.3㎡",
+   "landArea": "161.34㎡（48.8坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "山鹿小学校",
+   "elementaryMin": "",
+   "junior": "山鹿中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "シルバー人材センター入口バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2305/img_2305_01.jpg",
+     "main": true,
+     "local": "data/img/b2f06ed856a1add21a53.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2305/img_2305_02.jpg",
+     "main": false,
+     "local": "data/img/51fef77788533d4b8bcc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2305/img_2305_03.jpg",
+     "main": false,
+     "local": "data/img/c7ac65ae35fd9b15fc2c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2305/img_2305_04.jpg",
+     "main": false,
+     "local": "data/img/e8f24dc83d87138945b5.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2305/img_2305_05.jpg",
+     "main": false,
+     "local": "data/img/de42c033a009b58cd107.jpg"
+    }
+   ],
+   "locText": "33.0175519, 130.6953596",
+   "locPrec": "town",
+   "hpText": "山鹿小・山鹿中エリア■ZEH水準住宅■山鹿小、山鹿中、幼稚園、スーパー、トライアル、コメリ、市役所、郵便局、銀行まで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,290万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2336",
+   "source": "kokubu",
+   "name": "熊本 東区西原2丁目",
+   "price": "3,990万円",
+   "address": "熊本県熊本市東区西原二丁目35",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2336",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "100.19㎡",
+   "landArea": "172.67㎡（52.23坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西原小学校",
+   "elementaryMin": "",
+   "junior": "西原中学校",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2336/img_2336_01.jpg",
+     "main": true,
+     "local": "data/img/c116887152c1f390717f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2336/img_2336_02.jpg",
+     "main": false,
+     "local": "data/img/840cbfb47a427fb1c693.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2336/img_2336_03.jpg",
+     "main": false,
+     "local": "data/img/63e83fae8201c33ce63a.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2336/img_2336_04.jpg",
+     "main": false,
+     "local": "data/img/d8804f18eddaf5f77f00.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2336/img_2336_05.jpg",
+     "main": false,
+     "local": "data/img/2a9c25473eb538c9ca84.jpg"
+    }
+   ],
+   "locText": "32.8170389, 130.7587889",
+   "locPrec": "town",
+   "hpText": "西原小・西原中エリア■ZEH水準住宅■ダイレックス、保育園、銀行、スーパー、コスモス、コンビニまで徒歩10分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,990万円"
+    }
+   ]
+  },
+  {
+   "id": "kokubu-2337",
+   "source": "kokubu",
+   "name": "上益城 御船町木倉",
+   "price": "3,390万円",
+   "address": "熊本県上益城郡御船町大字木倉381-5",
+   "detailUrl": "https://www.kaeruhome.jp/search/detail/kumamoto/?p=2337",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2027年2月",
+   "buildingArea": "91.09㎡",
+   "landArea": "218.05㎡（65.96坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "木倉小学校",
+   "elementaryMin": "",
+   "junior": "御船中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電Ａ系統 健軍町",
+     "min": "",
+     "cat": "station"
+    },
+    {
+     "name": "落合バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://www.kaeruhome.jp/photo/property/2337/img_2337_01.jpg",
+     "main": true,
+     "local": "data/img/6f00daeeb929da71de92.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://www.kaeruhome.jp/photo/property/2337/img_2337_02.jpg",
+     "main": false,
+     "local": "data/img/5221abdf47487d992e13.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://www.kaeruhome.jp/photo/property/2337/img_2337_03.jpg",
+     "main": false,
+     "local": "data/img/c6287643abb5e53fb0d9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://www.kaeruhome.jp/photo/property/2337/img_2337_04.jpg",
+     "main": false,
+     "local": "data/img/128c1f659d8efbf39b21.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://www.kaeruhome.jp/photo/property/2337/img_2337_05.jpg",
+     "main": false,
+     "local": "data/img/25f6ee6da3fa4d8997e5.jpg"
+    }
+   ],
+   "locText": "32.7208859, 130.8046359",
+   "locPrec": "town",
+   "hpText": "木倉小・御船中エリア■ZEH水準住宅■木倉小、ホームセンター、コンビニ、郵便局、保育園、御船町役場まで徒歩15分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T12:08:30.025Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,390万円"
+    }
+   ]
+  },
   {
    "id": "nakajitsu-5482368",
    "source": "nakajitsu",
