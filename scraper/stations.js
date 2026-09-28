@@ -6,7 +6,10 @@
      一番近いものを周辺施設に「(自動・最寄り)」として追加する
    ・距離・徒歩分は付けない(「一番近い駅はどこ?」に答えるための情報。距離はMapで確認)
    ・同じ場所(約100m単位)の問い合わせ結果は data/stations.json に控えて再利用し、
-     毎回問い合わせ直さない(新規物件のぶんだけ、1.5秒間隔で最大50件/回)
+     毎回問い合わせ直さない(新規物件のぶんだけ、2秒間隔で最大50件/回)
+   ・無料サービスの応答が遅い日に毎朝の更新全体が長引かないよう、
+     1回の問い合わせは60秒で打ち切り、この手順全体も8分で切り上げる
+     (打ち切った分・残りの分は控えず、次回の実行で再挑戦する)
    ・すでに駅・電停の情報がある物件(すまいーだ・よかタウン等)には何もしない
 */
 const fs = require("fs");
@@ -23,6 +26,8 @@ const ENDPOINTS = [
 const RADIUS_M = 20000;   // 駅が遠い地域でも必ず見つかるよう20km
 const LIMIT = 50;         // 1回の実行での新規問い合わせ上限
 const DELAY_MS = 2000;
+const REQ_TIMEOUT_MS = 60 * 1000;      // 1回の問い合わせの待ち時間の上限(60秒)
+const TOTAL_BUDGET_MS = 8 * 60 * 1000; // この手順全体の上限(8分)
 
 const cacheKey = (lat, lon) => lat.toFixed(3) + "," + lon.toFixed(3);
 function coordsOf(l) {
@@ -55,6 +60,7 @@ async function queryNearest(lat, lon) {
         method: "POST",
         headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded" },
         body: "data=" + encodeURIComponent(q),
+        signal: AbortSignal.timeout(REQ_TIMEOUT_MS),   // 60秒で打ち切り → 次のエンドポイントへ
       });
       if (!res.ok) continue;
       const j = await res.json();
@@ -85,7 +91,8 @@ async function main() {
   // (この地域で半径20kmに駅が1つもない場所は実質ないため、空=失敗とみなしてよい)
   for (const k of Object.keys(cache)) if (!cache[k] || !cache[k].name) delete cache[k];
 
-  let attached = 0, queried = 0, cacheHit = 0, noCoord = 0, skipped = 0, failed = 0;
+  let attached = 0, queried = 0, cacheHit = 0, noCoord = 0, skipped = 0, failed = 0, postponed = 0;
+  const startedAt = Date.now();
   for (const l of listings) {
     if (l.status === "ended") continue;
     if (hasEki(l)) { skipped++; continue; }
@@ -95,6 +102,7 @@ async function main() {
     let hit = cache[k];
     if (hit === undefined) {
       if (queried >= LIMIT) continue;   // 上限に達した分は次回の実行で
+      if (Date.now() - startedAt > TOTAL_BUDGET_MS) { postponed++; continue; }   // 8分を超えたら残りは次回に
       await sleep(DELAY_MS);
       const r = await queryNearest(c[0], c[1]);
       queried++;
@@ -113,7 +121,9 @@ async function main() {
   console.log(`=== 完了: 最寄り駅を設定 ${attached}件` +
     `(新規問い合わせ ${queried}件 / 控えから再利用 ${cacheHit}件` +
     ` / 駅情報あり ${skipped}件 / 位置情報なし ${noCoord}件` +
-    (failed ? ` / 問い合わせ失敗 ${failed}件→次回に再挑戦` : "") + `)===`);
+    (failed ? ` / 問い合わせ失敗 ${failed}件→次回に再挑戦` : "") +
+    (postponed ? ` / 時間切れ ${postponed}件→次回に再挑戦` : "") + `)===`);
+  console.log(`[所要時間] 最寄り駅の自動設定 ${Math.round((Date.now() - startedAt) / 1000)}秒`);
 }
 
 module.exports = { queryNearest, hasEki, cacheKey };
