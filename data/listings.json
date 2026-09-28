@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-09-28T06:42:11.036Z",
+ "updatedAt": "2026-09-28T11:38:31.820Z",
  "count": 424,
  "listings": [
   {
    "id": "nakajitsu-5482368",
    "source": "nakajitsu",
    "name": "Asobi-創家 熊本市北区楠第三 1号棟",
-   "price": "3,130万円",
+   "price": "3,030万円",
    "address": "熊本県熊本市北区楠６丁目",
    "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5482368/",
    "layout": "3LDK",
@@ -72,11 +72,21 @@
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
    "lastSeen": "2026-09-28",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-09-28",
+     "from": "3,130万円",
+     "to": "3,030万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-27",
      "price": "3,130万円"
+    },
+    {
+     "date": "2026-09-28",
+     "price": "3,030万円"
     }
    ],
    "relistedAt": ""
@@ -85,7 +95,7 @@
    "id": "nakajitsu-5482493",
    "source": "nakajitsu",
    "name": "Asobi-創家 熊本市北区清水東町第一 2号棟",
-   "price": "3,070万円",
+   "price": "2,970万円",
    "address": "熊本県熊本市北区清水東町",
    "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5482493/",
    "layout": "3LDK",
@@ -151,11 +161,21 @@
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
    "lastSeen": "2026-09-28",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-09-28",
+     "from": "3,070万円",
+     "to": "2,970万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-27",
      "price": "3,070万円"
+    },
+    {
+     "date": "2026-09-28",
+     "price": "2,970万円"
     }
    ],
    "relistedAt": ""
@@ -164,7 +184,7 @@
    "id": "nakajitsu-5486814",
    "source": "nakajitsu",
    "name": "Asobi-創家 熊本市北区楡木第三 2号棟",
-   "price": "3,290万円",
+   "price": "3,190万円",
    "address": "熊本県熊本市北区楡木４丁目",
    "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5486814/",
    "layout": "3LDK",
@@ -230,11 +250,21 @@
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
    "lastSeen": "2026-09-28",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-09-28",
+     "from": "3,290万円",
+     "to": "3,190万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-27",
      "price": "3,290万円"
+    },
+    {
+     "date": "2026-09-28",
+     "price": "3,190万円"
     }
    ],
    "relistedAt": ""
@@ -875,7 +905,7 @@
    "id": "nakajitsu-5554662",
    "source": "nakajitsu",
    "name": "Asobi-創家 熊本市中央区島崎第一 1号棟",
-   "price": "3,790万円",
+   "price": "3,690万円",
    "address": "熊本県熊本市中央区島崎１丁目",
    "detailUrl": "https://nakajitsu.com/prpsearch/prpdetail/OBJ_MNG_NO/5554662/",
    "layout": "4LDK",
@@ -941,11 +971,21 @@
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
    "lastSeen": "2026-09-28",
-   "priceChanges": [],
+   "priceChanges": [
+    {
+     "date": "2026-09-28",
+     "from": "3,790万円",
+     "to": "3,690万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-27",
      "price": "3,790万円"
+    },
+    {
+     "date": "2026-09-28",
+     "price": "3,690万円"
     }
    ],
    "relistedAt": ""
@@ -1323,7 +1363,8 @@
      "date": "2026-09-28",
      "price": "3,699万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1483-1",
@@ -15086,7 +15127,8 @@
      "date": "2026-09-28",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107814609",
@@ -15147,7 +15189,8 @@
      "date": "2026-09-28",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-107821690",
@@ -15219,7 +15262,8 @@
      "date": "2026-09-28",
      "price": "3,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",
@@ -15289,68 +15333,6 @@
     {
      "date": "2026-08-04",
      "price": "3,098万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-96562124",
-   "source": "yokatown",
-   "name": "熊本市南区城南町碇4期4号棟",
-   "price": "2,198万円",
-   "address": "熊本県熊本市南区城南町碇9-3付近",
-   "detailUrl": "https://bukken.yoka-town.com/room96562124.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2025年12月",
-   "buildingArea": "90.26㎡/ 27.3坪",
-   "landArea": "234.14㎡/ 70.82坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「川尻」駅 徒歩88分",
-     "min": "88",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_1_652_555_3.jpg?t=01790557584",
-     "main": true,
-     "local": "data/img/87ca3a91106c6dd6b500.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_2_652_555_3.jpg?t=01790557584",
-     "main": false,
-     "local": "data/img/fa80a1289aff7fd9cd0f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_3_652_555_3.jpg?t=01790557584",
-     "main": false,
-     "local": "data/img/02c30451751d376a7ee3.jpg"
-    }
-   ],
-   "locText": "32.72141600, 130.72071800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市南区城南町碇4期4号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区城南町碇4期4号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-09-28",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-21",
-     "price": "2,198万円"
     }
    ],
    "relistedAt": ""
@@ -17069,6 +17051,68 @@
     }
    ],
    "locPrec": "",
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-96562124",
+   "source": "yokatown",
+   "name": "熊本市南区城南町碇4期4号棟",
+   "price": "2,198万円",
+   "address": "熊本県熊本市南区城南町碇9-3付近",
+   "detailUrl": "https://bukken.yoka-town.com/room96562124.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2025年12月",
+   "buildingArea": "90.26㎡/ 27.3坪",
+   "landArea": "234.14㎡/ 70.82坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「川尻」駅 徒歩88分",
+     "min": "88",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_1_652_555_3.jpg?t=01790557584",
+     "main": true,
+     "local": "data/img/87ca3a91106c6dd6b500.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_2_652_555_3.jpg?t=01790557584",
+     "main": false,
+     "local": "data/img/fa80a1289aff7fd9cd0f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_3_652_555_3.jpg?t=01790557584",
+     "main": false,
+     "local": "data/img/02c30451751d376a7ee3.jpg"
+    }
+   ],
+   "locText": "32.72141600, 130.72071800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市南区城南町碇4期4号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市南区城南町碇4期4号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-28",
+   "createdAt": "2026-07-20T22:00:43.962Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-21",
+     "price": "2,198万円"
+    }
+   ],
    "relistedAt": ""
   },
   {
@@ -20330,7 +20374,7 @@
    "id": "sumaiida-1012401010815PJ-055531-2",
    "source": "sumaiida",
    "name": "ハートフルタウン東区沼山津4丁目1912番",
-   "price": "3,190万円",
+   "price": "3,090万円",
    "address": "熊本県熊本市 東区沼山津４丁目6-15",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-055531-2/",
    "layout": "4LDK",
@@ -20400,6 +20444,11 @@
      "date": "2026-09-14",
      "from": "3,290万円",
      "to": "3,190万円"
+    },
+    {
+     "date": "2026-09-28",
+     "from": "3,190万円",
+     "to": "3,090万円"
     }
    ],
    "priceSnapshots": [
@@ -20414,6 +20463,10 @@
     {
      "date": "2026-09-14",
      "price": "3,190万円"
+    },
+    {
+     "date": "2026-09-28",
+     "price": "3,090万円"
     }
    ],
    "relistedAt": ""
@@ -32634,6 +32687,12 @@
     },
     {
      "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/65-680x510.jpg",
+     "main": false,
+     "local": "data/img/b13d0b581abd928a0d27.jpg"
+    },
+    {
+     "id": "p4",
      "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/02/IMG_20260420_144653-680x510.jpg",
      "main": false,
      "local": "data/img/a7a3986103a157d78774.jpg"
@@ -32705,6 +32764,12 @@
     },
     {
      "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/66-680x510.jpg",
+     "main": false,
+     "local": "data/img/ff3fe627fdc1d85a1adc.jpg"
+    },
+    {
+     "id": "p4",
      "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/09/juno-202604201440-680x510.jpg",
      "main": false,
      "local": "data/img/26ad730a81e260de4a7e.jpg"
