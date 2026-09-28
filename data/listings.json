@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-09-27T23:53:13.668Z",
- "count": 420,
+ "updatedAt": "2026-09-28T06:42:11.036Z",
+ "count": 424,
  "listings": [
   {
    "id": "nakajitsu-5482368",
@@ -1218,113 +1218,112 @@
    "relistedAt": ""
   },
   {
-   "id": "daiei-1481-2",
+   "id": "daiei-1449-4",
    "source": "daiei",
-   "name": "アーキデイズ 熊本市北区龍田弓削1丁目2号地",
-   "price": "3,199万円",
-   "address": "熊本県熊本市北区龍田弓削１丁目16-48",
-   "detailUrl": "https://daiei-codate.com/detail/?id=1481-2",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年6月",
-   "buildingArea": "110.21㎡（33.33坪）",
-   "landArea": "186.75㎡（56.49坪）",
+   "name": "ヒカリテラス合志北4号地",
+   "price": "3,699万円",
+   "address": "熊本県合志市合生3846-8",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1449-4",
+   "layout": "3LDK",
+   "stories": "",
+   "builtAt": "2026年5月",
+   "buildingArea": "93.98㎡（28.42坪）",
+   "landArea": "227.39㎡（68.78坪）",
    "parking": "2台",
    "units": "",
-   "elementary": "龍田小学校",
+   "elementary": "西合志第一小学校",
    "elementaryMin": "13",
-   "junior": "龍田中学校",
-   "juniorMin": "14",
+   "junior": "西合志中学校",
+   "juniorMin": "35",
    "facilities": [
     {
-     "name": "豊肥本線「武蔵塚」駅",
-     "min": "15",
+     "name": "熊本電気鉄道「御代志」駅",
+     "min": "43",
      "cat": "station"
     },
     {
-     "name": "産交バス 龍田まちづくりセンター前停",
-     "min": "4",
+     "name": "熊本電気鉄道 辻久保停",
+     "min": "8",
      "cat": "bus"
     },
     {
-     "name": "立田幼稚園",
-     "min": "15",
+     "name": "泗水幼稚園",
+     "min": "37",
      "cat": "other"
     },
     {
-     "name": "たつだ保育園",
-     "min": "11",
+     "name": "愛泉保育園",
+     "min": "7",
      "cat": "other"
     },
     {
-     "name": "ゆめマート 龍田店",
+     "name": "ゆめマート 合志店",
      "min": "10",
      "cat": "super"
     },
     {
-     "name": "セブンイレブン熊本龍田7丁目店",
-     "min": "9",
+     "name": "ローソン 合志辻久保店",
+     "min": "7",
      "cat": "conbini"
     },
     {
-     "name": "竜田郵便局",
-     "min": "9",
+     "name": "辻久保簡易郵便局",
+     "min": "7",
      "cat": "other"
     },
     {
-     "name": "武蔵塚公園",
-     "min": "1",
+     "name": "第二ふれあい公園",
+     "min": "3",
      "cat": "park"
     }
    ],
    "photos": [
     {
      "id": "p1",
-     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_1.jpg",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985891_1.jpg",
      "main": true,
-     "local": "data/img/1fd2fd8fd1f4260e1bcc.jpg"
+     "local": "data/img/6b899844c5b503e36450.jpg"
     },
     {
      "id": "p2",
-     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_2.jpg",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985891_2.jpg",
      "main": false,
-     "local": "data/img/bde1315f8aa717686e4f.jpg"
+     "local": "data/img/5a64a0bc5e25d2f51000.jpg"
     },
     {
      "id": "p3",
-     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_3.jpg",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985891_3.jpg",
      "main": false,
-     "local": "data/img/5e072430a20ba2920265.jpg"
+     "local": "data/img/3c6707abda851ac51900.jpg"
     },
     {
      "id": "p4",
-     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_4.jpg",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985891_4.jpg",
      "main": false,
-     "local": "data/img/ee7d2111b683e3379399.jpg"
+     "local": "data/img/cf4d40d68cf87d861efc.jpg"
     },
     {
      "id": "p5",
-     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_5.jpg",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00132985891_5.jpg",
      "main": false,
-     "local": "data/img/9cf9cd9b951013974a95.jpg"
+     "local": "data/img/2ba0c13b0a24a2cbb989.jpg"
     }
    ],
-   "locText": "32.8435452, 130.7655917",
+   "locText": "32.90703882818718, 130.76244374797596",
    "locPrec": "",
-   "hpText": "プライスダウンいたしました！\n3,399万円→3,199万円\n旧価格公示日：2026年4月20日\n新価格公示日：2026年9月14日\n毎日のお買物に便利な「ゆめマート 龍田店」は徒歩11分",
+   "hpText": "プライスダウンいたしました！\n辻久保簡易郵便局は便利な徒歩7分",
    "tags": [],
    "status": "active",
    "endedAt": "",
-   "createdAt": "2026-09-27T12:14:00.003Z",
+   "createdAt": "2026-09-28T06:41:38.383Z",
    "lastSeen": "2026-09-28",
    "priceChanges": [],
    "priceSnapshots": [
     {
-     "date": "2026-09-27",
-     "price": "3,199万円"
+     "date": "2026-09-28",
+     "price": "3,699万円"
     }
-   ],
-   "relistedAt": ""
+   ]
   },
   {
    "id": "daiei-1483-1",
@@ -3502,6 +3501,115 @@
    "relistedAt": ""
   },
   {
+   "id": "daiei-1481-2",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市北区龍田弓削1丁目2号地",
+   "price": "3,199万円",
+   "address": "熊本県熊本市北区龍田弓削１丁目16-48",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1481-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "110.21㎡（33.33坪）",
+   "landArea": "186.75㎡（56.49坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "龍田小学校",
+   "elementaryMin": "13",
+   "junior": "龍田中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅",
+     "min": "15",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 龍田まちづくりセンター前停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "立田幼稚園",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "たつだ保育園",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート 龍田店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本龍田7丁目店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "竜田郵便局",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "武蔵塚公園",
+     "min": "1",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_1.jpg",
+     "main": true,
+     "local": "data/img/1fd2fd8fd1f4260e1bcc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_2.jpg",
+     "main": false,
+     "local": "data/img/bde1315f8aa717686e4f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_3.jpg",
+     "main": false,
+     "local": "data/img/5e072430a20ba2920265.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_4.jpg",
+     "main": false,
+     "local": "data/img/ee7d2111b683e3379399.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133158640_5.jpg",
+     "main": false,
+     "local": "data/img/9cf9cd9b951013974a95.jpg"
+    }
+   ],
+   "locText": "32.8435452, 130.7655917",
+   "locPrec": "",
+   "hpText": "プライスダウンいたしました！\n3,399万円→3,199万円\n旧価格公示日：2026年4月20日\n新価格公示日：2026年9月14日\n毎日のお買物に便利な「ゆめマート 龍田店」は徒歩11分",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-28",
+   "createdAt": "2026-09-27T12:14:00.003Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,199万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
    "id": "yokatown-100649276",
    "source": "yokatown",
    "name": "熊本県菊池郡菊陽町大字原水5期1号棟",
@@ -4631,21 +4739,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101533365_1_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/101533365_1_652_555_3.jpg?t=01790557584",
      "main": true,
-     "local": "data/img/41e99c1f0f40925b6717.jpg"
+     "local": "data/img/66be26419f61766a244a.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101533365_2_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/101533365_2_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/a97893fde794035de6be.jpg"
+     "local": "data/img/5f0172b09aaf8c28c50e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101533365_3_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/101533365_3_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/d9fc87cad4fa8fd5700d.jpg"
+     "local": "data/img/83627217df3f5409454d.jpg"
     }
    ],
    "locText": "32.68855300, 130.65130400",
@@ -4693,21 +4801,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101533699_1_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/101533699_1_652_555_3.jpg?t=01790557583",
      "main": true,
-     "local": "data/img/c1f84828575c61fd6251.jpg"
+     "local": "data/img/7e94b9768e2864d0ca0e.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101533699_2_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/101533699_2_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/0bd64f6c886037484972.jpg"
+     "local": "data/img/54e83924200a3b86609a.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101533699_3_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/101533699_3_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/0ff37b8ebe2c384cbc62.jpg"
+     "local": "data/img/6b84c814b4fb4169143b.jpg"
     }
    ],
    "locText": "32.68855300, 130.65130400",
@@ -4755,21 +4863,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101534607_1_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101534607_1_652_555_3.jpg?t=01790557586",
      "main": true,
-     "local": "data/img/6b31102a46ad28651982.jpg"
+     "local": "data/img/a130980ab8ed7d07c79d.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101534607_2_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101534607_2_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/5b2aee0ab7b9e97058f8.jpg"
+     "local": "data/img/7c3abb4b6c75d73caea1.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101534607_3_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101534607_3_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/6cc4d0c6ede62db54d9b.jpg"
+     "local": "data/img/07621d4e2732165fe6dd.jpg"
     }
    ],
    "locText": "32.68855300, 130.65130400",
@@ -5272,21 +5380,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101761458_1_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/101761458_1_652_555_3.jpg?t=01790557586",
      "main": true,
-     "local": "data/img/47c87d1242ca70465f12.jpg"
+     "local": "data/img/cfd0887116a4d118c70a.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101761458_2_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/101761458_2_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/dbadd4aaec122007ed39.jpg"
+     "local": "data/img/72675fde63ea548e1163.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101761458_3_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/101761458_3_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/f7d0f4426faa649fd193.jpg"
+     "local": "data/img/d83f2f6faf386724e3f8.jpg"
     }
    ],
    "locText": "32.76667000, 130.68772100",
@@ -5344,21 +5452,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101773734_1_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101773734_1_652_555_3.jpg?t=01790557585",
      "main": true,
-     "local": "data/img/e0353cd38a5cea474f18.jpg"
+     "local": "data/img/cca22fa6efd17b1e685e.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101773734_2_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101773734_2_652_555_3.jpg?t=01790557585",
      "main": false,
-     "local": "data/img/47f2878c52b8ee9bc46f.jpg"
+     "local": "data/img/7ee2b95a270c8185c23f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101773734_3_652_555_3.jpg?t=01789345664",
+     "url": "https://cdn.img-asp.jp/bkn/101773734_3_652_555_3.jpg?t=01790557585",
      "main": false,
-     "local": "data/img/0e7b117a11ef6d40b64d.jpg"
+     "local": "data/img/9d36f6665391d33a901d.jpg"
     }
    ],
    "locText": "32.75662200, 130.72004100",
@@ -5425,21 +5533,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/101786923_1_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_1_652_555_3.jpg?t=01790557581",
      "main": true,
-     "local": "data/img/8a9c93e66629a3e0c244.jpg"
+     "local": "data/img/e6e19e09740481f5fcc8.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/101786923_2_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_2_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/ea6544e62c70124bf563.jpg"
+     "local": "data/img/c069f486280786bbe0a9.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/101786923_3_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/101786923_3_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/26ce9bde152b017bfa94.jpg"
+     "local": "data/img/58cdaf644da1933f99fd.jpg"
     }
    ],
    "locText": "32.64874400, 130.66864600",
@@ -7617,21 +7725,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103770138_1_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/103770138_1_652_555_3.jpg?t=01790557587",
      "main": true,
-     "local": "data/img/8ab6ad75035cf5d7061d.jpg"
+     "local": "data/img/0950665885811520c47c.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103770138_2_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/103770138_2_652_555_3.jpg?t=01790557587",
      "main": false,
-     "local": "data/img/ab2b6744265fae468a14.jpg"
+     "local": "data/img/5075e10a56e7d174a821.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103770138_3_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/103770138_3_652_555_3.jpg?t=01790557587",
      "main": false,
-     "local": "data/img/9d276bf17982407ef31f.jpg"
+     "local": "data/img/950d071027a2baa23a2d.jpg"
     }
    ],
    "locText": "32.76016400, 130.66023900",
@@ -7824,21 +7932,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/103772617_1_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/103772617_1_652_555_3.jpg?t=01790557583",
      "main": true,
-     "local": "data/img/358720a13d8fa2fd8b78.jpg"
+     "local": "data/img/1527c50e0357f6242183.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/103772617_2_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/103772617_2_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/a3a9e3a30329ece0646e.jpg"
+     "local": "data/img/a41ccedf93af5d4b890d.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/103772617_3_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/103772617_3_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/8fc1e13d68b7f32b6fac.jpg"
+     "local": "data/img/2c0e32cf42771bb199b6.jpg"
     }
    ],
    "locText": "32.84508800, 130.74880600",
@@ -8512,21 +8620,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/104847548_1_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/104847548_1_652_555_3.jpg?t=01790557583",
      "main": true,
-     "local": "data/img/85813b64b188ba232bd5.jpg"
+     "local": "data/img/ddbf9942bcba14c50afa.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/104847548_2_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/104847548_2_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/b2e7533ce7a856ced864.jpg"
+     "local": "data/img/9d23c8b5acdf010667a9.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/104847548_3_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/104847548_3_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/e70e47add7a8cf0d3886.jpg"
+     "local": "data/img/8b72a26359c7c16ce543.jpg"
     }
    ],
    "locText": "32.77430800, 130.71448400",
@@ -8574,21 +8682,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/104849213_1_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/104849213_1_652_555_3.jpg?t=01790557586",
      "main": true,
-     "local": "data/img/3a24750b1e7305b7460f.jpg"
+     "local": "data/img/cae10419ca2e55e61610.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/104849213_2_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/104849213_2_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/00ced7e886bf03f70992.jpg"
+     "local": "data/img/08c20e32985ba67ffba3.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/104849213_3_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/104849213_3_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/3efac31d3076ef105ecf.jpg"
+     "local": "data/img/82ea5df9882784a860df.jpg"
     }
    ],
    "locText": "32.77376500, 130.71440900",
@@ -8646,21 +8754,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/104853603_1_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853603_1_652_555_3.jpg?t=01790557582",
      "main": true,
-     "local": "data/img/f39956cb99c54db8a715.jpg"
+     "local": "data/img/ee5138e8b6a0a815b139.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/104853603_2_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853603_2_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/0ded8974d9df9630fd84.jpg"
+     "local": "data/img/d475099d7b9f5460de7a.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/104853603_3_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853603_3_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/e5c7f8ae5c6ca6b1c5cb.jpg"
+     "local": "data/img/392db0fa6e371b68abfa.jpg"
     }
    ],
    "locText": "32.86829400, 130.77608900",
@@ -8718,21 +8826,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/104853800_1_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853800_1_652_555_3.jpg?t=01790557582",
      "main": true,
-     "local": "data/img/285341f62cba9138b111.jpg"
+     "local": "data/img/81abf014bc38a2420025.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/104853800_2_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853800_2_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/0e7a5346bdc3af4381c6.jpg"
+     "local": "data/img/5f4facc094b3979e471b.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/104853800_3_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/104853800_3_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/26b5fef3606a89bd78ec.jpg"
+     "local": "data/img/e2d61d14132f480b196d.jpg"
     }
    ],
    "locText": "32.86829400, 130.77608900",
@@ -11822,21 +11930,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_1_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_1_652_555_3.jpg?t=01790557581",
      "main": true,
-     "local": "data/img/171722c3cf9832151ce2.jpg"
+     "local": "data/img/25819ece136b96ef1a85.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_2_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_2_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/31161332802813a3600b.jpg"
+     "local": "data/img/f4e24c6f6ef0238ed4b9.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_3_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_3_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/b7d9a0ff82889eb996ad.jpg"
+     "local": "data/img/7da86d85f1c46aae3215.jpg"
     }
    ],
    "locText": "32.78850000, 130.70473200",
@@ -11884,21 +11992,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_1_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_1_652_555_3.jpg?t=01790557586",
      "main": true,
-     "local": "data/img/353244811b25d49ef67f.jpg"
+     "local": "data/img/e7afe4f50bd2e589f5a3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_2_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_2_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/ad61b4ed5d1333228d77.jpg"
+     "local": "data/img/b35fa7c97dec42e6bf4f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_3_652_555_3.jpg?t=01789345662",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_3_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/ddb5d96ee2d13f5c9beb.jpg"
+     "local": "data/img/48188aca4ca977865601.jpg"
     }
    ],
    "locText": "32.78850000, 130.70473200",
@@ -11956,21 +12064,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_1_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_1_652_555_3.jpg?t=01790557582",
      "main": true,
-     "local": "data/img/980e11e0b7c1900cb692.jpg"
+     "local": "data/img/bbf50e591e3ba0ca3f77.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_2_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_2_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/728b12c1a7420563cd8b.jpg"
+     "local": "data/img/915db07a501c04ef17a8.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_3_652_555_3.jpg?t=01789345667",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_3_652_555_3.jpg?t=01790557582",
      "main": false,
-     "local": "data/img/656adab778dfead88d46.jpg"
+     "local": "data/img/8eebcec2f2419ab80fa4.jpg"
     }
    ],
    "locText": "32.82470300, 130.76944800",
@@ -12018,21 +12126,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_1_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_1_652_555_3.jpg?t=01790557581",
      "main": true,
-     "local": "data/img/7498abae3f39169aaae6.jpg"
+     "local": "data/img/3daea9fae8bb076319e0.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_2_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_2_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/a6f16a7b06437de2357e.jpg"
+     "local": "data/img/7d61b494e9e8c8a6b4a9.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_3_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_3_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/35977cc14a746a9477d1.jpg"
+     "local": "data/img/9afede2178774d4c55a7.jpg"
     }
    ],
    "locText": "32.82470300, 130.76944800",
@@ -12266,21 +12374,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106540866_1_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_1_652_555_3.jpg?t=01790557586",
      "main": true,
-     "local": "data/img/e33b507ef7ef9d903904.jpg"
+     "local": "data/img/20860cee26aaab23a9f2.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106540866_2_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_2_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/a2177b2afd2a80c60849.jpg"
+     "local": "data/img/ace4014dfeec80d53797.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106540866_3_652_555_3.jpg?t=01789345663",
+     "url": "https://cdn.img-asp.jp/bkn/106540866_3_652_555_3.jpg?t=01790557586",
      "main": false,
-     "local": "data/img/0e8e342f590bd94ab3a6.jpg"
+     "local": "data/img/72ea48565248c36fb965.jpg"
     }
    ],
    "locText": "32.77099100, 130.70001100",
@@ -12524,21 +12632,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106548362_1_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_1_652_555_3.jpg?t=01790557580",
      "main": true,
-     "local": "data/img/00d3fca40fc707b18e9e.jpg"
+     "local": "data/img/eb076bedf99bfdeaccb0.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106548362_2_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_2_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/ee60514a0b77268f20ff.jpg"
+     "local": "data/img/89f3338c80a563bd1f98.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106548362_3_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106548362_3_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/fda0cd4f965ab3c5632e.jpg"
+     "local": "data/img/44bcc8769c8e8ec674f4.jpg"
     }
    ],
    "locText": "32.84894800, 130.72691000",
@@ -12586,21 +12694,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106550465_1_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_1_652_555_3.jpg?t=01790557580",
      "main": true,
-     "local": "data/img/d07a802c359c14eae707.jpg"
+     "local": "data/img/b89b6fe648166f4fe4c3.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106550465_2_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_2_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/bed19cd2f30d37cd9343.jpg"
+     "local": "data/img/907a07bd8afd54879b8e.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106550465_3_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550465_3_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/948d99ea2350b623413c.jpg"
+     "local": "data/img/cf9b721f84164b7530df.jpg"
     }
    ],
    "locText": "32.86159100, 130.72821300",
@@ -12648,21 +12756,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106550853_1_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_1_652_555_3.jpg?t=01790557580",
      "main": true,
-     "local": "data/img/6d909c4b8ab24fff5af7.jpg"
+     "local": "data/img/70211a3a1a10648ee47e.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106550853_2_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_2_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/04cdb4b03fe4755e163e.jpg"
+     "local": "data/img/f4839e5f4f3f7bd4eec0.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106550853_3_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106550853_3_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/925fe40658fe691ba61d.jpg"
+     "local": "data/img/3e36e2d2d8663b135e2a.jpg"
     }
    ],
    "locText": "32.86159100, 130.72821300",
@@ -12710,21 +12818,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106551631_1_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_1_652_555_3.jpg?t=01790557581",
      "main": true,
-     "local": "data/img/7b949bd96902d3f29564.jpg"
+     "local": "data/img/cb0eed9d762591777bf1.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106551631_2_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_2_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/48c29e276d17dbeaebd1.jpg"
+     "local": "data/img/fd176c233df5f325eeeb.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106551631_3_652_555_3.jpg?t=01789345668",
+     "url": "https://cdn.img-asp.jp/bkn/106551631_3_652_555_3.jpg?t=01790557581",
      "main": false,
-     "local": "data/img/12825e1c2c46b2c507ff.jpg"
+     "local": "data/img/620c2faa16d4b7a3430e.jpg"
     }
    ],
    "locText": "32.86159100, 130.72821300",
@@ -12772,21 +12880,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106551751_1_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_1_652_555_3.jpg?t=01790557580",
      "main": true,
-     "local": "data/img/577d446603923b188952.jpg"
+     "local": "data/img/4401630ee9c9102fca3f.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106551751_2_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_2_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/a1a34063fca7d6c133da.jpg"
+     "local": "data/img/d9d0c645c1706978f165.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106551751_3_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106551751_3_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/e876dd0a16b8ea54be70.jpg"
+     "local": "data/img/769e5b2635974283c928.jpg"
     }
    ],
    "locText": "32.86159100, 130.72821300",
@@ -12958,21 +13066,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106622053_1_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106622053_1_652_555_3.jpg?t=01790557579",
      "main": true,
-     "local": "data/img/f0ff9075e4c400665862.jpg"
+     "local": "data/img/89d71de4627f6b07e0f9.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106622053_2_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106622053_2_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/1aa347ccfc1408105b37.jpg"
+     "local": "data/img/b2288f4c91d4cd947bdc.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106622053_3_652_555_3.jpg?t=01789345670",
+     "url": "https://cdn.img-asp.jp/bkn/106622053_3_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/402c566ce9812e63015d.jpg"
+     "local": "data/img/9160607dc97b1758fa91.jpg"
     }
    ],
    "locText": "32.72591600, 130.77901400",
@@ -13020,21 +13128,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_1_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_1_652_555_3.jpg?t=01790557580",
      "main": true,
-     "local": "data/img/aa5a7f69b04ba30408da.jpg"
+     "local": "data/img/de9dd6323afaa91e91b7.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_2_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_2_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/f628e59d189fb4654745.jpg"
+     "local": "data/img/a7284149ad46019901f5.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_3_652_555_3.jpg?t=01789345669",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_3_652_555_3.jpg?t=01790557580",
      "main": false,
-     "local": "data/img/091ac0589c9514bb1a36.jpg"
+     "local": "data/img/b26a711cb55970cac14b.jpg"
     }
    ],
    "locText": "32.65725900, 130.70000100",
@@ -14699,21 +14807,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_1_652_555_3.jpg?t=01790491337",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_1_652_555_3.jpg?t=01790557579",
      "main": true,
-     "local": "data/img/3b540b49b8def2285d6c.jpg"
+     "local": "data/img/d85d59c87cebfb21840c.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_2_652_555_3.jpg?t=01790491337",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_2_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/4ed5b58c9a7a49d4da0f.jpg"
+     "local": "data/img/49cf977a0583c49c6a85.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_3_652_555_3.jpg?t=01790491337",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_3_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/2aa92e1c3398390b2edf.jpg"
+     "local": "data/img/d5d8b70116d3a63d4efc.jpg"
     }
    ],
    "locText": "32.80972100, 130.78504800",
@@ -14761,21 +14869,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_1_652_555_3.jpg?t=01790493249",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_1_652_555_3.jpg?t=01790557579",
      "main": true,
-     "local": "data/img/63348ee8788d036b4566.jpg"
+     "local": "data/img/ff136bcaaf4a9c28be60.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_2_652_555_3.jpg?t=01790493249",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_2_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/cae5d8c7625a9ac1cd66.jpg"
+     "local": "data/img/b2678ffb2cda46fb20b6.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_3_652_555_3.jpg?t=01790493249",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_3_652_555_3.jpg?t=01790557579",
      "main": false,
-     "local": "data/img/37e67d30dd422042cbb7.jpg"
+     "local": "data/img/1af80c3d06ebd0464831.jpg"
     }
    ],
    "locText": "32.80972100, 130.78504800",
@@ -14920,6 +15028,200 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-107814427",
+   "source": "yokatown",
+   "name": "熊本市西区小島9丁目1期7号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市西区小島９丁目6-16東側付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107814427.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "110.37㎡/ 33.38坪",
+   "landArea": "194.40㎡/ 58.80坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅 徒歩85分",
+     "min": "85",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107814427_1_652_555_3.jpg?t=01790561865",
+     "main": true,
+     "local": "data/img/4785ff1fe15b5e040787.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107814427_2_652_555_3.jpg?t=01790561865",
+     "main": false,
+     "local": "data/img/3253efd83f750a7688dc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107814427_3_652_555_3.jpg?t=01790561865",
+     "main": false,
+     "local": "data/img/af12d640029fa4a78ef7.jpg"
+    }
+   ],
+   "locText": "32.77989600, 130.62855700",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市西区小島9丁目1期7号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市西区小島9丁目1期7号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T06:40:41.737Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107814609",
+   "source": "yokatown",
+   "name": "熊本市西区小島9丁目1期8号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市西区小島９丁目6-16東側付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107814609.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "111.14㎡/ 33.61坪",
+   "landArea": "193.23㎡/ 58.45坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅 徒歩85分",
+     "min": "85",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107814609_1_652_555_3.jpg?t=01790562220",
+     "main": true,
+     "local": "data/img/b2d18cb6196c9886232a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107814609_2_652_555_3.jpg?t=01790562220",
+     "main": false,
+     "local": "data/img/1d6bcc940e48ba34f6e2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107814609_3_652_555_3.jpg?t=01790562220",
+     "main": false,
+     "local": "data/img/b0351daed3039f9b6bee.jpg"
+    }
+   ],
+   "locText": "32.77989600, 130.62855700",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市西区小島9丁目1期8号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市西区小島9丁目1期8号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T06:40:41.737Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107821690",
+   "source": "yokatown",
+   "name": "熊本市北区楠7丁目1期1号棟",
+   "price": "3,998万円",
+   "address": "熊本県熊本市北区楠７丁目15-39付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107821690.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "110.32㎡/ 33.37坪",
+   "landArea": "163.94㎡/ 49.59坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩13分",
+     "min": "13",
+     "cat": "station"
+    },
+    {
+     "name": "「希望ヶ丘（熊本県）」バス停下車 徒歩5分",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107821690_1_652_555_3.jpg?t=01790569934",
+     "main": true,
+     "local": "data/img/1cadcbf96607bc50e489.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107821690_2_652_555_3.jpg?t=01790569934",
+     "main": false,
+     "local": "data/img/ad556b5caac5587f8970.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107821690_3_652_555_3.jpg?t=01790569934",
+     "main": false,
+     "local": "data/img/acc10827bbb5a2f54a57.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/107821690_4_652_555_3.jpg?t=01790569934",
+     "main": false,
+     "local": "data/img/6a4b142863dbea62bf6e.jpg"
+    }
+   ],
+   "locText": "32.84752400, 130.76192900",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市北区楠7丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市北区楠7丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-28T06:40:41.737Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-28",
+     "price": "3,998万円"
+    }
+   ]
+  },
+  {
    "id": "yokatown-96551249",
    "source": "yokatown",
    "name": "熊本市中央区出水8丁目2期2号棟",
@@ -14947,21 +15249,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/96551249_1_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/96551249_1_652_555_3.jpg?t=01790557584",
      "main": true,
-     "local": "data/img/428ac78cf7f0e27afd0e.jpg"
+     "local": "data/img/076c14eacbff261e7a57.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/96551249_2_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/96551249_2_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/281f8225f11e742d5559.jpg"
+     "local": "data/img/c4db2df2241651a5a9a0.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/96551249_3_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/96551249_3_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/cbd6d4e255202bccea74.jpg"
+     "local": "data/img/10ab170058ee0ee4c895.jpg"
     }
    ],
    "locText": "32.77560100, 130.72868400",
@@ -15019,21 +15321,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_1_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_1_652_555_3.jpg?t=01790557584",
      "main": true,
-     "local": "data/img/6282ab36a4e98c5d3161.jpg"
+     "local": "data/img/87ca3a91106c6dd6b500.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_2_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_2_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/5243e8a64e2478dd3127.jpg"
+     "local": "data/img/fa80a1289aff7fd9cd0f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/96562124_3_652_555_3.jpg?t=01789345665",
+     "url": "https://cdn.img-asp.jp/bkn/96562124_3_652_555_3.jpg?t=01790557584",
      "main": false,
-     "local": "data/img/860beb55f9c0f2fe3248.jpg"
+     "local": "data/img/02c30451751d376a7ee3.jpg"
     }
    ],
    "locText": "32.72141600, 130.72071800",
@@ -15297,21 +15599,21 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/98156936_1_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/98156936_1_652_555_3.jpg?t=01790557583",
      "main": true,
-     "local": "data/img/1ededa72cbbbfc9aba7d.jpg"
+     "local": "data/img/61ee0f8000745e5f2960.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/98156936_2_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/98156936_2_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/aea43f3269c34ab3c335.jpg"
+     "local": "data/img/bff626d914cebcf8f1e9.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/98156936_3_652_555_3.jpg?t=01789345666",
+     "url": "https://cdn.img-asp.jp/bkn/98156936_3_652_555_3.jpg?t=01790557583",
      "main": false,
-     "local": "data/img/86728c7ee4979614d9a4.jpg"
+     "local": "data/img/2bab8b51dec17d0d28b6.jpg"
     }
    ],
    "locText": "32.78537800, 130.77750800",
@@ -23445,152 +23747,6 @@
    "relistedAt": ""
   },
   {
-   "id": "sumaiida-5011601000515585219-2",
-   "source": "sumaiida",
-   "name": "リーブルガーデン西区上代３丁目",
-   "price": "2,198万円",
-   "address": "熊本県熊本市 西区上代３丁目6-18",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585219-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年2月",
-   "buildingArea": "107.64m²",
-   "landArea": "168.7m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市健軍線「熊本駅前」駅までバス11分「下高野辺田」停徒歩5分",
-     "min": "5",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130050255_3.jpg",
-     "main": true,
-     "local": "data/img/c40620dd17e275666d9d.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130050255_4.jpg",
-     "main": false,
-     "local": "data/img/2b1d1bc9f869f0e9b596.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130050255_5.jpg",
-     "main": false,
-     "local": "data/img/62cdebd6b80f352d156c.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130050255_6.jpg",
-     "main": false,
-     "local": "data/img/301140e503dd5cd04a9f.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130050255_10.jpg",
-     "main": false,
-     "local": "data/img/f8108cc798e852e1807e.jpg"
-    }
-   ],
-   "locText": "32.78058, 130.67031",
-   "hpText": "一建設株式会社のリーブルガーデン西区上代３丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-09-28",
-   "priceChanges": [
-    {
-     "date": "2026-07-29",
-     "from": "2,798万円",
-     "to": "2,698万円"
-    },
-    {
-     "date": "2026-08-13",
-     "from": "2,698万円",
-     "to": "2,598万円"
-    },
-    {
-     "date": "2026-08-26",
-     "from": "2,598万円",
-     "to": "2,498万円"
-    },
-    {
-     "date": "2026-09-01",
-     "from": "2,498万円",
-     "to": "2,398万円"
-    },
-    {
-     "date": "2026-09-15",
-     "from": "2,398万円",
-     "to": "2,298万円"
-    },
-    {
-     "date": "2026-09-16",
-     "from": "2,298万円",
-     "to": "2,398万円"
-    },
-    {
-     "date": "2026-09-17",
-     "from": "2,398万円",
-     "to": "2,298万円"
-    },
-    {
-     "date": "2026-09-21",
-     "from": "2,298万円",
-     "to": "2,198万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,798万円"
-    },
-    {
-     "date": "2026-07-29",
-     "price": "2,698万円"
-    },
-    {
-     "date": "2026-08-13",
-     "price": "2,598万円"
-    },
-    {
-     "date": "2026-08-26",
-     "price": "2,498万円"
-    },
-    {
-     "date": "2026-09-01",
-     "price": "2,398万円"
-    },
-    {
-     "date": "2026-09-15",
-     "price": "2,298万円"
-    },
-    {
-     "date": "2026-09-16",
-     "price": "2,398万円"
-    },
-    {
-     "date": "2026-09-17",
-     "price": "2,298万円"
-    },
-    {
-     "date": "2026-09-21",
-     "price": "2,198万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
    "id": "sumaiida-5011601000515585807-2",
    "source": "sumaiida",
    "name": "リーブルガーデン合志市須屋第十四",
@@ -26836,6 +26992,152 @@
     {
      "date": "2026-09-02",
      "price": "2,890万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-5011601000515585219-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン西区上代３丁目",
+   "price": "2,198万円",
+   "address": "熊本県熊本市 西区上代３丁目6-18",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515585219-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "107.64m²",
+   "landArea": "168.7m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「熊本駅前」駅までバス11分「下高野辺田」停徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_3.jpg",
+     "main": true,
+     "local": "data/img/c40620dd17e275666d9d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_4.jpg",
+     "main": false,
+     "local": "data/img/2b1d1bc9f869f0e9b596.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_5.jpg",
+     "main": false,
+     "local": "data/img/62cdebd6b80f352d156c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_6.jpg",
+     "main": false,
+     "local": "data/img/301140e503dd5cd04a9f.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130050255_10.jpg",
+     "main": false,
+     "local": "data/img/f8108cc798e852e1807e.jpg"
+    }
+   ],
+   "locText": "32.78058, 130.67031",
+   "hpText": "一建設株式会社のリーブルガーデン西区上代３丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-28",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-09-28",
+   "priceChanges": [
+    {
+     "date": "2026-07-29",
+     "from": "2,798万円",
+     "to": "2,698万円"
+    },
+    {
+     "date": "2026-08-13",
+     "from": "2,698万円",
+     "to": "2,598万円"
+    },
+    {
+     "date": "2026-08-26",
+     "from": "2,598万円",
+     "to": "2,498万円"
+    },
+    {
+     "date": "2026-09-01",
+     "from": "2,498万円",
+     "to": "2,398万円"
+    },
+    {
+     "date": "2026-09-15",
+     "from": "2,398万円",
+     "to": "2,298万円"
+    },
+    {
+     "date": "2026-09-16",
+     "from": "2,298万円",
+     "to": "2,398万円"
+    },
+    {
+     "date": "2026-09-17",
+     "from": "2,398万円",
+     "to": "2,298万円"
+    },
+    {
+     "date": "2026-09-21",
+     "from": "2,298万円",
+     "to": "2,198万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,798万円"
+    },
+    {
+     "date": "2026-07-29",
+     "price": "2,698万円"
+    },
+    {
+     "date": "2026-08-13",
+     "price": "2,598万円"
+    },
+    {
+     "date": "2026-08-26",
+     "price": "2,498万円"
+    },
+    {
+     "date": "2026-09-01",
+     "price": "2,398万円"
+    },
+    {
+     "date": "2026-09-15",
+     "price": "2,298万円"
+    },
+    {
+     "date": "2026-09-16",
+     "price": "2,398万円"
+    },
+    {
+     "date": "2026-09-17",
+     "price": "2,298万円"
+    },
+    {
+     "date": "2026-09-21",
+     "price": "2,198万円"
     }
    ],
    "relistedAt": ""
