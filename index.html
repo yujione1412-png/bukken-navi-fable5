@@ -37,10 +37,23 @@ header{
   padding:7px 14px;display:flex;align-items:center;gap:8px;
   box-shadow:0 1px 4px rgba(0,0,0,.25);
 }
-header h1{font-size:1.15rem;font-weight:700;letter-spacing:.05em}
+header h1{font-size:1.15rem;font-weight:700;letter-spacing:.05em;white-space:nowrap}
 header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
+#avgBtn{
+  margin-left:auto;font-size:.76rem;font-weight:600;white-space:nowrap;
+  border:1px solid rgba(255,255,255,.4);border-radius:10px;padding:4px 9px;
+}
+/* 平均価格を表示中:黄色く塗って ✓ を付け、オンだと一目で分かるようにする */
+@media (max-width:380px){   /* 幅の狭いスマホでは見出しが折り返さないよう少し小さく */
+  header{gap:6px;padding:7px 10px}
+  header h1{font-size:1.05rem;letter-spacing:.02em}
+  #avgBtn{font-size:.7rem;padding:4px 7px}
+  #priceBtn{font-size:.74rem;padding:4px 8px}
+}
+#avgBtn.on{background:#f3c83f;border-color:#f3c83f;color:#3b2f06;
+  box-shadow:0 0 0 2px rgba(243,200,63,.35)}
 #priceBtn{
-  margin-left:auto;font-size:.8rem;font-weight:600;
+  font-size:.8rem;font-weight:600;white-space:nowrap;
   border:1px solid rgba(255,255,255,.4);border-radius:10px;padding:4px 11px;
 }
 #priceBtn.on{background:var(--orange);border-color:var(--orange)}
@@ -58,6 +71,19 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 }
 .tab .cnt{font-size:.75rem;margin-left:2px}
 .tab.on{background:var(--green);border-color:var(--green);color:#f6f2e6;font-weight:600}
+
+/* ---------- 平均価格(「平均価格を表示する」オンの間だけ、タブ・エリアの下に出す) ---------- */
+.avgCol{flex:0 0 auto;display:flex;flex-direction:column;align-items:stretch;gap:3px}
+#tabs,#tagRow{align-items:flex-start}   /* 平均の枠が無いタグまで縦に伸びないように */
+.avgCol > .tab,.avgCol > .tag{text-align:center}
+.avgBox{
+  border-radius:999px;border:1px dashed #d9b64a;background:#fdf6dc;color:#6e5011;
+  font-size:.75rem;font-weight:700;text-align:center;white-space:nowrap;
+  padding:5px 8px;line-height:1.55;cursor:pointer;
+}
+.avgBox.none{color:#b3ab99;font-weight:400;border-color:var(--line);background:var(--paper)}
+.avgBox.cur{border-style:solid;border-color:var(--green);background:#e7efe9;color:var(--green)}
+#tagRow .avgBox{font-size:.72rem;padding:3px 6px;line-height:1.5}
 
 /* ---------- 検索・並び替え ---------- */
 .toolbar{padding:4px 12px 0}
@@ -403,7 +429,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.28</span>
+    <h1>物件ナビ</h1><span class="ver">v0.29</span>
+    <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -667,7 +694,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.28
+   物件ナビ v0.29
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -1153,6 +1180,7 @@ const state = {
   priceMin:null, priceMax:null,        // 万円
   makers:new Set(["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","manual"]),  // 地図用
   mapTips:true,                        // 地図の吹き出し(物件名・価格)表示
+  showAvg:false,                       // タブ・エリアの下に平均価格を出すか(起動時は出さない・保存しない)
 };
 let currentId = null;
 let editingId = null;
@@ -1172,7 +1200,7 @@ function pricePass(l){
   return true;
 }
 /* メーカー以外の条件(タグ・検索・価格・状態)を適用 → タブ件数の母数 */
-function applyCommon(arr){
+function applyCommon(arr, skipKind){
   arr = arr.filter(l=>statusPass(l) && pricePass(l));
   if(state.tags.size){
     /* 選んだタグを種類ごとにまとめ、
@@ -1180,6 +1208,7 @@ function applyCommon(arr){
     const groups = {};
     for(const t of state.tags){
       const k = tagKind(t);
+      if(k===skipKind) continue;         // 平均価格の計算用: エリアの選択は無視する
       (groups[k] = groups[k] || []).push(t);
     }
     arr = arr.filter(l=>{
@@ -1245,10 +1274,49 @@ function renderTabs(){
   ];
   const box = document.getElementById("tabs");
   const keep = box.scrollLeft;
-  box.innerHTML = defs.map(d=>
-    `<button class="tab${state.tab===d.id?" on":""}" data-tab="${d.id}">
-      ${d.label}<span class="cnt">(${d.n})</span></button>`).join("");
+  box.innerHTML = defs.map(d=>{
+    const btn = `<button class="tab${state.tab===d.id?" on":""}" data-tab="${d.id}">
+      ${d.label}<span class="cnt">(${d.n})</span></button>`;
+    if(!state.showAvg) return btn;
+    const items = d.id==="all" ? base
+                : d.id==="candidate" ? base.filter(l=>l.candidate)
+                : base.filter(l=>l.source===d.id);
+    return `<div class="avgCol">${btn}${avgBoxHtml(items, state.tab===d.id, `data-tab="${d.id}"`)}</div>`;
+  }).join("");
   box.scrollLeft = keep;
+}
+
+/* ---------- 平均価格 ----------
+   価格の幅表記「3,598万円～3,798万円」は、上下の真ん中の値で数える。
+   価格が読み取れない物件(「価格未定」など)は平均から除く。 */
+function priceForAvg(l){
+  const parts = String(l.price||"").split(/[～〜~]/).map(priceMan).filter(v=>v!=null && v>0);
+  if(!parts.length) return null;
+  return parts.length>=2 ? (Math.min(...parts)+Math.max(...parts))/2 : parts[0];
+}
+function avgPrice(items){
+  const vs = items.map(priceForAvg).filter(v=>v!=null);
+  if(!vs.length) return null;
+  return {avg: vs.reduce((a,b)=>a+b,0)/vs.length, n: vs.length};
+}
+function fmtAvg(v){
+  const man = Math.round(v);
+  if(man >= 10000){
+    const oku = Math.floor(man/10000), rest = man%10000;
+    return oku+"億"+(rest ? rest.toLocaleString()+"万円" : "円");
+  }
+  return man.toLocaleString()+"万円";
+}
+function avgBoxHtml(items, cur, attr){
+  const a = avgPrice(items);
+  if(!a) return `<div class="avgBox none${cur?" cur":""}" ${attr} title="価格の分かる物件がありません">―</div>`;
+  return `<div class="avgBox${cur?" cur":""}" ${attr} title="価格の分かる${a.n}件の平均">${fmtAvg(a.avg)}</div>`;
+}
+function updateAvgBtn(){
+  const b = document.getElementById("avgBtn");
+  b.textContent = state.showAvg ? "✓ 平均価格を表示中" : "📊 平均価格を表示する";
+  b.classList.toggle("on", state.showAvg);
+  b.setAttribute("aria-pressed", state.showAvg ? "true" : "false");
 }
 
 /* ---------- タグの並び順:
@@ -1298,7 +1366,14 @@ function renderTagRow(){
   for(const t of [...state.tags]) if(!tags.includes(t)) state.tags.delete(t);
   const box = document.getElementById("tagRow");
   const keep = box.scrollLeft;
-  box.innerHTML = tags.map(tagBtnHtml).join("");
+  /* 平均価格はエリア(区・市・町村)のタグだけに出す。
+     今選んでいるメーカーのタブと、検索・価格・エリア以外のタグの絞り込みに連動する */
+  const areaBase = state.showAvg ? applyMaker(applyCommon(listings.slice(), "area")) : null;
+  box.innerHTML = tags.map(t=>{
+    if(!state.showAvg || tagKind(t)!=="area") return tagBtnHtml(t);
+    const items = areaBase.filter(l=>areaTag(l.address)===t);
+    return `<div class="avgCol">${tagBtnHtml(t)}${avgBoxHtml(items, state.tags.has(t), `data-tag="${esc(t)}"`)}</div>`;
+  }).join("");
   box.scrollLeft = keep;
 }
 
@@ -1365,7 +1440,7 @@ function renderList(){
     </div>`;
   }).join("");
 }
-function renderHome(){ renderTabs(); renderTagRow(); renderList(); updatePriceBtn(); renderAlertBanner(); }
+function renderHome(){ renderTabs(); renderTagRow(); renderList(); updatePriceBtn(); updateAvgBtn(); renderAlertBanner(); }
 function updatePriceBtn(){
   const on = state.priceMin!=null || state.priceMax!=null;
   const label = on
@@ -2121,12 +2196,13 @@ function openMenu(){
 
 /* ---------- イベント ---------- */
 document.getElementById("tabs").addEventListener("click", e=>{
-  const b = e.target.closest(".tab"); if(!b) return;
+  const b = e.target.closest("[data-tab]"); if(!b) return;   // 平均価格の枠を押してもそのタブを選ぶ
   state.tab = b.dataset.tab;
   renderTabs(); renderList();
+  if(state.showAvg) renderTagRow();   // エリアの平均は選んだメーカーに連動
 });
 function tagClickHandler(e){
-  const b = e.target.closest(".tag"); if(!b) return;
+  const b = e.target.closest("[data-tag]"); if(!b) return;  // 平均価格の枠を押してもそのタグを選ぶ
   const t = b.dataset.tag;
   if(state.tags.has(t)) state.tags.delete(t);
   else state.tags.add(t);
@@ -2153,6 +2229,7 @@ document.getElementById("makerRow").addEventListener("click", e=>{
 });
 document.getElementById("q").addEventListener("input", e=>{
   state.q = e.target.value; renderTabs(); renderList();
+  if(state.showAvg) renderTagRow();   // エリアの平均も検索に連動
 });
 document.getElementById("sort").addEventListener("change", e=>{
   state.sort = e.target.value; renderList();
@@ -2164,6 +2241,7 @@ document.getElementById("list").addEventListener("click", e=>{
     const l = listings.find(x=>x.id===star.dataset.star);
     star.classList.toggle("on", !!(l && l.candidate));
     renderTabs();
+    if(state.showAvg && state.tab==="candidate") renderTagRow();
     return;
   }
   const card = e.target.closest(".card"); if(!card) return;
@@ -2294,6 +2372,10 @@ document.getElementById("endedMonthsSel").addEventListener("change", e=>{
 });
 /* 価格 */
 document.getElementById("priceBtn").addEventListener("click", openPriceSheet);
+document.getElementById("avgBtn").addEventListener("click", ()=>{
+  state.showAvg = !state.showAvg;
+  renderTabs(); renderTagRow(); updateAvgBtn();
+});
 document.getElementById("mapPriceBtn").addEventListener("click", openPriceSheet);
 document.getElementById("priceApply").addEventListener("click", applyPrice);
 document.getElementById("priceClear").addEventListener("click", ()=>{
