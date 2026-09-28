@@ -403,7 +403,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.27</span>
+    <h1>物件ナビ</h1><span class="ver">v0.28</span>
     <button id="priceBtn">💰 価格</button>
   </header>
 
@@ -532,6 +532,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
           <option value="yokatown">よかタウン</option>
           <option value="daiei">大英産業</option>
           <option value="nakajitsu">ナカジツ</option>
+          <option value="kokubu">国分ハウジング</option>
           <option value="other">その他</option>
         </select></div>
       <div class="frow"><label>価格</label>
@@ -613,7 +614,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
         <option value="all">すべて</option>
       </select>
     </div>
-    <div class="mline"><a href="#" id="muStatus">📡 5社の更新状況を見る</a></div>
+    <div class="mline"><a href="#" id="muStatus">📡 6社の更新状況を見る</a></div>
     <div class="mnote" id="menuInfo"></div>
     <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日朝6時、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
@@ -666,7 +667,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.27
+   物件ナビ v0.28
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -685,6 +686,7 @@ const SOURCES = {
   yokatown: { label:"よかタウン", color:"#d8731f" },
   daiei:    { label:"大英産業",   color:"#8e3b8a" },
   nakajitsu:{ label:"ナカジツ",   color:"#b8323a" },
+  kokubu:   { label:"国分ハウジング", color:"#2a8c82" },
   other:    { label:"その他",     color:"#6f6a5c" },
 };
 const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
@@ -809,11 +811,11 @@ function renderAlertBanner(){
     toast("状況が変わると、また表示されます");
   };
 }
-/* all=true なら正常なメーカーも含めて表示(メニューの「5社の更新状況」) */
+/* all=true なら正常なメーカーも含めて表示(メニューの「6社の更新状況」) */
 function showStatusDetail(all){
   const src = (scrapeStatus && scrapeStatus.sources) || null;
   if(!src){
-    modal("5社の更新状況",
+    modal("6社の更新状況",
       "収集状況の記録(data/status.json)がまだありません。\n\n" +
       "次回の自動更新(毎日 朝6時)のあと、メニューの「↻ 最新データを読み込む」を押すと表示されます。",
       [["閉じる",null,"mb-ok"]]);
@@ -821,7 +823,7 @@ function showStatusDetail(all){
   }
   const alerts = statusAlerts();
   const byKey = {}; alerts.forEach(a=>byKey[a.key]=a);
-  const order = ["maemura","sumaiida","yokatown","daiei","nakajitsu"];
+  const order = ["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu"];
   const keys = order.filter(k=>src[k]).concat(Object.keys(src).filter(k=>!order.includes(k)));
   const blocks = [];
   for(const k of keys){
@@ -835,12 +837,12 @@ function showStatusDetail(all){
     (a ? a.reasons : []).forEach(r=>lines.push(`　・${r}`));
     blocks.push(lines.join("\n"));
   }
-  if(!blocks.length) blocks.push("5社とも正常に更新できています。");
+  if(!blocks.length) blocks.push("6社とも正常に更新できています。");
   const foot = alerts.length
     ? "\n\n表示中の物件情報は、最後に正常に取れた時点のものです。物件が削除されたり、勝手に掲載終了になったりはしていません。\n" +
       "この表示が数日続く場合は、HPの作りが変わった可能性があります。管理担当にお知らせください。"
     : "";
-  modal(all ? "5社の更新状況" : "HPからの自動収集で問題が出ています",
+  modal(all ? "6社の更新状況" : "HPからの自動収集で問題が出ています",
     blocks.join("\n\n") + foot, [["閉じる",null,"mb-ok"]]);
 }
 
@@ -915,6 +917,8 @@ function toast(msg){
 function idFromUrl(url){
   try{
     const u = new URL(url.trim());
+    const qid = u.searchParams.get("p") || u.searchParams.get("id");   // 大英産業(?id=)・国分ハウジング(?p=)
+    if(qid && /^[0-9A-Za-z_-]{1,40}$/.test(qid)) return "hp-"+qid;
     const segs = u.pathname.split("/").filter(Boolean);
     let slug = segs.length ? segs[segs.length-1] : u.hostname;
     slug = slug.replace(/\.(html?|php)$/i,"");
@@ -927,8 +931,10 @@ function idFromUrl(url){
 }
 function newManualId(){ return "m-"+Date.now().toString(36); }
 function normUrl(u){
+  /* 大英産業(?id=)・国分ハウジング(?p=)は物件番号がURLの「?」以降にあるので、その部分だけは残す */
   try{ const x=new URL(String(u).trim());
-    return (x.origin+x.pathname).replace(/\/$/,"").toLowerCase(); }
+    const q=[...x.searchParams].filter(([k])=>/^(p|id)$/i.test(k)).map(([k,v])=>k.toLowerCase()+"="+v).sort().join("&");
+    return (x.origin+x.pathname).replace(/\/$/,"").toLowerCase()+(q?"?"+q:""); }
   catch(e){ return String(u||"").trim().toLowerCase(); }
 }
 function priceMan(p){
@@ -1145,7 +1151,7 @@ const state = {
   tab:"all", q:"", sort:"created-desc", tags:new Set(),
   view:"active",                       // active=掲載中 / ended=掲載終了のみ
   priceMin:null, priceMax:null,        // 万円
-  makers:new Set(["maemura","sumaiida","yokatown","daiei","nakajitsu","manual"]),  // 地図用
+  makers:new Set(["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","manual"]),  // 地図用
   mapTips:true,                        // 地図の吹き出し(物件名・価格)表示
 };
 let currentId = null;
@@ -1234,6 +1240,7 @@ function renderTabs(){
     {id:"yokatown", label:"よかタウン", n:base.filter(l=>l.source==="yokatown").length},
     {id:"daiei",    label:"大英産業",   n:base.filter(l=>l.source==="daiei").length},
     {id:"nakajitsu",label:"ナカジツ",   n:base.filter(l=>l.source==="nakajitsu").length},
+    {id:"kokubu",   label:"国分ハウジング", n:base.filter(l=>l.source==="kokubu").length},
     {id:"candidate",label:"★候補",     n:base.filter(l=>l.candidate).length},
   ];
   const box = document.getElementById("tabs");
@@ -1416,7 +1423,7 @@ function loadLeaflet(){
 }
 function renderMakerRow(){
   const box = document.getElementById("makerRow");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["manual","その他"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["manual","その他"]];
   // タグ・価格・検索の絞り込みを反映した件数(地図に出る数と一致する)
   const base = applyCommon(listings.slice());
   const cnt = (src)=>base.filter(l=>(isManual(l.id) ? "manual" : l.source) === src).length;
@@ -2017,7 +2024,7 @@ function buildCsv(opts){
 }
 function openCsvSheet(){
   const box = document.getElementById("csvMakers");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["manual","その他(手動登録)"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["manual","その他(手動登録)"]];
   box.innerHTML = defs.map(([id,label])=>
     `<button class="chk on" data-csvmk="${id}">${label}</button>`).join("");
   document.getElementById("csvStarOnly").checked = false;
