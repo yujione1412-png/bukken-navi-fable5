@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T12:08:30.025Z",
+ "updatedAt": "2026-09-28T13:53:13.806Z",
  "count": 442,
  "listings": [
   {
@@ -74,7 +74,8 @@
      "date": "2026-09-28",
      "price": "3,880万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1659",
@@ -148,7 +149,8 @@
      "date": "2026-09-28",
      "price": "3,870万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1704",
@@ -227,7 +229,8 @@
      "date": "2026-09-28",
      "price": "2,880万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1749",
@@ -247,7 +250,14 @@
    "elementaryMin": "",
    "junior": "鶴城中学校",
    "juniorMin": "",
-   "facilities": [],
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
    "photos": [
     {
      "id": "p1",
@@ -294,7 +304,8 @@
      "date": "2026-09-28",
      "price": "3,170万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1801",
@@ -315,6 +326,12 @@
    "junior": "第四中学校",
    "juniorMin": "",
    "facilities": [
+    {
+     "name": "新八代駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "市民球場前バス停",
      "min": "4",
@@ -367,7 +384,8 @@
      "date": "2026-09-28",
      "price": "2,840万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1846",
@@ -441,7 +459,8 @@
      "date": "2026-09-28",
      "price": "3,780万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1895",
@@ -514,7 +533,8 @@
      "date": "2026-09-28",
      "price": "3,670万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1917",
@@ -588,7 +608,8 @@
      "date": "2026-09-28",
      "price": "2,990万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1949",
@@ -661,7 +682,8 @@
      "date": "2026-09-28",
      "price": "2,940万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1952",
@@ -739,7 +761,8 @@
      "date": "2026-09-28",
      "price": "3,620万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1955",
@@ -759,7 +782,14 @@
    "elementaryMin": "",
    "junior": "玉名中学校",
    "juniorMin": "",
-   "facilities": [],
+   "facilities": [
+    {
+     "name": "玉名駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
    "photos": [
     {
      "id": "p1",
@@ -806,7 +836,8 @@
      "date": "2026-09-28",
      "price": "3,090万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2095",
@@ -880,7 +911,8 @@
      "date": "2026-09-28",
      "price": "3,780万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2251",
@@ -900,7 +932,14 @@
    "elementaryMin": "",
    "junior": "清水中学校",
    "juniorMin": "",
-   "facilities": [],
+   "facilities": [
+    {
+     "name": "須屋駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
    "photos": [
     {
      "id": "p1",
@@ -947,7 +986,8 @@
      "date": "2026-09-28",
      "price": "3,390万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2264",
@@ -1021,7 +1061,8 @@
      "date": "2026-09-28",
      "price": "3,350万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2296",
@@ -1041,7 +1082,14 @@
    "elementaryMin": "",
    "junior": "飽田中学校",
    "juniorMin": "",
-   "facilities": [],
+   "facilities": [
+    {
+     "name": "川尻駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
    "photos": [
     {
      "id": "p1",
@@ -1088,7 +1136,8 @@
      "date": "2026-09-28",
      "price": "3,370万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2305",
@@ -1161,7 +1210,8 @@
      "date": "2026-09-28",
      "price": "3,290万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2336",
@@ -1228,7 +1278,8 @@
      "date": "2026-09-28",
      "price": "3,990万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-2337",
@@ -1306,7 +1357,8 @@
      "date": "2026-09-28",
      "price": "3,390万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "nakajitsu-5482368",
