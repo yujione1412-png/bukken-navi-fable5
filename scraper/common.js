@@ -304,7 +304,7 @@ function stripOldEndedPhotos(listings, months = 3, now = Date.now()) {
               / ページが見つからない(404)箇所が前回より大きく増えた
    ※404そのものは異常としない(よかタウンの市区町ページは「公開物件なし=404」が正常) */
 const STATUS_FILE = path.join(__dirname, "..", "data", "status.json");
-const SOURCE_LABELS = { maemura: "マエムラ", sumaiida: "すまいーだ", yokatown: "よかタウン", daiei: "大英産業", nakajitsu: "ナカジツ" };
+const SOURCE_LABELS = { maemura: "マエムラ", sumaiida: "すまいーだ", yokatown: "よかタウン", daiei: "大英産業", nakajitsu: "ナカジツ", kokubu: "国分ハウジング" };
 
 function loadStatus() {
   try { return JSON.parse(fs.readFileSync(STATUS_FILE, "utf8")) || {}; }
