@@ -3,7 +3,7 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-09-29T09:59:33.345Z",
+   "ranAt": "2026-09-29T13:41:35.309Z",
    "date": "2026-09-29",
    "count": 33,
    "prevCount": 33,
@@ -15,7 +15,7 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-09-29T10:02:21.128Z",
+   "ranAt": "2026-09-29T13:44:28.332Z",
    "date": "2026-09-29",
    "count": 82,
    "prevCount": 82,
@@ -27,7 +27,7 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-09-29T10:06:23.342Z",
+   "ranAt": "2026-09-29T13:48:32.356Z",
    "date": "2026-09-29",
    "count": 179,
    "prevCount": 179,
@@ -39,7 +39,7 @@
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-09-29T10:07:24.732Z",
+   "ranAt": "2026-09-29T13:49:34.750Z",
    "date": "2026-09-29",
    "count": 22,
    "prevCount": 22,
@@ -51,7 +51,7 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "ok",
-   "ranAt": "2026-09-29T10:07:57.396Z",
+   "ranAt": "2026-09-29T13:50:09.093Z",
    "date": "2026-09-29",
    "count": 14,
    "prevCount": 14,
@@ -63,7 +63,7 @@
   "kokubu": {
    "label": "国分ハウジング",
    "level": "ok",
-   "ranAt": "2026-09-29T10:08:58.799Z",
+   "ranAt": "2026-09-29T13:51:13.207Z",
    "date": "2026-09-29",
    "count": 18,
    "prevCount": 18,
@@ -75,7 +75,7 @@
   "takasugi": {
    "label": "タカスギ",
    "level": "ok",
-   "ranAt": "2026-09-29T10:10:14.379Z",
+   "ranAt": "2026-09-29T13:52:29.814Z",
    "date": "2026-09-29",
    "count": 53,
    "prevCount": 53,
@@ -87,7 +87,7 @@
   "kyuken": {
    "label": "九建ホーム",
    "level": "ok",
-   "ranAt": "2026-09-29T10:11:04.202Z",
+   "ranAt": "2026-09-29T13:53:19.285Z",
    "date": "2026-09-29",
    "count": 9,
    "prevCount": 9,
@@ -95,7 +95,19 @@
    "reasons": [],
    "lastOkDate": "2026-09-29",
    "lastOkCount": 9
+  },
+  "santa": {
+   "label": "サンタ不動産",
+   "level": "ok",
+   "ranAt": "2026-09-29T13:54:46.379Z",
+   "date": "2026-09-29",
+   "count": 33,
+   "prevCount": 33,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-09-29",
+   "lastOkCount": 33
   }
  },
- "updatedAt": "2026-09-29T10:11:04.202Z"
+ "updatedAt": "2026-09-29T13:54:46.379Z"
 }

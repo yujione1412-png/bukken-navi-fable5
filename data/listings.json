@@ -1,7 +1,3041 @@
 {
- "updatedAt": "2026-09-29T10:11:04.197Z",
- "count": 504,
+ "updatedAt": "2026-09-29T13:54:46.367Z",
+ "count": 537,
  "listings": [
+  {
+   "id": "santa-792130",
+   "source": "santa",
+   "name": "八代市松崎町B号地",
+   "price": "2,999万円",
+   "address": "熊本県八代市松崎町549-2",
+   "detailUrl": "https://santa-estate.jp/estates/792130/",
+   "layout": "3LDK+S",
+   "stories": "平屋",
+   "builtAt": "2026年2月",
+   "buildingArea": "89.43㎡（27.05坪）",
+   "landArea": "193.85㎡（58.63坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "松高小学校",
+   "elementaryMin": "5",
+   "junior": "第一中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "八代駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス「河原町」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「永碇第二」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「永碇」バス停",
+     "min": "9",
+     "cat": "bus"
+    },
+    {
+     "name": "八代市立 松高幼稚園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン八代松高小学校前店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオン八代ショッピングセンター",
+     "min": "18",
+     "cat": "mall"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792130%2Ff84b2f51-b43c-4c88-b664-d2b2f87d18c1%2Ff84b2f51-b43c-4c88-b664-d2b2f87d18c1.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792130%2Fa75fb173-d383-460e-815c-5c39986fa514%2Fa75fb173-d383-460e-815c-5c39986fa514.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792130%2F0eb316cd-524d-49bc-a51d-927481bfce69%2F0eb316cd-524d-49bc-a51d-927481bfce69.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792130%2F50055254-e2b7-4aaf-b028-976e2a448564%2F50055254-e2b7-4aaf-b028-976e2a448564.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792130%2Fb75997db-210e-493b-bbea-a45b736d7f2c%2Fb75997db-210e-493b-bbea-a45b736d7f2c.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.5168776, 130.5916208",
+   "locPrec": "",
+   "hpText": "松高小徒歩5分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-792147",
+   "source": "santa",
+   "name": "八代市松崎町C号地",
+   "price": "3,498万円",
+   "address": "熊本県八代市松崎町549-3",
+   "detailUrl": "https://santa-estate.jp/estates/792147/",
+   "layout": "4LDK+S",
+   "stories": "平屋",
+   "builtAt": "2026年2月",
+   "buildingArea": "97.3㎡（29.43坪）",
+   "landArea": "194.34㎡（58.78坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "松高小学校",
+   "elementaryMin": "5",
+   "junior": "第一中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "八代駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス「河原町」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「永碇第二」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「永碇」バス停",
+     "min": "9",
+     "cat": "bus"
+    },
+    {
+     "name": "八代市立 松高幼稚園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン八代松高小学校前店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオン八代ショッピングセンター",
+     "min": "18",
+     "cat": "mall"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792147%2F275dd777-f36b-4d1f-9d49-52b3a3a5bdc5%2F275dd777-f36b-4d1f-9d49-52b3a3a5bdc5.png?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792147%2Fc7869e92-4c02-4594-b3a1-76707e345ef7%2Fc7869e92-4c02-4594-b3a1-76707e345ef7.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792147%2F4b8214f6-d91d-482d-a251-4733c8f142dd%2F4b8214f6-d91d-482d-a251-4733c8f142dd.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792147%2Fa1e168fd-fe91-49a0-9eb8-a129af792303%2Fa1e168fd-fe91-49a0-9eb8-a129af792303.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F792147%2Ff950a40c-9b76-4b26-b214-26785a5b2690%2Ff950a40c-9b76-4b26-b214-26785a5b2690.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.5168874, 130.5915853",
+   "locPrec": "",
+   "hpText": "松高小 徒歩5分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-793812",
+   "source": "santa",
+   "name": "玉名市玉名3号地",
+   "price": "2,999万円",
+   "address": "熊本県玉名市玉名1461-6",
+   "detailUrl": "https://santa-estate.jp/estates/793812/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "101.84㎡（30.8坪）",
+   "landArea": "182.9㎡（55.32坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "玉陵小学校",
+   "elementaryMin": "10",
+   "junior": "玉陵中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "JR九州新幹線 新玉名駅",
+     "min": "3",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス「新玉名駅」バス停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「栗崎団地前」バス停",
+     "min": "11",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「くまもと県北病院」バス停",
+     "min": "12",
+     "cat": "bus"
+    },
+    {
+     "name": "ホームセンターグッデイ玉名店",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "認定こども園たまきな幼稚園",
+     "min": "8",
+     "cat": "other"
+    },
+    {
+     "name": "くまもと県北病院機構くまもと県北病院",
+     "min": "8",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793812%2F071626b7-27d1-4b21-84f0-2c660dbc6a14%2F071626b7-27d1-4b21-84f0-2c660dbc6a14.png?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793812%2Fe142d81c-23be-4ba2-befd-a60279aa24a5%2Fe142d81c-23be-4ba2-befd-a60279aa24a5.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793812%2Fade6a76c-38d7-45c6-9743-7d7933a02f5d%2Fade6a76c-38d7-45c6-9743-7d7933a02f5d.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793812%2Ff2c9eb52-df8a-4f70-9948-3d65b2bdd78d%2Ff2c9eb52-df8a-4f70-9948-3d65b2bdd78d.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793812%2F52b25c04-f4c1-4705-a44e-1e3b391328bb%2F52b25c04-f4c1-4705-a44e-1e3b391328bb.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9427367, 130.5713306",
+   "locPrec": "",
+   "hpText": "新玉名駅徒歩3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-793825",
+   "source": "santa",
+   "name": "玉名市玉名4号地",
+   "price": "2,799万円",
+   "address": "熊本県玉名市玉名1461-7",
+   "detailUrl": "https://santa-estate.jp/estates/793825/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年2月",
+   "buildingArea": "107.64㎡（32.56坪）",
+   "landArea": "182.9㎡（55.32坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "玉陵小学校",
+   "elementaryMin": "10",
+   "junior": "玉陵中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "JR九州新幹線 新玉名駅",
+     "min": "3",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス「新玉名駅」バス停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「栗崎団地前」バス停",
+     "min": "11",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「くまもと県北病院」バス停",
+     "min": "12",
+     "cat": "bus"
+    },
+    {
+     "name": "ホームセンターグッデイ玉名店",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "認定こども園たまきな幼稚園",
+     "min": "8",
+     "cat": "other"
+    },
+    {
+     "name": "くまもと県北病院機構くまもと県北病院",
+     "min": "8",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793825%2F8ab3564b-16d2-4a7b-bb93-f7cfa918f855%2F8ab3564b-16d2-4a7b-bb93-f7cfa918f855.png?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793825%2Fa956e5f7-6f93-4aaf-bc5c-078e97cb10a6%2Fa956e5f7-6f93-4aaf-bc5c-078e97cb10a6.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793825%2Fc73ba3a1-3b3b-4604-bc37-0e1640f9f1c1%2Fc73ba3a1-3b3b-4604-bc37-0e1640f9f1c1.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793825%2F0e867003-d3c2-4e4e-9b76-b4b54c2118b7%2F0e867003-d3c2-4e4e-9b76-b4b54c2118b7.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F793825%2Fcca231c4-1e0b-4016-bc11-cf089244e0c4%2Fcca231c4-1e0b-4016-bc11-cf089244e0c4.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9427451, 130.5713709",
+   "locPrec": "",
+   "hpText": "新玉名駅徒歩3分！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,799万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-848416",
+   "source": "santa",
+   "name": "八代市田中東町",
+   "price": "2,999万円",
+   "address": "熊本県八代市田中東町9-2,10,11,12",
+   "detailUrl": "https://santa-estate.jp/estates/848416/",
+   "layout": "3LDK+S",
+   "stories": "平屋",
+   "builtAt": "2026年5月",
+   "buildingArea": "90.46㎡（27.36坪）",
+   "landArea": "243.52㎡（73.66坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "八千把小学校",
+   "elementaryMin": "11",
+   "junior": "第四中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "産交(まち)バス「田中町」バス停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "産交(みな)バス「臨港線田中町」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "産交(まち)バス「横手郵便局前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ファミリーマート八代田中東町店",
+     "min": "1",
+     "cat": "conbini"
+    },
+    {
+     "name": "マツモトキヨシ八代店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "あすなろ保育園",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "スーパー・キッド古閑中町店",
+     "min": "13",
+     "cat": "super"
+    },
+    {
+     "name": "平成病院",
+     "min": "18",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F848416%2Fb30862d1-8069-488c-bba0-9880d3dbc6c9%2Fb30862d1-8069-488c-bba0-9880d3dbc6c9.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F848416%2F526ca4ce-d3ed-4173-bc11-bdcaee48c809%2F526ca4ce-d3ed-4173-bc11-bdcaee48c809.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F848416%2Ff2fb5843-fc60-4e4a-a40d-b036f1992cf8%2Ff2fb5843-fc60-4e4a-a40d-b036f1992cf8.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F848416%2F62168f2a-b4fb-43cb-a116-3a9c67968bff%2F62168f2a-b4fb-43cb-a116-3a9c67968bff.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F848416%2Fda714cfe-2ec0-4844-91c7-136454fecd9f%2Fda714cfe-2ec0-4844-91c7-136454fecd9f.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.5193824, 130.6054867",
+   "locPrec": "",
+   "hpText": "小中学校が徒歩11分圏内",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-853816",
+   "source": "santa",
+   "name": "熊本市南区八分字町2期2号地",
+   "price": "3,099万円",
+   "address": "熊本県熊本市南区八分字町2669-6",
+   "detailUrl": "https://santa-estate.jp/estates/853816/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "106.82㎡（32.31坪）",
+   "landArea": "159.31㎡（48.19坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "飽田東小学校",
+   "elementaryMin": "",
+   "junior": "飽田中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス「砂原」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「孫代」バス停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「八分字」バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F853816%2F971ea652-640d-4b88-bf91-a68b3b158b5f%2F971ea652-640d-4b88-bf91-a68b3b158b5f.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F853816%2F9914e676-4099-4aa9-8601-1538a6543f46%2F9914e676-4099-4aa9-8601-1538a6543f46.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F853816%2F6ff7aab1-718c-4dd7-b832-6b3e7d5084a2%2F6ff7aab1-718c-4dd7-b832-6b3e7d5084a2.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F853816%2F242790be-5723-4af1-9877-ac96f4358d43%2F242790be-5723-4af1-9877-ac96f4358d43.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F853816%2F3ebe0aa7-973e-4e5d-bcb1-129fc9ec9cad%2F3ebe0aa7-973e-4e5d-bcb1-129fc9ec9cad.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7599917, 130.6557800",
+   "locPrec": "",
+   "hpText": "小・中学校まで徒歩10分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,099万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-882769",
+   "source": "santa",
+   "name": "合志市須屋16期5号地",
+   "price": "3,499万円",
+   "address": "熊本県合志市須屋1024-1の一部",
+   "detailUrl": "https://santa-estate.jp/estates/882769/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "108.47㎡（32.81坪）",
+   "landArea": "195.02㎡（58.99坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "西合志南小学校",
+   "elementaryMin": "10",
+   "junior": "西合志南中学校",
+   "juniorMin": "21",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道 新須屋駅",
+     "min": "4",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電気鉄道 須屋駅",
+     "min": "5",
+     "cat": "station"
+    },
+    {
+     "name": "乗合タクシー「的場」乗り場",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「須屋西」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン合志須屋店",
+     "min": "2",
+     "cat": "conbini"
+    },
+    {
+     "name": "百合ヶ丘保育園",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "ディスカウントドラッグコスモス菊南店",
+     "min": "12",
+     "cat": "drug"
+    },
+    {
+     "name": "ハローデイ菊南店 ドン・キホーテ合志店",
+     "min": "12",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F882769%2F0c487d15-120c-4e79-b233-3767bc869c02%2F0c487d15-120c-4e79-b233-3767bc869c02.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F882769%2F65c03140-e7f0-46ba-a0d4-feec6ba63a99%2F65c03140-e7f0-46ba-a0d4-feec6ba63a99.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F882769%2F61647ab6-8d74-4855-aa06-49ebaa08a31c%2F61647ab6-8d74-4855-aa06-49ebaa08a31c.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F882769%2Fbe7fa915-dc43-429a-9d70-9b2436bdb343%2Fbe7fa915-dc43-429a-9d70-9b2436bdb343.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F882769%2Fe293282d-03a5-4a5e-afba-2baebd66a392%2Fe293282d-03a5-4a5e-afba-2baebd66a392.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8558479, 130.7332920",
+   "locPrec": "",
+   "hpText": "駅徒歩4分×小学校徒歩10分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,499万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-891003",
+   "source": "santa",
+   "name": "熊本市南区砂原町3期1号地",
+   "price": "2,899万円",
+   "address": "熊本県熊本市南区砂原町467-3",
+   "detailUrl": "https://santa-estate.jp/estates/891003/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年6月",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "141.62㎡（42.84坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "飽田東小学校",
+   "elementaryMin": "5",
+   "junior": "飽田中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "産交バス「八分字」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「砂原」バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891003%2Ffcb313a8-7f2d-40fb-92f0-bcaa27b07359%2Ffcb313a8-7f2d-40fb-92f0-bcaa27b07359.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891003%2Fbe1d8d53-96aa-4d10-84fa-50c5a63a658d%2Fbe1d8d53-96aa-4d10-84fa-50c5a63a658d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891003%2F584b21cb-95f9-47ab-82dc-542d8f6992e6%2F584b21cb-95f9-47ab-82dc-542d8f6992e6.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891003%2F6c7fc212-40e6-45a8-b451-01355d136e1e%2F6c7fc212-40e6-45a8-b451-01355d136e1e.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891003%2Fd62ebd1a-75a7-41c5-97b4-ce9b565f7dab%2Fd62ebd1a-75a7-41c5-97b4-ce9b565f7dab.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7630303, 130.6595296",
+   "locPrec": "",
+   "hpText": "コンビニ2分×公園5分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,899万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-891017",
+   "source": "santa",
+   "name": "熊本市南区砂原町3期2号地",
+   "price": "2,999万円",
+   "address": "熊本県熊本市南区砂原町467-10",
+   "detailUrl": "https://santa-estate.jp/estates/891017/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年7月",
+   "buildingArea": "110.75㎡（33.5坪）",
+   "landArea": "141.81㎡（42.89坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "飽田東小学校",
+   "elementaryMin": "5",
+   "junior": "飽田中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "産交バス「八分字」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「砂原」バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891017%2F730e3682-2f77-4e4a-95b4-187a1b2bba92%2F730e3682-2f77-4e4a-95b4-187a1b2bba92.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891017%2F57b297f3-8f14-40d1-a20f-81317ac3f662%2F57b297f3-8f14-40d1-a20f-81317ac3f662.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891017%2Ffd92418b-7967-45e8-9de5-ec1f9597a859%2Ffd92418b-7967-45e8-9de5-ec1f9597a859.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891017%2F482921aa-8f7a-429d-bdaf-4c7a05110108%2F482921aa-8f7a-429d-bdaf-4c7a05110108.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F891017%2F250b7c1e-95e7-454b-b733-ed73ce274f45%2F250b7c1e-95e7-454b-b733-ed73ce274f45.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7630303, 130.6595296",
+   "locPrec": "",
+   "hpText": "保育園3分・小学校5分で安心",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,999万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-914873",
+   "source": "santa",
+   "name": "合志市合生18号地",
+   "price": "2,899万円",
+   "address": "熊本県合志市合生3538-19",
+   "detailUrl": "https://santa-estate.jp/estates/914873/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "202.74㎡（61.32坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "西合志中央小学校",
+   "elementaryMin": "13",
+   "junior": "西合志中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "合志市コミュニティバス レターバス中央ルート「灰塚」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "合志市コミュニティバス レターバス中央ルート「中尾公民館前」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「黒松」バス停",
+     "min": "17",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン合志合生店",
+     "min": "17",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F914873%2F46bcd888-59f4-4ab6-9017-0bb61267fee1%2F46bcd888-59f4-4ab6-9017-0bb61267fee1.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F914873%2F151d81d4-49d4-42a0-b919-45fbbe406f0d%2F151d81d4-49d4-42a0-b919-45fbbe406f0d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F914873%2F041adf1b-99d8-4a08-9406-38c14adff71d%2F041adf1b-99d8-4a08-9406-38c14adff71d.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F914873%2Fdcb7b346-9210-4bf1-b07a-2b18de975ccc%2Fdcb7b346-9210-4bf1-b07a-2b18de975ccc.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F914873%2F8df2d1a9-e10e-4a47-ae44-60ed6d9fcece%2F8df2d1a9-e10e-4a47-ae44-60ed6d9fcece.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9135649, 130.7493705",
+   "locPrec": "",
+   "hpText": "ゆめモール合志まで車6分！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,899万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-952135",
+   "source": "santa",
+   "name": "合志市合生14号地",
+   "price": "3,099万円",
+   "address": "熊本県合志市合生3538-15",
+   "detailUrl": "https://santa-estate.jp/estates/952135/",
+   "layout": "4LDK+S",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "88.6㎡（26.8坪）",
+   "landArea": "201.29㎡（60.89坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "西合志中央小学校",
+   "elementaryMin": "13",
+   "junior": "西合志中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "合志市コミュニティバス レターバス中央ルート「灰塚」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "合志市コミュニティバス レターバス中央ルート「中尾公民館前」バス停",
+     "min": "8",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「黒松」バス停",
+     "min": "17",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン合志合生店",
+     "min": "17",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F952135%2Fe5e4534d-06a5-4b36-8e16-8f6ebf932c92%2Fe5e4534d-06a5-4b36-8e16-8f6ebf932c92.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F952135%2F2dbef276-cd2f-4392-a1c5-952ab9137497%2F2dbef276-cd2f-4392-a1c5-952ab9137497.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F952135%2F6b8e4d5d-c394-4d7e-9717-09bbcff3b682%2F6b8e4d5d-c394-4d7e-9717-09bbcff3b682.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F952135%2F9ad2d35b-64c2-45e1-8d80-04d684017bca%2F9ad2d35b-64c2-45e1-8d80-04d684017bca.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F952135%2F4d00d3aa-2926-4134-bb15-3d904ba0029f%2F4d00d3aa-2926-4134-bb15-3d904ba0029f.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9135649, 130.7493705",
+   "locPrec": "",
+   "hpText": "IoT搭載の家事ラク平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.366Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,099万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-965585",
+   "source": "santa",
+   "name": "阿蘇市一の宮町宮地5号地",
+   "price": "2,969万円",
+   "address": "熊本県阿蘇市一の宮町宮地1485-1",
+   "detailUrl": "https://santa-estate.jp/estates/965585/",
+   "layout": "5LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "105.98㎡（32.05坪）",
+   "landArea": "270.73㎡（81.89坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "一の宮小学校",
+   "elementaryMin": "17",
+   "junior": "一の宮中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 宮地駅",
+     "min": "9",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス「裁判町」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ホームプラザナフコ阿蘇店",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン阿蘇一の宮店",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "スーパーはらぐち",
+     "min": "8",
+     "cat": "super"
+    },
+    {
+     "name": "宮地保育園",
+     "min": "12",
+     "cat": "other"
+    },
+    {
+     "name": "マツモトキヨシ一の宮店",
+     "min": "12",
+     "cat": "drug"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F965585%2F8e3d35e9-b07c-4080-90f3-f965cd0abee1%2F8e3d35e9-b07c-4080-90f3-f965cd0abee1.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F965585%2Fa4428161-86ac-448b-8f7b-4878b737f583%2Fa4428161-86ac-448b-8f7b-4878b737f583.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F965585%2Fa9b1e0d0-8773-4c05-99d3-76c08bc37189%2Fa9b1e0d0-8773-4c05-99d3-76c08bc37189.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F965585%2F95775dd7-fc04-481c-b83f-a8ceee8bddb9%2F95775dd7-fc04-481c-b83f-a8ceee8bddb9.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F965585%2F4e356428-8470-4403-b8e8-c7d72c5091a6%2F4e356428-8470-4403-b8e8-c7d72c5091a6.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9399575, 131.1226702",
+   "locPrec": "",
+   "hpText": "JR宮地駅徒歩9分！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,969万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-992837",
+   "source": "santa",
+   "name": "熊本市北区明徳町1号地",
+   "price": "3,199万円",
+   "address": "熊本県熊本市北区明徳町906-1",
+   "detailUrl": "https://santa-estate.jp/estates/992837/",
+   "layout": "4LDK+2S",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "96.88㎡（29.3坪）",
+   "landArea": "200.11㎡（60.53坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "31",
+   "junior": "北部中学校",
+   "juniorMin": "31",
+   "facilities": [
+    {
+     "name": "植木駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス「向坂」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「古閑小屋」バス停",
+     "min": "19",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「投刀塚」バス停",
+     "min": "20",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「堂の前」バス停",
+     "min": "25",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F992837%2F8cc169db-c820-41f6-ab50-b1130c8615bc%2F8cc169db-c820-41f6-ab50-b1130c8615bc.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F992837%2F4f1bb490-49b1-42c6-b9af-10717c37b394%2F4f1bb490-49b1-42c6-b9af-10717c37b394.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F992837%2Fbd02b119-84ac-4a50-b72e-ade89259ab0e%2Fbd02b119-84ac-4a50-b72e-ade89259ab0e.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F992837%2F749d01e8-0cce-4b83-ab10-448f990df7a1%2F749d01e8-0cce-4b83-ab10-448f990df7a1.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F992837%2Fa91fc1b8-20ac-4bb1-b08f-6642aa7c84fc%2Fa91fc1b8-20ac-4bb1-b08f-6642aa7c84fc.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8838656, 130.7065001",
+   "locPrec": "",
+   "hpText": "角地の開放感と機能美が響き合う 平屋で叶える、上質なゆとりの暮らし",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-994611",
+   "source": "santa",
+   "name": "合志市竹迫3期2号地",
+   "price": "3,099万円",
+   "address": "熊本県合志市竹迫72-4",
+   "detailUrl": "https://santa-estate.jp/estates/994611/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "109.71㎡（33.18坪）",
+   "landArea": "216.29㎡（65.42坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "48",
+   "junior": "合志中学校",
+   "juniorMin": "53",
+   "facilities": [
+    {
+     "name": "乗合バス「日向記念碑前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "循環バス「新迫集会所」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「日本ピラー前」バス停",
+     "min": "26",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F994611%2F6c355e18-40da-4de6-a2db-235de65560ae%2F6c355e18-40da-4de6-a2db-235de65560ae.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F994611%2Fe67c48a3-4e55-42e1-8c3f-4358a04061ad%2Fe67c48a3-4e55-42e1-8c3f-4358a04061ad.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F994611%2F2469aed0-099c-4208-8b8d-8dbac9740114%2F2469aed0-099c-4208-8b8d-8dbac9740114.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F994611%2F954e2be3-9e95-494d-827d-79b952f0fcdb%2F954e2be3-9e95-494d-827d-79b952f0fcdb.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F994611%2F03b24af1-7bd6-4f2e-be04-bcbb36ef4eb8%2F03b24af1-7bd6-4f2e-be04-bcbb36ef4eb8.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9022467, 130.8288560",
+   "locPrec": "",
+   "hpText": "広道に面した最新IoT住宅 17帖超LDKと太陽光発電で叶う上質な暮らし",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,099万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-996833",
+   "source": "santa",
+   "name": "菊池市泗水町田島11号地",
+   "price": "2,599万円",
+   "address": "熊本県菊池市泗水町田島2024-1",
+   "detailUrl": "https://santa-estate.jp/estates/996833/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "112.61㎡（34.06坪）",
+   "landArea": "183.63㎡（55.54坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "泗水西小学校",
+   "elementaryMin": "12",
+   "junior": "泗水中学校",
+   "juniorMin": "44",
+   "facilities": [
+    {
+     "name": "電鉄バス「宮前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「岡」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン泗水田島店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "田島保育園",
+     "min": "15",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996833%2Feef1e7f1-2dfd-4e62-bb51-22990a63f248%2Feef1e7f1-2dfd-4e62-bb51-22990a63f248.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996833%2F62ef3427-39ae-40ff-8076-b52834c03fa2%2F62ef3427-39ae-40ff-8076-b52834c03fa2.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996833%2Fb4bb0171-19ec-4277-9afd-b3f9a103cca2%2Fb4bb0171-19ec-4277-9afd-b3f9a103cca2.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996833%2F012ac74f-4153-4669-a1ee-0af9573e588d%2F012ac74f-4153-4669-a1ee-0af9573e588d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996833%2Fae77b56a-59ff-4eb6-89c5-84a9fc75dbf8%2Fae77b56a-59ff-4eb6-89c5-84a9fc75dbf8.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9376273, 130.7481618",
+   "locPrec": "",
+   "hpText": "ZEH×太陽光×IoTの先進設備 WIC×4完備の収納豊かな4SSLDK",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,599万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-996845",
+   "source": "santa",
+   "name": "菊池市泗水町田島10号地",
+   "price": "2,799万円",
+   "address": "熊本県菊池市泗水町田島2069-1",
+   "detailUrl": "https://santa-estate.jp/estates/996845/",
+   "layout": "4LDK+S",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "87.36㎡（26.42坪）",
+   "landArea": "234.79㎡（71.02坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "泗水西小学校",
+   "elementaryMin": "12",
+   "junior": "泗水中学校",
+   "juniorMin": "44",
+   "facilities": [
+    {
+     "name": "電鉄バス「宮前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「岡」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン泗水田島店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "田島保育園",
+     "min": "15",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996845%2F996d9784-b166-4270-816a-8219487bf70f%2F996d9784-b166-4270-816a-8219487bf70f.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996845%2Fb2508039-0d6d-42da-bea5-c7d0d758b956%2Fb2508039-0d6d-42da-bea5-c7d0d758b956.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996845%2F2f5c9f83-4281-447d-9ebd-79507d00d6c0%2F2f5c9f83-4281-447d-9ebd-79507d00d6c0.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996845%2Fb7c6b6ce-34ca-4ee3-81f0-d5f53d836ee4%2Fb7c6b6ce-34ca-4ee3-81f0-d5f53d836ee4.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F996845%2Fbd1e5f74-5998-4789-bc5c-b63dd3875195%2Fbd1e5f74-5998-4789-bc5c-b63dd3875195.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9376273, 130.7481618",
+   "locPrec": "",
+   "hpText": "ZEH×IoTの先進設備 18帖LDKとSCを備えた収納豊富な平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,799万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-998864",
+   "source": "santa",
+   "name": "合志市竹迫3期3号地",
+   "price": "3,199万円",
+   "address": "熊本県合志市竹迫72-5",
+   "detailUrl": "https://santa-estate.jp/estates/998864/",
+   "layout": "4LDK",
+   "stories": "平屋",
+   "builtAt": "2026年10月",
+   "buildingArea": "84.46㎡（25.54坪）",
+   "landArea": "216.1㎡（65.37坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "48",
+   "junior": "合志中学校",
+   "juniorMin": "53",
+   "facilities": [
+    {
+     "name": "乗合バス「日向記念碑前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "循環バス「新迫集会所」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄バス「日本ピラー前」バス停",
+     "min": "26",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F998864%2F31e67cd6-7aa4-4f62-a841-e049d18b1454%2F31e67cd6-7aa4-4f62-a841-e049d18b1454.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F998864%2F070c49f3-1e02-43e5-8d33-c359a6b96e28%2F070c49f3-1e02-43e5-8d33-c359a6b96e28.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F998864%2F18e73109-ab7b-4b8f-a363-5ab131500eaa%2F18e73109-ab7b-4b8f-a363-5ab131500eaa.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F998864%2F40be2ed8-d92c-4cd3-9fe8-92056ead0b66%2F40be2ed8-d92c-4cd3-9fe8-92056ead0b66.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F998864%2Fa995c04d-4aac-4a82-9963-f9804c39be76%2Fa995c04d-4aac-4a82-9963-f9804c39be76.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9022467, 130.8288560",
+   "locPrec": "",
+   "hpText": "太陽光×IoT完備 家事楽動線と開放的なLDKが魅力の先進的な平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1014322",
+   "source": "santa",
+   "name": "熊本市東区山ノ内3丁目1号地",
+   "price": "3,599万円",
+   "address": "熊本県熊本市東区山ノ内3丁目7-29",
+   "detailUrl": "https://santa-estate.jp/estates/1014322/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "93.57㎡（28.3坪）",
+   "landArea": "106.63㎡（32.25坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "山ノ内小学校",
+   "elementaryMin": "7",
+   "junior": "錦ヶ丘中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "熊本都市バス「山の神」バス停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "セブン-イレブン 熊本山ノ神店",
+     "min": "2",
+     "cat": "conbini"
+    },
+    {
+     "name": "ロッキースーパーストア 佐土原店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "DCM東町店",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "認定こども園 ひばり",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "スーパーセンタートライアル尾ノ上店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "熊本市立熊本市民病院",
+     "min": "16",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2Fe234301f-6b02-46e0-9574-04d315485ea3%2Fe234301f-6b02-46e0-9574-04d315485ea3.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F9f433d4e-64ed-4af2-9ad6-b3512b5cfa8e%2F9f433d4e-64ed-4af2-9ad6-b3512b5cfa8e.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F5875a44f-5a56-4105-839d-dd4e4ed60f27%2F5875a44f-5a56-4105-839d-dd4e4ed60f27.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F5beeac56-031f-4cd2-bb95-bbbc2a37e978%2F5beeac56-031f-4cd2-bb95-bbbc2a37e978.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F144613ec-8052-4c66-b063-77b474e58a76%2F144613ec-8052-4c66-b063-77b474e58a76.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7950908, 130.7677663",
+   "locPrec": "",
+   "hpText": "山ノ内小学校まで徒歩約6分で安心！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,599万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1045047",
+   "source": "santa",
+   "name": "熊本市東区三郎2丁目3期1号地",
+   "price": "3,499万円",
+   "address": "熊本県熊本市東区三郎2丁目2-147",
+   "detailUrl": "https://santa-estate.jp/estates/1045047/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "107.45㎡（32.5坪）",
+   "landArea": "182.02㎡（55.06坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "尾ノ上小学校",
+   "elementaryMin": "14",
+   "junior": "錦ヶ丘中学校",
+   "juniorMin": "16",
+   "facilities": [
+    {
+     "name": "都市バス「三郎」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ファミリーマート熊本帯山六丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本市立 京塚保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "スーパー・キッド新外店",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "ドラッグイレブン月出店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "ゆめマート 帯山",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "熊本赤十字病院",
+     "min": "13",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1045047%2F017a438b-e912-4820-8b09-e3be65d107bd%2F017a438b-e912-4820-8b09-e3be65d107bd.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1045047%2F19db4f48-3b69-4a5e-9b3e-6d360643d1c8%2F19db4f48-3b69-4a5e-9b3e-6d360643d1c8.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1045047%2F066f81b6-627f-4ae5-8e54-979d28ee707b%2F066f81b6-627f-4ae5-8e54-979d28ee707b.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1045047%2F541cde60-df50-448a-9318-20f9c02cdfd7%2F541cde60-df50-448a-9318-20f9c02cdfd7.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1045047%2F4ec0dc51-d31a-48cd-91cb-58d098f6062e%2F4ec0dc51-d31a-48cd-91cb-58d098f6062e.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8002839, 130.7593843",
+   "locPrec": "",
+   "hpText": "南道路！太陽光×IoTの先進設備",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,499万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1049169",
+   "source": "santa",
+   "name": "熊本市東区三郎2丁目3期2号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市東区三郎2丁目2-147",
+   "detailUrl": "https://santa-estate.jp/estates/1049169/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "106.4㎡（32.18坪）",
+   "landArea": "168.73㎡（51.04坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "尾ノ上小学校",
+   "elementaryMin": "14",
+   "junior": "錦ヶ丘中学校",
+   "juniorMin": "16",
+   "facilities": [
+    {
+     "name": "都市バス「三郎」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ファミリーマート熊本帯山六丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本市立 京塚保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "スーパー・キッド新外店",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "ドラッグイレブン月出店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "ゆめマート 帯山",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "熊本赤十字病院",
+     "min": "13",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1049169%2F05576fb7-ee49-403c-bcdd-0e9cd1c64e49%2F05576fb7-ee49-403c-bcdd-0e9cd1c64e49.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1049169%2F199dd052-542b-46ab-ab1c-79b9702d6a62%2F199dd052-542b-46ab-ab1c-79b9702d6a62.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1049169%2F0ad2fbf4-0d39-44b2-97ed-fd460791c435%2F0ad2fbf4-0d39-44b2-97ed-fd460791c435.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1049169%2F92630bca-323c-4639-b50f-92d448acea7b%2F92630bca-323c-4639-b50f-92d448acea7b.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1049169%2F7ba75523-fbc9-4c9e-9a49-aa20900e8db4%2F7ba75523-fbc9-4c9e-9a49-aa20900e8db4.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8002839, 130.7593843",
+   "locPrec": "",
+   "hpText": "買い物・通学も徒歩圏内好立地",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1056260",
+   "source": "santa",
+   "name": "熊本市東区江津1丁目 2号地",
+   "price": "4,099万円",
+   "address": "熊本県熊本市東区江津1丁目",
+   "detailUrl": "https://santa-estate.jp/estates/1056260/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "105.99㎡（32.06坪）",
+   "landArea": "136.03㎡（41.14坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "画図小学校",
+   "elementaryMin": "18",
+   "junior": "出水南中学校",
+   "juniorMin": "13",
+   "facilities": [
+    {
+     "name": "熊本市健軍線 市立体育館前駅",
+     "min": "18",
+     "cat": "station"
+    },
+    {
+     "name": "熊本市健軍線 商業高校前駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "熊本市健軍線 八丁馬場駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "熊本バス「江津県営アパート前（公園側）」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "熊本バス「江津県営アパート前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本出水ふれあい通り店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "第二画図保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマートえづ",
+     "min": "7",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1056260%2F073d9d97-2512-4f44-8591-4f342e6453fb%2F073d9d97-2512-4f44-8591-4f342e6453fb.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1056260%2F1eb69a17-46ea-436b-a584-f3e96deb217d%2F1eb69a17-46ea-436b-a584-f3e96deb217d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1056260%2Fca837686-dcee-4059-a7f5-a87db1c49e1f%2Fca837686-dcee-4059-a7f5-a87db1c49e1f.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1056260%2Fa70d5d17-6cfc-446a-8c83-6db47790976c%2Fa70d5d17-6cfc-446a-8c83-6db47790976c.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1056260%2Fab98c1d7-5d49-460b-bd16-7c747c65a1f7%2Fab98c1d7-5d49-460b-bd16-7c747c65a1f7.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7792090, 130.7376070",
+   "locPrec": "town",
+   "hpText": "買い物便利で通学も安心！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,099万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1059759",
+   "source": "santa",
+   "name": "熊本市南区護藤町2号地",
+   "price": "3,499万円",
+   "address": "熊本県熊本市南区護藤町2301-12",
+   "detailUrl": "https://santa-estate.jp/estates/1059759/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "106.4㎡（32.18坪）",
+   "landArea": "204.74㎡（61.93坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "飽田南小学校",
+   "elementaryMin": "6",
+   "junior": "飽田中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "JR鹿児島本線 川尻駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス「護藤郵便局前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「護藤」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "熊本藤富保育園",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "鮮ど市場白藤店",
+     "min": "14",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1059759%2F7df56a7b-341e-452d-9ff8-f48824bc65f7%2F7df56a7b-341e-452d-9ff8-f48824bc65f7.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1059759%2F8e893c58-6b6a-4081-ad11-baac4805985f%2F8e893c58-6b6a-4081-ad11-baac4805985f.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1059759%2F5d457cd0-8cff-4b34-8aa2-f276879902b0%2F5d457cd0-8cff-4b34-8aa2-f276879902b0.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1059759%2F7c9d247f-4f09-4894-b09f-3713392cd5f4%2F7c9d247f-4f09-4894-b09f-3713392cd5f4.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1059759%2F510fbb83-e09e-4298-a2a5-872de5c00fd8%2F510fbb83-e09e-4298-a2a5-872de5c00fd8.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7479895, 130.6656042",
+   "locPrec": "",
+   "hpText": "太陽光＆IoT搭載！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,499万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1067747",
+   "source": "santa",
+   "name": "上益城郡益城町安永7期",
+   "price": "3,699万円",
+   "address": "熊本県上益城郡益城町大字安永845-12",
+   "detailUrl": "https://santa-estate.jp/estates/1067747/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "107.64㎡（32.56坪）",
+   "landArea": "185.11㎡（55.99坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "広安小学校",
+   "elementaryMin": "13",
+   "junior": "益城中学校",
+   "juniorMin": "25",
+   "facilities": [
+    {
+     "name": "コミュニティバス「安永団地前」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "産交バス「安永」バス停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "第三空港保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン益城安永店",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "ディスカウントドラッグコスモス益城店",
+     "min": "9",
+     "cat": "drug"
+    },
+    {
+     "name": "社会医療法人ましき会 益城病院",
+     "min": "13",
+     "cat": "hospital"
+    },
+    {
+     "name": "よかもんね!ましき",
+     "min": "15",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1067747%2F4242d404-e1c4-4e49-8342-1ec942894d88%2F4242d404-e1c4-4e49-8342-1ec942894d88.png?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1067747%2F8d3ec60e-2819-4e55-94b7-23296789785d%2F8d3ec60e-2819-4e55-94b7-23296789785d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1067747%2F6e754024-a77b-4d40-b70d-0e0d8e911fc9%2F6e754024-a77b-4d40-b70d-0e0d8e911fc9.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1067747%2F89875bad-544d-4e23-8feb-26dabdebe157%2F89875bad-544d-4e23-8feb-26dabdebe157.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1067747%2Fca5cd107-d649-4504-94ab-fd85e463afd9%2Fca5cd107-d649-4504-94ab-fd85e463afd9.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7899743, 130.8085799",
+   "locPrec": "",
+   "hpText": "IoTと太陽光の先進4SLDK！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,699万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1098016",
+   "source": "santa",
+   "name": "熊本市北区龍田7丁目",
+   "price": "3,599万円",
+   "address": "熊本県熊本市北区龍田7丁目25-5",
+   "detailUrl": "https://santa-estate.jp/estates/1098016/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "100.19㎡（30.3坪）",
+   "landArea": "132.59㎡（40.1坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "龍田小学校",
+   "elementaryMin": "5",
+   "junior": "龍田中学校",
+   "juniorMin": "5",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 武蔵塚駅",
+     "min": "22",
+     "cat": "station"
+    },
+    {
+     "name": "産交・電鉄バス「龍田小学校前」バス停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "産交・電鉄バス「二里木」バス停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン龍田7丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "立田幼稚園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "ゆめマート龍田",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "ドラッグセイムス熊本龍田店",
+     "min": "14",
+     "cat": "drug"
+    },
+    {
+     "name": "武蔵ケ丘病院",
+     "min": "14",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1098016%2F191c4a3b-5999-410b-80ab-363ecf07b9d2%2F191c4a3b-5999-410b-80ab-363ecf07b9d2.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1098016%2F20db9e21-1725-4d8c-bbbc-549747459193%2F20db9e21-1725-4d8c-bbbc-549747459193.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1098016%2F4b918c9c-4de5-49d5-999b-a0a7479ee9d6%2F4b918c9c-4de5-49d5-999b-a0a7479ee9d6.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1098016%2F3868c80b-3781-4afb-a5a9-b809ec0668d6%2F3868c80b-3781-4afb-a5a9-b809ec0668d6.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1098016%2Fc6265741-65be-417f-9965-2a875b7b9d5a%2Fc6265741-65be-417f-9965-2a875b7b9d5a.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8382914, 130.7636967",
+   "locPrec": "",
+   "hpText": "学校もコンビニも徒歩５分圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,599万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1120869",
+   "source": "santa",
+   "name": "菊池郡菊陽町武蔵ヶ丘2丁目 1号地",
+   "price": "4,199万円",
+   "address": "熊本県菊池郡菊陽町武蔵ヶ丘2丁目17-7",
+   "detailUrl": "https://santa-estate.jp/estates/1120869/",
+   "layout": "5LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.09㎡（31.78坪）",
+   "landArea": "145.88㎡（44.12坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "武蔵ヶ丘北小学校",
+   "elementaryMin": "8",
+   "junior": "武蔵ヶ丘中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 武蔵塚駅",
+     "min": "18",
+     "cat": "station"
+    },
+    {
+     "name": "電鉄・産交バス「武蔵ヶ丘車庫前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄・産交バス「武蔵ケ丘北口」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ちゃれんじ保育園",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "コープ合志",
+     "min": "5",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本合志店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "ドラッグコスモス武蔵野台店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "マルキョウ合志店",
+     "min": "7",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120869%2F3828cf4e-a2db-430f-ab6a-bc447b92c51d%2F3828cf4e-a2db-430f-ab6a-bc447b92c51d.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120869%2Feeb65353-9a79-4525-9e2c-4c3b49533aed%2Feeb65353-9a79-4525-9e2c-4c3b49533aed.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120869%2Fa76b4d34-e8b9-472f-8c2d-12259bd9f78b%2Fa76b4d34-e8b9-472f-8c2d-12259bd9f78b.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120869%2F3bdc6cca-e794-49a0-9d23-7a1acc8773af%2F3bdc6cca-e794-49a0-9d23-7a1acc8773af.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120869%2F4aeddbad-e46b-4969-8cf2-e4159982c923%2F4aeddbad-e46b-4969-8cf2-e4159982c923.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8608032, 130.7699186",
+   "locPrec": "",
+   "hpText": "買い物も通学も徒歩圏内！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,199万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1120877",
+   "source": "santa",
+   "name": "菊池郡菊陽町武蔵ヶ丘2丁目 2号地",
+   "price": "4,199万円",
+   "address": "熊本県菊池郡菊陽町武蔵ヶ丘2丁目17-7",
+   "detailUrl": "https://santa-estate.jp/estates/1120877/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "103.5㎡（31.3坪）",
+   "landArea": "136.87㎡（41.4坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "武蔵ヶ丘北小学校",
+   "elementaryMin": "8",
+   "junior": "武蔵ヶ丘中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 武蔵塚駅",
+     "min": "18",
+     "cat": "station"
+    },
+    {
+     "name": "電鉄・産交バス「武蔵ヶ丘車庫前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "電鉄・産交バス「武蔵ケ丘北口」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ちゃれんじ保育園",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "コープ合志",
+     "min": "5",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本合志店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "ドラッグコスモス武蔵野台店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "マルキョウ合志店",
+     "min": "7",
+     "cat": "super"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120877%2Ff12674dc-814f-4569-849e-f0caf4f293e3%2Ff12674dc-814f-4569-849e-f0caf4f293e3.png?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120877%2F9f27dea3-2150-4b5b-832a-e15aee389bd8%2F9f27dea3-2150-4b5b-832a-e15aee389bd8.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120877%2F81df7953-6809-4ce2-84a8-cd94b9d8654a%2F81df7953-6809-4ce2-84a8-cd94b9d8654a.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120877%2F7d33ba13-1cd6-4f5a-8235-6513870394f7%2F7d33ba13-1cd6-4f5a-8235-6513870394f7.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1120877%2F41ad7d7e-cbe0-4345-aab3-10ed5c05381a%2F41ad7d7e-cbe0-4345-aab3-10ed5c05381a.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8608032, 130.7699186",
+   "locPrec": "",
+   "hpText": "子育て環境と買い物利便が揃う街",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,199万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1133131",
+   "source": "santa",
+   "name": "熊本市中央区帯山5丁目3期2号地",
+   "price": "4,299万円",
+   "address": "熊本県熊本市中央区帯山5丁目40-4",
+   "detailUrl": "https://santa-estate.jp/estates/1133131/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.06㎡（32.68坪）",
+   "landArea": "143.52㎡（43.41坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "帯山小学校",
+   "elementaryMin": "7",
+   "junior": "西原中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 東海学園前駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "産交・熊本バス「帯山」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめマート 帯山",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本帯山5丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "帯山幼稚園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "ドラッグストアモリ帯山店",
+     "min": "11",
+     "cat": "drug"
+    },
+    {
+     "name": "熊本赤十字病院",
+     "min": "14",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F36c4a62e-c3d0-4161-84fb-bac196d07f13%2F36c4a62e-c3d0-4161-84fb-bac196d07f13.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F40850c77-8710-4f99-84ff-f9705384eeb9%2F40850c77-8710-4f99-84ff-f9705384eeb9.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F8341aed7-c973-4cd0-8362-92092f8c76b4%2F8341aed7-c973-4cd0-8362-92092f8c76b4.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F016904b3-c7fc-4d94-8f05-db5975223c7d%2F016904b3-c7fc-4d94-8f05-db5975223c7d.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8016352, 130.7547735",
+   "locPrec": "",
+   "hpText": "帯山小徒歩7分！ゆめマート徒歩3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,299万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1140516",
+   "source": "santa",
+   "name": "熊本市中央区帯山5丁目3期1号地",
+   "price": "4,299万円",
+   "address": "熊本県熊本市中央区帯山5丁目40-4",
+   "detailUrl": "https://santa-estate.jp/estates/1140516/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "103.92㎡（31.43坪）",
+   "landArea": "139.62㎡（42.23坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "帯山小学校",
+   "elementaryMin": "7",
+   "junior": "西原中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "JR豊肥本線 東海学園前駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "産交・熊本バス「帯山」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめマート 帯山",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本帯山5丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "帯山幼稚園",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "ドラッグストアモリ帯山店",
+     "min": "11",
+     "cat": "drug"
+    },
+    {
+     "name": "熊本赤十字病院",
+     "min": "14",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2Fce68ee2c-d2e5-4cfe-93ad-7913520313ca%2Fce68ee2c-d2e5-4cfe-93ad-7913520313ca.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2Fd810aa4d-c7cd-487f-a135-2e7a92b03f8a%2Fd810aa4d-c7cd-487f-a135-2e7a92b03f8a.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2F312efa1d-3193-48f0-832e-aee462d67932%2F312efa1d-3193-48f0-832e-aee462d67932.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2Fd1e3eb48-d4d2-4227-8745-038185cff0e6%2Fd1e3eb48-d4d2-4227-8745-038185cff0e6.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2F9fe913fa-904e-4ff9-88e4-a34d05a9d64c%2F9fe913fa-904e-4ff9-88e4-a34d05a9d64c.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8016352, 130.7547735",
+   "locPrec": "",
+   "hpText": "帯山小徒歩7分！ゆめマート徒歩3分で毎日のお買い物がラクになる家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,299万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1146008",
+   "source": "santa",
+   "name": "上益城郡益城町砥川6期1号地",
+   "price": "3,498万円",
+   "address": "熊本県上益城郡益城町大字砥川2112付近",
+   "detailUrl": "https://santa-estate.jp/estates/1146008/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "101.02㎡（30.55坪）",
+   "landArea": "203.22㎡（61.47坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "飯野小学校",
+   "elementaryMin": "8",
+   "junior": "益城中学校",
+   "juniorMin": "42",
+   "facilities": [
+    {
+     "name": "産交バス「飯野農協前」バス停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "益城町立第二保育所",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン益城砥川店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "砥川クリニック",
+     "min": "12",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146008%2F75ae0979-047b-46e3-b49c-2f6cb62b7aa3%2F75ae0979-047b-46e3-b49c-2f6cb62b7aa3.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146008%2F16216d34-ccc8-4133-af9a-c97e1fea3706%2F16216d34-ccc8-4133-af9a-c97e1fea3706.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146008%2F8353cd11-e096-48e4-a161-d77d96f2f83d%2F8353cd11-e096-48e4-a161-d77d96f2f83d.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146008%2F158ece0f-ccbf-4eca-b41c-4faf9e95b513%2F158ece0f-ccbf-4eca-b41c-4faf9e95b513.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146008%2F46864237-830e-493f-b53e-a5e57e89fe3b%2F46864237-830e-493f-b53e-a5e57e89fe3b.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7557279, 130.8123877",
+   "locPrec": "banchi",
+   "hpText": "飯野小徒歩8分！「耐震等級3」",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1146013",
+   "source": "santa",
+   "name": "上益城郡益城町砥川6期2号地",
+   "price": "3,598万円",
+   "address": "熊本県上益城郡益城町大字砥川2112付近",
+   "detailUrl": "https://santa-estate.jp/estates/1146013/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "101.85㎡（30.8坪）",
+   "landArea": "202.66㎡（61.3坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "飯野小学校",
+   "elementaryMin": "8",
+   "junior": "益城中学校",
+   "juniorMin": "42",
+   "facilities": [
+    {
+     "name": "産交バス「飯野農協前」バス停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "益城町立第二保育所",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン益城砥川店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "砥川クリニック",
+     "min": "12",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146013%2F97916653-0e2a-487b-9028-4c201584b9d0%2F97916653-0e2a-487b-9028-4c201584b9d0.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146013%2F1fdeb6ec-65dd-41fd-b924-7d0262ef3728%2F1fdeb6ec-65dd-41fd-b924-7d0262ef3728.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146013%2F58c43442-5206-4e5e-b0b7-3cce828ab3b0%2F58c43442-5206-4e5e-b0b7-3cce828ab3b0.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146013%2Fc1991896-964d-47fb-89e8-2c13a359f55a%2Fc1991896-964d-47fb-89e8-2c13a359f55a.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1146013%2F21486903-3af6-4ac0-8cb0-7d9bfb6b3907%2F21486903-3af6-4ac0-8cb0-7d9bfb6b3907.png?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7557279, 130.8123877",
+   "locPrec": "banchi",
+   "hpText": "並列駐車4台のゆとりの家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,598万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1164011",
+   "source": "santa",
+   "name": "熊本市中央区本山4丁目",
+   "price": "4,499万円",
+   "address": "熊本県熊本市中央区本山4丁目67-2",
+   "detailUrl": "https://santa-estate.jp/estates/1164011/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "99.36㎡（30.05坪）",
+   "landArea": "101.71㎡（30.76坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "向山小学校",
+   "elementaryMin": "3",
+   "junior": "江南中学校",
+   "juniorMin": "5",
+   "facilities": [
+    {
+     "name": "JR九州新幹線 熊本駅",
+     "min": "13",
+     "cat": "station"
+    },
+    {
+     "name": "都市バス「九州中央リハビリ学院前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "都市バス「本山営業所」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "デイリーヤマザキ熊本本山店",
+     "min": "2",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本市立 向山幼稚園",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "あけぼの第2クリニック",
+     "min": "4",
+     "cat": "hospital"
+    },
+    {
+     "name": "ロッキースーパーストア本山店",
+     "min": "8",
+     "cat": "super"
+    },
+    {
+     "name": "ドラッグストアモリ本荘店",
+     "min": "13",
+     "cat": "drug"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1164011%2F9d6568bd-f793-482b-87af-aa9163a20119%2F9d6568bd-f793-482b-87af-aa9163a20119.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1164011%2F75f56123-1f3c-4eb0-9f7c-8d88405521dd%2F75f56123-1f3c-4eb0-9f7c-8d88405521dd.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1164011%2Fa83e995a-da6a-48d4-ad3d-4b8e5026fc6c%2Fa83e995a-da6a-48d4-ad3d-4b8e5026fc6c.gif?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1164011%2Fed28a09c-9fc2-4b61-a02e-4b652e5cd827%2Fed28a09c-9fc2-4b61-a02e-4b652e5cd827.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1164011%2Fe27b8078-c403-4c9e-97a6-1c7c6ab00b45%2Fe27b8078-c403-4c9e-97a6-1c7c6ab00b45.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.7898060, 130.6985405",
+   "locPrec": "",
+   "hpText": "小学校徒歩2分、利便施設も充実！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,499万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1222095",
+   "source": "santa",
+   "name": "合志市野々島7号地",
+   "price": "3,748万円",
+   "address": "熊本県合志市野々島4378付近",
+   "detailUrl": "https://santa-estate.jp/estates/1222095/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "106.81㎡（32.31坪）",
+   "landArea": "214.1㎡（64.76坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西合志中央小学校",
+   "elementaryMin": "10",
+   "junior": "西合志中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "乗合タクシー「若原北」乗り場",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "さくらんぼ保育園",
+     "min": "16",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン合志御代志店",
+     "min": "19",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1222095%2Fb37a5f8b-e1fd-40a3-9ba8-9e97c8863a2d%2Fb37a5f8b-e1fd-40a3-9ba8-9e97c8863a2d.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1222095%2F98c3bdbc-39db-4fc2-a0e9-9cbd35058607%2F98c3bdbc-39db-4fc2-a0e9-9cbd35058607.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1222095%2Fdf237f20-b26a-4cc4-a030-5932dcbbe1d5%2Fdf237f20-b26a-4cc4-a030-5932dcbbe1d5.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1222095%2F8afd690f-eca4-4084-8012-afd1afd38a02%2F8afd690f-eca4-4084-8012-afd1afd38a02.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1222095%2F063150ec-8f81-4aec-9def-861be53ab9de%2F063150ec-8f81-4aec-9def-861be53ab9de.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.9024261, 130.7458099",
+   "locPrec": "banchi",
+   "hpText": "【西合志中央小近く！】家事ラク動線＆たっぷり収納でスッキリ快適な暮らし♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,748万円"
+    }
+   ]
+  },
+  {
+   "id": "santa-1224370",
+   "source": "santa",
+   "name": "合志市上庄4号地",
+   "price": "3,398万円",
+   "address": "熊本県合志市上庄97付近",
+   "detailUrl": "https://santa-estate.jp/estates/1224370/",
+   "layout": "4LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "200.5㎡（60.65坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "7",
+   "junior": "合志中学校",
+   "juniorMin": "16",
+   "facilities": [
+    {
+     "name": "田端集落センター(乗合タクシー)",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "合志中部保育園",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン合志竹迫店",
+     "min": "15",
+     "cat": "conbini"
+    },
+    {
+     "name": "竹迫みのり保育園",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "竹迫城跡公園",
+     "min": "15",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1224370%2Fc029408a-03a4-4590-b7e0-eefb982f16e1%2Fc029408a-03a4-4590-b7e0-eefb982f16e1.jpg?format=webp",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1224370%2Fe79e9af6-1168-493d-a1da-dfd3655b44c9%2Fe79e9af6-1168-493d-a1da-dfd3655b44c9.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1224370%2Ff7e30835-5d00-4d01-b586-38a62971f619%2Ff7e30835-5d00-4d01-b586-38a62971f619.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1224370%2F90967bed-0253-48b0-b1a2-7060cab142b5%2F90967bed-0253-48b0-b1a2-7060cab142b5.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1224370%2Ff60f5124-19bc-48f0-8622-0808403fccbf%2Ff60f5124-19bc-48f0-8622-0808403fccbf.jpg?format=webp",
+     "main": false
+    }
+   ],
+   "locText": "32.8968063, 130.7935235",
+   "locPrec": "banchi",
+   "hpText": "【小学校まで徒歩7分！】ゆとりの収納と広いリビングで笑顔広がる暮らし◎",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T13:54:46.367Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,398万円"
+    }
+   ]
+  },
   {
    "id": "kyuken-6553",
    "source": "kyuken",
@@ -99,7 +3133,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6561",
@@ -198,7 +3233,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6671",
@@ -302,7 +3338,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6684",
@@ -406,7 +3443,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6718",
@@ -509,7 +3547,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6815",
@@ -608,7 +3647,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6847",
@@ -712,7 +3752,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-6908",
@@ -806,7 +3847,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-7059",
@@ -915,7 +3957,8 @@
    "createdAt": "2026-09-29T10:11:04.196Z",
    "lastSeen": "2026-09-29",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-814",
@@ -3718,6 +6761,12 @@
    "junior": "益城中学校",
    "juniorMin": "9",
    "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "九州産交バス「古閑入口」バス停",
      "min": "3",
@@ -30720,7 +33769,7 @@
    "source": "sumaiida",
    "name": "クレイドルガーデン山鹿市山鹿 第4",
    "price": "2,380万円～2,580万円",
-   "address": "熊本県山鹿市山鹿字永田800番9（地番）",
+   "address": "熊本県山鹿市山鹿字永田800番8（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557293717-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -33918,7 +36967,7 @@
    "source": "sumaiida",
    "name": "リナージュネクスジー上益城益城町広崎 第１期",
    "price": "3,080万円～3,280万円",
-   "address": "熊本県上益城郡 益城町大字広崎字松山西1436番2（地番）",
+   "address": "熊本県上益城郡 益城町大字広崎字松山西1436番1（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/8012701004700240859-2/",
    "layout": "4LDK",
    "stories": "2階建て",
