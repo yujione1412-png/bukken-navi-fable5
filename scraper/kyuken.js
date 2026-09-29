@@ -20,7 +20,7 @@
    ・モデルハウス一覧は件数の照合([件数診断])のためだけに読む(取り込みの判定には使わない)
    ・価格はHPの文字としてどこにも載っていない(チラシ画像の中にだけ書かれていることがある)。
      画像の読み取りは誤読の危険があるため行わず、価格は空欄のままにする。
-     アプリでは「価格はHPにて確認」と表示し、平均価格の計算にも含めない
+     アプリでは「価格は要確認」と表示し、平均価格の計算にも含めない
    ・物件名は分譲地名と号地から作る(「【分譲地】宇土鶴城中前　団地（宇土小・鶴城中 校区）」の
      「３号地」→「宇土鶴城中前 3号地」)。詳細ページの見出しは【40周年キャンペーン】などの
      宣伝文句が付いたり外れたりするので使わない
@@ -300,7 +300,7 @@ function parseDetail(html, mhId, land, parcel) {
       id: `${SOURCE}-${mhId}`,
       source: SOURCE,
       name,
-      price: "",   // HPに文字としての価格がないため取らない(アプリで「価格はHPにて確認」と表示)
+      price: "",   // HPに文字としての価格がないため取らない(アプリで「価格は要確認」と表示)
       address: address || "",
       detailUrl: `${BASE}/modelhouse/${mhId}/`,
       layout, stories, builtAt: "",
@@ -420,7 +420,7 @@ async function main() {
     console.log(`[写真診断] 平均 ${(total / scraped.length).toFixed(1)}枚 / 写真なし ${scraped.filter((s) => !s.photos.length).length}件`);
     console.log(`[学校診断] 小学校区が取れなかった物件: ${scraped.filter((s) => !s.elementary).length}件` +
       ` / 小学校までの距離が取れなかった物件: ${scraped.filter((s) => s.elementary && !s.elementaryMin).length}件`);
-    console.log(`[価格] 九建ホームのHPには価格の記載がないため、価格は取得していません(アプリでは「価格はHPにて確認」と表示)`);
+    console.log(`[価格] 九建ホームのHPには価格の記載がないため、価格は取得していません(アプリでは「価格は要確認」と表示)`);
   }
 
   // 5. 差分反映(九建ホーム分のみ更新。他社・手動データには触れない)
