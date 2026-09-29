@@ -3,7 +3,7 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-09-29T00:55:23.444Z",
+   "ranAt": "2026-09-29T07:58:45.530Z",
    "date": "2026-09-29",
    "count": 33,
    "prevCount": 33,
@@ -15,7 +15,7 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-09-29T00:58:15.421Z",
+   "ranAt": "2026-09-29T08:01:40.249Z",
    "date": "2026-09-29",
    "count": 82,
    "prevCount": 82,
@@ -27,7 +27,7 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-09-29T01:02:26.550Z",
+   "ranAt": "2026-09-29T08:05:59.585Z",
    "date": "2026-09-29",
    "count": 179,
    "prevCount": 179,
@@ -39,7 +39,7 @@
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-09-29T01:03:33.665Z",
+   "ranAt": "2026-09-29T08:07:04.902Z",
    "date": "2026-09-29",
    "count": 22,
    "prevCount": 22,
@@ -51,7 +51,7 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "ok",
-   "ranAt": "2026-09-29T01:04:07.270Z",
+   "ranAt": "2026-09-29T08:07:39.649Z",
    "date": "2026-09-29",
    "count": 14,
    "prevCount": 14,
@@ -63,7 +63,7 @@
   "kokubu": {
    "label": "国分ハウジング",
    "level": "ok",
-   "ranAt": "2026-09-29T01:05:09.414Z",
+   "ranAt": "2026-09-29T08:08:43.022Z",
    "date": "2026-09-29",
    "count": 18,
    "prevCount": 18,
@@ -71,7 +71,19 @@
    "reasons": [],
    "lastOkDate": "2026-09-29",
    "lastOkCount": 18
+  },
+  "takasugi": {
+   "label": "タカスギ",
+   "level": "ok",
+   "ranAt": "2026-09-29T08:10:00.728Z",
+   "date": "2026-09-29",
+   "count": 53,
+   "prevCount": 53,
+   "notFound": 0,
+   "reasons": [],
+   "lastOkDate": "2026-09-29",
+   "lastOkCount": 53
   }
  },
- "updatedAt": "2026-09-29T01:05:09.414Z"
+ "updatedAt": "2026-09-29T08:10:00.728Z"
 }

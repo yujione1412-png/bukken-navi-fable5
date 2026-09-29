@@ -1,7 +1,4824 @@
 {
- "updatedAt": "2026-09-29T01:05:09.409Z",
- "count": 442,
+ "updatedAt": "2026-09-29T08:10:00.722Z",
+ "count": 495,
  "listings": [
+  {
+   "id": "takasugi-814",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 1号地",
+   "price": "2,398万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/814/",
+   "layout": "2LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "64.59㎡（19.53坪）",
+   "landArea": "204.92㎡（61.98坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオンモール熊本",
+     "min": "10",
+     "cat": "mall"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC4577.jpg",
+     "main": true,
+     "local": "data/img/ab7b487e6d02df454c4c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC4586.jpg",
+     "main": false,
+     "local": "data/img/bbd415b0477df74393ac.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9475.jpg",
+     "main": false,
+     "local": "data/img/c63b611fcb7f41e44493.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9418.jpg",
+     "main": false,
+     "local": "data/img/b65cca43ad18a12e2912.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9443.jpg",
+     "main": false,
+     "local": "data/img/30b7689afb5e8efedbb4.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "LDKと和室、デッキがひとつになる平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,398万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-822",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 3号地",
+   "price": "2,498万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/822/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.84㎡（30.80坪）",
+   "landArea": "204.92㎡（61.99坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオンモール熊本",
+     "min": "10",
+     "cat": "mall"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2552.jpg",
+     "main": true,
+     "local": "data/img/1ed3a148d3f948a146b0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2545.jpg",
+     "main": false,
+     "local": "data/img/294c4f778d04ef39b3d0.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1348.jpg",
+     "main": false,
+     "local": "data/img/42afc35dffb79fd6e42e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1337.jpg",
+     "main": false,
+     "local": "data/img/92ac141ed6f2036284bc.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1335.jpg",
+     "main": false,
+     "local": "data/img/d54df7b7012d37f7e27f.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "“いつもすっきり”を叶える 充実収納デザインの家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-829",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 5号地",
+   "price": "2,498万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/829/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "81.15㎡（24.54坪）",
+   "landArea": "201.30㎡（60.89坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオンモール熊本",
+     "min": "10",
+     "cat": "mall"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/5goutiHP.jpg",
+     "main": true,
+     "local": "data/img/1cc40accb063ba0c5c38.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5919.jpg",
+     "main": false,
+     "local": "data/img/798dd00c5a1514486d09.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5920.jpg",
+     "main": false,
+     "local": "data/img/1df8c242b8ba261a1037.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5924.jpg",
+     "main": false,
+     "local": "data/img/6f2739b3a860579e3bf4.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9338.jpg",
+     "main": false,
+     "local": "data/img/344cabefb81b446bf173.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "3人家族にちょうどいい！家族が繋がる家事ラクの平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-846",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 1-4-8号地",
+   "price": "2,798万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/846/",
+   "layout": "2LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "64.59㎡（19.53坪）",
+   "landArea": "209.67㎡（63.42坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "合志第一病院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "宮川内科医院",
+     "min": "2",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%981-4-8%E5%A4%96%E8%A6%B3%E5%90%88%E6%88%90%EF%BC%88%E6%97%A5%E4%B8%AD%EF%BC%89-1.jpg",
+     "main": true,
+     "local": "data/img/76837d4afcfc6c258936.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/re_DSC1121%E5%90%88%E6%88%90%EF%BC%88%E6%97%A5%E4%B8%AD%EF%BC%89.jpg",
+     "main": false,
+     "local": "data/img/0b5bd8b5f4608caa20dd.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1072.jpg",
+     "main": false,
+     "local": "data/img/54d32b7313afc19055bb.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC6155.jpg",
+     "main": false,
+     "local": "data/img/9f1b7de4e9abe662aa20.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC6164.jpg",
+     "main": false,
+     "local": "data/img/1a8b2d72c2d3b76faacf.jpg"
+    }
+   ],
+   "locText": "32.9027390, 130.7661050",
+   "locPrec": "",
+   "hpText": "2人暮らしにちょうどいい！2LDKの平屋",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,798万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-978",
+   "source": "takasugi",
+   "name": "熊本市北区鹿子木町 9号地",
+   "price": "3,495万円",
+   "address": "熊本県熊本市北区鹿子木町138-2",
+   "detailUrl": "https://home.takasugi.co.jp/house/978/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "99.37㎡（30.05坪）",
+   "landArea": "205.39㎡（62.13坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "6",
+   "junior": "北部中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "セブンイレブン",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本鹿子木町店",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "硯川町堀ノ内",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "第二公園",
+     "min": "6",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%B7%9D%E4%B8%8A%E5%B0%8F%E8%A5%BF9%E5%8F%B7%E5%9C%B0MH%E5%A4%96%E8%A6%B3001-1.jpg",
+     "main": true,
+     "local": "data/img/8df4179bb55f92a0018a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0651.jpg",
+     "main": false,
+     "local": "data/img/7e896a1189afe1aecd06.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0652.jpg",
+     "main": false,
+     "local": "data/img/475bf0c33df8706db4d4.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0654.jpg",
+     "main": false,
+     "local": "data/img/f7b73389affff393b9f2.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0658.jpg",
+     "main": false,
+     "local": "data/img/76c03553b252962a0ad6.jpg"
+    }
+   ],
+   "locText": "32.8716649, 130.6998931",
+   "locPrec": "",
+   "hpText": "お買い物の後もお洗濯の後もラクラクな家事動線の家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,495万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-982",
+   "source": "takasugi",
+   "name": "熊本市北区梶尾町 1期",
+   "price": "2,398万円",
+   "address": "熊本県熊本市北区梶尾町1590番4",
+   "detailUrl": "https://home.takasugi.co.jp/house/982/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "103.50㎡（31.30坪）",
+   "landArea": "150.24㎡（45.44坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "北部東小学校",
+   "elementaryMin": "29",
+   "junior": "北部中学校",
+   "juniorMin": "29",
+   "facilities": [
+    {
+     "name": "黒石駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「梶尾温泉」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "デイリーヤマザキ西合志須屋店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "梶尾温泉",
+     "min": "8",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1955.jpg",
+     "main": true,
+     "local": "data/img/07e4cec15fa4cfe12573.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/AI%E5%AE%B6%E5%85%B7%E7%94%9F%E6%88%90LDK-1.jpg",
+     "main": false,
+     "local": "data/img/7151c3596c305d4bf360.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E6%A2%B6%E5%B0%BE%E7%94%BA%E5%86%85%E8%A6%B3001.jpg",
+     "main": false,
+     "local": "data/img/1075c3058c34eb9cfb1f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0354.jpg",
+     "main": false,
+     "local": "data/img/c45087687e02a59b298f.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0347.jpg",
+     "main": false,
+     "local": "data/img/7cbfbde58a6e338bc0b9.jpg"
+    }
+   ],
+   "locText": "32.8762696, 130.7282679",
+   "locPrec": "",
+   "hpText": "LDK16.8帖に加え、収納やフリースペースも備えた実用的な間取り。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,398万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1079",
+   "source": "takasugi",
+   "name": "熊本市北区麻生田5丁目 1号棟",
+   "price": "2,898万円",
+   "address": "熊本県熊本市北区麻生田5丁目1939-2",
+   "detailUrl": "https://home.takasugi.co.jp/house/1079/",
+   "layout": "3LDK+2S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.74㎡（31.68坪）",
+   "landArea": "161.93㎡（48.98坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "麻生田小学校",
+   "elementaryMin": "10",
+   "junior": "清水中学校",
+   "juniorMin": "24",
+   "facilities": [
+    {
+     "name": "須屋駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「新地団地」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパーミカエル新地店",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "ローソン熊本清水新地七丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "清水新地公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E9%BA%BB%E7%94%9F%E7%94%B0WEB%EF%BC%BF003.jpg",
+     "main": true,
+     "local": "data/img/3527e85e5cd746f70974.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E9%BA%BB%E7%94%9F%E7%94%B0WEB%EF%BC%BF001.jpg",
+     "main": false,
+     "local": "data/img/2e929c744e871bb01399.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E9%BA%BB%E7%94%9F%E7%94%B0WEB%EF%BC%BF004.jpg",
+     "main": false,
+     "local": "data/img/4866d3571fd0f4bb1668.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E9%BA%BB%E7%94%9F%E7%94%B0WEB%EF%BC%BF002.jpg",
+     "main": false,
+     "local": "data/img/33d52bdb9753c00dfaf2.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2030.jpg",
+     "main": false,
+     "local": "data/img/9b1b51f6d7dbd2a7c80c.jpg"
+    }
+   ],
+   "locText": "32.8552499, 130.7502704",
+   "locPrec": "",
+   "hpText": "麻生田小学校まで徒歩10分！各部屋収納付きのお家。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,898万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1081",
+   "source": "takasugi",
+   "name": "菊池郡大津町森 1号棟",
+   "price": "2,998万円",
+   "address": "熊本県菊池郡大津町森719番28",
+   "detailUrl": "https://home.takasugi.co.jp/house/1081/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "206.21㎡（62.37坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "大津小学校",
+   "elementaryMin": "20",
+   "junior": "大津中学校",
+   "juniorMin": "20",
+   "facilities": [
+    {
+     "name": "九州産交バス「熊本文化の森」バス停",
+     "min": "9",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン熊本大津店",
+     "min": "10",
+     "cat": "conbini"
+    },
+    {
+     "name": "のざわ医院",
+     "min": "14",
+     "cat": "hospital"
+    },
+    {
+     "name": "大津町運動公園",
+     "min": "10",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%A4%A7%E6%B4%A5%E7%94%BA%E6%A3%AE1%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3003.jpg",
+     "main": true,
+     "local": "data/img/da04a3c9ac6a430adb9b.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9969.jpg",
+     "main": false,
+     "local": "data/img/bb41debf8cd30e3a3655.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9972.jpg",
+     "main": false,
+     "local": "data/img/98c1f8824ad9b2cc9f38.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC4051.jpg",
+     "main": false,
+     "local": "data/img/000fb787c5b7a01ee63e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC4059.jpg",
+     "main": false,
+     "local": "data/img/98aed519e3e81db40b13.jpg"
+    }
+   ],
+   "locText": "32.8762393, 130.8905898",
+   "locPrec": "",
+   "hpText": "静かな住宅街で落ち着いた暮らしを。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1090",
+   "source": "takasugi",
+   "name": "熊本市西区城山大塘 1号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市西区城山大塘1丁目150-1",
+   "detailUrl": "https://home.takasugi.co.jp/house/1090/",
+   "layout": "3LDK+S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "127.85㎡（38.67坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "城山小学校",
+   "elementaryMin": "3",
+   "junior": "三和中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "九州産交バス「稲荷入口」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめマート城山",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本城山半田店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "大塘小伝木公園",
+     "min": "2",
+     "cat": "park"
+    },
+    {
+     "name": "高橋稲荷神社",
+     "min": "5",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B1%E5%A4%A7%E5%A1%981%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B30720.jpg",
+     "main": true,
+     "local": "data/img/4bd66931ccec62b49e3e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9625.jpg",
+     "main": false,
+     "local": "data/img/31ae386eefb46dda7da7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9629-1.jpg",
+     "main": false,
+     "local": "data/img/2c48081299224c06b9a9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9631.jpg",
+     "main": false,
+     "local": "data/img/5c6ca1c82f78f58d2a9a.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9639-1.jpg",
+     "main": false,
+     "local": "data/img/1149d0f7063e978889a3.jpg"
+    }
+   ],
+   "locText": "32.7801955, 130.6567930",
+   "locPrec": "",
+   "hpText": "小学校まで徒歩3分！スーパーも近く、子育て世代におススメの立地です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1091",
+   "source": "takasugi",
+   "name": "熊本市西区城山大塘 2号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市西区城山大塘1丁目150-12",
+   "detailUrl": "https://home.takasugi.co.jp/house/1091/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "128.42㎡（38.84坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "城山小学校",
+   "elementaryMin": "3",
+   "junior": "三和中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "九州産交バス「稲荷入口」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめマート城山",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン熊本城山半田店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "三和クリニック",
+     "min": "10",
+     "cat": "hospital"
+    },
+    {
+     "name": "大塘小伝木公園",
+     "min": "2",
+     "cat": "park"
+    },
+    {
+     "name": "高橋稲荷神社",
+     "min": "5",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B1%E5%A4%A7%E5%A1%982%E5%8F%B7%E6%A3%9F0720-1.jpg",
+     "main": true,
+     "local": "data/img/d7ef4686c48b0d12c535.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9574.jpg",
+     "main": false,
+     "local": "data/img/bdfffb0f0804e89a87c2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9577.jpg",
+     "main": false,
+     "local": "data/img/cafad1075230bb735039.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9584.jpg",
+     "main": false,
+     "local": "data/img/26cfe6ff5b2ba4286fe9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9580.jpg",
+     "main": false,
+     "local": "data/img/56f09c5570ae9f83ef91.jpg"
+    }
+   ],
+   "locText": "32.7801955, 130.6567930",
+   "locPrec": "",
+   "hpText": "小学校まで徒歩3分！スーパーも近く、子育て世代におススメの立地です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1094",
+   "source": "takasugi",
+   "name": "益城町馬水 1号棟",
+   "price": "2,998万円",
+   "address": "熊本県上益城郡益城町馬水750番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/1094/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.34㎡（31.56坪）",
+   "landArea": "200.86㎡（60.76坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "広安小学校",
+   "elementaryMin": "9",
+   "junior": "益城中学校",
+   "juniorMin": "13",
+   "facilities": [
+    {
+     "name": "アタックス益城店",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン益城惣領北店",
+     "min": "7",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E7%9B%8A%E5%9F%8EWEB%EF%BC%BF004.jpg",
+     "main": true,
+     "local": "data/img/10b9a8081aa0537a86dc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E7%9B%8A%E5%9F%8EWEB%EF%BC%BF002.jpg",
+     "main": false,
+     "local": "data/img/bb0e4fd791e40f251a39.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E7%9B%8A%E5%9F%8EWEB%EF%BC%BF003.jpg",
+     "main": false,
+     "local": "data/img/81249129ccbd4a9ff989.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E7%9B%8A%E5%9F%8EWEB%EF%BC%BF001.jpg",
+     "main": false,
+     "local": "data/img/3b935e4c306173d56484.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC1257.jpg",
+     "main": false,
+     "local": "data/img/63191c6adbb4ce405c97.jpg"
+    }
+   ],
+   "locText": "32.7830425, 130.8052218",
+   "locPrec": "",
+   "hpText": "小中学校が近く、安心して通学できる立地です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1136",
+   "source": "takasugi",
+   "name": "熊本市南区御幸笛田 1号棟",
+   "price": "2,898万円",
+   "address": "熊本県熊本市南区御幸笛田6丁目3-20",
+   "detailUrl": "https://home.takasugi.co.jp/house/1136/",
+   "layout": "4LDK+S",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "102.67㎡（31.05坪）",
+   "landArea": "146.46㎡（44.30坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "御幸小学校",
+   "elementaryMin": "7",
+   "junior": "託麻中学校",
+   "juniorMin": "29",
+   "facilities": [
+    {
+     "name": "平成駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「畑ヶ中」バス停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "マックスバリュ御幸笛田店",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "御幸病院",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "桜十字病院",
+     "min": "12",
+     "cat": "hospital"
+    },
+    {
+     "name": "笛田中央公園",
+     "min": "2",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%BE%A1%E5%B9%B8%E7%AC%9B%E7%94%B0%E5%A4%96%E8%A6%B3%EF%BC%88%E6%AD%A3%E9%9D%A2%EF%BC%89%E5%AF%84%E3%82%8A.jpg",
+     "main": true,
+     "local": "data/img/7632e20a60e2d988c33f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0611.jpg",
+     "main": false,
+     "local": "data/img/fac99c00be43376bd362.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0635.jpg",
+     "main": false,
+     "local": "data/img/45aa69609614636458ea.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0622.jpg",
+     "main": false,
+     "local": "data/img/3ddea805a199f934af88.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0005.jpg",
+     "main": false,
+     "local": "data/img/8a99766891276382bff3.jpg"
+    }
+   ],
+   "locText": "32.7572075, 130.7139947",
+   "locPrec": "",
+   "hpText": "家族みんなでゆっくり過ごせる20帖のLDKが魅力のお家です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,898万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1378",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 2号地",
+   "price": "2,598万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/1378/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.36㎡（31.56坪）",
+   "landArea": "204.91㎡（61.98坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%8D%97%E8%88%9E%E5%8E%9F%E7%AC%AC%E4%B8%892%E5%8F%B7%E5%9C%B0%E5%A4%96%E8%A6%B302.jpg",
+     "main": true,
+     "local": "data/img/7ea1de9ac15ea368ecfd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5928.jpg",
+     "main": false,
+     "local": "data/img/6297d8c6da445eca8b10.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5927.jpg",
+     "main": false,
+     "local": "data/img/33f726112ade792bd691.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5931.jpg",
+     "main": false,
+     "local": "data/img/770e96e8808a3b755769.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5930.jpg",
+     "main": false,
+     "local": "data/img/991cf2d2b7e12590fa76.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "「ワークスペース×ランドリー」の快適動線！1階だけで暮らしが整う家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1381",
+   "source": "takasugi",
+   "name": "宇土市入地町 7号地",
+   "price": "2,498万円",
+   "address": "熊本県宇土市入地町49-10",
+   "detailUrl": "https://home.takasugi.co.jp/house/1381/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.84㎡（30.80坪）",
+   "landArea": "169.17㎡（51.17坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "7",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "セブンイレブン",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "宇土南段原店",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "入地南公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%AE%87%E5%9C%9F%E9%AB%98%E6%A0%A1%E5%89%8D7%E5%8F%B7%E5%9C%B0%E5%A4%96%E8%A6%B3002.jpg",
+     "main": true,
+     "local": "data/img/e2d7c03b55cdd30cc1ff.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2406.jpg",
+     "main": false,
+     "local": "data/img/7b5e849c760e5243c25a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2408.jpg",
+     "main": false,
+     "local": "data/img/8303d3349f30f3dea5b5.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2417.jpg",
+     "main": false,
+     "local": "data/img/6558f554f141ba087101.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2434.jpg",
+     "main": false,
+     "local": "data/img/ff96f6f3dff84a87eff8.jpg"
+    }
+   ],
+   "locText": "32.6798210, 130.6579520",
+   "locPrec": "",
+   "hpText": "まるで“衣裳部屋”のような大型W.I.Cを完備！片付けのストレスから解放される「超・収納」住宅",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1447",
+   "source": "takasugi",
+   "name": "熊本市西区中島町 1号地",
+   "price": "2,698万円",
+   "address": "熊本県熊本市西区中島町788番8",
+   "detailUrl": "https://home.takasugi.co.jp/house/1447/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "106.40㎡（32.18坪）",
+   "landArea": "208.1㎡（62.95坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "中島小学校",
+   "elementaryMin": "10",
+   "junior": "城西中学校",
+   "juniorMin": "25",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス「今新開」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "デイリーヤマザキ熊本中島町店",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "ひらやま整形外科クリニック",
+     "min": "6",
+     "cat": "hospital"
+    },
+    {
+     "name": "山脇歯科医院",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "中島中央公園",
+     "min": "13",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC3685.jpg",
+     "main": true,
+     "local": "data/img/f92df30654d35a01e438.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC3705.jpg",
+     "main": false,
+     "local": "data/img/d9ec7c49f424d20c7189.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC3697.jpg",
+     "main": false,
+     "local": "data/img/5a6d20e6178199ce4fb4.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC3830.jpg",
+     "main": false,
+     "local": "data/img/cf10aab60fd7151945bc.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC3693.jpg",
+     "main": false,
+     "local": "data/img/d0f1414093549bfe3720.jpg"
+    }
+   ],
+   "locText": "32.7665690, 130.6379000",
+   "locPrec": "",
+   "hpText": "玄関で荷物も上着もスッキリ！9帖のゆとりある主寝室が魅力の「クリーン＆リラックス」住宅",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1455",
+   "source": "takasugi",
+   "name": "熊本市西区中島 6号地",
+   "price": "2,498万円",
+   "address": "熊本県熊本市西区中島町788番8",
+   "detailUrl": "https://home.takasugi.co.jp/house/1455/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "108.26㎡（32.74坪）",
+   "landArea": "209.13㎡（63.26坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "中島小学校",
+   "elementaryMin": "10",
+   "junior": "城西中学校",
+   "juniorMin": "25",
+   "facilities": [
+    {
+     "name": "産交バス「今新開」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "デイリーヤマザキ熊本中島町店",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "ひらやま整形外科クリニック",
+     "min": "6",
+     "cat": "hospital"
+    },
+    {
+     "name": "山脇歯科医院",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "中島中央公園",
+     "min": "13",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E4%B8%AD%E5%B3%B6WEB%EF%BC%BF004.jpg",
+     "main": true,
+     "local": "data/img/d58195abab94470e428e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E4%B8%AD%E5%B3%B6WEB%EF%BC%BF001.jpg",
+     "main": false,
+     "local": "data/img/a6c89c087ea34bf12c34.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E4%B8%AD%E5%B3%B6WEB%EF%BC%BF003.jpg",
+     "main": false,
+     "local": "data/img/8e8a74b1ff9d5f7c70bf.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/s-%E4%B8%AD%E5%B3%B6WEB%EF%BC%BF002.jpg",
+     "main": false,
+     "local": "data/img/824a4dbc21fdb899d510.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0888.jpg",
+     "main": false,
+     "local": "data/img/8cf8476074c08c9546b6.jpg"
+    }
+   ],
+   "locText": "32.7659717, 130.6376645",
+   "locPrec": "",
+   "hpText": "中島小学校 徒歩10分！ 洗濯動線を極めた「1階完結型」ランドリーの家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-1790",
+   "source": "takasugi",
+   "name": "熊本市北区鹿子木町 5号地",
+   "price": "3,298万円",
+   "address": "熊本県熊本市北区鹿子木町138-2",
+   "detailUrl": "https://home.takasugi.co.jp/house/1790/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.84㎡（30.80坪）",
+   "landArea": "211.49㎡（63.97坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "6",
+   "junior": "北部中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "セブンイレブン",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本鹿子木町店",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "硯川町堀ノ内",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "第二公園",
+     "min": "6",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2738.jpg",
+     "main": true,
+     "local": "data/img/8ce12ce0c0a5fe3d0185.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC2747.jpg",
+     "main": false,
+     "local": "data/img/55fe771053b0261200e9.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC6013.jpg",
+     "main": false,
+     "local": "data/img/13baff03761e5715a315.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5966.jpg",
+     "main": false,
+     "local": "data/img/3b4eb22ea2740e56cf0d.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC5980.jpg",
+     "main": false,
+     "local": "data/img/692e6a7865cdf511684f.jpg"
+    }
+   ],
+   "locText": "32.8716649, 130.6998931",
+   "locPrec": "",
+   "hpText": "ホールクローク+ファミリークロークで片付け上手になれる家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,298万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2616",
+   "source": "takasugi",
+   "name": "熊本市北区梶尾町 2期1号棟",
+   "price": "2,598万円",
+   "address": "熊本県熊本市北区梶尾町1359-39",
+   "detailUrl": "https://home.takasugi.co.jp/house/2616/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "102.68㎡（31.06坪）",
+   "landArea": "175.15㎡（52.98坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "北部東小学校",
+   "elementaryMin": "28",
+   "junior": "北部中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "熊本電鉄「黒石」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「梶尾温泉」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパー・キッド菊南店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "南陽台北公園",
+     "min": "4",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F1%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%E5%B7%A6%E6%96%9C%E3%82%81%EF%BC%88%E7%A9%BA%E5%90%88%E6%88%90%EF%BC%892-1.jpg",
+     "main": true,
+     "local": "data/img/06318a63c84b7ebb1c33.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F1%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%E6%AD%A3%E9%9D%A2%EF%BC%88%E9%9B%BB%E6%9F%B1%E9%81%BF%E3%81%91%EF%BC%892.jpg",
+     "main": false,
+     "local": "data/img/ea02430cb12fd8d7541c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9076.jpg",
+     "main": false,
+     "local": "data/img/ac1b93ae0e7177463cb6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9071.jpg",
+     "main": false,
+     "local": "data/img/854fa097997f683d80f4.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9086.jpg",
+     "main": false,
+     "local": "data/img/4ead28a613a8b1ff07ae.jpg"
+    }
+   ],
+   "locText": "32.8759386, 130.7268464",
+   "locPrec": "",
+   "hpText": "シックな色合いの外観がカッコイイお家です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2631",
+   "source": "takasugi",
+   "name": "熊本市北区梶尾町 2期2号棟",
+   "price": "2,598万円",
+   "address": "熊本県熊本市北区梶尾町1359-43",
+   "detailUrl": "https://home.takasugi.co.jp/house/2631/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "102.67㎡（31.05坪）",
+   "landArea": "175.38㎡（53.05坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "北部東小学校",
+   "elementaryMin": "28",
+   "junior": "北部中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "熊本電鉄「黒石」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「梶尾温泉」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパー・キッド菊南店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "南陽台北公園",
+     "min": "4",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F2%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%EF%BC%88%E6%AD%A3%E9%9D%A202_2%EF%BC%89-1.jpg",
+     "main": true,
+     "local": "data/img/c30a6a60d44377cd37ca.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F2%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%EF%BC%88%E5%8F%B3%E6%96%9C%E3%82%81%EF%BC%89-scaled.jpg",
+     "main": false,
+     "local": "data/img/90c0e78d227dfac1c5a8.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%AE%B6%E5%85%B7%E7%94%9F%E6%88%90LDK.jpg",
+     "main": false,
+     "local": "data/img/d6d4c7674e413a97266d.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC8603.jpg",
+     "main": false,
+     "local": "data/img/bd0172a88d74ba0aa9f2.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC8605.jpg",
+     "main": false,
+     "local": "data/img/c04b8d16d5f9b3039c7b.jpg"
+    }
+   ],
+   "locText": "32.8759386, 130.7268464",
+   "locPrec": "",
+   "hpText": "大きな窓が特徴のお家です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2635",
+   "source": "takasugi",
+   "name": "熊本市北区梶尾町 2期3号棟",
+   "price": "2,498万円",
+   "address": "熊本県熊本市北区梶尾町1359-63",
+   "detailUrl": "https://home.takasugi.co.jp/house/2635/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "108.28㎡（32.75坪）",
+   "landArea": "175.39㎡（53.05坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "北部東小学校",
+   "elementaryMin": "28",
+   "junior": "北部中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "熊本電鉄「黒石」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「梶尾温泉」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパー・キッド菊南店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "南陽台北公園",
+     "min": "4",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F3%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%EF%BC%88%E6%AD%A3%E9%9D%A2%EF%BC%892.jpg",
+     "main": true,
+     "local": "data/img/42d64c29103d12d19a10.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E6%A2%B6%E5%B0%BE2%E6%9C%9F3%E5%8F%B7%E6%A3%9F%E5%A4%96%E8%A6%B3%EF%BC%88%E5%8F%B3%E6%96%9C%E3%82%81%EF%BC%892-1.jpg",
+     "main": false,
+     "local": "data/img/13473261a1a8c718685e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/03/%E6%A2%B6%E5%B0%BE2%E6%9C%9F3%E5%8F%B7%E6%A3%9F-3.jpg",
+     "main": false,
+     "local": "data/img/16aff4b87e2b0a8f704f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC8568-%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.jpg",
+     "main": false,
+     "local": "data/img/8f7b81dea38d5256c220.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC8562.jpg",
+     "main": false,
+     "local": "data/img/9376f945686b8c0b46b8.jpg"
+    }
+   ],
+   "locText": "32.8759386, 130.7268464",
+   "locPrec": "",
+   "hpText": "シックでスマートな外観のお家です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2830",
+   "source": "takasugi",
+   "name": "合志市御代志 1号地",
+   "price": "3,698万円",
+   "address": "熊本県合志市御代志字地藏本1330番137",
+   "detailUrl": "https://home.takasugi.co.jp/house/2830/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "84.46㎡（25.54坪）",
+   "landArea": "208.48㎡（63.06坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西合志中央小学校",
+   "elementaryMin": "11",
+   "junior": "西合志中学校",
+   "juniorMin": "11",
+   "facilities": [
+    {
+     "name": "熊本電鉄 御代志駅",
+     "min": "18",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄「大池・農業公園入口」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン",
+     "min": "7",
+     "cat": "conbini"
+    },
+    {
+     "name": "合志御代志店",
+     "min": "7",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%BE%A1%E4%BB%A3%E5%BF%97%E5%B8%82%E6%B0%91%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E5%8C%971MH%E5%A4%96%E8%A6%B3%EF%BC%88%E6%99%B4%E5%A4%A9%E5%87%A6%E7%90%86%EF%BC%89.jpg",
+     "main": true,
+     "local": "data/img/bab392b3357f4e87f049.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%BE%A1%E4%BB%A3%E5%BF%97%E5%B8%82%E6%B0%91%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E5%8C%971MH%E5%A4%96%E8%A6%B32%EF%BC%88%E6%99%B4%E5%A4%A9%E5%87%A6%E7%90%86%EF%BC%89.jpg",
+     "main": false,
+     "local": "data/img/a4781fa68402520f0c47.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9752.jpg",
+     "main": false,
+     "local": "data/img/a9a750674a48193b3537.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9765.jpg",
+     "main": false,
+     "local": "data/img/0e16010af52b4b2cf1fb.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9733.jpg",
+     "main": false,
+     "local": "data/img/6ade008c9d57a1ec58f1.jpg"
+    }
+   ],
+   "locText": "32.8932374, 130.7460195",
+   "locPrec": "",
+   "hpText": "「走り回る子供の足音も、重い洗濯物も、もう気にしない。 家族の“ゆとり”をデザインした、子育て特化型の平屋。」",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,698万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2848",
+   "source": "takasugi",
+   "name": "熊本市北区津浦町 1号棟",
+   "price": "3,398万円",
+   "address": "熊本県熊本市北区津浦町445-3",
+   "detailUrl": "https://home.takasugi.co.jp/house/2848/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "102.67㎡（31.05坪）",
+   "landArea": "160.37㎡（48.51坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "高平台小学校",
+   "elementaryMin": "17",
+   "junior": "京陵中学校",
+   "juniorMin": "24",
+   "facilities": [
+    {
+     "name": "熊本電鉄「池田」駅",
+     "min": "11",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「津の浦公民館前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "マックスバリュ熊本北店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "ミスターマックス熊本北店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "津浦前田公園",
+     "min": "2",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-TUNOURA00.jpg",
+     "main": true,
+     "local": "data/img/888013e58c007502f9a6.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4361.jpg",
+     "main": false,
+     "local": "data/img/4ccf4709b3b215f2d210.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4214.jpg",
+     "main": false,
+     "local": "data/img/97afa1712d8a3fae5866.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4224.jpg",
+     "main": false,
+     "local": "data/img/a879004d59cc7d4e3b75.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4212.jpg",
+     "main": false,
+     "local": "data/img/963a76dd7b2ff3c84ad1.jpg"
+    }
+   ],
+   "locText": "32.8258967, 130.7110266",
+   "locPrec": "",
+   "hpText": "リビング20帖の開放感！賃貸では叶わなかった『のびのび子育て』を形にする3LDKの家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,398万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2881",
+   "source": "takasugi",
+   "name": "熊本市北区津浦町 2号棟",
+   "price": "3,448万円",
+   "address": "熊本県熊本市北区津浦町445-2",
+   "detailUrl": "https://home.takasugi.co.jp/house/2881/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.00㎡（31.76坪）",
+   "landArea": "159.53㎡（48.25坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "高平台小学校",
+   "elementaryMin": "17",
+   "junior": "京陵中学校",
+   "juniorMin": "24",
+   "facilities": [
+    {
+     "name": "熊本電鉄「池田」駅",
+     "min": "11",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「津の浦公民館前」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "マックスバリュ熊本北店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "ミスターマックス熊本北店",
+     "min": "11",
+     "cat": "super"
+    },
+    {
+     "name": "津浦前田公園",
+     "min": "2",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4366.jpg",
+     "main": true,
+     "local": "data/img/f1513b28ac4f590c2479.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4294.jpg",
+     "main": false,
+     "local": "data/img/7ae403037fcae1efdb00.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4275.jpg",
+     "main": false,
+     "local": "data/img/bbba482f3552fa9daea1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4302.jpg",
+     "main": false,
+     "local": "data/img/1b2dffc884b88b94ed2d.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC4311.jpg",
+     "main": false,
+     "local": "data/img/e405b493cd8d8116f960.jpg"
+    }
+   ],
+   "locText": "32.8258558, 130.7110172",
+   "locPrec": "",
+   "hpText": "家事効率を極めたパントリーと、暮らしに余白を生む4LDK",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,448万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2884",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 19号地",
+   "price": "2,598万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/2884/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "107.64㎡（32.56坪）",
+   "landArea": "203.71㎡（61.62坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC208.jpg",
+     "main": true,
+     "local": "data/img/af2fd268befda4c25b29.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2088.jpg",
+     "main": false,
+     "local": "data/img/022989928bd1e40d1375.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2101.jpg",
+     "main": false,
+     "local": "data/img/0ef7e2caeadd8fc13032.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2109.jpg",
+     "main": false,
+     "local": "data/img/c4f05d9fa9ca4efa4906.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2078.jpg",
+     "main": false,
+     "local": "data/img/672c6e0e32ced3477082.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "見せない収納で生活感を出さない！綺麗に暮らす家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2916",
+   "source": "takasugi",
+   "name": "御船町 7号地",
+   "price": "3,798万円",
+   "address": "熊本県上益城郡御船町大字木倉毘沙門381番",
+   "detailUrl": "https://home.takasugi.co.jp/house/2916/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "89.84㎡（27.17坪）",
+   "landArea": "407.09㎡（123.14坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "木倉小学校",
+   "elementaryMin": "4",
+   "junior": "御船中学校",
+   "juniorMin": "17",
+   "facilities": [
+    {
+     "name": "九州産交バス「落合」バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/ChatGPT-Image-2026%E5%B9%B48%E6%9C%8810%E6%97%A5-14_35_31.jpg",
+     "main": true,
+     "local": "data/img/e3fe38de3501078c79aa.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/ChatGPT-Image-2026%E5%B9%B48%E6%9C%8810%E6%97%A5-14_35_39.jpg",
+     "main": false,
+     "local": "data/img/3bc3a952d93337bf2fa3.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2743.jpg",
+     "main": false,
+     "local": "data/img/cdf1c665d1d8e1987d5a.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2739.jpg",
+     "main": false,
+     "local": "data/img/4a0a1b0bba7f9bdef57e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2737.jpg",
+     "main": false,
+     "local": "data/img/a04c89b204730d94659f.jpg"
+    }
+   ],
+   "locText": "32.7208890, 130.8045280",
+   "locPrec": "",
+   "hpText": "「家族の時間」も「個の休息」も、どちらも妥協しない。 廊下と水回りが“心地よい距離”を創り出す、平屋の理想形。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,798万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2969",
+   "source": "takasugi",
+   "name": "宇土市新松原 5号地",
+   "price": "3,654万円",
+   "address": "熊本県宇土市新松原町字佐野免174番7",
+   "detailUrl": "https://home.takasugi.co.jp/house/2969/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "102.68㎡（31.06坪）",
+   "landArea": "171.34㎡（51.83坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "宇土東小学校",
+   "elementaryMin": "13",
+   "junior": "鶴城中学校",
+   "juniorMin": "15",
+   "facilities": [
+    {
+     "name": "ドラッグストアコスモス 宇土駅店",
+     "min": "5",
+     "cat": "station"
+    },
+    {
+     "name": "宇土駅前郵便局",
+     "min": "9",
+     "cat": "station"
+    },
+    {
+     "name": "JR九州鹿児島本線「宇土」駅",
+     "min": "9",
+     "cat": "station"
+    },
+    {
+     "name": "宇土駅前公園",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "九州産交バス「宇土駅前」バス停",
+     "min": "9",
+     "cat": "bus"
+    },
+    {
+     "name": "クロス21 UTO",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン 宇土新松原町店",
+     "min": "3",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3770.jpg",
+     "main": true,
+     "local": "data/img/9b72a239a84574f8739c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC1811.jpg",
+     "main": false,
+     "local": "data/img/12e6b42836db30c9f237.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC1821.jpg",
+     "main": false,
+     "local": "data/img/8fd2df3e1463bbaa8cd7.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC1815.jpg",
+     "main": false,
+     "local": "data/img/44a72f57f21d2c43f528.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC1836.jpg",
+     "main": false,
+     "local": "data/img/b517ded9e12266c160be.jpg"
+    }
+   ],
+   "locText": "32.6895389, 130.6689134",
+   "locPrec": "",
+   "hpText": "【18帖LDK】シューズクローク・パントリー・ファミクロ完備！適材適所の収納で部屋が広く使える3LDK",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,654万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-2971",
+   "source": "takasugi",
+   "name": "宇土市入地町 1号地",
+   "price": "2,498万円",
+   "address": "熊本県宇土市入地町49-10",
+   "detailUrl": "https://home.takasugi.co.jp/house/2971/",
+   "layout": "2LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "64.59㎡（19.53坪）",
+   "landArea": "200.09㎡（60.52坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "7",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "セブンイレブン",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "宇土南段原店",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "入地南公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%AE%87%E5%9C%9F%E9%AB%98%E6%A0%A1%E5%89%8D1MH-%E5%A4%96%E8%A6%B3%E6%AD%A3%E9%9D%A2%E7%A9%BA%E5%90%88%E6%88%90.jpg",
+     "main": true,
+     "local": "data/img/c23a4f487bfd81bc9477.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%AE%87%E5%9C%9F%E9%AB%98%E6%A0%A1%E5%89%8D1MH-%E5%A4%96%E8%A6%B3%E5%8F%B3%E6%96%9C%E3%82%81%E7%A9%BA%E5%90%88%E6%88%90.jpg",
+     "main": false,
+     "local": "data/img/34bf3e16b1557e7e30d1.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6327.jpg",
+     "main": false,
+     "local": "data/img/29dd9de3a18492cbd5ae.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6326.jpg",
+     "main": false,
+     "local": "data/img/1b64e7f3820d101224aa.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6329.jpg",
+     "main": false,
+     "local": "data/img/cf884899e9658a937725.jpg"
+    }
+   ],
+   "locText": "32.6798210, 130.6579520",
+   "locPrec": "",
+   "hpText": "家族の距離も、家事の時短も。すべてがワンフロアに溶け込む、贅沢な平屋暮らし。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3008",
+   "source": "takasugi",
+   "name": "熊本市南区城南町 8号地",
+   "price": "2,698万円",
+   "address": "熊本県熊本市南区城南町舞原字東110番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/3008/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "72.87㎡（22.04坪）",
+   "landArea": "201.62㎡（60.85坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "30",
+   "junior": "下益城城南中学校",
+   "juniorMin": "28",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本バス「杉上今」バス停",
+     "min": "23",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本さんさん城南店",
+     "min": "14",
+     "cat": "conbini"
+    },
+    {
+     "name": "イオンモール熊本",
+     "min": "10",
+     "cat": "mall"
+    },
+    {
+     "name": "城南総合スポーツセンター",
+     "min": "4",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E7%A9%BAAI%E5%8A%A0%E5%B7%A5.jpg",
+     "main": true,
+     "local": "data/img/f92266fc132c20984a00.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E7%A9%BAAI%E5%8A%A0%E5%B7%A5%E6%AD%A3%E9%9D%A2.jpg",
+     "main": false,
+     "local": "data/img/9614675e73467e31946d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2202.jpg",
+     "main": false,
+     "local": "data/img/61504c17a3aceaeaa2e1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2155.jpg",
+     "main": false,
+     "local": "data/img/5c127cc5a803c525669f.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC2173.jpg",
+     "main": false,
+     "local": "data/img/774c0205e4c040296325.jpg"
+    }
+   ],
+   "locText": "32.7105240, 130.7475760",
+   "locPrec": "",
+   "hpText": "光と風を味方につけた「勾配天井」の平屋。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,698万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3009",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 2-5-2号地",
+   "price": "2,598万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/3009/",
+   "layout": "2LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "64.59㎡（19.53坪）",
+   "landArea": "204.06㎡（61.72坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "合志第一病院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "宮川内科医院",
+     "min": "2",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6188.jpg",
+     "main": true,
+     "local": "data/img/f75b5db22426e85ecc29.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6192.jpg",
+     "main": false,
+     "local": "data/img/d7a5a206497cf475934d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E3%81%8B%E3%81%99%E3%81%BF2-5-2%E5%A4%96%E8%A6%B302%EF%BC%88%E5%8C%97%E5%81%B4%EF%BC%89%E6%99%B4%E5%A4%A9%E5%87%A6%E7%90%86.jpg",
+     "main": false,
+     "local": "data/img/baa754760f107a927c80.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6245.jpg",
+     "main": false,
+     "local": "data/img/52aeb647ddc9bee5f02e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC6197.jpg",
+     "main": false,
+     "local": "data/img/238f37feab56771ef410.jpg"
+    }
+   ],
+   "locText": "32.9027390, 130.7661050",
+   "locPrec": "banchi",
+   "hpText": "光と開放感に包まれる、ゆとりの暮らし。 豊富な収納が、家族の時間を美しく整える家。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,598万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3096",
+   "source": "takasugi",
+   "name": "八代市松崎町 1号地",
+   "price": "3,094万円",
+   "address": "熊本県八代市松崎町字潮吹549-9他1筆",
+   "detailUrl": "https://home.takasugi.co.jp/house/3096/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "77.84㎡（23.54坪）",
+   "landArea": "200.21㎡（60.56坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "松高小学校",
+   "elementaryMin": "5",
+   "junior": "八代市立第一中学校",
+   "juniorMin": "18",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3706.jpg",
+     "main": true,
+     "local": "data/img/b405675f223444f91eb8.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3698.jpg",
+     "main": false,
+     "local": "data/img/83b810baed6cf4811e5c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3723.jpg",
+     "main": false,
+     "local": "data/img/e5621aa6afd8166c6ba9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3725.jpg",
+     "main": false,
+     "local": "data/img/9ae6355878e6380a34df.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/s-_DSC3736.jpg",
+     "main": false,
+     "local": "data/img/300460ec724fef28e90a.jpg"
+    }
+   ],
+   "locText": "32.5171340, 130.5914480",
+   "locPrec": "",
+   "hpText": "「自分たちの時間」を大切にする、効率動線の平屋。 〜家事・育児・リラックス。すべてをワンフロアで最適化〜",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,094万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3592",
+   "source": "takasugi",
+   "name": "益城町福富 1号地",
+   "price": "3,329万円",
+   "address": "熊本県上益城郡益城町大字福富字西ノ園676番3",
+   "detailUrl": "https://home.takasugi.co.jp/house/3592/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "162.42㎡（49.13坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "15",
+   "junior": "益城中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "九州産交バス「古閑入口」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "益城福富店",
+     "min": "3",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-001.jpg",
+     "main": true,
+     "local": "data/img/02a74ce04a19e52e49bf.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-004.jpg",
+     "main": false,
+     "local": "data/img/562cebf61b58a703dfe7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-006.jpg",
+     "main": false,
+     "local": "data/img/5a471022057688f597fc.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C1%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B302.jpg",
+     "main": false,
+     "local": "data/img/9840c84671d404364038.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C1%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B301.jpg",
+     "main": false,
+     "local": "data/img/e3d2fae0ec98fce7adf7.jpg"
+    }
+   ],
+   "locText": "32.7798899, 130.7945189",
+   "locPrec": "",
+   "hpText": "家族みんなの「あったらいいな」を凝縮！ 18.3帖の広々LDKと充実の4部屋、家事ラク動線でゆとりある暮らしを叶える住まい",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,329万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3652",
+   "source": "takasugi",
+   "name": "益城町福富 2号地",
+   "price": "3,449万円",
+   "address": "熊本県上益城郡益城町大字福富字西ノ園676番3",
+   "detailUrl": "https://home.takasugi.co.jp/house/3652/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.85㎡（30.80坪）",
+   "landArea": "194.65㎡（58.88坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "広安西小学校",
+   "elementaryMin": "15",
+   "junior": "益城中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "九州産交バス「古閑入口」バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "益城福富店",
+     "min": "3",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-003.jpg",
+     "main": true,
+     "local": "data/img/1372ffcd7f78c07f76d8.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B301.jpg",
+     "main": false,
+     "local": "data/img/0f2436f619d5417992da.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B302.jpg",
+     "main": false,
+     "local": "data/img/74f909505e0b52efa87c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-004.jpg",
+     "main": false,
+     "local": "data/img/562cebf61b58a703dfe7.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-006.jpg",
+     "main": false,
+     "local": "data/img/5a471022057688f597fc.jpg"
+    }
+   ],
+   "locText": "32.7798899, 130.7945189",
+   "locPrec": "",
+   "hpText": "「プラス3帖」のゆとりが、家族の毎日をもっと豊かに。 17.8帖の広々LDKと4つの個室で、つながりもプライベートも大切にする4LDKの家。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,449万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3671",
+   "source": "takasugi",
+   "name": "熊本市南区良町 1号地",
+   "price": "3,869万円",
+   "address": "熊本県熊本市南区良町3-1125番3",
+   "detailUrl": "https://home.takasugi.co.jp/house/3671/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "103.50㎡（31.30坪）",
+   "landArea": "201.27㎡（60.88坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "田迎南小学校",
+   "elementaryMin": "6",
+   "junior": "託麻中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本バス「下乙バス停」",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "良町2丁目店",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "たかしお内科",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "ハートクリニック",
+     "min": "4",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E8%89%AF%E7%94%BA%E8%A3%9C%E6%AD%A32.jpg",
+     "main": true,
+     "local": "data/img/b601f0251794077e4ebb.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E8%89%AF%E7%94%BA3%E4%B8%81%E7%9B%AE03.jpg",
+     "main": false,
+     "local": "data/img/df49ef9b58f89a89ba10.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%89%AF%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE-%EF%BC%91%E5%8F%B7%E5%9C%B0_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/a0edf3773bb6ab0ea3c0.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC4445.jpg",
+     "main": false,
+     "local": "data/img/8ef3fb4a48f8b54bfa1d.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC4449.jpg",
+     "main": false,
+     "local": "data/img/3ddc55e8614a507aa9d6.jpg"
+    }
+   ],
+   "locText": "32.7596596, 130.7229142",
+   "locPrec": "",
+   "hpText": "家族みんなの『心地いい』がここにある。家事ラク動線と豊富な収納で、毎日が美しく整うゆとりの4LDK",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,869万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3692",
+   "source": "takasugi",
+   "name": "熊本市北区下硯川町 4号地",
+   "price": "3,298万円",
+   "address": "熊本県熊本市北区下硯川町字鶴畑1882-5付近",
+   "detailUrl": "https://home.takasugi.co.jp/house/3692/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.58㎡（31.93坪）",
+   "landArea": "221.62㎡（67.04坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "西里小学校",
+   "elementaryMin": "3",
+   "junior": "北部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "JR鹿児島本線「西里」駅",
+     "min": "7",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「昇立」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "大迫公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-4%E5%8F%B7%E5%9C%B0_Photo-7.jpg",
+     "main": true,
+     "local": "data/img/c99ce2df183f5bc6f622.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-4%E5%8F%B7%E5%9C%B0_Photo-8-1.jpg",
+     "main": false,
+     "local": "data/img/33b5197ab481b6db2057.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-4%E5%8F%B7%E5%9C%B0_Photo-10.jpg",
+     "main": false,
+     "local": "data/img/980444037dd744c853cb.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-4%E5%8F%B7%E5%9C%B0_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/0cf8245512a19aea94af.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-4%E5%8F%B7%E5%9C%B0_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/a9465c29564989bf3f9e.jpg"
+    }
+   ],
+   "locText": "32.8557631, 130.7017155",
+   "locPrec": "",
+   "hpText": "家族の笑顔が集まる、南向き18.3帖の大空間LDK。 ゆとりの4LDKで叶える、心地よく、すっきりと暮らせる住まい。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,298万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3806",
+   "source": "takasugi",
+   "name": "熊本市南区八分字町 2期1号",
+   "price": "2,998万円",
+   "address": "熊本県熊本市南区八分字町字上白地2676-7",
+   "detailUrl": "https://home.takasugi.co.jp/house/3806/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.34㎡（31.56坪）",
+   "landArea": "156.28㎡（47.27坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "飽田小学校",
+   "elementaryMin": "9",
+   "junior": "飽田中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "砂原バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ファミリーマートあきた店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "ローソン熊本砂原町店",
+     "min": "10",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%85%AB%E5%88%86%E5%AD%972%E6%9C%9F02.jpg",
+     "main": true,
+     "local": "data/img/181c7fe595269b5a69be.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%85%AB%E5%88%86%E5%AD%972%E6%9C%9F01.jpg",
+     "main": false,
+     "local": "data/img/91f6046fc529355ae97e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%85%AB%E5%88%86%E5%AD%972%E6%9C%9F03.jpg",
+     "main": false,
+     "local": "data/img/4a04da2140f5e593320a.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%85%AB%E5%88%86%E5%AD%972%E6%9C%9F04.jpg",
+     "main": false,
+     "local": "data/img/3e266f98438e8953b467.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%85%AB%E5%88%86%E5%AD%97%E7%94%BA2%E6%9C%9F-1%E5%8F%B7%E6%A3%9F_Photo-4.jpg",
+     "main": false,
+     "local": "data/img/f96e44e6a76fc91a3575.jpg"
+    }
+   ],
+   "locText": "32.7587710, 130.6556330",
+   "locPrec": "",
+   "hpText": "17帖LDKと豊富な収納が魅力。家族みんなが使いやすい、子育て世帯にうれしい4LDKの住まいです。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "2,998万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3979",
+   "source": "takasugi",
+   "name": "熊本市南区野口 1号棟",
+   "price": "3,699万円",
+   "address": "熊本県熊本市南区野口3丁目1190番1他2筆",
+   "detailUrl": "https://home.takasugi.co.jp/house/3979/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.75㎡（31.68坪）",
+   "landArea": "169.87㎡（51.38坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "力合西小学校",
+   "elementaryMin": "9",
+   "junior": "力合中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "土河原バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本野口三丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "土河原公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E9%87%8E%E5%8F%A31%E6%9C%9F2.jpg",
+     "main": true,
+     "local": "data/img/6b09ec3e97d27efa0b48.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A31%E5%8F%B7%E6%A3%9F%E6%98%BC%E6%99%AF.jpg",
+     "main": false,
+     "local": "data/img/ba40fd42fbc7bcfb8401.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A31%E5%8F%B7%E6%A3%9F%E5%A4%95%E6%99%AF.jpg",
+     "main": false,
+     "local": "data/img/8eeabfb07c41eaf2c1f5.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A31%E5%8F%B7%E6%A3%9F%E5%A4%9C%E6%99%AF.jpg",
+     "main": false,
+     "local": "data/img/1eb9e1fd1ff3cc18f0c9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A3%E8%A1%97%E4%B8%A6%E3%81%BF%E6%98%BC.jpg",
+     "main": false,
+     "local": "data/img/cefc008125eeac1c14e9.jpg"
+    }
+   ],
+   "locText": "32.7674237, 130.6695888",
+   "locPrec": "",
+   "hpText": "「家事効率」と「抜群の収納力」が、家族の毎日にゆとりを生む。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,699万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-3981",
+   "source": "takasugi",
+   "name": "熊本市北区下硯川町 5号地",
+   "price": "3,268万円",
+   "address": "熊本県熊本市北区下硯川町字鶴畑1882-5付近",
+   "detailUrl": "https://home.takasugi.co.jp/house/3981/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.74㎡（31.68坪）",
+   "landArea": "231.11㎡（69.91坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "西里小学校",
+   "elementaryMin": "3",
+   "junior": "北部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "JR鹿児島本線「西里」駅",
+     "min": "7",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「昇立」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "大迫公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C5%E5%8F%B7%E5%9C%B0_13-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": true,
+     "local": "data/img/59ff16d8c5d7c6523730.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C5%E5%8F%B7%E5%9C%B0_12-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": false,
+     "local": "data/img/225fbbaf207af529e0b0.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-5%E5%8F%B7%E5%9C%B0%E3%80%90%E5%86%85%E8%A6%B3%E3%80%91_Photo-1.jpg",
+     "main": false,
+     "local": "data/img/b78d7cb5ce1dea29d6a2.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-5%E5%8F%B7%E5%9C%B0%E3%80%90%E5%86%85%E8%A6%B3%E3%80%91_Photo-3.jpg",
+     "main": false,
+     "local": "data/img/3c27280feb7d4aca5f00.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-5%E5%8F%B7%E5%9C%B0%E3%80%90%E5%86%85%E8%A6%B3%E3%80%91_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/49fd6de688f47654aa8c.jpg"
+    }
+   ],
+   "locText": "32.8557631, 130.7017155",
+   "locPrec": "",
+   "hpText": "片付けが勝手に整う、家事ラクの決定版。 動線と収納にとことんこだわった、18帖LDKと2大クローゼットのある暮らし。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,268万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4034",
+   "source": "takasugi",
+   "name": "熊本市南区野口 3号棟",
+   "price": "3,539万円",
+   "address": "熊本県熊本市南区野口3丁目1190番1他2筆",
+   "detailUrl": "https://home.takasugi.co.jp/house/4034/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "213.21㎡（64.49坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "力合西小学校",
+   "elementaryMin": "9",
+   "junior": "力合中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "土河原バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本野口三丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "土河原公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E9%87%8E%E5%8F%A31%E6%9C%9F2.jpg",
+     "main": true,
+     "local": "data/img/6b09ec3e97d27efa0b48.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A33%E5%8F%B7%E6%A3%9F03.jpg",
+     "main": false,
+     "local": "data/img/45054917920246f4abe1.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A33%E5%8F%B7%E6%A3%9F02.jpg",
+     "main": false,
+     "local": "data/img/b0a8edd8c71e46a728a9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A33%E5%8F%B7%E6%A3%9F01.jpg",
+     "main": false,
+     "local": "data/img/d0291bb81134947a0433.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A3%E8%A1%97%E4%B8%A6%E3%81%BF%E5%A4%95.jpg",
+     "main": false,
+     "local": "data/img/fc8b75dda96c6f25e166.jpg"
+    }
+   ],
+   "locText": "32.7674237, 130.6695888",
+   "locPrec": "",
+   "hpText": "「洗面・脱衣セパレート」と「ゆとりの4LDK」で、家族の時間をアップデート。朝の混雑も家事のイライラも解消する、気配りあふれる住まい。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,539万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4042",
+   "source": "takasugi",
+   "name": "熊本市南区野口 2号棟",
+   "price": "3,659万円",
+   "address": "熊本県熊本市南区野口3丁目1190番1他2筆",
+   "detailUrl": "https://home.takasugi.co.jp/house/4042/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "170.33㎡（51.52坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "力合西小学校",
+   "elementaryMin": "9",
+   "junior": "力合中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "土河原バス停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン熊本野口三丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "土河原公園",
+     "min": "7",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E9%87%8E%E5%8F%A31%E6%9C%9F2.jpg",
+     "main": true,
+     "local": "data/img/6b09ec3e97d27efa0b48.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%8D%97%E5%8C%BA%E9%87%8E%E5%8F%A32%E5%8F%B7%E6%A3%9F-001.jpg",
+     "main": false,
+     "local": "data/img/2b399ff6aaed97715b0a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%8D%97%E5%8C%BA%E9%87%8E%E5%8F%A32%E5%8F%B7%E6%A3%9F-002.jpg",
+     "main": false,
+     "local": "data/img/1abd9e36011fe536765d.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%8D%97%E5%8C%BA%E9%87%8E%E5%8F%A32%E5%8F%B7%E6%A3%9F-003.jpg",
+     "main": false,
+     "local": "data/img/0f7a26611b2d5f41a73f.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A3%E8%A1%97%E4%B8%A6%E3%81%BF%E5%A4%95.jpg",
+     "main": false,
+     "local": "data/img/fc8b75dda96c6f25e166.jpg"
+    }
+   ],
+   "locText": "32.7674237, 130.6695888",
+   "locPrec": "",
+   "hpText": "「散らからない仕組み」が、家族の時間をもっと笑顔に。 広々18.3帖LDKと充実の収納力でゆとりを育む、快適4LDKの家。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,659万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4058",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 1-13-3号地",
+   "price": "3,199万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/4058/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.74㎡（31.68坪）",
+   "landArea": "202.60㎡（61.28坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%981-13-3_Photo-2.jpg",
+     "main": true,
+     "local": "data/img/9069fe6b3a11e04326d4.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%981-13-3_Photo-7.jpg",
+     "main": false,
+     "local": "data/img/f9beb449a8c0ea2e38d1.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%981-13-3_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/c6722ef13d8929f9a2e8.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%981-13-3_Photo-8.jpg",
+     "main": false,
+     "local": "data/img/6ae5119ea65eeff80109.jpg"
+    }
+   ],
+   "locText": "32.9027390, 130.7661050",
+   "locPrec": "",
+   "hpText": "家族の「快適」と「キレイ」を叶える工夫が満載！ 家事ラク動線とゆとりある4LDKで暮らす、理想の住まい",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,199万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4092",
+   "source": "takasugi",
+   "name": "熊本市北区楠2丁目 1号棟",
+   "price": "3,970万円",
+   "address": "熊本県熊本市北区楠2丁目7番1",
+   "detailUrl": "https://home.takasugi.co.jp/house/4092/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.85㎡（30.80坪）",
+   "landArea": "135.74㎡（41.06坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楠小学校",
+   "elementaryMin": "7",
+   "junior": "楠中学校",
+   "juniorMin": "7",
+   "facilities": [
+    {
+     "name": "JR九州豊肥本線「武蔵塚」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "ゆめマート龍田店",
+     "min": "5",
+     "cat": "super"
+    },
+    {
+     "name": "フーディーワン楠店",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン楠団地店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本電鉄「楠団地入口」",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "楠中央公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%8C%97%E5%8C%BA-%E6%A5%A01%E6%9C%9F.jpg",
+     "main": true,
+     "local": "data/img/d64ab4d5556f7da7d9fd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E6%98%BC%E6%99%AF_v2.jpg",
+     "main": false,
+     "local": "data/img/d68cd4ed2c82eb46f0d9.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E5%A4%95%E6%99%AF_v2.jpg",
+     "main": false,
+     "local": "data/img/c9bada3f05c1010a6179.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E5%A4%9C%E6%99%AF_v2.jpg",
+     "main": false,
+     "local": "data/img/51547a0ebc9bd13abfc2.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E7%86%8A%E6%9C%AC%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A5%A01%E6%9C%9F-1%E5%8F%B7%E6%A3%9F_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/cd7994ec1a51613d9555.jpg"
+    }
+   ],
+   "locText": "32.8458022, 130.7595529",
+   "locPrec": "",
+   "hpText": "「ゆとりある18帖LDK」と「大型WIC×ファミリークローゼット」で実現する、家事ラク＆常にスッキリ整う快適な暮らし",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,970万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4115",
+   "source": "takasugi",
+   "name": "熊本市北区楠2丁目 2号棟",
+   "price": "3,795万円",
+   "address": "熊本県熊本市北区楠2丁目7番1",
+   "detailUrl": "https://home.takasugi.co.jp/house/4115/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "101.02㎡（30.55坪）",
+   "landArea": "134.41㎡（40.65坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楠小学校",
+   "elementaryMin": "7",
+   "junior": "楠中学校",
+   "juniorMin": "7",
+   "facilities": [
+    {
+     "name": "JR九州豊肥本線「武蔵塚」駅",
+     "min": "23",
+     "cat": "station"
+    },
+    {
+     "name": "ゆめマート龍田店",
+     "min": "5",
+     "cat": "super"
+    },
+    {
+     "name": "フーディーワン楠店",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン楠団地店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本電鉄「楠団地入口」",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "楠中央公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F009-2.jpg",
+     "main": true,
+     "local": "data/img/4012f893bb765f0eca28.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F003.jpg",
+     "main": false,
+     "local": "data/img/34c7cc5abd87460ae87a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F006.jpg",
+     "main": false,
+     "local": "data/img/b0ac41fbde835b3f85b6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F002.jpg",
+     "main": false,
+     "local": "data/img/648b836ea38e0c5d5eb9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E7%86%8A%E6%9C%AC%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A5%A01%E6%9C%9F_Photo-9.jpg",
+     "main": false,
+     "local": "data/img/5a444161ea85373d91ae.jpg"
+    }
+   ],
+   "locText": "32.8458022, 130.7595529",
+   "locPrec": "",
+   "hpText": "ゆとりの18帖LDKと充実の片付け動線。 家族の「なりたい暮らし」が叶う、収納上手な3LDKの家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,795万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4199",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 2-6-1号地",
+   "price": "3,358万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/4199/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "103.90㎡（31.42坪）",
+   "landArea": "205.81㎡（62.25坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "合志第一病院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "宮川内科医院",
+     "min": "2",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-6-1_Photo-2.jpg",
+     "main": true,
+     "local": "data/img/c13c6b9f4823b8a4767c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-6-1_Photo-4.jpg",
+     "main": false,
+     "local": "data/img/3f1bb254cc582f5727ed.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-6-1_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/273c09b92ce8bb6553e5.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-6-1.jpg",
+     "main": false,
+     "local": "data/img/16584b0bf015f5960ea4.jpg"
+    }
+   ],
+   "locText": "32.9027390, 130.7661050",
+   "locPrec": "",
+   "hpText": "19帖の広々LDKに加え、2階には大容量のファミリークローゼットとウォークインクローゼットをダブルで配置。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,358万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4217",
+   "source": "takasugi",
+   "name": "合志市須屋 1期2号棟",
+   "price": "3,499万円",
+   "address": "熊本県合志市須屋七ツ石",
+   "detailUrl": "https://home.takasugi.co.jp/house/4217/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "103.92㎡（31.43坪）",
+   "landArea": "170.28㎡（51.50坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西合志東小学校",
+   "elementaryMin": "6",
+   "junior": "西合志南中学校",
+   "juniorMin": "12",
+   "facilities": [
+    {
+     "name": "熊本電鉄菊池線「黒石」駅",
+     "min": "13",
+     "cat": "station"
+    },
+    {
+     "name": "合志市レターバス「黒石駅入口」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "スプリングガーデン御代志",
+     "min": "32",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン合志西南中入口店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "ナカシマセブンクリニック",
+     "min": "18",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F.jpg",
+     "main": true,
+     "local": "data/img/6a2a58d72d92d9b605a3.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-005.jpg",
+     "main": false,
+     "local": "data/img/9dc2a38af35dd945e5c7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-003.jpg",
+     "main": false,
+     "local": "data/img/954971004acd258f7950.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-004.jpg",
+     "main": false,
+     "local": "data/img/a54dd213ea22d2d9cd42.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-1%E5%8F%B7%E6%A3%9F%E3%83%BB2%E5%8F%B7%E6%A3%9F_Photo-_Photo-10.jpg",
+     "main": false,
+     "local": "data/img/deac6e414c7f9ce2f691.jpg"
+    }
+   ],
+   "locText": "32.8642847, 130.7473462",
+   "locPrec": "",
+   "hpText": "南向きLDKとスムーズな家事動線！忙しい朝も笑顔で過ごせる家。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,499万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4230",
+   "source": "takasugi",
+   "name": "合志市須屋 1期1号棟",
+   "price": "3,549万円",
+   "address": "熊本県合志市須屋七ツ石",
+   "detailUrl": "https://home.takasugi.co.jp/house/4230/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "148.38㎡（44.88坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "西合志東小学校",
+   "elementaryMin": "6",
+   "junior": "西合志南中学校",
+   "juniorMin": "12",
+   "facilities": [
+    {
+     "name": "熊本電鉄菊池線「黒石」駅",
+     "min": "13",
+     "cat": "station"
+    },
+    {
+     "name": "合志市レターバス「黒石駅入口」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "スプリングガーデン御代志",
+     "min": "32",
+     "cat": "other"
+    },
+    {
+     "name": "セブンイレブン合志西南中入口店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "ナカシマセブンクリニック",
+     "min": "18",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F.jpg",
+     "main": true,
+     "local": "data/img/6a2a58d72d92d9b605a3.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-005.jpg",
+     "main": false,
+     "local": "data/img/9dc2a38af35dd945e5c7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-003.jpg",
+     "main": false,
+     "local": "data/img/954971004acd258f7950.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/s-%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-001.jpg",
+     "main": false,
+     "local": "data/img/4758d1cb85cfba8603f6.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E5%90%88%E5%BF%97%E5%B8%82%E9%A0%88%E5%B1%8B1%E6%9C%9F-1%E5%8F%B7%E6%A3%9F%E3%83%BB2%E5%8F%B7%E6%A3%9F_Photo-_Photo-6.jpg",
+     "main": false,
+     "local": "data/img/efb1b307676e54fa6874.jpg"
+    }
+   ],
+   "locText": "32.8642847, 130.7473462",
+   "locPrec": "",
+   "hpText": "菊陽・市街地へ快適通勤！ハザードマップ浸水外で安心な平穏の住まい",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,549万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4342",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 2-5-1号地",
+   "price": "3,365万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/4342/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "204.23㎡（61.77坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "合志第一病院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "宮川内科医院",
+     "min": "2",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-5-1_Photo-3.jpg",
+     "main": true,
+     "local": "data/img/c11ff8307a27527db6aa.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-5-1_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/d6d7edda8178523ae3dc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-5-1_Photo-6.jpg",
+     "main": false,
+     "local": "data/img/b8a607a255448cdcafd6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-5-1_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/1920c05c8fb3464e1114.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E3%81%8B%E3%81%99%E3%81%BF%E3%83%B6%E4%B8%982-5-1_Photo-7.jpg",
+     "main": false,
+     "local": "data/img/76f4f7a66c268461e198.jpg"
+    }
+   ],
+   "locText": "32.9009952, 130.7631959",
+   "locPrec": "",
+   "hpText": "帰るたびに、心がすっと軽くなる家。片づく暮らしは、この家からはじまる。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,365万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4533",
+   "source": "takasugi",
+   "name": "熊本市北区下硯川町 3号地",
+   "price": "3,358万円",
+   "address": "熊本県熊本市北区下硯川町字鶴畑1882-5付近",
+   "detailUrl": "https://home.takasugi.co.jp/house/4533/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "204.66㎡（61.90坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "西里小学校",
+   "elementaryMin": "3",
+   "junior": "北部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "JR鹿児島本線「西里」駅",
+     "min": "7",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「昇立」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "大迫公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_15-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": true,
+     "local": "data/img/bff8f437ff9cfd1dde7d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-9.jpg",
+     "main": false,
+     "local": "data/img/c174ac27dedceb1c1359.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-10.jpg",
+     "main": false,
+     "local": "data/img/25eb068d781ecc2600e1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_13-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": false,
+     "local": "data/img/a960557571e620fca5a5.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_14-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": false,
+     "local": "data/img/4a67f5a815edf804a144.jpg"
+    }
+   ],
+   "locText": "32.8557631, 130.7017155",
+   "locPrec": "",
+   "hpText": "スムーズな家事動線とゆとりの4LDK。家族みんなの「心地よい」が詰まった住まい",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,358万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4551",
+   "source": "takasugi",
+   "name": "熊本市中央区黒髪 2期1号棟",
+   "price": "4,179万円",
+   "address": "熊本県熊本市中央区黒髪6丁目696番5",
+   "detailUrl": "https://home.takasugi.co.jp/house/4551/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "161.58㎡（48.87坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "黒髪小学校",
+   "elementaryMin": "25",
+   "junior": "桜山中学校",
+   "juniorMin": "10",
+   "facilities": [
+    {
+     "name": "JR豊肥本線「竜田口駅」",
+     "min": "13",
+     "cat": "station"
+    },
+    {
+     "name": "九州産交バス「黒髪六丁目」バス停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "イワサキエース新南部店",
+     "min": "14",
+     "cat": "other"
+    },
+    {
+     "name": "ファミリーマート熊本黒髪6丁目店",
+     "min": "1",
+     "cat": "conbini"
+    },
+    {
+     "name": "ドラッグセイムス熊本黒髪店",
+     "min": "4",
+     "cat": "drug"
+    },
+    {
+     "name": "ディスカウントドラッグコスモス東海学園前店",
+     "min": "12",
+     "cat": "drug"
+    },
+    {
+     "name": "砥上内科胃腸科医院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "尚和会龍田病院",
+     "min": "3",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E9%BB%92%E9%AB%AA2%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-1_%E5%A4%95%E6%99%AF.jpg",
+     "main": true,
+     "local": "data/img/aeefaa6260c76d1f47a7.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E9%BB%92%E9%AB%AA2%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-1_%E5%A4%9C%E6%99%AF.jpg",
+     "main": false,
+     "local": "data/img/45062c8d541726fe6f03.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E9%BB%92%E9%AB%AA2%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-2_%E6%98%BC%E6%99%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC.jpg",
+     "main": false,
+     "local": "data/img/603db562a2229e226752.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E9%BB%92%E9%AB%AA2%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-3_%E6%98%BC%E6%99%AF%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC.jpg",
+     "main": false,
+     "local": "data/img/4786327ca33a5928217b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-edited-edit_1789029989316.jpg",
+     "main": false,
+     "local": "data/img/84f843073af77fc1fe5a.jpg"
+    }
+   ],
+   "locText": "32.8147975, 130.7387117",
+   "locPrec": "",
+   "hpText": "パントリー・ファミクロ・各部屋クローゼットなど収納たっぷり！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "4,179万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4570",
+   "source": "takasugi",
+   "name": "合志市かすみヶ丘 2-6-5号地",
+   "price": "3,215万円",
+   "address": "熊本県合志市栄字沖野、合志市合生字小池地内",
+   "detailUrl": "https://home.takasugi.co.jp/house/4570/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "105.00㎡（31.76坪）",
+   "landArea": "201.70㎡（61.01坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志小学校",
+   "elementaryMin": "37",
+   "junior": "合志中学校",
+   "juniorMin": "37",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "熊本電鉄バス「百花園ゴルフ場前」バス停",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "ゆめモール合志",
+     "min": "3",
+     "cat": "mall"
+    },
+    {
+     "name": "ローソン合志辻久保店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "庄嶋医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "合志第一病院",
+     "min": "2",
+     "cat": "hospital"
+    },
+    {
+     "name": "宮川内科医院",
+     "min": "2",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E3%81%8B%E3%81%99%E3%81%BF%E3%81%8C%E4%B8%982-6-5%EF%BC%BF005.jpg",
+     "main": true,
+     "local": "data/img/32d1f92a02af505b69c3.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E3%81%8B%E3%81%99%E3%81%BF%E3%81%8C%E4%B8%982-6-5%EF%BC%BF003.jpg",
+     "main": false,
+     "local": "data/img/8d8cd998d3732db2025d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E3%81%8B%E3%81%99%E3%81%BF%E3%81%8C%E4%B8%982-6-5%EF%BC%BF001.jpg",
+     "main": false,
+     "local": "data/img/8adfbefd5ef19f6e13f1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E3%81%8B%E3%81%99%E3%81%BF%E3%81%8C%E4%B8%982-6-5%EF%BC%BF002.jpg",
+     "main": false,
+     "local": "data/img/0a70f2e2f8b72202c941.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E3%81%8B%E3%81%99%E3%81%BF%E3%81%8C%E4%B8%982-6-5%EF%BC%BF004.jpg",
+     "main": false,
+     "local": "data/img/85b2c160e3ccfe3499d2.jpg"
+    }
+   ],
+   "locText": "32.9027390, 130.7661050",
+   "locPrec": "",
+   "hpText": "初めての育児を笑顔に。家族がやさしく繋がる家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,215万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4578",
+   "source": "takasugi",
+   "name": "熊本市北区楡木5丁目 1期1号棟",
+   "price": "3,798万円",
+   "address": "熊本県熊本市北区楡木5丁目2110番67",
+   "detailUrl": "https://home.takasugi.co.jp/house/4578/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "98.53㎡（29.80坪）",
+   "landArea": "148.35㎡（44.87坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "10",
+   "junior": "楠中学校",
+   "juniorMin": "12",
+   "facilities": [
+    {
+     "name": "産交バス「楠団地」バス停",
+     "min": "10",
+     "cat": "bus"
+    },
+    {
+     "name": "ミカエル新地店",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン清水新地7丁目店",
+     "min": "10",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E6%A5%A1%E6%9C%A8%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-6.jpg",
+     "main": true,
+     "local": "data/img/52b55bbd9d2aee23de6c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E6%A5%A1%E6%9C%A8%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/a2439ea3d5dc76f8818e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-edited-edit_1789032189684.jpg",
+     "main": false,
+     "local": "data/img/abac7a2fbcfcdae7c893.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-edited-edit_1789032220933.jpg",
+     "main": false,
+     "local": "data/img/f47b8cb028f245e9c4bd.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E3%80%90%E4%BF%AE%E6%AD%A3%E3%80%91%E6%A5%A1%E6%9C%A85%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-5-1.jpg",
+     "main": false,
+     "local": "data/img/57649b9d8cc33c8e5b0f.jpg"
+    }
+   ],
+   "locText": "32.8545513, 130.7538734",
+   "locPrec": "",
+   "hpText": "洗う・干す・畳むがすぐ終わる時短間取り",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,798万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4586",
+   "source": "takasugi",
+   "name": "熊本市北区楡木5丁目 1期2号棟",
+   "price": "3,898万円",
+   "address": "熊本県熊本市北区楡木5丁目2110番67",
+   "detailUrl": "https://home.takasugi.co.jp/house/4586/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "103.09㎡（31.18坪）",
+   "landArea": "148.37㎡（44.88坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "楡木小学校",
+   "elementaryMin": "10",
+   "junior": "楠中学校",
+   "juniorMin": "14",
+   "facilities": [
+    {
+     "name": "JR東肥本線「武蔵塚」駅",
+     "min": "25",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス「楠団地」バス停",
+     "min": "11",
+     "cat": "bus"
+    },
+    {
+     "name": "ミカエル新地店",
+     "min": "11",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン清水新地7丁目店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "清水新地中山クリニック",
+     "min": "7",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E6%A5%A1%E6%9C%A8%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-4.jpg",
+     "main": true,
+     "local": "data/img/c7639a0cfd44ca84ba74.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E6%A5%A1%E6%9C%A8%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-3.jpg",
+     "main": false,
+     "local": "data/img/f1077da1a904da2711fd.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-edited-edit_1789031968891.jpg",
+     "main": false,
+     "local": "data/img/0f8b4196e9175f93b2a0.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-edited-edit_1789031912233.jpg",
+     "main": false,
+     "local": "data/img/e7515e08aefbafc8879b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E3%80%90%E4%BF%AE%E6%AD%A3%E3%80%91%E6%A5%A1%E6%9C%A85%E4%B8%81%E7%9B%AE%EF%BC%91%E6%9C%9F_Photo-5-2.jpg",
+     "main": false,
+     "local": "data/img/be72ebe31d189cedbadb.jpg"
+    }
+   ],
+   "locText": "32.8545513, 130.7538734",
+   "locPrec": "",
+   "hpText": "全室WIC＋ファミクロで片付け上手になれる家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,898万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4837",
+   "source": "takasugi",
+   "name": "益城町 6号棟",
+   "price": "3,498万円",
+   "address": "熊本県上益城郡益城町大字辻の城381番6",
+   "detailUrl": "https://home.takasugi.co.jp/house/4837/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "112.61㎡（34.06坪）",
+   "landArea": "205.59㎡（62.19坪）",
+   "parking": "3台",
+   "units": "",
+   "elementary": "益城中央小学校",
+   "elementaryMin": "18",
+   "junior": "木山中学校",
+   "juniorMin": "20",
+   "facilities": [
+    {
+     "name": "ディスカウントドラッグコスモス益城店",
+     "min": "27",
+     "cat": "drug"
+    },
+    {
+     "name": "スーパーキッド益城店",
+     "min": "10",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート益城宮園店",
+     "min": "7",
+     "cat": "conbini"
+    },
+    {
+     "name": "よかもんね！ましき",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "宮本会益城中央病院",
+     "min": "9",
+     "cat": "hospital"
+    },
+    {
+     "name": "辻の城運動公園広場",
+     "min": "4",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E7%9B%8A%E5%9F%8E%E5%BD%B9%E5%A0%B4%E6%9D%B1003.jpg",
+     "main": true,
+     "local": "data/img/5a56bb212b094db555bd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E7%9B%8A%E5%9F%8E%E5%BD%B9%E5%A0%B4%E6%9D%B1002.jpg",
+     "main": false,
+     "local": "data/img/ca68092a18a41e1d555f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E7%9B%8A%E5%9F%8E%E5%BD%B9%E5%A0%B4%E6%9D%B1001.jpg",
+     "main": false,
+     "local": "data/img/e89e90056fc32634b153.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/s-%E7%9B%8A%E5%9F%8E%E5%BD%B9%E5%A0%B4%E6%9D%B1006.jpg",
+     "main": false,
+     "local": "data/img/bf6da3f1cb5a841ec636.jpg"
+    }
+   ],
+   "locText": "32.7945228, 130.8217538",
+   "locPrec": "",
+   "hpText": "銀行・郵便局へ車で約１分＆スーパー徒歩圏！熊本市内へも快適アクセスの好立地",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-4840",
+   "source": "takasugi",
+   "name": "合志市豊岡 2期1号棟",
+   "price": "3,949万円",
+   "address": "熊本県合志市豊岡字泉ヶ丘2031番30",
+   "detailUrl": "https://home.takasugi.co.jp/house/4840/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.16㎡（31.81坪）",
+   "landArea": "208.38㎡（63.03坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "合志南小学校",
+   "elementaryMin": "11",
+   "junior": "合志中学校",
+   "juniorMin": "11",
+   "facilities": [
+    {
+     "name": "熊本電鉄菊池線 再春医療センター前駅",
+     "min": "33",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス 泉ヶ丘中央バス停「黒石」駅",
+     "min": "4",
+     "cat": "bus"
+    },
+    {
+     "name": "マルキョウ合志店",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "ドラッグストアコスモス武蔵野台店",
+     "min": "13",
+     "cat": "drug"
+    },
+    {
+     "name": "三隅内科医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "Leeこどもクリニック",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "武蔵ヶ丘中央公園",
+     "min": "24",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E8%B1%8A%E5%B2%A1%EF%BC%92%E6%9C%9F%EF%BC%91%E5%8F%B7%E6%A3%9F_Photo-1.jpg",
+     "main": true,
+     "local": "data/img/40dd141e8a1e2cea9c46.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E8%B1%8A%E5%B2%A1%EF%BC%92%E6%9C%9F%EF%BC%91%E5%8F%B7%E6%A3%9F_Photo-2.jpg",
+     "main": false,
+     "local": "data/img/e089b7098a9acc2e4dab.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E8%B1%8A%E5%B2%A1%EF%BC%92%E6%9C%9F%EF%BC%91%E5%8F%B7%E6%A3%9F_Photo-3.jpg",
+     "main": false,
+     "local": "data/img/d86c0759cc663f1b093e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E8%B1%8A%E5%B2%A1%EF%BC%92%E6%9C%9F%EF%BC%91%E5%8F%B7%E6%A3%9F_Photo-4.jpg",
+     "main": false,
+     "local": "data/img/aa553e4b9122a5949494.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/09/%E8%B1%8A%E5%B2%A12%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-5.jpg",
+     "main": false,
+     "local": "data/img/c80dcf41c4f8ad73525d.jpg"
+    }
+   ],
+   "locText": "32.8703359, 130.7649275",
+   "locPrec": "",
+   "hpText": "19帖の広々LDKと充実の収納計画。西南角地の明るい空間で家族の時間を育む4LDK。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,949万円"
+    }
+   ]
+  },
   {
    "id": "kokubu-1613",
    "source": "kokubu",
@@ -3183,7 +8000,7 @@
    "detailUrl": "https://daiei-codate.com/detail/?id=1529-1",
    "layout": "4LDK",
    "stories": "2階建て",
-   "builtAt": "2026年10月",
+   "builtAt": "2026年11月",
    "buildingArea": "107.8㎡（32.6坪）",
    "landArea": "126.7㎡（38.32坪）",
    "parking": "2台",
@@ -26321,9 +31138,9 @@
     },
     {
      "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130068351_19.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130068351_10.jpg",
      "main": false,
-     "local": "data/img/2a29d58464f60fab0626.jpg"
+     "local": "data/img/893a3e7e752d8d66ebad.jpg"
     }
    ],
    "locText": "32.80658, 130.7474",
