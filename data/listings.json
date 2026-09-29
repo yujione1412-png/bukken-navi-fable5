@@ -1,7 +1,922 @@
 {
- "updatedAt": "2026-09-29T08:10:00.722Z",
- "count": 495,
+ "updatedAt": "2026-09-29T10:11:04.197Z",
+ "count": 504,
  "listings": [
+  {
+   "id": "kyuken-6553",
+   "source": "kyuken",
+   "name": "飽田南小前Ⅱ 1号地",
+   "price": "",
+   "address": "熊本県熊本市南区八分字町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6553/",
+   "layout": "3LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "113.82㎡（34.43坪）",
+   "landArea": "200.30㎡（60.59坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "飽田南小学校",
+   "elementaryMin": "1",
+   "junior": "飽田中学校",
+   "juniorMin": "22",
+   "facilities": [
+    {
+     "name": "川尻駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "デイリーヤマザキ 会富店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "おのうえ歯科医院",
+     "min": "12",
+     "cat": "hospital"
+    },
+    {
+     "name": "あきた病院",
+     "min": "14",
+     "cat": "hospital"
+    },
+    {
+     "name": "JA 熊本市彩菜館",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "鮮ど市場 白藤店",
+     "min": "16",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本白藤1丁目店",
+     "min": "17",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/5.jpg",
+     "main": true,
+     "local": "data/img/034cf253b3fdbb3160f1.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/cfa8b3e1fa50b36f2dba85e72feba21e-4-770x500.jpg",
+     "main": false,
+     "local": "data/img/56bf43eb86d0b0a8a453.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7992-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/08242135c3c3de716c24.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_8021-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/4b1ba4f08a1402019293.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_8005-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/d69bcb30e8c3d5faa223.jpg"
+    }
+   ],
+   "locText": "32.750951, 130.662247",
+   "locPrec": "area",
+   "hpText": "同じ部屋にいながら、自由になれる。20帖という贅沢。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6561",
+   "source": "kyuken",
+   "name": "飽田南小前Ⅱ 5号地",
+   "price": "",
+   "address": "熊本県熊本市南区八分字町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6561/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.67㎡（34.99坪）",
+   "landArea": "200.53㎡（60.66坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "飽田南小学校",
+   "elementaryMin": "1",
+   "junior": "飽田中学校",
+   "juniorMin": "22",
+   "facilities": [
+    {
+     "name": "川尻駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "デイリーヤマザキ 会富店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "おのうえ歯科医院",
+     "min": "12",
+     "cat": "hospital"
+    },
+    {
+     "name": "あきた病院",
+     "min": "14",
+     "cat": "hospital"
+    },
+    {
+     "name": "JA 熊本市彩菜館",
+     "min": "15",
+     "cat": "other"
+    },
+    {
+     "name": "鮮ど市場 白藤店",
+     "min": "16",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 熊本白藤1丁目店",
+     "min": "17",
+     "cat": "conbini"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/6.jpg",
+     "main": true,
+     "local": "data/img/1a5501e3b5af0e6f610d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/20260226_142548-770x500.jpg",
+     "main": false,
+     "local": "data/img/cb25044970bad00aab60.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7913-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/e7fdd50351b7ea78ade4.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7940-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/0eed86a1ed2cc6bf0daf.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7919-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/d7dae2f20fa4dedf208e.jpg"
+    }
+   ],
+   "locText": "32.750951, 130.662247",
+   "locPrec": "area",
+   "hpText": "光で目覚める。それだけで、人生はもっとポジティブになれる。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6671",
+   "source": "kyuken",
+   "name": "宇土鶴城中前 11号地",
+   "price": "",
+   "address": "熊本県宇土市南段原町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6671/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "116.33㎡（35.19坪）",
+   "landArea": "180.40㎡（54.57坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "13",
+   "junior": "鶴城中学校",
+   "juniorMin": "3",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "宇土市バス 宇土市民会館前停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパーキッド 宇土店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 南段原町店",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "はたて耳鼻咽喉科クリニック",
+     "min": "4",
+     "cat": "hospital"
+    },
+    {
+     "name": "むらかみ眼科クリニック",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "宇土シティーモール",
+     "min": "11",
+     "cat": "mall"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/750b5771cecd9f75eae3270a2d96227f.jpg",
+     "main": true,
+     "local": "data/img/c25b6e28141233916314.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/20260307_105524-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/1f1d100c1933fc6fead8.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9224-770x500.jpg",
+     "main": false,
+     "local": "data/img/2c35245cd8f720d10b60.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9233-770x500.jpg",
+     "main": false,
+     "local": "data/img/7764f8893237a0e3152b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9215-770x500.jpg",
+     "main": false,
+     "local": "data/img/3530c5a964791d0a5de6.jpg"
+    }
+   ],
+   "locText": "32.681705, 130.661558",
+   "locPrec": "area",
+   "hpText": "1階のマルチな1部屋とパントリーが、暮らしの解像度を高める。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6684",
+   "source": "kyuken",
+   "name": "宇土鶴城中前 3号地",
+   "price": "",
+   "address": "熊本県宇土市南段原町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6684/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.87㎡（35.05坪）",
+   "landArea": "182.21㎡（55.12坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "13",
+   "junior": "鶴城中学校",
+   "juniorMin": "3",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "宇土市バス 宇土市民会館前停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパーキッド 宇土店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 南段原町店",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "はたて耳鼻咽喉科クリニック",
+     "min": "4",
+     "cat": "hospital"
+    },
+    {
+     "name": "むらかみ眼科クリニック",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "宇土シティーモール",
+     "min": "11",
+     "cat": "mall"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/4a282dee24168f660965d81a36afa33c.jpg",
+     "main": true,
+     "local": "data/img/a07c1e5f75bd0d1e5ac2.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/20260313_112031-770x500.jpg",
+     "main": false,
+     "local": "data/img/e0accb32b8c527f4a78e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9269-770x500.jpg",
+     "main": false,
+     "local": "data/img/d14a17aceece8884a2d9.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9284-770x500.jpg",
+     "main": false,
+     "local": "data/img/dd999095beb3d871462a.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9294-770x500.jpg",
+     "main": false,
+     "local": "data/img/a4dc2ce38eea5a02572c.jpg"
+    }
+   ],
+   "locText": "32.681705, 130.661558",
+   "locPrec": "area",
+   "hpText": "17.5帖LDKと収納が暮らしを整える、事半功倍の4LDK",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6718",
+   "source": "kyuken",
+   "name": "クレストタウン宇土新松原 25号地",
+   "price": "",
+   "address": "熊本県宇土市新松原",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6718/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "113.59㎡（34.36坪）",
+   "landArea": "175.47㎡（53.08坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "宇土東小学校",
+   "elementaryMin": "17",
+   "junior": "鶴城中学校",
+   "juniorMin": "15",
+   "facilities": [
+    {
+     "name": "JR宇土駅",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 宇土入口停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン 宇土新松原店",
+     "min": "2",
+     "cat": "conbini"
+    },
+    {
+     "name": "クロス21UTO",
+     "min": "6",
+     "cat": "other"
+    },
+    {
+     "name": "カインズ 宇土店",
+     "min": "9",
+     "cat": "other"
+    },
+    {
+     "name": "高浜眼科医院",
+     "min": "9",
+     "cat": "hospital"
+    },
+    {
+     "name": "宇土シティーモール",
+     "min": "10",
+     "cat": "mall"
+    },
+    {
+     "name": "上野小児科",
+     "min": "10",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/b0ecdfda877f03fc871a3d80cb5947ba-770x500.jpg",
+     "main": true,
+     "local": "data/img/6af438be0065bcbc8f24.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/f4205a7fc8c643dc3b86b8c5b1e653d7-770x500.jpg",
+     "main": false,
+     "local": "data/img/d4ecff1e057384cdef6c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/a22a7f0acfa93505b3801e1461887d6f-770x500.jpg",
+     "main": false,
+     "local": "data/img/b9c7e83252e3de0de072.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/c63bd2102c5ead36690b85547d7893d4-770x500.jpg",
+     "main": false,
+     "local": "data/img/80ceb5093d796cc44c2b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/0853e06392fc28d8f6d0fb802d88968b-770x500.jpg",
+     "main": false,
+     "local": "data/img/947dd7a2a2acd57d20b8.jpg"
+    }
+   ],
+   "locText": "32.689210, 130.670556",
+   "locPrec": "area",
+   "hpText": "【太陽光発電】南向きのLDKと、家事ラクを叶えるパントリー！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6815",
+   "source": "kyuken",
+   "name": "高平1丁目Ⅲ 1号地",
+   "price": "",
+   "address": "熊本県熊本市北区高平1丁目36",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6815/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "115.47㎡（34.93坪）",
+   "landArea": "190.74㎡（57.70坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "高平台小学校",
+   "elementaryMin": "6",
+   "junior": "京陵中学校",
+   "juniorMin": "32",
+   "facilities": [
+    {
+     "name": "亀井駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス 清水台団地入口停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "ダイレックス 高平店",
+     "min": "13",
+     "cat": "drug"
+    },
+    {
+     "name": "ミスターマックス 熊本北店",
+     "min": "13",
+     "cat": "super"
+    },
+    {
+     "name": "城北胃腸科内科クリニック",
+     "min": "13",
+     "cat": "hospital"
+    },
+    {
+     "name": "ゆめマート 志水",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "熊本機能病院",
+     "min": "18",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/d15c0b9b27e27bc39fbda7d9a185d034.jpg",
+     "main": true,
+     "local": "data/img/58fa1986a64349114c44.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0293-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/16e8fb9028593fbd1908.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0271-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/382f9be79862bb33f097.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0278-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/e5be999a59e4c4e0a7f4.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0250-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/54e7d71861da7f2cc719.jpg"
+    }
+   ],
+   "locText": "32.837829, 130.711834",
+   "locPrec": "area",
+   "hpText": "平屋の贅沢、家事ラクの究極。18帖超のLDKと収納が暮らしを変える",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6847",
+   "source": "kyuken",
+   "name": "宇土鶴城中前 5号地",
+   "price": "",
+   "address": "熊本県宇土市南段原町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6847/",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "93.55㎡（28.30坪）",
+   "landArea": "202.45㎡（61.24坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "宇土小学校",
+   "elementaryMin": "13",
+   "junior": "鶴城中学校",
+   "juniorMin": "3",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "宇土市バス 宇土市民会館前停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "スーパーキッド 宇土店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "セブンイレブン 南段原町店",
+     "min": "3",
+     "cat": "conbini"
+    },
+    {
+     "name": "はたて耳鼻咽喉科クリニック",
+     "min": "4",
+     "cat": "hospital"
+    },
+    {
+     "name": "むらかみ眼科クリニック",
+     "min": "5",
+     "cat": "hospital"
+    },
+    {
+     "name": "宇土シティーモール",
+     "min": "11",
+     "cat": "mall"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/63430b72ab607ce94ecda8480cba1f31.jpg",
+     "main": true,
+     "local": "data/img/91489690826072e238e1.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/4f9ad48613c506e3c3f986b66e29434b-770x500.jpg",
+     "main": false,
+     "local": "data/img/7fa11b9d5f0b199c548f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0591-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/e1d2fe41b05c46122817.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0601-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/3f94d0970771364b25ac.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0579-1-770x500.jpg",
+     "main": false,
+     "local": "data/img/f3bf669988257e5ed9ae.jpg"
+    }
+   ],
+   "locText": "32.681705, 130.661558",
+   "locPrec": "area",
+   "hpText": "ワンフロアで階段の上り下りがない、大人気の平屋プラン！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-6908",
+   "source": "kyuken",
+   "name": "飽田東（八分字町） 8-1号地",
+   "price": "",
+   "address": "熊本県熊本市南区八分字町",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6908/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.37㎡（34.90坪）",
+   "landArea": "166.91㎡（50.49坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "飽田東小学校",
+   "elementaryMin": "6",
+   "junior": "飽田中学校",
+   "juniorMin": "11",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス 八分字停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "ローソン 熊本砂原店",
+     "min": "7",
+     "cat": "conbini"
+    },
+    {
+     "name": "ぺえ小児科医院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "ファミリーマート 飽田店",
+     "min": "8",
+     "cat": "conbini"
+    },
+    {
+     "name": "かやの歯科医院",
+     "min": "10",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/8a6a5781ccaba672502e6f225d142ea7-1-770x500.jpg",
+     "main": true,
+     "local": "data/img/4172f40a198dfb710a55.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094549-770x500.jpg",
+     "main": false,
+     "local": "data/img/ff8d3e6782eb9f279443.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094603-770x500.jpg",
+     "main": false,
+     "local": "data/img/1ee0f46f4bb25cde44b6.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094651-770x500.jpg",
+     "main": false,
+     "local": "data/img/1eec2424759fad836477.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094815-770x500.jpg",
+     "main": false,
+     "local": "data/img/2fc2bc9b538f14f556a8.jpg"
+    }
+   ],
+   "locText": "32.759752, 130.662760",
+   "locPrec": "area",
+   "hpText": "「キッチン・パントリー・洗面」が繋がる驚きの回遊動線",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-7059",
+   "source": "kyuken",
+   "name": "益城町役場前Ⅱ 1号地",
+   "price": "",
+   "address": "熊本県上益城郡益城町大字宮園字辻",
+   "detailUrl": "https://kyukenhome.co.jp/modelhouse/7059/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "",
+   "landArea": "223.01㎡（67.46坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "益城中央小学校",
+   "elementaryMin": "23",
+   "junior": "木山中学校",
+   "juniorMin": "26",
+   "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "産交バス・木山下町停",
+     "min": "6",
+     "cat": "bus"
+    },
+    {
+     "name": "ファミリーマート 益城宮園店",
+     "min": "6",
+     "cat": "conbini"
+    },
+    {
+     "name": "よかもんね 益城店",
+     "min": "7",
+     "cat": "drug"
+    },
+    {
+     "name": "益城中央病院",
+     "min": "7",
+     "cat": "hospital"
+    },
+    {
+     "name": "かいがクリニック",
+     "min": "8",
+     "cat": "hospital"
+    },
+    {
+     "name": "スーパーキッド 益城店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "はがこどもクリニック",
+     "min": "11",
+     "cat": "hospital"
+    },
+    {
+     "name": "コスモス 益城店",
+     "min": "14",
+     "cat": "drug"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/19dc7b9fc75139b9c8d0e0b26fde9824-770x500.jpg",
+     "main": true,
+     "local": "data/img/8e481ed8821287f2d523.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1033-770x500.jpg",
+     "main": false,
+     "local": "data/img/2ef8a5af1777d86b9ac4.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1040-770x500.jpg",
+     "main": false,
+     "local": "data/img/bce911375fe9790b3faf.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1027-770x500.jpg",
+     "main": false,
+     "local": "data/img/bbeff3af041cd1a1b1a9.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1048-770x500.jpg",
+     "main": false,
+     "local": "data/img/9d57b127755904558f63.jpg"
+    }
+   ],
+   "locText": "32.791649, 130.813106",
+   "locPrec": "area",
+   "hpText": "全室南向きの解放感ある住まい",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-09-29",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
   {
    "id": "takasugi-814",
    "source": "takasugi",
@@ -94,7 +1009,8 @@
      "date": "2026-09-29",
      "price": "2,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-822",
@@ -188,7 +1104,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-829",
@@ -282,7 +1199,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-846",
@@ -386,7 +1304,8 @@
      "date": "2026-09-29",
      "price": "2,798万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-978",
@@ -474,7 +1393,8 @@
      "date": "2026-09-29",
      "price": "3,495万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-982",
@@ -563,7 +1483,8 @@
      "date": "2026-09-29",
      "price": "2,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1079",
@@ -657,7 +1578,8 @@
      "date": "2026-09-29",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1081",
@@ -745,7 +1667,8 @@
      "date": "2026-09-29",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1090",
@@ -766,6 +1689,12 @@
    "junior": "三和中学校",
    "juniorMin": "17",
    "facilities": [
+    {
+     "name": "田崎橋電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "九州産交バス「稲荷入口」バス停",
      "min": "4",
@@ -838,7 +1767,8 @@
      "date": "2026-09-29",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1091",
@@ -859,6 +1789,12 @@
    "junior": "三和中学校",
    "juniorMin": "17",
    "facilities": [
+    {
+     "name": "田崎橋電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "九州産交バス「稲荷入口」バス停",
      "min": "4",
@@ -936,7 +1872,8 @@
      "date": "2026-09-29",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1094",
@@ -957,6 +1894,12 @@
    "junior": "益城中学校",
    "juniorMin": "13",
    "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "アタックス益城店",
      "min": "7",
@@ -1014,7 +1957,8 @@
      "date": "2026-09-29",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1136",
@@ -1113,7 +2057,8 @@
      "date": "2026-09-29",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1378",
@@ -1202,7 +2147,8 @@
      "date": "2026-09-29",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1381",
@@ -1291,7 +2237,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1447",
@@ -1390,7 +2337,8 @@
      "date": "2026-09-29",
      "price": "2,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1455",
@@ -1483,7 +2431,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-1790",
@@ -1571,7 +2520,8 @@
      "date": "2026-09-29",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2616",
@@ -1659,7 +2609,8 @@
      "date": "2026-09-29",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2631",
@@ -1747,7 +2698,8 @@
      "date": "2026-09-29",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2635",
@@ -1835,7 +2787,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2830",
@@ -1923,7 +2876,8 @@
      "date": "2026-09-29",
      "price": "3,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2848",
@@ -2016,7 +2970,8 @@
      "date": "2026-09-29",
      "price": "3,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2881",
@@ -2109,7 +3064,8 @@
      "date": "2026-09-29",
      "price": "3,448万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2884",
@@ -2198,7 +3154,8 @@
      "date": "2026-09-29",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2916",
@@ -2219,6 +3176,12 @@
    "junior": "御船中学校",
    "juniorMin": "17",
    "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "九州産交バス「落合」バス停",
      "min": "7",
@@ -2271,7 +3234,8 @@
      "date": "2026-09-29",
      "price": "3,798万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2969",
@@ -2374,7 +3338,8 @@
      "date": "2026-09-29",
      "price": "3,654万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-2971",
@@ -2463,7 +3428,8 @@
      "date": "2026-09-29",
      "price": "2,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3008",
@@ -2557,7 +3523,8 @@
      "date": "2026-09-29",
      "price": "2,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3009",
@@ -2661,7 +3628,8 @@
      "date": "2026-09-29",
      "price": "2,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3096",
@@ -2728,7 +3696,8 @@
      "date": "2026-09-29",
      "price": "3,094万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3592",
@@ -2811,7 +3780,8 @@
      "date": "2026-09-29",
      "price": "3,329万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3652",
@@ -2832,6 +3802,12 @@
    "junior": "益城中学校",
    "juniorMin": "9",
    "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "九州産交バス「古閑入口」バス停",
      "min": "3",
@@ -2894,7 +3870,8 @@
      "date": "2026-09-29",
      "price": "3,449万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3671",
@@ -2915,6 +3892,12 @@
    "junior": "託麻中学校",
    "juniorMin": "",
    "facilities": [
+    {
+     "name": "子ども列車のりば駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "熊本バス「下乙バス停」",
      "min": "6",
@@ -2987,7 +3970,8 @@
      "date": "2026-09-29",
      "price": "3,869万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3692",
@@ -3070,7 +4054,8 @@
      "date": "2026-09-29",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3806",
@@ -3153,7 +4138,8 @@
      "date": "2026-09-29",
      "price": "2,998万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3979",
@@ -3236,7 +4222,8 @@
      "date": "2026-09-29",
      "price": "3,699万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-3981",
@@ -3319,7 +4306,8 @@
      "date": "2026-09-29",
      "price": "3,268万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4034",
@@ -3402,7 +4390,8 @@
      "date": "2026-09-29",
      "price": "3,539万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4042",
@@ -3485,7 +4474,8 @@
      "date": "2026-09-29",
      "price": "3,659万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4058",
@@ -3573,7 +4563,8 @@
      "date": "2026-09-29",
      "price": "3,199万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4092",
@@ -3671,7 +4662,8 @@
      "date": "2026-09-29",
      "price": "3,970万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4115",
@@ -3769,7 +4761,8 @@
      "date": "2026-09-29",
      "price": "3,795万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4199",
@@ -3867,7 +4860,8 @@
      "date": "2026-09-29",
      "price": "3,358万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4217",
@@ -3960,7 +4954,8 @@
      "date": "2026-09-29",
      "price": "3,499万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4230",
@@ -4053,7 +5048,8 @@
      "date": "2026-09-29",
      "price": "3,549万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4342",
@@ -4151,7 +5147,8 @@
      "date": "2026-09-29",
      "price": "3,365万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4533",
@@ -4234,7 +5231,8 @@
      "date": "2026-09-29",
      "price": "3,358万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4551",
@@ -4342,7 +5340,8 @@
      "date": "2026-09-29",
      "price": "4,179万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4570",
@@ -4446,7 +5445,8 @@
      "date": "2026-09-29",
      "price": "3,215万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4578",
@@ -4529,7 +5529,8 @@
      "date": "2026-09-29",
      "price": "3,798万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4586",
@@ -4622,7 +5623,8 @@
      "date": "2026-09-29",
      "price": "3,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4837",
@@ -4714,7 +5716,8 @@
      "date": "2026-09-29",
      "price": "3,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "takasugi-4840",
@@ -4817,7 +5820,8 @@
      "date": "2026-09-29",
      "price": "3,949万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "kokubu-1613",
