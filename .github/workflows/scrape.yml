@@ -48,6 +48,9 @@ jobs:
       - name: 九建ホームの物件を収集
         run: node scraper/kyuken.js
 
+      - name: サンタ不動産の物件を収集
+        run: node scraper/santa.js
+
       - name: 最寄り駅を自動設定
         run: node scraper/stations.js
 
