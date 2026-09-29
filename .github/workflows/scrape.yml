@@ -45,6 +45,9 @@ jobs:
       - name: タカスギの物件を収集
         run: node scraper/takasugi.js
 
+      - name: 九建ホームの物件を収集
+        run: node scraper/kyuken.js
+
       - name: 最寄り駅を自動設定
         run: node scraper/stations.js
 
