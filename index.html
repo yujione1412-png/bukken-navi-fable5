@@ -429,7 +429,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.30</span>
+    <h1>物件ナビ</h1><span class="ver">v0.31</span>
     <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
@@ -561,6 +561,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
           <option value="nakajitsu">ナカジツ</option>
           <option value="kokubu">国分ハウジング</option>
           <option value="takasugi">タカスギ</option>
+          <option value="kyuken">九建ホーム</option>
           <option value="other">その他</option>
         </select></div>
       <div class="frow"><label>価格</label>
@@ -642,7 +643,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
         <option value="all">すべて</option>
       </select>
     </div>
-    <div class="mline"><a href="#" id="muStatus">📡 7社の更新状況を見る</a></div>
+    <div class="mline"><a href="#" id="muStatus">📡 8社の更新状況を見る</a></div>
     <div class="mnote" id="menuInfo"></div>
     <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日朝6時、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
@@ -654,7 +655,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   <h2>💰 価格で絞り込む</h2>
   <div class="srow"><label>下限</label><select id="priceMinSel"></select></div>
   <div class="srow"><label>上限</label><select id="priceMaxSel"></select></div>
-  <div class="mnote" style="font-size:.75rem;color:var(--sub)">※ 価格未定の物件は、絞り込み中は表示されません</div>
+  <div class="mnote" style="font-size:.75rem;color:var(--sub)">※ 価格未定・価格をHPで確認する物件は、絞り込み中は表示されません</div>
   <div class="mbtns">
     <button class="mb-cancel" id="priceClear">条件をクリア</button>
     <button class="mb-ok" id="priceApply">この条件で見る</button>
@@ -695,7 +696,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.30
+   物件ナビ v0.31
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -716,6 +717,7 @@ const SOURCES = {
   nakajitsu:{ label:"ナカジツ",   color:"#b8323a" },
   kokubu:   { label:"国分ハウジング", color:"#2a8c82" },
   takasugi: { label:"タカスギ",   color:"#a07a12" },
+  kyuken:   { label:"九建ホーム", color:"#c2477f", noPrice:true },  // HPに価格の記載がない(価格は「HPにて確認」表示・平均価格に含めない)
   other:    { label:"その他",     color:"#6f6a5c" },
 };
 const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
@@ -840,11 +842,11 @@ function renderAlertBanner(){
     toast("状況が変わると、また表示されます");
   };
 }
-/* all=true なら正常なメーカーも含めて表示(メニューの「7社の更新状況」) */
+/* all=true なら正常なメーカーも含めて表示(メニューの「8社の更新状況」) */
 function showStatusDetail(all){
   const src = (scrapeStatus && scrapeStatus.sources) || null;
   if(!src){
-    modal("7社の更新状況",
+    modal("8社の更新状況",
       "収集状況の記録(data/status.json)がまだありません。\n\n" +
       "次回の自動更新(毎日 朝6時)のあと、メニューの「↻ 最新データを読み込む」を押すと表示されます。",
       [["閉じる",null,"mb-ok"]]);
@@ -852,7 +854,7 @@ function showStatusDetail(all){
   }
   const alerts = statusAlerts();
   const byKey = {}; alerts.forEach(a=>byKey[a.key]=a);
-  const order = ["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","takasugi"];
+  const order = ["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","takasugi","kyuken"];
   const keys = order.filter(k=>src[k]).concat(Object.keys(src).filter(k=>!order.includes(k)));
   const blocks = [];
   for(const k of keys){
@@ -866,12 +868,12 @@ function showStatusDetail(all){
     (a ? a.reasons : []).forEach(r=>lines.push(`　・${r}`));
     blocks.push(lines.join("\n"));
   }
-  if(!blocks.length) blocks.push("7社とも正常に更新できています。");
+  if(!blocks.length) blocks.push("8社とも正常に更新できています。");
   const foot = alerts.length
     ? "\n\n表示中の物件情報は、最後に正常に取れた時点のものです。物件が削除されたり、勝手に掲載終了になったりはしていません。\n" +
       "この表示が数日続く場合は、HPの作りが変わった可能性があります。管理担当にお知らせください。"
     : "";
-  modal(all ? "7社の更新状況" : "HPからの自動収集で問題が出ています",
+  modal(all ? "8社の更新状況" : "HPからの自動収集で問題が出ています",
     blocks.join("\n\n") + foot, [["閉じる",null,"mb-ok"]]);
 }
 
@@ -965,6 +967,12 @@ function normUrl(u){
     const q=[...x.searchParams].filter(([k])=>/^(p|id)$/i.test(k)).map(([k,v])=>k.toLowerCase()+"="+v).sort().join("&");
     return (x.origin+x.pathname).replace(/\/$/,"").toLowerCase()+(q?"?"+q:""); }
   catch(e){ return String(u||"").trim().toLowerCase(); }
+}
+/* 価格の表示。HPに価格の記載がないメーカー(九建ホーム)は「価格はHPにて確認」、
+   それ以外で価格が取れていない物件は「価格未定」。手動編集で価格を入れた時はその価格を出す */
+function priceText(l){
+  if(l && l.price) return l.price;
+  return (l && (SOURCES[l.source]||{}).noPrice) ? "価格はHPにて確認" : "価格未定";
 }
 function priceMan(p){
   if(!p) return null;
@@ -1135,10 +1143,11 @@ function cleanFacDest(f){
   return last[1] + (last[2]==="駅" ? "駅" : "バス停");
 }
 
-/* 位置情報の精度: 住所からの自動推定がおおよそ(番地なし/町名レベル)かどうか */
-function lowPrec(l){ return l.locPrec==="banchi" || l.locPrec==="town"; }
+/* 位置情報の精度: 住所からの自動推定がおおよそ(番地なし/町名レベル)か、分譲地の地点(区画の位置ではない)かどうか */
+function lowPrec(l){ return l.locPrec==="banchi" || l.locPrec==="town" || l.locPrec==="area"; }
 function precLabel(l){
-  return l.locPrec==="town" ? "町名レベルのおおよその位置"
+  return l.locPrec==="area" ? "分譲地のおおよその位置(区画ごとの位置ではありません)"
+       : l.locPrec==="town" ? "町名レベルのおおよその位置"
        : l.locPrec==="banchi" ? "番地を除いた住所からのおおよその位置" : "";
 }
 
@@ -1180,7 +1189,7 @@ const state = {
   tab:"all", q:"", sort:"created-desc", tags:new Set(),
   view:"active",                       // active=掲載中 / ended=掲載終了のみ
   priceMin:null, priceMax:null,        // 万円
-  makers:new Set(["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","takasugi","manual"]),  // 地図用
+  makers:new Set(["maemura","sumaiida","yokatown","daiei","nakajitsu","kokubu","takasugi","kyuken","manual"]),  // 地図用
   mapTips:true,                        // 地図の吹き出し(物件名・価格)表示
   showAvg:false,                       // タブ・エリアの下に平均価格を出すか(起動時は出さない・保存しない)
 };
@@ -1273,6 +1282,7 @@ function renderTabs(){
     {id:"nakajitsu",label:"ナカジツ",   n:base.filter(l=>l.source==="nakajitsu").length},
     {id:"kokubu",   label:"国分ハウジング", n:base.filter(l=>l.source==="kokubu").length},
     {id:"takasugi", label:"タカスギ",   n:base.filter(l=>l.source==="takasugi").length},
+    {id:"kyuken",   label:"九建ホーム", n:base.filter(l=>l.source==="kyuken").length},
     {id:"candidate",label:"★候補",     n:base.filter(l=>l.candidate).length},
   ];
   const box = document.getElementById("tabs");
@@ -1284,15 +1294,20 @@ function renderTabs(){
     const items = d.id==="all" ? base
                 : d.id==="candidate" ? base.filter(l=>l.candidate)
                 : base.filter(l=>l.source===d.id);
-    return `<div class="avgCol">${btn}${avgBoxHtml(items, state.tab===d.id, `data-tab="${d.id}"`)}</div>`;
+    const box = (SOURCES[d.id]||{}).noPrice
+      ? `<div class="avgBox none${state.tab===d.id?" cur":""}" data-tab="${d.id}" title="HPに価格の記載がないため、平均価格に含めていません">対象外</div>`
+      : avgBoxHtml(items, state.tab===d.id, `data-tab="${d.id}"`);
+    return `<div class="avgCol">${btn}${box}</div>`;
   }).join("");
   box.scrollLeft = keep;
 }
 
 /* ---------- 平均価格 ----------
    価格の幅表記「3,598万円～3,798万円」は、上下の真ん中の値で数える。
-   価格が読み取れない物件(「価格未定」など)は平均から除く。 */
+   価格が読み取れない物件(「価格未定」など)は平均から除く。
+   HPに価格の記載がないメーカー(SOURCES の noPrice:九建ホーム)は、平均の計算に一切含めない。 */
 function priceForAvg(l){
+  if((SOURCES[l.source]||{}).noPrice) return null;   // 九建ホームはHPに価格がないため平均に含めない(手動で価格を入れても含めない)
   const parts = String(l.price||"").split(/[～〜~]/).map(priceMan).filter(v=>v!=null && v>0);
   if(!parts.length) return null;
   return parts.length>=2 ? (Math.min(...parts)+Math.max(...parts))/2 : parts[0];
@@ -1372,10 +1387,14 @@ function renderTagRow(){
   /* 平均価格はエリア(区・市・町村)のタグだけに出す。
      今選んでいるメーカーのタブと、検索・価格・エリア以外のタグの絞り込みに連動する */
   const areaBase = state.showAvg ? applyMaker(applyCommon(listings.slice(), "area")) : null;
+  const noPriceTab = !!(SOURCES[state.tab]||{}).noPrice;   // 九建ホームのタブを選んでいる時は、エリアも「対象外」
   box.innerHTML = tags.map(t=>{
     if(!state.showAvg || tagKind(t)!=="area") return tagBtnHtml(t);
     const items = areaBase.filter(l=>areaTag(l.address)===t);
-    return `<div class="avgCol">${tagBtnHtml(t)}${avgBoxHtml(items, state.tags.has(t), `data-tag="${esc(t)}"`)}</div>`;
+    const avgBox = noPriceTab
+      ? `<div class="avgBox none${state.tags.has(t)?" cur":""}" data-tag="${esc(t)}" title="HPに価格の記載がないため、平均価格に含めていません">対象外</div>`
+      : avgBoxHtml(items, state.tags.has(t), `data-tag="${esc(t)}"`);
+    return `<div class="avgCol">${tagBtnHtml(t)}${avgBox}</div>`;
   }).join("");
   box.scrollLeft = keep;
 }
@@ -1424,7 +1443,7 @@ function renderList(){
       <div class="thumb">${main?`<img src="${esc(photoSrc(main))}" data-org="${esc(main.url||"")}" loading="lazy" alt="" onerror="imgFall(this,'card')">`:"写真なし"}</div>
       <div class="body">
         <div class="name">${esc(l.name)}</div>
-        <div class="price ${l.price?"":"na"}">${esc(l.price||"価格未定")}${moveBadge(l)}</div>
+        <div class="price ${l.price?"":"na"}">${esc(priceText(l))}${moveBadge(l)}</div>
         <div class="addr"><span class="atext">${esc(l.address||"")}</span>${
           regDateLabel(l) ? `<span class="cdate">${esc(regDateLabel(l))}</span>` : ""}</div>
         <div class="tags">
@@ -1501,7 +1520,7 @@ function loadLeaflet(){
 }
 function renderMakerRow(){
   const box = document.getElementById("makerRow");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["takasugi","タカスギ"],["manual","その他"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["takasugi","タカスギ"],["kyuken","九建ホーム"],["manual","その他"]];
   // タグ・価格・検索の絞り込みを反映した件数(地図に出る数と一致する)
   const base = applyCommon(listings.slice());
   const cnt = (src)=>base.filter(l=>(isManual(l.id) ? "manual" : l.source) === src).length;
@@ -1569,7 +1588,7 @@ function tipRowsHtml(g){
     return `<div class="tipRow" data-id="${esc(l.id)}">`
       + `<span class="tipDot" style="background:${col}"></span>`
       + `<span class="tipRowBody"><span class="tipRowName">${lowPrec(l)?"≈ ":""}${esc(l.name)}</span>`
-      + `<span class="tipRowPrice">${esc(l.price||"価格未定")}</span></span></div>`;
+      + `<span class="tipRowPrice">${esc(priceText(l))}</span></span></div>`;
   }).join("");
 }
 function tipHtml(g, open){
@@ -1577,7 +1596,7 @@ function tipHtml(g, open){
   const n = g.items.length;
   if(n === 1 || !open){
     return `<div class="tipName">${lowPrec(l)?"≈ ":""}${esc(l.name)}</div>`
-      + `<div class="tipPrice">${esc(l.price||"価格未定")}</div>`
+      + `<div class="tipPrice">${esc(priceText(l))}</div>`
       + (n > 1 ? `<div class="tipMore">＋他${n-1}件(タップで表示)</div>` : "");
   }
   return `<div class="tipHead">この場所に${n}件</div>`
@@ -1693,7 +1712,7 @@ function renderDetail(id){
     ? photos.map(p=>`<img src="${esc(photoSrc(p))}" data-org="${esc(p.url||"")}" alt="" onerror="imgFall(this,'detail')">`).join("")
     : `<div class="noPhoto">写真なし</div>`;
   document.getElementById("dName").textContent = l.name;
-  document.getElementById("dPrice").innerHTML = esc(l.price || "価格未定") + moveBadge(l, true);
+  document.getElementById("dPrice").innerHTML = esc(priceText(l)) + moveBadge(l, true);
   document.getElementById("dAddr").textContent = l.address || "";
   document.getElementById("dEditedBadge").innerHTML = l.edited
     ? `<span class="badge-edited">✎ 手動編集済み(編集した項目は自動更新で上書きされません)</span>
@@ -1843,7 +1862,7 @@ function renderNearby(l, km){
         <div class="nname">${esc(o.name)}</div>
         <div class="nsub">${esc(src.label)} ・ ${dTxt}${o.layout?` ・ ${esc(layoutTags(o.layout).join("・")||o.layout)}`:""}</div>
       </div>
-      <span class="nprice">${esc(o.price||"価格未定")}</span>
+      <span class="nprice">${esc(priceText(o))}</span>
     </div>`;
   }).join("") || `<div class="mut" style="padding:10px 0">この範囲には他の物件がありません</div>`;
 }
@@ -2091,7 +2110,7 @@ function buildCsv(opts){
     "状態","★候補","セールストーク","商談メモ","HPリンク"];
   const rows = arr.map(l=>[
     (SOURCES[l.source]||{label:"手動"}).label + (isManual(l.id)?"(手動)":""),
-    l.name, l.price||"価格未定", l.address||"", l.layout||"", l.stories||"",
+    l.name, priceText(l), l.address||"", l.layout||"", l.stories||"",
     builtDisp(l.builtAt)||"", l.buildingArea||"", l.landArea||"",
     l.parking||"", l.units||"", l.elementary||"", l.elementaryMin||"",
     l.junior||"", l.juniorMin||"",
@@ -2102,7 +2121,7 @@ function buildCsv(opts){
 }
 function openCsvSheet(){
   const box = document.getElementById("csvMakers");
-  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["takasugi","タカスギ"],["manual","その他(手動登録)"]];
+  const defs = [["maemura","マエムラ"],["sumaiida","すまいーだ"],["yokatown","よかタウン"],["daiei","大英産業"],["nakajitsu","ナカジツ"],["kokubu","国分ハウジング"],["takasugi","タカスギ"],["kyuken","九建ホーム"],["manual","その他(手動登録)"]];
   box.innerHTML = defs.map(([id,label])=>
     `<button class="chk on" data-csvmk="${id}">${label}</button>`).join("");
   document.getElementById("csvStarOnly").checked = false;
