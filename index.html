@@ -429,7 +429,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.31</span>
+    <h1>物件ナビ</h1><span class="ver">v0.32</span>
     <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
@@ -655,7 +655,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
   <h2>💰 価格で絞り込む</h2>
   <div class="srow"><label>下限</label><select id="priceMinSel"></select></div>
   <div class="srow"><label>上限</label><select id="priceMaxSel"></select></div>
-  <div class="mnote" style="font-size:.75rem;color:var(--sub)">※ 価格未定・価格をHPで確認する物件は、絞り込み中は表示されません</div>
+  <div class="mnote" style="font-size:.75rem;color:var(--sub)">※ 価格未定・価格要確認の物件は、絞り込み中は表示されません</div>
   <div class="mbtns">
     <button class="mb-cancel" id="priceClear">条件をクリア</button>
     <button class="mb-ok" id="priceApply">この条件で見る</button>
@@ -696,7 +696,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.31
+   物件ナビ v0.32
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -717,7 +717,7 @@ const SOURCES = {
   nakajitsu:{ label:"ナカジツ",   color:"#b8323a" },
   kokubu:   { label:"国分ハウジング", color:"#2a8c82" },
   takasugi: { label:"タカスギ",   color:"#a07a12" },
-  kyuken:   { label:"九建ホーム", color:"#c2477f", noPrice:true },  // HPに価格の記載がない(価格は「HPにて確認」表示・平均価格に含めない)
+  kyuken:   { label:"九建ホーム", color:"#c2477f", noPrice:true },  // HPに価格の記載がない(価格は「価格は要確認」表示・平均価格に含めない)
   other:    { label:"その他",     color:"#6f6a5c" },
 };
 const FAC_ICONS = { super:"🛒", conbini:"🏪", drug:"💊", mall:"🏬",
@@ -968,11 +968,11 @@ function normUrl(u){
     return (x.origin+x.pathname).replace(/\/$/,"").toLowerCase()+(q?"?"+q:""); }
   catch(e){ return String(u||"").trim().toLowerCase(); }
 }
-/* 価格の表示。HPに価格の記載がないメーカー(九建ホーム)は「価格はHPにて確認」、
+/* 価格の表示。HPに価格の記載がないメーカー(九建ホーム)は「価格は要確認」、
    それ以外で価格が取れていない物件は「価格未定」。手動編集で価格を入れた時はその価格を出す */
 function priceText(l){
   if(l && l.price) return l.price;
-  return (l && (SOURCES[l.source]||{}).noPrice) ? "価格はHPにて確認" : "価格未定";
+  return (l && (SOURCES[l.source]||{}).noPrice) ? "価格は要確認" : "価格未定";
 }
 function priceMan(p){
   if(!p) return null;
