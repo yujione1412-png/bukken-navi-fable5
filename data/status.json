@@ -3,7 +3,7 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-10-08T00:53:53.797Z",
+   "ranAt": "2026-10-08T03:59:38.907Z",
    "date": "2026-10-08",
    "count": 30,
    "prevCount": 30,
@@ -15,10 +15,10 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-10-08T00:56:49.304Z",
+   "ranAt": "2026-10-08T04:02:31.509Z",
    "date": "2026-10-08",
    "count": 83,
-   "prevCount": 82,
+   "prevCount": 83,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-08",
@@ -27,7 +27,7 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-10-08T01:00:58.427Z",
+   "ranAt": "2026-10-08T04:06:29.626Z",
    "date": "2026-10-08",
    "count": 156,
    "prevCount": 156,
@@ -39,10 +39,10 @@
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-10-08T01:02:08.064Z",
+   "ranAt": "2026-10-08T04:07:36.633Z",
    "date": "2026-10-08",
    "count": 22,
-   "prevCount": 21,
+   "prevCount": 22,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-08",
@@ -51,7 +51,7 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "ok",
-   "ranAt": "2026-10-08T01:02:51.053Z",
+   "ranAt": "2026-10-08T04:08:18.421Z",
    "date": "2026-10-08",
    "count": 18,
    "prevCount": 18,
@@ -62,58 +62,52 @@
   },
   "kokubu": {
    "label": "国分ハウジング",
-   "level": "error",
-   "ranAt": "2026-10-08T01:04:19.289Z",
+   "level": "ok",
+   "ranAt": "2026-10-08T04:09:18.770Z",
    "date": "2026-10-08",
-   "count": 0,
-   "prevCount": 18,
+   "count": 18,
+   "prevCount": 0,
    "notFound": 0,
-   "reasons": [
-    "かえるホームの検索結果ページを取得できませんでした"
-   ],
-   "lastOkDate": "2026-10-07",
+   "reasons": [],
+   "lastOkDate": "2026-10-08",
    "lastOkCount": 18
   },
   "takasugi": {
    "label": "タカスギ",
-   "level": "error",
-   "ranAt": "2026-10-08T01:05:47.504Z",
+   "level": "ok",
+   "ranAt": "2026-10-08T04:10:34.608Z",
    "date": "2026-10-08",
-   "count": 0,
-   "prevCount": 51,
+   "count": 51,
+   "prevCount": 0,
    "notFound": 0,
-   "reasons": [
-    "タカスギの物件一覧ページを取得できませんでした"
-   ],
-   "lastOkDate": "2026-10-07",
+   "reasons": [],
+   "lastOkDate": "2026-10-08",
    "lastOkCount": 51
   },
   "kyuken": {
    "label": "九建ホーム",
-   "level": "error",
-   "ranAt": "2026-10-08T01:08:00.202Z",
+   "level": "ok",
+   "ranAt": "2026-10-08T04:11:26.458Z",
    "date": "2026-10-08",
-   "count": 0,
-   "prevCount": 11,
+   "count": 11,
+   "prevCount": 0,
    "notFound": 0,
-   "reasons": [
-    "九建ホームの分譲地ページを取得できませんでした"
-   ],
-   "lastOkDate": "2026-10-07",
+   "reasons": [],
+   "lastOkDate": "2026-10-08",
    "lastOkCount": 11
   },
   "santa": {
    "label": "サンタ不動産",
    "level": "ok",
-   "ranAt": "2026-10-08T01:09:31.830Z",
+   "ranAt": "2026-10-08T04:12:57.858Z",
    "date": "2026-10-08",
-   "count": 32,
+   "count": 33,
    "prevCount": 32,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-08",
-   "lastOkCount": 32
+   "lastOkCount": 33
   }
  },
- "updatedAt": "2026-10-08T01:09:31.830Z"
+ "updatedAt": "2026-10-08T04:12:57.858Z"
 }
