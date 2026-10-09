@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-09T04:52:42.859Z",
- "count": 564,
+ "updatedAt": "2026-10-09T12:06:10.837Z",
+ "count": 565,
  "listings": [
   {
    "id": "santa-792130",
@@ -3365,7 +3365,7 @@
    "name": "飽田南小前Ⅱ 1号地",
    "price": "",
    "address": "熊本県熊本市南区八分字町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6553/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%a3%bd%e7%94%b0%e5%8d%97%e5%b0%8f%e5%89%8d%e2%85%b1-%e5%9b%a3%e5%9c%b0-1%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "3LDK",
    "stories": "",
    "builtAt": "",
@@ -3418,43 +3418,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/5.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/75dd0430c7510c5d316b1a8d78fe492a.jpg",
      "main": true,
-     "local": "data/img/034cf253b3fdbb3160f1.jpg"
+     "local": "data/img/073f3191440b2751bfad.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/cfa8b3e1fa50b36f2dba85e72feba21e-4-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_141234.jpg",
      "main": false,
-     "local": "data/img/56bf43eb86d0b0a8a453.jpg"
+     "local": "data/img/5ff10da3fcf41dfe9613.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7992-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_141304.jpg",
      "main": false,
-     "local": "data/img/08242135c3c3de716c24.jpg"
+     "local": "data/img/11fac4a16f99db864743.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_8021-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_141400.jpg",
      "main": false,
-     "local": "data/img/4b1ba4f08a1402019293.jpg"
+     "local": "data/img/542c2253126ef8dc0f75.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_8005-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_141413.jpg",
      "main": false,
-     "local": "data/img/d69bcb30e8c3d5faa223.jpg"
+     "local": "data/img/c4acaa2a81cd1ebc6afa.jpg"
     }
    ],
    "locText": "32.750951, 130.662247",
    "locPrec": "area",
-   "hpText": "同じ部屋にいながら、自由になれる。20帖という贅沢。",
+   "hpText": "飽田南小まで60秒",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3465,7 +3465,7 @@
    "name": "飽田南小前Ⅱ 5号地",
    "price": "",
    "address": "熊本県熊本市南区八分字町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6561/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%a3%bd%e7%94%b0%e5%8d%97%e5%b0%8f%e5%89%8d%e2%85%b1-%e5%9b%a3%e5%9c%b0-5%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -3518,43 +3518,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/6.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/0926e2dd3570a7081b07eb76c9591c27.jpg",
      "main": true,
-     "local": "data/img/1a5501e3b5af0e6f610d.jpg"
+     "local": "data/img/8de020743e24d07a6ee7.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/20260226_142548-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/cfa8b3e1fa50b36f2dba85e72feba21e.jpg",
      "main": false,
-     "local": "data/img/cb25044970bad00aab60.jpg"
+     "local": "data/img/9861f5b9f3a25dba4d12.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7913-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_142633.jpg",
      "main": false,
-     "local": "data/img/e7fdd50351b7ea78ade4.jpg"
+     "local": "data/img/1923cbcc8a9402368542.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7940-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_7940.jpg",
      "main": false,
-     "local": "data/img/0eed86a1ed2cc6bf0daf.jpg"
+     "local": "data/img/8ca28e4612dd8be61cd0.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/DSC_7919-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260226_142855.jpg",
      "main": false,
-     "local": "data/img/d7dae2f20fa4dedf208e.jpg"
+     "local": "data/img/f2d9d88323891cddcb6e.jpg"
     }
    ],
    "locText": "32.750951, 130.662247",
    "locPrec": "area",
-   "hpText": "光で目覚める。それだけで、人生はもっとポジティブになれる。",
+   "hpText": "飽田南小まで60秒",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3565,7 +3565,7 @@
    "name": "宇土鶴城中前 11号地",
    "price": "",
    "address": "熊本県宇土市南段原町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6671/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e5%ae%87%e5%9c%9f%e9%b6%b4%e5%9f%8e%e4%b8%ad%e5%89%8d-%e5%9b%a3%e5%9c%b0-11%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -3623,43 +3623,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/750b5771cecd9f75eae3270a2d96227f.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/ceaf5fb60277eeab0d7724014f2cf6b6-scaled.jpg",
      "main": true,
-     "local": "data/img/c25b6e28141233916314.jpg"
+     "local": "data/img/9c571990a9ffde57b510.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/20260307_105524-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260307_105524.jpg",
      "main": false,
-     "local": "data/img/1f1d100c1933fc6fead8.jpg"
+     "local": "data/img/621b0aa9083672e6138f.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9224-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260307_104522.jpg",
      "main": false,
-     "local": "data/img/2c35245cd8f720d10b60.jpg"
+     "local": "data/img/af74a7af0fe332fcbb88.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9233-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_9215.jpg",
      "main": false,
-     "local": "data/img/7764f8893237a0e3152b.jpg"
+     "local": "data/img/8b30be509d4ae7a3905f.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9215-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260307_104723.jpg",
      "main": false,
-     "local": "data/img/3530c5a964791d0a5de6.jpg"
+     "local": "data/img/e49e76d94a3f89c971d9.jpg"
     }
    ],
    "locText": "32.681705, 130.661558",
    "locPrec": "area",
-   "hpText": "1階のマルチな1部屋とパントリーが、暮らしの解像度を高める。",
+   "hpText": "鶴城中まで徒歩3分",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3670,7 +3670,7 @@
    "name": "宇土鶴城中前 3号地",
    "price": "",
    "address": "熊本県宇土市南段原町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6684/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e5%ae%87%e5%9c%9f%e9%b6%b4%e5%9f%8e%e4%b8%ad%e5%89%8d-%e5%9b%a3%e5%9c%b0-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -3728,43 +3728,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/4a282dee24168f660965d81a36afa33c.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/aafe4701403b9b650721ceb69837f57d-scaled.jpg",
      "main": true,
-     "local": "data/img/a07c1e5f75bd0d1e5ac2.jpg"
+     "local": "data/img/74438445ed53e8eff2f0.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/20260313_112031-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_105905.jpg",
      "main": false,
-     "local": "data/img/e0accb32b8c527f4a78e.jpg"
+     "local": "data/img/35a2c0882ad505f546eb.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9269-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110456.jpg",
      "main": false,
-     "local": "data/img/d14a17aceece8884a2d9.jpg"
+     "local": "data/img/d8ebc9053e74bcc53146.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9284-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_9260.jpg",
      "main": false,
-     "local": "data/img/dd999095beb3d871462a.jpg"
+     "local": "data/img/62a4a5b1cb4c877ff789.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/DSC_9294-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110618.jpg",
      "main": false,
-     "local": "data/img/a4dc2ce38eea5a02572c.jpg"
+     "local": "data/img/588032c11dead10614de.jpg"
     }
    ],
    "locText": "32.681705, 130.661558",
    "locPrec": "area",
-   "hpText": "17.5帖LDKと収納が暮らしを整える、事半功倍の4LDK",
+   "hpText": "鶴城中まで徒歩3分",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3775,7 +3775,7 @@
    "name": "クレストタウン宇土新松原 25号地",
    "price": "",
    "address": "熊本県宇土市新松原",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6718/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%82%af%e3%83%ac%e3%82%b9%e3%83%88%e3%82%bf%e3%82%a6%e3%83%b3%e5%ae%87%e5%9c%9f%e6%96%b0%e6%9d%be%e5%8e%9f-%e5%9b%a3%e5%9c%b0-25%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -3832,43 +3832,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/b0ecdfda877f03fc871a3d80cb5947ba-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/d4d5160d7907b27b9676052d41e2b106-scaled.jpg",
      "main": true,
-     "local": "data/img/6af438be0065bcbc8f24.jpg"
+     "local": "data/img/afe31cc0ca17c1ab9e4c.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/f4205a7fc8c643dc3b86b8c5b1e653d7-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7158-6718-01-b0ecdfda877f03fc871a3d80cb5947ba-770x500-1.jpg",
      "main": false,
-     "local": "data/img/d4ecff1e057384cdef6c.jpg"
+     "local": "data/img/53d5dec0e525cc7c851c.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/a22a7f0acfa93505b3801e1461887d6f-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7158-6718-03-a22a7f0acfa93505b3801e1461887d6f-770x500-1.jpg",
      "main": false,
-     "local": "data/img/b9c7e83252e3de0de072.jpg"
+     "local": "data/img/049896a1cadb9b0d2e6f.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/c63bd2102c5ead36690b85547d7893d4-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7158-6718-04-c63bd2102c5ead36690b85547d7893d4-770x500-1.jpg",
      "main": false,
-     "local": "data/img/80ceb5093d796cc44c2b.jpg"
+     "local": "data/img/e840ff0a635cd27605fe.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/03/0853e06392fc28d8f6d0fb802d88968b-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7158-6718-05-0853e06392fc28d8f6d0fb802d88968b-770x500-1.jpg",
      "main": false,
-     "local": "data/img/947dd7a2a2acd57d20b8.jpg"
+     "local": "data/img/d91b80b5e253c5ee10af.jpg"
     }
    ],
    "locText": "32.689210, 130.670556",
    "locPrec": "area",
-   "hpText": "【太陽光発電】南向きのLDKと、家事ラクを叶えるパントリー！",
+   "hpText": "クロス21UTOまで約450ｍ",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3879,12 +3879,12 @@
    "name": "高平1丁目Ⅲ 1号地",
    "price": "",
    "address": "熊本県熊本市北区高平1丁目36",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6815/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%ab%98%e5%b9%b31%e4%b8%81%e7%9b%ae%e2%85%b2-%e5%9b%a3%e5%9c%b0-1%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "3LDK",
    "stories": "平屋",
    "builtAt": "",
    "buildingArea": "115.47㎡（34.93坪）",
-   "landArea": "190.74㎡（57.70坪）",
+   "landArea": "186.15㎡（56.31坪）",
    "parking": "",
    "units": "",
    "elementary": "高平台小学校",
@@ -3932,43 +3932,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/d15c0b9b27e27bc39fbda7d9a185d034.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/febb014207eec17e9dbc89b6fd7dbd0b-scaled.jpg",
      "main": true,
-     "local": "data/img/58fa1986a64349114c44.jpg"
+     "local": "data/img/d22364b3effe2d7d867d.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0293-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7155-6815-03-DSC_0271-1-770x500-1.jpg",
      "main": false,
-     "local": "data/img/16e8fb9028593fbd1908.jpg"
+     "local": "data/img/0754fa73cdf7d68460f8.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0271-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7155-6815-04-DSC_0278-1-770x500-1.jpg",
      "main": false,
-     "local": "data/img/382f9be79862bb33f097.jpg"
+     "local": "data/img/efb85810cfde5a1d2c51.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0278-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7155-6815-05-DSC_0250-1-770x500-1.jpg",
      "main": false,
-     "local": "data/img/e5be999a59e4c4e0a7f4.jpg"
+     "local": "data/img/74dff51c30f7043c029e.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0250-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7155-6815-06-DSC_0255-1-770x500-1.jpg",
      "main": false,
-     "local": "data/img/54e7d71861da7f2cc719.jpg"
+     "local": "data/img/549cadf666109b682ef0.jpg"
     }
    ],
    "locText": "32.837829, 130.711834",
    "locPrec": "area",
-   "hpText": "平屋の贅沢、家事ラクの究極。18帖超のLDKと収納が暮らしを変える",
+   "hpText": "高平台小まで480ｍ",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3979,7 +3979,7 @@
    "name": "宇土鶴城中前 5号地",
    "price": "",
    "address": "熊本県宇土市南段原町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6847/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e5%ae%87%e5%9c%9f%e9%b6%b4%e5%9f%8e%e4%b8%ad%e5%89%8d-%e5%9b%a3%e5%9c%b0-5%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "3LDK",
    "stories": "平屋",
    "builtAt": "",
@@ -4037,43 +4037,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/63430b72ab607ce94ecda8480cba1f31.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/16a142051bea33f748e0db9d2a1b9959-scaled.jpg",
      "main": true,
-     "local": "data/img/91489690826072e238e1.jpg"
+     "local": "data/img/db9ed73a0da66c979e8f.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/4f9ad48613c506e3c3f986b66e29434b-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7153-6847-02-4f9ad48613c506e3c3f986b66e29434b-770x500-1.jpg",
      "main": false,
-     "local": "data/img/7fa11b9d5f0b199c548f.jpg"
+     "local": "data/img/82b33c31fb02bd7ea2b2.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0591-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260511_152435.jpg",
      "main": false,
-     "local": "data/img/e1d2fe41b05c46122817.jpg"
+     "local": "data/img/b060a5ea5ebd02cbf436.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0601-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260511_152537.jpg",
      "main": false,
-     "local": "data/img/3f94d0970771364b25ac.jpg"
+     "local": "data/img/3493d0442fa7e4a1bdd3.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/05/DSC_0579-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260511_152558.jpg",
      "main": false,
-     "local": "data/img/f3bf669988257e5ed9ae.jpg"
+     "local": "data/img/bcc476f5ffa217b43749.jpg"
     }
    ],
    "locText": "32.681705, 130.661558",
    "locPrec": "area",
-   "hpText": "ワンフロアで階段の上り下りがない、大人気の平屋プラン！",
+   "hpText": "鶴城中まで徒歩3分",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4081,10 +4081,10 @@
   {
    "id": "kyuken-6908",
    "source": "kyuken",
-   "name": "飽田東（八分字町） 8-1号地",
+   "name": "飽田東 8-1号地",
    "price": "",
    "address": "熊本県熊本市南区八分字町",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/6908/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%a3%bd%e7%94%b0%e6%9d%b1-%e5%9b%a3%e5%9c%b0-8-1%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -4132,43 +4132,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/8a6a5781ccaba672502e6f225d142ea7-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/c9c00feae042d118c91e5f178dbd9553-scaled.jpg",
      "main": true,
-     "local": "data/img/4172f40a198dfb710a55.jpg"
+     "local": "data/img/a5c6d2059337307ab18a.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094549-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260526_094144.jpg",
      "main": false,
-     "local": "data/img/ff8d3e6782eb9f279443.jpg"
+     "local": "data/img/90f006252e8ca5ad1472.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094603-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260526_094218.jpg",
      "main": false,
-     "local": "data/img/1ee0f46f4bb25cde44b6.jpg"
+     "local": "data/img/e86cec949c9c37b6e6c3.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094651-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260526_094400.jpg",
      "main": false,
-     "local": "data/img/1eec2424759fad836477.jpg"
+     "local": "data/img/a62348025e9aa0839f27.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_094815-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260526_094442.jpg",
      "main": false,
-     "local": "data/img/2fc2bc9b538f14f556a8.jpg"
+     "local": "data/img/e8b40bd9b86937886857.jpg"
     }
    ],
    "locText": "32.759752, 130.662760",
    "locPrec": "area",
-   "hpText": "「キッチン・パントリー・洗面」が繋がる驚きの回遊動線",
+   "hpText": "西熊本駅近く",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4179,11 +4179,11 @@
    "name": "益城町役場前Ⅱ 1号地",
    "price": "",
    "address": "熊本県上益城郡益城町大字宮園字辻",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/7059/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e7%9b%8a%e5%9f%8e%e7%94%ba%e5%bd%b9%e5%a0%b4%e5%89%8d-%e5%9b%a3%e5%9c%b0-1%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
-   "buildingArea": "",
+   "buildingArea": "116.73㎡（35.31坪）",
    "landArea": "223.01㎡（67.46坪）",
    "parking": "",
    "units": "",
@@ -4242,43 +4242,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/8f1919c77a83fabe597c5e90d701115e.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/1719f7524ff101365da7a14dfcf1c23a-scaled.jpg",
      "main": true,
-     "local": "data/img/89ef418ffd4369a5acae.jpg"
+     "local": "data/img/4c2a76431a43249f9bcd.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DJI_20260831102248_0014_D-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DJI_20260831102248_0014_D.jpg",
      "main": false,
-     "local": "data/img/f29616a957046ee79567.jpg"
+     "local": "data/img/cf61281f93e904a3a90a.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1033-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152733.jpg",
      "main": false,
-     "local": "data/img/2ef8a5af1777d86b9ac4.jpg"
+     "local": "data/img/c36977a70a2a64d3663b.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1040-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152629.jpg",
      "main": false,
-     "local": "data/img/bce911375fe9790b3faf.jpg"
+     "local": "data/img/66a99af49c21485bd599.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/08/DSC_1048-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152827.jpg",
      "main": false,
-     "local": "data/img/9d57b127755904558f63.jpg"
+     "local": "data/img/b2eefb7bf358ac37b5e1.jpg"
     }
    ],
    "locText": "32.791649, 130.813106",
    "locPrec": "area",
-   "hpText": "全室南向きの解放感ある住まい",
+   "hpText": "益城町役場まで約310ｍ",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4289,7 +4289,7 @@
    "name": "八幡9丁目 5号地",
    "price": "",
    "address": "熊本県熊本市南区八幡9丁目5",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/7110/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-%e5%9b%a3%e5%9c%b0-5%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6",
    "layout": "3LDK",
    "stories": "",
    "builtAt": "",
@@ -4328,12 +4328,7 @@
      "cat": "hospital"
     },
     {
-     "name": "ロッキー 川尻店",
-     "min": "15",
-     "cat": "super"
-    },
-    {
-     "name": "ザ・ビッグエクスプレス 川尻店",
+     "name": "ザ・ビッグエクスプレス 川尻店：各",
      "min": "15",
      "cat": "other"
     }
@@ -4341,43 +4336,43 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/f2f09b922e10e3156548247346cec5ab.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/61872848d36aa175feb3342e772f389b.jpg",
      "main": true,
-     "local": "data/img/013dc2c4c48e6d9ed4d8.jpg"
+     "local": "data/img/5d2478f00c74e7b31f95.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/19f9249579ab2cdca7d54f1d4148c247-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/19f9249579ab2cdca7d54f1d4148c247.jpg",
      "main": false,
-     "local": "data/img/7da2fdeda64960875aa3.jpg"
+     "local": "data/img/65e325ae4aec97e36d79.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0883-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132625.jpg",
      "main": false,
-     "local": "data/img/1d6ac92dfa5c9db52246.jpg"
+     "local": "data/img/117cd9687578c0cf1eec.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0891-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132653.jpg",
      "main": false,
-     "local": "data/img/0b65a14dea6f5a2e74f5.jpg"
+     "local": "data/img/5dc088e68c5efa03d4fd.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0906-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0883.jpg",
      "main": false,
-     "local": "data/img/01567444a23ee760178c.jpg"
+     "local": "data/img/649dff6a38731ca60279.jpg"
     }
    ],
    "locText": "32.740758, 130.689490",
    "locPrec": "area",
-   "hpText": "「家族の気配を感じる、ワンフロアの心地よさ。」",
+   "hpText": "JR川尻駅まで約1200ｍ",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T06:06:42.481Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4388,7 +4383,7 @@
    "name": "新須屋駅前Ⅲ 2号地",
    "price": "",
    "address": "熊本県合志市須屋",
-   "detailUrl": "https://kyukenhome.co.jp/modelhouse/7119/",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e6%96%b0%e9%a0%88%e5%b1%8b%e9%a7%85%e5%89%8d%e2%85%b2-%e5%9b%a3%e5%9c%b0-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab",
    "layout": "4LDK",
    "stories": "",
    "builtAt": "",
@@ -4417,19 +4412,9 @@
      "cat": "conbini"
     },
     {
-     "name": "鳥取歯科医院",
-     "min": "6",
-     "cat": "hospital"
-    },
-    {
      "name": "鮮ど市場 飛田店",
      "min": "9",
      "cat": "super"
-    },
-    {
-     "name": "松元整形外科",
-     "min": "9",
-     "cat": "other"
     },
     {
      "name": "コスモス 飛田店",
@@ -4440,46 +4425,139 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/b4d072736026ac1ebb61357881d4d3aa.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/8564d56198149cebe72352c0dd94cdc9.jpg",
      "main": true,
-     "local": "data/img/ae39e7cbd4cb94758bab.jpg"
+     "local": "data/img/4877810f7891ec0b93ce.jpg"
     },
     {
      "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/89ff19b70d3eb0a6e546a763b61e01b6-1-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7135-7119-02-89ff19b70d3eb0a6e546a763b61e01b6-1-770x500-1.jpg",
      "main": false,
-     "local": "data/img/658304eaa1d20efa426d.jpg"
+     "local": "data/img/54cf3624db5178bb974a.jpg"
     },
     {
      "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3039-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142418-1.jpg",
      "main": false,
-     "local": "data/img/a0a1cca303be326eb9d1.jpg"
+     "local": "data/img/132af8d33862f6ad4d82.jpg"
     },
     {
      "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3047-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142346.jpg",
      "main": false,
-     "local": "data/img/5f024b872d33f28e4fc6.jpg"
+     "local": "data/img/d6ced3a9c0a12af42b4e.jpg"
     },
     {
      "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3034-770x500.jpg",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3061.jpg",
      "main": false,
-     "local": "data/img/f92f60b2c6bcb59fc4be.jpg"
+     "local": "data/img/77a219a3725f1c66c2d8.jpg"
     }
    ],
    "locText": "32.854879, 130.728431",
    "locPrec": "area",
-   "hpText": "どの部屋にいても、やさしい光に包まれる家。",
+   "hpText": "",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T06:06:42.481Z",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
+  },
+  {
+   "id": "kyuken-900413",
+   "source": "kyuken",
+   "name": "八幡9丁目 3号地",
+   "price": "",
+   "address": "熊本県熊本市南区八幡9丁目5",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9%e3%80%9040",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "114.61㎡（34.67坪）",
+   "landArea": "167.14㎡（50.56坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "川尻小学校",
+   "elementaryMin": "13",
+   "junior": "城南中学校",
+   "juniorMin": "8",
+   "facilities": [
+    {
+     "name": "JR川尻駅",
+     "min": "15",
+     "cat": "station"
+    },
+    {
+     "name": "産交バス 元三町停",
+     "min": "2",
+     "cat": "bus"
+    },
+    {
+     "name": "大宮整形外科クリニック",
+     "min": "10",
+     "cat": "hospital"
+    },
+    {
+     "name": "セブンイレブン 野田1丁目店",
+     "min": "11",
+     "cat": "conbini"
+    },
+    {
+     "name": "川尻尾崎内科",
+     "min": "11",
+     "cat": "hospital"
+    },
+    {
+     "name": "ザ・ビッグエクスプレス 川尻店：各",
+     "min": "15",
+     "cat": "other"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/89ff19b70d3eb0a6e546a763b61e01b6-scaled.jpg",
+     "main": true,
+     "local": "data/img/52c942a57e0890806f26.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154534.jpg",
+     "main": false,
+     "local": "data/img/797c95c72c215ed48157.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154555.jpg",
+     "main": false,
+     "local": "data/img/b6d4eb58e47a942baed3.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154623.jpg",
+     "main": false,
+     "local": "data/img/9893464d57d920e54c5c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154647.jpg",
+     "main": false,
+     "local": "data/img/fb4710975ad677205722.jpg"
+    }
+   ],
+   "locText": "32.740758, 130.689490",
+   "locPrec": "area",
+   "hpText": "",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T12:04:37.963Z",
+   "lastSeen": "2026-10-09",
+   "priceChanges": [],
+   "priceSnapshots": []
   },
   {
    "id": "takasugi-814",
@@ -13387,7 +13465,8 @@
      "date": "2026-10-09",
      "price": "3,999万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1574-3",
@@ -14912,7 +14991,8 @@
      "date": "2026-10-09",
      "price": "4,299万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1624-4",
@@ -15020,7 +15100,8 @@
      "date": "2026-10-09",
      "price": "4,399万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1499-2",
@@ -36749,7 +36830,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン南区浜口町第三",
    "price": "2,548万円",
-   "address": "熊本県熊本市 南区浜口町字堀上339番2（地番）",
+   "address": "熊本県熊本市 南区浜口町字堀上339番1（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591008-2/",
    "layout": "4LDK",
    "stories": "2階建て",
