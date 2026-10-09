@@ -429,7 +429,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.33</span>
+    <h1>物件ナビ</h1><span class="ver">v0.34</span>
     <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
@@ -646,7 +646,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     </div>
     <div class="mline"><a href="#" id="muStatus">📡 9社の更新状況を見る</a></div>
     <div class="mnote" id="menuInfo"></div>
-    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日朝6時、またはGitHubの「Run workflow」)。</div>
+    <div class="mnote">※「↻」はGitHub上に収集済みの最新データを読み込みます。HPをその場で収集し直すものではありません(収集は毎日 午前中、またはGitHubの「Run workflow」)。</div>
     <div class="mnote" style="margin-top:10px"><a href="#" id="muAi" style="color:var(--sub)">🤖 AI補強プロンプト(管理者用)</a></div>
   </div>
   <div class="mbtns"><button class="mb-cancel" id="menuClose">閉じる</button></div>
@@ -697,7 +697,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.33
+   物件ナビ v0.34
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -850,7 +850,7 @@ function showStatusDetail(all){
   if(!src){
     modal("9社の更新状況",
       "収集状況の記録(data/status.json)がまだありません。\n\n" +
-      "次回の自動更新(毎日 朝6時)のあと、メニューの「↻ 最新データを読み込む」を押すと表示されます。",
+      "次回の自動更新(毎日 午前中)のあと、メニューの「↻ 最新データを読み込む」を押すと表示されます。",
       [["閉じる",null,"mb-ok"]]);
     return;
   }
@@ -2214,7 +2214,7 @@ function openMenu(){
   const al = statusAlerts();
   document.getElementById("menuInfo").textContent =
     (baseUpdatedAt ? `情報更新日: ${fmtDate(baseUpdatedAt)}` : "HPデータ未取得")
-    + " / 毎日 朝6時に自動更新"
+    + " / 毎日 午前中に自動更新"
     + (al.length ? ` / ⚠ ${al.map(a=>a.label).join("・")}は更新できていません` : "");
   openSheet("menuBg");
 }
