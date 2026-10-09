@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-09T01:20:14.424Z",
- "count": 561,
+ "updatedAt": "2026-10-09T04:52:42.859Z",
+ "count": 564,
  "listings": [
   {
    "id": "santa-792130",
@@ -13288,6 +13288,108 @@
    "relistedAt": ""
   },
   {
+   "id": "daiei-1571-2",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市北区室園町2号地",
+   "price": "3,999万円",
+   "address": "熊本県熊本市北区室園町9-28南側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1571-2",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年4月",
+   "buildingArea": "108.47㎡（32.81坪）",
+   "landArea": "185.12㎡（55.99坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "清水小学校",
+   "elementaryMin": "10",
+   "junior": "竜南中学校",
+   "juniorMin": "19",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「北熊本」駅",
+     "min": "4",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス 北熊本停",
+     "min": "3",
+     "cat": "bus"
+    },
+    {
+     "name": "ルーテル学院幼稚園",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "清水保育園",
+     "min": "10",
+     "cat": "other"
+    },
+    {
+     "name": "A-プライス 北熊本店",
+     "min": "3",
+     "cat": "other"
+    },
+    {
+     "name": "ローソン 熊本清水万石一丁目店",
+     "min": "5",
+     "cat": "conbini"
+    },
+    {
+     "name": "熊本室園郵便局",
+     "min": "4",
+     "cat": "other"
+    },
+    {
+     "name": "室園南公園",
+     "min": "3",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133731199_1.jpg",
+     "main": true,
+     "local": "data/img/56d8324c65e2944ba945.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133731199_3.jpg",
+     "main": false,
+     "local": "data/img/4b1bfd4ac22db1755e0a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133731199_4.jpg",
+     "main": false,
+     "local": "data/img/11c9ccc57175b477009e.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133731199_5.jpg",
+     "main": false,
+     "local": "data/img/d5c0f60fd90d1d3a274d.jpg"
+    }
+   ],
+   "locText": "32.82636336169824, 130.72344372016937",
+   "locPrec": "",
+   "hpText": "毎日のお買物に便利な「A-プライス 北熊本店」は徒歩3分\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－\n当物件の販売は下記の仲介会社へお任せしており\n資料請求やご見学のお問い合わせは下記の仲介会社が対応いたします。\nRS不動産株式会社\n熊本県知事(01)第005411号\n取引形態(仲介)\n〒862-0941\n熊本県熊本市中央区出水3丁目7-61\nTEL.096-247-6348\n物件の仲介による手数料の発生の有無や金額については、仲介会社へお尋ねください。\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T04:47:58.981Z",
+   "lastSeen": "2026-10-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "3,999万円"
+    }
+   ]
+  },
+  {
    "id": "daiei-1574-3",
    "source": "daiei",
    "name": "アーキデイズ 八代市松崎町3号地",
@@ -14471,7 +14573,7 @@
    ],
    "locText": "32.78415463812989, 130.79770311603275",
    "locPrec": "",
-   "hpText": "アタックス 益城店は便利な徒歩8分",
+   "hpText": "アタックス 益城店は便利な徒歩8分\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－\n当物件の販売は下記の仲介会社へお任せしており\n資料請求やご見学のお問い合わせは下記の仲介会社が対応いたします。\nテラスエステート熊本本店 (株)アークフロンティア\n国土交通大臣免許（１）第１０１１７号\n取引形態(仲介)\n〒862-0924\n熊本県熊本市中央区帯山１丁目３１－２０ 賢勝ビル２０１\nTEL.096-273-8407\n物件の仲介による手数料の発生の有無や金額については、仲介会社へお尋ねください。\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－",
    "tags": [],
    "status": "active",
    "endedAt": "",
@@ -14599,7 +14701,7 @@
    "id": "daiei-1618-2",
    "source": "daiei",
    "name": "アーキデイズ 熊本市西区春日7丁目2号地",
-   "price": "",
+   "price": "3,999万円",
    "address": "熊本県熊本市西区春日７丁目5-3",
    "detailUrl": "https://daiei-codate.com/detail/?id=1618-2",
    "layout": "4LDK",
@@ -14679,19 +14781,246 @@
      "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133711732_4.jpg",
      "main": false,
      "local": "data/img/9ec2950b2fd2db2f258b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133711732_5.jpg",
+     "main": false,
+     "local": "data/img/15200ef12f09f4847ebb.jpg"
     }
    ],
    "locText": "32.7871841, 130.6792758",
    "locPrec": "",
-   "hpText": "毎日のお買物に便利なゆめマート 田崎店まで徒歩7分",
+   "hpText": "毎日のお買物に便利なゆめマート 田崎店まで徒歩7分\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－\n当物件の販売は下記の仲介会社へお任せしており\n資料請求やご見学のお問い合わせは下記の仲介会社が対応いたします。\n（株）ランドフォーメーション\n熊本県知事免許(1) 第0005594号\n取引形態(仲介)\n〒861-4109\n熊本県熊本市南区日吉２丁目１２番７０号\nTEL.096-288-6309\n物件の仲介による手数料の発生の有無や金額については、仲介会社へお尋ねください。\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－",
    "tags": [],
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:51:04.302Z",
    "lastSeen": "2026-10-09",
    "priceChanges": [],
-   "priceSnapshots": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "3,999万円"
+    }
+   ],
    "relistedAt": ""
+  },
+  {
+   "id": "daiei-1624-3",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市西区池亀町3号地",
+   "price": "4,299万円",
+   "address": "熊本県熊本市西区池亀町9-20西側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1624-3",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年6月",
+   "buildingArea": "103.5㎡（31.3坪）",
+   "landArea": "193.47㎡（58.52坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "池田小学校",
+   "elementaryMin": "14",
+   "junior": "井芹中学校",
+   "juniorMin": "5",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「韓々坂」駅",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "熊本都市バス 上熊本営業所停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "本妙寺こども園",
+     "min": "17",
+     "cat": "other"
+    },
+    {
+     "name": "熊本すみれ保育園",
+     "min": "8",
+     "cat": "other"
+    },
+    {
+     "name": "メガセンタートライアル上熊本店",
+     "min": "8",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 熊本花園5丁目店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "上熊本郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "池亀公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727847_1.jpg",
+     "main": true,
+     "local": "data/img/724af32e6c5b2e6fc52d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727847_2.jpg",
+     "main": false,
+     "local": "data/img/73df70d2ed8c5c15a44a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727847_3.jpg",
+     "main": false,
+     "local": "data/img/3f5d2d4abb5660d800a1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727847_4.jpg",
+     "main": false,
+     "local": "data/img/585fc3ec30844726395b.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727847_5.jpg",
+     "main": false,
+     "local": "data/img/fa8e36a7c18352b63cbb.jpg"
+    }
+   ],
+   "locText": "32.82224566176569, 130.6952910869907",
+   "locPrec": "",
+   "hpText": "忙しい朝や遅い帰宅時にも嬉しい「熊本電鉄 韓々坂駅」徒歩10分\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－\n当物件の販売は下記の仲介会社へお任せしており\n資料請求やご見学のお問い合わせは下記の仲介会社が対応いたします。\n（株）ランドフォーメーション\n熊本県知事免許(1) 第0005594号\n取引形態(仲介)\n〒861-4109\n熊本県熊本市南区日吉２丁目１２番７０号\nTEL.096-288-6309\n物件の仲介による手数料の発生の有無や金額については、仲介会社へお尋ねください。\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T04:47:58.981Z",
+   "lastSeen": "2026-10-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "4,299万円"
+    }
+   ]
+  },
+  {
+   "id": "daiei-1624-4",
+   "source": "daiei",
+   "name": "アーキデイズ 熊本市西区池亀町4号地",
+   "price": "4,399万円",
+   "address": "熊本県熊本市西区池亀町9-20西側",
+   "detailUrl": "https://daiei-codate.com/detail/?id=1624-4",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年6月",
+   "buildingArea": "98.54㎡（29.8坪）",
+   "landArea": "195.17㎡（59.03坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "池田小学校",
+   "elementaryMin": "14",
+   "junior": "井芹中学校",
+   "juniorMin": "5",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「韓々坂」駅",
+     "min": "10",
+     "cat": "station"
+    },
+    {
+     "name": "熊本都市バス 上熊本営業所停",
+     "min": "7",
+     "cat": "bus"
+    },
+    {
+     "name": "本妙寺こども園",
+     "min": "17",
+     "cat": "other"
+    },
+    {
+     "name": "熊本すみれ保育園",
+     "min": "8",
+     "cat": "other"
+    },
+    {
+     "name": "メガセンタートライアル上熊本店",
+     "min": "8",
+     "cat": "super"
+    },
+    {
+     "name": "ファミリーマート 熊本花園5丁目店",
+     "min": "9",
+     "cat": "conbini"
+    },
+    {
+     "name": "上熊本郵便局",
+     "min": "7",
+     "cat": "other"
+    },
+    {
+     "name": "池亀公園",
+     "min": "5",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727859_1.jpg",
+     "main": true,
+     "local": "data/img/6d110b1062d2f9dcb9cf.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727859_2.jpg",
+     "main": false,
+     "local": "data/img/312ed610e839c815f3f5.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727859_3.jpg",
+     "main": false,
+     "local": "data/img/0f5bfe461b009e262b98.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727859_4.jpg",
+     "main": false,
+     "local": "data/img/dd8dbcd157ad814671fc.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://img.hs.aws.multi-use.net/adm1/daiei/images/sell/H00133727859_5.jpg",
+     "main": false,
+     "local": "data/img/120d084b6251820bcbe1.jpg"
+    }
+   ],
+   "locText": "32.82224566176569, 130.6952910869907",
+   "locPrec": "",
+   "hpText": "子育て家族に嬉しい、井芹中学校まで徒歩5分\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－\n当物件の販売は下記の仲介会社へお任せしており\n資料請求やご見学のお問い合わせは下記の仲介会社が対応いたします。\n（株）ランドフォーメーション\n熊本県知事免許(1) 第0005594号\n取引形態(仲介)\n〒861-4109\n熊本県熊本市南区日吉２丁目１２番７０号\nTEL.096-288-6309\n物件の仲介による手数料の発生の有無や金額については、仲介会社へお尋ねください。\n－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T04:47:58.981Z",
+   "lastSeen": "2026-10-09",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "4,399万円"
+    }
+   ]
   },
   {
    "id": "daiei-1499-2",
@@ -23183,7 +23512,8 @@
      "date": "2026-10-09",
      "price": "3,698万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-106540866",
@@ -25479,7 +25809,8 @@
      "date": "2026-10-09",
      "price": "3,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-108115573",
@@ -25540,7 +25871,8 @@
      "date": "2026-10-09",
      "price": "3,498万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",
