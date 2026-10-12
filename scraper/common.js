@@ -117,7 +117,24 @@ function tablePairs($) {
 let lastMergeReport = {};
 function getMergeReport(src) { return lastMergeReport[src] || {}; }
 
+// 掲載落ちの履歴(relistHistory)を記録する前に再掲載になった物件の分を、
+// 過去のデータ(GitHubの更新履歴)から復元した控え。まだ履歴の無い物件にだけ1回補う
+let relistBackfill = null;
+function applyRelistBackfill(list) {
+  if (relistBackfill === null) {
+    try {
+      relistBackfill = JSON.parse(fs.readFileSync(path.join(__dirname, "relist-backfill.json"), "utf8"));
+    } catch (e) { relistBackfill = {}; }
+  }
+  return list.map((l) => {
+    const b = relistBackfill[l.id];
+    if (!b || !l.relistedAt || (l.relistHistory && l.relistHistory.length)) return l;
+    return { ...l, relistHistory: b.map((x) => ({ ...x })) };
+  });
+}
+
 function mergeListings(prevList, scrapedBySource, sources, today) {
+  prevList = applyRelistBackfill(prevList);
   const out = [];
   for (const src of sources) {
     const scraped = scrapedBySource[src] || [];
@@ -152,10 +169,17 @@ function mergeListings(prevList, scrapedBySource, sources, today) {
           relistedAt: (p.status === "ended" && p.endedAt
               && (new Date(today) - new Date(p.endedAt)) >= 3 * 24 * 3600 * 1000)
             ? today : (p.relistedAt || ""),
-          priceChanges: p.priceChanges || [], priceSnapshots: p.priceSnapshots || [] };
+          priceChanges: p.priceChanges || [], priceSnapshots: p.priceSnapshots || [],
+          relistHistory: p.relistHistory || [] };
+        // 再掲載のとき、掲載が落ちていた期間(掲載終了を確認した日・その前の最終確認日・再掲載日)を残す
+        if (p.status === "ended" && merged.relistedAt === today) {
+          merged.relistHistory = [...merged.relistHistory,
+            { endedAt: String(p.endedAt).slice(0, 10), relistedAt: today, lastSeen: String(p.lastSeen || "").slice(0, 10) }];
+        }
+        if (merged.relistHistory.length === 0) delete merged.relistHistory;
         if (p.status === "ended") {
           console.log(merged.relistedAt === today
-            ? `  [再掲載] ${s.name}(掲載終了→再掲載)`
+            ? `  [再掲載] ${s.name}(${String(p.endedAt).slice(0, 10)}に掲載終了→再掲載)`
             : `  [復帰] ${s.name}(短期間の消失から復帰。再掲載扱いにはしません)`);
         }
         if (s.price && p.price && s.price !== p.price) {
