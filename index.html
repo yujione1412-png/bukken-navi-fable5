@@ -266,6 +266,8 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 #resetEditBtn{color:var(--blue);font-size:.8rem;text-decoration:underline;margin-top:6px}
 .phRow{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px dashed var(--line);font-size:.88rem}
 .phRow:last-child{border-bottom:none}
+.relNote{font-size:.8rem;line-height:1.5;padding:4px 0 2px}
+.relSep{border-top:1px solid var(--line);margin:8px 0}
 .phRow .d{color:var(--sub)}
 .phRow .p{font-weight:600}
 .phRow .p.up{color:var(--red)}
@@ -429,7 +431,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.34</span>
+    <h1>物件ナビ</h1><span class="ver">v0.35</span>
     <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
@@ -511,6 +513,9 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
     <div class="dbox"><h3>建物情報</h3><div id="dBuilding"></div></div>
     <div class="dbox" id="dPriceHistBox" style="display:none">
       <h3>価格の推移</h3><div id="dPriceHist"></div>
+    </div>
+    <div class="dbox" id="dRelistBox" style="display:none">
+      <h3>掲載の履歴(HPから消えていた期間)</h3><div id="dRelist"></div>
     </div>
     <div class="dbox" id="dMapBox">
       <a class="btn btn-green" id="dMapLink" target="_blank" rel="noopener">📍 Google Mapで開く</a>
@@ -697,7 +702,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.34
+   物件ナビ v0.35
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -1775,6 +1780,8 @@ function renderDetail(id){
       modal("価格の記録", txt || "記録がありません", [["閉じる",null,"mb-ok"]]);
     };
   }else hb.style.display="none";
+  // 掲載の履歴(再掲載の物件で、HPから消えていた期間)
+  renderRelistHist(l);
   // 地図・HPリンク
   const mapQ = (l.locText||"").trim() || (l.address||"").trim();
   document.getElementById("dMapBox").style.display = mapQ ? "" : "none";
@@ -1824,6 +1831,35 @@ function renderDetail(id){
   if(l.lastSeen)  meta.push("HP確認日: "+String(l.lastSeen).slice(0,10));
   if(l.aiDone)    meta.push("AI補強済み");
   document.getElementById("dMeta").textContent = meta.join(" / ");
+}
+function relistDays(a,b){
+  const d = Math.round((new Date(b) - new Date(a))/86400000);
+  return isFinite(d) && d>0 ? d : null;
+}
+function prevDay(ymd){
+  const d = new Date(ymd+"T00:00:00Z"); if(isNaN(d)) return ymd;
+  d.setUTCDate(d.getUTCDate()-1); return d.toISOString().slice(0,10);
+}
+function renderRelistHist(l){
+  const box = document.getElementById("dRelistBox");
+  const hist = (l.relistHistory||[]).filter(h=>h && h.relistedAt);
+  if(!hist.length && !l.relistedAt){ box.style.display="none"; return; }
+  box.style.display="";
+  let html;
+  if(hist.length){
+    html = hist.slice().reverse().map(h=>{
+      const ended = String(h.endedAt||"").slice(0,10), back = String(h.relistedAt).slice(0,10);
+      const days = ended ? relistDays(ended, back) : null;
+      return (ended ? `<div class="phRow"><span class="d">掲載が消えた日</span><span class="p">${esc(ended)}</span></div>` : "")
+        + `<div class="phRow"><span class="d">再掲載された日</span><span class="p">${esc(back)}</span></div>`
+        + `<div class="relNote mut">${ended ? `${esc(ended)} 〜 ${esc(prevDay(back))} の${days!=null?days+"日間":""}、HPに掲載がありませんでした` : "掲載が消えた日は記録がありません"}`
+        + `${h.lastSeen ? `(消える前のHP最終確認: ${esc(String(h.lastSeen).slice(0,10))})` : ""}</div>`;
+    }).join(`<div class="relSep"></div>`);
+  }else{
+    html = `<div class="phRow"><span class="d">再掲載された日</span><span class="p">${esc(String(l.relistedAt).slice(0,10))}</span></div>`
+      + `<div class="relNote mut">掲載が消えた日は記録がありません</div>`;
+  }
+  document.getElementById("dRelist").innerHTML = html;
 }
 function schoolRow(ico,name,min,l){
   const q = name+" "+(areaTag(l.address)||"熊本");
