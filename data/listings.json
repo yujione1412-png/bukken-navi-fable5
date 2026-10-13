@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-12T12:42:24.002Z",
- "count": 577,
+ "updatedAt": "2026-10-13T07:38:15.545Z",
+ "count": 582,
  "listings": [
   {
    "id": "santa-792130",
@@ -92,7 +92,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -192,7 +192,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -291,7 +291,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -390,7 +390,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -500,7 +500,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -585,7 +585,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -684,7 +684,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:56:16.110Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -764,7 +764,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -844,7 +844,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -934,7 +934,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1024,7 +1024,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1123,7 +1123,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1213,7 +1213,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1298,7 +1298,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1388,7 +1388,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1478,7 +1478,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1563,7 +1563,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1637,7 +1637,7 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2Fe234301f-6b02-46e0-9574-04d315485ea3%2Fe234301f-6b02-46e0-9574-04d315485ea3.jpg?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F88beada1-5260-4c5c-9b2b-316ce07eed96%2F88beada1-5260-4c5c-9b2b-316ce07eed96.jpg?format=webp",
      "main": true
     },
     {
@@ -1647,17 +1647,17 @@
     },
     {
      "id": "p3",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F5875a44f-5a56-4105-839d-dd4e4ed60f27%2F5875a44f-5a56-4105-839d-dd4e4ed60f27.gif?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F86092ffb-91b2-4ac7-a1d2-80c600a609bf%2F86092ffb-91b2-4ac7-a1d2-80c600a609bf.jpg?format=webp",
      "main": false
     },
     {
      "id": "p4",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F5beeac56-031f-4cd2-bb95-bbbc2a37e978%2F5beeac56-031f-4cd2-bb95-bbbc2a37e978.png?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F2293e945-6fc8-4f36-ac10-fc627e2045f0%2F2293e945-6fc8-4f36-ac10-fc627e2045f0.jpg?format=webp",
      "main": false
     },
     {
      "id": "p5",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2F144613ec-8052-4c66-b063-77b474e58a76%2F144613ec-8052-4c66-b063-77b474e58a76.png?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1014322%2Fd312b628-6c1c-42f3-b3cd-fcb663b0071f%2Fd312b628-6c1c-42f3-b3cd-fcb663b0071f.jpg?format=webp",
      "main": false
     }
    ],
@@ -1668,7 +1668,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1773,7 +1773,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1877,7 +1877,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1966,7 +1966,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2070,7 +2070,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2174,7 +2174,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2278,7 +2278,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2346,27 +2346,27 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F36c4a62e-c3d0-4161-84fb-bac196d07f13%2F36c4a62e-c3d0-4161-84fb-bac196d07f13.jpg?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2Ff88dfde2-6c2d-4f64-a7e4-e88ebb9f7dc6%2Ff88dfde2-6c2d-4f64-a7e4-e88ebb9f7dc6.jpg?format=webp",
      "main": true
     },
     {
      "id": "p2",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F40850c77-8710-4f99-84ff-f9705384eeb9%2F40850c77-8710-4f99-84ff-f9705384eeb9.jpg?format=webp",
-     "main": false
-    },
-    {
-     "id": "p3",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0.jpg?format=webp",
-     "main": false
-    },
-    {
-     "id": "p4",
      "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F8341aed7-c973-4cd0-8362-92092f8c76b4%2F8341aed7-c973-4cd0-8362-92092f8c76b4.jpg?format=webp",
      "main": false
     },
     {
-     "id": "p5",
+     "id": "p3",
      "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F016904b3-c7fc-4d94-8f05-db5975223c7d%2F016904b3-c7fc-4d94-8f05-db5975223c7d.png?format=webp",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F40850c77-8710-4f99-84ff-f9705384eeb9%2F40850c77-8710-4f99-84ff-f9705384eeb9.jpg?format=webp",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1133131%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0%2F2fbc8c9a-0c0d-4c3f-ab82-0bedb3795db0.jpg?format=webp",
      "main": false
     }
    ],
@@ -2377,7 +2377,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2445,7 +2445,7 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2Fce68ee2c-d2e5-4cfe-93ad-7913520313ca%2Fce68ee2c-d2e5-4cfe-93ad-7913520313ca.jpg?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1140516%2Fb0696f01-13af-4a86-bcee-b0fd1b527466%2Fb0696f01-13af-4a86-bcee-b0fd1b527466.jpg?format=webp",
      "main": true
     },
     {
@@ -2476,7 +2476,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2566,7 +2566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2656,7 +2656,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2760,7 +2760,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2845,7 +2845,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2940,7 +2940,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3035,7 +3035,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T04:12:57.854Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3373,46 +3373,16 @@
    "landArea": "200.30㎡（60.59坪）",
    "parking": "",
    "units": "",
-   "elementary": "飽田南小学校",
-   "elementaryMin": "1",
-   "junior": "飽田中学校",
-   "juniorMin": "22",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "川尻駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "デイリーヤマザキ 会富店",
-     "min": "8",
-     "cat": "conbini"
-    },
-    {
-     "name": "おのうえ歯科医院",
-     "min": "12",
-     "cat": "hospital"
-    },
-    {
-     "name": "あきた病院",
-     "min": "14",
-     "cat": "hospital"
-    },
-    {
-     "name": "JA 熊本市彩菜館",
-     "min": "15",
-     "cat": "other"
-    },
-    {
-     "name": "鮮ど市場 白藤店",
-     "min": "16",
-     "cat": "super"
-    },
-    {
-     "name": "セブンイレブン 熊本白藤1丁目店",
-     "min": "17",
-     "cat": "conbini"
     }
    ],
    "photos": [
@@ -3454,7 +3424,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3473,46 +3443,16 @@
    "landArea": "200.53㎡（60.66坪）",
    "parking": "",
    "units": "",
-   "elementary": "飽田南小学校",
-   "elementaryMin": "1",
-   "junior": "飽田中学校",
-   "juniorMin": "22",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "川尻駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "デイリーヤマザキ 会富店",
-     "min": "8",
-     "cat": "conbini"
-    },
-    {
-     "name": "おのうえ歯科医院",
-     "min": "12",
-     "cat": "hospital"
-    },
-    {
-     "name": "あきた病院",
-     "min": "14",
-     "cat": "hospital"
-    },
-    {
-     "name": "JA 熊本市彩菜館",
-     "min": "15",
-     "cat": "other"
-    },
-    {
-     "name": "鮮ど市場 白藤店",
-     "min": "16",
-     "cat": "super"
-    },
-    {
-     "name": "セブンイレブン 熊本白藤1丁目店",
-     "min": "17",
-     "cat": "conbini"
     }
    ],
    "photos": [
@@ -3554,7 +3494,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3573,51 +3513,16 @@
    "landArea": "180.40㎡（54.57坪）",
    "parking": "",
    "units": "",
-   "elementary": "宇土小学校",
-   "elementaryMin": "13",
-   "junior": "鶴城中学校",
-   "juniorMin": "3",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "宇土駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "宇土市バス 宇土市民会館前停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "スーパーキッド 宇土店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "セブンイレブン 南段原町店",
-     "min": "3",
-     "cat": "conbini"
-    },
-    {
-     "name": "はたて耳鼻咽喉科クリニック",
-     "min": "4",
-     "cat": "hospital"
-    },
-    {
-     "name": "むらかみ眼科クリニック",
-     "min": "5",
-     "cat": "hospital"
-    },
-    {
-     "name": "宇土シティーモール",
-     "min": "11",
-     "cat": "mall"
     }
    ],
    "photos": [
@@ -3659,7 +3564,77 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": [],
+   "relistedAt": ""
+  },
+  {
+   "id": "kyuken-6684",
+   "source": "kyuken",
+   "name": "宇土鶴城中前 3号地",
+   "price": "",
+   "address": "熊本県宇土市南段原町",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e5%ae%87%e5%9c%9f%e9%b6%b4%e5%9f%8e%e4%b8%ad%e5%89%8d-%e5%9b%a3%e5%9c%b0-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.87㎡（35.05坪）",
+   "landArea": "182.21㎡（55.12坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/aafe4701403b9b650721ceb69837f57d-scaled.jpg",
+     "main": true,
+     "local": "data/img/74438445ed53e8eff2f0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_105905.jpg",
+     "main": false,
+     "local": "data/img/35a2c0882ad505f546eb.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110456.jpg",
+     "main": false,
+     "local": "data/img/d8ebc9053e74bcc53146.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_9260.jpg",
+     "main": false,
+     "local": "data/img/62a4a5b1cb4c877ff789.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110618.jpg",
+     "main": false,
+     "local": "data/img/588032c11dead10614de.jpg"
+    }
+   ],
+   "locText": "32.681705, 130.661558",
+   "locPrec": "area",
+   "hpText": "鶴城中まで徒歩3分",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-29T10:11:04.196Z",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3678,50 +3653,16 @@
    "landArea": "175.47㎡（53.08坪）",
    "parking": "",
    "units": "",
-   "elementary": "宇土東小学校",
-   "elementaryMin": "17",
-   "junior": "鶴城中学校",
-   "juniorMin": "15",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
-     "name": "JR宇土駅",
-     "min": "10",
-     "cat": "station"
-    },
-    {
-     "name": "産交バス 宇土入口停",
-     "min": "7",
-     "cat": "bus"
-    },
-    {
-     "name": "ローソン 宇土新松原店",
-     "min": "2",
-     "cat": "conbini"
-    },
-    {
-     "name": "クロス21UTO",
-     "min": "6",
-     "cat": "other"
-    },
-    {
-     "name": "カインズ 宇土店",
-     "min": "9",
-     "cat": "other"
-    },
-    {
-     "name": "高浜眼科医院",
-     "min": "9",
-     "cat": "hospital"
-    },
-    {
-     "name": "宇土シティーモール",
-     "min": "10",
-     "cat": "mall"
-    },
-    {
-     "name": "上野小児科",
-     "min": "10",
-     "cat": "hospital"
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
     }
    ],
    "photos": [
@@ -3763,7 +3704,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3782,46 +3723,16 @@
    "landArea": "186.15㎡（56.31坪）",
    "parking": "",
    "units": "",
-   "elementary": "高平台小学校",
-   "elementaryMin": "6",
-   "junior": "京陵中学校",
-   "juniorMin": "32",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "亀井駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "産交バス 清水台団地入口停",
-     "min": "5",
-     "cat": "bus"
-    },
-    {
-     "name": "ダイレックス 高平店",
-     "min": "13",
-     "cat": "drug"
-    },
-    {
-     "name": "ミスターマックス 熊本北店",
-     "min": "13",
-     "cat": "super"
-    },
-    {
-     "name": "城北胃腸科内科クリニック",
-     "min": "13",
-     "cat": "hospital"
-    },
-    {
-     "name": "ゆめマート 志水",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "熊本機能病院",
-     "min": "18",
-     "cat": "hospital"
     }
    ],
    "photos": [
@@ -3863,7 +3774,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3882,51 +3793,16 @@
    "landArea": "202.45㎡（61.24坪）",
    "parking": "",
    "units": "",
-   "elementary": "宇土小学校",
-   "elementaryMin": "13",
-   "junior": "鶴城中学校",
-   "juniorMin": "3",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "宇土駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "宇土市バス 宇土市民会館前停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "スーパーキッド 宇土店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "セブンイレブン 南段原町店",
-     "min": "3",
-     "cat": "conbini"
-    },
-    {
-     "name": "はたて耳鼻咽喉科クリニック",
-     "min": "4",
-     "cat": "hospital"
-    },
-    {
-     "name": "むらかみ眼科クリニック",
-     "min": "5",
-     "cat": "hospital"
-    },
-    {
-     "name": "宇土シティーモール",
-     "min": "11",
-     "cat": "mall"
     }
    ],
    "photos": [
@@ -3968,7 +3844,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -3987,41 +3863,16 @@
    "landArea": "166.91㎡（50.49坪）",
    "parking": "",
    "units": "",
-   "elementary": "飽田東小学校",
-   "elementaryMin": "6",
-   "junior": "飽田中学校",
-   "juniorMin": "11",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
    "facilities": [
     {
      "name": "西熊本駅",
      "min": "",
      "cat": "station",
      "auto": true
-    },
-    {
-     "name": "産交バス 八分字停",
-     "min": "7",
-     "cat": "bus"
-    },
-    {
-     "name": "ローソン 熊本砂原店",
-     "min": "7",
-     "cat": "conbini"
-    },
-    {
-     "name": "ぺえ小児科医院",
-     "min": "7",
-     "cat": "hospital"
-    },
-    {
-     "name": "ファミリーマート 飽田店",
-     "min": "8",
-     "cat": "conbini"
-    },
-    {
-     "name": "かやの歯科医院",
-     "min": "10",
-     "cat": "hospital"
     }
    ],
    "photos": [
@@ -4063,10 +3914,486 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
+  },
+  {
+   "id": "kyuken-7110",
+   "source": "kyuken",
+   "name": "八幡9丁目 5号地",
+   "price": "",
+   "address": "熊本県熊本市南区八幡9丁目5",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-%e5%9b%a3%e5%9c%b0-5%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "",
+   "buildingArea": "90.64㎡（27.42坪）",
+   "landArea": "181.55㎡（54.92坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "川尻駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/61872848d36aa175feb3342e772f389b.jpg",
+     "main": true,
+     "local": "data/img/5d2478f00c74e7b31f95.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/19f9249579ab2cdca7d54f1d4148c247.jpg",
+     "main": false,
+     "local": "data/img/65e325ae4aec97e36d79.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132625.jpg",
+     "main": false,
+     "local": "data/img/117cd9687578c0cf1eec.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132653.jpg",
+     "main": false,
+     "local": "data/img/5dc088e68c5efa03d4fd.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0883.jpg",
+     "main": false,
+     "local": "data/img/649dff6a38731ca60279.jpg"
+    }
+   ],
+   "locText": "32.740758, 130.689490",
+   "locPrec": "area",
+   "hpText": "",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-03T06:06:42.481Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": [],
+   "relistedAt": ""
+  },
+  {
+   "id": "kyuken-7135",
+   "source": "kyuken",
+   "name": "新須屋駅前Ⅲ 2号地",
+   "price": "",
+   "address": "熊本県合志市須屋",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e6%96%b0%e9%a0%88%e5%b1%8b%e9%a7%85%e5%89%8d%e2%85%b2-%e5%9b%a3%e5%9c%b0-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.50㎡（34.94坪）",
+   "landArea": "201.55㎡（60.97坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/8564d56198149cebe72352c0dd94cdc9.jpg",
+     "main": true,
+     "local": "data/img/4877810f7891ec0b93ce.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7135-7119-02-89ff19b70d3eb0a6e546a763b61e01b6-1-770x500-1.jpg",
+     "main": false,
+     "local": "data/img/54cf3624db5178bb974a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142418-1.jpg",
+     "main": false,
+     "local": "data/img/132af8d33862f6ad4d82.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142346.jpg",
+     "main": false,
+     "local": "data/img/d6ced3a9c0a12af42b4e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3061.jpg",
+     "main": false,
+     "local": "data/img/77a219a3725f1c66c2d8.jpg"
+    }
+   ],
+   "locText": "32.854879, 130.728431",
+   "locPrec": "area",
+   "hpText": "",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-11T07:02:23.004Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": [],
+   "relistedAt": ""
+  },
+  {
+   "id": "kyuken-7150",
+   "source": "kyuken",
+   "name": "益城町役場前 1号地",
+   "price": "",
+   "address": "熊本県上益城郡益城町大字宮園字辻",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e7%9b%8a%e5%9f%8e%e7%94%ba%e5%bd%b9%e5%a0%b4%e5%89%8d-%e5%9b%a3%e5%9c%b0-1%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "116.73㎡（35.31坪）",
+   "landArea": "223.01㎡（67.46坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "健軍町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/1719f7524ff101365da7a14dfcf1c23a-scaled.jpg",
+     "main": true,
+     "local": "data/img/4c2a76431a43249f9bcd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DJI_20260831102248_0014_D.jpg",
+     "main": false,
+     "local": "data/img/cf61281f93e904a3a90a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152733.jpg",
+     "main": false,
+     "local": "data/img/c36977a70a2a64d3663b.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152629.jpg",
+     "main": false,
+     "local": "data/img/66a99af49c21485bd599.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260629_152827.jpg",
+     "main": false,
+     "local": "data/img/b2eefb7bf358ac37b5e1.jpg"
+    }
+   ],
+   "locText": "32.791649, 130.813106",
+   "locPrec": "area",
+   "hpText": "益城町役場まで約310ｍ",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-13T07:36:45.770Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-7152",
+   "source": "kyuken",
+   "name": "飽田東 8-2号地",
+   "price": "",
+   "address": "熊本県熊本市南区八分字町",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%a3%bd%e7%94%b0%e6%9d%b1-%e5%9b%a3%e5%9c%b0-8-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "117.98㎡（35.69坪）",
+   "landArea": "165.45㎡（50.05坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/06/20260526_095635.jpg",
+     "main": true,
+     "local": "data/img/9398518a547865ec35b4.jpg"
+    }
+   ],
+   "locText": "32.759752, 130.662760",
+   "locPrec": "area",
+   "hpText": "回遊動線を配した家族の繋がり重視の設計。全室クローゼットや大型WICなど収納充実な4LDKです。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-13T07:36:45.771Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-7161",
+   "source": "kyuken",
+   "name": "クレストタウン宇土新松原 34号地",
+   "price": "",
+   "address": "熊本県宇土市新松原",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%82%af%e3%83%ac%e3%82%b9%e3%83%88%e3%82%bf%e3%82%a6%e3%83%b3%e5%ae%87%e5%9c%9f%e6%96%b0%e6%9d%be%e5%8e%9f-%e5%9b%a3%e5%9c%b0-34%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "113.59㎡（34.36坪）",
+   "landArea": "",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/02/20260228_125719.jpg",
+     "main": true,
+     "local": "data/img/0c5d62e282eee34348aa.jpg"
+    }
+   ],
+   "locText": "32.689210, 130.670556",
+   "locPrec": "area",
+   "hpText": "19.5帖の大空間LDKや効率的な回遊動線！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-13T07:36:45.771Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-7171",
+   "source": "kyuken",
+   "name": "高平1丁目Ⅲ 2号地",
+   "price": "",
+   "address": "熊本県熊本市北区高平1丁目36",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e9%ab%98%e5%b9%b31%e4%b8%81%e7%9b%ae%e2%85%b2-%e5%9b%a3%e5%9c%b0-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.47㎡（34.93坪）",
+   "landArea": "190.74㎡（57.70坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "亀井駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/04/DSC_0059-2.jpg",
+     "main": true,
+     "local": "data/img/5607328ebe33d8b5c84d.jpg"
+    }
+   ],
+   "locText": "32.837829, 130.711834",
+   "locPrec": "area",
+   "hpText": "共働き夫婦を助ける「収納＆動線」が秀逸。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-13T07:36:45.771Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": []
+  },
+  {
+   "id": "kyuken-900413",
+   "source": "kyuken",
+   "name": "八幡9丁目 3号地",
+   "price": "",
+   "address": "熊本県熊本市南区八幡9丁目5",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9%e3%80%9040",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "114.61㎡（34.67坪）",
+   "landArea": "167.14㎡（50.56坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "川尻駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/89ff19b70d3eb0a6e546a763b61e01b6-scaled.jpg",
+     "main": true,
+     "local": "data/img/52c942a57e0890806f26.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154534.jpg",
+     "main": false,
+     "local": "data/img/797c95c72c215ed48157.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154555.jpg",
+     "main": false,
+     "local": "data/img/b6d4eb58e47a942baed3.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154623.jpg",
+     "main": false,
+     "local": "data/img/9893464d57d920e54c5c.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154647.jpg",
+     "main": false,
+     "local": "data/img/fb4710975ad677205722.jpg"
+    }
+   ],
+   "locText": "32.740758, 130.689490",
+   "locPrec": "area",
+   "hpText": "",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T12:04:37.963Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": [],
+   "relistedAt": ""
+  },
+  {
+   "id": "kyuken-900484",
+   "source": "kyuken",
+   "name": "植木町滴水 2号地",
+   "price": "",
+   "address": "熊本県合志市須屋",
+   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e6%a4%8d%e6%9c%a8%e7%94%ba%e6%bb%b4%e6%b0%b4-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "",
+   "buildingArea": "115.90㎡（35.06坪）",
+   "landArea": "178.61㎡（54.03坪）",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "植木駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/87a4d45a5590d3154f27804ad0e687fa.jpg",
+     "main": true,
+     "local": "data/img/db54e4aa5fed231dd4d7.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3281.jpg",
+     "main": false,
+     "local": "data/img/84c45ade793ba0035747.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3292.jpg",
+     "main": false,
+     "local": "data/img/5a786553e58966cf2e4c.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3304.jpg",
+     "main": false,
+     "local": "data/img/30e13b6831423fe67247.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3311.jpg",
+     "main": false,
+     "local": "data/img/8306e3bab44e6326bb9d.jpg"
+    }
+   ],
+   "locText": "32.892147, 130.688963",
+   "locPrec": "area",
+   "hpText": "",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-13T07:36:45.771Z",
+   "lastSeen": "2026-10-13",
+   "priceChanges": [],
+   "priceSnapshots": []
   },
   {
    "id": "kyuken-7059",
@@ -4170,103 +4497,9 @@
    "locPrec": "area",
    "hpText": "益城町役場まで約310ｍ",
    "tags": [],
-   "status": "active",
-   "endedAt": "",
+   "status": "ended",
+   "endedAt": "2026-10-13",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-12",
-   "priceChanges": [],
-   "priceSnapshots": [],
-   "relistedAt": ""
-  },
-  {
-   "id": "kyuken-7110",
-   "source": "kyuken",
-   "name": "八幡9丁目 5号地",
-   "price": "",
-   "address": "熊本県熊本市南区八幡9丁目5",
-   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-%e5%9b%a3%e5%9c%b0-5%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "",
-   "buildingArea": "90.64㎡（27.42坪）",
-   "landArea": "181.55㎡（54.92坪）",
-   "parking": "",
-   "units": "",
-   "elementary": "川尻小学校",
-   "elementaryMin": "13",
-   "junior": "城南中学校",
-   "juniorMin": "8",
-   "facilities": [
-    {
-     "name": "JR川尻駅",
-     "min": "15",
-     "cat": "station"
-    },
-    {
-     "name": "産交バス 元三町停",
-     "min": "2",
-     "cat": "bus"
-    },
-    {
-     "name": "大宮整形外科クリニック",
-     "min": "10",
-     "cat": "hospital"
-    },
-    {
-     "name": "セブンイレブン 野田1丁目店",
-     "min": "11",
-     "cat": "conbini"
-    },
-    {
-     "name": "川尻尾崎内科",
-     "min": "11",
-     "cat": "hospital"
-    },
-    {
-     "name": "ザ・ビッグエクスプレス 川尻店：各",
-     "min": "15",
-     "cat": "other"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/61872848d36aa175feb3342e772f389b.jpg",
-     "main": true,
-     "local": "data/img/5d2478f00c74e7b31f95.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/19f9249579ab2cdca7d54f1d4148c247.jpg",
-     "main": false,
-     "local": "data/img/65e325ae4aec97e36d79.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132625.jpg",
-     "main": false,
-     "local": "data/img/117cd9687578c0cf1eec.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260605_132653.jpg",
-     "main": false,
-     "local": "data/img/5dc088e68c5efa03d4fd.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_0883.jpg",
-     "main": false,
-     "local": "data/img/649dff6a38731ca60279.jpg"
-    }
-   ],
-   "locText": "32.740758, 130.689490",
-   "locPrec": "area",
-   "hpText": "",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-10-03T06:06:42.481Z",
    "lastSeen": "2026-10-12",
    "priceChanges": [],
    "priceSnapshots": [],
@@ -4353,298 +4586,10 @@
    "locPrec": "area",
    "hpText": "",
    "tags": [],
-   "status": "active",
-   "endedAt": "",
+   "status": "ended",
+   "endedAt": "2026-10-13",
    "createdAt": "2026-10-03T06:06:42.481Z",
    "lastSeen": "2026-10-12",
-   "priceChanges": [],
-   "priceSnapshots": [],
-   "relistedAt": ""
-  },
-  {
-   "id": "kyuken-7135",
-   "source": "kyuken",
-   "name": "新須屋駅前Ⅲ 2号地",
-   "price": "",
-   "address": "熊本県合志市須屋",
-   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e6%96%b0%e9%a0%88%e5%b1%8b%e9%a7%85%e5%89%8d%e2%85%b2-%e5%9b%a3%e5%9c%b0-2%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab",
-   "layout": "4LDK",
-   "stories": "",
-   "builtAt": "",
-   "buildingArea": "115.50㎡（34.94坪）",
-   "landArea": "201.55㎡（60.97坪）",
-   "parking": "",
-   "units": "",
-   "elementary": "西合志南小学校",
-   "elementaryMin": "16",
-   "junior": "西合志南中学校",
-   "juniorMin": "31",
-   "facilities": [
-    {
-     "name": "熊本電鉄 新須屋駅",
-     "min": "7",
-     "cat": "station"
-    },
-    {
-     "name": "電鉄バス 須屋小屋停",
-     "min": "5",
-     "cat": "bus"
-    },
-    {
-     "name": "ローソン 合志須屋店",
-     "min": "5",
-     "cat": "conbini"
-    },
-    {
-     "name": "鮮ど市場 飛田店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "コスモス 飛田店",
-     "min": "11",
-     "cat": "drug"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/8564d56198149cebe72352c0dd94cdc9.jpg",
-     "main": true,
-     "local": "data/img/4877810f7891ec0b93ce.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/7135-7119-02-89ff19b70d3eb0a6e546a763b61e01b6-1-770x500-1.jpg",
-     "main": false,
-     "local": "data/img/54cf3624db5178bb974a.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142418-1.jpg",
-     "main": false,
-     "local": "data/img/132af8d33862f6ad4d82.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260929_142346.jpg",
-     "main": false,
-     "local": "data/img/d6ced3a9c0a12af42b4e.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_3061.jpg",
-     "main": false,
-     "local": "data/img/77a219a3725f1c66c2d8.jpg"
-    }
-   ],
-   "locText": "32.854879, 130.728431",
-   "locPrec": "area",
-   "hpText": "",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-10-11T07:02:23.004Z",
-   "lastSeen": "2026-10-12",
-   "priceChanges": [],
-   "priceSnapshots": [],
-   "relistedAt": ""
-  },
-  {
-   "id": "kyuken-900413",
-   "source": "kyuken",
-   "name": "八幡9丁目 3号地",
-   "price": "",
-   "address": "熊本県熊本市南区八幡9丁目5",
-   "detailUrl": "https://kyukenhome.co.jp/property/%e3%80%90%e6%96%b0%e7%af%89%e5%88%86%e8%ad%b2%e4%bd%8f%e5%ae%85%e3%80%91%e5%85%ab%e5%b9%a19%e4%b8%81%e7%9b%ae-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9%e3%80%9040",
-   "layout": "4LDK",
-   "stories": "",
-   "builtAt": "",
-   "buildingArea": "114.61㎡（34.67坪）",
-   "landArea": "167.14㎡（50.56坪）",
-   "parking": "",
-   "units": "",
-   "elementary": "川尻小学校",
-   "elementaryMin": "13",
-   "junior": "城南中学校",
-   "juniorMin": "8",
-   "facilities": [
-    {
-     "name": "JR川尻駅",
-     "min": "15",
-     "cat": "station"
-    },
-    {
-     "name": "産交バス 元三町停",
-     "min": "2",
-     "cat": "bus"
-    },
-    {
-     "name": "大宮整形外科クリニック",
-     "min": "10",
-     "cat": "hospital"
-    },
-    {
-     "name": "セブンイレブン 野田1丁目店",
-     "min": "11",
-     "cat": "conbini"
-    },
-    {
-     "name": "川尻尾崎内科",
-     "min": "11",
-     "cat": "hospital"
-    },
-    {
-     "name": "ザ・ビッグエクスプレス 川尻店：各",
-     "min": "15",
-     "cat": "other"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/89ff19b70d3eb0a6e546a763b61e01b6-scaled.jpg",
-     "main": true,
-     "local": "data/img/52c942a57e0890806f26.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154534.jpg",
-     "main": false,
-     "local": "data/img/797c95c72c215ed48157.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154555.jpg",
-     "main": false,
-     "local": "data/img/b6d4eb58e47a942baed3.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154623.jpg",
-     "main": false,
-     "local": "data/img/9893464d57d920e54c5c.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20261009_154647.jpg",
-     "main": false,
-     "local": "data/img/fb4710975ad677205722.jpg"
-    }
-   ],
-   "locText": "32.740758, 130.689490",
-   "locPrec": "area",
-   "hpText": "",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-10-09T12:04:37.963Z",
-   "lastSeen": "2026-10-12",
-   "priceChanges": [],
-   "priceSnapshots": [],
-   "relistedAt": ""
-  },
-  {
-   "id": "kyuken-6684",
-   "source": "kyuken",
-   "name": "宇土鶴城中前 3号地",
-   "price": "",
-   "address": "熊本県宇土市南段原町",
-   "detailUrl": "https://kyukenhome.co.jp/property/%e5%ae%87%e5%9c%9f%e9%b6%b4%e5%9f%8e%e4%b8%ad%e5%89%8d-%e5%9b%a3%e5%9c%b0-3%e5%8f%b7%e5%9c%b0-%e3%83%a2%e3%83%87%e3%83%ab%e3%83%8f%e3%82%a6%e3%82%b9",
-   "layout": "4LDK",
-   "stories": "",
-   "builtAt": "",
-   "buildingArea": "115.87㎡（35.05坪）",
-   "landArea": "182.21㎡（55.12坪）",
-   "parking": "",
-   "units": "",
-   "elementary": "宇土小学校",
-   "elementaryMin": "13",
-   "junior": "鶴城中学校",
-   "juniorMin": "3",
-   "facilities": [
-    {
-     "name": "宇土駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "産交バス 宇土本町1丁目・宇土高校入口停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "宇土市バス 宇土市民会館前停",
-     "min": "6",
-     "cat": "bus"
-    },
-    {
-     "name": "スーパーキッド 宇土店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "セブンイレブン 南段原町店",
-     "min": "3",
-     "cat": "conbini"
-    },
-    {
-     "name": "はたて耳鼻咽喉科クリニック",
-     "min": "4",
-     "cat": "hospital"
-    },
-    {
-     "name": "むらかみ眼科クリニック",
-     "min": "5",
-     "cat": "hospital"
-    },
-    {
-     "name": "宇土シティーモール",
-     "min": "11",
-     "cat": "mall"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/aafe4701403b9b650721ceb69837f57d-scaled.jpg",
-     "main": true,
-     "local": "data/img/74438445ed53e8eff2f0.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_105905.jpg",
-     "main": false,
-     "local": "data/img/35a2c0882ad505f546eb.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110456.jpg",
-     "main": false,
-     "local": "data/img/d8ebc9053e74bcc53146.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/DSC_9260.jpg",
-     "main": false,
-     "local": "data/img/62a4a5b1cb4c877ff789.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://kyukenhome.co.jp/wp/wp-content/uploads/2026/10/20260313_110618.jpg",
-     "main": false,
-     "local": "data/img/588032c11dead10614de.jpg"
-    }
-   ],
-   "locText": "32.681705, 130.661558",
-   "locPrec": "area",
-   "hpText": "鶴城中まで徒歩3分",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-11",
-   "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-10-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4734,7 +4679,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4829,7 +4774,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4924,7 +4869,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5019,7 +4964,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -5124,7 +5069,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5214,7 +5159,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -5319,7 +5264,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -5424,7 +5369,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -5534,7 +5479,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5639,7 +5584,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5724,7 +5669,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5824,7 +5769,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -5924,7 +5869,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6014,7 +5959,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6034,7 +5979,7 @@
    "layout": "3LDK",
    "stories": "2階建て",
    "builtAt": "",
-   "buildingArea": "106.40㎡（32.18坪）",
+   "buildingArea": "101.67㎡（30.75坪）",
    "landArea": "208.1㎡（62.95坪）",
    "parking": "2台",
    "units": "",
@@ -6114,7 +6059,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6214,7 +6159,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6244,10 +6189,14 @@
    "juniorMin": "14",
    "facilities": [
     {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
+     "name": "ＪＲ鹿児島本線「西里」駅",
+     "min": "33",
+     "cat": "station"
+    },
+    {
+     "name": "九州産交バス「鹿子木バス停」",
+     "min": "5",
+     "cat": "bus"
     },
     {
      "name": "セブンイレブン",
@@ -6309,7 +6258,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6398,7 +6347,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6487,7 +6436,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6576,7 +6525,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6665,7 +6614,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6759,7 +6708,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6853,7 +6802,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6933,7 +6882,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7037,7 +6986,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7127,7 +7076,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7222,7 +7171,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7317,7 +7266,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -7402,7 +7351,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7492,7 +7441,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7582,7 +7531,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7682,7 +7631,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7766,7 +7715,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7856,7 +7805,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7940,7 +7889,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8030,7 +7979,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8120,7 +8069,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8209,7 +8158,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8272,33 +8221,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E5%8C%97%E5%8C%BA-%E6%A5%A01%E6%9C%9F.jpg",
-     "main": true,
-     "local": "data/img/d64ab4d5556f7da7d9fd.jpg"
-    },
-    {
-     "id": "p2",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E6%98%BC%E6%99%AF_v2.jpg",
-     "main": false,
+     "main": true,
      "local": "data/img/d68cd4ed2c82eb46f0d9.jpg"
     },
     {
-     "id": "p3",
+     "id": "p2",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E5%A4%95%E6%99%AF_v2.jpg",
      "main": false,
      "local": "data/img/c9bada3f05c1010a6179.jpg"
     },
     {
-     "id": "p4",
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E6%9C%9F1%E5%8F%B7%E6%A3%9F_Photo-9_%E4%BD%8F%E5%AE%85%E5%9C%B0%E8%83%8C%E6%99%AF_%E5%A4%9C%E6%99%AF_v2.jpg",
      "main": false,
      "local": "data/img/51547a0ebc9bd13abfc2.jpg"
     },
     {
-     "id": "p5",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E7%86%8A%E6%9C%AC%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A5%A01%E6%9C%9F-1%E5%8F%B7%E6%A3%9F_Photo-2.jpg",
      "main": false,
      "local": "data/img/cd7994ec1a51613d9555.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E7%86%8A%E6%9C%AC%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A5%A01%E6%9C%9F-1%E5%8F%B7%E6%A3%9F_Photo-6.jpg",
+     "main": false,
+     "local": "data/img/e810c9e03ef102e5c236.jpg"
     }
    ],
    "locText": "32.8458022, 130.7595529",
@@ -8308,7 +8257,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8407,7 +8356,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8506,7 +8455,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8600,7 +8549,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8694,7 +8643,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8799,96 +8748,12 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "3,365万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "takasugi-4533",
-   "source": "takasugi",
-   "name": "熊本市北区下硯川町 3号地",
-   "price": "3,358万円",
-   "address": "熊本県熊本市北区下硯川町字鶴畑1882-5付近",
-   "detailUrl": "https://home.takasugi.co.jp/house/4533/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "",
-   "buildingArea": "104.33㎡（31.55坪）",
-   "landArea": "204.66㎡（61.90坪）",
-   "parking": "4台",
-   "units": "",
-   "elementary": "西里小学校",
-   "elementaryMin": "3",
-   "junior": "北部中学校",
-   "juniorMin": "23",
-   "facilities": [
-    {
-     "name": "JR鹿児島本線「西里」駅",
-     "min": "7",
-     "cat": "station"
-    },
-    {
-     "name": "熊本電鉄バス「昇立」バス停",
-     "min": "13",
-     "cat": "bus"
-    },
-    {
-     "name": "大迫公園",
-     "min": "9",
-     "cat": "park"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_15-%E3%83%95%E3%82%A9%E3%83%88.jpg",
-     "main": true,
-     "local": "data/img/bff8f437ff9cfd1dde7d.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-9.jpg",
-     "main": false,
-     "local": "data/img/c174ac27dedceb1c1359.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-10.jpg",
-     "main": false,
-     "local": "data/img/25eb068d781ecc2600e1.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_13-%E3%83%95%E3%82%A9%E3%83%88.jpg",
-     "main": false,
-     "local": "data/img/a960557571e620fca5a5.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_14-%E3%83%95%E3%82%A9%E3%83%88.jpg",
-     "main": false,
-     "local": "data/img/4a67f5a815edf804a144.jpg"
-    }
-   ],
-   "locText": "32.8557631, 130.7017155",
-   "locPrec": "",
-   "hpText": "スムーズな家事動線とゆとりの4LDK。家族みんなの「心地よい」が詰まった住まい",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-29",
-     "price": "3,358万円"
     }
    ],
    "relistedAt": ""
@@ -8992,7 +8857,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9097,7 +8962,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9187,7 +9052,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9281,7 +9146,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9386,7 +9251,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9490,12 +9355,96 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "3,949万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "takasugi-4533",
+   "source": "takasugi",
+   "name": "熊本市北区下硯川町 3号地",
+   "price": "3,358万円",
+   "address": "熊本県熊本市北区下硯川町字鶴畑1882-5付近",
+   "detailUrl": "https://home.takasugi.co.jp/house/4533/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "",
+   "buildingArea": "104.33㎡（31.55坪）",
+   "landArea": "204.66㎡（61.90坪）",
+   "parking": "4台",
+   "units": "",
+   "elementary": "西里小学校",
+   "elementaryMin": "3",
+   "junior": "北部中学校",
+   "juniorMin": "23",
+   "facilities": [
+    {
+     "name": "JR鹿児島本線「西里」駅",
+     "min": "7",
+     "cat": "station"
+    },
+    {
+     "name": "熊本電鉄バス「昇立」バス停",
+     "min": "13",
+     "cat": "bus"
+    },
+    {
+     "name": "大迫公園",
+     "min": "9",
+     "cat": "park"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_15-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": true,
+     "local": "data/img/bff8f437ff9cfd1dde7d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-9.jpg",
+     "main": false,
+     "local": "data/img/c174ac27dedceb1c1359.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_Photo-10.jpg",
+     "main": false,
+     "local": "data/img/25eb068d781ecc2600e1.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_13-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": false,
+     "local": "data/img/a960557571e620fca5a5.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/08/%E8%A5%BF%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1%E6%A1%9C%E5%8F%B0%E7%AC%AC%E4%BA%8C-3%E5%8F%B7%E5%9C%B0_14-%E3%83%95%E3%82%A9%E3%83%88.jpg",
+     "main": false,
+     "local": "data/img/4a67f5a815edf804a144.jpg"
+    }
+   ],
+   "locText": "32.8557631, 130.7017155",
+   "locPrec": "",
+   "hpText": "スムーズな家事動線とゆとりの4LDK。家族みんなの「心地よい」が詰まった住まい",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-13",
+   "createdAt": "2026-09-29T08:10:00.721Z",
+   "lastSeen": "2026-10-12",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-29",
+     "price": "3,358万円"
     }
    ],
    "relistedAt": ""
@@ -9745,7 +9694,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.024Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9820,7 +9769,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9900,7 +9849,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9975,7 +9924,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10055,7 +10004,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10130,7 +10079,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10204,7 +10153,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10279,7 +10228,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10358,7 +10307,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10433,7 +10382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10508,7 +10457,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10583,7 +10532,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10658,7 +10607,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10733,7 +10682,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10813,7 +10762,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10888,7 +10837,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10967,7 +10916,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11126,7 +11075,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-28",
@@ -11215,7 +11164,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-28",
@@ -11304,7 +11253,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-28",
@@ -11393,7 +11342,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11472,7 +11421,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11551,7 +11500,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11630,7 +11579,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11709,7 +11658,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11788,7 +11737,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-07T00:40:19.896Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11867,7 +11816,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11946,7 +11895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12025,7 +11974,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12104,7 +12053,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-28",
@@ -12193,7 +12142,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-07T00:40:19.896Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12272,7 +12221,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12351,7 +12300,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-07T00:40:19.896Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12430,7 +12379,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:57:51.880Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12509,7 +12458,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:51:38.775Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12618,7 +12567,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12727,7 +12676,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:41:38.383Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12831,7 +12780,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12940,7 +12889,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13049,7 +12998,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13158,7 +13107,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13267,7 +13216,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13376,7 +13325,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13485,7 +13434,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13588,7 +13537,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13697,7 +13646,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13806,7 +13755,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13915,7 +13864,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14024,7 +13973,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14133,7 +14082,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14242,7 +14191,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14351,7 +14300,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14460,7 +14409,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14569,7 +14518,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14678,7 +14627,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14787,7 +14736,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14896,7 +14845,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T01:02:08.056Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15005,7 +14954,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:51:04.302Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15114,7 +15063,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15223,7 +15172,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15611,7 +15560,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -15692,7 +15641,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -15773,7 +15722,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -15854,7 +15803,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -15935,7 +15884,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -16016,7 +15965,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16097,7 +16046,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16187,7 +16136,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16266,7 +16215,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -16362,7 +16311,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -16476,7 +16425,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -16592,7 +16541,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -16681,7 +16630,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16763,7 +16712,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16825,7 +16774,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16887,7 +16836,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16948,7 +16897,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17029,7 +16978,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17115,7 +17064,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -17207,7 +17156,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -17279,7 +17228,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -17349,7 +17298,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -17421,7 +17370,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -17502,7 +17451,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-21T04:54:24.334Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -17573,7 +17522,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -17645,7 +17594,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17726,7 +17675,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17807,7 +17756,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17905,7 +17854,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -17995,7 +17944,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18076,7 +18025,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18157,7 +18106,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18238,7 +18187,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18319,7 +18268,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18400,7 +18349,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18481,7 +18430,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18553,7 +18502,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18634,7 +18583,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18741,7 +18690,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -18824,7 +18773,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -18916,7 +18865,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19014,7 +18963,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -19103,7 +19052,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19201,7 +19150,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19299,7 +19248,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19388,7 +19337,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19477,7 +19426,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -19575,7 +19524,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19667,7 +19616,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19749,7 +19698,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -19820,7 +19769,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -19890,7 +19839,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -19961,7 +19910,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -20057,7 +20006,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20136,7 +20085,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -20252,7 +20201,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -20344,7 +20293,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -20433,7 +20382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-02",
@@ -20522,7 +20471,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -20613,7 +20562,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20675,7 +20624,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -20747,7 +20696,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -20819,7 +20768,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -20907,7 +20856,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -20996,7 +20945,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -21085,7 +21034,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -21183,7 +21132,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -21264,7 +21213,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -21354,7 +21303,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -21426,7 +21375,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -21515,7 +21464,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21594,7 +21543,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21683,7 +21632,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -21772,7 +21721,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21861,7 +21810,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21934,7 +21883,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-27",
@@ -22023,7 +21972,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -22121,7 +22070,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22200,7 +22149,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -22289,7 +22238,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22368,7 +22317,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22447,7 +22396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -22536,7 +22485,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22615,7 +22564,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22694,7 +22643,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22773,7 +22722,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22852,7 +22801,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22931,7 +22880,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23010,7 +22959,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23089,7 +23038,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -23161,7 +23110,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -23233,7 +23182,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23295,7 +23244,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23357,7 +23306,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23419,7 +23368,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23481,7 +23430,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -23553,7 +23502,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23615,7 +23564,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23677,7 +23626,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23739,7 +23688,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23801,7 +23750,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23880,7 +23829,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:43:39.780Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -23952,7 +23901,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24014,7 +23963,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -24086,7 +24035,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24148,7 +24097,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24210,7 +24159,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24279,7 +24228,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24348,7 +24297,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24417,7 +24366,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24479,7 +24428,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -24551,7 +24500,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24620,7 +24569,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24689,7 +24638,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24758,7 +24707,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24820,7 +24769,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24882,7 +24831,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24944,7 +24893,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25006,7 +24955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25068,7 +25017,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25137,7 +25086,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25206,7 +25155,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25268,7 +25217,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25330,7 +25279,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25399,7 +25348,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25468,7 +25417,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25537,7 +25486,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25606,7 +25555,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25675,7 +25624,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25744,7 +25693,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25813,7 +25762,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:43:59.668Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25875,7 +25824,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:43:59.668Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25937,7 +25886,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-29T23:18:16.565Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25999,7 +25948,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-29T23:18:16.566Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26061,7 +26010,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T23:03:43.623Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26123,7 +26072,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T23:03:43.623Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26185,7 +26134,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26247,7 +26196,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26309,7 +26258,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26371,7 +26320,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26433,7 +26382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-06T22:57:56.864Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26512,7 +26461,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26591,7 +26540,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26670,7 +26619,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26749,7 +26698,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26822,7 +26771,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-20T23:15:10.119Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26884,7 +26833,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-02T00:46:26.913Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26946,7 +26895,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-02T00:46:26.913Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27008,7 +26957,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27070,7 +27019,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27132,7 +27081,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27194,7 +27143,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27256,7 +27205,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27325,7 +27274,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.575Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27394,7 +27343,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27463,7 +27412,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27543,7 +27492,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27605,7 +27554,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-02T00:46:26.913Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27674,7 +27623,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27743,7 +27692,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27812,7 +27761,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27892,7 +27841,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-05T00:02:39.998Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27959,7 +27908,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-05T00:02:39.998Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28032,7 +27981,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-05T00:02:39.998Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28094,7 +28043,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28156,7 +28105,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28223,7 +28172,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28296,7 +28245,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28369,7 +28318,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28442,7 +28391,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28504,7 +28453,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28566,7 +28515,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28628,7 +28577,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28690,7 +28639,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28753,7 +28702,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28815,7 +28764,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28877,7 +28826,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28939,7 +28888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -29010,7 +28959,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -29082,7 +29031,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -29161,7 +29110,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -29234,7 +29183,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -29295,7 +29244,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -29364,7 +29313,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -29433,7 +29382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -29510,7 +29459,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -29587,7 +29536,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -29664,7 +29613,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -29741,7 +29690,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -29833,7 +29782,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -29919,7 +29868,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30005,7 +29954,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30100,7 +30049,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30177,7 +30126,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30272,7 +30221,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30358,7 +30307,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30444,7 +30393,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30521,7 +30470,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30598,7 +30547,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -33926,7 +33875,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-23",
@@ -34018,7 +33967,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -34128,7 +34077,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -34229,7 +34178,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -34330,7 +34279,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -34431,7 +34380,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -34502,7 +34451,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34575,7 +34524,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34648,7 +34597,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-12T22:59:06.550Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34721,7 +34670,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-14T23:51:46.248Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34794,7 +34743,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-18T23:12:57.992Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34861,7 +34810,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.785Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -34934,7 +34883,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -35044,7 +34993,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -35136,7 +35085,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-17",
@@ -35237,7 +35186,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -35338,7 +35287,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -35451,7 +35400,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -35561,7 +35510,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -35644,7 +35593,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -35736,7 +35685,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -35819,7 +35768,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -35892,7 +35841,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -35978,7 +35927,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -36070,7 +36019,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -36153,7 +36102,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -36226,7 +36175,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -36327,7 +36276,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-07T01:05:55.774Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -36419,7 +36368,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:39:24.777Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -36502,7 +36451,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-06",
@@ -36585,7 +36534,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-28",
@@ -36668,7 +36617,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-09",
@@ -36760,7 +36709,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -36833,7 +36782,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:46:26.024Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -36906,7 +36855,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-29",
@@ -36989,7 +36938,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37062,7 +37011,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-18T21:33:38.152Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37135,7 +37084,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-15T23:32:43.817Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37208,7 +37157,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -37291,7 +37240,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -37383,7 +37332,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.785Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-11",
@@ -37466,7 +37415,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-18T21:33:38.152Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37539,7 +37488,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37612,7 +37561,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.786Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37685,7 +37634,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-23",
@@ -37804,7 +37753,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -37923,7 +37872,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -38033,7 +37982,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -38125,7 +38074,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -38244,7 +38193,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -38323,7 +38272,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン益城町惣領第二",
    "price": "2,898万円",
-   "address": "熊本県上益城郡 益城町大字惣領字越川付877-12（地番）",
+   "address": "熊本県上益城郡 益城町大字惣領字越川付877-9（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591662-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -38381,7 +38330,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-19T21:34:44.699Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-08",
@@ -38464,7 +38413,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-15",
@@ -38547,7 +38496,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -38620,7 +38569,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-11",
@@ -38721,95 +38670,12 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-08T23:21:12.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-09-09",
      "price": "3,898万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "sumaiida-5011601000515593765-2",
-   "source": "sumaiida",
-   "name": "リーブルガーデン東区沼山津１丁目",
-   "price": "3,900万円",
-   "address": "熊本県熊本市 東区沼山津１丁目123番2（地番）",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515593765-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年9月",
-   "buildingArea": "117.58m²",
-   "landArea": "198.05m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市健軍線「健軍町」駅までバス4分「桜木小学校入口」停徒歩6分",
-     "min": "6",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130064574_3.jpg",
-     "main": true,
-     "local": "data/img/03bd95041beaf4fe0052.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130064574_4.jpg",
-     "main": false,
-     "local": "data/img/2883ea51b2f4273ba15f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130064574_5.jpg",
-     "main": false,
-     "local": "data/img/1075939a438c7619b6e7.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130064574_19.jpg",
-     "main": false,
-     "local": "data/img/c79c3b49a546f8d4f592.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130064574_20.jpg",
-     "main": false,
-     "local": "data/img/b8bf9bef9845e0c8688b.jpg"
-    }
-   ],
-   "locText": "32.7746, 130.77464",
-   "hpText": "一建設株式会社のリーブルガーデン東区沼山津１丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
-   "priceChanges": [
-    {
-     "date": "2026-10-06",
-     "from": "3,998万円",
-     "to": "3,900万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "3,998万円"
-    },
-    {
-     "date": "2026-10-06",
-     "price": "3,900万円"
     }
    ],
    "relistedAt": ""
@@ -38877,7 +38743,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -38950,7 +38816,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.483Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-06",
@@ -39033,7 +38899,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.484Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -39106,7 +38972,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:48:24.290Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -39179,7 +39045,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-16",
@@ -39280,7 +39146,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-16",
@@ -39372,7 +39238,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-12",
@@ -39491,7 +39357,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -39610,7 +39476,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-26",
@@ -39720,7 +39586,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-29",
@@ -39803,7 +39669,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -39895,7 +39761,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -39968,7 +39834,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T00:56:49.297Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40041,7 +39907,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-11T21:59:03.542Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-29",
@@ -40124,7 +39990,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-31T22:14:13.972Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40197,7 +40063,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:42:36.731Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40270,7 +40136,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:16:56.637Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40343,7 +40209,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-24T23:53:10.375Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40416,7 +40282,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:08:48.667Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40489,7 +40355,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-14",
@@ -40572,7 +40438,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-07-27",
@@ -40655,7 +40521,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-09-14",
@@ -40747,7 +40613,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-10",
@@ -40846,7 +40712,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40919,7 +40785,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -40992,12 +40858,95 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-01T23:16:24.970Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-09-02",
      "price": "2,890万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-5011601000515593765-2",
+   "source": "sumaiida",
+   "name": "リーブルガーデン東区沼山津１丁目",
+   "price": "3,900万円",
+   "address": "熊本県熊本市 東区沼山津１丁目123番2（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515593765-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "117.58m²",
+   "landArea": "198.05m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市健軍線「健軍町」駅までバス4分「桜木小学校入口」停徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_3.jpg",
+     "main": true,
+     "local": "data/img/03bd95041beaf4fe0052.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_4.jpg",
+     "main": false,
+     "local": "data/img/2883ea51b2f4273ba15f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_5.jpg",
+     "main": false,
+     "local": "data/img/1075939a438c7619b6e7.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_19.jpg",
+     "main": false,
+     "local": "data/img/c79c3b49a546f8d4f592.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064574_20.jpg",
+     "main": false,
+     "local": "data/img/b8bf9bef9845e0c8688b.jpg"
+    }
+   ],
+   "locText": "32.7746, 130.77464",
+   "hpText": "一建設株式会社のリーブルガーデン東区沼山津１丁目の物件詳細ページです。飯田グループホールディングスが熊本県熊本市東区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-13",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-10-12",
+   "priceChanges": [
+    {
+     "date": "2026-10-06",
+     "from": "3,998万円",
+     "to": "3,900万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,998万円"
+    },
+    {
+     "date": "2026-10-06",
+     "price": "3,900万円"
     }
    ],
    "relistedAt": ""
@@ -44569,7 +44518,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -44640,7 +44589,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -44717,7 +44666,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -44794,7 +44743,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-04",
@@ -44887,7 +44836,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-10-03",
@@ -44974,7 +44923,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45051,7 +45000,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45128,7 +45077,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45211,7 +45160,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45288,7 +45237,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45371,7 +45320,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45448,7 +45397,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45507,7 +45456,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45584,7 +45533,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45667,7 +45616,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45726,7 +45675,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45809,7 +45758,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45892,7 +45841,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -45969,7 +45918,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46040,7 +45989,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46123,7 +46072,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46206,7 +46155,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46283,7 +46232,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46360,7 +46309,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46437,7 +46386,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46514,7 +46463,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46585,7 +46534,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [
     {
      "date": "2026-08-15",
@@ -46688,7 +46637,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46765,7 +46714,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -46824,7 +46773,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-13",
    "priceChanges": [],
    "priceSnapshots": [
     {
