@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-24T05:38:57.299Z",
- "count": 599,
+ "updatedAt": "2026-10-24T12:25:28.406Z",
+ "count": 602,
  "listings": [
   {
    "id": "santa-792130",
@@ -9760,7 +9760,7 @@
   {
    "id": "takasugi-5676",
    "source": "takasugi",
-   "name": "熊本市中央区琴平本町 新築建売住宅│1号棟",
+   "name": "10/18新規公開・資料請求受付！ 熊本市中央区琴平本町 新築建売住宅│1号棟",
    "price": "4,049万円",
    "address": "熊本県熊本市中央区琴平本町82番8",
    "detailUrl": "https://home.takasugi.co.jp/house/5676/",
@@ -9860,6 +9860,222 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "takasugi-5732",
+   "source": "takasugi",
+   "name": "熊本市東区江津 1号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区江津2丁目340番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/5732/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年3月",
+   "buildingArea": "95.02㎡（28.74坪）",
+   "landArea": "119.27㎡（36.07坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "画図小学校",
+   "elementaryMin": "10",
+   "junior": "出水南中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "熊本市電Ｂ系統, 熊本市電Ａ系統「八丁馬場」駅",
+     "min": "27",
+     "cat": "station"
+    },
+    {
+     "name": "熊本都市バス「江津郵便局前」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン熊本江津２丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "ホームプラザナフコ江津店",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "マルショク江津",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "ゆめタウンはません",
+     "min": "19",
+     "cat": "mall"
+    },
+    {
+     "name": "ドラッグイレブン江津店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "坂本内科循環器科医院",
+     "min": "6",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/%E6%B1%9F%E6%B4%A51%E6%9C%9F1%E5%8F%B7%E6%A3%9F_%E5%86%85%E8%A6%B31.jpeg",
+     "main": true,
+     "local": "data/img/061493de2a36ad1fe289.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/%E6%B1%9F%E6%B4%A51%E6%9C%9F1%E5%8F%B7%E6%A3%9F_%E5%86%85%E8%A6%B33.jpeg",
+     "main": false,
+     "local": "data/img/a62af20d88d1b02e3f0a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/%E6%B1%9F%E6%B4%A51%E6%9C%9F1%E5%8F%B7%E6%A3%9F_%E5%86%85%E8%A6%B34.jpeg",
+     "main": false,
+     "local": "data/img/0233958e70a31345ee9f.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/%E6%B1%9F%E6%B4%A51%E6%9C%9F1%E5%8F%B7%E6%A3%9F_%E5%86%85%E8%A6%B32.jpeg",
+     "main": false,
+     "local": "data/img/edfe0b77ea4b69e1e867.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-%E6%B1%9F%E6%B4%A51%E6%9C%9F_14_%E6%98%BC%E6%99%AF_%E7%A2%BA%E8%AA%8D%E7%94%A8_1920x1080.jpg",
+     "main": false,
+     "local": "data/img/0e5c46b24af5609792b0.jpg"
+    }
+   ],
+   "locText": "32.7740262, 130.7326621",
+   "locPrec": "",
+   "hpText": "キッチンから洗面室へ直通できる動線。家族が自然とリビングに集まる、子育て世帯の4LDK。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-24T12:22:44.714Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-24",
+     "price": "3,498万円"
+    }
+   ]
+  },
+  {
+   "id": "takasugi-5741",
+   "source": "takasugi",
+   "name": "熊本市東区江津 2号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区江津2丁目340番10",
+   "detailUrl": "https://home.takasugi.co.jp/house/5741/",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年3月",
+   "buildingArea": "93.15㎡（28.17坪）",
+   "landArea": "119.28㎡（36.08坪）",
+   "parking": "2台",
+   "units": "",
+   "elementary": "画図小学校",
+   "elementaryMin": "10",
+   "junior": "出水南中学校",
+   "juniorMin": "9",
+   "facilities": [
+    {
+     "name": "熊本市電Ｂ系統, 熊本市電Ａ系統「八丁馬場」駅",
+     "min": "27",
+     "cat": "station"
+    },
+    {
+     "name": "熊本都市バス「江津郵便局前」バス停",
+     "min": "5",
+     "cat": "bus"
+    },
+    {
+     "name": "セブンイレブン熊本江津２丁目店",
+     "min": "4",
+     "cat": "conbini"
+    },
+    {
+     "name": "ホームプラザナフコ江津店",
+     "min": "5",
+     "cat": "other"
+    },
+    {
+     "name": "マルショク江津",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "ゆめタウンはません",
+     "min": "19",
+     "cat": "mall"
+    },
+    {
+     "name": "ドラッグイレブン江津店",
+     "min": "6",
+     "cat": "drug"
+    },
+    {
+     "name": "坂本内科循環器科医院",
+     "min": "6",
+     "cat": "hospital"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-edited-edit_1792819617815.jpg",
+     "main": true,
+     "local": "data/img/f67ec76fd5751ced24be.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-edited-edit_1792819457333.jpg",
+     "main": false,
+     "local": "data/img/fde6188e13e32887d0fc.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-edited-edit_1792819542354.jpg",
+     "main": false,
+     "local": "data/img/70b7af941458f6bd8328.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-edited-edit_1792819672402.jpg",
+     "main": false,
+     "local": "data/img/ca0f0dc07efd4d7ad49e.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/10/s-%E6%B1%9F%E6%B4%A51%E6%9C%9F_13_%E6%98%BC%E6%99%AF_%E7%A2%BA%E8%AA%8D%E7%94%A8_1920x1080.jpg",
+     "main": false,
+     "local": "data/img/638d6a52bba2f926ea3b.jpg"
+    }
+   ],
+   "locText": "32.7740262, 130.7326621",
+   "locPrec": "",
+   "hpText": "2階にファミクロとWICを備えた、収納充実の家",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-24T12:22:44.714Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-24",
+     "price": "3,498万円"
+    }
+   ]
   },
   {
    "id": "takasugi-846",
@@ -24252,6 +24468,202 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-106348055",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区黒髪6丁目1期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市中央区黒髪６丁目13-23-22",
+   "detailUrl": "https://bukken.yoka-town.com/room106348055.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "107.25㎡/ 32.44坪",
+   "landArea": "142.58㎡/ 43.13坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅 徒歩16分",
+     "min": "16",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106348055_1_652_555_3.jpg?t=01792028031",
+     "main": true,
+     "local": "data/img/a0f7962ae0a1d24b9714.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106348055_2_652_555_3.jpg?t=01792028031",
+     "main": false,
+     "local": "data/img/bedc17d22309569ac305.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106348055_3_652_555_3.jpg?t=01792028031",
+     "main": false,
+     "local": "data/img/374b0ba328b78354d322.jpg"
+    }
+   ],
+   "locText": "32.81465200, 130.73920200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区黒髪6丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区黒髪6丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-03T22:20:24.830Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-04",
+     "price": "3,698万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106348284",
+   "source": "yokatown",
+   "name": "熊本県熊本市東区２丁目１期１号棟",
+   "price": "3,298万円",
+   "address": "熊本県熊本市東区小山２丁目24-78",
+   "detailUrl": "https://bukken.yoka-town.com/room106348284.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "104.33㎡/ 31.55坪",
+   "landArea": "141.95㎡/ 42.93坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩61分",
+     "min": "61",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106348284_1_652_555_3.jpg?t=01792028168",
+     "main": true,
+     "local": "data/img/cb126bad347e102e8f60.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106348284_2_652_555_3.jpg?t=01792028168",
+     "main": false,
+     "local": "data/img/fb34874a02dc0b080f0d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106348284_3_652_555_3.jpg?t=01792028168",
+     "main": false,
+     "local": "data/img/f97644c0e70ba28f8f44.jpg"
+    }
+   ],
+   "locText": "32.82832100, 130.79076900",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市東区２丁目１期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区２丁目１期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-03T22:20:24.830Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [
+    {
+     "date": "2026-10-15",
+     "from": "3,398万円",
+     "to": "3,298万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-04",
+     "price": "3,398万円"
+    },
+    {
+     "date": "2026-10-15",
+     "price": "3,298万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106348503",
+   "source": "yokatown",
+   "name": "熊本県熊本市東区広木町２期１号棟",
+   "price": "4,098万円",
+   "address": "熊本県熊本市東区広木町20-27",
+   "detailUrl": "https://bukken.yoka-town.com/room106348503.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "111.37㎡/ 33.68坪",
+   "landArea": "177.50㎡/ 53.69坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電A系統「健軍交番前」駅 徒歩13分",
+     "min": "13",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106348503_1_652_555_3.jpg?t=01792028198",
+     "main": true,
+     "local": "data/img/a0c3ced9a10a9e770535.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106348503_2_652_555_3.jpg?t=01792028198",
+     "main": false,
+     "local": "data/img/101e1c9b6c75e5f4c180.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106348503_3_652_555_3.jpg?t=01792028198",
+     "main": false,
+     "local": "data/img/e1e8e8bf7f36b87ef566.jpg"
+    }
+   ],
+   "locText": "32.77276500, 130.75424600",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市東区広木町２期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区広木町２期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-03T22:20:24.830Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-04",
+     "price": "4,098万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
    "id": "yokatown-106485530",
    "source": "yokatown",
    "name": "熊本市南区御幸木部1丁目1期1号棟",
@@ -24336,6 +24748,533 @@
     {
      "date": "2026-09-19",
      "price": "2,998万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106522649",
+   "source": "yokatown",
+   "name": "熊本市中央区琴平本町2期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市中央区琴平本町3-18付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106522649.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "103.91㎡/ 31.43坪",
+   "landArea": "122.18㎡/ 36.95坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩13分",
+     "min": "13",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_1_652_555_3.jpg?t=01791765433",
+     "main": true,
+     "local": "data/img/83fe9f5d699c675ee029.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_2_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/af1653e4537b72a0c568.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106522649_3_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/d631d41fb355c2a1ed55.jpg"
+    }
+   ],
+   "locText": "32.78850000, 130.70473200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区琴平本町2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区琴平本町2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "3,698万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106522728",
+   "source": "yokatown",
+   "name": "熊本市中央区琴平本町2期2号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市中央区琴平本町3-18付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106522728.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "113.48㎡/ 34.32坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩13分",
+     "min": "13",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_1_652_555_3.jpg?t=01791765428",
+     "main": true,
+     "local": "data/img/d67816fd7706fa6f09da.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_2_652_555_3.jpg?t=01791765428",
+     "main": false,
+     "local": "data/img/d47500f1a692a0d1624c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106522728_3_652_555_3.jpg?t=01791765428",
+     "main": false,
+     "local": "data/img/7ff4aef97c8fb983a018.jpg"
+    }
+   ],
+   "locText": "32.78850000, 130.70473200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区琴平本町2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区琴平本町2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [
+    {
+     "date": "2026-09-06",
+     "from": "3,698万円",
+     "to": "3,498万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "3,698万円"
+    },
+    {
+     "date": "2026-09-06",
+     "price": "3,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106523234",
+   "source": "yokatown",
+   "name": "熊本市東区御領3丁目1期1号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区御領３丁目9-12付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106523234.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "133.31㎡/ 40.32坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩47分",
+     "min": "47",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_1_652_555_3.jpg?t=01791765433",
+     "main": true,
+     "local": "data/img/efd3d268915581b6d821.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_2_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/6e09a3abec652916774f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106523234_3_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/9131bf1fa87e7aa298ba.jpg"
+    }
+   ],
+   "locText": "32.82470300, 130.76944800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区御領3丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区御領3丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "3,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106523656",
+   "source": "yokatown",
+   "name": "熊本市東区御領3丁目1期2号棟",
+   "price": "3,598万円",
+   "address": "熊本県熊本市東区御領３丁目9-12付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106523656.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "104.33㎡/ 31.55坪",
+   "landArea": "128.49㎡/ 38.86坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩47分",
+     "min": "47",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_1_652_555_3.jpg?t=01791765433",
+     "main": true,
+     "local": "data/img/dba9225973a17b1f3dd9.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_2_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/c8b77d438a7a83d9c5cb.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106523656_3_652_555_3.jpg?t=01791765433",
+     "main": false,
+     "local": "data/img/4a71713c6de08b494cb6.jpg"
+    }
+   ],
+   "locText": "32.82470300, 130.76944800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区御領3丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区御領3丁目1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "3,598万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106524580",
+   "source": "yokatown",
+   "name": "熊本市東区戸島本町1期1号棟",
+   "price": "3,098万円",
+   "address": "熊本県熊本市東区戸島本町15-16付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106524580.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.34㎡/ 31.86坪",
+   "landArea": "164.67㎡/ 49.81坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「光の森」駅 徒歩70分",
+     "min": "70",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_1_652_555_3.jpg?t=01792386556",
+     "main": true,
+     "local": "data/img/7fd57deac6f00f7d3bdd.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_2_652_555_3.jpg?t=01792386556",
+     "main": false,
+     "local": "data/img/d996a92767f1f1e52558.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106524580_3_652_555_3.jpg?t=01792386556",
+     "main": false,
+     "local": "data/img/bb95f8d1dce625b9d604.jpg"
+    }
+   ],
+   "locText": "32.81913200, 130.80304000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島本町1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "3,098万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106524687",
+   "source": "yokatown",
+   "name": "熊本市東区戸島本町1期2号棟",
+   "price": "2,998万円",
+   "address": "熊本県熊本市東区戸島本町15-16付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106524687.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "104.54㎡/ 31.62坪",
+   "landArea": "138.52㎡/ 41.90坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「光の森」駅 徒歩70分",
+     "min": "70",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_1_652_555_3.jpg?t=01792386556",
+     "main": true,
+     "local": "data/img/e4b2a38f8e54884793d5.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_2_652_555_3.jpg?t=01792386556",
+     "main": false,
+     "local": "data/img/dafa209d7776fd08b658.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106524687_3_652_555_3.jpg?t=01792386556",
+     "main": false,
+     "local": "data/img/effe46358d4ce03f8968.jpg"
+    }
+   ],
+   "locText": "32.81913200, 130.80304000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島本町1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "2,998万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106524754",
+   "source": "yokatown",
+   "name": "熊本市東区戸島本町1期3号棟",
+   "price": "2,898万円",
+   "address": "熊本県熊本市東区戸島本町15-16付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106524754.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.22㎡/ 32.73坪",
+   "landArea": "139.83㎡/ 42.29坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「光の森」駅 徒歩70分",
+     "min": "70",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/e4eedd3ca6675be7352e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/2eb39b4d13dad6fd88f7.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106524754_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/9f64ef143872294d5b6e.jpg"
+    }
+   ],
+   "locText": "32.81913200, 130.80304000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島本町1期3号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-09T21:46:02.407Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-10",
+     "price": "2,898万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-106525180",
+   "source": "yokatown",
+   "name": "熊本市東区渡鹿8丁目1期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市東区渡鹿８丁目2-12付近",
+   "detailUrl": "https://bukken.yoka-town.com/room106525180.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "108.47㎡/ 32.81坪",
+   "landArea": "174.27㎡/ 52.71坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅 徒歩5分",
+     "min": "5",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106525180_1_652_555_3.jpg?t=01792386579",
+     "main": true,
+     "local": "data/img/cfa8eb648daf0f19f85d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106525180_2_652_555_3.jpg?t=01792386579",
+     "main": false,
+     "local": "data/img/a08fd35d283f29531d40.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106525180_3_652_555_3.jpg?t=01792386579",
+     "main": false,
+     "local": "data/img/80a24744f668d3f8234e.jpg"
+    }
+   ],
+   "locText": "32.81086600, 130.74011300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区渡鹿8丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区渡鹿8丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T01:14:29.654Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "3,698万円"
     }
    ],
    "relistedAt": ""
@@ -25115,6 +26054,68 @@
    "locText": "32.72591600, 130.77901400",
    "locPrec": "",
    "hpText": "こちらは、上益城郡御船町大字小坂2期1号棟の物件詳細ページとなっております。よかタウンおすすめの上益城郡御船町大字小坂2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-15T21:34:51.195Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-16",
+     "price": "2,898万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-106622742",
+   "source": "yokatown",
+   "name": "宇城市松橋町曲野1期3号棟",
+   "price": "2,898万円",
+   "address": "熊本県宇城市松橋町曲野字寺尾3014番4",
+   "detailUrl": "https://bukken.yoka-town.com/room106622742.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年10月",
+   "buildingArea": "111.34㎡/ 33.68坪",
+   "landArea": "178.52㎡/ 54.00坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「松橋」駅 徒歩41分",
+     "min": "41",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_1_652_555_3.jpg?t=01791765434",
+     "main": true,
+     "local": "data/img/56f9d9ce8355d482795c.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_2_652_555_3.jpg?t=01791765434",
+     "main": false,
+     "local": "data/img/5ccc2e0856eda3e2966d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/106622742_3_652_555_3.jpg?t=01791765434",
+     "main": false,
+     "local": "data/img/f1632d6b29ea38dc45b7.jpg"
+    }
+   ],
+   "locText": "32.65725900, 130.70000100",
+   "locPrec": "",
+   "hpText": "こちらは、宇城市松橋町曲野1期3号棟の物件詳細ページとなっております。よかタウンおすすめの宇城市松橋町曲野1期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
    "tags": [],
    "status": "active",
    "endedAt": "",
@@ -25933,6 +26934,254 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-107206320",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区八王寺町4期1号棟",
+   "price": "4,498万円",
+   "address": "熊本県熊本市中央区八王寺町21-2",
+   "detailUrl": "https://bukken.yoka-town.com/room107206320.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.79㎡/ 32坪",
+   "landArea": "140.08㎡/ 42.37坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩12分",
+     "min": "12",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107206320_1_652_555_3.jpg?t=01792028061",
+     "main": true,
+     "local": "data/img/0bd57598070320935070.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107206320_2_652_555_3.jpg?t=01792028061",
+     "main": false,
+     "local": "data/img/dc254d862f254f8351d8.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107206320_3_652_555_3.jpg?t=01792028061",
+     "main": false,
+     "local": "data/img/6b454754eaf90ffd104a.jpg"
+    }
+   ],
+   "locText": "32.77948900, 130.71226300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区八王寺町4期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町4期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-05T22:52:11.650Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-06",
+     "price": "4,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107206629",
+   "source": "yokatown",
+   "name": "熊本県熊本市東区榎町4期1号棟",
+   "price": "4,398万円",
+   "address": "熊本県熊本市東区榎町21-39",
+   "detailUrl": "https://bukken.yoka-town.com/room107206629.html",
+   "layout": "4LDKLD",
+   "stories": "",
+   "builtAt": "2027年1月",
+   "buildingArea": "101.21㎡/ 30.61坪",
+   "landArea": "235.37㎡/ 71.19坪",
+   "parking": "",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電A系統「健軍町」駅 徒歩38分",
+     "min": "38",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107206629_1_652_555_3.jpg?t=01792028228",
+     "main": true,
+     "local": "data/img/d44c890efc1b17c56ffc.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107206629_2_652_555_3.jpg?t=01792028228",
+     "main": false,
+     "local": "data/img/73e7fcce7cd943bedd5e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107206629_3_652_555_3.jpg?t=01792028228",
+     "main": false,
+     "local": "data/img/4e8ead0aea2d58a1a413.jpg"
+    }
+   ],
+   "locText": "32.79549900, 130.77313300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市東区榎町4期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区榎町4期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-05T22:52:11.650Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-06",
+     "price": "4,398万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107207526",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区八王寺町2期1号棟",
+   "price": "3,798万円",
+   "address": "熊本県熊本市中央区八王寺町10-5",
+   "detailUrl": "https://bukken.yoka-town.com/room107207526.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.78㎡/ 31.99坪",
+   "landArea": "220.56㎡/ 66.71坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107207526_1_652_555_3.jpg?t=01792028097",
+     "main": true,
+     "local": "data/img/91a9ac1ec55754fedd67.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107207526_2_652_555_3.jpg?t=01792028097",
+     "main": false,
+     "local": "data/img/e6e0c601b5f294d347e5.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107207526_3_652_555_3.jpg?t=01792028097",
+     "main": false,
+     "local": "data/img/db201c15d3563f80c4a1.jpg"
+    }
+   ],
+   "locText": "32.78421900, 130.71707100",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区八王寺町2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-05T22:52:11.650Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-06",
+     "price": "3,798万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107219074",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区八王寺町2期2号棟",
+   "price": "3,998万円",
+   "address": "熊本県熊本市中央区八王寺町10-5",
+   "detailUrl": "https://bukken.yoka-town.com/room107219074.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "105.34㎡/ 31.86坪",
+   "landArea": "209.67㎡/ 63.42坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107219074_1_652_555_3.jpg?t=01792028084",
+     "main": true,
+     "local": "data/img/88e3556638720e5b41ca.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107219074_2_652_555_3.jpg?t=01792028084",
+     "main": false,
+     "local": "data/img/0297e9d315c2b7f0315f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107219074_3_652_555_3.jpg?t=01792028084",
+     "main": false,
+     "local": "data/img/50d5e1b3f5cf6898e548.jpg"
+    }
+   ],
+   "locText": "32.78421900, 130.71707100",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区八王寺町2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-06T22:57:56.864Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-07",
+     "price": "3,998万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
    "id": "yokatown-107584733",
    "source": "yokatown",
    "name": "熊本市北区龍田弓削1丁目1期3号棟",
@@ -26328,6 +27577,392 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-107776225",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区八王寺町3期1号棟",
+   "price": "4,698万円",
+   "address": "熊本県熊本市中央区八王寺町6-48",
+   "detailUrl": "https://bukken.yoka-town.com/room107776225.html",
+   "layout": "4LDKLD",
+   "stories": "",
+   "builtAt": "2027年1月",
+   "buildingArea": "102.66㎡/ 31.05坪",
+   "landArea": "243.17㎡/ 73.55坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107776225_1_652_555_3.jpg?t=01792028132",
+     "main": true,
+     "local": "data/img/733464afe87fa9693aca.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107776225_2_652_555_3.jpg?t=01792028132",
+     "main": false,
+     "local": "data/img/b1a9e56665ac3a1b76b2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107776225_3_652_555_3.jpg?t=01792028132",
+     "main": false,
+     "local": "data/img/2f0b26ba0d777dc073a9.jpg"
+    }
+   ],
+   "locText": "32.78456100, 130.71711800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区八王寺町3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町3期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-26T23:35:51.481Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,698万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107776454",
+   "source": "yokatown",
+   "name": "熊本県熊本市中央区八王寺町3期2号棟",
+   "price": "4,498万円",
+   "address": "熊本県熊本市中央区八王寺町6-48",
+   "detailUrl": "https://bukken.yoka-town.com/room107776454.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "108.83㎡/ 32.92坪",
+   "landArea": "166.96㎡/ 50.50坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「南熊本」駅 徒歩11分",
+     "min": "11",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107776454_1_652_555_3.jpg?t=01792028123",
+     "main": true,
+     "local": "data/img/08d1e298fb1f8f2a7a0a.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107776454_2_652_555_3.jpg?t=01792028123",
+     "main": false,
+     "local": "data/img/452be4601fc094f25a9d.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107776454_3_652_555_3.jpg?t=01792028123",
+     "main": false,
+     "local": "data/img/7239f4ae179e8f621e63.jpg"
+    }
+   ],
+   "locText": "32.78456100, 130.71711800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県熊本市中央区八王寺町3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町3期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-26T23:35:51.481Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107798653",
+   "source": "yokatown",
+   "name": "熊本市東区戸島西1丁目3期1号棟",
+   "price": "3,898万円",
+   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107798653.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "108.06㎡/ 32.68坪",
+   "landArea": "164.02㎡/ 49.61坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_1_652_555_3.jpg?t=01791765435",
+     "main": true,
+     "local": "data/img/6b0538c5cd15f34e19bf.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_2_652_555_3.jpg?t=01791765435",
+     "main": false,
+     "local": "data/img/746a895f405a4d98f7c3.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107798653_3_652_555_3.jpg?t=01791765435",
+     "main": false,
+     "local": "data/img/f9b841fdf79b01e51cbc.jpg"
+    }
+   ],
+   "locText": "32.80972100, 130.78504800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島西1丁目3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,898万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107799897",
+   "source": "yokatown",
+   "name": "熊本市東区戸島西1丁目3期2号棟",
+   "price": "3,798万円",
+   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107799897.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "108.88㎡/ 32.93坪",
+   "landArea": "166.48㎡/ 50.35坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_1_652_555_3.jpg?t=01791765435",
+     "main": true,
+     "local": "data/img/7dba3b46d73861555f83.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_2_652_555_3.jpg?t=01791765435",
+     "main": false,
+     "local": "data/img/f16fcefa444089ca0e8b.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107799897_3_652_555_3.jpg?t=01791765435",
+     "main": false,
+     "local": "data/img/07847ead26557f9c1b87.jpg"
+    }
+   ],
+   "locText": "32.80972100, 130.78504800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島西1丁目3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "3,798万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-107801830",
+   "source": "yokatown",
+   "name": "熊本市中央区島崎1丁目2期1号棟",
+   "price": "4,198万円",
+   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107801830.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "105.16㎡/ 31.81坪",
+   "landArea": "173.60㎡/ 52.51坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電B系統「段山町」駅 徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/6a2ef5a3de31e3fc917d.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/e60a81dc06c871591179.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107801830_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/ee36df9b0a989ee41be5.jpg"
+    }
+   ],
+   "locText": "32.80638500, 130.69167800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区島崎1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.574Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,198万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107802001",
+   "source": "yokatown",
+   "name": "熊本市中央区島崎1丁目2期2号棟",
+   "price": "4,398万円",
+   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107802001.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.47㎡/ 32.81坪",
+   "landArea": "160.55㎡/ 48.56坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電B系統「段山町」駅 徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_1_652_555_3.jpg?t=01792386557",
+     "main": true,
+     "local": "data/img/78f4897e6908d22f5b36.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_2_652_555_3.jpg?t=01792386557",
+     "main": false,
+     "local": "data/img/d9899fe6fcb803ea5632.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107802001_3_652_555_3.jpg?t=01792386557",
+     "main": false,
+     "local": "data/img/133a1716fb02077f3a83.jpg"
+    }
+   ],
+   "locText": "32.80638500, 130.69167800",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区島崎1丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-09-27T12:12:58.575Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-09-27",
+     "price": "4,398万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
    "id": "yokatown-107814427",
    "source": "yokatown",
    "name": "熊本市西区小島9丁目1期7号棟",
@@ -26545,6 +28180,282 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-107908044",
+   "source": "yokatown",
+   "name": "熊本市東区榎町3期1号棟",
+   "price": "4,098万円",
+   "address": "熊本県熊本市東区榎町21-16付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107908044.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "114.84㎡/ 34.73坪",
+   "landArea": "198.48㎡/ 60.03坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電A系統「健軍町」駅 徒歩39分",
+     "min": "39",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107908044_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/cfa54cc31d2a8d6504f9.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107908044_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/b7b92a6bdec48f05a44e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107908044_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/00bfe0c6766fda48cb21.jpg"
+    }
+   ],
+   "locText": "32.79580500, 130.77369900",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区榎町3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区榎町3期1号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-02T00:46:26.913Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-02",
+     "price": "4,098万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107938878",
+   "source": "yokatown",
+   "name": "熊本市東区戸島3丁目2期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市東区戸島３丁目7-70付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107938878.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "108.06㎡/ 32.68坪",
+   "landArea": "195.45㎡/ 59.12坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107938878_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/c9244e39980eaadc0cad.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107938878_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/9c4eb9649817af55235a.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107938878_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/b53d2a1ec013eb8c08a2.jpg"
+    }
+   ],
+   "locText": "32.81941400, 130.79540200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島3丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-03T00:27:36.784Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-03",
+     "price": "3,698万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107942466",
+   "source": "yokatown",
+   "name": "熊本市東区戸島3丁目2期2号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市東区戸島３丁目7-70付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107942466.html",
+   "layout": "4LDKLD",
+   "stories": "",
+   "builtAt": "2026年12月",
+   "buildingArea": "103.92㎡/ 31.43坪",
+   "landArea": "207.37㎡/ 62.72坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107942466_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/8df067073b3195add23f.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107942466_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/3c61d0c590ff82eb5d3c.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107942466_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/5be1e1f0c0af1b865f8f.jpg"
+    }
+   ],
+   "locText": "32.81941400, 130.79540200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島3丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-03T00:27:36.784Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-03",
+     "price": "3,698万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "id": "yokatown-107942686",
+   "source": "yokatown",
+   "name": "熊本市東区戸島3丁目2期3号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区戸島３丁目7-70付近",
+   "detailUrl": "https://bukken.yoka-town.com/room107942686.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年12月",
+   "buildingArea": "103.51㎡/ 31.31坪",
+   "landArea": "217.82㎡/ 65.89坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
+     "min": "77",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/107942686_1_652_555_3.jpg?t=01792386558",
+     "main": true,
+     "local": "data/img/1d0ee2d4c85de69d0c6e.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/107942686_2_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/96c72107d7f26be5e709.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/107942686_3_652_555_3.jpg?t=01792386558",
+     "main": false,
+     "local": "data/img/c94e64027cb74bd5baba.jpg"
+    }
+   ],
+   "locText": "32.81941400, 130.79540200",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島3丁目2期3号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-03T00:27:36.784Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-03",
+     "price": "3,498万円"
+    }
+   ],
+   "relistedAt": "2026-10-12",
+   "relistHistory": [
+    {
+     "endedAt": "2026-10-06",
+     "relistedAt": "2026-10-12",
+     "lastSeen": "2026-10-05"
+    }
+   ]
+  },
+  {
    "id": "yokatown-107998657",
    "source": "yokatown",
    "name": "熊本市北区楠野町2期1号棟",
@@ -26686,6 +28597,270 @@
     {
      "date": "2026-10-05",
      "price": "3,598万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-108115403",
+   "source": "yokatown",
+   "name": "熊本市東区沼山津1丁目1期1号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区沼山津１丁目24-36付近",
+   "detailUrl": "https://bukken.yoka-town.com/room108115403.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "103.50㎡/ 31.3坪",
+   "landArea": "140.27㎡/ 42.43坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電A系統「健軍町」駅 徒歩23分",
+     "min": "23",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108115403_1_652_555_3.jpg?t=01792386580",
+     "main": true,
+     "local": "data/img/b0ba8ad6dc3376ddbaa0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108115403_2_652_555_3.jpg?t=01792386580",
+     "main": false,
+     "local": "data/img/a86bff7a52d4a3fc3240.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108115403_3_652_555_3.jpg?t=01792386580",
+     "main": false,
+     "local": "data/img/214466cb568399183b34.jpg"
+    }
+   ],
+   "locText": "32.77372600, 130.77566000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区沼山津1丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区沼山津1丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T01:14:29.654Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "3,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-108115573",
+   "source": "yokatown",
+   "name": "熊本市東区沼山津1丁目1期2号棟",
+   "price": "3,498万円",
+   "address": "熊本県熊本市東区沼山津１丁目24-36付近",
+   "detailUrl": "https://bukken.yoka-town.com/room108115573.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "105.58㎡/ 31.93坪",
+   "landArea": "140.21㎡/ 42.41坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市電A系統「健軍町」駅 徒歩23分",
+     "min": "23",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108115573_1_652_555_3.jpg?t=01792386579",
+     "main": true,
+     "local": "data/img/a972aba742402d3b4ac6.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108115573_2_652_555_3.jpg?t=01792386579",
+     "main": false,
+     "local": "data/img/91b7e9af8e352a60a1a2.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108115573_3_652_555_3.jpg?t=01792386579",
+     "main": false,
+     "local": "data/img/a1a010e5a26ceccfe221.jpg"
+    }
+   ],
+   "locText": "32.77372600, 130.77566000",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区沼山津1丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区沼山津1丁目1期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-09T01:14:29.654Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-09",
+     "price": "3,498万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-108174620",
+   "source": "yokatown",
+   "name": "熊本市東区戸島1丁目2期1号棟",
+   "price": "3,698万円",
+   "address": "熊本県熊本市東区戸島１丁目13-168付近",
+   "detailUrl": "https://bukken.yoka-town.com/room108174620.html",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2027年3月",
+   "buildingArea": "104.43㎡/ 31.59坪",
+   "landArea": "198.16㎡/ 59.94坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩85分",
+     "min": "85",
+     "cat": "station"
+    },
+    {
+     "name": "「戸島入口」バス停下車 徒歩6分",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108174620_1_652_555_3.jpg?t=01792301195",
+     "main": true,
+     "local": "data/img/de6dc16505a302f1a21b.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108174620_2_652_555_3.jpg?t=01792301195",
+     "main": false,
+     "local": "data/img/85e30ffa2b8a2ebf5d71.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108174620_3_652_555_3.jpg?t=01792301195",
+     "main": false,
+     "local": "data/img/91519ae9115b8cc10fd8.jpg"
+    }
+   ],
+   "locText": "32.81411300, 130.79648500",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-10T06:49:50.160Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-10",
+     "price": "3,698万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-108174989",
+   "source": "yokatown",
+   "name": "熊本市東区戸島1丁目2期2号棟",
+   "price": "3,398万円",
+   "address": "熊本県熊本市東区戸島１丁目13-168付近",
+   "detailUrl": "https://bukken.yoka-town.com/room108174989.html",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年3月",
+   "buildingArea": "115.09㎡/ 34.81坪",
+   "landArea": "172.09㎡/ 52.05坪",
+   "parking": "2台",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅 徒歩85分",
+     "min": "85",
+     "cat": "station"
+    },
+    {
+     "name": "「戸島入口」バス停下車 徒歩6分",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108174989_1_652_555_3.jpg?t=01792301195",
+     "main": true,
+     "local": "data/img/77c8231610e05e8b9078.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108174989_2_652_555_3.jpg?t=01792301195",
+     "main": false,
+     "local": "data/img/db63a24a3f76a0c6f5d8.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108174989_3_652_555_3.jpg?t=01792301195",
+     "main": false,
+     "local": "data/img/1310da9e678fcf5bd702.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://cdn.img-asp.jp/bkn/108174989_4_652_555_3.jpg?t=01792301195",
+     "main": false,
+     "local": "data/img/494c9062f9d062d01720.jpg"
+    }
+   ],
+   "locText": "32.81411300, 130.79648500",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市東区戸島1丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島1丁目2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-10T06:49:50.160Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-10",
+     "price": "3,398万円"
     }
    ],
    "relistedAt": ""
@@ -27023,6 +29198,68 @@
    "relistedAt": ""
   },
   {
+   "id": "yokatown-108187449",
+   "source": "yokatown",
+   "name": "熊本市中央区渡鹿6丁目1期1号棟",
+   "price": "3,998万円",
+   "address": "熊本県熊本市中央区渡鹿６丁目14-72付近",
+   "detailUrl": "https://bukken.yoka-town.com/room108187449.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "108.89㎡/ 32.93坪",
+   "landArea": "166.53㎡/ 50.37坪",
+   "parking": "有(4台)",
+   "units": "",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「東海学園前」駅 徒歩6分",
+     "min": "6",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108187449_1_652_555_3.jpg?t=01792386578",
+     "main": true,
+     "local": "data/img/a207bf4dfbf6c05aba82.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108187449_2_652_555_3.jpg?t=01792386578",
+     "main": false,
+     "local": "data/img/21ce431dc28b462278ef.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108187449_3_652_555_3.jpg?t=01792386578",
+     "main": false,
+     "local": "data/img/470b7c49e35289f87a3c.jpg"
+    }
+   ],
+   "locText": "32.81082200, 130.73891400",
+   "locPrec": "",
+   "hpText": "こちらは、熊本市中央区渡鹿6丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区渡鹿6丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-11T06:57:11.813Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-11",
+     "price": "3,998万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
    "id": "yokatown-108198347",
    "source": "yokatown",
    "name": "宇土市花園町1期4号棟",
@@ -27205,6 +29442,68 @@
     {
      "date": "2026-10-11",
      "price": "4,098万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "yokatown-108294421",
+   "source": "yokatown",
+   "name": "熊本県東区御領1丁目2期1号棟",
+   "price": "3,898万円",
+   "address": "熊本県熊本市東区御領１丁目3-13",
+   "detailUrl": "https://bukken.yoka-town.com/room108294421.html",
+   "layout": "4LDKLD",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "107.64㎡/ 32.56坪",
+   "landArea": "145.16㎡/ 43.91坪",
+   "parking": "3台",
+   "units": "",
+   "elementary": "熊本市立託麻西小学校",
+   "elementaryMin": "10",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「竜田口」駅 徒歩36分",
+     "min": "36",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://cdn.img-asp.jp/bkn/108294421_1_652_555_3.jpg?t=01792030499",
+     "main": true,
+     "local": "data/img/36c15dba27d5d6943482.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://cdn.img-asp.jp/bkn/108294421_2_652_555_3.jpg?t=01792030499",
+     "main": false,
+     "local": "data/img/a732470ecc8002e4b731.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://cdn.img-asp.jp/bkn/108294421_3_652_555_3.jpg?t=01792030499",
+     "main": false,
+     "local": "data/img/accc84af1df07ba94c61.jpg"
+    }
+   ],
+   "locText": "32.81973200, 130.76043300",
+   "locPrec": "",
+   "hpText": "こちらは、熊本県東区御領1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県東区御領1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-15T05:43:46.178Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-15",
+     "price": "3,898万円"
     }
    ],
    "relistedAt": ""
@@ -29034,1701 +31333,6 @@
    "relistedAt": ""
   },
   {
-   "id": "yokatown-106348055",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区黒髪6丁目1期1号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市中央区黒髪６丁目13-23-22",
-   "detailUrl": "https://bukken.yoka-town.com/room106348055.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "107.25㎡/ 32.44坪",
-   "landArea": "142.58㎡/ 43.13坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「東海学園前」駅 徒歩16分",
-     "min": "16",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106348055_1_652_555_3.jpg?t=01792028031",
-     "main": true,
-     "local": "data/img/a0f7962ae0a1d24b9714.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106348055_2_652_555_3.jpg?t=01792028031",
-     "main": false,
-     "local": "data/img/bedc17d22309569ac305.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106348055_3_652_555_3.jpg?t=01792028031",
-     "main": false,
-     "local": "data/img/374b0ba328b78354d322.jpg"
-    }
-   ],
-   "locText": "32.81465200, 130.73920200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区黒髪6丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区黒髪6丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-04",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106348284",
-   "source": "yokatown",
-   "name": "熊本県熊本市東区２丁目１期１号棟",
-   "price": "3,298万円",
-   "address": "熊本県熊本市東区小山２丁目24-78",
-   "detailUrl": "https://bukken.yoka-town.com/room106348284.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "104.33㎡/ 31.55坪",
-   "landArea": "141.95㎡/ 42.93坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩61分",
-     "min": "61",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106348284_1_652_555_3.jpg?t=01792028168",
-     "main": true,
-     "local": "data/img/cb126bad347e102e8f60.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106348284_2_652_555_3.jpg?t=01792028168",
-     "main": false,
-     "local": "data/img/fb34874a02dc0b080f0d.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106348284_3_652_555_3.jpg?t=01792028168",
-     "main": false,
-     "local": "data/img/f97644c0e70ba28f8f44.jpg"
-    }
-   ],
-   "locText": "32.82832100, 130.79076900",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市東区２丁目１期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区２丁目１期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [
-    {
-     "date": "2026-10-15",
-     "from": "3,398万円",
-     "to": "3,298万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-04",
-     "price": "3,398万円"
-    },
-    {
-     "date": "2026-10-15",
-     "price": "3,298万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106348503",
-   "source": "yokatown",
-   "name": "熊本県熊本市東区広木町２期１号棟",
-   "price": "4,098万円",
-   "address": "熊本県熊本市東区広木町20-27",
-   "detailUrl": "https://bukken.yoka-town.com/room106348503.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "111.37㎡/ 33.68坪",
-   "landArea": "177.50㎡/ 53.69坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電A系統「健軍交番前」駅 徒歩13分",
-     "min": "13",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106348503_1_652_555_3.jpg?t=01792028198",
-     "main": true,
-     "local": "data/img/a0c3ced9a10a9e770535.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106348503_2_652_555_3.jpg?t=01792028198",
-     "main": false,
-     "local": "data/img/101e1c9b6c75e5f4c180.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106348503_3_652_555_3.jpg?t=01792028198",
-     "main": false,
-     "local": "data/img/e1e8e8bf7f36b87ef566.jpg"
-    }
-   ],
-   "locText": "32.77276500, 130.75424600",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市東区広木町２期１号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区広木町２期１号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-04",
-     "price": "4,098万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106522649",
-   "source": "yokatown",
-   "name": "熊本市中央区琴平本町2期1号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市中央区琴平本町3-18付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106522649.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年10月",
-   "buildingArea": "103.91㎡/ 31.43坪",
-   "landArea": "122.18㎡/ 36.95坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩13分",
-     "min": "13",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_1_652_555_3.jpg?t=01791765433",
-     "main": true,
-     "local": "data/img/83fe9f5d699c675ee029.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_2_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/af1653e4537b72a0c568.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106522649_3_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/d631d41fb355c2a1ed55.jpg"
-    }
-   ],
-   "locText": "32.78850000, 130.70473200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市中央区琴平本町2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区琴平本町2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106522728",
-   "source": "yokatown",
-   "name": "熊本市中央区琴平本町2期2号棟",
-   "price": "3,498万円",
-   "address": "熊本県熊本市中央区琴平本町3-18付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106522728.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年10月",
-   "buildingArea": "105.16㎡/ 31.81坪",
-   "landArea": "113.48㎡/ 34.32坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩13分",
-     "min": "13",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_1_652_555_3.jpg?t=01791765428",
-     "main": true,
-     "local": "data/img/d67816fd7706fa6f09da.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_2_652_555_3.jpg?t=01791765428",
-     "main": false,
-     "local": "data/img/d47500f1a692a0d1624c.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106522728_3_652_555_3.jpg?t=01791765428",
-     "main": false,
-     "local": "data/img/7ff4aef97c8fb983a018.jpg"
-    }
-   ],
-   "locText": "32.78850000, 130.70473200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市中央区琴平本町2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区琴平本町2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [
-    {
-     "date": "2026-09-06",
-     "from": "3,698万円",
-     "to": "3,498万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "3,698万円"
-    },
-    {
-     "date": "2026-09-06",
-     "price": "3,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106523234",
-   "source": "yokatown",
-   "name": "熊本市東区御領3丁目1期1号棟",
-   "price": "3,498万円",
-   "address": "熊本県熊本市東区御領３丁目9-12付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106523234.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "105.16㎡/ 31.81坪",
-   "landArea": "133.31㎡/ 40.32坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅 徒歩47分",
-     "min": "47",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_1_652_555_3.jpg?t=01791765433",
-     "main": true,
-     "local": "data/img/efd3d268915581b6d821.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_2_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/6e09a3abec652916774f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106523234_3_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/9131bf1fa87e7aa298ba.jpg"
-    }
-   ],
-   "locText": "32.82470300, 130.76944800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区御領3丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区御領3丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "3,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106523656",
-   "source": "yokatown",
-   "name": "熊本市東区御領3丁目1期2号棟",
-   "price": "3,598万円",
-   "address": "熊本県熊本市東区御領３丁目9-12付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106523656.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "104.33㎡/ 31.55坪",
-   "landArea": "128.49㎡/ 38.86坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅 徒歩47分",
-     "min": "47",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_1_652_555_3.jpg?t=01791765433",
-     "main": true,
-     "local": "data/img/dba9225973a17b1f3dd9.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_2_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/c8b77d438a7a83d9c5cb.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106523656_3_652_555_3.jpg?t=01791765433",
-     "main": false,
-     "local": "data/img/4a71713c6de08b494cb6.jpg"
-    }
-   ],
-   "locText": "32.82470300, 130.76944800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区御領3丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区御領3丁目1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "3,598万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106524580",
-   "source": "yokatown",
-   "name": "熊本市東区戸島本町1期1号棟",
-   "price": "3,098万円",
-   "address": "熊本県熊本市東区戸島本町15-16付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106524580.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "105.34㎡/ 31.86坪",
-   "landArea": "164.67㎡/ 49.81坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「光の森」駅 徒歩70分",
-     "min": "70",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_1_652_555_3.jpg?t=01792386556",
-     "main": true,
-     "local": "data/img/7fd57deac6f00f7d3bdd.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_2_652_555_3.jpg?t=01792386556",
-     "main": false,
-     "local": "data/img/d996a92767f1f1e52558.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524580_3_652_555_3.jpg?t=01792386556",
-     "main": false,
-     "local": "data/img/bb95f8d1dce625b9d604.jpg"
-    }
-   ],
-   "locText": "32.81913200, 130.80304000",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島本町1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "3,098万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-106524687",
-   "source": "yokatown",
-   "name": "熊本市東区戸島本町1期2号棟",
-   "price": "2,998万円",
-   "address": "熊本県熊本市東区戸島本町15-16付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106524687.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "104.54㎡/ 31.62坪",
-   "landArea": "138.52㎡/ 41.90坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「光の森」駅 徒歩70分",
-     "min": "70",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_1_652_555_3.jpg?t=01792386556",
-     "main": true,
-     "local": "data/img/e4b2a38f8e54884793d5.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_2_652_555_3.jpg?t=01792386556",
-     "main": false,
-     "local": "data/img/dafa209d7776fd08b658.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524687_3_652_555_3.jpg?t=01792386556",
-     "main": false,
-     "local": "data/img/effe46358d4ce03f8968.jpg"
-    }
-   ],
-   "locText": "32.81913200, 130.80304000",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島本町1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "2,998万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-106524754",
-   "source": "yokatown",
-   "name": "熊本市東区戸島本町1期3号棟",
-   "price": "2,898万円",
-   "address": "熊本県熊本市東区戸島本町15-16付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106524754.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "108.22㎡/ 32.73坪",
-   "landArea": "139.83㎡/ 42.29坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「光の森」駅 徒歩70分",
-     "min": "70",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/e4eedd3ca6675be7352e.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/2eb39b4d13dad6fd88f7.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106524754_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/9f64ef143872294d5b6e.jpg"
-    }
-   ],
-   "locText": "32.81913200, 130.80304000",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島本町1期3号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島本町1期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-10",
-     "price": "2,898万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-106525180",
-   "source": "yokatown",
-   "name": "熊本市東区渡鹿8丁目1期1号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市東区渡鹿８丁目2-12付近",
-   "detailUrl": "https://bukken.yoka-town.com/room106525180.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年10月",
-   "buildingArea": "108.47㎡/ 32.81坪",
-   "landArea": "174.27㎡/ 52.71坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「東海学園前」駅 徒歩5分",
-     "min": "5",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106525180_1_652_555_3.jpg?t=01792386579",
-     "main": true,
-     "local": "data/img/cfa8eb648daf0f19f85d.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106525180_2_652_555_3.jpg?t=01792386579",
-     "main": false,
-     "local": "data/img/a08fd35d283f29531d40.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106525180_3_652_555_3.jpg?t=01792386579",
-     "main": false,
-     "local": "data/img/80a24744f668d3f8234e.jpg"
-    }
-   ],
-   "locText": "32.81086600, 130.74011300",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区渡鹿8丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区渡鹿8丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-09",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-106622742",
-   "source": "yokatown",
-   "name": "宇城市松橋町曲野1期3号棟",
-   "price": "2,898万円",
-   "address": "熊本県宇城市松橋町曲野字寺尾3014番4",
-   "detailUrl": "https://bukken.yoka-town.com/room106622742.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年10月",
-   "buildingArea": "111.34㎡/ 33.68坪",
-   "landArea": "178.52㎡/ 54.00坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「松橋」駅 徒歩41分",
-     "min": "41",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_1_652_555_3.jpg?t=01791765434",
-     "main": true,
-     "local": "data/img/56f9d9ce8355d482795c.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_2_652_555_3.jpg?t=01791765434",
-     "main": false,
-     "local": "data/img/5ccc2e0856eda3e2966d.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/106622742_3_652_555_3.jpg?t=01791765434",
-     "main": false,
-     "local": "data/img/f1632d6b29ea38dc45b7.jpg"
-    }
-   ],
-   "locText": "32.65725900, 130.70000100",
-   "locPrec": "",
-   "hpText": "こちらは、宇城市松橋町曲野1期3号棟の物件詳細ページとなっております。よかタウンおすすめの宇城市松橋町曲野1期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-16",
-     "price": "2,898万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107206320",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区八王寺町4期1号棟",
-   "price": "4,498万円",
-   "address": "熊本県熊本市中央区八王寺町21-2",
-   "detailUrl": "https://bukken.yoka-town.com/room107206320.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "105.79㎡/ 32坪",
-   "landArea": "140.08㎡/ 42.37坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩12分",
-     "min": "12",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107206320_1_652_555_3.jpg?t=01792028061",
-     "main": true,
-     "local": "data/img/0bd57598070320935070.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107206320_2_652_555_3.jpg?t=01792028061",
-     "main": false,
-     "local": "data/img/dc254d862f254f8351d8.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107206320_3_652_555_3.jpg?t=01792028061",
-     "main": false,
-     "local": "data/img/6b454754eaf90ffd104a.jpg"
-    }
-   ],
-   "locText": "32.77948900, 130.71226300",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区八王寺町4期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町4期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-06",
-     "price": "4,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107206629",
-   "source": "yokatown",
-   "name": "熊本県熊本市東区榎町4期1号棟",
-   "price": "4,398万円",
-   "address": "熊本県熊本市東区榎町21-39",
-   "detailUrl": "https://bukken.yoka-town.com/room107206629.html",
-   "layout": "4LDKLD",
-   "stories": "",
-   "builtAt": "2027年1月",
-   "buildingArea": "101.21㎡/ 30.61坪",
-   "landArea": "235.37㎡/ 71.19坪",
-   "parking": "",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電A系統「健軍町」駅 徒歩38分",
-     "min": "38",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107206629_1_652_555_3.jpg?t=01792028228",
-     "main": true,
-     "local": "data/img/d44c890efc1b17c56ffc.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107206629_2_652_555_3.jpg?t=01792028228",
-     "main": false,
-     "local": "data/img/73e7fcce7cd943bedd5e.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107206629_3_652_555_3.jpg?t=01792028228",
-     "main": false,
-     "local": "data/img/4e8ead0aea2d58a1a413.jpg"
-    }
-   ],
-   "locText": "32.79549900, 130.77313300",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市東区榎町4期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市東区榎町4期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-06",
-     "price": "4,398万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107207526",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区八王寺町2期1号棟",
-   "price": "3,798万円",
-   "address": "熊本県熊本市中央区八王寺町10-5",
-   "detailUrl": "https://bukken.yoka-town.com/room107207526.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2027年1月",
-   "buildingArea": "105.78㎡/ 31.99坪",
-   "landArea": "220.56㎡/ 66.71坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩11分",
-     "min": "11",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107207526_1_652_555_3.jpg?t=01792028097",
-     "main": true,
-     "local": "data/img/91a9ac1ec55754fedd67.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107207526_2_652_555_3.jpg?t=01792028097",
-     "main": false,
-     "local": "data/img/e6e0c601b5f294d347e5.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107207526_3_652_555_3.jpg?t=01792028097",
-     "main": false,
-     "local": "data/img/db201c15d3563f80c4a1.jpg"
-    }
-   ],
-   "locText": "32.78421900, 130.71707100",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区八王寺町2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-06",
-     "price": "3,798万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107219074",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区八王寺町2期2号棟",
-   "price": "3,998万円",
-   "address": "熊本県熊本市中央区八王寺町10-5",
-   "detailUrl": "https://bukken.yoka-town.com/room107219074.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2027年1月",
-   "buildingArea": "105.34㎡/ 31.86坪",
-   "landArea": "209.67㎡/ 63.42坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩11分",
-     "min": "11",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107219074_1_652_555_3.jpg?t=01792028084",
-     "main": true,
-     "local": "data/img/88e3556638720e5b41ca.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107219074_2_652_555_3.jpg?t=01792028084",
-     "main": false,
-     "local": "data/img/0297e9d315c2b7f0315f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107219074_3_652_555_3.jpg?t=01792028084",
-     "main": false,
-     "local": "data/img/50d5e1b3f5cf6898e548.jpg"
-    }
-   ],
-   "locText": "32.78421900, 130.71707100",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区八王寺町2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-06T22:57:56.864Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-07",
-     "price": "3,998万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107776225",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区八王寺町3期1号棟",
-   "price": "4,698万円",
-   "address": "熊本県熊本市中央区八王寺町6-48",
-   "detailUrl": "https://bukken.yoka-town.com/room107776225.html",
-   "layout": "4LDKLD",
-   "stories": "",
-   "builtAt": "2027年1月",
-   "buildingArea": "102.66㎡/ 31.05坪",
-   "landArea": "243.17㎡/ 73.55坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩11分",
-     "min": "11",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107776225_1_652_555_3.jpg?t=01792028132",
-     "main": true,
-     "local": "data/img/733464afe87fa9693aca.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107776225_2_652_555_3.jpg?t=01792028132",
-     "main": false,
-     "local": "data/img/b1a9e56665ac3a1b76b2.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107776225_3_652_555_3.jpg?t=01792028132",
-     "main": false,
-     "local": "data/img/2f0b26ba0d777dc073a9.jpg"
-    }
-   ],
-   "locText": "32.78456100, 130.71711800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区八王寺町3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町3期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "4,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107776454",
-   "source": "yokatown",
-   "name": "熊本県熊本市中央区八王寺町3期2号棟",
-   "price": "4,498万円",
-   "address": "熊本県熊本市中央区八王寺町6-48",
-   "detailUrl": "https://bukken.yoka-town.com/room107776454.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2027年1月",
-   "buildingArea": "108.83㎡/ 32.92坪",
-   "landArea": "166.96㎡/ 50.50坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「南熊本」駅 徒歩11分",
-     "min": "11",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107776454_1_652_555_3.jpg?t=01792028123",
-     "main": true,
-     "local": "data/img/08d1e298fb1f8f2a7a0a.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107776454_2_652_555_3.jpg?t=01792028123",
-     "main": false,
-     "local": "data/img/452be4601fc094f25a9d.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107776454_3_652_555_3.jpg?t=01792028123",
-     "main": false,
-     "local": "data/img/7239f4ae179e8f621e63.jpg"
-    }
-   ],
-   "locText": "32.78456100, 130.71711800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県熊本市中央区八王寺町3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県熊本市中央区八王寺町3期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "4,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107798653",
-   "source": "yokatown",
-   "name": "熊本市東区戸島西1丁目3期1号棟",
-   "price": "3,898万円",
-   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107798653.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "108.06㎡/ 32.68坪",
-   "landArea": "164.02㎡/ 49.61坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅 徒歩77分",
-     "min": "77",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_1_652_555_3.jpg?t=01791765435",
-     "main": true,
-     "local": "data/img/6b0538c5cd15f34e19bf.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_2_652_555_3.jpg?t=01791765435",
-     "main": false,
-     "local": "data/img/746a895f405a4d98f7c3.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107798653_3_652_555_3.jpg?t=01791765435",
-     "main": false,
-     "local": "data/img/f9b841fdf79b01e51cbc.jpg"
-    }
-   ],
-   "locText": "32.80972100, 130.78504800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島西1丁目3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "3,898万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107799897",
-   "source": "yokatown",
-   "name": "熊本市東区戸島西1丁目3期2号棟",
-   "price": "3,798万円",
-   "address": "熊本県熊本市東区戸島西１丁目23-143付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107799897.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "108.88㎡/ 32.93坪",
-   "landArea": "166.48㎡/ 50.35坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅 徒歩77分",
-     "min": "77",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_1_652_555_3.jpg?t=01791765435",
-     "main": true,
-     "local": "data/img/7dba3b46d73861555f83.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_2_652_555_3.jpg?t=01791765435",
-     "main": false,
-     "local": "data/img/f16fcefa444089ca0e8b.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107799897_3_652_555_3.jpg?t=01791765435",
-     "main": false,
-     "local": "data/img/07847ead26557f9c1b87.jpg"
-    }
-   ],
-   "locText": "32.80972100, 130.78504800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島西1丁目3期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島西1丁目3期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "3,798万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-107801830",
-   "source": "yokatown",
-   "name": "熊本市中央区島崎1丁目2期1号棟",
-   "price": "4,198万円",
-   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107801830.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "105.16㎡/ 31.81坪",
-   "landArea": "173.60㎡/ 52.51坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電B系統「段山町」駅 徒歩6分",
-     "min": "6",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107801830_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/6a2ef5a3de31e3fc917d.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107801830_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/e60a81dc06c871591179.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107801830_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/ee36df9b0a989ee41be5.jpg"
-    }
-   ],
-   "locText": "32.80638500, 130.69167800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市中央区島崎1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "4,198万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-107802001",
-   "source": "yokatown",
-   "name": "熊本市中央区島崎1丁目2期2号棟",
-   "price": "4,398万円",
-   "address": "熊本県熊本市中央区島崎１丁目13-15付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107802001.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "108.47㎡/ 32.81坪",
-   "landArea": "160.55㎡/ 48.56坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電B系統「段山町」駅 徒歩6分",
-     "min": "6",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107802001_1_652_555_3.jpg?t=01792386557",
-     "main": true,
-     "local": "data/img/78f4897e6908d22f5b36.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107802001_2_652_555_3.jpg?t=01792386557",
-     "main": false,
-     "local": "data/img/d9899fe6fcb803ea5632.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107802001_3_652_555_3.jpg?t=01792386557",
-     "main": false,
-     "local": "data/img/133a1716fb02077f3a83.jpg"
-    }
-   ],
-   "locText": "32.80638500, 130.69167800",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市中央区島崎1丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区島崎1丁目2期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-09-27T12:12:58.575Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-09-27",
-     "price": "4,398万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-107908044",
-   "source": "yokatown",
-   "name": "熊本市東区榎町3期1号棟",
-   "price": "4,098万円",
-   "address": "熊本県熊本市東区榎町21-16付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107908044.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2027年2月",
-   "buildingArea": "114.84㎡/ 34.73坪",
-   "landArea": "198.48㎡/ 60.03坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電A系統「健軍町」駅 徒歩39分",
-     "min": "39",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107908044_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/cfa54cc31d2a8d6504f9.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107908044_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/b7b92a6bdec48f05a44e.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107908044_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/00bfe0c6766fda48cb21.jpg"
-    }
-   ],
-   "locText": "32.79580500, 130.77369900",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区榎町3期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区榎町3期1号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-02T00:46:26.913Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-02",
-     "price": "4,098万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-107938878",
-   "source": "yokatown",
-   "name": "熊本市東区戸島3丁目2期1号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市東区戸島３丁目7-70付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107938878.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "108.06㎡/ 32.68坪",
-   "landArea": "195.45㎡/ 59.12坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
-     "min": "77",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107938878_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/c9244e39980eaadc0cad.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107938878_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/9c4eb9649817af55235a.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107938878_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/b53d2a1ec013eb8c08a2.jpg"
-    }
-   ],
-   "locText": "32.81941400, 130.79540200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島3丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-03",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-107942466",
-   "source": "yokatown",
-   "name": "熊本市東区戸島3丁目2期2号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市東区戸島３丁目7-70付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107942466.html",
-   "layout": "4LDKLD",
-   "stories": "",
-   "builtAt": "2026年12月",
-   "buildingArea": "103.92㎡/ 31.43坪",
-   "landArea": "207.37㎡/ 62.72坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
-     "min": "77",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107942466_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/8df067073b3195add23f.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107942466_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/3c61d0c590ff82eb5d3c.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107942466_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/5be1e1f0c0af1b865f8f.jpg"
-    }
-   ],
-   "locText": "32.81941400, 130.79540200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島3丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-03",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "id": "yokatown-107942686",
-   "source": "yokatown",
-   "name": "熊本市東区戸島3丁目2期3号棟",
-   "price": "3,498万円",
-   "address": "熊本県熊本市東区戸島３丁目7-70付近",
-   "detailUrl": "https://bukken.yoka-town.com/room107942686.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年12月",
-   "buildingArea": "103.51㎡/ 31.31坪",
-   "landArea": "217.82㎡/ 65.89坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩77分",
-     "min": "77",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/107942686_1_652_555_3.jpg?t=01792386558",
-     "main": true,
-     "local": "data/img/1d0ee2d4c85de69d0c6e.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/107942686_2_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/96c72107d7f26be5e709.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/107942686_3_652_555_3.jpg?t=01792386558",
-     "main": false,
-     "local": "data/img/c94e64027cb74bd5baba.jpg"
-    }
-   ],
-   "locText": "32.81941400, 130.79540200",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島3丁目2期3号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島3丁目2期3号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-03",
-     "price": "3,498万円"
-    }
-   ],
-   "relistedAt": "2026-10-12",
-   "relistHistory": [
-    {
-     "endedAt": "2026-10-06",
-     "relistedAt": "2026-10-12",
-     "lastSeen": "2026-10-05"
-    }
-   ]
-  },
-  {
    "id": "yokatown-107998338",
    "source": "yokatown",
    "name": "熊本市西区春日8丁目2期",
@@ -30797,394 +31401,6 @@
     {
      "date": "2026-10-05",
      "price": "3,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108115403",
-   "source": "yokatown",
-   "name": "熊本市東区沼山津1丁目1期1号棟",
-   "price": "3,498万円",
-   "address": "熊本県熊本市東区沼山津１丁目24-36付近",
-   "detailUrl": "https://bukken.yoka-town.com/room108115403.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2027年2月",
-   "buildingArea": "103.50㎡/ 31.3坪",
-   "landArea": "140.27㎡/ 42.43坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電A系統「健軍町」駅 徒歩23分",
-     "min": "23",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108115403_1_652_555_3.jpg?t=01792386580",
-     "main": true,
-     "local": "data/img/b0ba8ad6dc3376ddbaa0.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108115403_2_652_555_3.jpg?t=01792386580",
-     "main": false,
-     "local": "data/img/a86bff7a52d4a3fc3240.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108115403_3_652_555_3.jpg?t=01792386580",
-     "main": false,
-     "local": "data/img/214466cb568399183b34.jpg"
-    }
-   ],
-   "locText": "32.77372600, 130.77566000",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区沼山津1丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区沼山津1丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-09",
-     "price": "3,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108115573",
-   "source": "yokatown",
-   "name": "熊本市東区沼山津1丁目1期2号棟",
-   "price": "3,498万円",
-   "address": "熊本県熊本市東区沼山津１丁目24-36付近",
-   "detailUrl": "https://bukken.yoka-town.com/room108115573.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2027年2月",
-   "buildingArea": "105.58㎡/ 31.93坪",
-   "landArea": "140.21㎡/ 42.41坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "熊本市電A系統「健軍町」駅 徒歩23分",
-     "min": "23",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108115573_1_652_555_3.jpg?t=01792386579",
-     "main": true,
-     "local": "data/img/a972aba742402d3b4ac6.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108115573_2_652_555_3.jpg?t=01792386579",
-     "main": false,
-     "local": "data/img/91b7e9af8e352a60a1a2.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108115573_3_652_555_3.jpg?t=01792386579",
-     "main": false,
-     "local": "data/img/a1a010e5a26ceccfe221.jpg"
-    }
-   ],
-   "locText": "32.77372600, 130.77566000",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区沼山津1丁目1期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区沼山津1丁目1期2号棟は、間取りが4LDK＋1S(納戸)タイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-09",
-     "price": "3,498万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108174620",
-   "source": "yokatown",
-   "name": "熊本市東区戸島1丁目2期1号棟",
-   "price": "3,698万円",
-   "address": "熊本県熊本市東区戸島１丁目13-168付近",
-   "detailUrl": "https://bukken.yoka-town.com/room108174620.html",
-   "layout": "4LDK",
-   "stories": "",
-   "builtAt": "2027年3月",
-   "buildingArea": "104.43㎡/ 31.59坪",
-   "landArea": "198.16㎡/ 59.94坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩85分",
-     "min": "85",
-     "cat": "station"
-    },
-    {
-     "name": "「戸島入口」バス停下車 徒歩6分",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108174620_1_652_555_3.jpg?t=01792301195",
-     "main": true,
-     "local": "data/img/de6dc16505a302f1a21b.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108174620_2_652_555_3.jpg?t=01792301195",
-     "main": false,
-     "local": "data/img/85e30ffa2b8a2ebf5d71.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108174620_3_652_555_3.jpg?t=01792301195",
-     "main": false,
-     "local": "data/img/91519ae9115b8cc10fd8.jpg"
-    }
-   ],
-   "locText": "32.81411300, 130.79648500",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-10",
-     "price": "3,698万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108174989",
-   "source": "yokatown",
-   "name": "熊本市東区戸島1丁目2期2号棟",
-   "price": "3,398万円",
-   "address": "熊本県熊本市東区戸島１丁目13-168付近",
-   "detailUrl": "https://bukken.yoka-town.com/room108174989.html",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2027年3月",
-   "buildingArea": "115.09㎡/ 34.81坪",
-   "landArea": "172.09㎡/ 52.05坪",
-   "parking": "2台",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「武蔵塚」駅 徒歩85分",
-     "min": "85",
-     "cat": "station"
-    },
-    {
-     "name": "「戸島入口」バス停下車 徒歩6分",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108174989_1_652_555_3.jpg?t=01792301195",
-     "main": true,
-     "local": "data/img/77c8231610e05e8b9078.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108174989_2_652_555_3.jpg?t=01792301195",
-     "main": false,
-     "local": "data/img/db63a24a3f76a0c6f5d8.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108174989_3_652_555_3.jpg?t=01792301195",
-     "main": false,
-     "local": "data/img/1310da9e678fcf5bd702.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/108174989_4_652_555_3.jpg?t=01792301195",
-     "main": false,
-     "local": "data/img/494c9062f9d062d01720.jpg"
-    }
-   ],
-   "locText": "32.81411300, 130.79648500",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市東区戸島1丁目2期2号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市東区戸島1丁目2期2号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-10",
-     "price": "3,398万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108187449",
-   "source": "yokatown",
-   "name": "熊本市中央区渡鹿6丁目1期1号棟",
-   "price": "3,998万円",
-   "address": "熊本県熊本市中央区渡鹿６丁目14-72付近",
-   "detailUrl": "https://bukken.yoka-town.com/room108187449.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "108.89㎡/ 32.93坪",
-   "landArea": "166.53㎡/ 50.37坪",
-   "parking": "有(4台)",
-   "units": "",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「東海学園前」駅 徒歩6分",
-     "min": "6",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108187449_1_652_555_3.jpg?t=01792386578",
-     "main": true,
-     "local": "data/img/a207bf4dfbf6c05aba82.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108187449_2_652_555_3.jpg?t=01792386578",
-     "main": false,
-     "local": "data/img/21ce431dc28b462278ef.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108187449_3_652_555_3.jpg?t=01792386578",
-     "main": false,
-     "local": "data/img/470b7c49e35289f87a3c.jpg"
-    }
-   ],
-   "locText": "32.81082200, 130.73891400",
-   "locPrec": "",
-   "hpText": "こちらは、熊本市中央区渡鹿6丁目1期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本市中央区渡鹿6丁目1期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-11",
-     "price": "3,998万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "yokatown-108294421",
-   "source": "yokatown",
-   "name": "熊本県東区御領1丁目2期1号棟",
-   "price": "3,898万円",
-   "address": "熊本県熊本市東区御領１丁目3-13",
-   "detailUrl": "https://bukken.yoka-town.com/room108294421.html",
-   "layout": "4LDKLD",
-   "stories": "2階建て",
-   "builtAt": "2027年1月",
-   "buildingArea": "107.64㎡/ 32.56坪",
-   "landArea": "145.16㎡/ 43.91坪",
-   "parking": "3台",
-   "units": "",
-   "elementary": "熊本市立託麻西小学校",
-   "elementaryMin": "10",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "豊肥本線「竜田口」駅 徒歩36分",
-     "min": "36",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/108294421_1_652_555_3.jpg?t=01792030499",
-     "main": true,
-     "local": "data/img/36c15dba27d5d6943482.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/108294421_2_652_555_3.jpg?t=01792030499",
-     "main": false,
-     "local": "data/img/a732470ecc8002e4b731.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/108294421_3_652_555_3.jpg?t=01792030499",
-     "main": false,
-     "local": "data/img/accc84af1df07ba94c61.jpg"
-    }
-   ],
-   "locText": "32.81973200, 130.76043300",
-   "locPrec": "",
-   "hpText": "こちらは、熊本県東区御領1丁目2期1号棟の物件詳細ページとなっております。よかタウンおすすめの熊本県東区御領1丁目2期1号棟は、間取りが4LDKタイプの新築一戸建となっております。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-24",
-   "createdAt": "2026-10-15T05:43:46.178Z",
-   "lastSeen": "2026-10-23",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-10-15",
-     "price": "3,898万円"
     }
    ],
    "relistedAt": ""
@@ -36105,7 +36321,8 @@
      "date": "2026-10-24",
      "price": "2,790万円～3,390万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-1012401010815PJ-057940-2",
@@ -36246,6 +36463,78 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-058719-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン北区武蔵ｹ丘3丁目1795番",
+   "price": "3,890万円",
+   "address": "熊本県熊本市 北区武蔵ケ丘３丁目1795番41の一部(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-058719-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年1月",
+   "buildingArea": "94.81m²・103.5m²",
+   "landArea": "130.32m²・137.15m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "豊肥本線「武蔵塚」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130070845_3.jpg",
+     "main": true,
+     "local": "data/img/bb7ea22834427fc670e2.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130070845_4.jpg",
+     "main": false,
+     "local": "data/img/1cfc047d01ade82c9606.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130070845_19.jpg",
+     "main": false,
+     "local": "data/img/3294292095ab6985edf2.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130070845_20.jpg",
+     "main": false,
+     "local": "data/img/ebdbb0096d94b95a0a59.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130070845_21.jpg",
+     "main": false,
+     "local": "data/img/6fcfbb05ffa214828cb5.jpg"
+    }
+   ],
+   "locText": "32.85518802028, 130.76697460806",
+   "hpText": "株式会社飯田産業のハートフルタウン北区武蔵ｹ丘3丁目1795番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-10-24T12:13:55.886Z",
+   "lastSeen": "2026-10-24",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-10-24",
+     "price": "3,890万円"
+    }
+   ]
   },
   {
    "id": "sumaiida-2012701004557256130-2",
@@ -48114,7 +48403,7 @@
     }
    ],
    "locText": "32.8625392, 130.7064314",
-   "hpText": "（創業50周年記念特別住宅｜19.3畳LDK＆15.5畳子供部屋）【ZEH水準｜駐車4台以上｜畳コーナー】\n熊本市北区四方寄町の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \nZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n  土地・建物に加え、照明・網戸付きで2,200万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。  国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \nマエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
+   "hpText": "（創業50周年記念特別住宅｜19畳LDK＆15畳子供部屋）【ZEH水準｜駐車4台以上｜畳コーナー】\n熊本市北区四方寄町の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \nZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n  土地・建物に加え、照明・網戸付きで2,200万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。  国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \nマエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
    "tags": [],
    "status": "active",
    "endedAt": "",
@@ -48191,7 +48480,7 @@
     }
    ],
    "locText": "32.8625392, 130.7064314",
-   "hpText": "（創業50周年記念特別住宅｜18畳LDK＆15.5畳子ども部屋）【ZEH水準｜駐車4台以上｜畳コーナー】\n熊本市北区四方寄町の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \nZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n  土地・建物に加え、照明・網戸付きで2,100万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。  国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \nマエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
+   "hpText": "（創業50周年記念特別住宅｜18畳LDK＆15畳子ども部屋）【ZEH水準｜駐車4台以上｜畳コーナー】\n熊本市北区四方寄町の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \nZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n  土地・建物に加え、照明・網戸付きで2,100万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。  国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \nマエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
    "tags": [],
    "status": "active",
    "endedAt": "",
