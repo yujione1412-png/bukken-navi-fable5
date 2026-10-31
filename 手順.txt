@@ -1,0 +1,22 @@
+bukken-navi v58 の残りの作業（設定ファイル2件）
+
+アプリ本体の変更（お知らせ表示・表示バージョンv0.39）は、ClaudeがGitHubへ直接反映済みです。
+残りの「自動収集の設定ファイル」だけは、GitHubの決まりで持ち主本人しか変更できないため、
+お手数ですが次の2つをお願いします。
+
+scrape.yml の入れ替え
+1. GitHubでリポジトリ「bukken-navi-fable5」を開く
+2. フォルダ「.github」→「workflows」の順に開く
+3. 右上の「Add file」→「Upload files」から、このZIPに入っている scrape.yml をアップロードする
+（同じ名前のファイルがある場合は上書きされます）
+4. 「Commit changes」を押す
+
+scrape-retry.yml の削除（夕方7時の再収集を止めるため）
+1. 同じ「workflows」フォルダで「scrape-retry.yml」を開く
+2. 右上の「…」（またはゴミ箱のマーク）→「Delete file」を選ぶ
+3. 「Commit changes」を押す
+
+終わったら、Claudeのチャットで「終わった」と教えてください。こちらで確認します。
+
+※この2つが終わるまでは、GitHub側も今まで通り2社の収集を試みるため、
+　午後にアプリの表示が一時的に「エラー」に戻ることがあります。データは消えません。
