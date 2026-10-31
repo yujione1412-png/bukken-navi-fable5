@@ -1,0 +1,33 @@
+name: ブラウザ取得テスト
+
+# 調査用: 手動実行のみ(自動では動きません)
+# すまいーだ・ナカジツが、GitHubの作業場所に入っている本物のブラウザ(Chrome)で
+# 開けるかどうかを確かめます。結果は実行の記録(ログ)と、
+# Artifacts(browser-test-sample)で確認できます。
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+      - name: Node.jsを準備
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 必要なライブラリを導入
+        run: npm install --no-audit --no-fund
+      - name: ブラウザ操作用のライブラリを追加(このテストだけ)
+        run: npm install --no-save --no-audit --no-fund puppeteer-core
+      - name: ブラウザ取得テストを実行
+        run: node scraper/browser-test.js
+      - name: 開けたページを成果物として保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-test-sample
+          path: browser-test-sample/
+          if-no-files-found: ignore
