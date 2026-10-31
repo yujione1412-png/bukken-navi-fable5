@@ -431,7 +431,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <div id="pageList" class="page on">
   <div id="topStick">
   <header>
-    <h1>物件ナビ</h1><span class="ver">v0.38</span>
+    <h1>物件ナビ</h1><span class="ver">v0.39</span>
     <button id="avgBtn" aria-pressed="false">📊 平均価格を表示する</button>
     <button id="priceBtn">💰 価格</button>
   </header>
@@ -702,7 +702,7 @@ header .ver{font-size:.7rem;opacity:.75;align-self:baseline}
 <script>
 "use strict";
 /* =====================================================
-   物件ナビ v0.38
+   物件ナビ v0.39
    データは4層構造(下の層は上の層を上書きしない):
      1. HP自動収集   data/listings.json(毎日更新)
      2. AI補強      data/manual.json(マエムラ物件のみ・空欄の補完)
@@ -811,12 +811,17 @@ function statusAlerts(){
     const reasons = (s.reasons || []).slice();
     /* 自動更新そのものが止まっている場合(GitHub側の停止・処理が途中で落ちた等)もお知らせする。
        毎日1回の更新なので、40時間(丸1日以上)動いていなければ止まったとみなす。
+       すまいーだ・ナカジツは別途Claudeが毎日10時に収集・反映しているため、
+       そちらは26時間(1日分＋余裕2時間)動いていなければお知らせする。
        ※圏外・機内モードで保存済みデータを見ている時は誤解を招くので判定しない */
     const ran = s.ranAt ? new Date(s.ranAt).getTime() : 0;
     const hours = ran ? (Date.now() - ran) / 3600000 : null;
-    if(scrapeStatusFresh && hours !== null && hours >= 40){
+    const limit = (key === "sumaiida" || key === "nakajitsu") ? 26 : 40;
+    if(scrapeStatusFresh && hours !== null && hours >= limit){
       if(level !== "error") level = "warn";
-      reasons.push(`${fmtDate(s.ranAt)}を最後に、自動更新が動いていません`);
+      reasons.push((key === "sumaiida" || key === "nakajitsu")
+        ? `${fmtDate(s.ranAt)}を最後に、更新が反映されていません`
+        : `${fmtDate(s.ranAt)}を最後に、自動更新が動いていません`);
     }
     if(level === "ok") continue;
     out.push({key, level, reasons,
