@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T06:22:01.063Z",
+ "updatedAt": "2026-10-31T06:49:53.230Z",
  "count": 616,
  "listings": [
   {
@@ -5342,7 +5342,8 @@
    "createdAt": "2026-10-31T06:20:11.029Z",
    "lastSeen": "2026-10-31",
    "priceChanges": [],
-   "priceSnapshots": []
+   "priceSnapshots": [],
+   "relistedAt": ""
   },
   {
    "id": "kyuken-900677",
@@ -16238,7 +16239,8 @@
      "date": "2026-10-31",
      "price": "3,799万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1603-4",
@@ -16346,7 +16348,8 @@
      "date": "2026-10-31",
      "price": "3,799万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "daiei-1618-2",
@@ -30679,7 +30682,8 @@
      "date": "2026-10-31",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",

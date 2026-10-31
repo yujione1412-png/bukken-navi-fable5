@@ -3,10 +3,10 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-10-31T06:10:05.318Z",
+   "ranAt": "2026-10-31T06:38:43.881Z",
    "date": "2026-10-31",
    "count": 28,
-   "prevCount": 0,
+   "prevCount": 28,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -15,10 +15,10 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "error",
-   "ranAt": "2026-10-31T06:10:19.036Z",
+   "ranAt": "2026-10-31T06:38:57.156Z",
    "date": "2026-10-31",
    "count": 0,
-   "prevCount": 86,
+   "prevCount": 0,
    "notFound": 0,
    "reasons": [
     "すまいーだの熊本県ページが開けませんでした(HPの引っ越し・障害の可能性)"
@@ -29,10 +29,10 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-10-31T06:15:07.413Z",
+   "ranAt": "2026-10-31T06:43:30.491Z",
    "date": "2026-10-31",
    "count": 189,
-   "prevCount": 190,
+   "prevCount": 189,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -41,10 +41,10 @@
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-10-31T06:16:18.602Z",
+   "ranAt": "2026-10-31T06:44:38.872Z",
    "date": "2026-10-31",
    "count": 26,
-   "prevCount": 24,
+   "prevCount": 26,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -53,7 +53,7 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "error",
-   "ranAt": "2026-10-31T06:16:44.041Z",
+   "ranAt": "2026-10-31T06:45:04.352Z",
    "date": "2026-10-31",
    "count": 0,
    "prevCount": 0,
@@ -68,7 +68,7 @@
   "kokubu": {
    "label": "国分ハウジング",
    "level": "ok",
-   "ranAt": "2026-10-31T06:17:40.778Z",
+   "ranAt": "2026-10-31T06:45:58.988Z",
    "date": "2026-10-31",
    "count": 17,
    "prevCount": 17,
@@ -80,10 +80,10 @@
   "takasugi": {
    "label": "タカスギ",
    "level": "ok",
-   "ranAt": "2026-10-31T06:18:51.496Z",
+   "ranAt": "2026-10-31T06:47:07.120Z",
    "date": "2026-10-31",
    "count": 47,
-   "prevCount": 49,
+   "prevCount": 47,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -92,10 +92,10 @@
   "kyuken": {
    "label": "九建ホーム",
    "level": "ok",
-   "ranAt": "2026-10-31T06:20:11.037Z",
+   "ranAt": "2026-10-31T06:48:18.585Z",
    "date": "2026-10-31",
    "count": 18,
-   "prevCount": 17,
+   "prevCount": 18,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -104,7 +104,7 @@
   "santa": {
    "label": "サンタ不動産",
    "level": "ok",
-   "ranAt": "2026-10-31T06:22:01.075Z",
+   "ranAt": "2026-10-31T06:49:53.237Z",
    "date": "2026-10-31",
    "count": 38,
    "prevCount": 38,
@@ -114,5 +114,5 @@
    "lastOkCount": 38
   }
  },
- "updatedAt": "2026-10-31T06:22:01.075Z"
+ "updatedAt": "2026-10-31T06:49:53.237Z"
 }
