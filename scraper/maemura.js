@@ -321,6 +321,15 @@ async function main() {
     found.pages.forEach((u) => { if (!visited.has(u)) pageQueue.push(u); }); // ページ送り対応
   }
   console.log(`エリアページ ${visited.size}件を巡回、物件詳細 ${postUrls.size}件を発見`);
+  if (!postUrls.size) {
+    // 物件が1件も見つからなかったときの原因調べ用:
+    // トップページ自体がいつもと違う内容(点検中の案内ページなど)に
+    // なっていないか、Actionsの記録(ログ)で後から確かめられるように残す
+    const title = (topHtml.match(/<title>([^<]*)<\/title>/i) || [])[1] || "(タイトルなし)";
+    const linkCount = (topHtml.match(/<a\s[^>]*href=/gi) || []).length;
+    console.log(`[診断] トップページのタイトル: ${title}`);
+    console.log(`[診断] トップページの大きさ: ${topHtml.length}文字 / リンク総数: ${linkCount}件`);
+  }
 
   // 2. 各詳細ページを解析
   const scraped = [];
