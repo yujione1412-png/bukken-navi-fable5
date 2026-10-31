@@ -15,10 +15,10 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-10-31T12:52:01.909Z",
+   "ranAt": "2026-10-31T13:31:36.721Z",
    "date": "2026-10-31",
    "count": 83,
-   "prevCount": 0,
+   "prevCount": 83,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -51,7 +51,7 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "ok",
-   "ranAt": "2026-10-31T13:06:28.326Z",
+   "ranAt": "2026-10-31T13:33:16.993Z",
    "date": "2026-10-31",
    "count": 19,
    "prevCount": 19,
@@ -109,5 +109,5 @@
    "lastOkCount": 38
   }
  },
- "updatedAt": "2026-10-31T13:06:28.326Z"
+ "updatedAt": "2026-10-31T13:33:16.993Z"
 }
