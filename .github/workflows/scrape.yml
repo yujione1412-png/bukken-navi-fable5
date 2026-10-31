@@ -25,40 +25,59 @@ jobs:
       - name: 必要なライブラリを導入
         run: npm install --no-audit --no-fund
 
+      # ↓各社の収集には continue-on-error を付けています。
+      #   1社が失敗(サイト側の障害・アクセス制限など)しても、残りの会社の収集と
+      #   最後の保存が止まらないようにするためです。
+      #   失敗した会社は data/status.json に「異常」として記録され、
+      #   アプリの「9社の更新状況」に表示されます(前回のデータは安全弁で維持)。
       - name: マエムラの物件を収集
+        continue-on-error: true
         run: node scraper/maemura.js
 
       - name: すまいーだの物件を収集
+        continue-on-error: true
         run: node scraper/sumaiida.js
 
       - name: よかタウンの物件を収集
+        continue-on-error: true
         run: node scraper/yokatown.js
 
       - name: 大英産業の物件を収集
+        continue-on-error: true
         run: node scraper/daiei.js
 
       - name: ナカジツの物件を収集
+        continue-on-error: true
         run: node scraper/nakajitsu.js
 
       - name: 国分ハウジングの物件を収集
+        continue-on-error: true
         run: node scraper/kokubu.js
 
       - name: タカスギの物件を収集
+        continue-on-error: true
         run: node scraper/takasugi.js
 
       - name: 九建ホームの物件を収集
+        continue-on-error: true
         run: node scraper/kyuken.js
 
       - name: サンタ不動産の物件を収集
+        continue-on-error: true
         run: node scraper/santa.js
 
       - name: 最寄り駅を自動設定
+        if: always()
+        continue-on-error: true
         run: node scraper/stations.js
 
       - name: 写真を縮小して保存
+        if: always()
+        continue-on-error: true
         run: node scraper/photos.js
 
       - name: 変更があればコミットして反映
+        if: always()
         run: |
           # リポジトリの持ち主(依頼主)のGitHubアカウント名義でコミットする。
           # Vercelの無料プランは、非公開リポジトリだと持ち主本人のコミットしか配信しないため
