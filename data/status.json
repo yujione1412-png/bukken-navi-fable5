@@ -51,10 +51,10 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "ok",
-   "ranAt": "2026-10-31T12:52:53.506Z",
+   "ranAt": "2026-10-31T13:06:28.326Z",
    "date": "2026-10-31",
    "count": 19,
-   "prevCount": 0,
+   "prevCount": 19,
    "notFound": 0,
    "reasons": [],
    "lastOkDate": "2026-10-31",
@@ -109,5 +109,5 @@
    "lastOkCount": 38
   }
  },
- "updatedAt": "2026-10-31T12:52:53.506Z"
+ "updatedAt": "2026-10-31T13:06:28.326Z"
 }
