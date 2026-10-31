@@ -34,9 +34,8 @@ jobs:
         continue-on-error: true
         run: node scraper/maemura.js
 
-      - name: すまいーだの物件を収集
-        continue-on-error: true
-        run: node scraper/sumaiida.js
+      # すまいーだ・ナカジツは、サイト側がGitHubからのアクセスを断っているため
+      # ここでは収集しません。2社分は別途Claudeが毎日収集して反映しています。
 
       - name: よかタウンの物件を収集
         continue-on-error: true
@@ -45,10 +44,6 @@ jobs:
       - name: 大英産業の物件を収集
         continue-on-error: true
         run: node scraper/daiei.js
-
-      - name: ナカジツの物件を収集
-        continue-on-error: true
-        run: node scraper/nakajitsu.js
 
       - name: 国分ハウジングの物件を収集
         continue-on-error: true
