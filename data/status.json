@@ -14,17 +14,15 @@
   },
   "sumaiida": {
    "label": "すまいーだ",
-   "level": "error",
-   "ranAt": "2026-10-31T08:45:17.405Z",
+   "level": "ok",
+   "ranAt": "2026-10-31T12:52:01.909Z",
    "date": "2026-10-31",
-   "count": 0,
+   "count": 83,
    "prevCount": 0,
    "notFound": 0,
-   "reasons": [
-    "すまいーだの熊本県ページが開けませんでした(HPの引っ越し・障害の可能性)"
-   ],
-   "lastOkDate": "2026-10-28",
-   "lastOkCount": 86
+   "reasons": [],
+   "lastOkDate": "2026-10-31",
+   "lastOkCount": 83
   },
   "yokatown": {
    "label": "よかタウン",
@@ -52,18 +50,15 @@
   },
   "nakajitsu": {
    "label": "ナカジツ",
-   "level": "error",
-   "ranAt": "2026-10-31T08:45:42.873Z",
+   "level": "ok",
+   "ranAt": "2026-10-31T12:52:53.506Z",
    "date": "2026-10-31",
-   "count": 0,
+   "count": 19,
    "prevCount": 0,
    "notFound": 0,
-   "reasons": [
-    "取得できた件数が前回(18件)から0件に大きく減ったため、今回は前回の内容をそのまま表示しています",
-    "物件が1件も取れませんでした"
-   ],
-   "lastOkDate": "2026-10-21",
-   "lastOkCount": 18
+   "reasons": [],
+   "lastOkDate": "2026-10-31",
+   "lastOkCount": 19
   },
   "kokubu": {
    "label": "国分ハウジング",
@@ -114,5 +109,5 @@
    "lastOkCount": 38
   }
  },
- "updatedAt": "2026-10-31T08:45:42.873Z"
+ "updatedAt": "2026-10-31T12:52:53.506Z"
 }
