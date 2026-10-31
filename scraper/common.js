@@ -21,7 +21,12 @@ function getFetchStats() { return { ...fetchStats }; }
 async function fetchHtml(url) {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": UA } });
+      // User-Agentで名乗るのは従来どおり。あわせて「日本語のページを受け取る」
+      // という案内(Accept / Accept-Language)も付ける。サイトによっては、
+      // この案内が無いアクセスを不審なアクセスとして403で断る場合があるため
+      const res = await fetch(url, { headers: { "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ja,en;q=0.5" } });
       if (res.ok) { fetchStats.ok++; return await res.text(); }
       if (res.status === 404) { fetchStats.notFound++; return null; }  // ページが存在しない → 再試行しても無駄
       console.error(`[WARN] ${res.status} ${url}`);
