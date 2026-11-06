@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-05T15:19:24.891Z",
- "count": 626,
+ "updatedAt": "2026-11-06T01:07:04.533Z",
+ "count": 628,
  "listings": [
   {
    "id": "nakajitsu-5482368",
@@ -1938,17 +1938,17 @@
     },
     {
      "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130060374_19.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_5.jpg",
      "main": false
     },
     {
      "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130060374_21.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_6.jpg",
      "main": false
     },
     {
      "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130060374_s1.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130060374_10.jpg",
      "main": false
     }
    ],
@@ -2241,6 +2241,68 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-057162-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン西区島崎2丁目614番",
+   "price": "3,790万円～4,190万円",
+   "address": "熊本県熊本市 西区島崎２丁目614番1の一部ほか（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-057162-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "96.47m²～104.53m²",
+   "landArea": "180.76m²～240.12m²",
+   "parking": "",
+   "units": "3棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本市上熊本線「段山町」駅まで徒歩12分",
+     "min": "12",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130071402_19.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130071402_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130071402_21.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130071402_22.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.805685934694495, 130.68794980670765",
+   "hpText": "株式会社飯田産業のハートフルタウン西区島崎2丁目614番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市西区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-11-06T01:06:00.151Z",
+   "lastSeen": "2026-11-06",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-11-06",
+     "price": "3,790万円～4,190万円"
+    }
+   ]
   },
   {
    "id": "sumaiida-1012401010815PJ-057251-2",
@@ -2644,6 +2706,73 @@
     }
    ],
    "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-1012401010815PJ-058314-2",
+   "source": "sumaiida",
+   "name": "ハートフルタウン合志市須屋2018番",
+   "price": "3,490万円",
+   "address": "熊本県合志市須屋字松ノ本2018番9の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/1012401010815PJ-058314-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2027年2月",
+   "buildingArea": "95.32m²・99.36m²",
+   "landArea": "165.78m²・183.25m²",
+   "parking": "",
+   "units": "2棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "熊本電気鉄道「三ツ石」駅まで徒歩10分",
+     "min": "10",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130071404_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130071404_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130071404_19.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130071404_20.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130071404_21.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.86545, 130.7332",
+   "hpText": "株式会社飯田産業のハートフルタウン合志市須屋2018番の物件詳細ページです。飯田グループホールディングスが熊本県合志市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-11-06T01:06:00.151Z",
+   "lastSeen": "2026-11-06",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-11-06",
+     "price": "3,490万円"
+    }
+   ]
   },
   {
    "id": "sumaiida-1012401010815PJ-058719-2",
@@ -5549,7 +5678,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン南区浜口町第三",
    "price": "2,498万円",
-   "address": "熊本県熊本市 南区浜口町字堀上339番2（地番）",
+   "address": "熊本県熊本市 南区浜口町字堀上339番1（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515591008-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -6831,93 +6960,6 @@
     {
      "date": "2026-11-03",
      "price": "2,680万円～3,280万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "sumaiida-801270100266284575029-2",
-   "source": "sumaiida",
-   "name": "ブルーミングガーデン熊本市南区近見１丁目１棟",
-   "price": "3,690万円",
-   "address": "熊本県熊本市 南区近見１丁目2873番2他(地番)",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575029-2/",
-   "layout": "4LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年9月",
-   "buildingArea": "110.96m²",
-   "landArea": "147.05m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「西熊本」駅まで徒歩19分",
-     "min": "19",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130064323_3.jpg",
-     "main": true
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130064323_4.jpg",
-     "main": false
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130064323_5.jpg",
-     "main": false
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130064323_6.jpg",
-     "main": false
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130064323_10.jpg",
-     "main": false
-    }
-   ],
-   "locText": "32.76869138, 130.6900641",
-   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市南区近見１丁目１棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-06",
-   "priceChanges": [
-    {
-     "date": "2026-09-29",
-     "from": "3,990万円",
-     "to": "3,790万円"
-    },
-    {
-     "date": "2026-10-20",
-     "from": "3,790万円",
-     "to": "3,690万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "3,990万円"
-    },
-    {
-     "date": "2026-09-29",
-     "price": "3,790万円"
-    },
-    {
-     "date": "2026-10-20",
-     "price": "3,690万円"
     }
    ],
    "relistedAt": ""
@@ -8243,6 +8285,93 @@
     {
      "date": "2026-10-26",
      "price": "2,990万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-801270100266284575029-2",
+   "source": "sumaiida",
+   "name": "ブルーミングガーデン熊本市南区近見１丁目１棟",
+   "price": "3,690万円",
+   "address": "熊本県熊本市 南区近見１丁目2873番2他(地番)",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/801270100266284575029-2/",
+   "layout": "4LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年9月",
+   "buildingArea": "110.96m²",
+   "landArea": "147.05m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「西熊本」駅まで徒歩19分",
+     "min": "19",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130064323_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.76869138, 130.6900641",
+   "hpText": "株式会社東栄住宅のブルーミングガーデン熊本市南区近見１丁目１棟の物件詳細ページです。飯田グループホールディングスが熊本県熊本市南区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-06",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-11-06",
+   "priceChanges": [
+    {
+     "date": "2026-09-29",
+     "from": "3,990万円",
+     "to": "3,790万円"
+    },
+    {
+     "date": "2026-10-20",
+     "from": "3,790万円",
+     "to": "3,690万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "3,990万円"
+    },
+    {
+     "date": "2026-09-29",
+     "price": "3,790万円"
+    },
+    {
+     "date": "2026-10-20",
+     "price": "3,690万円"
     }
    ],
    "relistedAt": ""
@@ -12751,38 +12880,7 @@
      "cat": "station"
     }
    ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130052070_3.jpg",
-     "main": true,
-     "local": "data/img/85a5891b5aef2eaba363.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130052070_4.jpg",
-     "main": false,
-     "local": "data/img/63eb43d22781805b2e6b.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130052070_5.jpg",
-     "main": false,
-     "local": "data/img/608f8868ee626f2bf026.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130052070_6.jpg",
-     "main": false,
-     "local": "data/img/f73faf302eadeaefb252.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130052070_10.jpg",
-     "main": false,
-     "local": "data/img/8ff0ec3c887084775ee3.jpg"
-    }
-   ],
+   "photos": [],
    "locText": "32.83267402787782, 130.70645658664702",
    "hpText": "アイディホーム株式会社のリナージュネクスジー熊本北区池田３丁目　第１期の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
    "tags": [],
@@ -51162,14 +51260,7 @@
      "cat": "bus"
     }
    ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
+   "photos": [],
    "locText": "32.83499631033372, 130.7837913017466",
    "hpText": "熊本市東区長嶺東9丁目の飫肥杉で造られた建売住宅です！土地、照明、網戸込みで2,400万円台で購入可能♪お買い物はミスターマックス熊本インター店さんがあるので便利です！熊本インターに近いのも◎！学校区は熊本市立託麻北小学校、東部中学校区です。南が段下がり（認定擁壁！）で建物がないのでリビングからの眺めの良さは必見です♪日中カーテン全開でもプライバシー保てる家ってなかなか無いと思います。",
    "tags": [],
