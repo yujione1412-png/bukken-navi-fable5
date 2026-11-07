@@ -15,14 +15,14 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-11-06T01:06:00.181Z",
-   "date": "2026-11-06",
-   "count": 82,
-   "prevCount": 81,
+   "ranAt": "2026-11-07T07:25:24.824Z",
+   "date": "2026-11-07",
+   "count": 83,
+   "prevCount": 82,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-06",
-   "lastOkCount": 82
+   "lastOkDate": "2026-11-07",
+   "lastOkCount": 83
   },
   "yokatown": {
    "label": "よかタウン",
@@ -50,13 +50,16 @@
   },
   "nakajitsu": {
    "label": "ナカジツ",
-   "level": "ok",
-   "ranAt": "2026-11-06T01:07:04.560Z",
-   "date": "2026-11-06",
-   "count": 18,
+   "level": "error",
+   "ranAt": "2026-11-07T07:26:00.438Z",
+   "date": "2026-11-07",
+   "count": 0,
    "prevCount": 18,
    "notFound": 0,
-   "reasons": [],
+   "reasons": [
+    "取得できた件数が前回(18件)から0件に大きく減ったため、今回は前回の内容をそのまま表示しています",
+    "物件が1件も取れませんでした"
+   ],
    "lastOkDate": "2026-11-06",
    "lastOkCount": 18
   },
@@ -109,5 +112,5 @@
    "lastOkCount": 37
   }
  },
- "updatedAt": "2026-11-07T07:01:55.090Z"
+ "updatedAt": "2026-11-07T07:26:00.438Z"
 }
