@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T07:26:00.422Z",
+ "updatedAt": "2026-11-08T01:02:46.098Z",
  "count": 630,
  "listings": [
   {
@@ -1816,7 +1816,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -1921,7 +1921,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -2026,7 +2026,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -2131,7 +2131,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -2227,7 +2227,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T10:43:07.270Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -2300,7 +2300,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2363,7 +2363,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-06T01:06:00.151Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2431,7 +2431,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2479,17 +2479,17 @@
     },
     {
      "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130068539_19.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130068539_5.jpg",
      "main": false
     },
     {
      "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130068539_20.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130068539_6.jpg",
      "main": false
     },
     {
      "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130068539_21.jpg",
+     "url": "https://sumaiida.com/bukken/image/H00130068539_10.jpg",
      "main": false
     }
    ],
@@ -2499,7 +2499,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-12T22:59:06.550Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2567,7 +2567,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-14T23:51:46.248Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2635,7 +2635,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-24T05:27:23.335Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2703,7 +2703,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-18T23:12:57.992Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2766,7 +2766,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.785Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2834,7 +2834,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-06T01:06:00.151Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2902,14 +2902,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-07T07:25:24.808Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-07",
      "price": "3,690万円～4,190万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "sumaiida-1012401010815PJ-058719-2",
@@ -2969,7 +2970,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-24T12:13:55.886Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3027,7 +3028,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -3132,7 +3133,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -3228,7 +3229,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-17",
@@ -3333,7 +3334,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -3451,7 +3452,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-28",
@@ -3565,7 +3566,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -3652,7 +3653,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3720,7 +3721,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -3816,7 +3817,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-19",
@@ -3903,7 +3904,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-11-04",
@@ -3981,7 +3982,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -4086,7 +4087,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-07T01:05:55.774Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -4182,7 +4183,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:39:24.777Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -4269,7 +4270,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-06",
@@ -4294,93 +4295,6 @@
     {
      "date": "2026-11-04",
      "price": "2,380万円～2,580万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "sumaiida-2012701004557284400-2",
-   "source": "sumaiida",
-   "name": "クレイドルガーデン宇土市一里木町 第2",
-   "price": "2,280万円",
-   "address": "熊本県宇土市一里木町字一里木40番の一部（地番）",
-   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557284400-2/",
-   "layout": "4LDK",
-   "stories": "",
-   "builtAt": "2026年7月",
-   "buildingArea": "91.32m²",
-   "landArea": "227.68m²",
-   "parking": "",
-   "units": "1棟",
-   "elementary": "",
-   "elementaryMin": "",
-   "junior": "",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "鹿児島本線「宇土」駅まで徒歩25分",
-     "min": "25",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130060623_3.jpg",
-     "main": true
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130060623_4.jpg",
-     "main": false
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130060623_5.jpg",
-     "main": false
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130060623_6.jpg",
-     "main": false
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130060623_10.jpg",
-     "main": false
-    }
-   ],
-   "locText": "32.6806227, 130.6598777",
-   "hpText": "株式会社アーネストワンのクレイドルガーデン宇土市一里木町 第2の物件詳細ページです。飯田グループホールディングスが熊本県宇土市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
-   "priceChanges": [
-    {
-     "date": "2026-08-28",
-     "from": "2,480万円",
-     "to": "2,380万円"
-    },
-    {
-     "date": "2026-11-04",
-     "from": "2,380万円",
-     "to": "2,280万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,480万円"
-    },
-    {
-     "date": "2026-08-28",
-     "price": "2,380万円"
-    },
-    {
-     "date": "2026-11-04",
-     "price": "2,280万円"
     }
    ],
    "relistedAt": ""
@@ -4443,7 +4357,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-09",
@@ -4530,7 +4444,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:08:09.730Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-11-04",
@@ -4608,7 +4522,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:46:26.024Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-27",
@@ -4686,7 +4600,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-29",
@@ -4773,7 +4687,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4841,7 +4755,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-18T21:33:38.152Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4909,7 +4823,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-04T01:10:19.711Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4977,7 +4891,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-15T23:32:43.817Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5045,7 +4959,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -5141,7 +5055,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.785Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-11",
@@ -5219,7 +5133,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-04T01:10:19.711Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5287,7 +5201,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-18T21:33:38.152Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5355,7 +5269,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5423,7 +5337,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-28T06:40:58.733Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5491,7 +5405,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-23T05:48:13.195Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5559,7 +5473,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:31:55.786Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5627,7 +5541,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-04T01:10:19.711Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5695,7 +5609,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-23T05:48:13.195Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -5763,7 +5677,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-07-29",
@@ -5868,7 +5782,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-05",
@@ -5964,7 +5878,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-19T21:34:44.699Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-08",
@@ -6042,7 +5956,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-15",
@@ -6129,7 +6043,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-20",
@@ -6207,7 +6121,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-11",
@@ -6312,7 +6226,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:01:48.001Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6380,7 +6294,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-08T23:21:12.522Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6448,7 +6362,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-11-03",
@@ -6526,7 +6440,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.483Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-10-06",
@@ -6560,7 +6474,7 @@
    "source": "sumaiida",
    "name": "リーブルガーデン南区良町第十二",
    "price": "3,398万円",
-   "address": "熊本県熊本市 南区良町１丁目146番5の一部ほか（地番）",
+   "address": "熊本県熊本市 南区良町１丁目146番5の一部（地番）",
    "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/5011601000515594974-2/",
    "layout": "4LDK",
    "stories": "2階建て",
@@ -6613,7 +6527,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-16T21:59:16.484Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6681,7 +6595,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:48:24.290Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6749,7 +6663,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:01:48.001Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6817,7 +6731,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-16",
@@ -6922,7 +6836,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-16",
@@ -7027,7 +6941,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-26",
@@ -7159,7 +7073,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -7255,7 +7169,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7323,7 +7237,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T00:56:49.297Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7391,7 +7305,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-11T21:59:03.542Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-29",
@@ -7469,7 +7383,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-31T22:14:13.972Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7537,7 +7451,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:42:36.731Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7605,7 +7519,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:16:56.637Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7673,7 +7587,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-24T23:53:10.375Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7741,7 +7655,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:01:48.001Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7809,7 +7723,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:08:48.667Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7877,7 +7791,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:01:48.001Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7945,7 +7859,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-09-14",
@@ -8041,7 +7955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-26T05:48:48.948Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8109,7 +8023,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:40:16.833Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [
     {
      "date": "2026-08-10",
@@ -8212,7 +8126,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T07:47:07.614Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8280,7 +8194,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-04T22:59:58.846Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8348,7 +8262,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-01T23:16:24.970Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8416,12 +8330,99 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-26T05:48:48.948Z",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-10-26",
      "price": "2,990万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "sumaiida-2012701004557284400-2",
+   "source": "sumaiida",
+   "name": "クレイドルガーデン宇土市一里木町 第2",
+   "price": "2,280万円",
+   "address": "熊本県宇土市一里木町字一里木40番の一部（地番）",
+   "detailUrl": "https://sumaiida.com/ikkodate/kyushu/kumamoto/2012701004557284400-2/",
+   "layout": "4LDK",
+   "stories": "",
+   "builtAt": "2026年7月",
+   "buildingArea": "91.32m²",
+   "landArea": "227.68m²",
+   "parking": "",
+   "units": "1棟",
+   "elementary": "",
+   "elementaryMin": "",
+   "junior": "",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鹿児島本線「宇土」駅まで徒歩25分",
+     "min": "25",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_4.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_6.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://sumaiida.com/bukken/image/H00130060623_10.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.6806227, 130.6598777",
+   "hpText": "株式会社アーネストワンのクレイドルガーデン宇土市一里木町 第2の物件詳細ページです。飯田グループホールディングスが熊本県宇土市のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-08",
+   "createdAt": "2026-07-14T07:47:07.614Z",
+   "lastSeen": "2026-11-07",
+   "priceChanges": [
+    {
+     "date": "2026-08-28",
+     "from": "2,480万円",
+     "to": "2,380万円"
+    },
+    {
+     "date": "2026-11-04",
+     "from": "2,380万円",
+     "to": "2,280万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    },
+    {
+     "date": "2026-08-28",
+     "price": "2,380万円"
+    },
+    {
+     "date": "2026-11-04",
+     "price": "2,280万円"
     }
    ],
    "relistedAt": ""
@@ -12934,38 +12935,7 @@
      "cat": "station"
     }
    ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://sumaiida.com/bukken/image/H00130053536_3.jpg",
-     "main": true,
-     "local": "data/img/947c2e52464c59c7ab6a.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://sumaiida.com/bukken/image/H00130053536_4.jpg",
-     "main": false,
-     "local": "data/img/3576c48cf61c4d80506a.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://sumaiida.com/bukken/image/H00130053536_5.jpg",
-     "main": false,
-     "local": "data/img/65f27e6d28e902433144.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://sumaiida.com/bukken/image/H00130053536_6.jpg",
-     "main": false,
-     "local": "data/img/6820eb698e47cbd52274.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://sumaiida.com/bukken/image/H00130053536_10.jpg",
-     "main": false,
-     "local": "data/img/6ff543b833a4a8feb7d1.jpg"
-    }
-   ],
+   "photos": [],
    "locText": "32.83665, 130.70828",
    "hpText": "株式会社飯田産業のハートフルタウン北区池田3丁目769番の物件詳細ページです。飯田グループホールディングスが熊本県熊本市北区のマイホーム探しや住宅購入、お住まいの住み替えを全力でサポートします。【すまいーだ】",
    "tags": [],
