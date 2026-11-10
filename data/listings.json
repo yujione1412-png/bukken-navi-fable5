@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-09T07:52:49.884Z",
+ "updatedAt": "2026-11-10T08:12:18.799Z",
  "count": 636,
  "listings": [
   {
    "id": "santa-792130",
    "source": "santa",
    "name": "八代市松崎町B号地",
-   "price": "2,999万円",
+   "price": "2,699万円",
    "address": "熊本県八代市松崎町549-2",
    "detailUrl": "https://santa-estate.jp/estates/792130/",
    "layout": "3LDK+S",
@@ -92,12 +92,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
-   "priceChanges": [],
+   "lastSeen": "2026-11-10",
+   "priceChanges": [
+    {
+     "date": "2026-11-10",
+     "from": "2,999万円",
+     "to": "2,699万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "2,999万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "2,699万円"
     }
    ],
    "relistedAt": ""
@@ -106,7 +116,7 @@
    "id": "santa-792147",
    "source": "santa",
    "name": "八代市松崎町C号地",
-   "price": "3,498万円",
+   "price": "2,799万円",
    "address": "熊本県八代市松崎町549-3",
    "detailUrl": "https://santa-estate.jp/estates/792147/",
    "layout": "4LDK+S",
@@ -192,12 +202,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
-   "priceChanges": [],
+   "lastSeen": "2026-11-10",
+   "priceChanges": [
+    {
+     "date": "2026-11-10",
+     "from": "3,498万円",
+     "to": "2,799万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "3,498万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "2,799万円"
     }
    ],
    "relistedAt": ""
@@ -206,7 +226,7 @@
    "id": "santa-793812",
    "source": "santa",
    "name": "玉名市玉名3号地",
-   "price": "2,999万円",
+   "price": "2,699万円",
    "address": "熊本県玉名市玉名1461-6",
    "detailUrl": "https://santa-estate.jp/estates/793812/",
    "layout": "4LDK+S",
@@ -291,12 +311,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
-   "priceChanges": [],
+   "lastSeen": "2026-11-10",
+   "priceChanges": [
+    {
+     "date": "2026-11-10",
+     "from": "2,999万円",
+     "to": "2,699万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "2,999万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "2,699万円"
     }
    ],
    "relistedAt": ""
@@ -376,7 +406,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -475,7 +505,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:56:16.110Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -555,7 +585,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -645,7 +675,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -735,7 +765,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.366Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -834,7 +864,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -924,7 +954,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1009,7 +1039,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1099,7 +1129,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1189,7 +1219,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1274,7 +1304,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1288,7 +1318,7 @@
    "id": "santa-1014322",
    "source": "santa",
    "name": "熊本市東区山ノ内3丁目1号地",
-   "price": "3,599万円",
+   "price": "3,299万円",
    "address": "熊本県熊本市東区山ノ内3丁目7-29",
    "detailUrl": "https://santa-estate.jp/estates/1014322/",
    "layout": "4LDK",
@@ -1379,12 +1409,22 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
-   "priceChanges": [],
+   "lastSeen": "2026-11-10",
+   "priceChanges": [
+    {
+     "date": "2026-11-10",
+     "from": "3,599万円",
+     "to": "3,299万円"
+    }
+   ],
    "priceSnapshots": [
     {
      "date": "2026-09-29",
      "price": "3,599万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "3,299万円"
     }
    ],
    "relistedAt": ""
@@ -1484,7 +1524,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1588,7 +1628,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1677,7 +1717,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1781,7 +1821,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-14",
@@ -1895,7 +1935,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -1999,7 +2039,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2098,7 +2138,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2197,7 +2237,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2287,7 +2327,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2377,7 +2417,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2481,7 +2521,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2570,7 +2610,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-16T05:43:53.820Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2599,6 +2639,12 @@
    "junior": "託麻中学校",
    "juniorMin": "23",
    "facilities": [
+    {
+     "name": "平成駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "熊本バス「笛田神社前」バス停",
      "min": "4",
@@ -2674,14 +2720,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:52:49.884Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "3,848万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "santa-1218016",
@@ -2702,6 +2749,12 @@
    "junior": "託麻中学校",
    "juniorMin": "23",
    "facilities": [
+    {
+     "name": "平成駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
     {
      "name": "熊本バス「笛田神社前」バス停",
      "min": "4",
@@ -2777,14 +2830,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:52:49.884Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "3,918万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "santa-1222095",
@@ -2861,7 +2915,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -2956,7 +3010,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T13:54:46.367Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3039,7 +3093,7 @@
     },
     {
      "id": "p3",
-     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1234383%2F43abb995-dd35-4270-9c7f-c1ca50caaa21%2F43abb995-dd35-4270-9c7f-c1ca50caaa21.jpg?format=webp",
+     "url": "https://storage.neos-ws.jp/thumbnail-images/searshome/estate%2Fimages%2F1234383%2Ff216f67a-93a8-4824-bf5c-9bff109f4e81%2Ff216f67a-93a8-4824-bf5c-9bff109f4e81.jpg?format=webp",
      "main": false
     },
     {
@@ -3060,7 +3114,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-23T05:59:56.865Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3164,7 +3218,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-23T05:59:56.865Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3268,7 +3322,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-16T05:43:53.820Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3342,7 +3396,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-17T05:34:35.893Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3446,7 +3500,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:12:56.510Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3550,7 +3604,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-27T06:12:56.510Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3645,7 +3699,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T04:12:57.854Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -3750,7 +3804,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-28T06:51:43.110Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -4428,7 +4482,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4498,7 +4552,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4568,7 +4622,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4638,7 +4692,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4708,7 +4762,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4778,7 +4832,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4848,7 +4902,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4918,7 +4972,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T10:11:04.196Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -4988,7 +5042,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T06:06:42.481Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5058,7 +5112,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T07:02:23.004Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5128,7 +5182,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-13T07:36:45.770Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5174,7 +5228,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-13T07:36:45.771Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5220,7 +5274,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-13T07:36:45.771Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5266,7 +5320,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-13T07:36:45.771Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5336,7 +5390,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T12:04:37.963Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5406,7 +5460,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-13T07:36:45.771Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5476,7 +5530,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-23T05:58:19.141Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5546,7 +5600,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-31T06:20:11.029Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5616,7 +5670,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-03T07:44:26.275Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -5686,7 +5740,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-07T07:00:17.336Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [],
    "relistedAt": ""
@@ -6044,7 +6098,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6139,7 +6193,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6234,7 +6288,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6329,7 +6383,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6393,33 +6447,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B1%E5%A4%A7%E5%A1%98AI%EF%BC%BF002.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/re_DSC9693-2.jpg",
      "main": true,
-     "local": "data/img/faa209e82d1b626f2bda.jpg"
+     "local": "data/img/780d27f528c0eb8a57a0.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B1%E5%A4%A7%E5%A1%98AI%EF%BC%BF002.jpg",
+     "main": false,
+     "local": "data/img/faa209e82d1b626f2bda.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B1%E5%A4%A7%E5%A1%98AI%EF%BC%BF003.jpg",
      "main": false,
      "local": "data/img/53c479cbfee2b0b98d79.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0783-scaled.jpg",
      "main": false,
      "local": "data/img/ec9a6b5b6b262f534696.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0779-scaled.jpg",
      "main": false,
      "local": "data/img/a2d133f7b2947b5d5158.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC0791-scaled.jpg",
-     "main": false,
-     "local": "data/img/225e90a576e7aa1e1fb1.jpg"
     }
    ],
    "locText": "32.7801955, 130.6567930",
@@ -6429,7 +6483,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-19",
@@ -6508,33 +6562,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B12%E5%8F%B7%E5%9C%B0%E5%AE%B6%E5%85%B7%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%88%E5%85%A5HP.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/re_DSC9693-3.jpg",
      "main": true,
-     "local": "data/img/c61cfc2e24f0fd4168d7.jpg"
+     "local": "data/img/c2a2e0da9b00ee0a623d.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/%E5%9F%8E%E5%B1%B12%E5%8F%B7%E5%9C%B0%E5%AE%B6%E5%85%B7%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%88%E5%85%A5HP.jpg",
+     "main": false,
+     "local": "data/img/c61cfc2e24f0fd4168d7.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/03_LDK%E5%85%A8%E6%99%AF_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
      "main": false,
      "local": "data/img/3f55607d007b0abab5c5.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/01_%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
      "main": false,
      "local": "data/img/d1313ccc7bb8eddf5848.jpg"
     },
     {
-     "id": "p4",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9577.jpg",
-     "main": false,
-     "local": "data/img/cafad1075230bb735039.jpg"
-    },
-    {
      "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9584.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2025/12/DSC9574-1.jpg",
      "main": false,
-     "local": "data/img/26cfe6ff5b2ba4286fe9.jpg"
+     "local": "data/img/34cdf91ded4874cd22ee.jpg"
     }
    ],
    "locText": "32.7801955, 130.6567930",
@@ -6544,7 +6598,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-19",
@@ -6639,7 +6693,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-02",
@@ -6739,7 +6793,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6829,7 +6883,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -6929,7 +6983,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7029,7 +7083,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7128,7 +7182,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-02",
@@ -7227,7 +7281,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7316,7 +7370,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7369,33 +7423,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9752.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/%E5%BE%A1%E4%BB%A3%E5%BF%97%E5%B8%82%E6%B0%91%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E5%8C%971MH%E5%A4%96%E8%A6%B3%EF%BC%88%E6%99%B4%E5%A4%A9%E5%87%A6%E7%90%86%EF%BC%89-1.jpg",
      "main": true,
-     "local": "data/img/a9a750674a48193b3537.jpg"
+     "local": "data/img/34d0feb138fc000ed4b0.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9752.jpg",
+     "main": false,
+     "local": "data/img/a9a750674a48193b3537.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9765.jpg",
      "main": false,
      "local": "data/img/0e16010af52b4b2cf1fb.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9733.jpg",
      "main": false,
      "local": "data/img/6ade008c9d57a1ec58f1.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9798.jpg",
      "main": false,
      "local": "data/img/5dd0ce353073a2db7a46.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/04/DSC9696.jpg",
-     "main": false,
-     "local": "data/img/8f2decf8aec90a30ae14.jpg"
     }
    ],
    "locText": "32.8932374, 130.7460195",
@@ -7405,7 +7459,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -7509,7 +7563,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7603,7 +7657,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7707,7 +7761,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-19",
@@ -7807,7 +7861,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7902,7 +7956,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -7997,7 +8051,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -8082,7 +8136,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -8146,9 +8200,9 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-004.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E5%BA%83%E5%AE%89%E8%A5%BF%E5%B0%8F%E5%AD%A6%E6%A0%A1%E5%8D%97%E7%AC%AC%E4%BA%8C_1%E5%8F%B7%E5%9C%B0%E5%A4%96%E8%A6%B3%E3%83%91%E3%83%BC%E3%82%B9.jpg",
      "main": true,
-     "local": "data/img/562cebf61b58a703dfe7.jpg"
+     "local": "data/img/a335ebdc1e68069327e5.jpg"
     },
     {
      "id": "p2",
@@ -8170,9 +8224,9 @@
     },
     {
      "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-006.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E7%9B%8A%E5%9F%8E%E7%94%BA%E7%A6%8F%E5%AF%8C-004.jpg",
      "main": false,
-     "local": "data/img/5a471022057688f597fc.jpg"
+     "local": "data/img/562cebf61b58a703dfe7.jpg"
     }
    ],
    "locText": "32.7798899, 130.7945189",
@@ -8182,7 +8236,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8236,33 +8290,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E5%BA%83%E5%AE%89%E8%A5%BF%E5%B0%8F%E5%8D%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3%EF%BC%88%E6%AE%8B%E7%95%99%E7%89%A9%E6%B6%88%E5%8E%BB%E5%90%88%E6%88%90%EF%BC%8901.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-%E9%9D%92%E7%A9%BA%E5%8A%A0%E5%B7%A52.jpg",
      "main": true,
-     "local": "data/img/7d60f22df6fc706d2eea.jpg"
+     "local": "data/img/dbe14e72e964445994e7.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E5%BA%83%E5%AE%89%E8%A5%BF%E5%B0%8F%E5%8D%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3%EF%BC%88%E6%AE%8B%E7%95%99%E7%89%A9%E6%B6%88%E5%8E%BB%E5%90%88%E6%88%90%EF%BC%8901.jpg",
+     "main": false,
+     "local": "data/img/7d60f22df6fc706d2eea.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E5%BA%83%E5%AE%89%E8%A5%BF%E5%B0%8F%E5%8D%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3%EF%BC%88%E6%AE%8B%E7%95%99%E7%89%A9%E6%B6%88%E5%8E%BB%E5%90%88%E6%88%90%EF%BC%8904.jpg",
      "main": false,
      "local": "data/img/9bea3febdd00c326df73.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC6386.jpg",
      "main": false,
      "local": "data/img/d1759ebfb162b26e22fa.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC6458.jpg",
      "main": false,
      "local": "data/img/72035b1807379b9299f1.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E5%BA%83%E5%AE%89%E8%A5%BF%E5%B0%8F%E5%AD%A6%E6%A0%A1%E5%8D%97%E7%AC%AC%E4%BA%8C_%E4%B8%8A%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E5%9B%B3-1.jpg",
-     "main": false,
-     "local": "data/img/8e1e0b8addf1731ee441.jpg"
     }
    ],
    "locText": "32.7798899, 130.7945189",
@@ -8272,7 +8326,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8336,33 +8390,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-03_4449_%E5%AE%B6%E5%85%B7%E3%81%AE%E3%81%BF.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/%E8%89%AF%E7%94%BA%E5%A4%96%E8%A6%B3%E9%9D%92%E7%A9%BA%E5%8A%A0%E5%B7%A5HP.jpg",
      "main": true,
-     "local": "data/img/f0a7aa92a7e329c4d4da.jpg"
+     "local": "data/img/5aa2ac854c36192913bc.jpg"
     },
     {
      "id": "p2",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-02_4451_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7.jpg",
-     "main": false,
-     "local": "data/img/ee528be9d6495c8c8905.jpg"
-    },
-    {
-     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-01_4445_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7.jpg",
      "main": false,
      "local": "data/img/af4d99ec19597754d491.jpg"
     },
     {
-     "id": "p4",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC4449.jpg",
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-03_4449_%E5%AE%B6%E5%85%B7%E3%81%AE%E3%81%BF.jpg",
      "main": false,
-     "local": "data/img/3ddc55e8614a507aa9d6.jpg"
+     "local": "data/img/f0a7aa92a7e329c4d4da.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/s-02_4451_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7.jpg",
+     "main": false,
+     "local": "data/img/ee528be9d6495c8c8905.jpg"
     },
     {
      "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC4445.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/06/DSC4449.jpg",
      "main": false,
-     "local": "data/img/8ef3fb4a48f8b54bfa1d.jpg"
+     "local": "data/img/3ddc55e8614a507aa9d6.jpg"
     }
    ],
    "locText": "32.7596596, 130.7229142",
@@ -8372,7 +8426,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8456,7 +8510,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8510,27 +8564,27 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-02_6025_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v3.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%971%E5%A4%96%E8%A6%B3%E5%A4%96%E6%A7%8B%E6%9C%AA002.jpg",
      "main": true,
-     "local": "data/img/42493e31424799450959.jpg"
+     "local": "data/img/581f77d7b5fca10bf10f.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-02_6025_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v3.jpg",
+     "main": false,
+     "local": "data/img/42493e31424799450959.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-03_6033_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
      "main": false,
      "local": "data/img/1841baee204e8a351bcf.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-01_6035_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v3.jpg",
      "main": false,
      "local": "data/img/b99db3a7f196df03a439.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%971%E5%A4%96%E8%A6%B3%E5%A4%96%E6%A7%8B%E6%9C%AA002.jpg",
-     "main": false,
-     "local": "data/img/581f77d7b5fca10bf10f.jpg"
     },
     {
      "id": "p5",
@@ -8546,7 +8600,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8630,7 +8684,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8684,33 +8738,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-03_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E9%87%8E%E5%8F%A33%E5%8F%B7%E6%A3%9F03.jpg",
      "main": true,
-     "local": "data/img/208f598e6c3e470c23d5.jpg"
+     "local": "data/img/45054917920246f4abe1.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-03_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
+     "main": false,
+     "local": "data/img/208f598e6c3e470c23d5.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/DSC6144.jpg",
      "main": false,
      "local": "data/img/b86932e5891164f5d876.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%973%E5%86%85%E8%A6%B3%E6%AE%8B%E7%95%99%E7%B4%A0%E6%9D%90%E5%89%8A%E9%99%A4%E5%90%88%E6%88%9001.jpg",
      "main": false,
      "local": "data/img/097a21716dbd3378570b.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%973%E5%86%85%E8%A6%B3%E6%AE%8B%E7%95%99%E7%B4%A0%E6%9D%90%E5%89%8A%E9%99%A4%E5%90%88%E6%88%9002.jpg",
      "main": false,
      "local": "data/img/a601736d949d01a382de.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/DSC6132.jpg",
-     "main": false,
-     "local": "data/img/5749a6ad50b304bc8c0d.jpg"
     }
    ],
    "locText": "32.7674237, 130.6695888",
@@ -8720,7 +8774,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -8784,33 +8838,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-003_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%97%E7%AC%AC%E4%BA%8C2%E5%8F%B7%E5%A4%96%E8%A6%B3001.jpg",
      "main": true,
-     "local": "data/img/a820a1ed8fd92773c611.jpg"
+     "local": "data/img/e02745468fc9adb6f473.jpg"
     },
     {
      "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-003_%E4%BA%BA%E7%89%A9%EF%BC%8B%E5%AE%B6%E5%85%B7_v1.jpg",
+     "main": false,
+     "local": "data/img/a820a1ed8fd92773c611.jpg"
+    },
+    {
+     "id": "p3",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3002.jpg",
      "main": false,
      "local": "data/img/c839ced8b0a299535d6c.jpg"
     },
     {
-     "id": "p3",
+     "id": "p4",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3003.jpg",
      "main": false,
      "local": "data/img/9a085a2e6b7443ce6421.jpg"
     },
     {
-     "id": "p4",
+     "id": "p5",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3012.jpg",
      "main": false,
      "local": "data/img/589e498c758a203111e4.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E5%8A%9B%E5%90%88%E8%A5%BF%E5%B0%8F%E5%8C%97II2%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3024.jpg",
-     "main": false,
-     "local": "data/img/3a77a0ecf920bfe3a889.jpg"
     }
    ],
    "locText": "32.7674237, 130.6695888",
@@ -8820,7 +8874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8909,7 +8963,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -8972,33 +9026,33 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E7%86%8A%E6%9C%AC%E5%B8%82%E5%8C%97%E5%8C%BA%E6%A5%A01%E6%9C%9F-1%E5%8F%B7%E6%A3%9F_Photo-5.jpg",
-     "main": true,
-     "local": "data/img/76e700e47730662971e4.jpg"
-    },
-    {
-     "id": "p2",
      "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E9%9B%BB%E7%B7%9A%E3%83%BB%E4%BB%AE%E8%A8%AD%E3%83%88%E3%82%A4%E3%83%AC%E6%B6%88%E3%81%97-.jpg",
-     "main": false,
+     "main": true,
      "local": "data/img/438a7f32caaf25169e2f.jpg"
     },
     {
-     "id": "p3",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E6%A5%A01%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3036.jpg",
+     "id": "p2",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E5%8F%B7%E6%A3%9F.jpg",
      "main": false,
-     "local": "data/img/91dfbd3fe72ce18b6db9.jpg"
+     "local": "data/img/7121cdb49b9a6b7e266f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E5%8F%B7%E6%A3%9F%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3.jpg",
+     "main": false,
+     "local": "data/img/76b3737f0fc8302a1282.jpg"
     },
     {
      "id": "p4",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E6%A5%A01%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3003.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E5%8F%B7%E6%A3%9FUB.jpg",
      "main": false,
-     "local": "data/img/564ae85a363ee72979e0.jpg"
+     "local": "data/img/af1814dfa0154cfc7967.jpg"
     },
     {
      "id": "p5",
-     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/%E6%A5%A01%E5%8F%B7%E6%A3%9F%E5%86%85%E8%A6%B3008.jpg",
+     "url": "https://home.takasugi.co.jp/wp/wp-content/uploads/2026/07/s-%E6%A5%A01%E5%8F%B7%E6%A3%9FWIC.jpg",
      "main": false,
-     "local": "data/img/a665c111743401748723.jpg"
+     "local": "data/img/92d28105e2a0e1d8eb9d.jpg"
     }
    ],
    "locText": "32.8458022, 130.7595529",
@@ -9008,7 +9062,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9107,7 +9161,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9206,7 +9260,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9300,7 +9354,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9394,7 +9448,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9499,7 +9553,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9608,7 +9662,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9698,7 +9752,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9792,7 +9846,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -9897,7 +9951,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10001,7 +10055,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-29T08:10:00.721Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10105,7 +10159,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:38:55.126Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10214,7 +10268,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-02T07:22:40.879Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10323,7 +10377,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-24T12:22:44.714Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10432,7 +10486,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-24T12:22:44.714Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -10541,7 +10595,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-02T07:22:40.879Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11679,7 +11733,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.024Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11754,7 +11808,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11834,7 +11888,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11909,7 +11963,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -11989,7 +12043,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12064,7 +12118,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12138,7 +12192,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12213,7 +12267,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12292,7 +12346,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12367,7 +12421,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12442,7 +12496,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12517,7 +12571,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12592,7 +12646,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12667,7 +12721,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12747,7 +12801,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12822,7 +12876,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -12901,7 +12955,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T12:08:30.025Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13090,7 +13144,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13199,7 +13253,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:41:38.383Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13303,7 +13357,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13412,7 +13466,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13521,7 +13575,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13630,7 +13684,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13739,7 +13793,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13848,7 +13902,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -13957,7 +14011,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14066,7 +14120,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14175,7 +14229,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14284,7 +14338,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14393,7 +14447,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14502,7 +14556,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14611,7 +14665,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14720,7 +14774,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14829,7 +14883,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -14938,7 +14992,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15047,7 +15101,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15156,7 +15210,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:14:00.003Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15265,7 +15319,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-08T01:02:08.056Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15374,7 +15428,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-31T06:16:18.592Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15483,7 +15537,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-31T06:16:18.592Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15592,7 +15646,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-06T01:51:04.302Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15701,7 +15755,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -15810,7 +15864,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T04:47:58.981Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -16307,7 +16361,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -16406,7 +16460,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -16505,7 +16559,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -16604,7 +16658,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16703,7 +16757,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16808,7 +16862,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -16897,7 +16951,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -16979,7 +17033,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -17051,7 +17105,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -17122,7 +17176,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17229,7 +17283,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -17327,7 +17381,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -17399,7 +17453,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -17479,7 +17533,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -17560,7 +17614,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -17650,7 +17704,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-21T04:54:24.334Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -17730,7 +17784,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -17811,7 +17865,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -17910,7 +17964,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18009,7 +18063,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18125,7 +18179,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-21",
@@ -18224,7 +18278,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18314,7 +18368,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18404,7 +18458,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18503,7 +18557,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18593,7 +18647,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18665,7 +18719,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -18763,7 +18817,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -18852,7 +18906,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -18950,7 +19004,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19048,7 +19102,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19146,7 +19200,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19244,7 +19298,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.931Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19333,7 +19387,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -19422,7 +19476,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -19520,7 +19574,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19618,7 +19672,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -19700,7 +19754,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -19780,7 +19834,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -19860,7 +19914,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -19940,7 +19994,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -20054,7 +20108,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -20133,7 +20187,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -20249,7 +20303,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -20347,7 +20401,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -20445,7 +20499,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-02",
@@ -20543,7 +20597,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -20634,7 +20688,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -20740,7 +20794,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -20829,7 +20883,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -20927,7 +20981,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -21008,7 +21062,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -21098,7 +21152,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -21205,7 +21259,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21284,7 +21338,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21373,7 +21427,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -21462,7 +21516,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21551,7 +21605,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -21624,7 +21678,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-27",
@@ -21722,7 +21776,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -21820,7 +21874,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -21899,7 +21953,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-18",
@@ -21988,7 +22042,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22067,7 +22121,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22146,7 +22200,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-12",
@@ -22235,7 +22289,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22314,7 +22368,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22393,7 +22447,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22472,7 +22526,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22551,7 +22605,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22630,7 +22684,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22709,7 +22763,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -22788,7 +22842,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-26T22:11:29.630Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-04",
@@ -22860,7 +22914,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -22950,7 +23004,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-15",
@@ -23031,7 +23085,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-15",
@@ -23112,7 +23166,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -23184,7 +23238,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -23256,7 +23310,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -23328,7 +23382,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23390,7 +23444,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-15",
@@ -23471,7 +23525,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-03T22:20:24.830Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -23550,7 +23604,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-08T21:43:39.780Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -23622,7 +23676,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -23694,7 +23748,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -23775,7 +23829,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -23847,7 +23901,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -23919,7 +23973,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -23998,7 +24052,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24077,7 +24131,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-09T21:46:02.407Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24156,7 +24210,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -24218,7 +24272,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-06",
@@ -24308,7 +24362,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24387,7 +24441,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24466,7 +24520,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24554,7 +24608,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24635,7 +24689,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24707,7 +24761,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24779,7 +24833,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24851,7 +24905,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -24923,7 +24977,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-10T23:59:51.374Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25011,7 +25065,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25099,7 +25153,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25171,7 +25225,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25250,7 +25304,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25329,7 +25383,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25398,7 +25452,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25477,7 +25531,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25565,7 +25619,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-15T21:34:51.195Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -25644,7 +25698,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:43:59.668Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25706,7 +25760,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-24T21:43:59.668Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25768,7 +25822,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-29T23:18:16.565Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25830,7 +25884,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-29T23:18:16.566Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -25892,7 +25946,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-15",
@@ -25973,7 +26027,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26035,7 +26089,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26097,7 +26151,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-05T22:52:11.650Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26159,7 +26213,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-06T22:57:56.864Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26238,7 +26292,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26317,7 +26371,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26396,7 +26450,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26475,7 +26529,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-19T22:57:08.248Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26554,7 +26608,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-20T23:15:10.119Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26616,7 +26670,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26678,7 +26732,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-26T23:35:51.481Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -26740,7 +26794,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -26821,7 +26875,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -26902,7 +26956,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.574Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-02",
@@ -26981,7 +27035,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-27T12:12:58.575Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-02",
@@ -27060,7 +27114,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -27148,7 +27202,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -27253,7 +27307,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-09-28T06:40:41.737Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27315,7 +27369,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-02T00:46:26.913Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27384,7 +27438,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -27463,7 +27517,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-03T00:27:36.784Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27543,7 +27597,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-05T00:02:39.998Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27616,7 +27670,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-05T00:02:39.998Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27678,7 +27732,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27740,7 +27794,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-09T01:14:29.654Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27807,7 +27861,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27880,7 +27934,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -27953,7 +28007,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28026,7 +28080,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-10T06:49:50.160Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28088,7 +28142,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -28160,7 +28214,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -28232,7 +28286,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28294,7 +28348,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-02",
@@ -28367,7 +28421,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -28439,7 +28493,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-09",
@@ -28511,7 +28565,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-11T06:57:11.813Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28573,7 +28627,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-15T05:43:46.178Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28635,7 +28689,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:34:57.389Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28697,7 +28751,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:34:57.389Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28759,7 +28813,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:34:57.389Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28821,7 +28875,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:34:57.389Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28883,7 +28937,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-18T05:34:57.389Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -28945,7 +28999,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-10-31T06:15:07.403Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -29007,14 +29061,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:46:14.480Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "2,898万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-109002672",
@@ -29068,14 +29123,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:46:14.480Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "3,398万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-109002918",
@@ -29129,14 +29185,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:46:14.480Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "3,298万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-109003454",
@@ -29190,14 +29247,15 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-11-09T07:46:14.480Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
      "date": "2026-11-09",
      "price": "3,598万円"
     }
-   ]
+   ],
+   "relistedAt": ""
   },
   {
    "id": "yokatown-96551249",
@@ -29251,7 +29309,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-04",
@@ -29331,7 +29389,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-03",
@@ -29404,7 +29462,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-20T22:00:43.962Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -29475,7 +29533,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -29572,7 +29630,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-26",
@@ -29686,7 +29744,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -29775,7 +29833,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-09-19",
@@ -29858,7 +29916,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -29965,7 +30023,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-02",
@@ -29999,7 +30057,7 @@
    "id": "yokatown-99829004",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字下町3期4号棟",
-   "price": "2,498万円",
+   "price": "2,298万円",
    "address": "熊本県菊池郡菊陽町大字久保田34の北側付近",
    "detailUrl": "https://bukken.yoka-town.com/room99829004.html",
    "layout": "4LDK",
@@ -30028,27 +30086,27 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/99829004_1_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829004_1_652_555_3.jpg?t=01794211895",
      "main": true,
-     "local": "data/img/1aa09eb05fc99bb7897d.jpg"
+     "local": "data/img/1b43bf76026d30950c7e.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/99829004_2_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829004_2_652_555_3.jpg?t=01794211895",
      "main": false,
-     "local": "data/img/32ea95d57ca9e7ac24ef.jpg"
+     "local": "data/img/6a2601f5ccc2d36e9822.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/99829004_3_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829004_3_652_555_3.jpg?t=01794211895",
      "main": false,
-     "local": "data/img/f885c17b002333786545.jpg"
+     "local": "data/img/f05bf770018afddc9960.jpg"
     },
     {
      "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/99829004_4_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829004_4_652_555_3.jpg?t=01794211895",
      "main": false,
-     "local": "data/img/671606d4f9433a942b1a.jpg"
+     "local": "data/img/1c6ef7d4026c86012852.jpg"
     }
    ],
    "locText": "32.85383900, 130.85481200",
@@ -30057,7 +30115,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30068,6 +30126,11 @@
      "date": "2026-08-18",
      "from": "2,598万円",
      "to": "2,498万円"
+    },
+    {
+     "date": "2026-11-10",
+     "from": "2,498万円",
+     "to": "2,298万円"
     }
    ],
    "priceSnapshots": [
@@ -30082,6 +30145,10 @@
     {
      "date": "2026-08-18",
      "price": "2,498万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "2,298万円"
     }
    ],
    "locPrec": "",
@@ -30091,7 +30158,7 @@
    "id": "yokatown-99829847",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字下町3期5号棟",
-   "price": "2,198万円",
+   "price": "1,998万円",
    "address": "熊本県菊池郡菊陽町大字久保田34の北側付近",
    "detailUrl": "https://bukken.yoka-town.com/room99829847.html",
    "layout": "4LDK",
@@ -30120,27 +30187,27 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/99829847_1_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829847_1_652_555_3.jpg?t=01794211886",
      "main": true,
-     "local": "data/img/0b2bb4cc5adf4ff7c5f0.jpg"
+     "local": "data/img/abbea4fc30127f550f5b.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/99829847_2_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829847_2_652_555_3.jpg?t=01794211886",
      "main": false,
-     "local": "data/img/63872cc263c67f6802f1.jpg"
+     "local": "data/img/609f052ac68272537718.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/99829847_3_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829847_3_652_555_3.jpg?t=01794211886",
      "main": false,
-     "local": "data/img/eca6dfc13f61bdf278c4.jpg"
+     "local": "data/img/8a4323a3ef76704d5f41.jpg"
     },
     {
      "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/99829847_4_652_555_3.jpg?t=01794011880",
+     "url": "https://cdn.img-asp.jp/bkn/99829847_4_652_555_3.jpg?t=01794211886",
      "main": false,
-     "local": "data/img/12c8ba2d57dcedb0e162.jpg"
+     "local": "data/img/b5171520cee592c5e496.jpg"
     }
    ],
    "locText": "32.85383900, 130.85481200",
@@ -30149,7 +30216,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30165,6 +30232,11 @@
      "date": "2026-09-04",
      "from": "2,298万円",
      "to": "2,198万円"
+    },
+    {
+     "date": "2026-11-10",
+     "from": "2,198万円",
+     "to": "1,998万円"
     }
    ],
    "priceSnapshots": [
@@ -30183,6 +30255,10 @@
     {
      "date": "2026-09-04",
      "price": "2,198万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "1,998万円"
     }
    ],
    "locPrec": "",
@@ -30192,7 +30268,7 @@
    "id": "yokatown-99831643",
    "source": "yokatown",
    "name": "熊本県菊池郡大津町大字下町4期7号棟",
-   "price": "2,698万円",
+   "price": "2,498万円",
    "address": "熊本県菊池郡菊陽町大字久保田34の北側付近",
    "detailUrl": "https://bukken.yoka-town.com/room99831643.html",
    "layout": "4LDK",
@@ -30221,27 +30297,27 @@
    "photos": [
     {
      "id": "p1",
-     "url": "https://cdn.img-asp.jp/bkn/99831643_1_652_555_3.jpg?t=01794011879",
+     "url": "https://cdn.img-asp.jp/bkn/99831643_1_652_555_3.jpg?t=01794211903",
      "main": true,
-     "local": "data/img/fad819a00208675aedb9.jpg"
+     "local": "data/img/0470b2dc404eb233b71b.jpg"
     },
     {
      "id": "p2",
-     "url": "https://cdn.img-asp.jp/bkn/99831643_2_652_555_3.jpg?t=01794011879",
+     "url": "https://cdn.img-asp.jp/bkn/99831643_2_652_555_3.jpg?t=01794211903",
      "main": false,
-     "local": "data/img/cd09e6a74acc83ca8a3b.jpg"
+     "local": "data/img/88cc6533b131a7a36370.jpg"
     },
     {
      "id": "p3",
-     "url": "https://cdn.img-asp.jp/bkn/99831643_3_652_555_3.jpg?t=01794011879",
+     "url": "https://cdn.img-asp.jp/bkn/99831643_3_652_555_3.jpg?t=01794211903",
      "main": false,
-     "local": "data/img/b20dcec5f071d3570c8a.jpg"
+     "local": "data/img/62a26e89e32df7263a77.jpg"
     },
     {
      "id": "p4",
-     "url": "https://cdn.img-asp.jp/bkn/99831643_4_652_555_3.jpg?t=01794011879",
+     "url": "https://cdn.img-asp.jp/bkn/99831643_4_652_555_3.jpg?t=01794211903",
      "main": false,
-     "local": "data/img/7e6eaaca88ecba71f919.jpg"
+     "local": "data/img/b535521a8aeb39e712ab.jpg"
     }
    ],
    "locText": "32.85383900, 130.85481200",
@@ -30250,12 +30326,17 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
      "from": "2,798万円",
      "to": "2,698万円"
+    },
+    {
+     "date": "2026-11-10",
+     "from": "2,698万円",
+     "to": "2,498万円"
     }
    ],
    "priceSnapshots": [
@@ -30266,6 +30347,10 @@
     {
      "date": "2026-07-22",
      "price": "2,698万円"
+    },
+    {
+     "date": "2026-11-10",
+     "price": "2,498万円"
     }
    ],
    "locPrec": "",
@@ -30339,7 +30424,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30455,7 +30540,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30562,7 +30647,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30669,7 +30754,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -30767,7 +30852,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-14T11:14:21.932Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-07-22",
@@ -36174,7 +36259,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36243,7 +36328,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36330,7 +36415,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36417,7 +36502,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-04",
@@ -36513,7 +36598,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-03",
@@ -36600,7 +36685,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-31",
@@ -36687,7 +36772,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36768,7 +36853,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36855,7 +36940,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -36942,7 +37027,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -37029,7 +37114,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-10-24",
@@ -37125,7 +37210,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-11-06",
@@ -37194,7 +37279,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37253,7 +37338,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37336,7 +37421,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37419,7 +37504,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37478,7 +37563,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37561,7 +37646,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37638,7 +37723,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37709,7 +37794,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37780,7 +37865,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37851,7 +37936,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37922,7 +38007,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -37981,7 +38066,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [
     {
      "date": "2026-08-15",
@@ -38084,7 +38169,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
@@ -38167,7 +38252,7 @@
    "status": "active",
    "endedAt": "",
    "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "priceChanges": [],
    "priceSnapshots": [
     {
