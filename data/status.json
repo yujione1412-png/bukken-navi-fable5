@@ -3,13 +3,13 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-11-11T07:30:38.815Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T07:58:25.731Z",
+   "date": "2026-11-12",
    "count": 26,
    "prevCount": 26,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 26
   },
   "sumaiida": {
@@ -27,25 +27,25 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-11-11T07:34:40.554Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T08:02:58.558Z",
+   "date": "2026-11-12",
    "count": 178,
    "prevCount": 178,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 178
   },
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-11-11T07:35:50.004Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T08:04:18.872Z",
+   "date": "2026-11-12",
    "count": 26,
    "prevCount": 26,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 26
   },
   "nakajitsu": {
@@ -66,51 +66,51 @@
   "kokubu": {
    "label": "国分ハウジング",
    "level": "ok",
-   "ranAt": "2026-11-11T07:37:01.763Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T08:05:01.123Z",
+   "date": "2026-11-12",
    "count": 17,
    "prevCount": 17,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 17
   },
   "takasugi": {
    "label": "タカスギ",
    "level": "ok",
-   "ranAt": "2026-11-11T07:38:10.949Z",
-   "date": "2026-11-11",
-   "count": 47,
+   "ranAt": "2026-11-12T08:06:11.095Z",
+   "date": "2026-11-12",
+   "count": 46,
    "prevCount": 47,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
-   "lastOkCount": 47
+   "lastOkDate": "2026-11-12",
+   "lastOkCount": 46
   },
   "kyuken": {
    "label": "九建ホーム",
    "level": "ok",
-   "ranAt": "2026-11-11T07:39:28.922Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T08:07:36.436Z",
+   "date": "2026-11-12",
    "count": 20,
    "prevCount": 20,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 20
   },
   "santa": {
    "label": "サンタ不動産",
    "level": "ok",
-   "ranAt": "2026-11-11T07:41:15.894Z",
-   "date": "2026-11-11",
+   "ranAt": "2026-11-12T08:09:26.058Z",
+   "date": "2026-11-12",
    "count": 39,
    "prevCount": 39,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-11",
+   "lastOkDate": "2026-11-12",
    "lastOkCount": 39
   }
  },
- "updatedAt": "2026-11-12T01:02:43.658Z"
+ "updatedAt": "2026-11-12T08:09:26.058Z"
 }
