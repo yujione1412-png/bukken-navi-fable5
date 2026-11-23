@@ -3,13 +3,13 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-11-22T07:46:47.966Z",
-   "date": "2026-11-22",
+   "ranAt": "2026-11-23T01:56:21.196Z",
+   "date": "2026-11-23",
    "count": 24,
    "prevCount": 24,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-22",
+   "lastOkDate": "2026-11-23",
    "lastOkCount": 24
   },
   "sumaiida": {
@@ -112,5 +112,5 @@
    "lastOkCount": 31
   }
  },
- "updatedAt": "2026-11-22T07:57:19.009Z"
+ "updatedAt": "2026-11-23T01:56:21.196Z"
 }

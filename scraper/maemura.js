@@ -365,6 +365,25 @@ async function main() {
 
   // 3. 前回データと突き合わせて反映(掲載終了の判定・価格履歴の記録)
   const prev = loadData(DATA_FILE);
+
+  // 住所・位置情報の固定:マエムラのHPは詳しい住所を載せなくなり、地図のピンも
+  // 町名の中心を指すようになった(2026-11-22の収集から)。正確だった頃の情報を
+  // 残すため、登録済みの物件は前回の住所・位置をそのまま使い、今回サイトから
+  // 取れた住所・位置では上書きしない(新規の物件だけ今回の値を使う)。
+  const prevById = Object.fromEntries((prev.listings || [])
+    .filter((l) => l.source === SOURCE).map((l) => [l.id, l]));
+  let frozenCount = 0;
+  for (const s of scraped) {
+    const p = prevById[s.id];
+    if (p && p.address && !p.address.includes("中心地点")) {
+      s.address = p.address;
+      if (p.locText) s.locText = p.locText;
+      if (p.locPrec) s.locPrec = p.locPrec;
+      frozenCount++;
+    }
+  }
+  if (frozenCount) console.log(`[住所固定] ${frozenCount}件は前回の住所・位置を引き継ぎました`);
+
   const merged = mergeListings(prev.listings || [], { [SOURCE]: scraped }, [SOURCE], todayStr());
   saveData(DATA_FILE, merged);
 

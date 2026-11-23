@@ -1,7 +1,2967 @@
 {
- "updatedAt": "2026-11-22T07:57:19.001Z",
+ "updatedAt": "2026-11-23T01:56:21.172Z",
  "count": 655,
  "listings": [
+  {
+   "id": "maemura-44830",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "1,830万円",
+   "address": "宇城市松橋町両仲間1628番4",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-44830",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2023年7月",
+   "buildingArea": "81.55㎡(24.67坪)",
+   "landArea": "96.43㎡(29.17坪)",
+   "parking": "2台",
+   "elementary": "豊福小学校",
+   "elementaryMin": "",
+   "junior": "松橋中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "鮮ど市場宇城店",
+     "min": "22",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)竹崎バス停",
+     "min": "2",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/IMG_4859.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/IMG_4860.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/1000021416.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/ca9bdfbbf152afd5a4155536c20fb1cd-680x510.jpeg",
+     "main": false
+    }
+   ],
+   "locText": "32.625053761936265, 130.70503653102097",
+   "hpText": "販売価格　1,830万円 → 1,680万円 （旧価格公表日：2023年7月20日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n宇城市松橋町両仲間にある、飫肥杉を使用したあたたかみのある建売住宅です。ZEH水準の断熱性能を誇っています。\n\n土地・建物に加え、照明・網戸までコミコミで1,600万円台から購入可能。 家賃並みの支払いでマイホームを実現したい方にもおすすめです。\n\n南側道路に面しているため日当たりが良く、明るく開放感のある住まい。幹線道路へのアクセスも良好で、通勤・通学やお出かけにも便利な立地です。\n\n徒歩ですぐの場所にはセブンイレブン宇城松橋竹崎店、お買い物は鮮ど市場宇城店があり、毎日のお買い物もスムーズ。学校区は豊福小学校・松橋中学校区です。\n\nやさしい色合いでまとめた外観と内装は、飽きのこないナチュラルデザイン。陽射しが差し込む明るいキッチンは、ご家族との会話を楽しみながら料理ができる、暮らしやすさにこだわった空間です。ウォークインクローゼットが2か所あるのも便利です。\n\n特別価格でご案内できるこの機会に、ぜひ現地で住み心地をご体感ください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "1,680万円",
+     "to": "1,830万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,680万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "1,830万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-52399",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "3,080万円",
+   "address": "熊本市南区白藤1丁目381番1の一部、382番6の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-52399",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2024年7月",
+   "buildingArea": "99.35㎡(30.05坪)",
+   "landArea": "153.69㎡(46.49坪)",
+   "parking": "4台以上可",
+   "elementary": "力合小学校",
+   "elementaryMin": "",
+   "junior": "力合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "リブホール白藤店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)白藤団地入口バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/sira2.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/d48877715cab330a270d9de8f515d82c.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/1785037710706-680x510.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/658c0aaed96aaf3bddb827a7e53de50f-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.74938834152974, 130.6794673756077",
+   "hpText": "販売価格　3,080万円 → 2,780万円\n（旧価格公表日：2024年7月30日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「広さ」も「暮らしやすさ」も「便利さ」も、妥協したくない方へ。\n\n熊本市南区白藤1丁目に、30坪超えのゆとりある戸建てが登場！\n\nLDKはなんと18.2畳。家族みんなが集まってもゆったり過ごせる、開放感のあるリビングです。\n\nさらに、土地・照明・網戸込みで2,700万円台。\n毎日の暮らしに必要なものが身近に揃う、暮らしやすさが魅力の住まいです。\n\nお買い物もとにかく便利！\nリブホール白藤店・コスモス白藤店が徒歩圏内なので、毎日の買い物もラクラク。\n「ちょっと買い物に行きたい」というときにも、車を出さずに済む便利な立地です。\n\nそして、南側道路で日当たりも◎。\n敷地には駐車4台以上可能なので、複数台所有のご家庭や来客時にも安心です。\n\n学校区は力合小学校・力合中学校。\n子育て世帯にも検討しやすい住環境です。\n\n家の広さや設備は、住まい選びで比較できます。\nでも、立地は後から変えることができません。\n\n「どんな家に住むか」も大切。\nでも、「どこで暮らすか」はもっと大切。\n\n30坪超えのゆとりある住まい × 19.6畳LDK × 駐車4台以上 × 南側道路 × 買い物便利。\n\n毎日の暮らしを、もっとラクに、もっと快適に。\n\n熊本市南区白藤1丁目で、便利な暮らしを始めませんか？",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,780万円",
+     "to": "3,080万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,780万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "3,080万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-52402",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "3,080万円",
+   "address": "熊本市南区白藤1丁目382番6の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-52402",
+   "layout": "3SLDK",
+   "stories": "2階建て",
+   "builtAt": "2024年7月",
+   "buildingArea": "100.18㎡(30.3坪)",
+   "landArea": "145.79㎡(44.1坪)",
+   "parking": "4台以上可",
+   "elementary": "力合小学校",
+   "elementaryMin": "",
+   "junior": "力合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "リブホール白藤店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)白藤団地入口バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.74938834152974, 130.6794673756077",
+   "hpText": "販売価格　3,080万円 → 2,980万円\n（旧価格公表日：2024年7月30日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「広さ」も「暮らしやすさ」も「便利さ」も、妥協したくない方へ。\n\n熊本市南区白藤1丁目に、30坪超えのゆとりある戸建てが登場！\n\nLDKはなんと18.2畳。家族みんなが集まってもゆったり過ごせる、開放感のあるリビングです。\n\nさらに、土地・照明・網戸込みで2,600万円台。\n毎日の暮らしに必要なものが身近に揃う、暮らしやすさが魅力の住まいです。\n\nお買い物もとにかく便利！\nリブホール白藤店・コスモス白藤店が徒歩圏内なので、毎日の買い物もラクラク。\n「ちょっと買い物に行きたい」というときにも、車を出さずに済む便利な立地です。\n\nそして、南側道路で日当たりも◎。\n敷地には駐車4台以上可能なので、複数台所有のご家庭や来客時にも安心です。\n\n学校区は力合小学校・力合中学校。\n子育て世帯にも検討しやすい住環境です。\n\n家の広さや設備は、住まい選びで比較できます。\nでも、立地は後から変えることができません。\n\n「どんな家に住むか」も大切。\nでも、「どこで暮らすか」はもっと大切。\n\n30坪超えのゆとりある住まい × 19.6畳LDK × 駐車4台以上 × 南側道路 × 買い物便利。\n\n毎日の暮らしを、もっとラクに、もっと快適に。\n\n熊本市南区白藤1丁目で、便利な暮らしを始めませんか？",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-10-04",
+     "from": "2,780万円",
+     "to": "2,680万円"
+    },
+    {
+     "date": "2026-11-06",
+     "from": "2,680万円",
+     "to": "3,080万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,780万円"
+    },
+    {
+     "date": "2026-10-04",
+     "price": "2,680万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "3,080万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-55257",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,480万円",
+   "address": "熊本市北区鶴羽田4丁目12-10",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-55257",
+   "layout": "",
+   "stories": "2階建て",
+   "builtAt": "2024年11月",
+   "buildingArea": "88.60㎡(26.8坪)",
+   "landArea": "147.40㎡(44.59坪)",
+   "parking": "3台",
+   "elementary": "北部東小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "ハローデイ菊南店まで",
+     "min": "6",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 上須屋バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/adef2073a3f9172625e0be554827dfdb-680x510.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/f68178d276dfa8247562f3e69d975fea.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/63fb5a5a47432e0af07bb0f38a22012b-680x510_b29e66c5.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/compose_video_1779687393525.JPG_202605251735.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.86384948076437, 130.729340425795",
+   "hpText": "販売価格　2,480万円 → 2,198万円 （旧価格公表日：2024年11月11日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n熊本市北区鶴羽田4丁目の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n\n土地・建物に加え、照明・網戸・霧ヶ峰エアコン付きで2,400万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n\n周辺にはドン・キホーテ合志店やハローデイ菊南店があり、毎日のお買い物も便利。学校区は熊本市立北部東小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。\n\n前面道路は行き止まりのため通り抜け車両が少なく、交通量の少ない静かな住宅地。 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは3台分を確保しており、縦列駐車でも周囲の交通を気にせず、ゆとりをもって駐車できます。\n\n熊本市北区鶴羽田で戸建住宅、建売住宅をお探しの方、ZEH水準の高性能住宅・駐車3台・エアコン付きの住まいをぜひ現地でご体感ください。特別価格でご案内中です。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-10-03",
+     "from": "2,298万円",
+     "to": "2,480万円"
+    },
+    {
+     "date": "2026-10-24",
+     "from": "2,480万円",
+     "to": "2,198万円"
+    },
+    {
+     "date": "2026-11-06",
+     "from": "2,198万円",
+     "to": "2,480万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,298万円"
+    },
+    {
+     "date": "2026-10-03",
+     "price": "2,480万円"
+    },
+    {
+     "date": "2026-10-24",
+     "price": "2,198万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,480万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-57049",
+   "source": "maemura",
+   "name": "池田2丁目3号地モデル",
+   "price": "2,330万円",
+   "address": "熊本市西区池田2丁目54-28",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-57049",
+   "layout": "3SLDK",
+   "stories": "2階建て",
+   "builtAt": "2025年1月",
+   "buildingArea": "90.24㎡(27.3坪)",
+   "landArea": "148.75㎡(45坪)",
+   "parking": "2台",
+   "elementary": "池田小学校",
+   "elementaryMin": "",
+   "junior": "井芹中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.8296446835851, 130.7027400322985",
+   "hpText": "【ZEH水準】熊本市西区池田2丁目の建売住宅！ ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,300万円台から購入可能。 高性能な住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。\n\n性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-10-31",
+     "from": "2,230万円",
+     "to": "2,330万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    },
+    {
+     "date": "2026-10-31",
+     "price": "2,330万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58252",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,580万円",
+   "address": "熊本市南区富合町杉島626-2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58252",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年5月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "127.52㎡(38.57坪)",
+   "parking": "3台",
+   "elementary": "富合小学校",
+   "elementaryMin": "",
+   "junior": "富合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イワサキエース川尻店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)緑川橋バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/621032861_1794640327811099.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Edit_photo_evening_lighting_lights_202607231415-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Change_to_bright_daytime_202608071633-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/timi1.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7239756780795, 130.68250145643376",
+   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は3台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車3台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,380万円",
+     "to": "2,580万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,580万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58262",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,580万円",
+   "address": "熊本市南区富合町杉島626-2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58262",
+   "layout": "3SLDK",
+   "stories": "2階建て",
+   "builtAt": "2025年5月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "166.13㎡(50.25坪)",
+   "parking": "4台",
+   "elementary": "富合小学校",
+   "elementaryMin": "",
+   "junior": "富合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イワサキエース川尻店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)緑川橋バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.7239756780795, 130.68250145643376",
+   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n（創業50周年記念価格）\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は4台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車4台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,380万円",
+     "to": "2,580万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,580万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58268",
+   "source": "maemura",
+   "name": "富合町杉島4号地モデル創業50周年記念価格",
+   "price": "2,580万円",
+   "address": "熊本市南区富合町杉島626-2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58268",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年5月",
+   "buildingArea": "92.73㎡(28.05坪)",
+   "landArea": "147.94㎡(44.75坪)",
+   "parking": "4台",
+   "elementary": "富合小学校",
+   "elementaryMin": "",
+   "junior": "富合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イワサキエース川尻店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)緑川橋バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/compose_video_1780034288026-680x510.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/juno-202604041828-680x510.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/efce7d281119aa8f6c27b207027936ac-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/60cecd3d45034596f9e1c01214958a73-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7239756780795, 130.68250145643376",
+   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は4台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車4台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,380万円",
+     "to": "2,580万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,580万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58272",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,580万円",
+   "address": "熊本市南区富合町杉島626-2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58272",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年5月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "125.12㎡(37.85坪)",
+   "parking": "3台",
+   "elementary": "富合小学校",
+   "elementaryMin": "",
+   "junior": "富合中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イワサキエース川尻店",
+     "min": "20",
+     "cat": "super"
+    },
+    {
+     "name": "(産交)緑川橋バス停",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/tomi3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/196576120_1794640315988194.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Replacing_car_with_sunny_daytime_202608071633-680x508_20261016135819-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/c386b58f23debc5fc5563d8b98fabf5a-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.7239756780795, 130.68250145643376",
+   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は3台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車3台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,380万円",
+     "to": "2,580万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,580万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-59548",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,098万円",
+   "address": "熊本市西区小島9丁目1651番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-59548",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年8月",
+   "buildingArea": "91.90㎡(27.8坪)",
+   "landArea": "112.25㎡(33.96坪)",
+   "parking": "3台",
+   "elementary": "小島小学校",
+   "elementaryMin": "",
+   "junior": "城西中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "ゆめマート城山店",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "(産交バス)小島町営住宅前バス停 （徒歩約2分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1785037728719-680x510.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/5ec66c23b75ba06945ac9daa7a9519c2-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/juno-202603300605-680x510_202605021619-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1785037736271-680x510.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.78043235100265, 130.6268093772959",
+   "hpText": "販売価格　2,098万円 → 1,998万円\n（旧価格公表日：2025年8月25日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】（徒歩でコンビニ｜耐震×制震｜ZEH水準）\n\n本市西区小島9丁目に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた建売住宅です。土地・照明・網戸込みで1,900万円台からご購入いただけます。\n\n令和の豪雨災害時にも浸水被害のなかった立地で、安心して暮らせる住環境も魅力のひとつ。毎日を快適に過ごせる高性能住宅として、子育て世帯から将来を見据えた住まいをお探しの方まで幅広くおすすめです。\n\n間取りは収納力にこだわり、人気のウォークインクローゼットを2か所設置。さらに洗面室にも収納スペースを確保しているため、タオルや日用品のストックもすっきり整理でき、家事がしやすい住まいとなっています。\n\n周辺にはファミリーマート熊本小島九丁目店があり、急なお買い物にも便利。学校区は小島小学校・城西中学校区で、お子さまの通学にも安心です。\n\n熊本市西区で戸建て住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。収納の多さや住みやすい間取り、実際の広さを現地でご体感いただけます。お気軽にお問い合わせください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-10-24",
+     "from": "2,098万円",
+     "to": "1,998万円"
+    },
+    {
+     "date": "2026-11-06",
+     "from": "1,998万円",
+     "to": "2,098万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,098万円"
+    },
+    {
+     "date": "2026-10-24",
+     "price": "1,998万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,098万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-59569",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,380万円",
+   "address": "宇城市小川町北新田字松ノ本646番2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-59569",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年6月",
+   "buildingArea": "72.45㎡(21.92坪)",
+   "landArea": "164.03㎡(49.62坪)",
+   "parking": "3台",
+   "elementary": "河江小学校",
+   "elementaryMin": "",
+   "junior": "小川中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イオンモール宇城店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "（産交）小川工業高校前バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/117f5517d4a950a6da52dbc8b19bd5a2-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1780123901504-680x510_202606031428-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/05/c68c6fa41b4717c139de52847c905e9b.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.602216497757716, 130.69853838587946",
+   "hpText": "販売価格　2,380万円 → 2,180万円\n（旧価格公表日：2025年6月11日　値下げ日：2026年11月5日）\n\n【期間限定値引き】\n\n宇城市小川町北新田に、飫肥杉を使用した戸建てが登場しました！\n\n土地・建物・消費税はもちろん、照明・網戸までコミコミで2,100万円台。\n「平屋に住みたいけど、価格が気になる…」という方にも、ぜひ一度ご覧いただきたい住まいです。\n\n平屋ならではの、ワンフロアで完結する暮らしやすさも魅力。\n階段の上り下りが少なく、家族みんなが自然と顔を合わせやすい、シンプルで暮らしやすい住まいです。\n\nさらに、毎日の買い物にも便利！\nイオンモール宇城店が利用しやすく、食品や日用品、衣料品などのお買い物をまとめて済ませられるのも嬉しいポイントです。\n\n学校区は河江小学校・小川中学校。\n\nそして、木のぬくもりを感じられる飫肥杉仕様。\n価格だけではなく、素材にもこだわった住まいです。\n\n「平屋に住みたい」\n「できるだけ無理のない支払いでマイホームを持ちたい」\n「買い物にも便利な場所で暮らしたい」\n\nそんな方は、ぜひ一度現地をご覧ください。\n\n2,100万円台で始める、無理のない平屋暮らし。\n\n気になる方は、お気軽にお問い合わせください♪",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,180万円",
+     "to": "2,380万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-61196",
+   "source": "maemura",
+   "name": "梶尾町4号地モデル",
+   "price": "2,380万円",
+   "address": "熊本市北区梶尾町字出口1418番2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-61196",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年6月",
+   "buildingArea": "77.42㎡(23.42坪)",
+   "landArea": "191.24㎡(57.85坪)",
+   "parking": "3台",
+   "elementary": "北部東小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "スーパーキッド菊南店",
+     "min": "25",
+     "cat": "super"
+    },
+    {
+     "name": "（バス停）梶尾温泉バス停まで",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.87664392555924, 130.72717317727663",
+   "hpText": "【耐震×制震の平屋】熊本市北区梶尾町に誕生した、ZEH水準の高断熱性能と耐震×制震構造を備えた平屋建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n平屋ならではのワンフロア設計で、階段のない快適な暮らしを実現。子育て世帯はもちろん、ご夫婦二人暮らしや将来を見据えた住まいとしてもおすすめです。\n\n駐車スペースは並列3台以上確保しており、ご家族で複数台所有の方や来客時にも安心。さらに南側にはゆとりのあるお庭があり、BBQやお子さまのプール遊び、ガーデニングなど、ご家族との大切な時間を楽しめます。\n\n周辺にはスーパー・キッド北部店や鮮ど市場飛田店があり、毎日のお買い物も便利な立地。学校区は北部東小学校・北部中学校区で、お子さまの通学にも安心です。\n\n熊本市北区で新築平屋・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の住み心地や間取り、設備をご体感いただけます。お気軽にお問い合わせください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-64795",
+   "source": "maemura",
+   "name": "中原町2号地",
+   "price": "2,180万円",
+   "address": "熊本市西区中原町955",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-64795",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年12月",
+   "buildingArea": "78.66㎡(23.79坪)",
+   "landArea": "185.47㎡(56.1坪)",
+   "parking": "3台以上",
+   "elementary": "中島小学校",
+   "elementaryMin": "",
+   "junior": "城西中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "ゆめマート城山店",
+     "min": "32",
+     "cat": "super"
+    },
+    {
+     "name": "（産交バス)今新開バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.77109515593545, 130.63754979670858",
+   "hpText": "熊本市西区中原町に、日当たりの良い平屋タイプの建売住宅が登場しました。\n土地・照明・網戸込みで2,100万円台と、価格と内容のバランスに優れた一棟です。\n\n本物件はハザードマップ非該当エリアに位置しており、このエリアでは希少性の高い立地条件も魅力のひとつ。将来を見据えて安心して暮らせる住環境です。\n\nお買い物はデイリーヤマザキ熊本中島店が近く、日常のちょっとした買い物にも便利。\n学校区は中島小学校・城西中学校区となっています。\n\n建売住宅でありながら、外壁は18mm仕様を採用。耐久性・重厚感にも配慮したつくりです。\n平屋ならではのワンフロア動線で、将来も暮らしやすい住まいとなっています。\n\n実際の明るさや広さ、住み心地は現地でこそ実感できます。\nぜひお気軽にお問い合わせください。\n\n#熊本新築 #熊本建売 #建売住宅 #新築一戸建て #新築マイホーム #一戸建て #マイホーム購入 #マイホーム計画 #分譲住宅 #新築戸建て #内覧会 #見学会 #物件紹介",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-64800",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,380万円",
+   "address": "熊本市西区中原町955",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-64800",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年12月",
+   "buildingArea": "72.87㎡(22.04坪)",
+   "landArea": "171.42㎡(51.85坪)",
+   "parking": "3台以上",
+   "elementary": "中島小学校",
+   "elementaryMin": "",
+   "junior": "中学校：城西中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "ゆめマート城山店",
+     "min": "32",
+     "cat": "super"
+    },
+    {
+     "name": "（産交バス)今新開バス停",
+     "min": "4",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/c055e57f47573110e9d2186aaa546c9e.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116151750.JPG_cf437b3f.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116167039.JPG_1aaed8fa.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116181417.JPG_74e0e68a.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116191963.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.77109515593545, 130.63754979670858",
+   "hpText": "【熊本市西区中原町】新築平屋建売住宅｜2,280万円・日当たり良好・ハザードマップ区域外\n\n【物件概要】\n熊本市西区中原町に、日当たり良好な新築平屋建売住宅が登場しました。土地・照明器具・網戸込みで2,200万円台というお求めやすい価格設定です。\n\n【価格・条件】\n販売価格：2,200万円台\n土地：込み\n照明器具：全室付き\n網戸：全窓付き\n構造：平屋建て\n\n【立地・周辺環境の魅力】\n生活利便性\n徒歩圏内にデイリーヤマザキ熊本中島店があり、日常のお買い物に便利な立地です。コンビニが近いため、急な買い物や夜間の利用にも対応できます。\n\n【教育環境】\n小学校：中島小学校区\n中学校：城西中学校区\n\nお子様の通学にも安心できる教育環境が整っています。\n\n【防災面での安心感（重要ポイント）】\nこのエリアはハザードマップの指定区域外となっており、熊本市西区内では希少性の高い安全な立地条件です。\n近年の豪雨災害や地震リスクを考慮すると、ハザードマップ区域外の物件は資産価値の面でも大きなメリットがあります。\n\n【建物仕様の特徴】\n・マエムラバス（マエムラ×ミラバス）マエムラブル（マエムラ×ミラブル）標準装備\n・マエムラダンパー（制震ダンパー）付き　構造材が飫肥杉なのでハイブリッドです。\n・外壁仕様\n建売住宅でありながら、外壁には厚さ18mmの仕様を採用しています。\n一般的な建売住宅（14mm程度）よりも厚い外壁材を使用することで、以下のメリットがあります。\n\n耐久性の向上：経年劣化に強い\n断熱性の向上：冷暖房効率アップ\n遮音性の向上：外部騒音の軽減\n\n【平屋のメリット】\n日当たり良好：周囲に遮るものが少なく、採光に優れています\n生活動線がスムーズ：階段の上り下りがなく、高齢になっても安心\nメンテナンスコストが抑えられる：外壁塗装などの費用が2階建てより低い\n耐震性：重心が低く、地震に強い構造\n\n【こんな方におすすめ】\n熊本市西区で新築平屋をお探しの方\n安全な立地（ハザードマップ区域外）を重視される方\n2,000万円台で土地付き新築をお求めの方\n日当たりの良い住環境をお探しの方\n将来を見据えたバリアフリー住宅をお考えの方\n\n【お問い合わせ】\n内覧のご予約、詳細資料のご請求、住宅ローンのご相談など、お気軽にお問い合わせください。\n現地のご案内も随時承っております。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-19",
+     "from": "2,280万円",
+     "to": "2,380万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    },
+    {
+     "date": "2026-11-19",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-67856",
+   "source": "maemura",
+   "name": "徳王2丁目モデル2号地",
+   "price": "2,390万円",
+   "address": "熊本市北区徳王２丁目520番3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-67856",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年12月",
+   "buildingArea": "89.42㎡(27.05坪)",
+   "landArea": "121.93㎡(36.88坪)",
+   "parking": "2台",
+   "elementary": "西里小学校",
+   "elementaryMin": "",
+   "junior": "京陵中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "ドラッグストア・コスモス徳王店",
+     "min": "3",
+     "cat": "super"
+    },
+    {
+     "name": "（産交）五戸窪バス停 （徒歩４分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.84336145159113, 130.70870402296214",
+   "hpText": "【耐震×制震・ZEH水準】熊本市北区徳王2丁目に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた新築建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n高い断熱性能により、一年を通して快適な室内環境を実現。耐震性と制震性を兼ね備え、毎日の暮らしに安心をプラスした住まいです。\n\n周辺にはドラッグストアコスモス徳王店をはじめ、スーパーや飲食店、商業施設が充実しており、毎日のお買い物やお出かけにも便利な立地。熊本市中心部や各方面へのアクセスもしやすく、通勤・通学にもおすすめです。\n\n学校区は熊本市立西里小学校・京陵中学校区。子育て世帯にも人気の住環境で、ご家族が安心して暮らせるエリアです。\n\n熊本市北区で新築住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。間取りや設備、住み心地を実際にご体感いただけます。お気軽にお問い合わせください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,390万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-68788",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,480万円",
+   "address": "熊本市西区池田2丁目54-28",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-68788",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年12月",
+   "buildingArea": "92.74㎡(28.05坪)",
+   "landArea": "131.14㎡(39.67坪)",
+   "parking": "2台",
+   "elementary": "池田小学校",
+   "elementaryMin": "",
+   "junior": "井芹中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/f1fb52ade467f6840dbce7689e4030cb.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/650674435_1782526273713008-680x507.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/f1fb52ade467f6840dbce7689e4030cb-1.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/4ed807132e45e8bd64438feeeedc4959.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/753005056_1781161231894873-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8296446835851, 130.7027400322985",
+   "hpText": "【耐震×制震・ZEH水準】熊本市西区池田2丁目の新築建売住宅！ 地震に備える「耐震＋制震」に加え、ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,400万円台から購入可能。 高性能な新築住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-73436",
+   "source": "maemura",
+   "name": "泗水町吉富3号地モデル創業50周年記念価格",
+   "price": "2,230万円",
+   "address": "菊池市泗水町吉富255番3の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73436",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "117.54㎡(35.56坪)",
+   "parking": "2台",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルショク泗水店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)富の原バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/sisui3.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/503dfcf169dca7cd1e7ca53a778b5beb.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/1eb7e459d9261dc257f4b38316e0080c.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/166093302_1786758946544754-680x510_20261012135200-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p5",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121427.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93633485629534, 130.7891307963562",
+   "hpText": "「いつかはマイホーム」を、そろそろ現実にしませんか？\n\n「毎月家賃を払っているけれど、このままでいいのかな？」\n「マイホームが欲しい。でも、住宅ローンが不安……」\n「せっかく家を買うなら、明るくて収納も充実した家に住みたい！」\n\nそんな方に、ぜひ一度ご覧いただきたい新築一戸建てが、菊池市泗水町吉富にあります！\n\n今回ご紹介するのは、2,230万円（税込）の泗水町吉富3号地モデル。\n\n注目ポイントは、東南角地ならではの開放感、幅約10ｍのゆとりある前面道路、そして毎日の暮らしを支える収納力です。\n\nさらに、耐震×制震の構造やZEH水準の住まいにも注目。\n\n「この価格で、こんな暮らしができるんだ！」\n\nそんな発見を、ぜひ現地で体感してください。\n\n1．東南角地だからこその開放感！毎日帰るのが楽しみになる住まい\n\n家を選ぶとき、建物の間取りや価格だけで決めていませんか？\n\n実は、毎日の暮らしやすさを左右するのが、土地の位置や周辺の道路環境です。\n\n泗水町吉富3号地モデルは、東南角地という立地が魅力のひとつ。\n\n角地ならではの開放感があり、日当たりや周囲との距離感を重視する方にも、ぜひ現地で確認していただきたい物件です。\n\nまた、前面道路の幅は約10ｍ。\n\n車の運転や駐車のしやすさは、実際に現地へ行くとイメージしやすいポイントです。\n\n毎日の通勤や買い物、家族のお出かけ。何気ない日常だからこそ、住まいの周辺環境にもこだわりたいですね。\n\n2．収納が充実！片付けやすい家で、リビングをもっと好きになる\n\n家族で過ごすリビングは、できるだけすっきりと、気持ちよく使いたいもの。\n\nしかし、洋服やバッグ、季節用品、日用品など、暮らし始めると物は少しずつ増えていきます。\n\nそこで注目したいのが、**ダブルウォークインクローゼット（ダブルWIC）**です。\n\n収納スペースを上手に活用できれば、居室を広く使いやすくなり、日々の片付けもスムーズになります。\n\n「朝の身支度をもっとラクにしたい」\n「家族の荷物を整理しやすくしたい」\n「できるだけ生活感を抑えた部屋にしたい」\n\nそんな希望をお持ちの方は、ぜひ収納の広さや使い勝手を現地でチェックしてみてください。\n\n写真だけでは分かりにくい収納の奥行きや動線も、実際に立ってみると具体的にイメージできます。\n\n3．2,230万円（税込）！家賃を払い続ける暮らしから、新しい選択肢へ\n\nマイホームを考えるとき、気になるのはやはり購入価格と毎月の支払いですよね。\n\nこちらの物件は、土地・建物・照明・外構込みで2,230万円（税込）。\n\n購入後に必要な費用や住宅ローンの条件も確認しながら、無理のない資金計画を考えていきましょう。\n\n掲載されている住宅ローンの試算例は、以下のとおりです。\n\n借入金額：2,230万円\n\n返済期間：40年\n\n金利：変動金利1.6％\n\nボーナス払い併用：月々37,900円＋年2回各151,100円\n\nボーナス払いなし：月々63,000円\n\n※上記は掲載条件に基づく試算例です。金利や融資条件などによって実際の返済額は異なります。ボーナス払い併用の月額だけで判断せず、年間の支払総額もご確認ください。諸費用や購入後の維持費も含めた資金計画が大切です。\n\n「今の家賃と比べたらどうだろう？」\n「自分たちの収入でも購入できるのかな？」\n\nそんな疑問も、ぜひお気軽にご相談ください。\n\nマイホーム購入は、無理をして実現するものではありません。家計に合った計画を立てながら、自分たちらしい暮らしを目指しましょう。\n\n4．耐震×制震、ZEH水準。価格だけではなく、住まいの性能にも注目！\n\n住宅選びでは、購入価格だけでなく、建物の性能にも目を向けたいところです。\n\n泗水町吉富3号地モデルは、耐震×制震の仕様とZEH水準が特徴です。\n\n地震への備えを考えたい方や、住まいの省エネルギー性能を重視する方にも、ぜひチェックしていただきたいポイントです。\n\nまた、ZEH水準は、断熱性能や一次エネルギー消費量などに関する基準を満たす住宅性能の水準です。\n\n住宅の性能は、仕様や設備によって確認すべき内容が異なります。具体的な性能や設備については、現地見学の際にスタッフへお尋ねください。\n\n毎日暮らす場所だからこそ、価格と性能のバランスにもこだわりたいですね。\n\n5．憩いの森公園まで約400ｍ！周辺環境も暮らしの大切なポイント\n\n住まいを選ぶなら、建物の中だけでなく、周辺環境も気になりますよね。\n\nこちらの物件は、憩いの森公園まで約400ｍ。近隣には交番、自動車学校、郵便局などもあります。\n\n交通面では、熊本電鉄の富の原バス停まで約550ｍ（徒歩約7分）。\n\n主な周辺施設の目安は以下のとおりです。\n\n憩いの森公園：約400ｍ\n\n富の原バス停：約550ｍ\n\nマルショク泗水店：約2,200ｍ\n\n泗水小学校：約2,400ｍ\n\n泗水中学校：約2,400ｍ\n\n休日に公園へ出かけたり、日々の買い物の動線を考えたり。家族の生活スタイルに合う環境かどうか、ぜひ現地周辺も歩いて確かめてみてください。\n\n6．写真だけでは分からない！だからこそ、一度見に来てください\n\nインターネットで物件を探していると、たくさんの住宅が見つかります。\n\n価格や間取り、写真を比較することも大切です。\n\nでも、本当に自分たちに合う家かどうかは、実際に見てみないと分からないこともあります。\n\n例えば……\n\n玄関からリビングまでの動線は使いやすい？\n\n収納は自分たちの荷物に合っている？\n\n部屋の広さや天井の高さはどう感じる？\n\n窓から入る光や室内の明るさは？\n\n車の出し入れはしやすい？\n\nこうしたポイントは、現地で確認することで、入居後の暮らしをより具体的に想像できます。\n\n「まだ購入するか決めていない」\n「ほかの物件とも比較したい」\n「住宅ローンのことから相談したい」\n\nもちろん、そのような段階でも大丈夫です。\n\n見るだけでも、マイホーム探しの大切な一歩になります。\n\n7．泗水町吉富3号地モデルの物件概要\n\n所在地：菊池市泗水町吉富255番3の一部\n\n価格：2,230万円（税込）\n\n間取り：3LDK\n\n建物面積：91.08㎡（27.55坪）\n\n構造：木造2階建\n\n完成年：2026年8月\n\n住宅性能：耐震×制震、ZEH水準\n\n主な特徴：東南角地、前面道路約10ｍ、ダブルWIC\n\n小学校区：泗水小学校\n\n中学校区：泗水中学校\n\n交通：熊本電鉄 富の原バス停 約550ｍ\n\n「いつか」を「実際に見てみよう」に変えてみませんか？\n\n東南角地の開放感、幅約10ｍの前面道路、収納力、耐震×制震、ZEH水準。\n\n泗水町吉富3号地モデルには、価格だけでは伝えきれない魅力があります。\n\nマイホームは、これからの家族の暮らしをつくる場所。\n\n休日の過ごし方、家族との時間、毎日帰る場所の心地よさ。そんな未来を想像しながら、住まいを探してみませんか？\n\n「この家、ちょっと気になる！」と思ったら、まずは現地でご覧ください。\n\n写真では伝わらない広さや開放感、収納の使い勝手を、ぜひご自身の目で確かめてみてください。\n\n株式会社マエムラでは、物件のご見学や住宅ローンのご相談も承っております。\n\n泗水町で新築一戸建てをお探しの方は、お気軽にお問い合わせください！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-73459",
+   "source": "maemura",
+   "name": "泗水町吉富4号地モデル",
+   "price": "2,230万円",
+   "address": "菊池市泗水町吉富255番3の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73459",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "116.28㎡(35.17坪)",
+   "parking": "2台",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルショク泗水店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)富の原バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/file_000000004054820b8328a407375b7f6e.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/1000021411.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121424.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121427-1.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93633485629534, 130.7891307963562",
+   "hpText": "【耐震×制震・ZEH水準・ダブルWIC】\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n実際の雰囲気は実物を見た方がわかりやすいです。是非お気軽にお問合せ下さい！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-73466",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,380万円",
+   "address": "菊池市泗水町吉富255番3の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73466",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年8月",
+   "buildingArea": "93.15㎡(28.18坪)",
+   "landArea": "190.80㎡(57.72坪)",
+   "parking": "3台",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルショク泗水店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)富の原バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/sisui7.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/e5c84380eea4a87fb8905acc9f29cab9.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/compose_video_1786758633022-680x510_20261012135031-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93633485629534, 130.7891307963562",
+   "hpText": "【耐震×制震・ZEH水準・ダブルWIC・畳コーナー】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n駐車台数にゆとりがあるのもポイントです。\n\n百聞は一見に如かず、是非現地で体感されて下さい！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-19",
+     "from": "2,280万円",
+     "to": "2,380万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    },
+    {
+     "date": "2026-11-19",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-75436",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,330万円",
+   "address": "菊池市泗水町吉富255番3の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-75436",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "91.08㎡(27.55坪)",
+   "landArea": "121.60㎡(36.78坪)",
+   "parking": "2台",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルショク泗水店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)富の原バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021412.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021413.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/4f18365d747314562d63598d5306f8d5.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93633485629534, 130.7891307963562",
+   "hpText": "【耐震×制震・ZEH水準・ダブルWIC】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪ \n\n百聞は一見に如かず、是非現地で体感されて下さい！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-19",
+     "from": "2,230万円",
+     "to": "2,330万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    },
+    {
+     "date": "2026-11-19",
+     "price": "2,330万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-75438",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,380万円",
+   "address": "菊池市泗水町吉富255番3の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-75438",
+   "layout": "3SLDK",
+   "stories": "2階建て",
+   "builtAt": "2026年11月",
+   "buildingArea": "94.38㎡(28.55坪)",
+   "landArea": "163.57㎡(49.48坪)",
+   "parking": "3台",
+   "elementary": "泗水小学校",
+   "elementaryMin": "",
+   "junior": "泗水中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルショク泗水店",
+     "min": "28",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)富の原バス停",
+     "min": "7",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021414.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/f43d82ced89326fdffba10bbbf7cdb91.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/10/fa2fce9914a547d3b03372a22e7e1232-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.93633485629534, 130.7891307963562",
+   "hpText": "【耐震×制震・ZEH水準・3SLDK】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n 百聞は一見に如かず、是非現地で体感されて下さい！",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-11-19",
+     "from": "2,280万円",
+     "to": "2,380万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    },
+    {
+     "date": "2026-11-19",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-75712",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,098万円",
+   "address": "熊本市北区四方寄町1546-3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75712",
+   "layout": "1LDK",
+   "stories": "",
+   "builtAt": "2026年11月",
+   "buildingArea": "86.95㎡(26.3坪)",
+   "landArea": "156.68㎡(47.4坪)",
+   "parking": "4台以上",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/02/74f42ff71d98d5fa8a51b332141fe949.jpg",
+     "main": true
+    }
+   ],
+   "locText": "32.8625465712017, 130.70646281140296",
+   "hpText": "（創業50周年記念特別住宅｜19畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,000万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [
+    {
+     "date": "2026-08-15",
+     "from": "850万円",
+     "to": "1,980万円"
+    },
+    {
+     "date": "2026-09-23",
+     "from": "1,980万円",
+     "to": "2,198万円"
+    },
+    {
+     "date": "2026-11-19",
+     "from": "2,198万円",
+     "to": "2,098万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "850万円"
+    },
+    {
+     "date": "2026-08-15",
+     "price": "1,980万円"
+    },
+    {
+     "date": "2026-09-23",
+     "price": "2,198万円"
+    },
+    {
+     "date": "2026-11-19",
+     "price": "2,098万円"
+    }
+   ],
+   "relistedAt": "2026-08-15",
+   "relistHistory": [
+    {
+     "endedAt": "2026-07-27",
+     "relistedAt": "2026-08-15",
+     "lastSeen": "2026-07-26"
+    }
+   ]
+  },
+  {
+   "id": "maemura-79617",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,298万円",
+   "address": "熊本市北区四方寄町1546-3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-79617",
+   "layout": "1LDK",
+   "stories": "",
+   "builtAt": "2026年11月",
+   "buildingArea": "85.30㎡(25.8坪)",
+   "landArea": "166.25㎡(50.29坪)",
+   "parking": "4台以上",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo44.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo444.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/a75b8c4dec50801d6e484ecc61bd14a3-680x510.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/21e871e646b90d24360c3433168da159.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8625392, 130.7064314",
+   "hpText": "（創業50周年記念特別住宅｜19畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,200万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-30T23:20:50.591Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-31",
+     "price": "2,298万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-79619",
+   "source": "maemura",
+   "name": "創業50周年記念価格",
+   "price": "2,198万円",
+   "address": "熊本市北区四方寄町1546-3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-79619",
+   "layout": "1LDK",
+   "stories": "",
+   "builtAt": "2026年11月",
+   "buildingArea": "85.30㎡(25.8坪)",
+   "landArea": "195.80㎡(59.23坪)",
+   "parking": "4台以上",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo11.jpg",
+     "main": true
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/e1920f5851e91285f4c07fd4c58d052e-680x510.jpg",
+     "main": false
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/f43d82ced89326fdffba10bbbf7cdb91.jpg",
+     "main": false
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/10/fa2fce9914a547d3b03372a22e7e1232-680x507.jpg",
+     "main": false
+    }
+   ],
+   "locText": "32.8625392, 130.7064314",
+   "hpText": "（創業50周年記念特別住宅｜18畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,000万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "active",
+   "endedAt": "",
+   "createdAt": "2026-08-30T23:20:50.591Z",
+   "lastSeen": "2026-11-23",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-31",
+     "price": "2,198万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-50282",
+   "source": "maemura",
+   "name": "花園7丁目1号地モデル創業50周年記念価格",
+   "price": "2,280万円",
+   "address": "熊本市西区花園7丁目1421番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-50282",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2024年3月",
+   "buildingArea": "84.44㎡(25.54坪)",
+   "landArea": "126.50㎡(38.27坪)",
+   "parking": "3台",
+   "elementary": "花園小学校",
+   "elementaryMin": "",
+   "junior": "井芹中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "崇城大学前駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "イワサキACE上熊本店",
+     "min": "26",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本都市バス)宮尾バス停",
+     "min": "1",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.825171172254095, 130.68998293730772",
+   "hpText": "販売価格　2,280万円 → 2,080万円\n（旧価格公表日：2024年3月31日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n熊本市西区花園7丁目で建売住宅をお探しの方へ。 飫肥杉を使用した、木のぬくもりを感じられる土地付き一戸建てです。\n\n土地・建物に加え、照明・網戸までコミコミで2,000万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はイワサキACE上熊本店が利用しやすく、生活利便性の高い住環境。学校区は熊本市立花園小学校・井芹中学校区で、子育て世帯にもおすすめの立地です。\n\n本物件は高台に位置しているため、水害リスクが気になる方にもご検討いただきやすい住環境です。さらに、飫肥杉ならではのやさしい風合いと心地よい住空間も魅力のひとつです。\n\n建売住宅は、実際の間取りや日当たり、広さ、生活動線をその場で確認できるのが大きなメリット。家具の配置や新生活のイメージもしやすく、住んだ後の暮らしを具体的に想像できます。\n\n熊本市西区花園7丁目で建売住宅をお探しなら、ぜひ現地で住み心地をご体感ください。写真では伝わらない魅力を、実際の建物でお確かめいただけます。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-14",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-13",
+   "priceChanges": [
+    {
+     "date": "2026-11-06",
+     "from": "2,080万円",
+     "to": "2,280万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,080万円"
+    },
+    {
+     "date": "2026-11-06",
+     "price": "2,280万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-63639",
+   "source": "maemura",
+   "name": "城南町下宮地モデル",
+   "price": "2,298万円",
+   "address": "熊本市南区城南町下宮地272-11",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-63639",
+   "layout": "3LDK",
+   "stories": "",
+   "builtAt": "2025年8月",
+   "buildingArea": "78.66㎡(23.79坪)",
+   "landArea": "202.33㎡(61.2坪)",
+   "parking": "4台",
+   "elementary": "隈庄小学校",
+   "elementaryMin": "",
+   "junior": "下益城城南中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "富合駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "スパーーストアダイノブ城南店",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "熊本バス 舞原入口バス停まで",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.70228516122041, 130.7368652421668",
+   "hpText": "【耐震×制震・ZEH水準】熊本市南区城南町下宮地のZEH水準の断熱性能を誇る平屋です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はアタックス城南店、ダイノブ城南店、よかもんね城南店さんがあるので便利です！学校区は熊本市立隈庄小学校、下益城城南中学校区です。近隣に商業施設がたくさんある利便性の良い場所です。お庭もついているモデルで開放感があるのもポイント！生活しやすいなかなか出ない環境です！",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-14",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-13",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,298万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-61202",
+   "source": "maemura",
+   "name": "梶尾町1号地モデル",
+   "price": "2,380万円",
+   "address": "熊本市北区梶尾町字出口1418番2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-61202",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年6月",
+   "buildingArea": "78.25㎡(23.67坪)",
+   "landArea": "185.43㎡(56.09坪)",
+   "parking": "3台",
+   "elementary": "北部東小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "黒石駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "スーパーキッド菊南店",
+     "min": "25",
+     "cat": "super"
+    },
+    {
+     "name": "（バス停）梶尾温泉バス停まで",
+     "min": "5",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.87664392555924, 130.72717317727663",
+   "hpText": "【耐震×制震の平屋】熊本市北区梶尾町に誕生した、ZEH水準の高断熱性能と耐震×制震構造を備えた平屋建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n平屋ならではのワンフロア設計で、階段のない快適な暮らしを実現。子育て世帯はもちろん、ご夫婦二人暮らしや将来を見据えた住まいとしてもおすすめです。\n\n駐車スペースは並列3台以上確保しており、ご家族で複数台所有の方や来客時にも安心。さらに南側にはゆとりのあるお庭があり、BBQやお子さまのプール遊び、ガーデニングなど、ご家族との大切な時間を楽しめます。\n\n周辺にはスーパー・キッド北部店や鮮ど市場飛田店があり、毎日のお買い物も便利な立地。学校区は北部東小学校・北部中学校区で、お子さまの通学にも安心です。\n\n熊本市北区で新築平屋・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の住み心地や間取り、設備をご体感いただけます。お気軽にお問い合わせください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-02",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-11-01",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-79631",
+   "source": "maemura",
+   "name": "菊池市隈府2号地モデル",
+   "price": "2,280万円",
+   "address": "菊池市隈府字堀ノ内724番3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-79631",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年9月",
+   "buildingArea": "94.38㎡(28.55坪)",
+   "landArea": "146.34㎡(44.27坪)",
+   "parking": "4台",
+   "elementary": "隈府小学校",
+   "elementaryMin": "",
+   "junior": "菊池南中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ショッピングプラザ夢空間店",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)大琳寺バス停",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.97604737753627, 130.80159683117947",
+   "hpText": "【耐震×制震・ZEH水準】菊池市隈府の新築住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はサニー菊池店さん、ホームセンターグッデイ菊池店さん、ロッキースーパーストア菊池店さんがあるので便利です！学校区は菊池市立隈府小学校、菊池南中学校区で、隈府小学校まで1,100ｍ、バス停まで200ｍと通学や通勤に便利な立地です。スーパーまで約500ｍと近いので、お買い物に便利！最終１棟です。今後この価格でこの広さは出るでしょうか。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-11-02",
+   "createdAt": "2026-08-30T23:20:50.591Z",
+   "lastSeen": "2026-11-01",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-08-31",
+     "price": "2,280万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-59647",
+   "source": "maemura",
+   "name": "菊池市西寺2号地モデル",
+   "price": "2,230万円",
+   "address": "菊池市西寺字西寺屋敷2048番3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-59647",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年6月",
+   "buildingArea": "94.38㎡(28.55坪)",
+   "landArea": "163.37㎡(49.42坪)",
+   "parking": "3台",
+   "elementary": "菊之池小学校",
+   "elementaryMin": "",
+   "junior": "菊池南中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ホームセンターグッデイ菊池店",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)西野間口バス停",
+     "min": "19",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.9706353, 130.7876898",
+   "hpText": "【耐震×制震・ZEH水準】\n菊池市西寺のZEH水準の断熱性能を誇る住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はグッデイ菊池店さん、セブンイレブンさんがあるので便利です！学校区は菊之池小学校、菊池南中学校区です。駐車4台以上可能です。菊之池小学校まで1,100ｍ、バス停まで350ｍと通学や通勤に便利な立地です。買い物施設・バス停も徒歩圏内の利便性の良い住環境です。\n庭先も広いので物置を置いたり、サンルームを施工したりと自由に出来るのも嬉しいポイントです♪\n最終1棟です、お見逃しなくお問い合わせください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-31",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-10-25",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-68075",
+   "source": "maemura",
+   "name": "小川町川尻1号地モデル",
+   "price": "2,380万円",
+   "address": "宇城市小川町川尻字川添734番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-68075",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年9月",
+   "buildingArea": "76.18㎡(23.04坪)",
+   "landArea": "201.79㎡(61.04坪)",
+   "parking": "3台",
+   "elementary": "河江小学校",
+   "elementaryMin": "",
+   "junior": "小川中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "イオンモール宇城店",
+     "min": "23",
+     "cat": "super"
+    },
+    {
+     "name": "（JR鹿児島本線）小川駅",
+     "min": "9",
+     "cat": "station"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.60084266409842, 130.69049175883478",
+   "hpText": "【耐震×制震・ZEH水準】宇城市小川町川尻に飫肥杉で造られた平屋の建売住宅です！土地、建物、消費税、照明、網戸込みで2,300万円台で購入可能♪お買い物はイオンモール宇城店さんがあるので便利です！学校区は河江小学校、小川中学校区です。\n車をたくさん停めるもよし、倉庫を置くもよし、ガレージ造ってもよしの自由さが魅力です♪",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-31",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-10-25",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-43990",
+   "source": "maemura",
+   "name": "宇土市境目町2号地モデル",
+   "price": "1,780万円",
+   "address": "宇土市境目町字居屋敷902番4",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-43990",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2023年3月",
+   "buildingArea": "85.29㎡(25.8坪)",
+   "landArea": "123.34㎡(37.31坪)",
+   "parking": "3台",
+   "elementary": "花園小学校",
+   "elementaryMin": "",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "スーパーセンタートライアル宇土店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "（ミニバス）宝林寺前バス停",
+     "min": "9",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/8b15688594748a78bc796cb62ce94cbd.jpg",
+     "main": false,
+     "local": "data/img/3bbc823990d48c8716f0.jpg"
+    }
+   ],
+   "locText": "32.67514900505879, 130.6767830195974",
+   "hpText": "（脱家賃応援フェア！限定割引実施中！）\n\n宇土市境目町で建売住宅・一戸建てをお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりを感じられる住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで1,700万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はスーパーセンタートライアル宇土店が近く、食料品や日用品の買い出しにも便利な立地。学校区は宇土市立花園小学校・鶴城中学校区です。\n\n花園小学校まで近く、お子様の通学時間が短く安心。 通学時の負担が少ないため、子育て世帯にも嬉しい住環境です。また、周辺は落ち着いた住宅地で、家族みんなが快適に暮らせます。\n\n宇土市で建売住宅・一戸建てをお探しなら、飫肥杉を使用したあたたかみのある住まいをぜひ現地でご体感ください。創業祭限定の特別価格でご案内中です。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-01",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-09-30",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,780万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-43993",
+   "source": "maemura",
+   "name": "宇土市境目町3号地モデル",
+   "price": "1,680万円",
+   "address": "宇土市境目町字居屋敷901番1、902番5",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-43993",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2023年8月",
+   "buildingArea": "84.44㎡(25.54坪)",
+   "landArea": "115.08㎡(34.81坪)",
+   "parking": "3台",
+   "elementary": "花園小学校",
+   "elementaryMin": "",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "宇土駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "スーパーセンタートライアル宇土店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "（ミニバス）宝林寺前バス停",
+     "min": "9",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.67514900505879, 130.6767830195974",
+   "hpText": "（脱家賃応援フェア！限定割引実施中！）\n\n宇土市境目町で建売住宅・一戸建てをお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりを感じられる住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで1,600万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はスーパーセンタートライアル宇土店が近く、食料品や日用品の買い出しにも便利な立地。学校区は宇土市立花園小学校・鶴城中学校区です。\n\n花園小学校まで近く、お子様の通学時間が短く安心。 通学時の負担が少ないため、子育て世帯にも嬉しい住環境です。また、周辺は落ち着いた住宅地で、家族みんなが快適に暮らせます。\n\n宇土市で建売住宅・一戸建てをお探しなら、飫肥杉を使用したあたたかみのある住まいをぜひ現地でご体感ください。創業祭限定の特別価格でご案内中です。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-01",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-09-30",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,680万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58924",
+   "source": "maemura",
+   "name": "宇土市宮庄町4号地モデル",
+   "price": "2,180万円",
+   "address": "宇土市宮庄町字池田79番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-58924",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年12月",
+   "buildingArea": "73.90㎡(22.35坪)",
+   "landArea": "200.77㎡(60.73坪)",
+   "parking": "3台",
+   "elementary": "宇土小学校",
+   "elementaryMin": "",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "緑川駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ダイレックス宇土店",
+     "min": "27",
+     "cat": "super"
+    },
+    {
+     "name": "（ミニバス）椿原区公民館前バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.68039018561933, 130.6413644495557",
+   "hpText": "【耐震×制震・ZEH水準】宇土市宮庄町で新築建売住宅をお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりと高い住宅性能を兼ね備えた住まいです。\n\n耐震性能に加え、制震システムを採用。さらにZEH水準の高い断熱性能を備え、地震への備えと省エネ・快適な暮らしを実現します。\n\n土地・建物に加え、照明・網戸までコミコミで2,100万円台から購入可能。 初期費用を抑えながら、高性能な新築住宅をご検討いただけます。\n\n毎日のお買い物はダイレックス宇土店が近く、食料品や日用品のお買い物にも便利な住環境です。学校区は宇土市立宇土小学校・鶴城中学校区。宇土小学校まで近く、お子様の通学時間が短いため、子育て世帯にも安心の立地です。\n\n木のぬくもりを感じられる飫肥杉の住まいと、高性能住宅ならではの快適性をぜひ現地でご体感ください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-10-01",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-09-30",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-64302",
+   "source": "maemura",
+   "name": "八分字町2号地モデル",
+   "price": "2,480万円",
+   "address": "熊本市南区八分字町2549番3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-64302",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年9月",
+   "buildingArea": "90.25㎡(27.3坪)",
+   "landArea": "122.92㎡(37.18坪)",
+   "parking": "4台",
+   "elementary": "飽田東小学校",
+   "elementaryMin": "",
+   "junior": "飽田中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西熊本駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "イオンタウン西熊本店 （徒歩約35分）",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "(産交バス)八分字バス停 （徒歩約4分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/fd665f0edd891bcc48214d00679ee2ec-1-680x510.jpg",
+     "main": true,
+     "local": "data/img/6b9bb1ac8c0f422fe8d0.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/d106fc1e21925b43235a7b414a7c82a6-680x507.jpg",
+     "main": false,
+     "local": "data/img/fdb274bdc35ddb71d33f.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/1779073813224-680x510.jpg",
+     "main": false,
+     "local": "data/img/47c7937067bb04509d30.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/acfd83edc5c56fef8853858241ed59b9-680x507.jpg",
+     "main": false,
+     "local": "data/img/557bbcb820c0fd95d845.jpg"
+    }
+   ],
+   "locText": "32.76090747595677, 130.6596906880829",
+   "hpText": "【耐震×制震・ZEH水準】熊本市南区八分字町に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた新築建売住宅です。土地・照明・網戸込みで2,400万円台からご購入いただけます。\n\n高い断熱性能と安心の耐震・制震構造により、一年を通して快適に暮らせる住まい。収納スペースも豊富に確保しており、衣類や日用品、お子さまの荷物などもすっきり整理できる、家事動線にも配慮した間取りです。\n\n周辺にはイオンタウン西熊本をはじめ、コンビニエンスストアや飲食店、ドラッグストアなどの商業施設が充実しており、毎日のお買い物にも便利な住環境です。\n\nまた、飽田東保育園まで約200m、飽田東小学校まで約500mと、お子さまの送り迎えや通学の負担が少ない立地も魅力。学校区は飽田東小学校・飽田中学校区で、子育て世帯にもおすすめです。\n\n熊本市南区で新築住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の間取りや収納の多さ、住み心地をご体感いただけます。\n\n残り1棟となっております。人気エリアのため、ご検討中の方はお早めにお問い合わせください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-09-14",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-09-13",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,480万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-57061",
+   "source": "maemura",
+   "name": "池田2丁目4号地モデル",
+   "price": "2,280万円",
+   "address": "熊本市西区池田2丁目54-28",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-57061",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年1月",
+   "buildingArea": "89.42㎡(27.05坪)",
+   "landArea": "134.23㎡(40.6坪)",
+   "parking": "2台",
+   "elementary": "池田小学校",
+   "elementaryMin": "",
+   "junior": "井芹中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "池田駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
+     "min": "",
+     "cat": "super"
+    },
+    {
+     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
+     "main": true,
+     "local": "data/img/76ba1dc53c9146706ea3.jpg"
+    }
+   ],
+   "locText": "32.8296446835851, 130.7027400322985",
+   "hpText": "【ZEH水準】熊本市西区池田2丁目の建売住宅！ ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,200万円台から購入可能。 高性能な住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-31",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-08-30",
+   "priceChanges": [
+    {
+     "date": "2026-07-26",
+     "from": "2,180万円",
+     "to": "2,280万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    },
+    {
+     "date": "2026-07-26",
+     "price": "2,280万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-64689",
+   "source": "maemura",
+   "name": "菊池市隈府2号地モデル",
+   "price": "2,280万円",
+   "address": "菊池市隈府字堀ノ内724番3",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-64689",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2025年9月",
+   "buildingArea": "94.38㎡(28.55坪)",
+   "landArea": "146.34㎡(44.27坪)",
+   "parking": "4台",
+   "elementary": "隈府小学校",
+   "elementaryMin": "",
+   "junior": "菊池南中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "御代志駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ショッピングプラザ夢空間店",
+     "min": "7",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本電鉄)大琳寺バス停",
+     "min": "3",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_4590.jpg",
+     "main": true,
+     "local": "data/img/c3e91d93262b2284da22.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/Two_cars_pool_barbecue_202605041620-680x507.jpg",
+     "main": false,
+     "local": "data/img/8f9195c9c327d48a043e.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/93aba7503805147ed93edabdbfcbedf8-680x508.jpg",
+     "main": false,
+     "local": "data/img/50b836a9bc35806145d5.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_2220_202604242031-680x507.jpg",
+     "main": false,
+     "local": "data/img/9a0929e524a0ac1cdbb0.jpg"
+    },
+    {
+     "id": "p5",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_20260220_154622.jpg",
+     "main": false,
+     "local": "data/img/c8d02278673a2735c34f.jpg"
+    }
+   ],
+   "locText": "32.97604737753627, 130.80159683117947",
+   "hpText": "【耐震×制震・ZEH水準】菊池市隈府の新築住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はサニー菊池店さん、ホームセンターグッデイ菊池店さん、ロッキースーパーストア菊池店さんがあるので便利です！学校区は菊池市立隈府小学校、菊池南中学校区で、隈府小学校まで1,100ｍ、バス停まで200ｍと通学や通勤に便利な立地です。スーパーまで約500ｍと近いので、お買い物に便利！最終１棟です。今後この価格でこの広さは出るでしょうか。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-31",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-08-30",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,280万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-58794",
+   "source": "maemura",
+   "name": "宇土市宮庄町1号地モデル",
+   "price": "2,180万円",
+   "address": "宇土市宮庄町字池田79番7",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-58794",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年12月",
+   "buildingArea": "75.35㎡(22.79坪)",
+   "landArea": "170.37㎡(51.54坪)",
+   "parking": "3台",
+   "elementary": "宇土小学校",
+   "elementaryMin": "",
+   "junior": "鶴城中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "緑川駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ダイレックス宇土店",
+     "min": "27",
+     "cat": "super"
+    },
+    {
+     "name": "（ミニバス）椿原区公民館前バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [
+    {
+     "id": "p1",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/juno-202604071723-680x507.jpg",
+     "main": true,
+     "local": "data/img/06f0fc54cba65c4f04aa.jpg"
+    },
+    {
+     "id": "p2",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/IMG_20260403_172406-680x510.jpg",
+     "main": false,
+     "local": "data/img/a6e4fb38737af5cdf5d3.jpg"
+    },
+    {
+     "id": "p3",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/IMG_20260301_122540.jpg",
+     "main": false,
+     "local": "data/img/cef925652bdd590e9312.jpg"
+    },
+    {
+     "id": "p4",
+     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/76e813402ab0f2ec48954ea00826424f-680x507.jpg",
+     "main": false,
+     "local": "data/img/f7131ae0df97c95f4465.jpg"
+    }
+   ],
+   "locText": "32.68039018561933, 130.6413644495557",
+   "hpText": "【耐震×制震・ZEH水準】宇土市宮庄町で新築建売住宅をお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりと高い住宅性能を兼ね備えた住まいです。\n\n耐震性能に加え、制震システムを採用。さらにZEH水準の高い断熱性能を備え、地震への備えと省エネ・快適な暮らしを実現します。\n\n土地・建物に加え、照明・網戸までコミコミで2,100万円台から購入可能。 初期費用を抑えながら、高性能な新築住宅をご検討いただけます。\n\n毎日のお買い物はダイレックス宇土店が近く、食料品や日用品のお買い物にも便利な住環境です。学校区は宇土市立宇土小学校・鶴城中学校区。宇土小学校まで近く、お子様の通学時間が短いため、子育て世帯にも安心の立地です。\n\n木のぬくもりを感じられる飫肥杉の住まいと、高性能住宅ならではの快適性をぜひ現地でご体感ください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-23",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-08-22",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-52062",
+   "source": "maemura",
+   "name": "長嶺東9丁目4号地モデル",
+   "price": "2,480万円",
+   "address": "熊本市東区長嶺東9丁目170番の一部",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/east/post-52062",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2024年9月",
+   "buildingArea": "86.10㎡(26.05坪)",
+   "landArea": "142.49㎡(43.1坪)",
+   "parking": "2台",
+   "elementary": "託麻北小学校",
+   "elementaryMin": "",
+   "junior": "東部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "武蔵塚駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ミスターマックス熊本インター店まで",
+     "min": "13",
+     "cat": "super"
+    },
+    {
+     "name": "(産交バス)中山バス停まで",
+     "min": "12",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.83499631033372, 130.7837913017466",
+   "hpText": "熊本市東区長嶺東9丁目の飫肥杉で造られた建売住宅です！土地、照明、網戸込みで2,400万円台で購入可能♪お買い物はミスターマックス熊本インター店さんがあるので便利です！熊本インターに近いのも◎！学校区は熊本市立託麻北小学校、東部中学校区です。南が段下がり（認定擁壁！）で建物がないのでリビングからの眺めの良さは必見です♪日中カーテン全開でもプライバシー保てる家ってなかなか無いと思います。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-05",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-08-04",
+   "priceChanges": [
+    {
+     "date": "2026-07-27",
+     "from": "2,298万円",
+     "to": "2,480万円"
+    }
+   ],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,298万円"
+    },
+    {
+     "date": "2026-07-27",
+     "price": "2,480万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-59574",
+   "source": "maemura",
+   "name": "小川町北新田2号地モデル",
+   "price": "2,180万円",
+   "address": "宇城市小川町北新田字松ノ本646番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-59574",
+   "layout": "3LDK",
+   "stories": "平屋",
+   "builtAt": "2025年6月",
+   "buildingArea": "72.45㎡(21.92坪)",
+   "landArea": "169.47㎡(51.26坪)",
+   "parking": "3台",
+   "elementary": "河江小学校",
+   "elementaryMin": "",
+   "junior": "小川中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "小川駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "イオンモール宇城店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "（産交）小川工業高校前バス停",
+     "min": "6",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.602216497757716, 130.69853838587946",
+   "hpText": "宇城市小川町北新田に飫肥杉使用の平屋建て建売住宅登場です！土地、建物、消費税、照明、網戸込みで2,100万円台で購入可能♪お買い物はイオンモール宇城店さんがあるので便利です！学校区は河江小学校、小川中学校区です。\n気になる方はぜひ一度ご連絡ください♪",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-02",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-08-01",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,180万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-50073",
+   "source": "maemura",
+   "name": "花園7丁目4号地モデル",
+   "price": "2,230万円",
+   "address": "熊本市西区花園7丁目1421番7",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-50073",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2024年3月",
+   "buildingArea": "85.28㎡(25.8坪)",
+   "landArea": "138.86㎡(42.01坪)",
+   "parking": "3台",
+   "elementary": "花園小学校",
+   "elementaryMin": "",
+   "junior": "井芹中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "崇城大学前駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "イワサキACE上熊本店",
+     "min": "26",
+     "cat": "super"
+    },
+    {
+     "name": "(熊本都市バス)宮尾バス停",
+     "min": "1",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.825171172254095, 130.68998293730772",
+   "hpText": "（期間限定割引実施中！）\n\n熊本市西区花園7丁目で建売住宅をお探しの方へ。 飫肥杉を使用した、木のぬくもりを感じられる土地付き一戸建てです。\n\n土地・建物に加え、照明・網戸までコミコミで2,000万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はイワサキACE上熊本店が利用しやすく、生活利便性の高い住環境。学校区は熊本市立花園小学校・井芹中学校区で、子育て世帯にもおすすめの立地です。\n\n本物件は高台に位置しているため、水害リスクが気になる方にもご検討いただきやすい住環境です。さらに、飫肥杉ならではのやさしい風合いと心地よい住空間も魅力のひとつです。\n\n建売住宅は、実際の間取りや日当たり、広さ、生活動線をその場で確認できるのが大きなメリット。家具の配置や新生活のイメージもしやすく、住んだ後の暮らしを具体的に想像できます。\n\n熊本市西区花園7丁目で建売住宅をお探しなら、ぜひ現地で住み心地をご体感ください。写真では伝わらない魅力を、実際の建物でお確かめいただけます。創業祭限定の特別価格でご案内中です。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-01",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-07-31",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,230万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-73288",
+   "source": "maemura",
+   "name": "横手3丁目1号地モデル",
+   "price": "2,380万円",
+   "address": "熊本市中央区横手3丁目940番1",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/central/post-73288",
+   "layout": "3LDK",
+   "stories": "2階建て",
+   "builtAt": "2026年3月",
+   "buildingArea": "91.90㎡(27.8坪)",
+   "landArea": "118.60㎡(35.88坪)",
+   "parking": "2台",
+   "elementary": "一新小学校",
+   "elementaryMin": "",
+   "junior": "西山中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "呉服町電停",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "ゆめマート新町店",
+     "min": "9",
+     "cat": "super"
+    },
+    {
+     "name": "（都市バス)明神橋バス停 （徒歩約9分）",
+     "min": "",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.79713600059944, 130.6907964399029",
+   "hpText": "熊本市中央区横手3丁目に飫肥杉で出来た新築戸建てが登場！土地、照明、網戸込みで2,300万円台で購入可能♪一新小学校まで約890ｍ、西山中学校まで約850ｍ、ゆめマート熊本新町店まで約670ｍ、明八橋バス停まで約680ｍ、熊本駅まで約1,400ｍと利便性、交通アクセスの良い立地です。横手の中でも、山の上ではなくふもとに位置しています。レアです。いつでも内覧可能ですのでお気軽にお問い合わせください。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-08-01",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-07-31",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "2,380万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-72728",
+   "source": "maemura",
+   "name": "四方寄町売地1号地※表示価格は土地のみの価格です。",
+   "price": "980万円",
+   "address": "熊本市北区四方寄町1549-5",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-72728",
+   "layout": "",
+   "stories": "",
+   "builtAt": "2025年11月",
+   "buildingArea": "㎡(0坪)",
+   "landArea": "194.94㎡(58.97坪)",
+   "parking": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.862572480558185, 130.70650270926205",
+   "hpText": "※表示価格は土地のみの価格です。\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-07-27",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-07-26",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "980万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-75716",
+   "source": "maemura",
+   "name": "四方寄町売地3号地※表示価格は土地のみの価格です。",
+   "price": "1,040万円",
+   "address": "熊本市北区四方寄町1549-6",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75716",
+   "layout": "",
+   "stories": "",
+   "builtAt": "2025年11月",
+   "buildingArea": "㎡(0坪)",
+   "landArea": "156.13㎡(47.23坪)",
+   "parking": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.862572480558185, 130.70650270926205",
+   "hpText": "※表示価格は土地のみの価格です。\n\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-07-27",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-07-26",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,040万円"
+    }
+   ],
+   "relistedAt": ""
+  },
+  {
+   "id": "maemura-75719",
+   "source": "maemura",
+   "name": "四方寄町売地4号地※表示価格は土地のみの価格です。",
+   "price": "1,100万円",
+   "address": "熊本市北区四方寄町1549-2",
+   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75719",
+   "layout": "",
+   "stories": "",
+   "builtAt": "2025年11月",
+   "buildingArea": "㎡(0坪)",
+   "landArea": "165.63㎡(50.1坪)",
+   "parking": "",
+   "elementary": "川上小学校",
+   "elementaryMin": "",
+   "junior": "北部中学校",
+   "juniorMin": "",
+   "facilities": [
+    {
+     "name": "西里駅",
+     "min": "",
+     "cat": "station",
+     "auto": true
+    },
+    {
+     "name": "マルエイ熊本北部店さんまで",
+     "min": "14",
+     "cat": "super"
+    },
+    {
+     "name": "産交バス 四方寄町バス停まで",
+     "min": "8",
+     "cat": "bus"
+    }
+   ],
+   "photos": [],
+   "locText": "32.862572480558185, 130.70650270926205",
+   "hpText": "※表示価格は土地のみの価格です。\n\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
+   "tags": [],
+   "status": "ended",
+   "endedAt": "2026-07-27",
+   "createdAt": "2026-07-13T21:47:16.522Z",
+   "lastSeen": "2026-07-26",
+   "priceChanges": [],
+   "priceSnapshots": [
+    {
+     "date": "2026-07-14",
+     "price": "1,100万円"
+    }
+   ],
+   "relistedAt": ""
+  },
   {
    "id": "santa-792130",
    "source": "santa",
@@ -37678,3176 +40638,6 @@
     }
    ],
    "locPrec": "",
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-44830",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "1,830万円",
-   "address": "宇城市松橋町両仲間1628番4（※地図上のピンは『松橋町両仲間』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-44830",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2023年7月",
-   "buildingArea": "81.55㎡(24.67坪)",
-   "landArea": "96.43㎡(29.17坪)",
-   "parking": "2台",
-   "elementary": "豊福小学校",
-   "elementaryMin": "",
-   "junior": "松橋中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "小川駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "鮮ど市場宇城店",
-     "min": "22",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)竹崎バス停",
-     "min": "2",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/IMG_4859.jpg",
-     "main": true,
-     "local": "data/img/f9b88e4ca774d28137af.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/IMG_4860.jpg",
-     "main": false,
-     "local": "data/img/220d3b09f95b32c7a3c3.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/1000021416.jpg",
-     "main": false,
-     "local": "data/img/91ddc829120d79e82b98.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/07/ca9bdfbbf152afd5a4155536c20fb1cd-680x510.jpeg",
-     "main": false,
-     "local": "data/img/29013bc84518ba3cc923.jpg"
-    }
-   ],
-   "locText": "32.6282472, 130.6993782",
-   "hpText": "販売価格　1,830万円 → 1,680万円 （旧価格公表日：2023年7月20日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n宇城市松橋町両仲間にある、飫肥杉を使用したあたたかみのある建売住宅です。ZEH水準の断熱性能を誇っています。\n\n土地・建物に加え、照明・網戸までコミコミで1,600万円台から購入可能。 家賃並みの支払いでマイホームを実現したい方にもおすすめです。\n\n南側道路に面しているため日当たりが良く、明るく開放感のある住まい。幹線道路へのアクセスも良好で、通勤・通学やお出かけにも便利な立地です。\n\n徒歩ですぐの場所にはセブンイレブン宇城松橋竹崎店、お買い物は鮮ど市場宇城店があり、毎日のお買い物もスムーズ。学校区は豊福小学校・松橋中学校区です。\n\nやさしい色合いでまとめた外観と内装は、飽きのこないナチュラルデザイン。陽射しが差し込む明るいキッチンは、ご家族との会話を楽しみながら料理ができる、暮らしやすさにこだわった空間です。ウォークインクローゼットが2か所あるのも便利です。\n\n特別価格でご案内できるこの機会に、ぜひ現地で住み心地をご体感ください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "1,680万円",
-     "to": "1,830万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "1,680万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "1,830万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-52399",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "3,080万円",
-   "address": "熊本市南区白藤1丁目381番1の一部、382番6の一部（※地図上のピンは『白藤1丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-52399",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2024年7月",
-   "buildingArea": "99.35㎡(30.05坪)",
-   "landArea": "153.69㎡(46.49坪)",
-   "parking": "4台以上可",
-   "elementary": "力合小学校",
-   "elementaryMin": "",
-   "junior": "力合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "リブホール白藤店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)白藤団地入口バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/sira2.jpg",
-     "main": true,
-     "local": "data/img/c358771e5b63ae828398.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/d48877715cab330a270d9de8f515d82c.jpg",
-     "main": false,
-     "local": "data/img/0f85a08ab4148fe6124c.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/1785037710706-680x510.jpg",
-     "main": false,
-     "local": "data/img/a2861c8c5f8e850c83c2.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/658c0aaed96aaf3bddb827a7e53de50f-680x507.jpg",
-     "main": false,
-     "local": "data/img/199c9e9c5dd37ec8ff1f.jpg"
-    }
-   ],
-   "locText": "32.752433, 130.678456",
-   "hpText": "販売価格　3,080万円 → 2,780万円\n（旧価格公表日：2024年7月30日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「広さ」も「暮らしやすさ」も「便利さ」も、妥協したくない方へ。\n\n熊本市南区白藤1丁目に、30坪超えのゆとりある戸建てが登場！\n\nLDKはなんと18.2畳。家族みんなが集まってもゆったり過ごせる、開放感のあるリビングです。\n\nさらに、土地・照明・網戸込みで2,700万円台。\n毎日の暮らしに必要なものが身近に揃う、暮らしやすさが魅力の住まいです。\n\nお買い物もとにかく便利！\nリブホール白藤店・コスモス白藤店が徒歩圏内なので、毎日の買い物もラクラク。\n「ちょっと買い物に行きたい」というときにも、車を出さずに済む便利な立地です。\n\nそして、南側道路で日当たりも◎。\n敷地には駐車4台以上可能なので、複数台所有のご家庭や来客時にも安心です。\n\n学校区は力合小学校・力合中学校。\n子育て世帯にも検討しやすい住環境です。\n\n家の広さや設備は、住まい選びで比較できます。\nでも、立地は後から変えることができません。\n\n「どんな家に住むか」も大切。\nでも、「どこで暮らすか」はもっと大切。\n\n30坪超えのゆとりある住まい × 19.6畳LDK × 駐車4台以上 × 南側道路 × 買い物便利。\n\n毎日の暮らしを、もっとラクに、もっと快適に。\n\n熊本市南区白藤1丁目で、便利な暮らしを始めませんか？",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,780万円",
-     "to": "3,080万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,780万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "3,080万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-52402",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "3,080万円",
-   "address": "熊本市南区白藤1丁目382番6の一部（※地図上のピンは『白藤1丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-52402",
-   "layout": "3SLDK",
-   "stories": "2階建て",
-   "builtAt": "2024年7月",
-   "buildingArea": "100.18㎡(30.3坪)",
-   "landArea": "145.79㎡(44.1坪)",
-   "parking": "4台以上可",
-   "elementary": "力合小学校",
-   "elementaryMin": "",
-   "junior": "力合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "リブホール白藤店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)白藤団地入口バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.752433, 130.678456",
-   "hpText": "販売価格　3,080万円 → 2,980万円\n（旧価格公表日：2024年7月30日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「広さ」も「暮らしやすさ」も「便利さ」も、妥協したくない方へ。\n\n熊本市南区白藤1丁目に、30坪超えのゆとりある戸建てが登場！\n\nLDKはなんと18.2畳。家族みんなが集まってもゆったり過ごせる、開放感のあるリビングです。\n\nさらに、土地・照明・網戸込みで2,600万円台。\n毎日の暮らしに必要なものが身近に揃う、暮らしやすさが魅力の住まいです。\n\nお買い物もとにかく便利！\nリブホール白藤店・コスモス白藤店が徒歩圏内なので、毎日の買い物もラクラク。\n「ちょっと買い物に行きたい」というときにも、車を出さずに済む便利な立地です。\n\nそして、南側道路で日当たりも◎。\n敷地には駐車4台以上可能なので、複数台所有のご家庭や来客時にも安心です。\n\n学校区は力合小学校・力合中学校。\n子育て世帯にも検討しやすい住環境です。\n\n家の広さや設備は、住まい選びで比較できます。\nでも、立地は後から変えることができません。\n\n「どんな家に住むか」も大切。\nでも、「どこで暮らすか」はもっと大切。\n\n30坪超えのゆとりある住まい × 19.6畳LDK × 駐車4台以上 × 南側道路 × 買い物便利。\n\n毎日の暮らしを、もっとラクに、もっと快適に。\n\n熊本市南区白藤1丁目で、便利な暮らしを始めませんか？",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-10-04",
-     "from": "2,780万円",
-     "to": "2,680万円"
-    },
-    {
-     "date": "2026-11-06",
-     "from": "2,680万円",
-     "to": "3,080万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,780万円"
-    },
-    {
-     "date": "2026-10-04",
-     "price": "2,680万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "3,080万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-55257",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,480万円",
-   "address": "熊本市北区鶴羽田4丁目（※地図上のピンは『鶴羽田4丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-55257",
-   "layout": "",
-   "stories": "2階建て",
-   "builtAt": "2024年11月",
-   "buildingArea": "88.60㎡(26.8坪)",
-   "landArea": "147.40㎡(44.59坪)",
-   "parking": "3台",
-   "elementary": "北部東小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "三ツ石駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ハローデイ菊南店まで",
-     "min": "6",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 上須屋バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/adef2073a3f9172625e0be554827dfdb-680x510.jpg",
-     "main": true,
-     "local": "data/img/f8c68e0f2409692f1eb5.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/f68178d276dfa8247562f3e69d975fea.jpg",
-     "main": false,
-     "local": "data/img/9a508bd9bc4f63d8c273.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/63fb5a5a47432e0af07bb0f38a22012b-680x510_b29e66c5.jpg",
-     "main": false,
-     "local": "data/img/b22ea0c7842a7aed567c.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/compose_video_1779687393525.JPG_202605251735.jpg",
-     "main": false,
-     "local": "data/img/3ce98b19fc5559118e1f.jpg"
-    }
-   ],
-   "locText": "32.8643226, 130.7291634",
-   "hpText": "販売価格　2,480万円 → 2,198万円 （旧価格公表日：2024年11月11日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n熊本市北区鶴羽田4丁目の建売住宅！このエリアで一戸建てをお探しの方にオススメ！ ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n\n土地・建物に加え、照明・網戸・霧ヶ峰エアコン付きで2,400万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n\n周辺にはドン・キホーテ合志店やハローデイ菊南店があり、毎日のお買い物も便利。学校区は熊本市立北部東小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。\n\n前面道路は行き止まりのため通り抜け車両が少なく、交通量の少ない静かな住宅地。 小さなお子様がいるご家庭にも安心できる環境です。駐車スペースは3台分を確保しており、縦列駐車でも周囲の交通を気にせず、ゆとりをもって駐車できます。\n\n熊本市北区鶴羽田で戸建住宅、建売住宅をお探しの方、ZEH水準の高性能住宅・駐車3台・エアコン付きの住まいをぜひ現地でご体感ください。特別価格でご案内中です。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-10-03",
-     "from": "2,298万円",
-     "to": "2,480万円"
-    },
-    {
-     "date": "2026-10-24",
-     "from": "2,480万円",
-     "to": "2,198万円"
-    },
-    {
-     "date": "2026-11-06",
-     "from": "2,198万円",
-     "to": "2,480万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,298万円"
-    },
-    {
-     "date": "2026-10-03",
-     "price": "2,480万円"
-    },
-    {
-     "date": "2026-10-24",
-     "price": "2,198万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,480万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-57049",
-   "source": "maemura",
-   "name": "池田2丁目3号地モデル",
-   "price": "2,330万円",
-   "address": "熊本市西区池田2丁目（※地図上のピンは『池田2丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-57049",
-   "layout": "3SLDK",
-   "stories": "2階建て",
-   "builtAt": "2025年1月",
-   "buildingArea": "90.24㎡(27.3坪)",
-   "landArea": "148.75㎡(45坪)",
-   "parking": "2台",
-   "elementary": "池田小学校",
-   "elementaryMin": "",
-   "junior": "井芹中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "韓々坂駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.8273862, 130.7019137",
-   "hpText": "【ZEH水準】熊本市西区池田2丁目の建売住宅！ ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,300万円台から購入可能。 高性能な住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。\n\n性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-10-31",
-     "from": "2,230万円",
-     "to": "2,330万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    },
-    {
-     "date": "2026-10-31",
-     "price": "2,330万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58252",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,580万円",
-   "address": "熊本市南区富合町杉島（※地図上のピンは『富合町杉島』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58252",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年5月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "127.52㎡(38.57坪)",
-   "parking": "3台",
-   "elementary": "富合小学校",
-   "elementaryMin": "",
-   "junior": "富合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキエース川尻店",
-     "min": "20",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)緑川橋バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/621032861_1794640327811099.jpg",
-     "main": true,
-     "local": "data/img/98c745bc6bf96ebe7671.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Edit_photo_evening_lighting_lights_202607231415-680x508.jpg",
-     "main": false,
-     "local": "data/img/c0c12a6e0905457c628d.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Change_to_bright_daytime_202608071633-680x508.jpg",
-     "main": false,
-     "local": "data/img/85dfd95a5d41f478cb13.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/timi1.jpg",
-     "main": false,
-     "local": "data/img/be16c001b3705bc73997.jpg"
-    }
-   ],
-   "locText": "32.7290406, 130.6765536",
-   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は3台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車3台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,380万円",
-     "to": "2,580万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,580万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58262",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,580万円",
-   "address": "熊本市南区富合町杉島（※地図上のピンは『富合町杉島』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58262",
-   "layout": "3SLDK",
-   "stories": "2階建て",
-   "builtAt": "2025年5月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "166.13㎡(50.25坪)",
-   "parking": "4台",
-   "elementary": "富合小学校",
-   "elementaryMin": "",
-   "junior": "富合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキエース川尻店",
-     "min": "20",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)緑川橋バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.7290406, 130.6765536",
-   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n（創業50周年記念価格）\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は4台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車4台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,380万円",
-     "to": "2,580万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,580万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58268",
-   "source": "maemura",
-   "name": "富合町杉島4号地モデル創業50周年記念価格",
-   "price": "2,580万円",
-   "address": "熊本市南区富合町杉島（※地図上のピンは『富合町杉島』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58268",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年5月",
-   "buildingArea": "92.73㎡(28.05坪)",
-   "landArea": "147.94㎡(44.75坪)",
-   "parking": "4台",
-   "elementary": "富合小学校",
-   "elementaryMin": "",
-   "junior": "富合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキエース川尻店",
-     "min": "20",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)緑川橋バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/compose_video_1780034288026-680x510.jpg",
-     "main": true,
-     "local": "data/img/d8f0360f25faea7b3d33.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/juno-202604041828-680x510.jpg",
-     "main": false,
-     "local": "data/img/1afd5250bffc15eb6f82.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/efce7d281119aa8f6c27b207027936ac-680x507.jpg",
-     "main": false,
-     "local": "data/img/e4df60e9251fe23df17d.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/60cecd3d45034596f9e1c01214958a73-680x507.jpg",
-     "main": false,
-     "local": "data/img/3b4a496023a26d9cf6f2.jpg"
-    }
-   ],
-   "locText": "32.7290406, 130.6765536",
-   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は4台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車4台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,380万円",
-     "to": "2,580万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,580万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58272",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,580万円",
-   "address": "熊本市南区富合町杉島（※地図上のピンは『富合町杉島』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-58272",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年5月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "125.12㎡(37.85坪)",
-   "parking": "3台",
-   "elementary": "富合小学校",
-   "elementaryMin": "",
-   "junior": "富合中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "川尻駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキエース川尻店",
-     "min": "20",
-     "cat": "super"
-    },
-    {
-     "name": "(産交)緑川橋バス停",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/tomi3.jpg",
-     "main": true,
-     "local": "data/img/6b16fb9407064a80bd2f.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/196576120_1794640315988194.jpg",
-     "main": false,
-     "local": "data/img/7719098d799b48ac671f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/Replacing_car_with_sunny_daytime_202608071633-680x508_20261016135819-680x508.jpg",
-     "main": false,
-     "local": "data/img/9f13833dd3b50cb6f20f.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/08/c386b58f23debc5fc5563d8b98fabf5a-680x507.jpg",
-     "main": false,
-     "local": "data/img/0ef22bd91b3148c449e8.jpg"
-    }
-   ],
-   "locText": "32.7290406, 130.6765536",
-   "hpText": "販売価格　2,580万円 → 2,380万円 （旧価格公表日：2025年5月23日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n「家賃を払い続ける」から「自分の家を持つ」へ。\n\n熊本市南区富合町で、快適さと暮らしやすさを両立した戸建てが登場！\n\nこちらの住まいは、ZEH水準の高い断熱性能を備えた省エネ住宅。\n外気の影響を受けにくく、夏も冬も快適に過ごしやすい、これからの時代に嬉しい住まいです。\n\nしかも、土地・建物・照明・網戸・リビングエアコンまでコミコミで2,300万円台から！\n\n「高性能な家は高そう…」\nそんなイメージを覆す、無理のない価格で性能にもこだわったマイホームです。\n\nさらに富合町ならではの暮らしやすさも魅力。\n\nJR富合駅が利用でき、熊本市中心部へのアクセスにも便利。\n周辺にはイワサキエース川尻店やナフコツーワンスタイル富合店など、毎日の買い物に便利なお店が揃っています。\n\n前面道路は約8.2mのゆとりある道路。\n車の出し入れやすれ違いもしやすく、毎日の運転も安心です。\n\nそして、駐車場は3台分を確保。\nご夫婦それぞれのお車はもちろん、来客時にも対応しやすいゆとりがあります。\n\nさらに嬉しいのが、2階にもトイレを設置。\n忙しい朝の時間帯も、夜間のトイレも、家族が気兼ねなく使える便利な間取りです。\n\n学校区は富合小学校・富合中学校。\n通勤・買い物・子育て、毎日の暮らしをバランスよく支えてくれる住環境です。\n\nZEH水準の性能\n× リビングエアコン付き\n× 駐車3台\n× 約8.2mの前面道路\n× 2階トイレ\n× 2,300万円台から\n\n「価格は抑えたい。でも、家の性能や暮らしやすさは妥協したくない。」\n\nそんな方に、ぜひ一度見ていただきたい住まいです。\n\n熊本市南区富合町でマイホームをご検討中の方は、ぜひお気軽にお問い合わせください♪",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,380万円",
-     "to": "2,580万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,580万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-59548",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,098万円",
-   "address": "熊本市西区小島9丁目1651番1（※地図上のピンは『小島9丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-59548",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年8月",
-   "buildingArea": "91.90㎡(27.8坪)",
-   "landArea": "112.25㎡(33.96坪)",
-   "parking": "3台",
-   "elementary": "小島小学校",
-   "elementaryMin": "",
-   "junior": "城西中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西熊本駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ゆめマート城山店",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "(産交バス)小島町営住宅前バス停 （徒歩約2分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1785037728719-680x510.jpg",
-     "main": true,
-     "local": "data/img/982e41deab1b1b6c95cd.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/5ec66c23b75ba06945ac9daa7a9519c2-680x507.jpg",
-     "main": false,
-     "local": "data/img/bb2ad8a33825dad4cdb7.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/juno-202603300605-680x510_202605021619-680x507.jpg",
-     "main": false,
-     "local": "data/img/2f22fb4a9692869d1a2e.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1785037736271-680x510.jpg",
-     "main": false,
-     "local": "data/img/f7eebe044d32f61070db.jpg"
-    }
-   ],
-   "locText": "32.7797474, 130.6275937",
-   "hpText": "販売価格　2,098万円 → 1,998万円\n（旧価格公表日：2025年8月25日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】（徒歩でコンビニ｜耐震×制震｜ZEH水準）\n\n本市西区小島9丁目に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた建売住宅です。土地・照明・網戸込みで1,900万円台からご購入いただけます。\n\n令和の豪雨災害時にも浸水被害のなかった立地で、安心して暮らせる住環境も魅力のひとつ。毎日を快適に過ごせる高性能住宅として、子育て世帯から将来を見据えた住まいをお探しの方まで幅広くおすすめです。\n\n間取りは収納力にこだわり、人気のウォークインクローゼットを2か所設置。さらに洗面室にも収納スペースを確保しているため、タオルや日用品のストックもすっきり整理でき、家事がしやすい住まいとなっています。\n\n周辺にはファミリーマート熊本小島九丁目店があり、急なお買い物にも便利。学校区は小島小学校・城西中学校区で、お子さまの通学にも安心です。\n\n熊本市西区で戸建て住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。収納の多さや住みやすい間取り、実際の広さを現地でご体感いただけます。お気軽にお問い合わせください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-10-24",
-     "from": "2,098万円",
-     "to": "1,998万円"
-    },
-    {
-     "date": "2026-11-06",
-     "from": "1,998万円",
-     "to": "2,098万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,098万円"
-    },
-    {
-     "date": "2026-10-24",
-     "price": "1,998万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,098万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-59569",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,380万円",
-   "address": "宇城市小川町北新田字松ノ本646番2（※地図上のピンは『小川町北新田』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-59569",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年6月",
-   "buildingArea": "72.45㎡(21.92坪)",
-   "landArea": "164.03㎡(49.62坪)",
-   "parking": "3台",
-   "elementary": "河江小学校",
-   "elementaryMin": "",
-   "junior": "小川中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "イオンモール宇城店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "（産交）小川工業高校前バス停",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1.jpg",
-     "main": true,
-     "local": "data/img/47990d2fc9ef6e9ef1b8.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/117f5517d4a950a6da52dbc8b19bd5a2-680x507.jpg",
-     "main": false,
-     "local": "data/img/779ee53bb52d41385bbd.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/10/1780123901504-680x510_202606031428-680x507.jpg",
-     "main": false,
-     "local": "data/img/b0ef1c33f61d99ad9316.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/05/c68c6fa41b4717c139de52847c905e9b.jpg",
-     "main": false,
-     "local": "data/img/e88048b308806c16b433.jpg"
-    }
-   ],
-   "locText": "32.6039384, 130.7023048",
-   "hpText": "販売価格　2,380万円 → 2,180万円\n（旧価格公表日：2025年6月11日　値下げ日：2026年11月5日）\n\n【期間限定値引き】\n\n宇城市小川町北新田に、飫肥杉を使用した戸建てが登場しました！\n\n土地・建物・消費税はもちろん、照明・網戸までコミコミで2,100万円台。\n「平屋に住みたいけど、価格が気になる…」という方にも、ぜひ一度ご覧いただきたい住まいです。\n\n平屋ならではの、ワンフロアで完結する暮らしやすさも魅力。\n階段の上り下りが少なく、家族みんなが自然と顔を合わせやすい、シンプルで暮らしやすい住まいです。\n\nさらに、毎日の買い物にも便利！\nイオンモール宇城店が利用しやすく、食品や日用品、衣料品などのお買い物をまとめて済ませられるのも嬉しいポイントです。\n\n学校区は河江小学校・小川中学校。\n\nそして、木のぬくもりを感じられる飫肥杉仕様。\n価格だけではなく、素材にもこだわった住まいです。\n\n「平屋に住みたい」\n「できるだけ無理のない支払いでマイホームを持ちたい」\n「買い物にも便利な場所で暮らしたい」\n\nそんな方は、ぜひ一度現地をご覧ください。\n\n2,100万円台で始める、無理のない平屋暮らし。\n\n気になる方は、お気軽にお問い合わせください♪",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,180万円",
-     "to": "2,380万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-61196",
-   "source": "maemura",
-   "name": "梶尾町4号地モデル",
-   "price": "2,380万円",
-   "address": "熊本市北区梶尾町字出口1418番2（※地図上のピンは『梶尾町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-61196",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年6月",
-   "buildingArea": "77.42㎡(23.42坪)",
-   "landArea": "191.24㎡(57.85坪)",
-   "parking": "3台",
-   "elementary": "北部東小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "三ツ石駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "スーパーキッド菊南店",
-     "min": "25",
-     "cat": "super"
-    },
-    {
-     "name": "（バス停）梶尾温泉バス停まで",
-     "min": "5",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.8718502, 130.723461",
-   "hpText": "【耐震×制震の平屋】熊本市北区梶尾町に誕生した、ZEH水準の高断熱性能と耐震×制震構造を備えた平屋建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n平屋ならではのワンフロア設計で、階段のない快適な暮らしを実現。子育て世帯はもちろん、ご夫婦二人暮らしや将来を見据えた住まいとしてもおすすめです。\n\n駐車スペースは並列3台以上確保しており、ご家族で複数台所有の方や来客時にも安心。さらに南側にはゆとりのあるお庭があり、BBQやお子さまのプール遊び、ガーデニングなど、ご家族との大切な時間を楽しめます。\n\n周辺にはスーパー・キッド北部店や鮮ど市場飛田店があり、毎日のお買い物も便利な立地。学校区は北部東小学校・北部中学校区で、お子さまの通学にも安心です。\n\n熊本市北区で新築平屋・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の住み心地や間取り、設備をご体感いただけます。お気軽にお問い合わせください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-64795",
-   "source": "maemura",
-   "name": "中原町2号地",
-   "price": "2,180万円",
-   "address": "熊本市西区中原町（※地図上のピンは『中原町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-64795",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年12月",
-   "buildingArea": "78.66㎡(23.79坪)",
-   "landArea": "185.47㎡(56.1坪)",
-   "parking": "3台以上",
-   "elementary": "中島小学校",
-   "elementaryMin": "",
-   "junior": "城西中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "ゆめマート城山店",
-     "min": "32",
-     "cat": "super"
-    },
-    {
-     "name": "（産交バス)今新開バス停",
-     "min": "4",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.7684548, 130.6359543",
-   "hpText": "熊本市西区中原町に、日当たりの良い平屋タイプの建売住宅が登場しました。\n土地・照明・網戸込みで2,100万円台と、価格と内容のバランスに優れた一棟です。\n\n本物件はハザードマップ非該当エリアに位置しており、このエリアでは希少性の高い立地条件も魅力のひとつ。将来を見据えて安心して暮らせる住環境です。\n\nお買い物はデイリーヤマザキ熊本中島店が近く、日常のちょっとした買い物にも便利。\n学校区は中島小学校・城西中学校区となっています。\n\n建売住宅でありながら、外壁は18mm仕様を採用。耐久性・重厚感にも配慮したつくりです。\n平屋ならではのワンフロア動線で、将来も暮らしやすい住まいとなっています。\n\n実際の明るさや広さ、住み心地は現地でこそ実感できます。\nぜひお気軽にお問い合わせください。\n\n#熊本新築 #熊本建売 #建売住宅 #新築一戸建て #新築マイホーム #一戸建て #マイホーム購入 #マイホーム計画 #分譲住宅 #新築戸建て #内覧会 #見学会 #物件紹介",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-64800",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,380万円",
-   "address": "熊本市西区中原町（※地図上のピンは『中原町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-64800",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年12月",
-   "buildingArea": "72.87㎡(22.04坪)",
-   "landArea": "171.42㎡(51.85坪)",
-   "parking": "3台以上",
-   "elementary": "中島小学校",
-   "elementaryMin": "",
-   "junior": "中学校：城西中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西熊本駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ゆめマート城山店",
-     "min": "32",
-     "cat": "super"
-    },
-    {
-     "name": "（産交バス)今新開バス停",
-     "min": "4",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/c055e57f47573110e9d2186aaa546c9e.jpg",
-     "main": true,
-     "local": "data/img/dbc83bf61ab435922919.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116151750.JPG_cf437b3f.jpg",
-     "main": false,
-     "local": "data/img/ef81514f78b04efbb3d3.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116167039.JPG_1aaed8fa.jpg",
-     "main": false,
-     "local": "data/img/2234d1eab172f281ed40.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116181417.JPG_74e0e68a.jpg",
-     "main": false,
-     "local": "data/img/f814493dabc1de93764d.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/compose_video_1794116191963.jpg",
-     "main": false,
-     "local": "data/img/90470d3c6dfa3ced3927.jpg"
-    }
-   ],
-   "locText": "32.7684548, 130.6359543",
-   "hpText": "【熊本市西区中原町】新築平屋建売住宅｜2,280万円・日当たり良好・ハザードマップ区域外\n\n【物件概要】\n熊本市西区中原町に、日当たり良好な新築平屋建売住宅が登場しました。土地・照明器具・網戸込みで2,200万円台というお求めやすい価格設定です。\n\n【価格・条件】\n販売価格：2,200万円台\n土地：込み\n照明器具：全室付き\n網戸：全窓付き\n構造：平屋建て\n\n【立地・周辺環境の魅力】\n生活利便性\n徒歩圏内にデイリーヤマザキ熊本中島店があり、日常のお買い物に便利な立地です。コンビニが近いため、急な買い物や夜間の利用にも対応できます。\n\n【教育環境】\n小学校：中島小学校区\n中学校：城西中学校区\n\nお子様の通学にも安心できる教育環境が整っています。\n\n【防災面での安心感（重要ポイント）】\nこのエリアはハザードマップの指定区域外となっており、熊本市西区内では希少性の高い安全な立地条件です。\n近年の豪雨災害や地震リスクを考慮すると、ハザードマップ区域外の物件は資産価値の面でも大きなメリットがあります。\n\n【建物仕様の特徴】\n・マエムラバス（マエムラ×ミラバス）マエムラブル（マエムラ×ミラブル）標準装備\n・マエムラダンパー（制震ダンパー）付き　構造材が飫肥杉なのでハイブリッドです。\n・外壁仕様\n建売住宅でありながら、外壁には厚さ18mmの仕様を採用しています。\n一般的な建売住宅（14mm程度）よりも厚い外壁材を使用することで、以下のメリットがあります。\n\n耐久性の向上：経年劣化に強い\n断熱性の向上：冷暖房効率アップ\n遮音性の向上：外部騒音の軽減\n\n【平屋のメリット】\n日当たり良好：周囲に遮るものが少なく、採光に優れています\n生活動線がスムーズ：階段の上り下りがなく、高齢になっても安心\nメンテナンスコストが抑えられる：外壁塗装などの費用が2階建てより低い\n耐震性：重心が低く、地震に強い構造\n\n【こんな方におすすめ】\n熊本市西区で新築平屋をお探しの方\n安全な立地（ハザードマップ区域外）を重視される方\n2,000万円台で土地付き新築をお求めの方\n日当たりの良い住環境をお探しの方\n将来を見据えたバリアフリー住宅をお考えの方\n\n【お問い合わせ】\n内覧のご予約、詳細資料のご請求、住宅ローンのご相談など、お気軽にお問い合わせください。\n現地のご案内も随時承っております。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-19",
-     "from": "2,280万円",
-     "to": "2,380万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,280万円"
-    },
-    {
-     "date": "2026-11-19",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-67856",
-   "source": "maemura",
-   "name": "徳王2丁目モデル2号地",
-   "price": "2,390万円",
-   "address": "熊本市北区徳王２丁目520番3（※地図上のピンは『徳王2丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-67856",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年12月",
-   "buildingArea": "89.42㎡(27.05坪)",
-   "landArea": "121.93㎡(36.88坪)",
-   "parking": "2台",
-   "elementary": "西里小学校",
-   "elementaryMin": "",
-   "junior": "京陵中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ドラッグストア・コスモス徳王店",
-     "min": "3",
-     "cat": "super"
-    },
-    {
-     "name": "（産交）五戸窪バス停 （徒歩４分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.8433798, 130.7076182",
-   "hpText": "【耐震×制震・ZEH水準】熊本市北区徳王2丁目に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた新築建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n高い断熱性能により、一年を通して快適な室内環境を実現。耐震性と制震性を兼ね備え、毎日の暮らしに安心をプラスした住まいです。\n\n周辺にはドラッグストアコスモス徳王店をはじめ、スーパーや飲食店、商業施設が充実しており、毎日のお買い物やお出かけにも便利な立地。熊本市中心部や各方面へのアクセスもしやすく、通勤・通学にもおすすめです。\n\n学校区は熊本市立西里小学校・京陵中学校区。子育て世帯にも人気の住環境で、ご家族が安心して暮らせるエリアです。\n\n熊本市北区で新築住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。間取りや設備、住み心地を実際にご体感いただけます。お気軽にお問い合わせください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,390万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-68788",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,480万円",
-   "address": "熊本市西区池田2丁目（※地図上のピンは『池田2丁目』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-68788",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年12月",
-   "buildingArea": "92.74㎡(28.05坪)",
-   "landArea": "131.14㎡(39.67坪)",
-   "parking": "2台",
-   "elementary": "池田小学校",
-   "elementaryMin": "",
-   "junior": "井芹中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "韓々坂駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/f1fb52ade467f6840dbce7689e4030cb.jpg",
-     "main": true,
-     "local": "data/img/c28807de919f77544df1.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/650674435_1782526273713008-680x507.jpg",
-     "main": false,
-     "local": "data/img/746a023bb5525a59f73c.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/f1fb52ade467f6840dbce7689e4030cb-1.jpg",
-     "main": false,
-     "local": "data/img/b7c8444622c809522583.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/4ed807132e45e8bd64438feeeedc4959.jpg",
-     "main": false,
-     "local": "data/img/e4d53ec8efaee96e9607.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/12/753005056_1781161231894873-680x507.jpg",
-     "main": false,
-     "local": "data/img/86c021b806c28e10a3f0.jpg"
-    }
-   ],
-   "locText": "32.8273862, 130.7019137",
-   "hpText": "【耐震×制震・ZEH水準】熊本市西区池田2丁目の新築建売住宅！ 地震に備える「耐震＋制震」に加え、ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,400万円台から購入可能。 高性能な新築住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,480万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-73436",
-   "source": "maemura",
-   "name": "泗水町吉富3号地モデル創業50周年記念価格",
-   "price": "2,230万円",
-   "address": "菊池市泗水町吉富255番3の一部（※地図上のピンは『泗水町吉富』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73436",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年8月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "117.54㎡(35.56坪)",
-   "parking": "2台",
-   "elementary": "泗水小学校",
-   "elementaryMin": "",
-   "junior": "泗水中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルショク泗水店",
-     "min": "28",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)富の原バス停",
-     "min": "7",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/sisui3.jpg",
-     "main": true,
-     "local": "data/img/f1f9b3e35d1a08cea94c.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/503dfcf169dca7cd1e7ca53a778b5beb.jpg",
-     "main": false,
-     "local": "data/img/9c8c0553be005d366d56.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/1eb7e459d9261dc257f4b38316e0080c.jpg",
-     "main": false,
-     "local": "data/img/6077a56cabda8c916c3f.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/166093302_1786758946544754-680x510_20261012135200-680x508.jpg",
-     "main": false,
-     "local": "data/img/688c8fe41f6db83f3460.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121427.jpg",
-     "main": false,
-     "local": "data/img/448977f75db3e1fd98a0.jpg"
-    }
-   ],
-   "locText": "32.9336695, 130.78117",
-   "hpText": "「いつかはマイホーム」を、そろそろ現実にしませんか？\n\n「毎月家賃を払っているけれど、このままでいいのかな？」\n「マイホームが欲しい。でも、住宅ローンが不安……」\n「せっかく家を買うなら、明るくて収納も充実した家に住みたい！」\n\nそんな方に、ぜひ一度ご覧いただきたい新築一戸建てが、菊池市泗水町吉富にあります！\n\n今回ご紹介するのは、2,230万円（税込）の泗水町吉富3号地モデル。\n\n注目ポイントは、東南角地ならではの開放感、幅約10ｍのゆとりある前面道路、そして毎日の暮らしを支える収納力です。\n\nさらに、耐震×制震の構造やZEH水準の住まいにも注目。\n\n「この価格で、こんな暮らしができるんだ！」\n\nそんな発見を、ぜひ現地で体感してください。\n\n1．東南角地だからこその開放感！毎日帰るのが楽しみになる住まい\n\n家を選ぶとき、建物の間取りや価格だけで決めていませんか？\n\n実は、毎日の暮らしやすさを左右するのが、土地の位置や周辺の道路環境です。\n\n泗水町吉富3号地モデルは、東南角地という立地が魅力のひとつ。\n\n角地ならではの開放感があり、日当たりや周囲との距離感を重視する方にも、ぜひ現地で確認していただきたい物件です。\n\nまた、前面道路の幅は約10ｍ。\n\n車の運転や駐車のしやすさは、実際に現地へ行くとイメージしやすいポイントです。\n\n毎日の通勤や買い物、家族のお出かけ。何気ない日常だからこそ、住まいの周辺環境にもこだわりたいですね。\n\n2．収納が充実！片付けやすい家で、リビングをもっと好きになる\n\n家族で過ごすリビングは、できるだけすっきりと、気持ちよく使いたいもの。\n\nしかし、洋服やバッグ、季節用品、日用品など、暮らし始めると物は少しずつ増えていきます。\n\nそこで注目したいのが、**ダブルウォークインクローゼット（ダブルWIC）**です。\n\n収納スペースを上手に活用できれば、居室を広く使いやすくなり、日々の片付けもスムーズになります。\n\n「朝の身支度をもっとラクにしたい」\n「家族の荷物を整理しやすくしたい」\n「できるだけ生活感を抑えた部屋にしたい」\n\nそんな希望をお持ちの方は、ぜひ収納の広さや使い勝手を現地でチェックしてみてください。\n\n写真だけでは分かりにくい収納の奥行きや動線も、実際に立ってみると具体的にイメージできます。\n\n3．2,230万円（税込）！家賃を払い続ける暮らしから、新しい選択肢へ\n\nマイホームを考えるとき、気になるのはやはり購入価格と毎月の支払いですよね。\n\nこちらの物件は、土地・建物・照明・外構込みで2,230万円（税込）。\n\n購入後に必要な費用や住宅ローンの条件も確認しながら、無理のない資金計画を考えていきましょう。\n\n掲載されている住宅ローンの試算例は、以下のとおりです。\n\n借入金額：2,230万円\n\n返済期間：40年\n\n金利：変動金利1.6％\n\nボーナス払い併用：月々37,900円＋年2回各151,100円\n\nボーナス払いなし：月々63,000円\n\n※上記は掲載条件に基づく試算例です。金利や融資条件などによって実際の返済額は異なります。ボーナス払い併用の月額だけで判断せず、年間の支払総額もご確認ください。諸費用や購入後の維持費も含めた資金計画が大切です。\n\n「今の家賃と比べたらどうだろう？」\n「自分たちの収入でも購入できるのかな？」\n\nそんな疑問も、ぜひお気軽にご相談ください。\n\nマイホーム購入は、無理をして実現するものではありません。家計に合った計画を立てながら、自分たちらしい暮らしを目指しましょう。\n\n4．耐震×制震、ZEH水準。価格だけではなく、住まいの性能にも注目！\n\n住宅選びでは、購入価格だけでなく、建物の性能にも目を向けたいところです。\n\n泗水町吉富3号地モデルは、耐震×制震の仕様とZEH水準が特徴です。\n\n地震への備えを考えたい方や、住まいの省エネルギー性能を重視する方にも、ぜひチェックしていただきたいポイントです。\n\nまた、ZEH水準は、断熱性能や一次エネルギー消費量などに関する基準を満たす住宅性能の水準です。\n\n住宅の性能は、仕様や設備によって確認すべき内容が異なります。具体的な性能や設備については、現地見学の際にスタッフへお尋ねください。\n\n毎日暮らす場所だからこそ、価格と性能のバランスにもこだわりたいですね。\n\n5．憩いの森公園まで約400ｍ！周辺環境も暮らしの大切なポイント\n\n住まいを選ぶなら、建物の中だけでなく、周辺環境も気になりますよね。\n\nこちらの物件は、憩いの森公園まで約400ｍ。近隣には交番、自動車学校、郵便局などもあります。\n\n交通面では、熊本電鉄の富の原バス停まで約550ｍ（徒歩約7分）。\n\n主な周辺施設の目安は以下のとおりです。\n\n憩いの森公園：約400ｍ\n\n富の原バス停：約550ｍ\n\nマルショク泗水店：約2,200ｍ\n\n泗水小学校：約2,400ｍ\n\n泗水中学校：約2,400ｍ\n\n休日に公園へ出かけたり、日々の買い物の動線を考えたり。家族の生活スタイルに合う環境かどうか、ぜひ現地周辺も歩いて確かめてみてください。\n\n6．写真だけでは分からない！だからこそ、一度見に来てください\n\nインターネットで物件を探していると、たくさんの住宅が見つかります。\n\n価格や間取り、写真を比較することも大切です。\n\nでも、本当に自分たちに合う家かどうかは、実際に見てみないと分からないこともあります。\n\n例えば……\n\n玄関からリビングまでの動線は使いやすい？\n\n収納は自分たちの荷物に合っている？\n\n部屋の広さや天井の高さはどう感じる？\n\n窓から入る光や室内の明るさは？\n\n車の出し入れはしやすい？\n\nこうしたポイントは、現地で確認することで、入居後の暮らしをより具体的に想像できます。\n\n「まだ購入するか決めていない」\n「ほかの物件とも比較したい」\n「住宅ローンのことから相談したい」\n\nもちろん、そのような段階でも大丈夫です。\n\n見るだけでも、マイホーム探しの大切な一歩になります。\n\n7．泗水町吉富3号地モデルの物件概要\n\n所在地：菊池市泗水町吉富255番3の一部\n\n価格：2,230万円（税込）\n\n間取り：3LDK\n\n建物面積：91.08㎡（27.55坪）\n\n構造：木造2階建\n\n完成年：2026年8月\n\n住宅性能：耐震×制震、ZEH水準\n\n主な特徴：東南角地、前面道路約10ｍ、ダブルWIC\n\n小学校区：泗水小学校\n\n中学校区：泗水中学校\n\n交通：熊本電鉄 富の原バス停 約550ｍ\n\n「いつか」を「実際に見てみよう」に変えてみませんか？\n\n東南角地の開放感、幅約10ｍの前面道路、収納力、耐震×制震、ZEH水準。\n\n泗水町吉富3号地モデルには、価格だけでは伝えきれない魅力があります。\n\nマイホームは、これからの家族の暮らしをつくる場所。\n\n休日の過ごし方、家族との時間、毎日帰る場所の心地よさ。そんな未来を想像しながら、住まいを探してみませんか？\n\n「この家、ちょっと気になる！」と思ったら、まずは現地でご覧ください。\n\n写真では伝わらない広さや開放感、収納の使い勝手を、ぜひご自身の目で確かめてみてください。\n\n株式会社マエムラでは、物件のご見学や住宅ローンのご相談も承っております。\n\n泗水町で新築一戸建てをお探しの方は、お気軽にお問い合わせください！",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-73459",
-   "source": "maemura",
-   "name": "泗水町吉富4号地モデル",
-   "price": "2,230万円",
-   "address": "菊池市泗水町吉富255番3の一部（※地図上のピンは『泗水町吉富』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73459",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年8月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "116.28㎡(35.17坪)",
-   "parking": "2台",
-   "elementary": "泗水小学校",
-   "elementaryMin": "",
-   "junior": "泗水中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルショク泗水店",
-     "min": "28",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)富の原バス停",
-     "min": "7",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/file_000000004054820b8328a407375b7f6e.jpg",
-     "main": true,
-     "local": "data/img/21049cd3654ac24b5022.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/1000021411.jpg",
-     "main": false,
-     "local": "data/img/58da812bd54ad2ef2c6c.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121424.jpg",
-     "main": false,
-     "local": "data/img/12b2384053c276b7d7d9.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/juno-202610121427-1.jpg",
-     "main": false,
-     "local": "data/img/2f9d9eb2044b0d867731.jpg"
-    }
-   ],
-   "locText": "32.9336695, 130.78117",
-   "hpText": "【耐震×制震・ZEH水準・ダブルWIC】\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n実際の雰囲気は実物を見た方がわかりやすいです。是非お気軽にお問合せ下さい！",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-73466",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,380万円",
-   "address": "菊池市泗水町吉富255番3の一部（※地図上のピンは『泗水町吉富』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-73466",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年8月",
-   "buildingArea": "93.15㎡(28.18坪)",
-   "landArea": "190.80㎡(57.72坪)",
-   "parking": "3台",
-   "elementary": "泗水小学校",
-   "elementaryMin": "",
-   "junior": "泗水中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルショク泗水店",
-     "min": "28",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)富の原バス停",
-     "min": "7",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/sisui7.jpg",
-     "main": true,
-     "local": "data/img/9076ad0ab7e6b8f3603e.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/e5c84380eea4a87fb8905acc9f29cab9.jpg",
-     "main": false,
-     "local": "data/img/8732a29300bec2d92646.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/compose_video_1786758633022-680x510_20261012135031-680x508.jpg",
-     "main": false,
-     "local": "data/img/e9acd7d6e3a7296dae9f.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
-     "main": false,
-     "local": "data/img/d389be7ce014907d302d.jpg"
-    }
-   ],
-   "locText": "32.9336695, 130.78117",
-   "hpText": "【耐震×制震・ZEH水準・ダブルWIC・畳コーナー】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n駐車台数にゆとりがあるのもポイントです。\n\n百聞は一見に如かず、是非現地で体感されて下さい！",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-19",
-     "from": "2,280万円",
-     "to": "2,380万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,280万円"
-    },
-    {
-     "date": "2026-11-19",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-75436",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,330万円",
-   "address": "菊池市泗水町吉富255番3の一部（※地図上のピンは『泗水町吉富』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-75436",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "91.08㎡(27.55坪)",
-   "landArea": "121.60㎡(36.78坪)",
-   "parking": "2台",
-   "elementary": "泗水小学校",
-   "elementaryMin": "",
-   "junior": "泗水中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルショク泗水店",
-     "min": "28",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)富の原バス停",
-     "min": "7",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021412.jpg",
-     "main": true,
-     "local": "data/img/9c976656e41e221728a2.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021413.jpg",
-     "main": false,
-     "local": "data/img/5144da87197d233f2b31.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
-     "main": false,
-     "local": "data/img/d389be7ce014907d302d.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/4f18365d747314562d63598d5306f8d5.jpg",
-     "main": false,
-     "local": "data/img/60a625d466629ea5b318.jpg"
-    }
-   ],
-   "locText": "32.9336695, 130.78117",
-   "hpText": "【耐震×制震・ZEH水準・ダブルWIC】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪ \n\n百聞は一見に如かず、是非現地で体感されて下さい！",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-19",
-     "from": "2,230万円",
-     "to": "2,330万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    },
-    {
-     "date": "2026-11-19",
-     "price": "2,330万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-75438",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,380万円",
-   "address": "菊池市泗水町吉富255番3の一部（※地図上のピンは『泗水町吉富』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-75438",
-   "layout": "3SLDK",
-   "stories": "2階建て",
-   "builtAt": "2026年11月",
-   "buildingArea": "94.38㎡(28.55坪)",
-   "landArea": "163.57㎡(49.48坪)",
-   "parking": "3台",
-   "elementary": "泗水小学校",
-   "elementaryMin": "",
-   "junior": "泗水中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルショク泗水店",
-     "min": "28",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)富の原バス停",
-     "min": "7",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/1000021414.jpg",
-     "main": true,
-     "local": "data/img/45a7ab011b327870b13b.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/10/d933fac9aca45c8810d479ba9b915b26-680x510_202606301452-680x508.jpg",
-     "main": false,
-     "local": "data/img/d389be7ce014907d302d.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/f43d82ced89326fdffba10bbbf7cdb91.jpg",
-     "main": false,
-     "local": "data/img/02d273ebaf4bc1b3e433.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/10/fa2fce9914a547d3b03372a22e7e1232-680x507.jpg",
-     "main": false,
-     "local": "data/img/0237b208874ea04458ff.jpg"
-    }
-   ],
-   "locText": "32.9336695, 130.78117",
-   "hpText": "【耐震×制震・ZEH水準・3SLDK】\n\n泗水町吉富の新築建売住宅です！\n\n土地、照明、網戸込みで2,200万円台で購入可能♪\n\n憩いの森公園まで徒歩約400m、大型ショッピングセンターも予定されています！ますます生活に便利なエリアになります。\n\n学校区は泗水小学校、泗水中学校区です。\n\n前面道路が幅約10ｍあるので運転が苦手な方でも安心♪\n\n 百聞は一見に如かず、是非現地で体感されて下さい！",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-11-19",
-     "from": "2,280万円",
-     "to": "2,380万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,280万円"
-    },
-    {
-     "date": "2026-11-19",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-75712",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,098万円",
-   "address": "熊本市北区四方寄町（※地図上のピンは『四方寄町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75712",
-   "layout": "1LDK",
-   "stories": "",
-   "builtAt": "2026年11月",
-   "buildingArea": "86.95㎡(26.3坪)",
-   "landArea": "156.68㎡(47.4坪)",
-   "parking": "4台以上",
-   "elementary": "西里小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/02/74f42ff71d98d5fa8a51b332141fe949.jpg",
-     "main": true,
-     "local": "data/img/797785dc4e2a7ce8c655.jpg"
-    }
-   ],
-   "locText": "32.8617206, 130.7133221",
-   "hpText": "（創業50周年記念特別住宅｜19畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,000万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [
-    {
-     "date": "2026-08-15",
-     "from": "850万円",
-     "to": "1,980万円"
-    },
-    {
-     "date": "2026-09-23",
-     "from": "1,980万円",
-     "to": "2,198万円"
-    },
-    {
-     "date": "2026-11-19",
-     "from": "2,198万円",
-     "to": "2,098万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "850万円"
-    },
-    {
-     "date": "2026-08-15",
-     "price": "1,980万円"
-    },
-    {
-     "date": "2026-09-23",
-     "price": "2,198万円"
-    },
-    {
-     "date": "2026-11-19",
-     "price": "2,098万円"
-    }
-   ],
-   "relistedAt": "2026-08-15",
-   "relistHistory": [
-    {
-     "endedAt": "2026-07-27",
-     "relistedAt": "2026-08-15",
-     "lastSeen": "2026-07-26"
-    }
-   ]
-  },
-  {
-   "id": "maemura-79617",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,298万円",
-   "address": "熊本市北区四方寄町（※地図上のピンは『四方寄町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-79617",
-   "layout": "1LDK",
-   "stories": "",
-   "builtAt": "2026年11月",
-   "buildingArea": "85.30㎡(25.8坪)",
-   "landArea": "166.25㎡(50.29坪)",
-   "parking": "4台以上",
-   "elementary": "川上小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo44.jpg",
-     "main": true,
-     "local": "data/img/42cec10de011c4808837.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo444.jpg",
-     "main": false,
-     "local": "data/img/c447aa13ba0620ad89a1.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/a75b8c4dec50801d6e484ecc61bd14a3-680x510.jpg",
-     "main": false,
-     "local": "data/img/749cce39bfda6b792c9a.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/21e871e646b90d24360c3433168da159.jpg",
-     "main": false,
-     "local": "data/img/48008386a081ef0271a4.jpg"
-    }
-   ],
-   "locText": "32.8617206, 130.7133221",
-   "hpText": "（創業50周年記念特別住宅｜19畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,200万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-31",
-     "price": "2,298万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-79619",
-   "source": "maemura",
-   "name": "創業50周年記念価格",
-   "price": "2,198万円",
-   "address": "熊本市北区四方寄町（※地図上のピンは『四方寄町』の中心地点を示しており、実際の物件位置とは異なります。詳細な所在地はお問い合わせください。）",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-79619",
-   "layout": "1LDK",
-   "stories": "",
-   "builtAt": "2026年11月",
-   "buildingArea": "85.30㎡(25.8坪)",
-   "landArea": "195.80㎡(59.23坪)",
-   "parking": "4台以上",
-   "elementary": "川上小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/yomo11.jpg",
-     "main": true,
-     "local": "data/img/38fb314fd5adb577af8a.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/08/e1920f5851e91285f4c07fd4c58d052e-680x510.jpg",
-     "main": false,
-     "local": "data/img/7d4e6089ce11e24417ae.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2026/01/f43d82ced89326fdffba10bbbf7cdb91.jpg",
-     "main": false,
-     "local": "data/img/02d273ebaf4bc1b3e433.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2023/10/fa2fce9914a547d3b03372a22e7e1232-680x507.jpg",
-     "main": false,
-     "local": "data/img/0237b208874ea04458ff.jpg"
-    }
-   ],
-   "locText": "32.8617206, 130.7133221",
-   "hpText": "（創業50周年記念特別住宅｜18畳LDK＆15畳ロフト）【ZEH水準｜駐車4台以上｜畳コーナー】\n■熊本市北区四方寄町の新築建売住宅！このエリアで一戸建てをお探しの方にオススメ！ \n■ZEH水準の高い断熱性能を備え、一年を通して快適で省エネな暮らしを叶える住まいです。\n■土地・建物に加え、照明・網戸付きで2,000万円台から購入可能。 初期費用を抑えながら、高性能な住宅をご検討いただけます。\n■国道3号線に近く、周辺にはマルエイ熊本北部店さんやセブンイレブン熊本四方寄町店さんがあり、毎日のお買い物も便利。\n■学校区は熊本市立川上小学校・北部中学校区で、子育て世帯にもおすすめの住環境です。 \n■交通量の少ない静かな住宅地なので、 小さなお子様がいるご家庭にも安心できる環境です。\n■駐車スペースは4台以上確保しており、ゆとりをもって駐車できます。  \n■マエムラが自信を持って贈る四方寄町モデル、是非お気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "active",
-   "endedAt": "",
-   "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-11-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-31",
-     "price": "2,198万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-50282",
-   "source": "maemura",
-   "name": "花園7丁目1号地モデル創業50周年記念価格",
-   "price": "2,280万円",
-   "address": "熊本市西区花園7丁目1421番1",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-50282",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2024年3月",
-   "buildingArea": "84.44㎡(25.54坪)",
-   "landArea": "126.50㎡(38.27坪)",
-   "parking": "3台",
-   "elementary": "花園小学校",
-   "elementaryMin": "",
-   "junior": "井芹中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "崇城大学前駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキACE上熊本店",
-     "min": "26",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本都市バス)宮尾バス停",
-     "min": "1",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.825171172254095, 130.68998293730772",
-   "hpText": "販売価格　2,280万円 → 2,080万円\n（旧価格公表日：2024年3月31日　値下げ日：2026年11月5日）\n\n【創業50周年記念価格】\n\n熊本市西区花園7丁目で建売住宅をお探しの方へ。 飫肥杉を使用した、木のぬくもりを感じられる土地付き一戸建てです。\n\n土地・建物に加え、照明・網戸までコミコミで2,000万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はイワサキACE上熊本店が利用しやすく、生活利便性の高い住環境。学校区は熊本市立花園小学校・井芹中学校区で、子育て世帯にもおすすめの立地です。\n\n本物件は高台に位置しているため、水害リスクが気になる方にもご検討いただきやすい住環境です。さらに、飫肥杉ならではのやさしい風合いと心地よい住空間も魅力のひとつです。\n\n建売住宅は、実際の間取りや日当たり、広さ、生活動線をその場で確認できるのが大きなメリット。家具の配置や新生活のイメージもしやすく、住んだ後の暮らしを具体的に想像できます。\n\n熊本市西区花園7丁目で建売住宅をお探しなら、ぜひ現地で住み心地をご体感ください。写真では伝わらない魅力を、実際の建物でお確かめいただけます。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-11-14",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-13",
-   "priceChanges": [
-    {
-     "date": "2026-11-06",
-     "from": "2,080万円",
-     "to": "2,280万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,080万円"
-    },
-    {
-     "date": "2026-11-06",
-     "price": "2,280万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-63639",
-   "source": "maemura",
-   "name": "城南町下宮地モデル",
-   "price": "2,298万円",
-   "address": "熊本市南区城南町下宮地272-11",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-63639",
-   "layout": "3LDK",
-   "stories": "",
-   "builtAt": "2025年8月",
-   "buildingArea": "78.66㎡(23.79坪)",
-   "landArea": "202.33㎡(61.2坪)",
-   "parking": "4台",
-   "elementary": "隈庄小学校",
-   "elementaryMin": "",
-   "junior": "下益城城南中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "富合駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "スパーーストアダイノブ城南店",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "熊本バス 舞原入口バス停まで",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.70228516122041, 130.7368652421668",
-   "hpText": "【耐震×制震・ZEH水準】熊本市南区城南町下宮地のZEH水準の断熱性能を誇る平屋です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はアタックス城南店、ダイノブ城南店、よかもんね城南店さんがあるので便利です！学校区は熊本市立隈庄小学校、下益城城南中学校区です。近隣に商業施設がたくさんある利便性の良い場所です。お庭もついているモデルで開放感があるのもポイント！生活しやすいなかなか出ない環境です！",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-11-14",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-13",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,298万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-61202",
-   "source": "maemura",
-   "name": "梶尾町1号地モデル",
-   "price": "2,380万円",
-   "address": "熊本市北区梶尾町字出口1418番2",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-61202",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年6月",
-   "buildingArea": "78.25㎡(23.67坪)",
-   "landArea": "185.43㎡(56.09坪)",
-   "parking": "3台",
-   "elementary": "北部東小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "黒石駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "スーパーキッド菊南店",
-     "min": "25",
-     "cat": "super"
-    },
-    {
-     "name": "（バス停）梶尾温泉バス停まで",
-     "min": "5",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.87664392555924, 130.72717317727663",
-   "hpText": "【耐震×制震の平屋】熊本市北区梶尾町に誕生した、ZEH水準の高断熱性能と耐震×制震構造を備えた平屋建売住宅です。土地・照明・網戸込みで2,300万円台からご購入いただけます。\n\n平屋ならではのワンフロア設計で、階段のない快適な暮らしを実現。子育て世帯はもちろん、ご夫婦二人暮らしや将来を見据えた住まいとしてもおすすめです。\n\n駐車スペースは並列3台以上確保しており、ご家族で複数台所有の方や来客時にも安心。さらに南側にはゆとりのあるお庭があり、BBQやお子さまのプール遊び、ガーデニングなど、ご家族との大切な時間を楽しめます。\n\n周辺にはスーパー・キッド北部店や鮮ど市場飛田店があり、毎日のお買い物も便利な立地。学校区は北部東小学校・北部中学校区で、お子さまの通学にも安心です。\n\n熊本市北区で新築平屋・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の住み心地や間取り、設備をご体感いただけます。お気軽にお問い合わせください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-11-02",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-11-01",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-79631",
-   "source": "maemura",
-   "name": "菊池市隈府2号地モデル",
-   "price": "2,280万円",
-   "address": "菊池市隈府字堀ノ内724番3",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-79631",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年9月",
-   "buildingArea": "94.38㎡(28.55坪)",
-   "landArea": "146.34㎡(44.27坪)",
-   "parking": "4台",
-   "elementary": "隈府小学校",
-   "elementaryMin": "",
-   "junior": "菊池南中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ショッピングプラザ夢空間店",
-     "min": "7",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)大琳寺バス停",
-     "min": "3",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.97604737753627, 130.80159683117947",
-   "hpText": "【耐震×制震・ZEH水準】菊池市隈府の新築住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はサニー菊池店さん、ホームセンターグッデイ菊池店さん、ロッキースーパーストア菊池店さんがあるので便利です！学校区は菊池市立隈府小学校、菊池南中学校区で、隈府小学校まで1,100ｍ、バス停まで200ｍと通学や通勤に便利な立地です。スーパーまで約500ｍと近いので、お買い物に便利！最終１棟です。今後この価格でこの広さは出るでしょうか。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-11-02",
-   "createdAt": "2026-08-30T23:20:50.591Z",
-   "lastSeen": "2026-11-01",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-08-31",
-     "price": "2,280万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-59647",
-   "source": "maemura",
-   "name": "菊池市西寺2号地モデル",
-   "price": "2,230万円",
-   "address": "菊池市西寺字西寺屋敷2048番3",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-59647",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年6月",
-   "buildingArea": "94.38㎡(28.55坪)",
-   "landArea": "163.37㎡(49.42坪)",
-   "parking": "3台",
-   "elementary": "菊之池小学校",
-   "elementaryMin": "",
-   "junior": "菊池南中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ホームセンターグッデイ菊池店",
-     "min": "7",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)西野間口バス停",
-     "min": "19",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.9706353, 130.7876898",
-   "hpText": "【耐震×制震・ZEH水準】\n菊池市西寺のZEH水準の断熱性能を誇る住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はグッデイ菊池店さん、セブンイレブンさんがあるので便利です！学校区は菊之池小学校、菊池南中学校区です。駐車4台以上可能です。菊之池小学校まで1,100ｍ、バス停まで350ｍと通学や通勤に便利な立地です。買い物施設・バス停も徒歩圏内の利便性の良い住環境です。\n庭先も広いので物置を置いたり、サンルームを施工したりと自由に出来るのも嬉しいポイントです♪\n最終1棟です、お見逃しなくお問い合わせください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-31",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-25",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-68075",
-   "source": "maemura",
-   "name": "小川町川尻1号地モデル",
-   "price": "2,380万円",
-   "address": "宇城市小川町川尻字川添734番1",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-68075",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年9月",
-   "buildingArea": "76.18㎡(23.04坪)",
-   "landArea": "201.79㎡(61.04坪)",
-   "parking": "3台",
-   "elementary": "河江小学校",
-   "elementaryMin": "",
-   "junior": "小川中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "イオンモール宇城店",
-     "min": "23",
-     "cat": "super"
-    },
-    {
-     "name": "（JR鹿児島本線）小川駅",
-     "min": "9",
-     "cat": "station"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.60084266409842, 130.69049175883478",
-   "hpText": "【耐震×制震・ZEH水準】宇城市小川町川尻に飫肥杉で造られた平屋の建売住宅です！土地、建物、消費税、照明、網戸込みで2,300万円台で購入可能♪お買い物はイオンモール宇城店さんがあるので便利です！学校区は河江小学校、小川中学校区です。\n車をたくさん停めるもよし、倉庫を置くもよし、ガレージ造ってもよしの自由さが魅力です♪",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-31",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-10-25",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-43990",
-   "source": "maemura",
-   "name": "宇土市境目町2号地モデル",
-   "price": "1,780万円",
-   "address": "宇土市境目町字居屋敷902番4",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-43990",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2023年3月",
-   "buildingArea": "85.29㎡(25.8坪)",
-   "landArea": "123.34㎡(37.31坪)",
-   "parking": "3台",
-   "elementary": "花園小学校",
-   "elementaryMin": "",
-   "junior": "鶴城中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "宇土駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "スーパーセンタートライアル宇土店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "（ミニバス）宝林寺前バス停",
-     "min": "9",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/06/8b15688594748a78bc796cb62ce94cbd.jpg",
-     "main": false,
-     "local": "data/img/3bbc823990d48c8716f0.jpg"
-    }
-   ],
-   "locText": "32.67514900505879, 130.6767830195974",
-   "hpText": "（脱家賃応援フェア！限定割引実施中！）\n\n宇土市境目町で建売住宅・一戸建てをお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりを感じられる住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで1,700万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はスーパーセンタートライアル宇土店が近く、食料品や日用品の買い出しにも便利な立地。学校区は宇土市立花園小学校・鶴城中学校区です。\n\n花園小学校まで近く、お子様の通学時間が短く安心。 通学時の負担が少ないため、子育て世帯にも嬉しい住環境です。また、周辺は落ち着いた住宅地で、家族みんなが快適に暮らせます。\n\n宇土市で建売住宅・一戸建てをお探しなら、飫肥杉を使用したあたたかみのある住まいをぜひ現地でご体感ください。創業祭限定の特別価格でご案内中です。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-01",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-09-30",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "1,780万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-43993",
-   "source": "maemura",
-   "name": "宇土市境目町3号地モデル",
-   "price": "1,680万円",
-   "address": "宇土市境目町字居屋敷901番1、902番5",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-43993",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2023年8月",
-   "buildingArea": "84.44㎡(25.54坪)",
-   "landArea": "115.08㎡(34.81坪)",
-   "parking": "3台",
-   "elementary": "花園小学校",
-   "elementaryMin": "",
-   "junior": "鶴城中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "宇土駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "スーパーセンタートライアル宇土店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "（ミニバス）宝林寺前バス停",
-     "min": "9",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.67514900505879, 130.6767830195974",
-   "hpText": "（脱家賃応援フェア！限定割引実施中！）\n\n宇土市境目町で建売住宅・一戸建てをお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりを感じられる住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで1,600万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はスーパーセンタートライアル宇土店が近く、食料品や日用品の買い出しにも便利な立地。学校区は宇土市立花園小学校・鶴城中学校区です。\n\n花園小学校まで近く、お子様の通学時間が短く安心。 通学時の負担が少ないため、子育て世帯にも嬉しい住環境です。また、周辺は落ち着いた住宅地で、家族みんなが快適に暮らせます。\n\n宇土市で建売住宅・一戸建てをお探しなら、飫肥杉を使用したあたたかみのある住まいをぜひ現地でご体感ください。創業祭限定の特別価格でご案内中です。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-01",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-09-30",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "1,680万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58924",
-   "source": "maemura",
-   "name": "宇土市宮庄町4号地モデル",
-   "price": "2,180万円",
-   "address": "宇土市宮庄町字池田79番1",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-58924",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年12月",
-   "buildingArea": "73.90㎡(22.35坪)",
-   "landArea": "200.77㎡(60.73坪)",
-   "parking": "3台",
-   "elementary": "宇土小学校",
-   "elementaryMin": "",
-   "junior": "鶴城中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "緑川駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ダイレックス宇土店",
-     "min": "27",
-     "cat": "super"
-    },
-    {
-     "name": "（ミニバス）椿原区公民館前バス停",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.68039018561933, 130.6413644495557",
-   "hpText": "【耐震×制震・ZEH水準】宇土市宮庄町で新築建売住宅をお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりと高い住宅性能を兼ね備えた住まいです。\n\n耐震性能に加え、制震システムを採用。さらにZEH水準の高い断熱性能を備え、地震への備えと省エネ・快適な暮らしを実現します。\n\n土地・建物に加え、照明・網戸までコミコミで2,100万円台から購入可能。 初期費用を抑えながら、高性能な新築住宅をご検討いただけます。\n\n毎日のお買い物はダイレックス宇土店が近く、食料品や日用品のお買い物にも便利な住環境です。学校区は宇土市立宇土小学校・鶴城中学校区。宇土小学校まで近く、お子様の通学時間が短いため、子育て世帯にも安心の立地です。\n\n木のぬくもりを感じられる飫肥杉の住まいと、高性能住宅ならではの快適性をぜひ現地でご体感ください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-10-01",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-09-30",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-64302",
-   "source": "maemura",
-   "name": "八分字町2号地モデル",
-   "price": "2,480万円",
-   "address": "熊本市南区八分字町2549番3",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/south/post-64302",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年9月",
-   "buildingArea": "90.25㎡(27.3坪)",
-   "landArea": "122.92㎡(37.18坪)",
-   "parking": "4台",
-   "elementary": "飽田東小学校",
-   "elementaryMin": "",
-   "junior": "飽田中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西熊本駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イオンタウン西熊本店 （徒歩約35分）",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "(産交バス)八分字バス停 （徒歩約4分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/fd665f0edd891bcc48214d00679ee2ec-1-680x510.jpg",
-     "main": true,
-     "local": "data/img/6b9bb1ac8c0f422fe8d0.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/d106fc1e21925b43235a7b414a7c82a6-680x507.jpg",
-     "main": false,
-     "local": "data/img/fdb274bdc35ddb71d33f.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/1779073813224-680x510.jpg",
-     "main": false,
-     "local": "data/img/47c7937067bb04509d30.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/04/acfd83edc5c56fef8853858241ed59b9-680x507.jpg",
-     "main": false,
-     "local": "data/img/557bbcb820c0fd95d845.jpg"
-    }
-   ],
-   "locText": "32.76090747595677, 130.6596906880829",
-   "hpText": "【耐震×制震・ZEH水準】熊本市南区八分字町に誕生した、耐震×制震構造とZEH水準の高断熱性能を備えた新築建売住宅です。土地・照明・網戸込みで2,400万円台からご購入いただけます。\n\n高い断熱性能と安心の耐震・制震構造により、一年を通して快適に暮らせる住まい。収納スペースも豊富に確保しており、衣類や日用品、お子さまの荷物などもすっきり整理できる、家事動線にも配慮した間取りです。\n\n周辺にはイオンタウン西熊本をはじめ、コンビニエンスストアや飲食店、ドラッグストアなどの商業施設が充実しており、毎日のお買い物にも便利な住環境です。\n\nまた、飽田東保育園まで約200m、飽田東小学校まで約500mと、お子さまの送り迎えや通学の負担が少ない立地も魅力。学校区は飽田東小学校・飽田中学校区で、子育て世帯にもおすすめです。\n\n熊本市南区で新築住宅・建売住宅をお探しの方、ZEH水準住宅や高断熱住宅、耐震住宅をご検討中の方は、ぜひ一度現地をご見学ください。実際の間取りや収納の多さ、住み心地をご体感いただけます。\n\n残り1棟となっております。人気エリアのため、ご検討中の方はお早めにお問い合わせください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-09-14",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-09-13",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,480万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-57061",
-   "source": "maemura",
-   "name": "池田2丁目4号地モデル",
-   "price": "2,280万円",
-   "address": "熊本市西区池田2丁目54-28",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-57061",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年1月",
-   "buildingArea": "89.42㎡(27.05坪)",
-   "landArea": "134.23㎡(40.6坪)",
-   "parking": "2台",
-   "elementary": "池田小学校",
-   "elementaryMin": "",
-   "junior": "井芹中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "池田駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "メガセンタートライアル上熊本店 （徒歩約12分）",
-     "min": "",
-     "cat": "super"
-    },
-    {
-     "name": "(都市バス)富尾団地バス停 （徒歩約5分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/03/c4e0e3a2f9911e9e2fedc89aaaa27ead-680x510.jpg",
-     "main": true,
-     "local": "data/img/76ba1dc53c9146706ea3.jpg"
-    }
-   ],
-   "locText": "32.8296446835851, 130.7027400322985",
-   "hpText": "【ZEH水準】熊本市西区池田2丁目の建売住宅！ ZEH水準の高い断熱性能を備えた、省エネで快適な暮らしを実現する住まいです。\n\n土地・建物に加え、照明・網戸までコミコミで2,200万円台から購入可能。 高性能な住宅をお求めやすい価格でご案内しています。\n\n周辺にはメガセンタートライアル上熊本店やマックスバリュ熊本北店があり、毎日のお買い物も便利。さらに、幹線道路や公共交通機関へのアクセスも良く、通勤・通学にも便利な住環境です。\n\n学校区は熊本市立池田小学校・井芹中学校区。子育て世帯にも人気のエリアで、ご家族が安心して暮らせる環境が整っています。\n\nまた、本物件は高台に位置しており、水害リスクが気になる方にもご検討いただきやすい立地です。性能・立地・暮らしやすさを兼ね備えた住まいを、ぜひ現地でご体感ください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-31",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-30",
-   "priceChanges": [
-    {
-     "date": "2026-07-26",
-     "from": "2,180万円",
-     "to": "2,280万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    },
-    {
-     "date": "2026-07-26",
-     "price": "2,280万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-64689",
-   "source": "maemura",
-   "name": "菊池市隈府2号地モデル",
-   "price": "2,280万円",
-   "address": "菊池市隈府字堀ノ内724番3",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/yamaga/kikuci/post-64689",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2025年9月",
-   "buildingArea": "94.38㎡(28.55坪)",
-   "landArea": "146.34㎡(44.27坪)",
-   "parking": "4台",
-   "elementary": "隈府小学校",
-   "elementaryMin": "",
-   "junior": "菊池南中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "御代志駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ショッピングプラザ夢空間店",
-     "min": "7",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本電鉄)大琳寺バス停",
-     "min": "3",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_4590.jpg",
-     "main": true,
-     "local": "data/img/c3e91d93262b2284da22.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/Two_cars_pool_barbecue_202605041620-680x507.jpg",
-     "main": false,
-     "local": "data/img/8f9195c9c327d48a043e.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/93aba7503805147ed93edabdbfcbedf8-680x508.jpg",
-     "main": false,
-     "local": "data/img/50b836a9bc35806145d5.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_2220_202604242031-680x507.jpg",
-     "main": false,
-     "local": "data/img/9a0929e524a0ac1cdbb0.jpg"
-    },
-    {
-     "id": "p5",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2025/06/IMG_20260220_154622.jpg",
-     "main": false,
-     "local": "data/img/c8d02278673a2735c34f.jpg"
-    }
-   ],
-   "locText": "32.97604737753627, 130.80159683117947",
-   "hpText": "【耐震×制震・ZEH水準】菊池市隈府の新築住宅です！土地、照明、網戸込みで2,200万円台で購入可能♪お買い物はサニー菊池店さん、ホームセンターグッデイ菊池店さん、ロッキースーパーストア菊池店さんがあるので便利です！学校区は菊池市立隈府小学校、菊池南中学校区で、隈府小学校まで1,100ｍ、バス停まで200ｍと通学や通勤に便利な立地です。スーパーまで約500ｍと近いので、お買い物に便利！最終１棟です。今後この価格でこの広さは出るでしょうか。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-31",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-30",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,280万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-58794",
-   "source": "maemura",
-   "name": "宇土市宮庄町1号地モデル",
-   "price": "2,180万円",
-   "address": "宇土市宮庄町字池田79番7",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uto-uto/post-58794",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年12月",
-   "buildingArea": "75.35㎡(22.79坪)",
-   "landArea": "170.37㎡(51.54坪)",
-   "parking": "3台",
-   "elementary": "宇土小学校",
-   "elementaryMin": "",
-   "junior": "鶴城中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "緑川駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ダイレックス宇土店",
-     "min": "27",
-     "cat": "super"
-    },
-    {
-     "name": "（ミニバス）椿原区公民館前バス停",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [
-    {
-     "id": "p1",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/juno-202604071723-680x507.jpg",
-     "main": true,
-     "local": "data/img/06f0fc54cba65c4f04aa.jpg"
-    },
-    {
-     "id": "p2",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/IMG_20260403_172406-680x510.jpg",
-     "main": false,
-     "local": "data/img/a6e4fb38737af5cdf5d3.jpg"
-    },
-    {
-     "id": "p3",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/IMG_20260301_122540.jpg",
-     "main": false,
-     "local": "data/img/cef925652bdd590e9312.jpg"
-    },
-    {
-     "id": "p4",
-     "url": "https://maemura-shinchiku.jp/kumamoto/wp-content/uploads/sites/4/2024/09/76e813402ab0f2ec48954ea00826424f-680x507.jpg",
-     "main": false,
-     "local": "data/img/f7131ae0df97c95f4465.jpg"
-    }
-   ],
-   "locText": "32.68039018561933, 130.6413644495557",
-   "hpText": "【耐震×制震・ZEH水準】宇土市宮庄町で新築建売住宅をお探しの方におすすめ！ 飫肥杉を使用した、木のぬくもりと高い住宅性能を兼ね備えた住まいです。\n\n耐震性能に加え、制震システムを採用。さらにZEH水準の高い断熱性能を備え、地震への備えと省エネ・快適な暮らしを実現します。\n\n土地・建物に加え、照明・網戸までコミコミで2,100万円台から購入可能。 初期費用を抑えながら、高性能な新築住宅をご検討いただけます。\n\n毎日のお買い物はダイレックス宇土店が近く、食料品や日用品のお買い物にも便利な住環境です。学校区は宇土市立宇土小学校・鶴城中学校区。宇土小学校まで近く、お子様の通学時間が短いため、子育て世帯にも安心の立地です。\n\n木のぬくもりを感じられる飫肥杉の住まいと、高性能住宅ならではの快適性をぜひ現地でご体感ください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-23",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-22",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-52062",
-   "source": "maemura",
-   "name": "長嶺東9丁目4号地モデル",
-   "price": "2,480万円",
-   "address": "熊本市東区長嶺東9丁目170番の一部",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/east/post-52062",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2024年9月",
-   "buildingArea": "86.10㎡(26.05坪)",
-   "landArea": "142.49㎡(43.1坪)",
-   "parking": "2台",
-   "elementary": "託麻北小学校",
-   "elementaryMin": "",
-   "junior": "東部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "武蔵塚駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ミスターマックス熊本インター店まで",
-     "min": "13",
-     "cat": "super"
-    },
-    {
-     "name": "(産交バス)中山バス停まで",
-     "min": "12",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.83499631033372, 130.7837913017466",
-   "hpText": "熊本市東区長嶺東9丁目の飫肥杉で造られた建売住宅です！土地、照明、網戸込みで2,400万円台で購入可能♪お買い物はミスターマックス熊本インター店さんがあるので便利です！熊本インターに近いのも◎！学校区は熊本市立託麻北小学校、東部中学校区です。南が段下がり（認定擁壁！）で建物がないのでリビングからの眺めの良さは必見です♪日中カーテン全開でもプライバシー保てる家ってなかなか無いと思います。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-05",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-04",
-   "priceChanges": [
-    {
-     "date": "2026-07-27",
-     "from": "2,298万円",
-     "to": "2,480万円"
-    }
-   ],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,298万円"
-    },
-    {
-     "date": "2026-07-27",
-     "price": "2,480万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-59574",
-   "source": "maemura",
-   "name": "小川町北新田2号地モデル",
-   "price": "2,180万円",
-   "address": "宇城市小川町北新田字松ノ本646番1",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/uto/uki/post-59574",
-   "layout": "3LDK",
-   "stories": "平屋",
-   "builtAt": "2025年6月",
-   "buildingArea": "72.45㎡(21.92坪)",
-   "landArea": "169.47㎡(51.26坪)",
-   "parking": "3台",
-   "elementary": "河江小学校",
-   "elementaryMin": "",
-   "junior": "小川中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "小川駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イオンモール宇城店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "（産交）小川工業高校前バス停",
-     "min": "6",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.602216497757716, 130.69853838587946",
-   "hpText": "宇城市小川町北新田に飫肥杉使用の平屋建て建売住宅登場です！土地、建物、消費税、照明、網戸込みで2,100万円台で購入可能♪お買い物はイオンモール宇城店さんがあるので便利です！学校区は河江小学校、小川中学校区です。\n気になる方はぜひ一度ご連絡ください♪",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-02",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-08-01",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,180万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-50073",
-   "source": "maemura",
-   "name": "花園7丁目4号地モデル",
-   "price": "2,230万円",
-   "address": "熊本市西区花園7丁目1421番7",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/west/post-50073",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2024年3月",
-   "buildingArea": "85.28㎡(25.8坪)",
-   "landArea": "138.86㎡(42.01坪)",
-   "parking": "3台",
-   "elementary": "花園小学校",
-   "elementaryMin": "",
-   "junior": "井芹中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "崇城大学前駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "イワサキACE上熊本店",
-     "min": "26",
-     "cat": "super"
-    },
-    {
-     "name": "(熊本都市バス)宮尾バス停",
-     "min": "1",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.825171172254095, 130.68998293730772",
-   "hpText": "（期間限定割引実施中！）\n\n熊本市西区花園7丁目で建売住宅をお探しの方へ。 飫肥杉を使用した、木のぬくもりを感じられる土地付き一戸建てです。\n\n土地・建物に加え、照明・網戸までコミコミで2,000万円台から購入可能。 家賃並みの支払いでマイホームをご検討中の方にもおすすめです。\n\n毎日のお買い物はイワサキACE上熊本店が利用しやすく、生活利便性の高い住環境。学校区は熊本市立花園小学校・井芹中学校区で、子育て世帯にもおすすめの立地です。\n\n本物件は高台に位置しているため、水害リスクが気になる方にもご検討いただきやすい住環境です。さらに、飫肥杉ならではのやさしい風合いと心地よい住空間も魅力のひとつです。\n\n建売住宅は、実際の間取りや日当たり、広さ、生活動線をその場で確認できるのが大きなメリット。家具の配置や新生活のイメージもしやすく、住んだ後の暮らしを具体的に想像できます。\n\n熊本市西区花園7丁目で建売住宅をお探しなら、ぜひ現地で住み心地をご体感ください。写真では伝わらない魅力を、実際の建物でお確かめいただけます。創業祭限定の特別価格でご案内中です。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-01",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-07-31",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,230万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-73288",
-   "source": "maemura",
-   "name": "横手3丁目1号地モデル",
-   "price": "2,380万円",
-   "address": "熊本市中央区横手3丁目940番1",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/central/post-73288",
-   "layout": "3LDK",
-   "stories": "2階建て",
-   "builtAt": "2026年3月",
-   "buildingArea": "91.90㎡(27.8坪)",
-   "landArea": "118.60㎡(35.88坪)",
-   "parking": "2台",
-   "elementary": "一新小学校",
-   "elementaryMin": "",
-   "junior": "西山中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "呉服町電停",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "ゆめマート新町店",
-     "min": "9",
-     "cat": "super"
-    },
-    {
-     "name": "（都市バス)明神橋バス停 （徒歩約9分）",
-     "min": "",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.79713600059944, 130.6907964399029",
-   "hpText": "熊本市中央区横手3丁目に飫肥杉で出来た新築戸建てが登場！土地、照明、網戸込みで2,300万円台で購入可能♪一新小学校まで約890ｍ、西山中学校まで約850ｍ、ゆめマート熊本新町店まで約670ｍ、明八橋バス停まで約680ｍ、熊本駅まで約1,400ｍと利便性、交通アクセスの良い立地です。横手の中でも、山の上ではなくふもとに位置しています。レアです。いつでも内覧可能ですのでお気軽にお問い合わせください。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-08-01",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-07-31",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "2,380万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-72728",
-   "source": "maemura",
-   "name": "四方寄町売地1号地※表示価格は土地のみの価格です。",
-   "price": "980万円",
-   "address": "熊本市北区四方寄町1549-5",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-72728",
-   "layout": "",
-   "stories": "",
-   "builtAt": "2025年11月",
-   "buildingArea": "㎡(0坪)",
-   "landArea": "194.94㎡(58.97坪)",
-   "parking": "",
-   "elementary": "川上小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.862572480558185, 130.70650270926205",
-   "hpText": "※表示価格は土地のみの価格です。\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-27",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-07-26",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "980万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-75716",
-   "source": "maemura",
-   "name": "四方寄町売地3号地※表示価格は土地のみの価格です。",
-   "price": "1,040万円",
-   "address": "熊本市北区四方寄町1549-6",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75716",
-   "layout": "",
-   "stories": "",
-   "builtAt": "2025年11月",
-   "buildingArea": "㎡(0坪)",
-   "landArea": "156.13㎡(47.23坪)",
-   "parking": "",
-   "elementary": "川上小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.862572480558185, 130.70650270926205",
-   "hpText": "※表示価格は土地のみの価格です。\n\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-27",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-07-26",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "1,040万円"
-    }
-   ],
-   "relistedAt": ""
-  },
-  {
-   "id": "maemura-75719",
-   "source": "maemura",
-   "name": "四方寄町売地4号地※表示価格は土地のみの価格です。",
-   "price": "1,100万円",
-   "address": "熊本市北区四方寄町1549-2",
-   "detailUrl": "https://maemura-shinchiku.jp/kumamoto/kumamoto/north/post-75719",
-   "layout": "",
-   "stories": "",
-   "builtAt": "2025年11月",
-   "buildingArea": "㎡(0坪)",
-   "landArea": "165.63㎡(50.1坪)",
-   "parking": "",
-   "elementary": "川上小学校",
-   "elementaryMin": "",
-   "junior": "北部中学校",
-   "juniorMin": "",
-   "facilities": [
-    {
-     "name": "西里駅",
-     "min": "",
-     "cat": "station",
-     "auto": true
-    },
-    {
-     "name": "マルエイ熊本北部店さんまで",
-     "min": "14",
-     "cat": "super"
-    },
-    {
-     "name": "産交バス 四方寄町バス停まで",
-     "min": "8",
-     "cat": "bus"
-    }
-   ],
-   "photos": [],
-   "locText": "32.862572480558185, 130.70650270926205",
-   "hpText": "※表示価格は土地のみの価格です。\n\n熊本市北区四方寄町の建築条件無し売地です。\n\n上下水道引込済み！境界ブロック施工済み！完成宅地です！\n\nお買い物はマルエイ熊本北部店さんがあるので便利です！学校区は熊本市立川上小学校、北部中学校区です。近隣に商業施設がたくさんある閑静な住宅地です。\n\nお好きな住宅会社様でもマエムラでも好きな間取り、配色でマイホームが建てられます。\n参考プランもありますのでお気軽にお問い合わせ下さい。",
-   "tags": [],
-   "status": "ended",
-   "endedAt": "2026-07-27",
-   "createdAt": "2026-07-13T21:47:16.522Z",
-   "lastSeen": "2026-07-26",
-   "priceChanges": [],
-   "priceSnapshots": [
-    {
-     "date": "2026-07-14",
-     "price": "1,100万円"
-    }
-   ],
    "relistedAt": ""
   },
   {
