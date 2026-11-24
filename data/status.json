@@ -15,14 +15,14 @@
   "sumaiida": {
    "label": "すまいーだ",
    "level": "ok",
-   "ranAt": "2026-11-20T01:02:24.243Z",
-   "date": "2026-11-20",
-   "count": 84,
-   "prevCount": 83,
+   "ranAt": "2026-11-24T01:02:18.370Z",
+   "date": "2026-11-24",
+   "count": 83,
+   "prevCount": 84,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-20",
-   "lastOkCount": 84
+   "lastOkDate": "2026-11-24",
+   "lastOkCount": 83
   },
   "yokatown": {
    "label": "よかタウン",
@@ -51,8 +51,8 @@
   "nakajitsu": {
    "label": "ナカジツ",
    "level": "error",
-   "ranAt": "2026-11-20T01:03:06.920Z",
-   "date": "2026-11-20",
+   "ranAt": "2026-11-24T01:02:54.138Z",
+   "date": "2026-11-24",
    "count": 0,
    "prevCount": 0,
    "notFound": 0,
@@ -112,5 +112,5 @@
    "lastOkCount": 31
   }
  },
- "updatedAt": "2026-11-23T08:47:33.546Z"
+ "updatedAt": "2026-11-24T01:02:54.138Z"
 }
