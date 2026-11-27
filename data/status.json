@@ -3,13 +3,13 @@
   "maemura": {
    "label": "マエムラ",
    "level": "ok",
-   "ranAt": "2026-11-26T09:11:23.326Z",
-   "date": "2026-11-26",
+   "ranAt": "2026-11-27T09:26:28.219Z",
+   "date": "2026-11-27",
    "count": 24,
    "prevCount": 24,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-26",
+   "lastOkDate": "2026-11-27",
    "lastOkCount": 24
   },
   "sumaiida": {
@@ -27,25 +27,25 @@
   "yokatown": {
    "label": "よかタウン",
    "level": "ok",
-   "ranAt": "2026-11-26T09:15:33.655Z",
-   "date": "2026-11-26",
+   "ranAt": "2026-11-27T09:30:35.731Z",
+   "date": "2026-11-27",
    "count": 184,
    "prevCount": 184,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-26",
+   "lastOkDate": "2026-11-27",
    "lastOkCount": 184
   },
   "daiei": {
    "label": "大英産業",
    "level": "ok",
-   "ranAt": "2026-11-26T09:16:46.529Z",
-   "date": "2026-11-26",
+   "ranAt": "2026-11-27T09:31:43.596Z",
+   "date": "2026-11-27",
    "count": 25,
    "prevCount": 25,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-26",
+   "lastOkDate": "2026-11-27",
    "lastOkCount": 25
   },
   "nakajitsu": {
@@ -65,52 +65,58 @@
   },
   "kokubu": {
    "label": "国分ハウジング",
-   "level": "ok",
-   "ranAt": "2026-11-26T09:17:44.222Z",
-   "date": "2026-11-26",
-   "count": 18,
+   "level": "error",
+   "ranAt": "2026-11-27T09:33:11.830Z",
+   "date": "2026-11-27",
+   "count": 0,
    "prevCount": 18,
    "notFound": 0,
-   "reasons": [],
+   "reasons": [
+    "かえるホームの検索結果ページを取得できませんでした"
+   ],
    "lastOkDate": "2026-11-26",
    "lastOkCount": 18
   },
   "takasugi": {
    "label": "タカスギ",
-   "level": "ok",
-   "ranAt": "2026-11-26T09:18:53.440Z",
-   "date": "2026-11-26",
-   "count": 46,
+   "level": "error",
+   "ranAt": "2026-11-27T09:34:40.042Z",
+   "date": "2026-11-27",
+   "count": 0,
    "prevCount": 46,
    "notFound": 0,
-   "reasons": [],
+   "reasons": [
+    "タカスギの物件一覧ページを取得できませんでした"
+   ],
    "lastOkDate": "2026-11-26",
    "lastOkCount": 46
   },
   "kyuken": {
    "label": "九建ホーム",
-   "level": "ok",
-   "ranAt": "2026-11-26T09:20:19.817Z",
-   "date": "2026-11-26",
-   "count": 20,
+   "level": "error",
+   "ranAt": "2026-11-27T09:36:08.231Z",
+   "date": "2026-11-27",
+   "count": 0,
    "prevCount": 20,
    "notFound": 0,
-   "reasons": [],
+   "reasons": [
+    "九建ホームの物件一覧を取得できませんでした(HPの作りが変わった可能性があります)"
+   ],
    "lastOkDate": "2026-11-26",
    "lastOkCount": 20
   },
   "santa": {
    "label": "サンタ不動産",
    "level": "ok",
-   "ranAt": "2026-11-26T09:21:47.761Z",
-   "date": "2026-11-26",
-   "count": 31,
+   "ranAt": "2026-11-27T09:37:25.636Z",
+   "date": "2026-11-27",
+   "count": 30,
    "prevCount": 31,
    "notFound": 0,
    "reasons": [],
-   "lastOkDate": "2026-11-26",
-   "lastOkCount": 31
+   "lastOkDate": "2026-11-27",
+   "lastOkCount": 30
   }
  },
- "updatedAt": "2026-11-26T09:21:47.761Z"
+ "updatedAt": "2026-11-27T09:37:25.636Z"
 }
